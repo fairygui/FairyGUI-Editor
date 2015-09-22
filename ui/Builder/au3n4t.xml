@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,140" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,140">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="下拉框"/>
+    </component>
+    <text id="n70" name="n70" xy="3,33" size="39,16" fontSize="12" align="right" autoSize="height" text="标题"/>
+    <component id="n71" name="title" src="gcza1s" pkg="nk9ejx23" xy="47,31" size="151,20"/>
+    <component id="n72" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="48,56" size="69,19">
+      <Button title="标题颜色"/>
+    </component>
+    <component id="n73" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="123,57"/>
+    <text id="n75" name="n75" xy="6,84" size="73,16" fontSize="12" align="right" autoSize="height" text="可见项目数"/>
+    <component id="n76" name="visibleItemCount" src="au3n69" pkg="nk9ejx23" xy="85,81"/>
+    <component id="n77" name="n77" src="xualm" pkg="nk9ejx23" xy="66,108" size="102,25">
+      <Button title="编辑列表项目"/>
+    </component>
+  </displayList>
+</component>

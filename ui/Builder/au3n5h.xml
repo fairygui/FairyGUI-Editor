@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="17,19" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n3" name="n3" xy="0,0" size="17,19" type="rect" lineColor="#ffa0a0a0" fillColor="#00cccccc">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1" name="title" xy="3,1" size="10,16" fontSize="12" align="center" vAlign="middle" text=""/>
+  </displayList>
+  <Button/>
+  <relation target="n1" sidePair="width-width"/>
+</component>

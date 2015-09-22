@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,20">
+  <displayList>
+    <image id="n1" name="n1" src="cnolu7c" xy="1,6"/>
+  </displayList>
+</component>

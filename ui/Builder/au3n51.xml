@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,159" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,159">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="标签"/>
+    </component>
+    <text id="n52" name="n52" xy="4,32" size="40,16" fontSize="12" align="right" autoSize="height" text="标题"/>
+    <component id="n53" name="title" src="au3n6k" pkg="nk9ejx23" xy="49,30" size="183,61"/>
+    <component id="n56" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="50,98" size="70,19">
+      <Button title="标题颜色"/>
+    </component>
+    <component id="n57" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="125,100"/>
+    <text id="n59" name="n59" xy="4,126" size="40,16" fontSize="12" align="right" autoSize="height" text="图标"/>
+    <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="49,124" size="151,20"/>
+  </displayList>
+</component>

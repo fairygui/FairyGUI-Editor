@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,80" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,80">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="滑动条"/>
+    </component>
+    <text id="n70" name="n70" xy="9,36" size="41,16" fontSize="12" text="当前值"/>
+    <component id="n71" name="value" src="au3n69" pkg="nk9ejx23" xy="56,35"/>
+    <text id="n72" name="n72" xy="123,36" size="41,16" fontSize="12" text="最大值"/>
+    <component id="n73" name="max" src="au3n69" pkg="nk9ejx23" xy="169,35"/>
+  </displayList>
+</component>

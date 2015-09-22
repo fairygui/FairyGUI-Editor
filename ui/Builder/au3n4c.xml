@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,80" extention="Label" initName="bg">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="239,79" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0" corner="6,6,0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4" name="titleBar" xy="0,0" size="240,22">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n1" name="n1" xy="1,20" size="238,1" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffcccc">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n2" name="expandButton" src="au3ne" xy="215,2">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n3" name="title" xy="6,2" size="201,16" fontSize="12" autoSize="none" singleLine="true" text=""/>
+  </displayList>
+</component>

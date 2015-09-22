@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,20">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n0" name="n0" src="cnolu7d" xy="2,6" size="196,7">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n1" name="n1" src="cnolu7b" xy="2,6">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>

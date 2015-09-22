@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,150">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n1" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="360,150">
+      <Label title="下载新版本"/>
+    </component>
+    <component id="n2" name="btnInstall" src="xualm" pkg="nk9ejx23" xy="137,90">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="立即安装"/>
+    </component>
+    <component id="n3" name="btnCancel" src="xualm" pkg="nk9ejx23" xy="131,90" size="96,25">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="残忍取消"/>
+    </component>
+    <component id="n8" name="n8" src="gcza1p" pkg="nk9ejx23" xy="23,59" size="316,12">
+      <gearDisplay controller="c1" pages="0"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n9" name="n9" xy="118,32" size="125,16" fontSize="12" text="正在拼命的下载。。。">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10" name="n10" xy="144,41" size="65,16" fontSize="12" text="下载完成！">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n11" name="n11" xy="95,62" size="185,16" fontSize="12" text="正在启动安装，请耐心等候。。。">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,200" idnum="7">
+  <displayList>
+    <component id="n3" name="bg" src="au3n4c" xy="0,0" size="240,200">
+      <Label title="从左边选择对象"/>
+    </component>
+    <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="36,75" size="66,25">
+      <Button title="完成"/>
+    </component>
+    <component id="n5" name="n5" src="xualm" pkg="nk9ejx23" xy="127,75" size="66,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n6" name="n6" src="gcza1s" pkg="nk9ejx23" xy="11,31" size="220,20"/>
+  </displayList>
+</component>

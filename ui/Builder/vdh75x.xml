@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="335,430">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="335,430">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="选择文件夹"/>
+    </component>
+    <graph id="n20" name="n20" xy="10,31" size="314,358" group="n35" type="rect" lineColor="#ffa0a0a0"/>
+    <list id="n19" name="list" xy="11,32" size="312,356" group="n35" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n6t"/>
+    <group id="n35" name="n35" xy="10,31" size="314,358"/>
+    <component id="n40" name="n40" src="xualm" pkg="nk9ejx23" xy="98,395" size="66,25">
+      <Button title="选择"/>
+    </component>
+    <component id="n41" name="n41" src="xualm" pkg="nk9ejx23" xy="183,395" size="66,25">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,60">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="228,59" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
+    <component id="n4" name="clear" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除关联">
+      <Button icon="ui://2pshu6oipsdnu6r"/>
+    </component>
+    <component id="n5" name="r0" src="au3n6o" pkg="nk9ejx23" xy="5,33" size="108,20"/>
+    <component id="n6" name="r1" src="au3n6o" pkg="nk9ejx23" xy="116,33" size="107,20"/>
+    <component id="n7" name="target" src="gcza1s" pkg="nk9ejx23" xy="5,6" size="170,20" grayed="true"/>
+    <component id="n8" name="setToParent" src="au3n4b" pkg="nk9ejx23" xy="179,6" size="20,20" tooltips="设置关联目标为父元件">
+      <Button icon="ui://2pshu6oivb5vu7q"/>
+    </component>
+  </displayList>
+</component>

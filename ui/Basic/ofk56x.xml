@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,20" idnum="10" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n2" name="title" xy="42,0" size="105,20" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n3" name="icon" xy="21,0" size="20,20" align="center" vAlign="middle"/>
+    <image id="n4" name="n4" src="xualq" xy="3,3">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n5" name="n5" src="xualp" xy="3,3">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <image id="n8" name="n8" src="xualn" xy="3,3">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n9" name="n9" src="xualo" xy="3,3">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

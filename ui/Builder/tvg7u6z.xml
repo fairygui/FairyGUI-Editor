@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,135" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,135">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="动效"/>
+    </component>
+    <graph id="n61" name="n61" xy="3,27" size="232,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <text id="n50" name="n50" xy="11,156" size="53,16" group="n55" fontSize="12" text="滚动类型"/>
+    <component id="n51" name="scroll" src="gcza18" pkg="nk9ejx23" xy="67,155" size="154,20" group="n55">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n52" name="n52" xy="11,181" size="65,16" group="n55" fontSize="12" text="滚动条显示"/>
+    <component id="n53" name="scrollBarDisplay" src="gcza18" pkg="nk9ejx23" xy="80,180" size="140,20" group="n55">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n54" name="scrollBarOnLeft" src="xualt" pkg="nk9ejx23" xy="80,207" size="132,19" group="n55">
+      <Button title="将滚动条显示在左边"/>
+    </component>
+    <group id="n55" name="n55" xy="11,155" size="210,71" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n66" name="create" src="xualm" pkg="nk9ejx23" xy="16,102" size="117,25">
+      <relation target="n67" sidePair="top-bottom"/>
+      <Button title="创建新动效"/>
+    </component>
+    <list id="n67" name="list" xy="6,24" size="229,73" overflow="hidden" margin="0,0,0,0" lineGap="3" defaultItem="ui://2pshu6oitvg7u70">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n67" sidePair="bottomext-bottom"/>
+</component>

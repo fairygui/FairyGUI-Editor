@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,180">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="400,180">
+      <relation target="" sidePair="height-height,width-width"/>
+      <Label title="关于 FairyGUI Editor"/>
+    </component>
+    <image id="n4" name="n4" src="dnyau7t" xy="17,48"/>
+    <image id="n6" name="n6" src="dnyau7u" xy="82,36"/>
+    <text id="n8" name="n8" xy="268,50" size="55,20" fontSize="16" autoSize="none" text="Editor"/>
+    <text id="n9" name="version" xy="323,50" size="45,20" fontSize="16" text="1.0.0"/>
+    <richtext id="n13" name="msg" xy="78,81" size="313,87" fontSize="12" ubb="true" autoSize="none" text=""/>
+  </displayList>
+</component>

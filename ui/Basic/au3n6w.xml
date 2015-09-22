@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,22" idnum="7" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n5" name="n5" src="au3n3m" xy="0,0" size="55,22">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <image id="n4" name="n4" src="au3n3o" xy="0,0" size="55,22">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <text id="n2" name="title" xy="25,3" size="10,16" fontSize="12" vAlign="middle" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <component id="n3" name="closeButton" src="gcza2u" xy="34,1">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <loader id="n6" name="icon" xy="1,1" size="20,20" align="center" vAlign="middle"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <relation target="n2" sidePair="width-width"/>
+</component>

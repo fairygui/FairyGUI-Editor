@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,19" idnum="3">
+  <displayList>
+    <image id="n0" name="n0" src="au3nf" xy="0,0" size="400,19">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n2" name="list" xy="0,0" size="400,19" layout="row" overflow="hidden" defaultItem="ui://nk9ejx23au3n5u">
+      <relation target="" sidePair="width-width"/>
+    </list>
+  </displayList>
+</component>

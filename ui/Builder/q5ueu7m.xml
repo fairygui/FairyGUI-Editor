@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,200" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,200" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="基本"/>
+    </component>
+    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="48,47" size="184,20" touchable="false" grayed="true">
+      <Label title="txtRemark"/>
+    </component>
+    <text id="n16" name="title" xy="5,25" size="226,18" fontSize="12" autoSize="none" text="元件描述"/>
+    <text id="n17" name="n17" xy="5,49" size="42,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="25,73" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
+    <component id="n21" name="x" src="gcza1s" pkg="nk9ejx23" xy="48,71" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <text id="n22" name="n22" xy="101,72" size="20,16" fontSize="12" align="center" autoSize="none" text="Y"/>
+    <component id="n23" name="y" src="gcza1s" pkg="nk9ejx23" xy="124,71" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <text id="n24" name="n24" xy="25,97" size="20,16" fontSize="12" align="right" autoSize="none" text="宽"/>
+    <text id="n26" name="n26" xy="101,98" size="20,16" fontSize="12" align="right" autoSize="none" text="高"/>
+    <component id="n27" name="height" src="gcza1s" pkg="nk9ejx23" xy="124,96" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <component id="n25" name="width" src="gcza1s" pkg="nk9ejx23" xy="48,96" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <text id="n33" name="n33" xy="5,170" size="42,16" fontSize="12" align="right" autoSize="height" text="透明度"/>
+    <text id="n35" name="n35" xy="100,170" size="48,16" fontSize="12" align="right" autoSize="none" text="旋转"/>
+    <component id="n37" name="alpha" src="au3n69" pkg="nk9ejx23" xy="48,169" size="40,20" touchable="false" grayed="true">
+      <Label title="100"/>
+    </component>
+    <component id="n38" name="rotation" src="au3n69" pkg="nk9ejx23" xy="151,169" size="40,20" touchable="false" grayed="true">
+      <Label title="0"/>
+    </component>
+    <text id="n39" name="n39" xy="5,145" size="42,16" fontSize="12" align="right" autoSize="height" text="轴心X"/>
+    <text id="n40" name="n40" xy="105,146" size="43,16" fontSize="12" align="right" autoSize="none" text="轴心Y"/>
+    <component id="n41" name="pivotY" src="gcza1s" pkg="nk9ejx23" xy="151,144" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <component id="n42" name="pivotX" src="gcza1s" pkg="nk9ejx23" xy="48,144" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <text id="n52" name="n52" xy="5,121" size="42,16" fontSize="12" align="right" autoSize="height" text="ScaleX"/>
+    <text id="n53" name="n53" xy="105,122" size="43,16" fontSize="12" align="right" autoSize="none" text="ScaleY"/>
+    <component id="n54" name="scaleY" src="gcza1s" pkg="nk9ejx23" xy="151,120" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+    <component id="n55" name="scaleX" src="gcza1s" pkg="nk9ejx23" xy="48,120" size="52,20" touchable="false" grayed="true">
+      <Label title="100000"/>
+    </component>
+  </displayList>
+</component>

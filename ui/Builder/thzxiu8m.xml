@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="364,126">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="364,126">
+      <relation target="" sidePair="height-height,width-width"/>
+      <Label title="替换元件引用"/>
+    </component>
+    <component id="n1" name="n1" src="xualm" pkg="nk9ejx23" xy="81,88">
+      <Button title="确定"/>
+    </component>
+    <component id="n5" name="n5" src="au3n6j" pkg="nk9ejx23" xy="19,58" size="329,20"/>
+    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="179,88">
+      <Button title="取消"/>
+    </component>
+    <text id="n7" name="n7" xy="22,34" size="322,18" fontSize="12" autoSize="none" text="将对查找目标的引用全部替换为下面所输入的元件"/>
+  </displayList>
+</component>

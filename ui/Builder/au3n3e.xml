@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,25" idnum="3" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n2" name="n2" xy="1,1" size="28,23" type="rect" lineColor="#ff999999" fillColor="#00ffccff" corner="6">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n0" name="icon" xy="1,1" size="28,23" align="center" vAlign="middle">
+      <gearXY controller="button" pages="1,3" values="2,2|2,2" default="1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="333,21">
+  <displayList>
+    <graph id="n11" name="n11" xy="0,0" size="333,20" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#fff3f6f7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0" name="n0" xy="1,2" size="40,16" fontSize="12" align="center" autoSize="none" text="索引"/>
+    <graph id="n3" name="n3" xy="44,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    <graph id="n4" name="n4" xy="0,20" size="333,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+    <text id="n12" name="n12" xy="49,2" size="118,16" fontSize="12" align="center" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="174,2" size="155,16" fontSize="12" align="center" autoSize="none" text="动效"/>
+    <graph id="n14" name="n14" xy="171,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    <component id="n19" name="n19" src="ehmsu7z" xy="311,2" tooltips="格式为：变换前索引A=特效名称T&#xA;1)表示从A页跳转到本页时播放T动效&#xA;2)其中“A=”可以忽略，表示从任何页面跳转&#xA;3)多个设置用逗号隔开"/>
+  </displayList>
+</component>

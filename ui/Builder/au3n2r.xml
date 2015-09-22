@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,78" overflow="hidden" extention="Label">
+  <displayList>
+    <component id="n41" name="bg" src="au3n4c" xy="0,0" size="240,78">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n17" name="n17" xy="0,28" size="66,16" fontSize="12" align="right" autoSize="none" text="控制器"/>
+    <component id="n32" name="tween" src="xualt" pkg="nk9ejx23" xy="180,27" size="52,19">
+      <Button title="缓动"/>
+    </component>
+    <component id="n37" name="controller" src="gcza18" pkg="nk9ejx23" xy="70,26" size="101,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n38" name="pages" src="au3n49" xy="70,49" size="101,20"/>
+    <text id="n39" name="n39" xy="0,50" size="66,16" fontSize="12" align="right" autoSize="height" text="参与页面"/>
+    <component id="n42" name="tweenEdit" src="au3n4b" pkg="nk9ejx23" xy="201,48" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+  </displayList>
+</component>

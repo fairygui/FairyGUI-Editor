@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,150" overflow="hidden" extention="ScrollBar">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,150">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="滚动条"/>
+    </component>
+    <text id="n69" name="n69" xy="12,33" size="215,86" fontSize="12" leading="6" autoSize="none" text="（可选）上/左按钮请命名为arrow1&#xA;（可选）下/右按钮请命名为arrow2&#xA;滚动滑块请命名为grip&#xA;滚动滑块限制区域请命名为bar"/>
+  </displayList>
+</component>

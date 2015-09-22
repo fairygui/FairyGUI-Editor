@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,150">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="300,150">
+      <relation target="" sidePair="height-height,width-width"/>
+      <Label title="裁剪素材"/>
+    </component>
+    <component id="n1" name="n1" src="xualm" pkg="nk9ejx23" xy="114,110">
+      <Button title="确定"/>
+    </component>
+    <component id="n3" name="n3" src="gcza13" pkg="nk9ejx23" xy="29,37" size="220,19">
+      <Button checked="true" title="自动裁剪（推荐）" controller="c1" page="0"/>
+    </component>
+    <component id="n4" name="n4" src="gcza13" pkg="nk9ejx23" xy="29,66" size="216,19">
+      <Button title="不自动裁剪" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

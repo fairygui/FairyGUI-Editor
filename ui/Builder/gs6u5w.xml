@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,80" idnum="4">
+  <displayList>
+    <graph id="n1" name="n1" xy="26,14" size="350,40" type="rect" lineColor="#ffcccc66" fillColor="#ffffff99"/>
+    <text id="n0" name="title" xy="32,23" size="336,25" fontSize="18" align="center" autoSize="none" text="操作成功完成"/>
+  </displayList>
+</component>

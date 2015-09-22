@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,296">
+  <controller name="c1" pages="0,,1,9grid,2,tile" selected="0"/>
+  <displayList>
+    <component id="n24" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="304,296" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="批量修改图片属性"/>
+    </component>
+    <component id="n15" name="n15" src="gcza13" pkg="nk9ejx23" xy="33,81" size="155,19">
+      <Button title="使用九宫格进行缩放" controller="c1" page="1"/>
+    </component>
+    <component id="n16" name="n16" src="gcza13" pkg="nk9ejx23" xy="33,106" size="197,19">
+      <Button title="使用平铺进行缩放" controller="c1" page="2"/>
+    </component>
+    <component id="n21" name="n21" src="xualm" pkg="nk9ejx23" xy="81,242" size="65,25">
+      <Button title="保存"/>
+    </component>
+    <component id="n23" name="n23" src="xualm" pkg="nk9ejx23" xy="164,242" size="65,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n29" name="n29" src="gcza13" pkg="nk9ejx23" xy="33,57" size="155,19">
+      <Button checked="true" title="无" controller="c1" page="0"/>
+    </component>
+    <component id="n18" name="n18" src="gcza18" pkg="nk9ejx23" xy="92,162" size="137,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n25" name="n25" src="gcza1s" pkg="nk9ejx23" xy="234,162" size="51,20"/>
+    <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="92,193" size="160,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n33" name="n33" src="gcza18" pkg="nk9ejx23" xy="92,132" size="56,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n39" name="n39" src="xualt" pkg="nk9ejx23" xy="18,31" size="90,19">
+      <Button title="缩放模式"/>
+    </component>
+    <component id="n40" name="n40" src="xualt" pkg="nk9ejx23" xy="18,132" size="68,19">
+      <Button title="允许平滑"/>
+    </component>
+    <component id="n41" name="n41" src="xualt" pkg="nk9ejx23" xy="18,162" size="56,19">
+      <Button title="质量"/>
+    </component>
+    <component id="n42" name="n42" src="xualt" pkg="nk9ejx23" xy="18,193" size="71,19">
+      <Button title="纹理集"/>
+    </component>
+  </displayList>
+</component>

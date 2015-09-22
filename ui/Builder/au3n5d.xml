@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,557">
+  <controller name="c1" pages="0,,1,9grid,2,tile" selected="0"/>
+  <displayList>
+    <component id="n24" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="700,557" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="动画属性"/>
+    </component>
+    <text id="n19" name="n19" xy="14,60" size="54,16" fontSize="12" align="right" autoSize="none" text="纹理集"/>
+    <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="71,59" size="136,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <graph id="n31" name="n31" xy="10,84" size="681,391" type="rect" lineColor="#ffffffff" fillColor="#ff333333"/>
+    <component id="n42" name="n42" src="xualm" pkg="nk9ejx23" xy="524,517" size="62,25">
+      <Button title="保存"/>
+    </component>
+    <component id="n44" name="n44" src="xualm" pkg="nk9ejx23" xy="600,517" size="62,25">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n67" name="n67" xy="9,479" size="685,29" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
+    <component id="n68" name="play" src="au3n48" xy="275,480" size="31,26" group="n72">
+      <Button checked="true" icon="ui://2pshu6oig1zau6g" selectedIcon="ui://2pshu6oig1zau6f"/>
+    </component>
+    <component id="n69" name="currentFrame" src="au3n69" pkg="nk9ejx23" xy="344,482" size="43,20" group="n72">
+      <Label title="0"/>
+    </component>
+    <component id="n70" name="prevFrame" src="au3n2i" xy="311,480" size="30,28" group="n72">
+      <Button icon="ui://2pshu6oig1zau6e"/>
+    </component>
+    <component id="n71" name="nextFrame" src="au3n2i" xy="389,480" size="30,28" group="n72">
+      <Button icon="ui://2pshu6oig1zau6d"/>
+    </component>
+    <group id="n72" name="n72" xy="275,480" size="144,28"/>
+    <text id="n58" name="n58" xy="12,31" size="40,16" group="n73" fontSize="12" align="right" autoSize="height" text="速度"/>
+    <component id="n59" name="n59" src="xualm" pkg="nk9ejx23" xy="54,29" size="39,19" group="n73">
+      <Button title="快"/>
+    </component>
+    <component id="n60" name="speed" src="au3n69" pkg="nk9ejx23" xy="95,29" size="42,20" group="n73">
+      <Label title="1"/>
+    </component>
+    <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="139,30" size="39,19" group="n73">
+      <Button title="慢"/>
+    </component>
+    <text id="n62" name="n62" xy="185,32" size="85,16" group="n73" fontSize="12" align="right" autoSize="height" singleLine="true" text="循环延迟"/>
+    <component id="n63" name="repeatDelay" src="au3n69" pkg="nk9ejx23" xy="273,30" size="42,20" group="n73">
+      <Label title="0"/>
+    </component>
+    <text id="n64" name="n64" xy="324,32" size="85,16" group="n73" fontSize="12" align="right" autoSize="height" singleLine="true" text="本帧延迟"/>
+    <component id="n65" name="frameDelay" src="au3n69" pkg="nk9ejx23" xy="411,30" size="42,20" group="n73">
+      <Label title="0"/>
+    </component>
+    <component id="n66" name="swing" src="xualt" pkg="nk9ejx23" xy="481,33" size="92,19" group="n73">
+      <Button title="摆动式播放"/>
+    </component>
+    <group id="n73" name="n73" xy="12,29" size="561,23"/>
+    <component id="n74" name="n74" src="au3n3y" xy="12,86" size="676,387"/>
+    <text id="n75" name="n75" xy="120,520" size="288,18" fontSize="12" autoSize="none" text="（也可以从库中拖入）"/>
+    <component id="n76" name="n76" src="xualm" pkg="nk9ejx23" xy="19,517" size="100,25">
+      <Button title="导入图片序列"/>
+    </component>
+  </displayList>
+</component>

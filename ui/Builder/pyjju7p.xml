@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,167">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="200,167"/>
+    <component id="n1" name="n1" src="au3n6k" pkg="nk9ejx23" xy="4,5" size="188,130"/>
+    <text id="n2" name="n2" xy="4,140" size="167,16" fontSize="12" text="每行一个点，每个点表示为x,y"/>
+  </displayList>
+</component>

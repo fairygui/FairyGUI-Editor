@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,25" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9" name="n9" src="au3n4v" pkg="nk9ejx23" xy="0,0" size="340,24">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n10" name="n10" src="au3n50" pkg="nk9ejx23" xy="0,0" size="340,24">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n3" name="n3" xy="184,0" size="1,24" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n4" name="n4" xy="0,24" size="338,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+    <graph id="n16" name="n16" xy="44,0" size="1,24" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <text id="n18" name="index" xy="2,4" size="35,16" fontSize="12" autoSize="none" text=""/>
+    <component id="n20" name="name" src="au3n6m" pkg="nk9ejx23" xy="46,4" size="134,20"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

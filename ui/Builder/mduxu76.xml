@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20">
+  <displayList>
+    <graph id="n0" name="n0" xy="99,0" size="1,20" type="rect" lineColor="#ff333333">
+      <relation target="" sidePair="right-right"/>
+    </graph>
+    <graph id="n1" name="n1" xy="0,19" size="100,1" type="rect" lineColor="#ff333333">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <graph id="n2" name="n2" xy="0,-1" size="100,1" type="rect" lineColor="#ff333333">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+  </displayList>
+</component>

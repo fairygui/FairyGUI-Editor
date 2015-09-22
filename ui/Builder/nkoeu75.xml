@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,49">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,1" size="10,20" type="rect" lineColor="#ffcc0000" fillColor="#fff69999"/>
+    <graph id="n1" name="n1" xy="4,20" size="1,27" touchable="false" type="rect" lineColor="#ffcc0000">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+  </displayList>
+</component>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,160" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,160" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="组"/>
+    </component>
+    <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="42,51" size="184,20">
+      <Label title="txtRemark"/>
+    </component>
+    <text id="n67" name="n67" xy="2,53" size="39,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n68" name="n68" xy="21,76" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
+    <component id="n69" name="x" src="gcza1s" pkg="nk9ejx23" xy="42,75" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <text id="n70" name="n70" xy="95,76" size="20,16" fontSize="12" align="center" autoSize="none" text="Y"/>
+    <component id="n71" name="y" src="gcza1s" pkg="nk9ejx23" xy="116,75" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <text id="n72" name="n72" xy="21,101" size="20,16" fontSize="12" align="right" autoSize="none" text="宽"/>
+    <text id="n73" name="n73" xy="95,101" size="20,16" fontSize="12" align="right" autoSize="none" text="高"/>
+    <component id="n74" name="height" src="gcza1s" pkg="nk9ejx23" xy="116,100" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n75" name="width" src="gcza1s" pkg="nk9ejx23" xy="42,100" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n76" name="visible" src="xualt" pkg="nk9ejx23" xy="23,132" size="73,19">
+      <Button title="可见"/>
+    </component>
+    <component id="n78" name="n78" src="gcza13" pkg="nk9ejx23" xy="9,27" size="60,19">
+      <Button checked="true" title="普通组" controller="c1" page="0"/>
+    </component>
+    <component id="n79" name="n79" src="gcza13" pkg="nk9ejx23" xy="79,27" size="60,19">
+      <Button title="高级组" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

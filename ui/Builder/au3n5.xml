@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,220" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,220" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="基本"/>
+    </component>
+    <graph id="n47" name="n47" xy="3,23" size="232,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="48,47" size="159,20"/>
+    <component id="n11" name="useSourceSize" src="xualt" pkg="nk9ejx23" xy="179,97" size="59,19">
+      <Button title="原大小"/>
+    </component>
+    <text id="n16" name="title" xy="5,25" size="226,18" fontSize="12" autoSize="none" text=""/>
+    <text id="n17" name="n17" xy="3,49" size="42,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="25,72" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
+    <component id="n21" name="x" src="au3n69" pkg="nk9ejx23" xy="48,71" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <text id="n22" name="n22" xy="101,72" size="20,16" fontSize="12" align="center" autoSize="none" text="Y"/>
+    <component id="n23" name="y" src="au3n69" pkg="nk9ejx23" xy="124,71" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n18" name="locked" src="au3n48" xy="2,68" size="25,25">
+      <Button icon="ui://2pshu6oiau3n1a" selectedIcon="ui://2pshu6oiau3n1b"/>
+    </component>
+    <text id="n24" name="n24" xy="25,97" size="20,16" fontSize="12" align="center" autoSize="none" text="宽"/>
+    <text id="n26" name="n26" xy="101,98" size="20,16" fontSize="12" align="center" autoSize="none" text="高"/>
+    <component id="n27" name="height" src="au3n69" pkg="nk9ejx23" xy="124,96" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n25" name="width" src="au3n69" pkg="nk9ejx23" xy="48,96" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n29" name="aspectLocked" src="au3n48" xy="2,92" size="25,25">
+      <Button icon="ui://2pshu6oiau3n1c" selectedIcon="ui://2pshu6oiau3n1d"/>
+    </component>
+    <component id="n31" name="touchable" src="xualt" pkg="nk9ejx23" xy="143,196" size="78,19">
+      <Button title="可触摸"/>
+    </component>
+    <component id="n32" name="visible" src="xualt" pkg="nk9ejx23" xy="16,196" size="60,19">
+      <Button title="可见"/>
+    </component>
+    <text id="n33" name="n33" xy="11,172" size="41,16" fontSize="12" align="right" autoSize="none" text="透明度"/>
+    <text id="n35" name="n35" xy="101,172" size="56,16" fontSize="12" align="right" autoSize="height" text="旋转"/>
+    <component id="n36" name="grayed" src="xualt" pkg="nk9ejx23" xy="80,196" size="56,19">
+      <Button title="变灰"/>
+    </component>
+    <component id="n37" name="alpha" src="au3n69" pkg="nk9ejx23" xy="56,170" size="40,20">
+      <Label title="100"/>
+    </component>
+    <component id="n38" name="rotation" src="au3n69" pkg="nk9ejx23" xy="159,170" size="40,20">
+      <Label title="0"/>
+    </component>
+    <text id="n39" name="n39" xy="4,146" size="48,16" fontSize="12" align="right" autoSize="none" text="轴心X"/>
+    <text id="n40" name="n40" xy="111,147" size="44,16" fontSize="12" align="right" autoSize="none" text="轴心Y"/>
+    <component id="n41" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="159,145" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <component id="n42" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="56,145" size="52,20">
+      <Label title="100000"/>
+    </component>
+    <text id="n48" name="n48" xy="4,123" size="48,16" group="n52" fontSize="12" align="right" autoSize="none" text="ScaleX"/>
+    <text id="n49" name="n49" xy="111,123" size="44,16" group="n52" fontSize="12" align="right" autoSize="none" text="ScaleY"/>
+    <component id="n50" name="scaleY" src="au3n69" pkg="nk9ejx23" xy="159,121" size="52,20" group="n52">
+      <Label title="100000"/>
+    </component>
+    <component id="n51" name="scaleX" src="au3n69" pkg="nk9ejx23" xy="56,121" size="52,20" group="n52">
+      <Label title="100000"/>
+    </component>
+    <group id="n52" name="scaleProps" xy="4,121" size="207,20" advanced="true"/>
+    <component id="n53" name="n53" src="ehmsu7z" xy="212,50" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：&#xA;a#&#xA;则选定的元件的名称依次修改为a0,a1,a2.."/>
+  </displayList>
+</component>

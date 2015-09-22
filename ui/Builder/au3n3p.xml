@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <controller name="c1" pages="0," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="400,400">
+      <Label title="包属性"/>
+    </component>
+    <graph id="n21" name="n21" xy="14,33" size="370,306" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
+    <graph id="n20" name="n20" xy="14,33" size="370,23" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="96,352">
+      <Button title="保存"/>
+    </component>
+    <component id="n15" name="n15" src="xualm" pkg="nk9ejx23" xy="219,352">
+      <Button title="取消"/>
+    </component>
+    <text id="n1" name="n1" xy="19,66" size="95,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="包名称"/>
+    <text id="n2" name="n2" xy="19,112" size="95,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="JPEG品质"/>
+    <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="120,64" size="200,20" group="n16"/>
+    <graph id="n28" name="n28" xy="45,95" size="316,1" group="n16" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ffa0a0a0">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n32" name="n32" src="au3n69" pkg="nk9ejx23" xy="120,109" size="53,20" group="n16">
+      <Label title="80"/>
+    </component>
+    <text id="n33" name="n33" xy="21,142" size="95,16" group="n38" fontSize="12" align="right" autoSize="none" text="压缩PNG"/>
+    <component id="n34" name="n34" src="gcza18" pkg="nk9ejx23" xy="120,140" size="53,20" group="n38">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n35" name="n35" xy="182,143" size="198,16" group="n38" fontSize="12" autoSize="none" text="（压缩工具为pngquant）"/>
+    <group id="n38" name="n38" xy="21,140" size="359,20" group="n16" advanced="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </group>
+    <group id="n16" name="n16" xy="19,64" size="361,96" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n17" name="n17" src="au3n6i" pkg="nk9ejx23" xy="15,34" size="39,22">
+      <Button checked="true" title="基本" controller="c1" page="0"/>
+    </component>
+  </displayList>
+</component>

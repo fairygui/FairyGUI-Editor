@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,400">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="500,400" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1" name="n1" xy="1,60" size="499,339" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n2" sidePair="topext-bottom"/>
+    </graph>
+    <component id="n2" name="controllerPanel" src="au3n3h" xy="1,29" size="499,29">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <graph id="n3" name="n3" xy="0,28" size="500,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ffa0a0a0">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n5" name="back" src="xualm" pkg="nk9ejx23" xy="5,3" size="88,23">
+      <Button title="返回(ESC)"/>
+    </component>
+    <component id="n6" name="docContainer" src="au3ni" xy="1,61" size="499,339">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n1" sidePair="topext-top"/>
+    </component>
+    <component id="n7" name="play" src="xualm" pkg="nk9ejx23" xy="104,3" size="86,23">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="再次播放(F5)"/>
+    </component>
+    <text id="n9" name="n9" xy="101,6" size="75,16" group="n10" fontSize="12" align="right" autoSize="none" text="动效列表："/>
+    <list id="n11" name="transList" xy="183,2" size="311,25" group="n10" layout="row" overflow="hidden" margin="0,0,0,0" colGap="6" defaultItem="ui://nk9ejx23gss372">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n10" name="n10" xy="101,2" size="393,25" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+  </displayList>
+</component>

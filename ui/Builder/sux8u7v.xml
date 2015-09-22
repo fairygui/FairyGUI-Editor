@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,370">
+  <displayList>
+    <graph id="n18" name="n18" xy="0,0" size="460,370" type="rect" lineSize="0" fillColor="#fff3f6f7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n4" name="n4" src="dnyau7t" xy="12,8"/>
+    <text id="n10" name="desc" xy="68,9" size="378,58" fontSize="12" leading="6" ubb="true" autoSize="none" text=""/>
+    <graph id="n11" name="n11" xy="64,89" size="384,228" type="rect" lineColor="#ffa0a0a0"/>
+    <text id="n14" name="n14" xy="68,67" size="89,16" fontSize="12" autoSize="none" text="Release Notes:"/>
+    <component id="n15" name="btnSkip" src="xualm" pkg="nk9ejx23" xy="66,324" size="105,25">
+      <Button title="跳过此版本"/>
+    </component>
+    <component id="n16" name="btnNextTime" src="xualm" pkg="nk9ejx23" xy="224,324" size="105,25">
+      <Button title="下次提醒我"/>
+    </component>
+    <component id="n17" name="btnUpgrade" src="xualm" pkg="nk9ejx23" xy="343,324" size="105,25">
+      <Button title="下载更新"/>
+    </component>
+    <component id="n19" name="notes" src="tgp0u7w" xy="66,90" size="382,227"/>
+  </displayList>
+</component>

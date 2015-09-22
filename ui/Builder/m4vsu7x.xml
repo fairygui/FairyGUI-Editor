@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,174">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="200,174">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n13" name="n13" xy="6,11" size="65,16" fontSize="12" align="right" autoSize="none" text="滚动条显示"/>
+    <component id="n14" name="scrollBarDisplay" src="gcza18" pkg="nk9ejx23" xy="75,8" size="112,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n15" name="scrollBarOnLeft" src="xualt" pkg="nk9ejx23" xy="12,91" size="168,19">
+      <Button title="将垂直滚动条显示在左边"/>
+    </component>
+    <text id="n16" name="n16" xy="6,39" size="51,16" fontSize="12" align="right" autoSize="none" text="定位"/>
+    <text id="n17" name="n17" xy="68,39" size="17,16" group="n25" fontSize="12" autoSize="none" text="上"/>
+    <component id="n18" name="scrollBarMarginTop" src="au3n69" pkg="nk9ejx23" xy="88,36" size="35,20" group="n25"/>
+    <text id="n19" name="n19" xy="128,39" size="17,16" group="n25" fontSize="12" autoSize="none" text="下"/>
+    <component id="n20" name="scrollBarMarginBottom" src="au3n69" pkg="nk9ejx23" xy="148,36" size="35,20" group="n25"/>
+    <text id="n21" name="n21" xy="68,64" size="17,16" group="n25" fontSize="12" autoSize="none" text="左"/>
+    <component id="n22" name="scrollBarMarginLeft" src="au3n69" pkg="nk9ejx23" xy="88,61" size="35,20" group="n25"/>
+    <text id="n23" name="n23" xy="128,64" size="17,16" group="n25" fontSize="12" autoSize="none" text="右"/>
+    <component id="n24" name="scrollBarMarginRight" src="au3n69" pkg="nk9ejx23" xy="148,61" size="35,20" group="n25"/>
+    <group id="n25" name="n25" xy="68,36" size="115,45"/>
+    <component id="n26" name="scrollBarSnapping" src="xualt" pkg="nk9ejx23" xy="12,138" size="168,19">
+      <Button title="滚动位置自动贴近元件"/>
+    </component>
+    <component id="n27" name="scrollBarInDemand" src="xualt" pkg="nk9ejx23" xy="12,113" size="177,19">
+      <Button title="仅在内容溢出时才显示滚动条"/>
+    </component>
+  </displayList>
+</component>

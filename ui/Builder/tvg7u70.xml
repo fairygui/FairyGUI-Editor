@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,35">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="228,34" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n4" name="delete" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除动效">
+      <Button icon="ui://2pshu6oipsdnu6r"/>
+    </component>
+    <component id="n7" name="name" src="gcza1s" pkg="nk9ejx23" xy="7,6" size="168,20" grayed="true"/>
+    <component id="n8" name="edit" src="au3n4b" pkg="nk9ejx23" xy="179,6" size="20,20" tooltips="编辑动效">
+      <Button icon="ui://2pshu6oihzcpu7k"/>
+    </component>
+  </displayList>
+</component>

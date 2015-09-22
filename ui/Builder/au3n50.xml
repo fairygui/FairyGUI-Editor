@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,100" overflow="hidden" extention="Label">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,100">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="标签"/>
+    </component>
+    <text id="n69" name="n69" xy="5,30" size="230,34" fontSize="12" leading="6" autoSize="height" text="（可选）文本标题请命名为title&#xA;（可选）图标请命名为icon"/>
+  </displayList>
+</component>

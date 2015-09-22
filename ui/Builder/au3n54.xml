@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,500">
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="1"/>
+  <controller name="single_package" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="650,500">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="发布设置"/>
+    </component>
+    <graph id="n1" name="n1" xy="12,30" size="182,417" type="rect" lineColor="#ffa0a0a0"/>
+    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="452,458" size="80,25">
+      <Button title="保存"/>
+    </component>
+    <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="556,458" size="80,25">
+      <Button title="关闭"/>
+    </component>
+    <component id="n25" name="n25" src="xualm" pkg="nk9ejx23" xy="348,458" size="80,25">
+      <Button title="发布"/>
+    </component>
+    <list id="n26" name="pkgs" xy="13,31" size="180,415" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n6q"/>
+    <text id="n27" name="n27" xy="205,33" size="62,16" fontSize="12" align="right" autoSize="none" text="导出目录"/>
+    <component id="n28" name="path" src="gcza1s" pkg="nk9ejx23" xy="271,31" size="217,20"/>
+    <text id="n29" name="n29" xy="205,62" size="62,16" fontSize="12" align="right" autoSize="none" text="文件名"/>
+    <component id="n30" name="fileName" src="gcza1s" pkg="nk9ejx23" xy="271,60" size="218,20"/>
+    <component id="n33" name="n33" src="xualm" pkg="nk9ejx23" xy="492,29" size="60,25">
+      <Button title="浏览"/>
+    </component>
+    <component id="n35" name="n35" src="xualm" pkg="nk9ejx23" xy="21,458" size="115,25">
+      <Button title="全部发布"/>
+    </component>
+    <component id="n36" name="n36" src="gcza13" pkg="nk9ejx23" xy="276,97" size="186,19" group="n38">
+      <Button checked="true" title="两个包（定义文件包+资源包）" controller="single_package" page="0"/>
+    </component>
+    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="472,97" size="103,19" group="n38">
+      <Button title="一个包" controller="single_package" page="1"/>
+    </component>
+    <text id="n31" name="n31" xy="199,98" size="69,16" group="n38" fontSize="12" align="right" autoSize="height" text="打包方式"/>
+    <group id="n38" name="n38" xy="199,97" size="376,19" advanced="true">
+      <gearDisplay controller="project_type" pages="0,2"/>
+    </group>
+    <text id="n41" name="n41" xy="209,144" size="65,16" group="n45" fontSize="12" text="纹理集定义"/>
+    <graph id="n40" name="n40" xy="210,165" size="422,282" group="n44" type="rect" lineColor="#ffa0a0a0"/>
+    <list id="n39" name="n39" xy="211,187" size="420,259" group="n44" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oimellu6u">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n42" name="n42" src="mellu6t" xy="211,166" size="420,21" group="n44"/>
+    <group id="n44" name="n44" xy="210,165" size="422,282" group="n45"/>
+    <group id="n45" name="n45" xy="209,144" size="423,303" advanced="true">
+      <gearDisplay controller="project_type" pages="1,2,3"/>
+    </group>
+    <component id="n52" name="extract_alpha" src="xualt" pkg="nk9ejx23" xy="261,91" size="224,19" group="n51" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
+      <gearDisplay controller="project_type" pages="1"/>
+      <Button title="为Alpha通道创建单独的贴图"/>
+    </component>
+    <group id="n51" name="n51" xy="261,91" size="224,19" advanced="true">
+      <gearDisplay controller="project_type" pages="1"/>
+    </group>
+    <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="214,458" size="114,25">
+      <Button title="仅发布定义"/>
+    </component>
+    <component id="n56" name="n56" src="xualm" pkg="nk9ejx23" xy="559,29" size="81,25">
+      <Button title="设为默认值"/>
+    </component>
+    <text id="n54" name="n54" xy="495,62" size="77,16" group="n57" fontSize="12" align="right" autoSize="none" text="压缩包扩展名"/>
+    <component id="n55" name="zipExt" src="gcza1s" pkg="nk9ejx23" xy="578,60" size="50,20" group="n57"/>
+    <group id="n57" name="n57" xy="495,60" size="133,20" advanced="true">
+      <gearDisplay controller="project_type" pages="0,2"/>
+    </group>
+  </displayList>
+</component>

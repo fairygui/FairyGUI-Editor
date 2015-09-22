@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,100" overflow="hidden">
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,100" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="其它"/>
+    </component>
+    <component id="n47" name="tooltips" src="au3n6k" pkg="nk9ejx23" xy="65,24" size="169,65"/>
+    <text id="n48" name="n48" xy="6,25" size="55,19" fontSize="12" autoSize="none" text="Tooltips"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,30" extention="Label" designImageAlpha="50">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="40,30" type="rect" lineColor="#ff767676" fillColor="#ffe6e7f1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0" name="title" xy="5,5" size="28,19" fontSize="12" text="文字"/>
+  </displayList>
+  <relation target="n0" sidePair="rightext-right,bottomext-bottom"/>
+</component>

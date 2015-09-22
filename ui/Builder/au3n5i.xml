@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="375,166">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n24" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="375,166" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="自定义排列"/>
+    </component>
+    <component id="n21" name="n21" src="xualm" pkg="nk9ejx23" xy="161,110" size="62,25">
+      <Button title="确定"/>
+    </component>
+    <component id="n23" name="n23" src="xualm" pkg="nk9ejx23" xy="244,110" size="62,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n31" name="n31" src="gcza13" pkg="nk9ejx23" xy="65,35" size="76,19">
+      <Button checked="true" title="均匀行距" controller="c1" page="0"/>
+    </component>
+    <component id="n32" name="n32" src="gcza13" pkg="nk9ejx23" xy="153,35" size="79,19">
+      <Button title="均匀列距" controller="c1" page="1"/>
+    </component>
+    <component id="n33" name="n33" src="gcza13" pkg="nk9ejx23" xy="243,35" size="68,19">
+      <Button title="表格" controller="c1" page="2"/>
+    </component>
+    <text id="n34" name="n34" xy="12,68" size="50,16" fontSize="12" align="center" autoSize="height" text="行距"/>
+    <text id="n35" name="n35" xy="132,68" size="50,16" fontSize="12" align="center" autoSize="height" text="列距"/>
+    <text id="n36" name="n36" xy="252,68" size="50,16" fontSize="12" align="center" autoSize="height" text="列数"/>
+    <component id="n37" name="n37" src="au3n69" pkg="nk9ejx23" xy="63,66" size="60,20">
+      <Label title="0"/>
+    </component>
+    <component id="n38" name="n38" src="au3n69" pkg="nk9ejx23" xy="183,66">
+      <Label title="0"/>
+    </component>
+    <component id="n39" name="n39" src="au3n69" pkg="nk9ejx23" xy="303,66">
+      <Label title="0"/>
+    </component>
+    <component id="n40" name="n40" src="xualm" pkg="nk9ejx23" xy="78,110" size="62,25">
+      <Button title="应用"/>
+    </component>
+  </displayList>
+</component>

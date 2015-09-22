@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,100">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="300,100">
+      <relation target="" sidePair="height-height,width-width"/>
+      <Label title="交换元件"/>
+    </component>
+    <component id="n1" name="n1" src="xualm" pkg="nk9ejx23" xy="66,63">
+      <Button title="确定"/>
+    </component>
+    <component id="n5" name="n5" src="au3n6j" pkg="nk9ejx23" xy="18,33" size="266,20"/>
+    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="164,63">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

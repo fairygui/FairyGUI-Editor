@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,16" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2" name="n2" src="935t5q" xy="0,0" size="30,16"/>
+    <graph id="n1" name="n1" xy="0,0" size="30,16" type="rect"/>
+    <component id="n4" name="n4" src="gcza2i" pkg="nk9ejx23" xy="33,0" size="19,16">
+      <Button icon="ui://2pshu6oipsdnu6q"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

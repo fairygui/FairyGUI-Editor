@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="710,600">
+  <controller name="editType" pages="0,,1," selected="0"/>
+  <controller name="trans" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="35,0" size="675,600" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n7" name="n7" xy="36,159" size="672,439" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n47" sidePair="topext-bottom"/>
+    </graph>
+    <graph id="n5" name="n5" xy="36,23" size="673,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ffa0a0a0">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n0" name="docContainer" src="au3ni" xy="36,159" size="672,439">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n7" sidePair="topext-top"/>
+    </component>
+    <component id="n20" name="n20" src="au3n2i" xy="5,23" group="n3" tooltips="新建控制器">
+      <gearDisplay controller="trans" pages="0"/>
+      <Button icon="ui://2pshu6oiau3n26"/>
+    </component>
+    <image id="n24" name="n24" src="au3n39" pkg="nk9ejx23" xy="3,50" group="n3" aspect="true"/>
+    <component id="n33" name="n33" src="au3n2i" xy="2,336" group="n3" tooltips="左对齐">
+      <Button icon="ui://2pshu6oiau3n13"/>
+    </component>
+    <component id="n34" name="n34" src="au3n2i" xy="2,363" group="n3" tooltips="垂直中线对齐">
+      <Button icon="ui://2pshu6oiau3n14"/>
+    </component>
+    <component id="n35" name="n35" src="au3n2i" xy="2,390" group="n3" tooltips="右对齐">
+      <Button icon="ui://2pshu6oiau3n11"/>
+    </component>
+    <component id="n36" name="n36" src="au3n2i" xy="2,417" group="n3" tooltips="上对齐">
+      <Button icon="ui://2pshu6oiau3n10"/>
+    </component>
+    <component id="n37" name="n37" src="au3n2i" xy="2,444" group="n3" tooltips="水平中线对齐">
+      <Button icon="ui://2pshu6oiau3n12"/>
+    </component>
+    <component id="n38" name="n38" src="au3n2i" xy="2,471" group="n3" tooltips="下对齐">
+      <Button icon="ui://2pshu6oiau3n15"/>
+    </component>
+    <component id="n39" name="n39" src="au3n2i" xy="2,498" group="n3" tooltips="相同宽度">
+      <Button icon="ui://2pshu6oiau3n1s"/>
+    </component>
+    <component id="n40" name="n40" src="au3n2i" xy="2,525" group="n3" tooltips="相同高度">
+      <Button icon="ui://2pshu6oiau3n1t"/>
+    </component>
+    <component id="n41" name="n41" src="au3n2i" xy="2,552" group="n3" tooltips="自定义排列">
+      <Button icon="ui://2pshu6oiau3n1n"/>
+    </component>
+    <image id="n42" name="n42" src="au3n39" pkg="nk9ejx23" xy="3,332" group="n3" aspect="true"/>
+    <component id="n57" name="n57" src="au3n3e" xy="2,52" group="n3" tooltips="拖动模式（按住空格可快捷切换）">
+      <Button icon="ui://2pshu6oiau3n1g" controller="editType" page="1"/>
+    </component>
+    <image id="n58" name="n58" src="au3n39" pkg="nk9ejx23" xy="3,133" group="n3" aspect="true"/>
+    <component id="n60" name="n60" src="au3n3e" xy="3,77" group="n3" tooltips="选择模式">
+      <Button checked="true" icon="ui://2pshu6oiau3n1i" controller="editType" page="0"/>
+    </component>
+    <component id="n64" name="n64" src="au3n2i" xy="3,104" group="n3" tooltips="选择/显示/隐藏对象">
+      <Button icon="ui://2pshu6oisq3uu67"/>
+    </component>
+    <component id="n26" name="n26" src="au3n2i" xy="2,138" group="n71" tooltips="文本">
+      <Button icon="ui://2pshu6oiau3n1u"/>
+    </component>
+    <component id="n27" name="n27" src="au3n2i" xy="4,191" group="n71" tooltips="图形">
+      <Button icon="ui://2pshu6oiau3n21"/>
+    </component>
+    <component id="n28" name="n28" src="au3n2i" xy="3,216" group="n71" tooltips="列表">
+      <Button icon="ui://2pshu6oiau3n25"/>
+    </component>
+    <component id="n29" name="n29" src="au3n2i" xy="3,243" group="n71" tooltips="装载器">
+      <Button icon="ui://2pshu6oiau3n17"/>
+    </component>
+    <image id="n30" name="n30" src="au3n39" pkg="nk9ejx23" xy="3,273" group="n71" aspect="true"/>
+    <component id="n31" name="n31" src="au3n2i" xy="2,279" group="n71" tooltips="组合">
+      <Button icon="ui://2pshu6oiau3nt"/>
+    </component>
+    <component id="n32" name="n32" src="au3n2i" xy="2,306" group="n71" tooltips="取消组合">
+      <Button icon="ui://2pshu6oiau3n2g"/>
+    </component>
+    <component id="n49" name="n49" src="au3n2i" xy="3,165" group="n71" tooltips="多媒体文本">
+      <Button icon="ui://2pshu6oiau3n43"/>
+    </component>
+    <group id="n71" name="n71" xy="2,138" size="32,193" group="n3" advanced="true">
+      <gearDisplay controller="trans" pages="0"/>
+    </group>
+    <group id="n3" name="n3" xy="2,23" size="33,554"/>
+    <component id="n47" name="controllerPanel" src="au3n3h" xy="36,128" size="673,29">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n70" sidePair="top-bottom"/>
+    </component>
+    <graph id="n50" name="tabBar" xy="35,2" size="673,22" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <list id="n1" name="tabs" xy="36,1" size="643,22" layout="row" overflow="hidden" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n6w">
+      <relation target="" sidePair="width-width"/>
+    </list>
+    <component id="n2" name="moreBtn" src="au3nm" xy="684,3">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <graph id="n54" name="n54" xy="42,165" size="106,26" group="n55" type="rect" lineColor="#91006699" fillColor="#350099ff">
+      <relation target="n51" sidePair="width-width"/>
+    </graph>
+    <list id="n51" name="groupPathList" xy="82,165" size="65,25" group="n55" layout="row" overflow="hidden" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n2i">
+      <item icon="ui://2pshu6oiau3n1h"/>
+      <item icon="ui://2pshu6oiau3n1h"/>
+    </list>
+    <text id="n56" name="n56" xy="43,169" size="41,16" group="n55" fontSize="12" color="#ffffff" text="组导航"/>
+    <group id="n55" name="groupPathBar" xy="42,165" size="106,26" advanced="true">
+      <relation target="n0" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n70" name="timelinePanel" src="tvg7u72" xy="35,24" size="675,104">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n68" name="childrenPanel" src="hqnwu69" xy="40,115"/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,200" overflow="hidden">
+  <displayList>
+    <graph id="n7" name="n7" xy="0,0" size="220,200" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0" corner="6,6,0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n18" name="titleBar" xy="0,0" size="220,24">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n9" name="n9" xy="1,23" size="218,1" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffcccc">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n13" name="expandButton" src="au3ne" xy="194,2">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <text id="n15" name="n15" xy="6,4" size="29,16" fontSize="12" text="预览"/>
+    <graph id="n11" name="preview" xy="1,25" size="217,174" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n16" name="desc" xy="7,26" size="203,16" fontSize="12" autoSize="none" text=""/>
+    <graph id="n17" name="holder" xy="8,46" size="204,148"/>
+  </displayList>
+</component>

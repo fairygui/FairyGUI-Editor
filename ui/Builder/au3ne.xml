@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="18,18" idnum="4" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="au3nd" xy="5,5" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n2" name="n2" src="au3nc" xy="4,3" aspect="true">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <graph id="n3" name="n3" xy="1,1" size="16,16" type="rect" lineColor="#89000000" fillColor="#00ffffff">
+      <gearDisplay controller="button" pages="2,3"/>
+    </graph>
+  </displayList>
+  <Button mode="Check"/>
+</component>
