@@ -37,7 +37,7 @@
     <component id="n31" name="touchable" src="xualt" pkg="nk9ejx23" xy="143,196" size="78,19">
       <Button title="可触摸"/>
     </component>
-    <component id="n32" name="visible" src="xualt" pkg="nk9ejx23" xy="16,196" size="60,19">
+    <component id="n32" name="visible" src="xualt" pkg="nk9ejx23" xy="16,196" size="60,19" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
       <Button title="可见"/>
     </component>
     <text id="n33" name="n33" xy="11,172" size="41,16" fontSize="12" align="right" autoSize="none" text="透明度"/>

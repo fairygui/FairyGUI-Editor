@@ -24,7 +24,7 @@
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
     </image>
-    <text id="n7" name="input" xy="51,1" size="36,18" group="n9" input="true" fontSize="12" autoSize="none" text="">
+    <text id="n7" name="input" xy="51,1" size="36,18" group="n9" input="true" fontSize="12" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
     </text>

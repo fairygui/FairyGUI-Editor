@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="400,80" idnum="4">
+<component size="400,80">
   <displayList>
-    <graph id="n1" name="n1" xy="26,14" size="350,40" type="rect" lineColor="#ffcccc66"/>
-    <text id="n0" name="title" xy="32,23" size="238,25" fontSize="18" autoSize="none" text="正在努力完成你的请求。。。"/>
-    <component id="n3" name="cancel" src="xualm" pkg="nk9ejx23" xy="295,24" size="74,24">
+    <graph id="n1" name="n1" xy="1,14" size="397,40" type="rect" lineColor="#ffcccc66"/>
+    <text id="n0" name="title" xy="8,23" size="302,25" fontSize="18" autoSize="none" singleLine="true" text="正在努力完成你的请求。。。"/>
+    <component id="n3" name="cancel" src="xualm" pkg="nk9ejx23" xy="318,24" size="74,24">
       <Button title="取消"/>
     </component>
   </displayList>

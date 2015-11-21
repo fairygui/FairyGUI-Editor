@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="650,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="1"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="0"/>
   <controller name="single_package" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="650,500">
@@ -74,7 +74,7 @@
     <text id="n54" name="n54" xy="495,62" size="77,16" group="n57" fontSize="12" align="right" autoSize="none" text="压缩包扩展名"/>
     <component id="n55" name="zipExt" src="gcza1s" pkg="nk9ejx23" xy="578,60" size="50,20" group="n57"/>
     <group id="n57" name="n57" xy="495,60" size="133,20" advanced="true">
-      <gearDisplay controller="project_type" pages="0,2"/>
+      <gearDisplay controller="project_type" pages="0,2,3"/>
     </group>
   </displayList>
 </component>

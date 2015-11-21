@@ -6,14 +6,14 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="设计图"/>
     </component>
-    <component id="n9" name="designImage" src="au3n6j" pkg="nk9ejx23" xy="61,29" size="171,20"/>
-    <text id="n17" name="n17" xy="4,31" size="53,16" fontSize="12" align="right" autoSize="none" text="资源"/>
-    <text id="n61" name="n61" xy="4,57" size="53,16" fontSize="12" align="right" autoSize="none" text="偏移X"/>
+    <component id="n9" name="designImage" src="au3n6j" pkg="nk9ejx23" xy="63,29" size="171,20"/>
+    <text id="n17" name="n17" xy="2,31" size="59,16" fontSize="12" align="right" autoSize="none" text="资源"/>
+    <text id="n61" name="n61" xy="2,57" size="59,16" fontSize="12" align="right" autoSize="none" text="偏移X"/>
     <text id="n62" name="n62" xy="110,57" size="46,16" fontSize="12" align="right" autoSize="none" text="偏移Y"/>
-    <component id="n63" name="designImageOffsetX" src="au3n69" pkg="nk9ejx23" xy="61,55" size="39,20"/>
+    <component id="n63" name="designImageOffsetX" src="au3n69" pkg="nk9ejx23" xy="63,55" size="39,20"/>
     <component id="n64" name="designImageOffsetY" src="au3n69" pkg="nk9ejx23" xy="158,55" size="39,20"/>
-    <text id="n65" name="n65" xy="4,83" size="53,16" fontSize="12" align="right" autoSize="none" text="透明度"/>
-    <component id="n66" name="designImageAlpha" src="au3n69" pkg="nk9ejx23" xy="61,81" size="39,20"/>
+    <text id="n65" name="n65" xy="2,83" size="59,16" fontSize="12" align="right" autoSize="none" text="透明度"/>
+    <component id="n66" name="designImageAlpha" src="au3n69" pkg="nk9ejx23" xy="63,81" size="39,20"/>
     <component id="n67" name="n67" src="gcza13" pkg="nk9ejx23" xy="174,84" size="57,19">
       <Button title="顶层" controller="layer" page="1"/>
     </component>

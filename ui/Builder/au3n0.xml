@@ -68,7 +68,7 @@
       <gearDisplay controller="test" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <list id="n73" name="propPanelList" xy="952,49" size="240,746" overflow="scroll" scrollBar="hidden" margin="0,0,0,0" lineGap="5">
+    <list id="n73" name="propPanelList" xy="952,49" size="240,746" margin="0,0,0,0" lineGap="5" autoItemSize="false">
       <gearDisplay controller="test" pages="0"/>
       <relation target="" sidePair="right-right,height-height"/>
     </list>
