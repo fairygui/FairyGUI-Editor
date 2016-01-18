@@ -21,11 +21,11 @@
     <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="83,130" size="150,20"/>
     <text id="n61" name="n61" xy="6,157" size="72,16" fontSize="12" align="right" autoSize="none" text="选中时图标"/>
     <component id="n62" name="selectedIcon" src="au3n6j" pkg="nk9ejx23" xy="83,155" size="150,20"/>
-    <text id="n63" name="n63" xy="12,240" size="53,16" fontSize="12" text="单选控制"/>
-    <component id="n64" name="controller" src="gcza18" pkg="nk9ejx23" xy="70,237" size="81,20">
+    <text id="n63" name="n63" xy="12,236" size="53,16" fontSize="12" text="单选控制"/>
+    <component id="n64" name="controller" src="gcza18" pkg="nk9ejx23" xy="70,233" size="81,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n65" name="page" src="gcza18" pkg="nk9ejx23" xy="158,237" size="74,20">
+    <component id="n65" name="page" src="gcza18" pkg="nk9ejx23" xy="158,233" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n70" name="volume" src="au3n69" pkg="nk9ejx23" xy="85,207" size="50,20">

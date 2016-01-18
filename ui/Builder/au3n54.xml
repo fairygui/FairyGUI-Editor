@@ -28,14 +28,14 @@
     <component id="n35" name="n35" src="xualm" pkg="nk9ejx23" xy="21,458" size="115,25">
       <Button title="全部发布"/>
     </component>
-    <component id="n36" name="n36" src="gcza13" pkg="nk9ejx23" xy="276,97" size="186,19" group="n38">
+    <component id="n36" name="n36" src="gcza13" pkg="nk9ejx23" xy="276,97" size="214,19" group="n38">
       <Button checked="true" title="两个包（定义文件包+资源包）" controller="single_package" page="0"/>
     </component>
-    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="472,97" size="103,19" group="n38">
+    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="494,97" size="103,19" group="n38">
       <Button title="一个包" controller="single_package" page="1"/>
     </component>
     <text id="n31" name="n31" xy="199,98" size="69,16" group="n38" fontSize="12" align="right" autoSize="height" text="打包方式"/>
-    <group id="n38" name="n38" xy="199,97" size="376,19" advanced="true">
+    <group id="n38" name="n38" xy="199,97" size="398,19" advanced="true">
       <gearDisplay controller="project_type" pages="0,2"/>
     </group>
     <text id="n41" name="n41" xy="209,144" size="65,16" group="n45" fontSize="12" text="纹理集定义"/>

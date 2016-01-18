@@ -35,5 +35,9 @@
       <Button title="删除控制器"/>
     </component>
     <component id="n35" name="n35" src="au3n3v" xy="12,92" size="376,21"/>
+    <component id="n36" name="autoRadioGroupDepth" src="xualt" pkg="nk9ejx23" xy="181,31" size="205,19">
+      <Button title="自动调整单选组对象层次"/>
+    </component>
+    <component id="n37" name="n37" src="ehmsu7z" xy="375,32" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xA;选中状态的按钮都会被自动调整到其他按钮的最上面"/>
   </displayList>
 </component>

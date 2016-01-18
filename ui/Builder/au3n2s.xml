@@ -11,7 +11,7 @@
     </component>
     <text id="n33" name="n33" xy="10,150" size="58,16" fontSize="12" align="right" autoSize="height" text="字体大小"/>
     <text id="n35" name="n35" xy="130,150" size="38,16" fontSize="12" align="right" autoSize="none" text="颜色"/>
-    <component id="n38" name="ubbEnabled" src="xualt" pkg="nk9ejx23" xy="153,98" size="42,19">
+    <component id="n38" name="ubbEnabled" src="xualt" pkg="nk9ejx23" xy="171,98" size="42,19">
       <Button title="UBB"/>
     </component>
     <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="71,200">
@@ -31,7 +31,7 @@
     <component id="n51" name="underline" src="xualt" pkg="nk9ejx23" xy="13,281" size="69,19">
       <Button title="下划线"/>
     </component>
-    <component id="n52" name="displayAsPassword" src="xualt" pkg="nk9ejx23" xy="74,98" size="70,19">
+    <component id="n52" name="displayAsPassword" src="xualt" pkg="nk9ejx23" xy="92,98" size="70,19">
       <Button title="密码"/>
     </component>
     <text id="n42" name="n42" xy="9,177" size="29,16" fontSize="12" align="right" singleLine="true" text="行距"/>
@@ -68,6 +68,9 @@
     <group id="n76" name="n76" xy="67,148" size="54,20"/>
     <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="207,122" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <component id="n80" name="promptEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
   </displayList>
 </component>

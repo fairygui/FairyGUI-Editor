@@ -236,6 +236,7 @@
     <image id="kucciu8l" name="arrow_up" folder="au3n2h" qualityOption="source" file="kucciu8l.png" size="8,14"/>
     <component id="thzxiu8m" name="ReplaceRefDialog" folder="au3n4n" file="thzxiu8m.xml" exported="true"/>
     <image id="xguriu8o" name="控制器2" folder="au3n2h" qualityOption="package" file="xguriu8o.png" size="16,16"/>
+    <component id="pb9oiu8p" name="InputPromptEditPanel" folder="au3n4m" file="pb9oiu8p.xml" exported="true"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>
