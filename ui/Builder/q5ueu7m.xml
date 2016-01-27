@@ -5,10 +5,8 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="基本"/>
     </component>
-    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="48,47" size="184,20" touchable="false" grayed="true">
-      <Label title="txtRemark"/>
-    </component>
-    <text id="n16" name="title" xy="5,25" size="226,18" fontSize="12" autoSize="none" text="元件描述"/>
+    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="48,47" size="184,20" touchable="false" grayed="true"/>
+    <text id="n16" name="title" xy="32,25" size="199,18" fontSize="12" autoSize="none" text=""/>
     <text id="n17" name="n17" xy="5,49" size="42,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <text id="n13" name="n13" xy="25,73" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
     <component id="n21" name="x" src="gcza1s" pkg="nk9ejx23" xy="48,71" size="52,20" touchable="false" grayed="true">
@@ -50,5 +48,6 @@
     <component id="n55" name="scaleX" src="gcza1s" pkg="nk9ejx23" xy="48,120" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
+    <loader id="n56" name="icon" xy="11,26" size="16,16" align="center" vAlign="middle"/>
   </displayList>
 </component>

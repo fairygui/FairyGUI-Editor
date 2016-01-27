@@ -53,12 +53,12 @@
     <image id="gcza1j" name="f4.png" folder="gcza1c" file="gcza1j.png" size="19,15"/>
     <image id="gcza1k" name="f3.png" folder="gcza1c" file="gcza1k.png" size="19,15"/>
     <component id="gcza1l" name="WindowFrame" folder="gcza1c" file="gcza1l.xml" exported="true"/>
-    <component id="gcza1m" name="WindowCloseButton" folder="gcza1c" file="gcza1m.xml"/>
+    <component id="gcza1m" name="WindowCloseButton" folder="gcza1c" file="gcza1m.xml" exported="true"/>
     <image id="gcza1n" name="p3.png" folder="gcza1f" file="gcza1n.png" size="53,6"/>
     <image id="gcza1o" name="p2.png" folder="gcza1f" file="gcza1o.png" size="145,12" scale="9grid" scale9grid="10,4,121,4"/>
     <component id="gcza1p" name="ProgressBar" folder="gcza1f" file="gcza1p.xml" exported="true"/>
     <folder id="gcza1q" name="Input" folder=""/>
-    <image id="gcza1r" name="p4.png" folder="gcza1q" file="gcza1r.png" size="71,19" scale="9grid" scale9grid="5,5,61,10"/>
+    <image id="gcza1r" name="p4.png" folder="gcza1q" file="gcza1r.png" size="71,19" scale="9grid" scale9grid="5,5,61,10" exported="true"/>
     <component id="gcza1s" name="TextInput" folder="gcza1q" file="gcza1s.xml" exported="true"/>
     <component id="gcza22" name="NumericUpDown" folder="gcza1q" file="gcza22.xml" exported="true"/>
     <image id="gcza23" name="p8.png" folder="gcza1e" file="gcza23.png" size="19,10"/>
@@ -140,7 +140,7 @@
     <image id="au3n6p" name="a18.png" folder="gcza27" qualityOption="source" file="au3n6p.png" size="12,9"/>
     <component id="au3n6q" name="IconListItem" folder="gcza1d" file="au3n6q.xml" exported="true"/>
     <component id="au3n6r" name="ListItemResourceInput" folder="gcza1q" file="au3n6r.xml" exported="true"/>
-    <image id="au3n6s" name="p16.png" folder="gcza1q" file="au3n6s.png" size="71,19" scale="9grid" scale9grid="18,5,36,10" qualityOption="package"/>
+    <image id="au3n6s" name="p16.png" folder="gcza1q" file="au3n6s.png" size="71,19" scale="9grid" scale9grid="18,5,36,10" qualityOption="package" exported="true"/>
     <component id="au3n6t" name="EditableTreeItem" folder="gcza2k" file="au3n6t.xml" exported="true"/>
     <component id="au3n6v" name="TabIconButton" folder="gcza2q" file="au3n6v.xml" exported="true"/>
     <component id="au3n6w" name="ClosableTabIconButton" folder="gcza2q" file="au3n6w.xml" exported="true"/>

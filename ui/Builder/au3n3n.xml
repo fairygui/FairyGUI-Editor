@@ -14,8 +14,13 @@
     <component id="n35" name="n35" src="gcza18" pkg="nk9ejx23" xy="122,92" size="200,20" group="n16">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="18,119" size="361,2" group="n16" visible="false"/>
-    <group id="n16" name="n16" xy="18,64" size="361,57" advanced="true">
+    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="18,119" size="361,2" group="n16"/>
+    <graph id="n43" name="n43" xy="39,155" size="324,167" group="n46" type="rect" lineColor="#ffa0a0a0"/>
+    <list id="n44" name="n44" xy="40,177" size="322,144" group="n46" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://2pshu6oikqx1iu8v"/>
+    <component id="n45" name="n45" src="kqx1iu8u" xy="40,156" size="322,21" group="n46"/>
+    <group id="n46" name="n46" xy="39,155" size="324,167" group="n16"/>
+    <text id="n47" name="n47" xy="23,131" size="200,16" group="n16" fontSize="12" autoSize="height" text="自定义属性"/>
+    <group id="n16" name="n16" xy="18,64" size="361,258" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
     <component id="n17" name="n17" src="au3n6i" pkg="nk9ejx23" xy="15,34" size="39,22">

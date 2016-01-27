@@ -10,7 +10,7 @@
     <component id="n11" name="useSourceSize" src="xualt" pkg="nk9ejx23" xy="179,97" size="59,19">
       <Button title="原大小"/>
     </component>
-    <text id="n16" name="title" xy="5,25" size="226,18" fontSize="12" autoSize="none" text=""/>
+    <text id="n16" name="title" xy="31,25" size="199,18" fontSize="12" autoSize="none" text=""/>
     <text id="n17" name="n17" xy="3,49" size="42,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <text id="n13" name="n13" xy="25,72" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
     <component id="n21" name="x" src="au3n69" pkg="nk9ejx23" xy="48,71" size="52,20">
@@ -69,5 +69,6 @@
     </component>
     <group id="n52" name="scaleProps" xy="4,121" size="207,20" advanced="true"/>
     <component id="n53" name="n53" src="ehmsu7z" xy="212,50" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：&#xA;a#&#xA;则选定的元件的名称依次修改为a0,a1,a2.."/>
+    <loader id="n54" name="icon" xy="11,26" size="16,16" align="center" vAlign="middle"/>
   </displayList>
 </component>

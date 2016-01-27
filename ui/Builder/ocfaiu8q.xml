@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="403,400">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="403,400">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="插件管理器"/>
+    </component>
+    <graph id="n20" name="n20" xy="13,58" size="377,287" group="n35" type="rect" lineColor="#ffa0a0a0"/>
+    <list id="n19" name="n19" xy="14,80" size="375,264" group="n35" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://2pshu6oiocfaiu8s"/>
+    <component id="n38" name="n38" src="ocfaiu8r" xy="14,59" group="n35"/>
+    <group id="n35" name="n35" xy="13,58" size="377,287"/>
+    <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="14,362" size="136,25">
+      <Button title="打开插件目录..."/>
+    </component>
+    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="11,353" size="379,2"/>
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="323,362" size="67,25">
+      <Button title="关闭"/>
+    </component>
+    <text id="n40" name="n40" xy="15,33" size="306,16" fontSize="12" autoSize="height" text="已安装的插件:"/>
+    <component id="n41" name="n41" src="xualm" pkg="nk9ejx23" xy="165,362" size="99,25">
+      <Button title="重新载入"/>
+    </component>
+  </displayList>
+</component>

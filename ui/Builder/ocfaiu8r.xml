@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="375,21">
+  <displayList>
+    <graph id="n11" name="n11" xy="0,0" size="375,20" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#fff3f6f7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4" name="n4" xy="0,20" size="375,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+    <text id="n12" name="n12" xy="0,2" size="218,16" fontSize="12" align="center" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="224,2" size="148,16" fontSize="12" align="center" autoSize="none" text="功能"/>
+    <graph id="n14" name="n14" xy="220,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+  </displayList>
+</component>

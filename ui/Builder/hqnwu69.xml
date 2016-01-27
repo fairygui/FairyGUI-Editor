@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="200,400">
+<component size="303,500">
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="-1,0" size="200,400">
+    <component id="n7" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="303,500">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="4,24" size="300,478" group="n8">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <graph id="n1" name="n1" xy="1,4" size="191,389" type="rect" lineColor="#ffa0a0a0">
+    <graph id="n1" name="n1" xy="6,28" size="291,467" group="n8" type="rect" lineColor="#ffa0a0a0">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <list id="n2" name="list" xy="2,26" size="189,366" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oie1o9u68">
+    <group id="n8" name="n8" xy="4,24" size="300,478" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n2" name="list" xy="7,50" size="289,444" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oixl19iu8x">
       <relation target="" sidePair="width-width,height-height"/>
-      <item title="a"/>
-      <item title="b"/>
     </list>
-    <component id="n3" name="n3" src="uzegu6c" xy="2,5" size="188,21">
+    <component id="n3" name="n3" src="uzegu6c" xy="7,29" size="289,21">
       <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n6" name="nail" src="au3n48" xy="271,29" size="22,20">
+      <Button icon="ui://2pshu6oi9z66iu92" selectedIcon="ui://2pshu6oi9z66iu91"/>
     </component>
   </displayList>
 </component>

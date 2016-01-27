@@ -7,12 +7,8 @@
     <graph id="n4" name="n4" xy="0,20" size="302,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
-    <text id="n13" name="n13" xy="29,2" size="272,16" fontSize="12" align="center" autoSize="none" text="元件">
-      <relation target="" sidePair="width-width"/>
-    </text>
-    <graph id="n14" name="n14" xy="24,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <component id="n15" name="icon" src="au3n2i" xy="0,1" size="23,20">
-      <Button icon="ui://2pshu6oiuzegu6a"/>
-    </component>
+    <text id="n12" name="n12" xy="0,2" size="102,16" fontSize="12" align="center" autoSize="none" text="Key"/>
+    <text id="n13" name="n13" xy="110,2" size="191,16" fontSize="12" align="center" autoSize="none" text="Value"/>
+    <graph id="n14" name="n14" xy="105,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
   </displayList>
 </component>

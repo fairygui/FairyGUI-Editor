@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="229,60">
+<component size="229,60" extention="Button">
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n0" name="n0" xy="0,0" size="228,59" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
     <component id="n4" name="clear" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除关联">
@@ -7,9 +8,23 @@
     </component>
     <component id="n5" name="r0" src="au3n6o" pkg="nk9ejx23" xy="5,33" size="108,20"/>
     <component id="n6" name="r1" src="au3n6o" pkg="nk9ejx23" xy="116,33" size="107,20"/>
-    <component id="n7" name="target" src="gcza1s" pkg="nk9ejx23" xy="5,6" size="170,20" grayed="true"/>
     <component id="n8" name="setToParent" src="au3n4b" pkg="nk9ejx23" xy="179,6" size="20,20" tooltips="设置关联目标为父元件">
       <Button icon="ui://2pshu6oivb5vu7q"/>
     </component>
+    <image id="n9" name="n9" src="au3n6s" pkg="nk9ejx23" xy="5,6" size="170,21">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n13" name="n13" xy="8,8" size="53,16" fontSize="12" text="点击设置">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <loader id="n10" name="icon" xy="8,9" size="16,16" group="n14" align="center" vAlign="middle"/>
+    <text id="n11" name="title" xy="26,8" size="146,18" group="n14" fontSize="12" color="#ff0066" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <group id="n14" name="n14" xy="8,8" size="165,18" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <graph id="n15" name="target" xy="5,6" size="169,20" type="rect" lineSize="0" fillColor="#00ffffff"/>
   </displayList>
+  <Button/>
 </component>

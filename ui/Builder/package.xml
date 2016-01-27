@@ -31,7 +31,7 @@
     <image id="au3n14" name="shape_align_center.png" folder="au3n2h" qualityOption="source" file="au3n14.png" size="13,13"/>
     <image id="au3n15" name="shape_align_bottom.png" folder="au3n2h" qualityOption="source" file="au3n15.png" size="13,14"/>
     <image id="au3n16" name="resize.png" folder="au3n2h" file="au3n16.png" size="18,15"/>
-    <image id="au3n17" name="photo.png" folder="au3n2h" qualityOption="source" file="au3n17.png" size="16,13"/>
+    <image id="au3n17" name="装载器.png" folder="au3n2h" qualityOption="source" file="au3n17.png" size="16,13" exported="true"/>
     <image id="au3n18" name="phone.png" folder="au3n2h" qualityOption="source" file="au3n18.png" size="9,16"/>
     <image id="au3n19" name="paste.png" folder="au3n2h" qualityOption="source" file="au3n19.png" size="16,16"/>
     <image id="au3n1a" name="lock_open.png" folder="au3n2h" qualityOption="source" file="au3n1a.png" size="14,16"/>
@@ -54,11 +54,11 @@
     <image id="au3n1s" name="相同宽度.png" folder="au3n2h" file="au3n1s.png" size="14,13" qualityOption="source"/>
     <image id="au3n1t" name="相同高度.png" folder="au3n2h" file="au3n1t.png" size="13,14" qualityOption="source"/>
     <image id="au3n1u" name="文字.png" folder="au3n2h" file="au3n1u.png" size="16,16" exported="true"/>
-    <image id="au3n21" name="图形.png" folder="au3n2h" qualityOption="package" file="au3n21.png" size="14,14"/>
+    <image id="au3n21" name="图形.png" folder="au3n2h" qualityOption="package" file="au3n21.png" size="14,14" exported="true"/>
     <image id="au3n22" name="图片.png" folder="au3n2h" qualityOption="source" file="au3n22.png" size="15,15" exported="true"/>
     <image id="au3n23" name="声音.png" folder="au3n2h" qualityOption="source" file="au3n23.png" size="16,14" exported="true"/>
     <image id="au3n24" name="其他素材.png" folder="au3n2h" qualityOption="source" file="au3n24.png" size="15,15" exported="true"/>
-    <image id="au3n25" name="列表.png" folder="au3n2h" qualityOption="package" file="au3n25.png" size="16,16"/>
+    <image id="au3n25" name="列表.png" folder="au3n2h" qualityOption="package" file="au3n25.png" size="16,16" exported="true"/>
     <image id="au3n26" name="控制器.png" folder="au3n2h" file="au3n26.png" size="16,16"/>
     <image id="au3n29" name="发布.png" folder="au3n2h" qualityOption="source" file="au3n29.png" size="16,16"/>
     <image id="au3n2a" name="测试.png" folder="au3n2h" qualityOption="package" file="au3n2a.png" size="16,16"/>
@@ -95,7 +95,7 @@
     <component id="au3n40" name="FontEditDialog" folder="au3n4n" file="au3n40.xml" exported="true"/>
     <component id="au3n41" name="FontEdit_header" folder="au3n4n" file="au3n41.xml"/>
     <component id="au3n42" name="FontEdit_item" folder="au3n4n" file="au3n42.xml"/>
-    <image id="au3n43" name="文字H.png" folder="au3n2h" qualityOption="package" file="au3n43.png" size="16,16"/>
+    <image id="au3n43" name="文字H.png" folder="au3n2h" qualityOption="package" file="au3n43.png" size="16,16" exported="true"/>
     <component id="au3n44" name="RenameDialog" folder="au3n4n" file="au3n44.xml" exported="true"/>
     <component id="au3n45" name="FixConflictedNameDialog" folder="au3n4n" file="au3n45.xml" exported="true"/>
     <component id="au3n46" name="ConfirmDialog" folder="au3n4n" file="au3n46.xml" exported="true"/>
@@ -162,10 +162,9 @@
     <image id="ur4wu65" name="find.png" folder="au3n2h" qualityOption="package" file="ur4wu65.png" size="16,16"/>
     <component id="l2gzu66" name="AboutDialog" folder="au3n4n" file="l2gzu66.xml" exported="true"/>
     <image id="sq3uu67" name="table_multiple.png" folder="au3n2h" qualityOption="source" file="sq3uu67.png" size="15,15"/>
-    <component id="e1o9u68" name="ChildrenPanel_item" folder="" file="e1o9u68.xml"/>
-    <component id="hqnwu69" name="ChildrenPanel" folder="" file="hqnwu69.xml"/>
+    <component id="hqnwu69" name="ChildrenDialog" folder="au3n4n" file="hqnwu69.xml" exported="true"/>
     <image id="uzegu6a" name="eye.png" folder="au3n2h" qualityOption="source" file="uzegu6a.png" size="16,12"/>
-    <component id="uzegu6c" name="ChildrenPanel_header" folder="" file="uzegu6c.xml"/>
+    <component id="uzegu6c" name="ChildrenDialog_header" folder="au3n4n" file="uzegu6c.xml"/>
     <image id="g1zau6d" name="play_right.png" folder="au3n2h" qualityOption="package" file="g1zau6d.png" size="24,24"/>
     <image id="g1zau6e" name="play_left.png" folder="au3n2h" qualityOption="package" file="g1zau6e.png" size="24,24"/>
     <image id="g1zau6f" name="ani_play.png" folder="au3n2h" qualityOption="package" file="g1zau6f.png" size="24,24"/>
@@ -183,7 +182,7 @@
     <component id="mellu6u" name="AtlasList_item" folder="au3n4n" file="mellu6u.xml"/>
     <component id="pstgu6v" name="ImagePropsPanel" folder="au3n4m" file="pstgu6v.xml" exported="true"/>
     <image id="hnrru6w" name="发布2.png" folder="au3n2h" qualityOption="package" file="hnrru6w.png" size="16,16"/>
-    <image id="pi83u6x" name="下箭头.png" folder="au3n4p" qualityOption="package" file="pi83u6x.png" size="9,5"/>
+    <image id="pi83u6x" name="下箭头.png" folder="pia6u82" qualityOption="package" file="pi83u6x.png" size="9,5"/>
     <component id="pi83u6y" name="下拉按钮" folder="au3n4p" file="pi83u6y.xml"/>
     <component id="tvg7u6z" name="ComTransitionsPanel" folder="au3n4m" file="tvg7u6z.xml" exported="true"/>
     <component id="tvg7u70" name="TransitionItem" folder="au3n4m" file="tvg7u70.xml"/>
@@ -237,6 +236,18 @@
     <component id="thzxiu8m" name="ReplaceRefDialog" folder="au3n4n" file="thzxiu8m.xml" exported="true"/>
     <image id="xguriu8o" name="控制器2" folder="au3n2h" qualityOption="package" file="xguriu8o.png" size="16,16"/>
     <component id="pb9oiu8p" name="InputPromptEditPanel" folder="au3n4m" file="pb9oiu8p.xml" exported="true"/>
+    <component id="ocfaiu8q" name="PlugInManageDialog" folder="au3n4n" file="ocfaiu8q.xml" exported="true"/>
+    <component id="ocfaiu8r" name="PlugInEdit_header" folder="au3n4n" file="ocfaiu8r.xml"/>
+    <component id="ocfaiu8s" name="PlugInEdit_item" folder="au3n4n" file="ocfaiu8s.xml"/>
+    <component id="ryi8iu8t" name="ImportProgressDialog" folder="au3n4n" file="ryi8iu8t.xml" exported="true"/>
+    <component id="kqx1iu8u" name="ProjectProps_header" folder="au3n4n" file="kqx1iu8u.xml"/>
+    <component id="kqx1iu8v" name="ProjectProps_item" folder="au3n4n" file="kqx1iu8v.xml"/>
+    <component id="xl19iu8x" name="ChildrenDialog_item" folder="au3n4n" file="xl19iu8x.xml" exported="true"/>
+    <component id="xl19iu8y" name="TreeExpandButton" folder="" file="xl19iu8y.xml"/>
+    <image id="xl19iu8z" name="i3.png" folder="pia6u82" qualityOption="source" file="xl19iu8z.png" size="9,9"/>
+    <image id="xl19iu90" name="i4.png" folder="pia6u82" qualityOption="source" file="xl19iu90.png" size="9,9"/>
+    <image id="9z66iu91" name="未标题-1(2)" folder="pia6u82" qualityOption="package" file="9z66iu91.png" size="18,19"/>
+    <image id="9z66iu92" name="未标题-1(3)" folder="pia6u82" qualityOption="package" file="9z66iu92.png" size="21,22"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

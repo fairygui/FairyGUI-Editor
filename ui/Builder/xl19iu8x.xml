@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="116,24" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="au3n4v" pkg="nk9ejx23" xy="0,0" size="116,23">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <image id="n1" name="n1" src="au3n50" pkg="nk9ejx23" xy="0,0" size="116,23">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <text id="n2" name="title" xy="63,2" size="50,16" fontSize="12" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n6" sidePair="leftext-right"/>
+    </text>
+    <graph id="n3" name="indent" xy="26,0" size="16,20"/>
+    <loader id="n6" name="icon" xy="43,0" size="20,20" align="center" vAlign="middle">
+      <relation target="n3" sidePair="left-right"/>
+    </loader>
+    <graph id="n8" name="n8" xy="0,23" size="116,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffeeeeee">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+    <component id="n9" name="status" src="au3n48" xy="0,1" size="23,20">
+      <Button icon="ui://2pshu6oiuzegu6a" selectedIcon="ui://2pshu6oiau3n1j"/>
+    </component>
+    <graph id="n10" name="n10" xy="24,0" size="1,23" type="rect" lineColor="#ffcccccc" fillColor="#ffa0a0a0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

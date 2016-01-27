@@ -113,6 +113,5 @@
     <component id="n70" name="timelinePanel" src="tvg7u72" xy="35,24" size="675,104">
       <relation target="" sidePair="width-width"/>
     </component>
-    <component id="n68" name="childrenPanel" src="hqnwu69" xy="40,115"/>
   </displayList>
 </component>
