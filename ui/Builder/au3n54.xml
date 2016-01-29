@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="650,500">
+<component size="656,500">
   <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="0"/>
   <controller name="single_package" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="650,500">
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="656,500">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="发布设置"/>
     </component>
     <graph id="n1" name="n1" xy="12,30" size="182,417" type="rect" lineColor="#ffa0a0a0"/>
-    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="452,458" size="80,25">
+    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="455,458" size="80,25">
       <Button title="保存"/>
     </component>
     <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="556,458" size="80,25">
       <Button title="关闭"/>
     </component>
-    <component id="n25" name="n25" src="xualm" pkg="nk9ejx23" xy="348,458" size="80,25">
+    <component id="n25" name="n25" src="xualm" pkg="nk9ejx23" xy="354,458" size="80,25">
       <Button title="发布"/>
     </component>
     <list id="n26" name="pkgs" xy="13,31" size="180,415" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n6q"/>
-    <text id="n27" name="n27" xy="205,33" size="62,16" fontSize="12" align="right" autoSize="none" text="导出目录"/>
+    <text id="n27" name="n27" xy="196,33" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="导出目录"/>
     <component id="n28" name="path" src="gcza1s" pkg="nk9ejx23" xy="271,31" size="217,20"/>
-    <text id="n29" name="n29" xy="205,62" size="62,16" fontSize="12" align="right" autoSize="none" text="文件名"/>
+    <text id="n29" name="n29" xy="196,62" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="文件名"/>
     <component id="n30" name="fileName" src="gcza1s" pkg="nk9ejx23" xy="271,60" size="218,20"/>
-    <component id="n33" name="n33" src="xualm" pkg="nk9ejx23" xy="492,29" size="60,25">
+    <component id="n33" name="n33" src="xualm" pkg="nk9ejx23" xy="492,29" size="69,25">
       <Button title="浏览"/>
     </component>
     <component id="n35" name="n35" src="xualm" pkg="nk9ejx23" xy="21,458" size="115,25">
@@ -65,10 +65,10 @@
     <group id="n51" name="n51" xy="261,91" size="224,19" advanced="true">
       <gearDisplay controller="project_type" pages="1"/>
     </group>
-    <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="214,458" size="114,25">
+    <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="197,458" size="140,25">
       <Button title="仅发布定义"/>
     </component>
-    <component id="n56" name="n56" src="xualm" pkg="nk9ejx23" xy="559,29" size="81,25">
+    <component id="n56" name="n56" src="xualm" pkg="nk9ejx23" xy="566,29" size="81,25">
       <Button title="设为默认值"/>
     </component>
     <text id="n54" name="n54" xy="495,62" size="77,16" group="n57" fontSize="12" align="right" autoSize="none" text="压缩包扩展名"/>

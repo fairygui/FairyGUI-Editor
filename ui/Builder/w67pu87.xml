@@ -6,7 +6,7 @@
       <Label title="创建进度条"/>
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0"/>
-    <text id="n1" name="n1" xy="227,35" size="60,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="223,35" size="64,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="289,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="321,367">
       <Button title="创建"/>
@@ -14,9 +14,9 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="447,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="227,65" size="60,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="223,65" size="64,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="289,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="60,25">
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="66,25">
       <Button title="浏览.."/>
     </component>
     <text id="n17" name="n17" xy="230,108" size="302,64" fontSize="12" leading="6" autoSize="none" text="进度条由两部分组成&#xA;(1)进度条背景&#xA;(2)进度条伸缩部分"/>

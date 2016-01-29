@@ -8,7 +8,7 @@
     <component id="n32" name="playing" src="xualt" pkg="nk9ejx23" xy="137,36" size="82,19">
       <Button title="播放"/>
     </component>
-    <text id="n69" name="n69" xy="5,36" size="40,16" fontSize="12" align="right" autoSize="none" text="帧"/>
-    <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="47,34"/>
+    <text id="n69" name="n69" xy="5,36" size="42,16" fontSize="12" align="right" autoSize="none" text="帧"/>
+    <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="51,34"/>
   </displayList>
 </component>

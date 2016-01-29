@@ -12,13 +12,13 @@
     <component id="n23" name="n23" src="xualm" pkg="nk9ejx23" xy="244,110" size="62,25">
       <Button title="取消"/>
     </component>
-    <component id="n31" name="n31" src="gcza13" pkg="nk9ejx23" xy="65,35" size="76,19">
+    <component id="n31" name="n31" src="gcza13" pkg="nk9ejx23" xy="65,35" size="81,19">
       <Button checked="true" title="均匀行距" controller="c1" page="0"/>
     </component>
-    <component id="n32" name="n32" src="gcza13" pkg="nk9ejx23" xy="153,35" size="79,19">
+    <component id="n32" name="n32" src="gcza13" pkg="nk9ejx23" xy="153,35" size="85,19">
       <Button title="均匀列距" controller="c1" page="1"/>
     </component>
-    <component id="n33" name="n33" src="gcza13" pkg="nk9ejx23" xy="243,35" size="68,19">
+    <component id="n33" name="n33" src="gcza13" pkg="nk9ejx23" xy="243,35" size="74,19">
       <Button title="表格" controller="c1" page="2"/>
     </component>
     <text id="n34" name="n34" xy="12,68" size="50,16" fontSize="12" align="center" autoSize="height" text="行距"/>

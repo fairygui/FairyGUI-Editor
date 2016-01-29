@@ -14,7 +14,7 @@
     <image id="n4" name="n4" src="xualo" xy="0,2" aspect="true">
       <gearDisplay controller="button" pages="3"/>
     </image>
-    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" vAlign="middle" autoSize="none" text="">
+    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

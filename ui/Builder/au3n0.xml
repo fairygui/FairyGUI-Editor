@@ -41,7 +41,7 @@
     <image id="n51" name="n51" src="au3n38" pkg="nk9ejx23" xy="423,24" group="n76" aspect="true"/>
     <image id="n52" name="n52" src="au3n38" pkg="nk9ejx23" xy="499,24" group="n76" aspect="true"/>
     <image id="n53" name="n53" src="au3n38" pkg="nk9ejx23" xy="594,24" group="n76" aspect="true"/>
-    <text id="n54" name="n54" xy="604,26" size="55,16" group="n76" fontSize="12" autoSize="height" singleLine="true" text="背景颜色"/>
+    <text id="n54" name="n54" xy="604,26" size="59,16" group="n76" fontSize="12" autoSize="height" singleLine="true" text="背景颜色"/>
     <component id="n66" name="bgColor" src="au3n5y" pkg="nk9ejx23" xy="665,26" group="n76"/>
     <component id="n74" name="n74" src="au3n2i" xy="326,22" group="n76" tooltips="新建位图字体">
       <Button icon="ui://2pshu6oiau3n4l"/>

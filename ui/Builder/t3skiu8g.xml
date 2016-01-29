@@ -6,7 +6,7 @@
       <Label title="创建弹出菜单"/>
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0"/>
-    <text id="n1" name="n1" xy="229,35" size="59,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="225,35" size="63,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="290,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="321,367">
       <Button title="创建"/>
@@ -14,7 +14,7 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="447,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="229,65" size="59,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="225,65" size="63,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="290,63" size="216,20"/>
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="60,25">
       <Button title="浏览.."/>

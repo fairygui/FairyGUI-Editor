@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="20,19" idnum="6" extention="Button">
+<component size="20,19" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
     <image id="n1" name="n1" src="gcza11" xy="0,3" aspect="true">
@@ -14,7 +14,7 @@
     <image id="n4" name="n4" src="gcza12" xy="0,3" aspect="true">
       <gearDisplay controller="button" pages="3"/>
     </image>
-    <text id="n5" name="title" xy="13,1" size="10,19" fontSize="12" autoSize="none" demoText="">
+    <text id="n5" name="title" xy="13,1" size="10,19" fontSize="12" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

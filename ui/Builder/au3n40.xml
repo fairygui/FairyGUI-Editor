@@ -8,12 +8,12 @@
     <graph id="n12" name="n12" xy="9,29" size="452,372" type="rect" lineColor="#ffa0a0a0"/>
     <list id="n1" name="n1" xy="10,51" size="450,349" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n42"/>
     <graph id="n2" name="n2" xy="467,29" size="173,370" type="rect" lineColor="#ff999999" fillColor="#00ffffff"/>
-    <text id="n3" name="n3" xy="15,415" size="45,16" fontSize="12" align="right" autoSize="height" text="纹理集"/>
-    <component id="n4" name="n4" src="gcza18" pkg="nk9ejx23" xy="63,413" size="106,20">
+    <text id="n3" name="n3" xy="12,414" size="49,16" fontSize="12" align="right" autoSize="height" text="纹理集"/>
+    <component id="n4" name="n4" src="gcza18" pkg="nk9ejx23" xy="63,413" size="92,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n5" name="n5" xy="181,415" size="71,16" fontSize="12" align="right" autoSize="height" text="行高"/>
-    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="545,409" size="92,25">
+    <text id="n5" name="n5" xy="161,414" size="73,16" fontSize="12" align="right" autoSize="height" text="字体大小"/>
+    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="508,365" size="92,25">
       <Button title="删除选定字符"/>
     </component>
     <image id="n8" name="n8" src="au3n39" pkg="nk9ejx23" xy="5,444" size="640,2"/>
@@ -29,9 +29,13 @@
     <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="268,456">
       <Button title="应用"/>
     </component>
-    <text id="n18" name="n18" xy="319,415" size="75,16" fontSize="12" align="right" autoSize="none" text="默认占位"/>
-    <component id="n6" name="n6" src="gcza1s" pkg="nk9ejx23" xy="257,413" size="54,20"/>
-    <component id="n19" name="n19" src="gcza1s" pkg="nk9ejx23" xy="399,413" size="54,20"/>
-    <component id="n20" name="n20" src="ehmsu7z" xy="458,414" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值"/>
+    <text id="n18" name="n18" xy="432,415" size="77,16" fontSize="12" align="right" autoSize="none" text="默认占位"/>
+    <component id="n6" name="n6" src="gcza1s" pkg="nk9ejx23" xy="237,413" size="54,20"/>
+    <component id="n19" name="n19" src="gcza1s" pkg="nk9ejx23" xy="512,413" size="54,20"/>
+    <component id="n20" name="n20" src="ehmsu7z" xy="571,414" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值"/>
+    <component id="n23" name="n23" src="ehmsu7z" xy="294,414" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放"/>
+    <component id="n24" name="n24" src="xualt" pkg="nk9ejx23" xy="315,414" size="145,19">
+      <Button title="允许动态改变字号"/>
+    </component>
   </displayList>
 </component>

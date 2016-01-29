@@ -8,9 +8,9 @@
     </component>
     <graph id="n21" name="n21" xy="14,33" size="370,337" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
     <graph id="n20" name="n20" xy="14,33" size="370,24" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
-    <text id="n1" name="n1" xy="22,66" size="94,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="项目名称"/>
+    <text id="n1" name="n1" xy="22,66" size="97,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="项目名称"/>
     <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="122,64" size="200,20" group="n16"/>
-    <text id="n34" name="n34" xy="22,94" size="94,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="项目类型"/>
+    <text id="n34" name="n34" xy="22,94" size="97,16" group="n16" fontSize="12" align="right" autoSize="none" singleLine="true" text="项目类型"/>
     <component id="n35" name="n35" src="gcza18" pkg="nk9ejx23" xy="122,92" size="200,20" group="n16">
       <ComboBox visibleItemCount="10"/>
     </component>

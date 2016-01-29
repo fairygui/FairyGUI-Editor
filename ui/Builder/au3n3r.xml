@@ -9,10 +9,10 @@
     <graph id="n25" name="n25" xy="17,114" size="373,166" type="rect" lineColor="#ffa0a0a0" fillColor="#00ff99cc"/>
     <text id="n1" name="n1" xy="19,33" size="53,16" fontSize="12" align="right" autoSize="none" text="按钮名称"/>
     <component id="n2" name="n2" src="gcza1s" pkg="nk9ejx23" xy="75,32" size="210,20"/>
-    <component id="n11" name="n11" src="xualt" pkg="nk9ejx23" xy="190,290" size="99,19">
+    <component id="n11" name="n11" src="xualt" pkg="nk9ejx23" xy="171,290" size="112,19">
       <Button title="创建文本标题"/>
     </component>
-    <component id="n12" name="n12" src="xualt" pkg="nk9ejx23" xy="295,290" size="98,19">
+    <component id="n12" name="n12" src="xualt" pkg="nk9ejx23" xy="290,290" size="112,19">
       <Button title="创建图形标题"/>
     </component>
     <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="108,351">
@@ -23,13 +23,13 @@
     </component>
     <text id="n15" name="n15" xy="16,322" size="62,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
     <component id="n16" name="n16" src="gcza1s" pkg="nk9ejx23" xy="83,320" size="216,20"/>
-    <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="304,318" size="60,25">
+    <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="304,318" size="81,25">
       <Button title="浏览.."/>
     </component>
-    <component id="n22" name="n22" src="gcza13" pkg="nk9ejx23" xy="22,85" size="87,19">
+    <component id="n22" name="n22" src="gcza13" pkg="nk9ejx23" xy="22,85" size="302,19">
       <Button title="自定义大小" controller="c1" page="1"/>
     </component>
-    <component id="n23" name="n23" src="gcza13" pkg="nk9ejx23" xy="22,59" size="253,19">
+    <component id="n23" name="n23" src="gcza13" pkg="nk9ejx23" xy="22,59" size="376,19">
       <Button checked="true" title="自动大小(使用设定的图片的大小）" controller="c1" page="0"/>
     </component>
     <component id="n19" name="n19" src="gcza1s" pkg="nk9ejx23" xy="109,86" group="n24"/>
@@ -53,7 +53,7 @@
     <group id="n26" name="n26" xy="30,143" size="351,129"/>
     <text id="n27" name="n27" xy="26,121" size="351,16" fontSize="12" autoSize="none" text="图片设置：（以下图片设置均为可选）"/>
     <text id="n28" name="n28" xy="16,292" size="62,16" fontSize="12" align="right" autoSize="none" text="按钮模式"/>
-    <component id="n29" name="mode" src="gcza18" pkg="nk9ejx23" xy="83,290">
+    <component id="n29" name="mode" src="gcza18" pkg="nk9ejx23" xy="83,290" size="84,20">
       <ComboBox visibleItemCount="10"/>
     </component>
   </displayList>

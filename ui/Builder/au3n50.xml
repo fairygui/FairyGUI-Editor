@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,100" overflow="hidden" extention="Label">
+<component size="240,122" overflow="hidden" extention="Label">
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,100">
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,122">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="标签"/>
     </component>

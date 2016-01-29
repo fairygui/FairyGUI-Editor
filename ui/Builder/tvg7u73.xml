@@ -26,7 +26,7 @@
     </component>
     <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="45,27" size="98,20"/>
     <text id="n69" name="n69" xy="3,28" size="40,16" fontSize="12" align="right" autoSize="none" text="名称"/>
-    <component id="n70" name="ignoreDisplayController" src="xualt" pkg="nk9ejx23" xy="38,58" size="184,19">
+    <component id="n70" name="ignoreDisplayController" src="xualt" pkg="nk9ejx23" xy="38,58" size="196,19">
       <Button title="忽略显示控制器影响"/>
     </component>
     <component id="n71" name="n71" src="ehmsu7z" xy="15,59" tooltips="勾选后，动效开始时所有参与此动效的元件不受显示控制器的控制，也就是不会被显示控制器隐藏。&#xA;动效结束后恢复控制。"/>

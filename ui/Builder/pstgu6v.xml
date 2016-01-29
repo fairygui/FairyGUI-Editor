@@ -5,15 +5,15 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图片"/>
     </component>
-    <text id="n71" name="n71" xy="7,34" size="38,16" fontSize="12" align="right" autoSize="none" text="颜色"/>
-    <component id="n72" name="color" src="935t5o" xy="48,34"/>
-    <component id="n73" name="flipHZ" src="xualt" pkg="nk9ejx23" xy="27,65" size="86,19">
+    <text id="n71" name="n71" xy="7,34" size="40,16" fontSize="12" align="right" autoSize="none" text="颜色"/>
+    <component id="n72" name="color" src="935t5o" xy="52,34"/>
+    <component id="n73" name="flipHZ" src="xualt" pkg="nk9ejx23" xy="27,65" size="92,19">
       <Button title="水平翻转"/>
     </component>
-    <component id="n74" name="flipVT" src="xualt" pkg="nk9ejx23" xy="124,66" size="99,19">
+    <component id="n74" name="flipVT" src="xualt" pkg="nk9ejx23" xy="125,66" size="101,19">
       <Button title="垂直翻转"/>
     </component>
-    <text id="n75" name="n75" xy="110,34" size="61,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="亮度"/>
-    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="173,32" size="42,20"/>
+    <text id="n75" name="n75" xy="110,34" size="63,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="亮度"/>
+    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="176,32" size="42,20"/>
   </displayList>
 </component>

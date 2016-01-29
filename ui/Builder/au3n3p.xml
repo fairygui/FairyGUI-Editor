@@ -27,11 +27,11 @@
     <component id="n34" name="n34" src="gcza18" pkg="nk9ejx23" xy="120,140" size="53,20" group="n38">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n35" name="n35" xy="182,143" size="198,16" group="n38" fontSize="12" autoSize="none" text="（压缩工具为pngquant）"/>
-    <group id="n38" name="n38" xy="21,140" size="359,20" group="n16" advanced="true">
+    <text id="n35" name="n35" xy="117,166" size="257,16" group="n38" fontSize="12" autoSize="none" text="（压缩工具为pngquant）"/>
+    <group id="n38" name="n38" xy="21,140" size="353,42" group="n16" advanced="true">
       <gearDisplay controller="c2" pages="0"/>
     </group>
-    <group id="n16" name="n16" xy="19,64" size="361,96" advanced="true">
+    <group id="n16" name="n16" xy="19,64" size="355,118" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
     <component id="n17" name="n17" src="au3n6i" pkg="nk9ejx23" xy="15,34" size="39,22">

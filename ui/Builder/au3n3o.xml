@@ -5,8 +5,8 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建包"/>
     </component>
-    <text id="n1" name="n1" xy="10,36" size="53,16" fontSize="12" align="right" autoSize="height" text="包名称"/>
-    <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="68,34" size="207,20"/>
+    <text id="n1" name="n1" xy="10,36" size="60,16" fontSize="12" align="right" autoSize="height" text="包名称"/>
+    <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="75,34" size="207,20"/>
     <component id="n6" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="80,158">
       <Button title="创建"/>
     </component>

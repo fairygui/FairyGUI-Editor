@@ -5,21 +5,21 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="列表"/>
     </component>
-    <text id="n17" name="n17" xy="8,28" size="61,16" fontSize="12" align="right" autoSize="none" text="列表布局"/>
-    <component id="n39" name="layout" src="gcza18" pkg="nk9ejx23" xy="73,27" size="129,20">
+    <text id="n17" name="n17" xy="8,28" size="64,16" fontSize="12" align="right" autoSize="none" text="列表布局"/>
+    <component id="n39" name="layout" src="gcza18" pkg="nk9ejx23" xy="76,27" size="129,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n58" name="n58" xy="8,101" size="61,16" fontSize="12" align="right" autoSize="none" text="溢出处理"/>
-    <component id="n59" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="73,100" size="130,20">
+    <text id="n58" name="n58" xy="8,101" size="64,16" fontSize="12" align="right" autoSize="none" text="溢出处理"/>
+    <component id="n59" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="76,100" size="130,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n33" name="n33" xy="8,129" size="29,16" fontSize="12" singleLine="true" text="行距"/>
-    <text id="n57" name="n57" xy="8,155" size="61,16" fontSize="12" align="right" autoSize="none" text="边缘留空"/>
+    <text id="n57" name="n57" xy="8,155" size="64,16" fontSize="12" align="right" autoSize="none" text="边缘留空"/>
     <text id="n61" name="n61" xy="86,129" size="29,16" fontSize="12" singleLine="true" text="列距">
       <relation target="n64" sidePair="left-right"/>
     </text>
-    <text id="n62" name="n62" xy="8,230" size="61,16" fontSize="12" align="right" autoSize="none" text="项目资源"/>
-    <component id="n63" name="n63" src="xualm" pkg="nk9ejx23" xy="89,255" size="92,25">
+    <text id="n62" name="n62" xy="8,230" size="64,16" fontSize="12" align="right" autoSize="none" text="项目资源"/>
+    <component id="n63" name="n63" src="xualm" pkg="nk9ejx23" xy="81,255" size="100,25">
       <Button title="编辑列表数据"/>
     </component>
     <component id="n64" name="lineGap" src="au3n69" pkg="nk9ejx23" xy="40,127" size="35,20">
@@ -30,7 +30,7 @@
       <relation target="n61" sidePair="left-right"/>
       <Label title="0"/>
     </component>
-    <component id="n67" name="defaultItem" src="au3n6j" pkg="nk9ejx23" xy="73,228" size="150,20"/>
+    <component id="n67" name="defaultItem" src="au3n6j" pkg="nk9ejx23" xy="76,228" size="150,20"/>
     <text id="n77" name="n77" xy="77,156" size="17,16" group="n85" fontSize="12" autoSize="none" text="上"/>
     <component id="n78" name="marginTop" src="au3n69" pkg="nk9ejx23" xy="97,153" size="35,20" group="n85"/>
     <text id="n79" name="n79" xy="137,156" size="17,16" group="n85" fontSize="12" autoSize="none" text="下"/>
@@ -45,12 +45,12 @@
     <component id="n88" name="clipSoftnessX" src="au3n69" pkg="nk9ejx23" xy="98,202" size="35,20"/>
     <text id="n89" name="n89" xy="138,205" size="17,16" fontSize="12" align="center" autoSize="none" text="Y"/>
     <component id="n90" name="clipSoftnessY" src="au3n69" pkg="nk9ejx23" xy="158,202" size="35,20"/>
-    <component id="n91" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="207,100" size="20,20">
+    <component id="n91" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="210,100" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
     <component id="n92" name="n92" src="ehmsu7z" xy="199,204" tooltips="边缘虚化效果在编辑器无法预览"/>
-    <text id="n93" name="n93" xy="8,76" size="61,16" fontSize="12" align="right" autoSize="none" text="选择模式"/>
-    <component id="n94" name="selectionMode" src="gcza18" pkg="nk9ejx23" xy="73,74" size="129,20">
+    <text id="n93" name="n93" xy="8,76" size="64,16" fontSize="12" align="right" autoSize="none" text="选择模式"/>
+    <component id="n94" name="selectionMode" src="gcza18" pkg="nk9ejx23" xy="76,74" size="129,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n95" name="autoResizeItem" src="xualt" pkg="nk9ejx23" xy="66,51" size="143,19">

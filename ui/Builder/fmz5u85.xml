@@ -9,7 +9,7 @@
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0"/>
     <image id="n15" name="n15" src="fmz5u86" xy="14,37"/>
-    <text id="n1" name="n1" xy="224,35" size="63,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="220,35" size="68,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="289,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="384,366">
       <gearDisplay controller="c1" pages="4"/>
@@ -18,9 +18,9 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="499,366">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="224,65" size="63,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="220,65" size="68,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="289,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="60,25">
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="66,25">
       <Button title="浏览.."/>
     </component>
     <component id="n18" name="n18" src="xualm" pkg="nk9ejx23" xy="384,366">

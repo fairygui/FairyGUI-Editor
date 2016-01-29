@@ -5,15 +5,15 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="按钮"/>
     </component>
-    <text id="n47" name="n47" xy="6,30" size="45,16" fontSize="12" align="right" autoSize="none" text="模式"/>
-    <component id="n48" name="mode" src="gcza18" pkg="nk9ejx23" xy="56,29">
+    <text id="n47" name="n47" xy="6,30" size="50,16" fontSize="12" align="right" autoSize="none" text="模式"/>
+    <component id="n48" name="mode" src="gcza18" pkg="nk9ejx23" xy="61,29">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n69" name="n69" xy="5,114" size="230,52" fontSize="12" leading="6" autoSize="height" text="按钮控制器请命名为button&#xA;（可选）文本标题请命名为title&#xA;（可选）图标请命名为icon"/>
-    <text id="n71" name="n71" xy="6,59" size="45,16" fontSize="12" align="right" autoSize="none" text="声音"/>
-    <component id="n72" name="sound" src="au3n6j" pkg="nk9ejx23" xy="56,56" size="160,20"/>
-    <text id="n73" name="n73" xy="6,86" size="45,16" fontSize="12" align="right" autoSize="none" text="音量"/>
-    <component id="n74" name="volume" src="au3n69" pkg="nk9ejx23" xy="56,84" size="50,20">
+    <text id="n71" name="n71" xy="6,59" size="50,16" fontSize="12" align="right" autoSize="none" text="声音"/>
+    <component id="n72" name="sound" src="au3n6j" pkg="nk9ejx23" xy="61,56" size="160,20"/>
+    <text id="n73" name="n73" xy="6,86" size="50,16" fontSize="12" align="right" autoSize="none" text="音量"/>
+    <component id="n74" name="volume" src="au3n69" pkg="nk9ejx23" xy="61,84" size="50,20">
       <Label title="100"/>
     </component>
   </displayList>

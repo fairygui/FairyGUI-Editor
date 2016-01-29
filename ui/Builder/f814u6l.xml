@@ -8,7 +8,7 @@
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0"/>
     <image id="n15" name="n15" src="pia6u83" xy="19,42"/>
-    <text id="n1" name="n1" xy="227,35" size="59,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="222,35" size="64,16" fontSize="12" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="289,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="388,367">
       <gearDisplay controller="c1" pages="3"/>
@@ -17,17 +17,17 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="503,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="227,65" size="59,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="222,65" size="64,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="289,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="60,25">
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="70,25">
       <Button title="浏览.."/>
     </component>
     <component id="n18" name="n18" src="xualm" pkg="nk9ejx23" xy="388,367">
       <gearDisplay controller="c1" pages="0,1,2"/>
       <Button title="下一步"/>
     </component>
-    <text id="n17" name="n17" xy="230,108" size="246,83" group="n31" fontSize="12" leading="5" autoSize="none" text="下拉框由三部分组成&#xA;(1)按钮&#xA;(2)下拉列表&#xA;(3)下拉列表项目"/>
-    <group id="n31" name="n31" xy="230,108" size="246,83" advanced="true">
+    <text id="n17" name="n17" xy="230,108" size="350,132" group="n31" fontSize="12" leading="5" autoSize="none" text="下拉框由三部分组成&#xA;(1)按钮&#xA;(2)下拉列表&#xA;(3)下拉列表项目"/>
+    <group id="n31" name="n31" xy="230,108" size="350,132" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
     <graph id="n33" name="n33" xy="224,96" size="367,1" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffcccc"/>
