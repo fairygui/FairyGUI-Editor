@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="430,21">
   <displayList>
-    <graph id="n11" name="n11" xy="0,0" size="430,20" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#fff3f6f7">
+    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="430,21">
       <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" autoSize="none" text="图片"/>
-    <graph id="n3" name="n3" xy="182,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n4" name="n4" xy="0,20" size="430,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
-      <relation target="" sidePair="width-width,top-bottom"/>
-    </graph>
-    <text id="n12" name="n12" xy="184,2" size="60,16" fontSize="12" align="center" autoSize="none" text="字符"/>
-    <text id="n13" name="n13" xy="246,2" size="60,16" fontSize="12" align="center" autoSize="none" text="偏移X"/>
-    <text id="n14" name="n14" xy="308,2" size="60,16" fontSize="12" align="center" autoSize="none" text="偏移Y"/>
-    <text id="n15" name="n15" xy="370,2" size="60,16" fontSize="12" align="center" autoSize="none" text="占位"/>
-    <graph id="n16" name="n16" xy="244,1" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n17" name="n17" xy="306,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n18" name="n18" xy="369,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    </image>
+    <image id="n16" name="n16" src="au3n38" pkg="nk9ejx23" xy="244,1" size="2,19"/>
+    <image id="n18" name="n18" src="au3n38" pkg="nk9ejx23" xy="369,1" size="2,19"/>
+    <image id="n17" name="n17" src="au3n38" pkg="nk9ejx23" xy="306,1" size="2,19"/>
+    <image id="n3" name="n3" src="au3n38" pkg="nk9ejx23" xy="182,1" size="2,19"/>
+    <text id="n12" name="n12" xy="184,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="字符"/>
+    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" color="#b2b2b2" autoSize="none" text="图片"/>
+    <text id="n13" name="n13" xy="246,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="偏移X"/>
+    <text id="n14" name="n14" xy="308,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="偏移Y"/>
+    <text id="n15" name="n15" xy="370,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="占位"/>
   </displayList>
 </component>

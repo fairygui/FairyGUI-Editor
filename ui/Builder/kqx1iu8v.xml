@@ -11,8 +11,8 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <component id="n13" name="text" src="au3n6m" pkg="nk9ejx23" xy="2,0" size="100,20"/>
-    <graph id="n3" name="n3" xy="105,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n4" name="n4" xy="0,20" size="302,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc">
+    <graph id="n3" name="n3" xy="105,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <graph id="n4" name="n4" xy="0,20" size="302,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
     <component id="n17" name="value" src="au3n6m" pkg="nk9ejx23" xy="110,0" size="190,20"/>

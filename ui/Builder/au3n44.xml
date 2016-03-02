@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="重命名"/>
     </component>
-    <text id="n1" name="n1" xy="13,36" size="50,16" fontSize="12" align="right" autoSize="height" text="新名称"/>
+    <text id="n1" name="n1" xy="13,36" size="50,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="新名称"/>
     <component id="n2" name="n2" src="gcza1s" pkg="nk9ejx23" xy="68,34" size="207,20"/>
     <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="54,80">
       <Button title="确定"/>

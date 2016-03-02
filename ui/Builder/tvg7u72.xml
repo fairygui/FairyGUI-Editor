@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="650,103" scroll="horizontal">
   <displayList>
-    <graph id="n1" name="n1" xy="0,0" size="650,103" type="rect" lineColor="#ffa0a0a0">
+    <graph id="n1" name="n1" xy="0,0" size="650,103" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n18" name="n18" xy="1,85" size="648,17" type="rect" lineSize="0" fillColor="#ffe8e8ec">
+    <image id="n32" name="n32" src="kwngiu97" xy="1,87" size="648,16">
       <relation target="" sidePair="width-width,bottom-bottom"/>
-    </graph>
-    <graph id="n2" name="n2" xy="0,-1" size="650,24" type="rect" lineColor="#ffa0a0a0" fillColor="#ffd6d6d6">
+    </image>
+    <image id="n2" name="n2" src="kwngiu98" xy="1,1" size="648,22">
       <relation target="" sidePair="width-width"/>
-    </graph>
-    <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="504,102">
-      <relation target="" sidePair="width-width"/>
-    </component>
-    <list id="n16" name="nameList" xy="0,23" size="144,20" margin="0,0,0,0" defaultItem="ui://2pshu6oij9jou7j"/>
-    <graph id="n17" name="n17777" xy="144,23" size="1,40" type="rect" lineSize="0" lineColor="#ffa6a6a6" fillColor="#ffa6a6a6">
+    </image>
+    <graph id="n17" name="n17777" xy="144,23" size="1,63" type="rect" lineSize="0" lineColor="#ffa6a6a6" fillColor="#ff555555">
       <relation target="" sidePair="height-height"/>
-    </graph>
-    <graph id="n19" name="n19" xy="144,86" size="1,17" type="rect" lineSize="0" lineColor="#ffa6a6a6" fillColor="#ffa6a6a6">
-      <relation target="" sidePair="bottom-bottom"/>
     </graph>
     <graph id="n20" name="numBar" xy="1,0" size="648,23" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <text id="n21" name="n21" xy="147,68" size="23,16" group="n23" fontSize="12" text="fps"/>
-    <text id="n22" name="fps" xy="126,68" size="21,16" group="n23" fontSize="12" align="right" autoSize="none" text="24"/>
-    <text id="n24" name="n24" xy="189,68" size="41,16" group="n23" fontSize="12" text="frame:"/>
-    <text id="n25" name="frame" xy="225,68" size="34,16" group="n23" fontSize="12" autoSize="none" text="24"/>
-    <text id="n26" name="n26" xy="272,68" size="35,16" group="n23" fontSize="12" text="time:"/>
-    <text id="n27" name="time" xy="302,68" size="48,16" group="n23" fontSize="12" autoSize="none" text="1s"/>
-    <group id="n23" name="n23" xy="126,68" size="224,16" advanced="true">
+    <list id="n16" name="nameList" xy="1,23" size="143,62" overflow="scroll" scrollBar="hidden" margin="0,0,0,0" defaultItem="ui://2pshu6oij9jou7j">
+      <relation target="" sidePair="height-height"/>
+    </list>
+    <list id="n29" name="list" xy="145,23" size="505,78" overflow="scroll" scroll="both" margin="0,3,0,0" scrollBarMargin="0,0,130,0" defaultItem="ui://2pshu6oi85piu7f">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="504,88" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n21" name="n21" xy="43,87" size="23,15" group="n23" fontSize="11" color="#cccccc" text="fps"/>
+    <text id="n22" name="fps" xy="22,87" size="21,16" group="n23" fontSize="11" color="#d19036" align="right" autoSize="none" text="24"/>
+    <text id="n24" name="n24" xy="85,87" size="41,15" group="n23" fontSize="11" color="#cccccc" text="frame:"/>
+    <text id="n25" name="frame" xy="121,87" size="34,16" group="n23" fontSize="11" color="#d19036" autoSize="none" text="24"/>
+    <text id="n26" name="n26" xy="168,87" size="35,15" group="n23" fontSize="11" color="#cccccc" text="time:"/>
+    <text id="n27" name="time" xy="198,87" size="48,16" group="n23" fontSize="11" color="#d19036" autoSize="none" text="1s"/>
+    <group id="n23" name="n23" xy="22,87" size="224,16" advanced="true">
       <relation target="" sidePair="bottom-bottom"/>
     </group>
+    <text id="n30" name="prompt" xy="152,28" size="269,16" fontSize="12" color="#cccccc" text="选择一个元件后，在右键菜单中选择改变目标属性"/>
   </displayList>
-  <relation target="n15" sidePair="bottomext-bottom"/>
 </component>

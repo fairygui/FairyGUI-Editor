@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="302,21">
   <displayList>
-    <graph id="n11" name="n11" xy="0,0" size="302,20" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#fff3f6f7">
+    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="302,21">
       <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <graph id="n4" name="n4" xy="0,20" size="302,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
-      <relation target="" sidePair="width-width,top-bottom"/>
-    </graph>
-    <text id="n12" name="n12" xy="0,2" size="150,16" fontSize="12" align="center" autoSize="none" text="文本"/>
-    <text id="n13" name="n13" xy="152,2" size="150,16" fontSize="12" align="center" autoSize="none" text="值"/>
-    <graph id="n14" name="n14" xy="150,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    </image>
+    <text id="n12" name="n12" xy="1,2" size="148,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="文本"/>
+    <text id="n13" name="n13" xy="152,2" size="148,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="值"/>
+    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="150,1" size="2,19"/>
   </displayList>
 </component>

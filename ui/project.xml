@@ -6,6 +6,6 @@
   </packages>
   <textSetting font="SimSun" size="12" color="#000000"/>
   <scrollBars vertical="ui://nk9ejx23xual0" horizontal="ui://nk9ejx23xualf" defaultDisplay="visible"/>
-  <colorScheme value="自定义颜色 #FF0000"/>
+  <colorScheme value="自定义颜色 #CCCCCC&#xD;&#xA;文本颜色 #B2B2B2&#xD;&#xA;边框颜色 #151415&#xD;&#xA;填充颜色 #3f3f3f&#xD;&#xA;主填充颜色 #383838&#xD;&#xA;输入填充颜色 #A0A0A0&#xD;&#xA;亮文字 #D19036&#xD;&#xA;文本框背景 #414141&#xD;&#xA;分割线 #555555"/>
   <fontSizeScheme value="自定义字体大小 30"/>
 </projectDescription>

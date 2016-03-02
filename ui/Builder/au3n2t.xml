@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,140" overflow="hidden">
+<component size="240,151" overflow="hidden">
   <displayList>
-    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,140">
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,151" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图形"/>
     </component>
-    <text id="n17" name="n17" xy="6,28" size="65,16" fontSize="12" align="right" autoSize="none" text="图形"/>
-    <text id="n33" name="n33" xy="6,53" size="65,16" fontSize="12" align="right" autoSize="none" text="线条大小"/>
-    <text id="n35" name="n35" xy="118,53" size="59,16" fontSize="12" align="right" autoSize="none" text="颜色">
-      <relation target="n58" sidePair="left-right"/>
-    </text>
-    <component id="n39" name="type" src="gcza18" pkg="nk9ejx23" xy="74,26">
+    <text id="n17" name="n17" xy="6,28" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="图形"/>
+    <text id="n33" name="n33" xy="6,52" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="线条大小"/>
+    <text id="n35" name="n35" xy="6,76" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="线条颜色"/>
+    <component id="n39" name="type" src="gcza18" pkg="nk9ejx23" xy="92,25" size="137,19">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n55" name="n55" xy="6,79" size="65,16" fontSize="12" align="right" autoSize="none" text="填充颜色"/>
-    <component id="n56" name="cornerRadius" src="gcza1s" pkg="nk9ejx23" xy="74,104"/>
-    <text id="n57" name="n57" xy="6,106" size="65,16" fontSize="12" align="right" autoSize="none" text="圆角"/>
-    <component id="n58" name="lineSize" src="au3n69" pkg="nk9ejx23" xy="74,51" size="35,20">
+    <text id="n55" name="n55" xy="6,100" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="填充颜色"/>
+    <component id="n56" name="cornerRadius" src="gcza1s" pkg="nk9ejx23" xy="92,122" size="137,20"/>
+    <text id="n57" name="n57" xy="6,124" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="圆角"/>
+    <component id="n58" name="lineSize" src="au3n69" pkg="nk9ejx23" xy="92,51" size="35,20">
       <Label title="0"/>
     </component>
-    <component id="n59" name="lineColor" src="935t5o" xy="182,53">
-      <relation target="n35" sidePair="left-right"/>
-    </component>
-    <component id="n60" name="fillColor" src="935t5o" xy="74,79"/>
+    <component id="n59" name="lineColor" src="935t5o" xy="92,76"/>
+    <component id="n60" name="fillColor" src="935t5o" xy="92,99"/>
   </displayList>
 </component>

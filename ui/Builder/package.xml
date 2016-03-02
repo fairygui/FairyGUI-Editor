@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="2pshu6oi" jpegQuality="80" idnum="221" resolution="1200x800" compressPNG="true">
+<packageDescription id="2pshu6oi" jpegQuality="80" idnum="221" resolution="1200x800" compressPNG="false">
   <resources>
     <component id="au3n0" name="MainPanel" folder="" file="au3n0.xml" exported="true"/>
     <component id="au3n3" name="LibPanel" folder="" file="au3n3.xml"/>
@@ -24,47 +24,46 @@
     <image id="au3nt" name="shape_group.png" folder="au3n2h" qualityOption="source" file="au3nt.png" size="16,16"/>
     <image id="au3nu" name="shape_flip_vertical.png" folder="au3n2h" qualityOption="source" file="au3nu.png" size="10,13"/>
     <image id="au3nv" name="shape_flip_horizontal.png" folder="au3n2h" qualityOption="source" file="au3nv.png" size="13,9"/>
-    <image id="au3n10" name="shape_align_top.png" folder="au3n2h" qualityOption="source" file="au3n10.png" size="13,14"/>
-    <image id="au3n11" name="shape_align_right.png" folder="au3n2h" qualityOption="source" file="au3n11.png" size="14,13"/>
-    <image id="au3n12" name="shape_align_middle.png" folder="au3n2h" qualityOption="source" file="au3n12.png" size="13,13"/>
-    <image id="au3n13" name="shape_align_left.png" folder="au3n2h" qualityOption="source" file="au3n13.png" size="14,13"/>
-    <image id="au3n14" name="shape_align_center.png" folder="au3n2h" qualityOption="source" file="au3n14.png" size="13,13"/>
-    <image id="au3n15" name="shape_align_bottom.png" folder="au3n2h" qualityOption="source" file="au3n15.png" size="13,14"/>
+    <image id="au3n10" name="shape_align_top.png" folder="au3n2h" qualityOption="source" file="au3n10.png" size="14,14"/>
+    <image id="au3n11" name="shape_align_right.png" folder="au3n2h" qualityOption="source" file="au3n11.png" size="13,13"/>
+    <image id="au3n12" name="shape_align_middle.png" folder="au3n2h" qualityOption="source" file="au3n12.png" size="16,12"/>
+    <image id="au3n13" name="shape_align_left.png" folder="au3n2h" qualityOption="source" file="au3n13.png" size="13,15"/>
+    <image id="au3n14" name="shape_align_center.png" folder="au3n2h" qualityOption="source" file="au3n14.png" size="11,16"/>
+    <image id="au3n15" name="shape_align_bottom.png" folder="au3n2h" qualityOption="source" file="au3n15.png" size="14,14"/>
     <image id="au3n16" name="resize.png" folder="au3n2h" file="au3n16.png" size="18,15"/>
-    <image id="au3n17" name="装载器.png" folder="au3n2h" qualityOption="source" file="au3n17.png" size="16,13" exported="true"/>
+    <image id="au3n17" name="装载器.png" folder="au3n2h" qualityOption="source" file="au3n17.png" size="14,14" exported="true"/>
     <image id="au3n18" name="phone.png" folder="au3n2h" qualityOption="source" file="au3n18.png" size="9,16"/>
     <image id="au3n19" name="paste.png" folder="au3n2h" qualityOption="source" file="au3n19.png" size="16,16"/>
     <image id="au3n1a" name="lock_open.png" folder="au3n2h" qualityOption="source" file="au3n1a.png" size="14,16"/>
-    <image id="au3n1b" name="lock.png" folder="au3n2h" qualityOption="source" file="au3n1b.png" size="14,16"/>
+    <image id="au3n1b" name="lock.png" folder="au3n2h" qualityOption="source" file="au3n1b.png" size="10,13"/>
     <image id="au3n1c" name="link_break.png" folder="au3n2h" qualityOption="source" file="au3n1c.png" size="15,13"/>
     <image id="au3n1d" name="link.png" folder="au3n2h" qualityOption="source" file="au3n1d.png" size="14,7"/>
-    <image id="au3n1e" name="动画.png" folder="au3n2h" qualityOption="package" file="au3n1e.jpg" size="16,16" exported="true"/>
+    <image id="au3n1e" name="动画.png" folder="au3n2h" qualityOption="source" file="au3n1e.png" size="14,14" exported="true"/>
     <image id="au3n1f" name="hourglass.png" folder="au3n2h" qualityOption="source" file="au3n1f.png" size="14,16"/>
     <image id="au3n1g" name="hand.png" folder="au3n2h" qualityOption="source" file="au3n1g.png" size="14,14"/>
     <image id="au3n1h" name="group.png" folder="au3n2h" qualityOption="source" file="au3n1h.png" size="15,15" exported="true"/>
-    <image id="au3n1i" name="cursor.png" folder="au3n2h" qualityOption="source" file="au3n1i.png" size="12,16"/>
-    <image id="au3n1j" name="cross.png" folder="au3n2h" qualityOption="source" file="au3n1j.png" size="15,15"/>
+    <image id="au3n1i" name="cursor.png" folder="au3n2h" qualityOption="source" file="au3n1i.png" size="8,15"/>
+    <image id="au3n1j" name="cross.png" folder="au3n2h" qualityOption="source" file="au3n1j.png" size="11,12"/>
     <image id="au3n1k" name="close.png" folder="au3n2h" qualityOption="source" file="au3n1k.png" size="16,15"/>
     <image id="au3n1l" name="button.png" folder="au3n2h" qualityOption="source" file="au3n1l.png" size="16,8"/>
     <image id="au3n1m" name="bullet_red.png" folder="au3n2h" file="au3n1m.png" size="6,6" exported="true"/>
     <image id="au3n1n" name="自定义排列.png" folder="au3n2h" file="au3n1n.png" size="14,13" qualityOption="source"/>
-    <image id="au3n1p" name="元件.png" folder="au3n2h" qualityOption="package" file="au3n1p.png" size="16,16" exported="true"/>
-    <image id="au3n1q" name="预览.png" folder="au3n2h" qualityOption="source" file="au3n1q.png" size="16,12"/>
+    <image id="au3n1p" name="元件.png" folder="au3n2h" qualityOption="source" file="au3n1p.png" size="14,14" exported="true"/>
     <image id="au3n1r" name="项目.png" folder="au3n2h" file="au3n1r.jpg" size="16,16"/>
-    <image id="au3n1s" name="相同宽度.png" folder="au3n2h" file="au3n1s.png" size="14,13" qualityOption="source"/>
-    <image id="au3n1t" name="相同高度.png" folder="au3n2h" file="au3n1t.png" size="13,14" qualityOption="source"/>
-    <image id="au3n1u" name="文字.png" folder="au3n2h" file="au3n1u.png" size="16,16" exported="true"/>
-    <image id="au3n21" name="图形.png" folder="au3n2h" qualityOption="package" file="au3n21.png" size="14,14" exported="true"/>
-    <image id="au3n22" name="图片.png" folder="au3n2h" qualityOption="source" file="au3n22.png" size="15,15" exported="true"/>
+    <image id="au3n1s" name="相同宽度.png" folder="au3n2h" file="au3n1s.png" size="13,14" qualityOption="source"/>
+    <image id="au3n1t" name="相同高度.png" folder="au3n2h" file="au3n1t.png" size="14,14" qualityOption="source"/>
+    <image id="au3n1u" name="文字.png" folder="au3n2h" file="au3n1u.png" size="14,14" exported="true" qualityOption="source"/>
+    <image id="au3n21" name="图形.png" folder="au3n2h" qualityOption="source" file="au3n21.png" size="14,14" exported="true"/>
+    <image id="au3n22" name="图片.png" folder="au3n2h" qualityOption="source" file="au3n22.png" size="14,14" exported="true"/>
     <image id="au3n23" name="声音.png" folder="au3n2h" qualityOption="source" file="au3n23.png" size="16,14" exported="true"/>
     <image id="au3n24" name="其他素材.png" folder="au3n2h" qualityOption="source" file="au3n24.png" size="15,15" exported="true"/>
-    <image id="au3n25" name="列表.png" folder="au3n2h" qualityOption="package" file="au3n25.png" size="16,16" exported="true"/>
+    <image id="au3n25" name="列表.png" folder="au3n2h" qualityOption="source" file="au3n25.png" size="16,16" exported="true"/>
     <image id="au3n26" name="控制器.png" folder="au3n2h" file="au3n26.png" size="16,16"/>
-    <image id="au3n29" name="发布.png" folder="au3n2h" qualityOption="source" file="au3n29.png" size="16,16"/>
+    <image id="au3n29" name="发布.png" folder="au3n2h" qualityOption="source" file="au3n29.png" size="14,14"/>
     <image id="au3n2a" name="测试.png" folder="au3n2h" qualityOption="package" file="au3n2a.png" size="16,16"/>
     <image id="au3n2c" name="保存全部.png" folder="au3n2h" qualityOption="source" file="au3n2c.png" size="14,14"/>
-    <image id="au3n2d" name="保存.png" folder="au3n2h" qualityOption="source" file="au3n2d.png" size="16,16"/>
-    <image id="au3n2e" name="包.png" folder="au3n2h" file="au3n2e.png" size="13,13" exported="true" qualityOption="package"/>
+    <image id="au3n2d" name="保存.png" folder="au3n2h" qualityOption="source" file="au3n2d.png" size="14,14"/>
+    <image id="au3n2e" name="包.png" folder="au3n2h" file="au3n2e.png" size="13,13" exported="true" qualityOption="source"/>
     <image id="au3n2f" name="SWF.png" folder="au3n2h" qualityOption="package" file="au3n2f.png" size="16,16" exported="true"/>
     <image id="au3n2g" name="shape_ungroup.png" folder="au3n2h" qualityOption="source" file="au3n2g.png" size="14,14"/>
     <folder id="au3n2h" name="icons" folder=""/>
@@ -95,7 +94,7 @@
     <component id="au3n40" name="FontEditDialog" folder="au3n4n" file="au3n40.xml" exported="true"/>
     <component id="au3n41" name="FontEdit_header" folder="au3n4n" file="au3n41.xml"/>
     <component id="au3n42" name="FontEdit_item" folder="au3n4n" file="au3n42.xml"/>
-    <image id="au3n43" name="文字H.png" folder="au3n2h" qualityOption="package" file="au3n43.png" size="16,16" exported="true"/>
+    <image id="au3n43" name="文字H.png" folder="au3n2h" qualityOption="source" file="au3n43.png" size="14,14" exported="true"/>
     <component id="au3n44" name="RenameDialog" folder="au3n4n" file="au3n44.xml" exported="true"/>
     <component id="au3n45" name="FixConflictedNameDialog" folder="au3n4n" file="au3n45.xml" exported="true"/>
     <component id="au3n46" name="ConfirmDialog" folder="au3n4n" file="au3n46.xml" exported="true"/>
@@ -144,16 +143,16 @@
     <component id="au3n5h" name="ControllerNameItem" folder="au3n4o" file="au3n5h.xml"/>
     <component id="au3n5i" name="CustomArrangeDialog" folder="au3n4n" file="au3n5i.xml" exported="true"/>
     <component id="sl3v5j" name="RelationTypePopup" folder="au3n4m" file="sl3v5j.xml" exported="true"/>
-    <image id="x5ao5k" name="cog.png" folder="au3n2h" qualityOption="source" file="x5ao5k.png" size="16,16"/>
+    <image id="x5ao5k" name="cog.png" folder="au3n2h" qualityOption="source" file="x5ao5k.png" size="14,14"/>
     <folder id="935t5p" name="ColorPicker" folder=""/>
     <component id="935t5o" name="ColorInputWithPreset" folder="935t5p" file="935t5o.xml" exported="true"/>
     <image id="935t5q" name="a17.png" folder="935t5p" file="935t5q.png" size="7,6" scale="tile"/>
     <component id="io7w5r" name="PreferencesDialog" folder="au3n4n" file="io7w5r.xml" exported="true"/>
-    <image id="ofk55t" name="filter.png" folder="pia6u82" qualityOption="source" file="ofk55t.png" size="16,16"/>
+    <image id="ofk55t" name="filter.png" folder="pia6u82" qualityOption="source" file="ofk55t.png" size="14,14"/>
     <component id="ofk55u" name="ChoosePackagesDialog" folder="au3n4n" file="ofk55u.xml" exported="true"/>
     <component id="gs6u5w" name="PromptDialog" folder="au3n4n" file="gs6u5w.xml" exported="true"/>
     <component id="vdh75x" name="ChooseFolderDialog" folder="au3n4n" file="vdh75x.xml" exported="true"/>
-    <image id="bfc35y" name="collapse.png" folder="au3n2h" qualityOption="package" file="bfc35y.png" size="15,15"/>
+    <image id="bfc35y" name="collapse.png" folder="au3n2h" qualityOption="source" file="bfc35y.png" size="11,11"/>
     <component id="iyi45z" name="ToolButton3" folder="au3n4p" file="iyi45z.xml"/>
     <component id="ud2n61" name="ComDesignPropsPanel" folder="au3n4m" file="ud2n61.xml" exported="true"/>
     <component id="guki62" name="EtcPropsPanel" folder="au3n4m" file="guki62.xml" exported="true"/>
@@ -163,28 +162,27 @@
     <component id="l2gzu66" name="AboutDialog" folder="au3n4n" file="l2gzu66.xml" exported="true"/>
     <image id="sq3uu67" name="table_multiple.png" folder="au3n2h" qualityOption="source" file="sq3uu67.png" size="15,15"/>
     <component id="hqnwu69" name="ChildrenDialog" folder="au3n4n" file="hqnwu69.xml" exported="true"/>
-    <image id="uzegu6a" name="eye.png" folder="au3n2h" qualityOption="source" file="uzegu6a.png" size="16,12"/>
+    <image id="uzegu6a" name="eye.png" folder="au3n2h" qualityOption="source" file="uzegu6a.png" size="14,12"/>
     <component id="uzegu6c" name="ChildrenDialog_header" folder="au3n4n" file="uzegu6c.xml"/>
     <image id="g1zau6d" name="play_right.png" folder="au3n2h" qualityOption="package" file="g1zau6d.png" size="24,24"/>
     <image id="g1zau6e" name="play_left.png" folder="au3n2h" qualityOption="package" file="g1zau6e.png" size="24,24"/>
     <image id="g1zau6f" name="ani_play.png" folder="au3n2h" qualityOption="package" file="g1zau6f.png" size="24,24"/>
     <image id="g1zau6g" name="ani_paused.png" folder="au3n2h" qualityOption="package" file="g1zau6g.png" size="24,24"/>
-    <image id="krunu6h" name="add_res.png" folder="au3n2h" file="krunu6h.png" size="16,16" smoothing="false"/>
+    <image id="krunu6h" name="add_res.png" folder="au3n2h" file="krunu6h.png" size="14,14" smoothing="false" qualityOption="source"/>
     <component id="yi3eu6i" name="CreateMovieClipDialog" folder="au3n4n" file="yi3eu6i.xml" exported="true"/>
     <component id="llhvu6j" name="FindReferenceDialog" folder="au3n4n" file="llhvu6j.xml" exported="true"/>
     <component id="oqvzu6k" name="StringsFunctionDialog" folder="au3n4n" file="oqvzu6k.xml" exported="true"/>
     <component id="f814u6l" name="CreateComboBoxDialog" folder="au3n4n" file="f814u6l.xml" exported="true"/>
     <component id="f814u6n" name="CreateLabelDialog" folder="au3n4n" file="f814u6n.xml" exported="true"/>
-    <image id="psdnu6q" name="dropdown.png" folder="au3n2h" qualityOption="source" file="psdnu6q.png" size="10,5"/>
+    <image id="psdnu6q" name="dropdown.png" folder="au3n2h" qualityOption="source" file="psdnu6q.png" size="9,5"/>
     <image id="psdnu6r" name="trash.png" folder="au3n2h" qualityOption="source" file="psdnu6r.png" size="12,15"/>
-    <image id="psdnu6s" name="folder.png" folder="au3n2h" qualityOption="package" file="psdnu6s.png" size="15,11" exported="true"/>
+    <image id="psdnu6s" name="folder.png" folder="au3n2h" qualityOption="source" file="psdnu6s.png" size="15,13" exported="true"/>
     <component id="mellu6t" name="AtlasList_header" folder="au3n4n" file="mellu6t.xml"/>
     <component id="mellu6u" name="AtlasList_item" folder="au3n4n" file="mellu6u.xml"/>
     <component id="pstgu6v" name="ImagePropsPanel" folder="au3n4m" file="pstgu6v.xml" exported="true"/>
     <image id="hnrru6w" name="发布2.png" folder="au3n2h" qualityOption="package" file="hnrru6w.png" size="16,16"/>
-    <image id="pi83u6x" name="下箭头.png" folder="pia6u82" qualityOption="package" file="pi83u6x.png" size="9,5"/>
+    <image id="pi83u6x" name="下箭头.png" folder="pia6u82" qualityOption="source" file="pi83u6x.png" size="9,5"/>
     <component id="pi83u6y" name="下拉按钮" folder="au3n4p" file="pi83u6y.xml"/>
-    <component id="tvg7u6z" name="ComTransitionsPanel" folder="au3n4m" file="tvg7u6z.xml" exported="true"/>
     <component id="tvg7u70" name="TransitionItem" folder="au3n4m" file="tvg7u70.xml"/>
     <folder id="tvg7u71" name="timeline" folder=""/>
     <component id="tvg7u72" name="TimelinePanel" folder="tvg7u71" file="tvg7u72.xml"/>
@@ -193,9 +191,9 @@
     <component id="mduxu76" name="TimelineRange" folder="tvg7u71" file="mduxu76.xml"/>
     <component id="vplzu77" name="TimelineIndicator" folder="tvg7u71" file="vplzu77.xml" exported="true"/>
     <component id="wzy5u7a" name="TransitionFramePanel" folder="au3n4m" file="wzy5u7a.xml" exported="true"/>
-    <image id="cnolu7b" name="tweenline2" folder="tvg7u71" qualityOption="package" file="cnolu7b.png" size="5,7"/>
-    <image id="cnolu7c" name="dot" folder="tvg7u71" qualityOption="package" file="cnolu7c.png" size="7,7"/>
-    <image id="cnolu7d" name="tweenline" folder="tvg7u71" file="cnolu7d.png" size="13,7" scale="9grid" scale9grid="4,2,2,4"/>
+    <image id="cnolu7b" name="tweenline2" folder="tvg7u71" qualityOption="source" file="cnolu7b.png" size="5,7"/>
+    <image id="cnolu7c" name="dot" folder="tvg7u71" qualityOption="source" file="cnolu7c.png" size="7,7"/>
+    <image id="cnolu7d" name="tweenline" folder="tvg7u71" file="cnolu7d.png" size="13,7" scale="9grid" scale9grid="4,2,2,4" qualityOption="source"/>
     <component id="cnolu7e" name="TweenLine" folder="tvg7u71" file="cnolu7e.xml" exported="true"/>
     <component id="85piu7f" name="Timeline" folder="tvg7u71" file="85piu7f.xml"/>
     <component id="85piu7g" name="TimelineSelection" folder="tvg7u71" file="85piu7g.xml"/>
@@ -204,17 +202,15 @@
     <component id="j9jou7j" name="TimelineNameItem" folder="tvg7u71" file="j9jou7j.xml"/>
     <image id="hzcpu7k" name="edit" folder="au3n2h" qualityOption="source" file="hzcpu7k.png" size="16,16"/>
     <component id="q5ueu7m" name="BasicPropsInTransPanel" folder="au3n4m" file="q5ueu7m.xml" exported="true"/>
-    <component id="pyjju7n" name="CurveEditButton" folder="au3n4m" file="pyjju7n.xml"/>
-    <component id="pyjju7p" name="CurveEditPanel" folder="au3n4m" file="pyjju7p.xml" exported="true"/>
     <image id="vb5vu7q" name="link_go" folder="au3n2h" qualityOption="source" file="vb5vu7q.png" size="15,12"/>
     <component id="jcdgu7r" name="TweenEditPanel" folder="au3n4m" file="jcdgu7r.xml" exported="true"/>
     <component id="8z21u7s" name="OpenProjectWindow" folder="" file="8z21u7s.xml" exported="true"/>
     <image id="dnyau7t" name="logo48" folder="au3n2h" qualityOption="package" file="dnyau7t.png" size="48,48"/>
-    <image id="dnyau7u" name="1427600131_808551" folder="pia6u82" qualityOption="package" file="dnyau7u.png" size="176,32"/>
+    <image id="dnyau7u" name="1427600131_808551" folder="pia6u82" qualityOption="source" file="dnyau7u.png" size="194,44"/>
     <component id="sux8u7v" name="UpgradeWindow" folder="" file="sux8u7v.xml" exported="true"/>
     <component id="tgp0u7w" name="UpgradeNotes" folder="" file="tgp0u7w.xml"/>
     <component id="m4vsu7x" name="ScrollEditPanel" folder="au3n4m" file="m4vsu7x.xml" exported="true"/>
-    <image id="ehmsu7y" name="info" folder="au3n2h" qualityOption="source" file="ehmsu7y.png" size="16,16"/>
+    <image id="ehmsu7y" name="info" folder="au3n2h" qualityOption="source" file="ehmsu7y.png" size="14,14"/>
     <component id="ehmsu7z" name="信息按钮" folder="au3n4p" file="ehmsu7z.xml"/>
     <component id="qacnu81" name="MultiSelectionPanel" folder="au3n4m" file="qacnu81.xml" exported="true"/>
     <folder id="pia6u82" name="images" folder=""/>
@@ -228,7 +224,7 @@
     <component id="10j9iu8e" name="ChooseFontDialog" folder="au3n4n" file="10j9iu8e.xml" exported="true"/>
     <component id="8swdiu8f" name="MultiImageEditDialog" folder="au3n4n" file="8swdiu8f.xml" exported="true"/>
     <component id="t3skiu8g" name="CreatePopupMenuDialog" folder="au3n4n" file="t3skiu8g.xml" exported="true"/>
-    <image id="t3skiu8h" name="Bitmap(3)" folder="pia6u82" qualityOption="package" file="t3skiu8h.png" size="187,186"/>
+    <image id="t3skiu8h" name="Bitmap(3)" folder="pia6u82" qualityOption="source" file="t3skiu8h.png" size="187,186"/>
     <component id="f5apiu8i" name="FontList_item" folder="au3n4n" file="f5apiu8i.xml"/>
     <component id="rjtoiu8j" name="SearchPanel" folder="" file="rjtoiu8j.xml"/>
     <image id="kucciu8k" name="arrow_down" folder="au3n2h" qualityOption="source" file="kucciu8k.png" size="8,14"/>
@@ -243,11 +239,20 @@
     <component id="kqx1iu8u" name="ProjectProps_header" folder="au3n4n" file="kqx1iu8u.xml"/>
     <component id="kqx1iu8v" name="ProjectProps_item" folder="au3n4n" file="kqx1iu8v.xml"/>
     <component id="xl19iu8x" name="ChildrenDialog_item" folder="au3n4n" file="xl19iu8x.xml" exported="true"/>
-    <component id="xl19iu8y" name="TreeExpandButton" folder="" file="xl19iu8y.xml"/>
-    <image id="xl19iu8z" name="i3.png" folder="pia6u82" qualityOption="source" file="xl19iu8z.png" size="9,9"/>
-    <image id="xl19iu90" name="i4.png" folder="pia6u82" qualityOption="source" file="xl19iu90.png" size="9,9"/>
+    <image id="xl19iu8z" name="i3.png" folder="pia6u82" qualityOption="source" file="xl19iu8z.png" size="5,9"/>
+    <image id="xl19iu90" name="i4.png" folder="pia6u82" qualityOption="source" file="xl19iu90.png" size="9,5"/>
     <image id="9z66iu91" name="未标题-1(2)" folder="pia6u82" qualityOption="package" file="9z66iu91.png" size="18,19"/>
     <image id="9z66iu92" name="未标题-1(3)" folder="pia6u82" qualityOption="package" file="9z66iu92.png" size="21,22"/>
+    <component id="orb8iu93" name="ScrollBarSettingDialog" folder="au3n4n" file="orb8iu93.xml" exported="true"/>
+    <image id="jvwaiu94" name="QQ20160226-1" folder="pia6u82" qualityOption="source" file="jvwaiu94.png" size="413,663"/>
+    <image id="jvwaiu95" name="bar2" folder="pia6u82" qualityOption="source" file="jvwaiu95.png" size="190,21" scale="9grid" scale9grid="48,6,96,12"/>
+    <image id="jvwaiu96" name="bar" folder="pia6u82" qualityOption="source" file="jvwaiu96.png" size="376,20" scale="9grid" scale9grid="8,5,357,10"/>
+    <image id="kwngiu97" name="2016-02-29_133956" folder="pia6u82" qualityOption="source" file="kwngiu97.png" size="15,16" scale="9grid" scale9grid="4,3,8,10"/>
+    <image id="kwngiu98" name="2016-02-29_134237" folder="pia6u82" qualityOption="source" file="kwngiu98.png" size="13,25" scale="9grid" scale9grid="2,5,8,16"/>
+    <component id="krzwiu99" name="TransitionListPanel" folder="krzwiu9a" file="krzwiu99.xml"/>
+    <folder id="krzwiu9a" name="transition" folder=""/>
+    <component id="hs7xiu9b" name="TransitionNameItem" folder="krzwiu9a" file="hs7xiu9b.xml" exported="true"/>
+    <component id="isb8iu9c" name="ToolButton_Radio2" folder="au3n4p" file="isb8iu9c.xml"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

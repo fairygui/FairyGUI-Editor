@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="400,19" idnum="3">
+<component size="400,22">
   <displayList>
-    <image id="n0" name="n0" src="au3nf" xy="0,0" size="400,19">
+    <image id="n5" name="n5" src="au3nf" xy="0,0" size="400,22">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <list id="n2" name="list" xy="0,0" size="400,19" layout="row" overflow="hidden" defaultItem="ui://nk9ejx23au3n5u">
+    <image id="n4" name="n4" src="au3n39" pkg="nk9ejx23" xy="0,20" size="400,2">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <list id="n2" name="list" xy="0,1" size="400,19" layout="row" overflow="hidden" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n5u">
       <relation target="" sidePair="width-width"/>
     </list>
   </displayList>

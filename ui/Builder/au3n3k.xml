@@ -11,8 +11,8 @@
     <component id="n4" name="btnCancel" src="xualm" pkg="nk9ejx23" xy="248,255">
       <Button title="取消"/>
     </component>
-    <graph id="n5" name="n5" xy="12,55" size="335,190" type="rect" lineColor="#ffa0a0a0"/>
-    <text id="n6" name="n6" xy="14,30" size="149,16" fontSize="12" text="是否保存以下各项的修改？"/>
-    <list id="n7" name="list" xy="13,56" size="333,188" overflow="scroll" scrollBarFlags="4" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n4s"/>
+    <graph id="n5" name="n5" xy="12,55" size="335,190" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <text id="n6" name="n6" xy="14,30" size="149,16" fontSize="12" color="#b2b2b2" text="是否保存以下各项的修改？"/>
+    <list id="n7" name="list" xy="12,55" size="335,190" overflow="scroll" scrollBarFlags="4" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n4s"/>
   </displayList>
 </component>

@@ -10,6 +10,6 @@
     <component id="n8" name="n8" src="gcza1p" pkg="nk9ejx23" xy="23,59" size="316,12">
       <ProgressBar value="50" max="100"/>
     </component>
-    <text id="n9" name="n9" xy="27,32" size="310,16" fontSize="12" align="center" autoSize="height" text="正在导入"/>
+    <text id="n9" name="n9" xy="27,32" size="310,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="正在导入"/>
   </displayList>
 </component>

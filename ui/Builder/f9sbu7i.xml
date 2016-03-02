@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="255,103" overflow="scroll" scroll="both">
+<component size="255,63" overflow="scroll" scroll="horizontal" scrollBar="hidden">
   <displayList>
-    <list id="n0" name="list" xy="0,23" size="254,40" scroll="both" margin="0,0,0,0" defaultItem="ui://2pshu6oi85piu7f">
-      <relation target="" sidePair="width-width"/>
-    </list>
-    <component id="n2" name="selector" src="85piu7g" xy="140,24"/>
-    <component id="n3" name="selector2" src="85piu7h" xy="158,23"/>
     <component id="n1" name="head" src="nkoeu75" xy="57,0" size="10,65">
       <relation target="" sidePair="height-height"/>
     </component>
   </displayList>
-  <relation target="n0" sidePair="bottomext-bottom"/>
 </component>

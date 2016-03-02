@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="20,19" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
   <displayList>
-    <image id="n1" name="n1" src="xualq" xy="0,2" aspect="true">
+    <image id="n1" name="n1" src="xualj" xy="0,3" size="13,13">
       <gearDisplay controller="button" pages="0"/>
     </image>
-    <image id="n2" name="n2" src="xualn" xy="0,2" aspect="true">
+    <image id="n2" name="n2" src="xualj" xy="0,3" size="13,13">
       <gearDisplay controller="button" pages="1"/>
     </image>
-    <image id="n3" name="n3" src="xualp" xy="0,2" aspect="true">
-      <gearDisplay controller="button" pages="2"/>
+    <image id="n3" name="n3" src="xualk" xy="0,3" size="13,13">
+      <gearDisplay controller="button" pages="2,3"/>
     </image>
-    <image id="n4" name="n4" src="xualo" xy="0,2" aspect="true">
-      <gearDisplay controller="button" pages="3"/>
-    </image>
-    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
+    <image id="n7" name="n7" src="kwng7e" xy="1,2">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
   </displayList>
   <Button mode="Check"/>
 </component>

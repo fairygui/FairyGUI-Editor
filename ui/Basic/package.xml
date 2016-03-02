@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="nk9ejx23" jpegQuality="80" idnum="250" compressPNG="true">
+<packageDescription id="nk9ejx23" jpegQuality="80" idnum="250" compressPNG="false">
   <resources>
     <component id="xual0" name="ScrollBar_VT" folder="xual1" file="xual0.xml" exported="true"/>
     <folder id="xual1" name="ScrollBar" folder=""/>
-    <image id="xual2" name="s1.png" folder="xual1" qualityOption="source" file="xual2.jpg" size="9,20"/>
-    <image id="xual3" name="s2.png" folder="xual1" qualityOption="source" file="xual3.jpg" size="9,20"/>
-    <image id="xual4" name="s3.png" folder="xual1" qualityOption="source" file="xual4.jpg" size="9,20"/>
+    <image id="xual2" name="s1.png" folder="xual1" qualityOption="source" file="xual2.png" size="13,117" scale="9grid" scale9grid="4,2,5,109"/>
+    <image id="xual3" name="s2.png" folder="xual1" qualityOption="source" file="xual3.png" size="13,117" scale="9grid" scale9grid="4,2,5,111"/>
+    <image id="xual4" name="s3.png" folder="xual1" qualityOption="source" file="xual4.png" size="13,117" scale="9grid" scale9grid="4,2,5,111"/>
     <component id="xual5" name="GripButton_VT" folder="xual1" file="xual5.xml"/>
-    <image id="xual6" name="s4.png" folder="xual1" qualityOption="source" file="xual6.jpg" size="11,7"/>
-    <image id="xual7" name="s5.png" folder="xual1" qualityOption="source" file="xual7.jpg" size="11,7"/>
-    <image id="xual8" name="s6.png" folder="xual1" qualityOption="source" file="xual8.jpg" size="11,7"/>
+    <image id="xual6" name="s4.png" folder="xual1" qualityOption="source" file="xual6.png" size="13,15"/>
+    <image id="xual7" name="s5.png" folder="xual1" qualityOption="source" file="xual7.png" size="13,15"/>
+    <image id="xual8" name="s6.png" folder="xual1" qualityOption="source" file="xual8.png" size="13,15"/>
     <component id="xual9" name="ScrollUpButton" folder="xual1" file="xual9.xml"/>
-    <image id="xuala" name="s7.png" folder="xual1" qualityOption="source" file="xuala.jpg" size="11,7"/>
-    <image id="xualb" name="s8.png" folder="xual1" qualityOption="source" file="xualb.jpg" size="11,7"/>
-    <image id="xualc" name="s9.png" folder="xual1" qualityOption="source" file="xualc.jpg" size="11,7"/>
+    <image id="xuala" name="s7.png" folder="xual1" qualityOption="source" file="xuala.png" size="13,15"/>
+    <image id="xualb" name="s8.png" folder="xual1" qualityOption="source" file="xualb.png" size="13,15"/>
+    <image id="xualc" name="s9.png" folder="xual1" qualityOption="source" file="xualc.png" size="13,15"/>
     <component id="xuald" name="ScrollDownButton" folder="xual1" file="xuald.xml"/>
-    <image id="xuale" name="s10.png" folder="xual1" qualityOption="source" file="xuale.jpg" size="17,20"/>
+    <image id="xuale" name="s10.png" folder="xual1" qualityOption="source" file="xuale.png" size="13,201" scale="9grid" scale9grid="4,7,6,187"/>
     <component id="xualf" name="ScrollBar_HZ" folder="xual1" file="xualf.xml" exported="true"/>
     <component id="xualh" name="GripButton_HZ" folder="xual1" file="xualh.xml"/>
     <folder id="xuali" name="Button" folder=""/>
-    <image id="xualj" name="b5.png" folder="xuali" file="xualj.png" size="85,25" scale="9grid" scale9grid="12,7,61,14"/>
-    <image id="xualk" name="b6.png" folder="xuali" file="xualk.png" size="85,25" scale="9grid" scale9grid="9,5,66,16"/>
-    <image id="xuall" name="b7.png" folder="xuali" qualityOption="source" file="xuall.png" size="85,25" scale="9grid" scale9grid="8,7,66,14"/>
+    <image id="xualj" name="b5.png" folder="xuali" file="xualj.png" size="75,19" scale="9grid" scale9grid="3,3,68,11" exported="true"/>
+    <image id="xualk" name="b6.png" folder="xuali" file="xualk.png" size="75,19" scale="9grid" scale9grid="4,2,65,12" exported="true"/>
+    <image id="xuall" name="b7.png" folder="xuali" file="xuall.png" size="75,19" scale="9grid" scale9grid="4,2,67,13" exported="true"/>
     <component id="xualm" name="Button" folder="xuali" file="xualm.xml" exported="true"/>
     <image id="xualn" name="b1.png" folder="xualr" qualityOption="source" file="xualn.jpg" size="13,13"/>
     <image id="xualo" name="b2.png" folder="xualr" qualityOption="source" file="xualo.jpg" size="13,13"/>
@@ -30,17 +30,17 @@
     <folder id="xualr" name="Checkbox" folder=""/>
     <component id="xualt" name="Checkbox" folder="xualr" file="xualt.xml" exported="true"/>
     <folder id="gczau" name="RadioButton" folder=""/>
-    <image id="gczav" name="a3.png" folder="gczau" file="gczav.png" size="13,13"/>
-    <image id="gcza10" name="a2.png" folder="gczau" file="gcza10.png" size="13,13"/>
-    <image id="gcza11" name="a1.png" folder="gczau" file="gcza11.png" size="13,13"/>
+    <image id="gczav" name="a3.png" folder="gczau" file="gczav.png" size="4,5" qualityOption="source"/>
+    <image id="gcza10" name="a2.png" folder="gczau" file="gcza10.png" size="12,12" qualityOption="source"/>
+    <image id="gcza11" name="a1.png" folder="gczau" file="gcza11.png" size="12,12" qualityOption="source"/>
     <image id="gcza12" name="a4.png" folder="gczau" file="gcza12.png" size="13,13"/>
     <component id="gcza13" name="RadioButton" folder="gczau" file="gcza13.xml" exported="true"/>
     <folder id="gcza14" name="ComboBox" folder=""/>
-    <image id="gcza15" name="c1.png" folder="gcza14" file="gcza15.png" size="100,19" scale="9grid" scale9grid="7,5,73,10"/>
-    <image id="gcza16" name="c3.png" folder="gcza14" file="gcza16.png" size="100,19" scale="9grid" scale9grid="11,5,71,10"/>
-    <image id="gcza17" name="c2.png" folder="gcza14" file="gcza17.png" size="100,19" scale="9grid" scale9grid="8,5,73,10"/>
+    <image id="gcza15" name="c1.png" folder="gcza14" file="gcza15.png" size="87,19" scale="9grid" scale9grid="7,3,56,12" qualityOption="source"/>
+    <image id="gcza16" name="c3.png" folder="gcza14" file="gcza16.png" size="81,20" scale="9grid" scale9grid="11,5,47,10" qualityOption="source"/>
+    <image id="gcza17" name="c2.png" folder="gcza14" file="gcza17.png" size="81,20" scale="9grid" scale9grid="5,5,52,10" qualityOption="source"/>
     <component id="gcza18" name="ComboBox" folder="gcza14" file="gcza18.xml" exported="true"/>
-    <image id="gcza19" name="p1.png" folder="gcza27" file="gcza19.png" size="162,63" scale="9grid" scale9grid="7,4,144,49" qualityOption="package" exported="true"/>
+    <image id="gcza19" name="background.png" folder="" file="gcza19.png" size="216,134" scale="9grid" scale9grid="11,8,192,115" qualityOption="source" exported="true"/>
     <component id="gcza1a" name="ComboBoxPopup" folder="gcza14" file="gcza1a.xml" exported="true"/>
     <component id="gcza1b" name="ComboBoxItem" folder="gcza14" file="gcza1b.xml"/>
     <folder id="gcza1c" name="Window" folder=""/>
@@ -48,19 +48,18 @@
     <folder id="gcza1e" name="Slider" folder=""/>
     <folder id="gcza1f" name="ProgressBar" folder=""/>
     <image id="gcza1g" name="f2.png" folder="gcza1c" file="gcza1g.png" size="353,142" scale="9grid" scale9grid="32,36,295,85"/>
-    <image id="gcza1h" name="f1.png" folder="gcza1c" file="gcza1h.png" size="353,142" scale="9grid" scale9grid="40,36,278,86"/>
+    <image id="gcza1h" name="f1.png" folder="gcza1c" file="gcza1h.png" size="382,253" scale="9grid" scale9grid="18,36,345,205" qualityOption="source"/>
     <image id="gcza1i" name="f5.png" folder="gcza1c" file="gcza1i.png" size="19,15"/>
     <image id="gcza1j" name="f4.png" folder="gcza1c" file="gcza1j.png" size="19,15"/>
     <image id="gcza1k" name="f3.png" folder="gcza1c" file="gcza1k.png" size="19,15"/>
     <component id="gcza1l" name="WindowFrame" folder="gcza1c" file="gcza1l.xml" exported="true"/>
     <component id="gcza1m" name="WindowCloseButton" folder="gcza1c" file="gcza1m.xml" exported="true"/>
-    <image id="gcza1n" name="p3.png" folder="gcza1f" file="gcza1n.png" size="53,6"/>
-    <image id="gcza1o" name="p2.png" folder="gcza1f" file="gcza1o.png" size="145,12" scale="9grid" scale9grid="10,4,121,4"/>
+    <image id="gcza1n" name="p3.png" folder="gcza1f" file="gcza1n.png" size="166,12" qualityOption="source"/>
+    <image id="gcza1o" name="p2.png" folder="gcza1f" file="gcza1o.png" size="222,15" scale="9grid" scale9grid="10,4,121,4" qualityOption="source"/>
     <component id="gcza1p" name="ProgressBar" folder="gcza1f" file="gcza1p.xml" exported="true"/>
     <folder id="gcza1q" name="Input" folder=""/>
-    <image id="gcza1r" name="p4.png" folder="gcza1q" file="gcza1r.png" size="71,19" scale="9grid" scale9grid="5,5,61,10" exported="true"/>
+    <image id="gcza1r" name="p4.png" folder="gcza1q" file="gcza1r.png" size="50,16" scale="9grid" scale9grid="5,4,39,8" exported="true" qualityOption="source"/>
     <component id="gcza1s" name="TextInput" folder="gcza1q" file="gcza1s.xml" exported="true"/>
-    <component id="gcza22" name="NumericUpDown" folder="gcza1q" file="gcza22.xml" exported="true"/>
     <image id="gcza23" name="p8.png" folder="gcza1e" file="gcza23.png" size="19,10"/>
     <image id="gcza24" name="p9.png" folder="gcza1e" file="gcza24.png" size="19,10"/>
     <component id="gcza25" name="SliderArrow_VT" folder="gcza1e" file="gcza25.xml"/>
@@ -78,22 +77,21 @@
     <component id="gcza2h" name="PopupMenuItem" folder="gcza27" file="gcza2h.xml" exported="true"/>
     <component id="gcza2i" name="FlatIconButton" folder="xuali" file="gcza2i.xml" exported="true"/>
     <folder id="gcza2k" name="Tree" folder=""/>
-    <image id="gcza2l" name="i3.png" folder="gcza2k" qualityOption="source" file="gcza2l.png" size="9,9"/>
-    <image id="gcza2m" name="i2.png" folder="gcza2k" qualityOption="source" file="gcza2m.png" size="14,12"/>
-    <image id="gcza2n" name="i1.png" folder="gcza2k" qualityOption="source" file="gcza2n.png" size="15,12"/>
+    <image id="gcza2l" name="i3.png" folder="gcza2k" qualityOption="source" file="gcza2l.png" size="5,9"/>
+    <image id="gcza2m" name="i2.png" folder="gcza2k" qualityOption="source" file="gcza2m.png" size="15,13"/>
+    <image id="gcza2n" name="i1.png" folder="gcza2k" qualityOption="source" file="gcza2n.png" size="15,13"/>
     <image id="gcza2o" name="i5.png" folder="gcza2k" qualityOption="source" file="gcza2o.png" size="13,15"/>
-    <image id="gcza2p" name="i4.png" folder="gcza2k" qualityOption="source" file="gcza2p.png" size="9,9"/>
+    <image id="gcza2p" name="i4.png" folder="gcza2k" qualityOption="source" file="gcza2p.png" size="9,5"/>
     <folder id="gcza2q" name="Tab" folder=""/>
     <image id="gcza2r" name="f7.png" folder="gcza2q" qualityOption="source" file="gcza2r.png" size="10,10"/>
     <image id="gcza2s" name="f6.png" folder="gcza2q" qualityOption="source" file="gcza2s.png" size="10,10"/>
     <image id="gcza2t" name="f8.png" folder="gcza2q" qualityOption="source" file="gcza2t.png" size="10,10"/>
     <component id="gcza2u" name="TabCloseButton" folder="gcza2q" file="gcza2u.xml"/>
     <component id="gcza2v" name="ClosableTabButton" folder="gcza2q" file="gcza2v.xml" exported="true"/>
-    <image id="au3n38" name="VtSeperator" folder="" file="au3n38.jpg" size="2,22" exported="true"/>
-    <image id="au3n39" name="HzSeperator" folder="" file="au3n39.jpg" size="30,2" exported="true"/>
-    <image id="au3n3m" name="a5.png" folder="gcza2q" file="au3n3m.png" size="56,23" scale="9grid" scale9grid="14,6,28,12"/>
-    <image id="au3n3n" name="a6.png" folder="gcza2q" file="au3n3n.png" size="56,23" scale="9grid" scale9grid="14,6,28,12"/>
-    <image id="au3n3o" name="a7.png" folder="gcza2q" file="au3n3o.png" size="56,22" scale="9grid" scale9grid="14,6,28,12" smoothing="false"/>
+    <image id="au3n38" name="VtSeperator" folder="" file="au3n38.png" size="2,22" exported="true" qualityOption="source"/>
+    <image id="au3n39" name="HzSeperator" folder="" file="au3n39.png" size="22,2" exported="true" qualityOption="source"/>
+    <image id="au3n3m" name="a5.png" folder="gcza2q" file="au3n3m.png" size="68,19" scale="9grid" scale9grid="3,5,60,10" qualityOption="source"/>
+    <image id="au3n3o" name="a7.png" folder="gcza2q" file="au3n3o.png" size="51,19" scale="9grid" scale9grid="6,3,38,10" smoothing="false" qualityOption="source" exported="true"/>
     <image id="au3n3q" name="j1.png" folder="xuali" qualityOption="source" file="au3n3q.png" size="12,13"/>
     <image id="au3n3r" name="j2.png" folder="xuali" qualityOption="source" file="au3n3r.png" size="14,11"/>
     <image id="au3n3s" name="j3.png" folder="xuali" qualityOption="source" file="au3n3s.png" size="14,11"/>
@@ -101,8 +99,8 @@
     <component id="au3n3u" name="ArrowButton" folder="xuali" file="au3n3u.xml" exported="true"/>
     <component id="au3n4b" name="IconButton" folder="xuali" file="au3n4b.xml" exported="true"/>
     <component id="au3n4s" name="ListItem" folder="gcza1d" file="au3n4s.xml" exported="true"/>
-    <image id="au3n4v" name="a9.png" folder="gcza1d" file="au3n4v.png" size="102,20" scale="9grid" scale9grid="8,5,85,10" exported="true"/>
-    <image id="au3n50" name="a8.png" folder="gcza1d" file="au3n50.png" size="88,20" scale="9grid" scale9grid="8,5,70,10" exported="true"/>
+    <image id="au3n4v" name="a9.png" folder="gcza1d" file="au3n4v.png" size="12,18" scale9grid="6,5,6,10" exported="true" qualityOption="source"/>
+    <image id="au3n50" name="a8.png" folder="gcza1d" file="au3n50.png" size="15,16" scale9grid="3,2,6,9" exported="true" qualityOption="source"/>
     <component id="au3n5m" name="TreeItem" folder="gcza2k" file="au3n5m.xml" exported="true"/>
     <component id="au3n5n" name="TreeExpandButton" folder="gcza2k" file="au3n5n.xml"/>
     <folder id="au3n5o" name="Cursor" folder=""/>
@@ -122,8 +120,6 @@
     <image id="au3n63" name="a10.png" folder="gcza1q" qualityOption="package" file="au3n63.jpg" size="15,11"/>
     <image id="au3n65" name="a15.png" folder="gcza1q" qualityOption="package" file="au3n65.jpg" size="15,11"/>
     <image id="au3n66" name="a14.png" folder="gcza1q" qualityOption="package" file="au3n66.jpg" size="15,11"/>
-    <component id="au3n67" name="NumericUpButton" folder="gcza1q" file="au3n67.xml"/>
-    <component id="au3n68" name="NumericDownButton" folder="gcza1q" file="au3n68.xml"/>
     <component id="au3n69" name="NumericInput" folder="gcza1q" file="au3n69.xml" exported="true"/>
     <image id="au3n6a" name="a16.png" folder="gcza1q" qualityOption="package" file="au3n6a.png" size="2,2" scale="tile"/>
     <image id="au3n6b" name="a17.png" folder="au3n5w" file="au3n6b.png" size="7,6" scale="tile"/>
@@ -140,7 +136,7 @@
     <image id="au3n6p" name="a18.png" folder="gcza27" qualityOption="source" file="au3n6p.png" size="12,9"/>
     <component id="au3n6q" name="IconListItem" folder="gcza1d" file="au3n6q.xml" exported="true"/>
     <component id="au3n6r" name="ListItemResourceInput" folder="gcza1q" file="au3n6r.xml" exported="true"/>
-    <image id="au3n6s" name="p16.png" folder="gcza1q" file="au3n6s.png" size="71,19" scale="9grid" scale9grid="18,5,36,10" qualityOption="package" exported="true"/>
+    <image id="au3n6s" name="p16.png" folder="gcza1q" file="au3n6s.png" size="45,16" scale="9grid" scale9grid="5,4,31,8" exported="true" qualityOption="source"/>
     <component id="au3n6t" name="EditableTreeItem" folder="gcza2k" file="au3n6t.xml" exported="true"/>
     <component id="au3n6v" name="TabIconButton" folder="gcza2q" file="au3n6v.xml" exported="true"/>
     <component id="au3n6w" name="ClosableTabIconButton" folder="gcza2q" file="au3n6w.xml" exported="true"/>
@@ -150,6 +146,32 @@
     <image id="8adv70" name="cursor_finger.png" folder="au3n5o" qualityOption="package" file="8adv70.png" size="17,19" exported="true"/>
     <component id="rw8a71" name="FixedTabButton" folder="gcza2q" file="rw8a71.xml" exported="true"/>
     <component id="gss372" name="AutoSizeButton" folder="xuali" file="gss372.xml" exported="true"/>
+    <component id="kwng73" name="ScrollLeftButton" folder="xual1" file="kwng73.xml"/>
+    <component id="kwng74" name="ScrollRightButton" folder="xual1" file="kwng74.xml"/>
+    <image id="kwng75" name="2016-02-27_224618" folder="xual1" qualityOption="source" file="kwng75.png" size="15,13"/>
+    <image id="kwng76" name="2016-02-27_224602" folder="xual1" qualityOption="source" file="kwng76.png" size="15,13"/>
+    <image id="kwng77" name="2016-02-27_224540" folder="xual1" qualityOption="source" file="kwng77.png" size="15,13"/>
+    <image id="kwng78" name="2016-02-27_224443" folder="xual1" qualityOption="source" file="kwng78.png" size="15,13"/>
+    <image id="kwng79" name="2016-02-27_224421" folder="xual1" qualityOption="source" file="kwng79.png" size="15,13"/>
+    <image id="kwng7a" name="2016-02-27_224326" folder="xual1" qualityOption="source" file="kwng7a.png" size="15,13"/>
+    <image id="kwng7b" name="bar12" folder="xual1" qualityOption="source" file="kwng7b.png" size="104,13" scale="9grid" scale9grid="14,3,78,6"/>
+    <image id="kwng7c" name="bar13" folder="xual1" qualityOption="source" file="kwng7c.png" size="136,13" scale="9grid" scale9grid="12,4,113,5"/>
+    <image id="kwng7d" name="bar14" folder="xual1" qualityOption="source" file="kwng7d.png" size="129,13" scale="9grid" scale9grid="9,4,110,5"/>
+    <image id="kwng7e" name="gou" folder="xualr" qualityOption="source" file="kwng7e.png" size="13,11"/>
+    <folder id="kwng7f" name="TitleBar" folder=""/>
+    <image id="kwng7g" name="bar15" folder="kwng7f" qualityOption="source" file="kwng7g.png" size="81,20" scale="9grid" scale9grid="4,7,71,5" exported="true"/>
+    <component id="kwng7h" name="TitleBar" folder="kwng7f" file="kwng7h.xml" exported="true"/>
+    <image id="kwng7i" name="2016-02-29_120502" folder="kwng7f" qualityOption="source" file="kwng7i.png" size="5,10"/>
+    <image id="kwng7j" name="2016-02-29_120446" folder="kwng7f" qualityOption="source" file="kwng7j.png" size="9,7"/>
+    <image id="kwng7k" name="p1" folder="gcza27" qualityOption="source" file="kwng7k.png" size="162,63" scale="9grid" scale9grid="6,5,144,50"/>
+    <image id="kwng7l" name="a9" folder="gcza27" qualityOption="source" file="kwng7l.png" size="102,20" scale="9grid" scale9grid="11,5,83,10"/>
+    <image id="kwng7m" name="a8" folder="gcza27" qualityOption="source" file="kwng7m.png" size="88,20" scale="9grid" scale9grid="7,3,76,12"/>
+    <image id="kwng7n" name="HzSeperator2" folder="gcza27" file="kwng7n.jpg" size="30,2"/>
+    <image id="kwng7o" name="VtSeperator2" folder="gcza27" file="kwng7o.jpg" size="2,22"/>
+    <image id="p0yg7p" name="a72" folder="gcza2q" qualityOption="source" file="p0yg7p.png" size="51,19" scale="9grid" scale9grid="7,5,38,10"/>
+    <image id="p0yg7q" name="a52" folder="gcza2q" qualityOption="source" file="p0yg7q.png" size="68,19" scale="9grid" scale9grid="5,5,55,10"/>
+    <component id="p0yg7r" name="FileTabButton" folder="gcza2q" file="p0yg7r.xml" exported="true"/>
+    <image id="fzqg7s" name="c4" folder="gcza14" qualityOption="source" file="fzqg7s.png" size="81,20" scale="9grid" scale9grid="10,5,45,10"/>
   </resources>
   <publish name="basic" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

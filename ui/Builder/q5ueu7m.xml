@@ -5,43 +5,43 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="基本"/>
     </component>
-    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="57,47" size="173,20" visible="false" touchable="false" grayed="true"/>
-    <text id="n16" name="title" xy="32,25" size="199,18" fontSize="12" autoSize="none" text=""/>
-    <text id="n17" name="n17" xy="5,49" size="48,16" fontSize="12" align="right" autoSize="none" text="名称"/>
-    <text id="n13" name="n13" xy="25,73" size="27,16" fontSize="12" align="center" autoSize="none" text="X"/>
+    <component id="n9" name="name" src="gcza1s" pkg="nk9ejx23" xy="57,47" size="173,20" touchable="false" grayed="true"/>
+    <text id="n16" name="title" xy="32,25" size="199,18" fontSize="12" color="#d18835" autoSize="none" singleLine="true" text=""/>
+    <text id="n17" name="n17" xy="5,49" size="48,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="25,73" size="27,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="X"/>
     <component id="n21" name="x" src="gcza1s" pkg="nk9ejx23" xy="57,71" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
-    <text id="n22" name="n22" xy="123,73" size="20,16" fontSize="12" align="center" autoSize="none" text="Y"/>
+    <text id="n22" name="n22" xy="123,73" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Y"/>
     <component id="n23" name="y" src="gcza1s" pkg="nk9ejx23" xy="146,71" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
-    <text id="n24" name="n24" xy="25,97" size="26,16" fontSize="12" align="right" autoSize="none" text="宽"/>
-    <text id="n26" name="n26" xy="123,98" size="20,16" fontSize="12" align="right" autoSize="none" text="高"/>
+    <text id="n24" name="n24" xy="25,97" size="26,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="宽"/>
+    <text id="n26" name="n26" xy="123,98" size="20,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="高"/>
     <component id="n27" name="height" src="gcza1s" pkg="nk9ejx23" xy="146,96" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
     <component id="n25" name="width" src="gcza1s" pkg="nk9ejx23" xy="57,96" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
-    <text id="n33" name="n33" xy="5,170" size="48,16" fontSize="12" align="right" autoSize="height" text="透明度"/>
-    <text id="n35" name="n35" xy="104,170" size="66,16" fontSize="12" align="right" autoSize="none" text="旋转"/>
+    <text id="n33" name="n33" xy="5,170" size="48,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="透明度"/>
+    <text id="n35" name="n35" xy="104,170" size="66,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="旋转"/>
     <component id="n37" name="alpha" src="au3n69" pkg="nk9ejx23" xy="57,169" size="40,20" touchable="false" grayed="true">
       <Label title="100"/>
     </component>
     <component id="n38" name="rotation" src="au3n69" pkg="nk9ejx23" xy="173,169" size="40,20" touchable="false" grayed="true">
       <Label title="0"/>
     </component>
-    <text id="n39" name="n39" xy="5,145" size="48,16" fontSize="12" align="right" autoSize="height" text="轴心X"/>
-    <text id="n40" name="n40" xy="115,146" size="55,16" fontSize="12" align="right" autoSize="none" text="轴心Y"/>
+    <text id="n39" name="n39" xy="5,145" size="48,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="轴心X"/>
+    <text id="n40" name="n40" xy="115,146" size="55,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="轴心Y"/>
     <component id="n41" name="pivotY" src="gcza1s" pkg="nk9ejx23" xy="173,144" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
     <component id="n42" name="pivotX" src="gcza1s" pkg="nk9ejx23" xy="57,144" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
-    <text id="n52" name="n52" xy="5,121" size="48,16" fontSize="12" align="right" autoSize="height" text="ScaleX"/>
-    <text id="n53" name="n53" xy="112,122" size="58,16" fontSize="12" align="right" autoSize="none" text="ScaleY"/>
+    <text id="n52" name="n52" xy="5,121" size="48,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="ScaleX"/>
+    <text id="n53" name="n53" xy="112,122" size="58,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="ScaleY"/>
     <component id="n54" name="scaleY" src="gcza1s" pkg="nk9ejx23" xy="173,120" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>

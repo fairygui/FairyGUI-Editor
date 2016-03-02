@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="200,70">
+<component size="226,70">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="200,70"/>
-    <component id="n3" name="easeType" src="gcza18" pkg="nk9ejx23" xy="71,32" size="60,20">
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="-4,-4" size="234,78"/>
+    <component id="n3" name="easeType" src="gcza18" pkg="nk9ejx23" xy="75,32" size="72,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n4" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="135,32" size="51,20">
+    <component id="n4" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="150,32" size="72,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n5" name="n5" xy="5,34" size="62,16" fontSize="12" align="right" autoSize="none" text="缓动函数"/>
-    <text id="n9" name="n9" xy="5,7" size="62,16" fontSize="12" align="right" autoSize="none" text="持续时间"/>
-    <component id="n10" name="duration" src="au3n69" pkg="nk9ejx23" xy="71,6">
+    <text id="n5" name="n5" xy="3,34" size="69,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="缓动函数"/>
+    <text id="n9" name="n9" xy="3,7" size="69,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="持续时间"/>
+    <component id="n10" name="duration" src="au3n69" pkg="nk9ejx23" xy="75,6">
       <Label title="0"/>
     </component>
   </displayList>

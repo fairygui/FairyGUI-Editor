@@ -5,23 +5,23 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="按钮"/>
     </component>
-    <text id="n50" name="n50" xy="6,32" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="状态"/>
+    <text id="n50" name="n50" xy="6,32" size="74,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" singleLine="true" text="状态"/>
     <component id="n51" name="checked" src="xualt" pkg="nk9ejx23" xy="83,31" size="71,19">
       <Button title="选中"/>
     </component>
-    <text id="n52" name="n52" xy="6,57" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="标题"/>
+    <text id="n52" name="n52" xy="6,57" size="74,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" singleLine="true" text="标题"/>
     <component id="n53" name="title" src="gcza1s" pkg="nk9ejx23" xy="83,54" size="150,20"/>
-    <text id="n54" name="n54" xy="6,81" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="选中时标题"/>
+    <text id="n54" name="n54" xy="6,81" size="74,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" singleLine="true" text="选中时标题"/>
     <component id="n55" name="selectedTitle" src="gcza1s" pkg="nk9ejx23" xy="83,79" size="150,20"/>
     <component id="n56" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="83,106" size="70,19">
       <Button title="标题颜色"/>
     </component>
     <component id="n57" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="154,107"/>
-    <text id="n59" name="n59" xy="6,132" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="图标"/>
+    <text id="n59" name="n59" xy="6,132" size="74,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" singleLine="true" text="图标"/>
     <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="83,130" size="150,20"/>
-    <text id="n61" name="n61" xy="6,157" size="74,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="选中时图标"/>
+    <text id="n61" name="n61" xy="6,157" size="74,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" singleLine="true" text="选中时图标"/>
     <component id="n62" name="selectedIcon" src="au3n6j" pkg="nk9ejx23" xy="83,155" size="150,20"/>
-    <text id="n63" name="n63" xy="12,236" size="53,16" fontSize="12" singleLine="true" text="单选控制"/>
+    <text id="n63" name="n63" xy="12,236" size="53,16" fontSize="12" color="#b2b2b2" singleLine="true" text="单选控制"/>
     <component id="n64" name="controller" src="gcza18" pkg="nk9ejx23" xy="74,233" size="81,20">
       <ComboBox visibleItemCount="10"/>
     </component>

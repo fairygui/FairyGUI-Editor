@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建动画"/>
     </component>
-    <text id="n1" name="n1" xy="12,36" size="62,16" fontSize="12" align="right" autoSize="none" text="动画名称"/>
+    <text id="n1" name="n1" xy="12,36" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="动画名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="81,34" size="204,20"/>
     <component id="n6" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="85,158">
       <Button title="创建"/>
@@ -13,7 +13,7 @@
     <component id="n7" name="btnCancel" src="xualm" pkg="nk9ejx23" xy="203,158">
       <Button title="取消"/>
     </component>
-    <text id="n8" name="n8" xy="13,64" size="62,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n8" name="n8" xy="13,64" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="创建位置"/>
     <component id="n9" name="n9" src="gcza1s" pkg="nk9ejx23" xy="81,61" size="204,20"/>
     <component id="n10" name="n10" src="xualm" pkg="nk9ejx23" xy="290,59" size="66,25">
       <Button title="浏览.."/>

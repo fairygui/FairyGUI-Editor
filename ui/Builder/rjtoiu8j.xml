@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="219,58">
   <displayList>
-    <graph id="n26" name="n26" xy="0,0" size="219,58" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+    <graph id="n26" name="n26" xy="0,0" size="219,58" type="rect" lineColor="#ff1f1f1f" fillColor="#ff454545">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <component id="n25" name="findInput" src="gcza1s" pkg="nk9ejx23" xy="5,6" size="168,20">
@@ -19,6 +19,6 @@
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oikucciu8l"/>
     </component>
-    <text id="n37" name="msg" xy="8,33" size="125,16" fontSize="12" autoSize="none" text=""/>
+    <text id="n37" name="msg" xy="8,33" size="125,16" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
   </displayList>
 </component>

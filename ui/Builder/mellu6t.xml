@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="420,21">
   <displayList>
-    <graph id="n11" name="n11" xy="0,0" size="420,20" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#fff3f6f7">
+    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="420,21">
       <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n0" name="n0" xy="0,2" size="43,16" fontSize="12" autoSize="none" text="编号"/>
-    <graph id="n3" name="n3" xy="44,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n4" name="n4" xy="0,20" size="420,1" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc">
-      <relation target="" sidePair="width-width,top-bottom"/>
-    </graph>
-    <text id="n12" name="n12" xy="187,2" size="212,16" fontSize="12" align="center" autoSize="none" text="大小"/>
-    <text id="n13" name="n13" xy="46,2" size="135,16" fontSize="12" align="center" autoSize="none" text="名称"/>
-    <graph id="n14" name="n14" xy="184,0" size="1,20" type="rect" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    </image>
+    <text id="n0" name="n0" xy="0,2" size="43,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="编号"/>
+    <image id="n3" name="n3" src="au3n38" pkg="nk9ejx23" xy="45,1" size="2,19"/>
+    <text id="n12" name="n12" xy="188,2" size="211,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="大小"/>
+    <text id="n13" name="n13" xy="49,2" size="134,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="名称"/>
+    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="185,1" size="2,19"/>
     <component id="n15" name="n15" src="ehmsu7z" xy="324,2" tooltips="格式：长x宽&#xA;默认不需要填写，表示自动计算最适合的大小&#xA;"/>
   </displayList>
 </component>

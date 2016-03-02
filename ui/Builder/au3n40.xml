@@ -5,14 +5,14 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="编辑字体"/>
     </component>
-    <graph id="n12" name="n12" xy="9,29" size="452,372" type="rect" lineColor="#ffa0a0a0"/>
-    <list id="n1" name="n1" xy="10,51" size="450,349" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n42"/>
-    <graph id="n2" name="n2" xy="467,29" size="173,370" type="rect" lineColor="#ff999999" fillColor="#00ffffff"/>
-    <text id="n3" name="n3" xy="12,414" size="49,16" fontSize="12" align="right" autoSize="height" text="纹理集"/>
-    <component id="n4" name="n4" src="gcza18" pkg="nk9ejx23" xy="63,413" size="92,20">
+    <graph id="n12" name="n12" xy="9,29" size="452,372" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n1" name="n1" xy="9,49" size="452,352" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n42"/>
+    <graph id="n2" name="n2" xy="467,29" size="173,370" type="rect" lineColor="#ff151415" fillColor="#fc3f3f3f"/>
+    <text id="n3" name="n3" xy="10,414" size="49,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="纹理集"/>
+    <component id="n4" name="n4" src="gcza18" pkg="nk9ejx23" xy="63,413" size="105,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n5" name="n5" xy="161,414" size="73,16" fontSize="12" align="right" autoSize="height" text="字体大小"/>
+    <text id="n5" name="n5" xy="173,414" size="73,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="字体大小"/>
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="508,365" size="92,25">
       <Button title="删除选定字符"/>
     </component>
@@ -23,18 +23,18 @@
     <component id="n10" name="n10" src="xualm" pkg="nk9ejx23" xy="374,456">
       <Button title="取消"/>
     </component>
-    <text id="n13" name="n13" xy="471,31" size="163,18" fontSize="12" autoSize="none" text=""/>
+    <text id="n13" name="n13" xy="471,31" size="163,18" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
     <component id="n15" name="n15" src="au3n3y" xy="470,53" size="166,343"/>
-    <component id="n16" name="n16" src="au3n41" xy="10,30" size="450,21"/>
+    <component id="n16" name="n16" src="au3n41" xy="9,29" size="452,21"/>
     <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="268,456">
       <Button title="应用"/>
     </component>
-    <text id="n18" name="n18" xy="432,415" size="77,16" fontSize="12" align="right" autoSize="none" text="默认占位"/>
-    <component id="n6" name="n6" src="gcza1s" pkg="nk9ejx23" xy="237,413" size="54,20"/>
-    <component id="n19" name="n19" src="gcza1s" pkg="nk9ejx23" xy="512,413" size="54,20"/>
-    <component id="n20" name="n20" src="ehmsu7z" xy="571,414" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值"/>
-    <component id="n23" name="n23" src="ehmsu7z" xy="294,414" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放"/>
-    <component id="n24" name="n24" src="xualt" pkg="nk9ejx23" xy="315,414" size="145,19">
+    <text id="n18" name="n18" xy="444,415" size="77,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="默认占位"/>
+    <component id="n6" name="n6" src="gcza1s" pkg="nk9ejx23" xy="249,413" size="54,20"/>
+    <component id="n19" name="n19" src="gcza1s" pkg="nk9ejx23" xy="524,413" size="54,20"/>
+    <component id="n20" name="n20" src="ehmsu7z" xy="583,414" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值"/>
+    <component id="n23" name="n23" src="ehmsu7z" xy="306,414" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放"/>
+    <component id="n24" name="n24" src="xualt" pkg="nk9ejx23" xy="327,414" size="145,19">
       <Button title="允许动态改变字号"/>
     </component>
   </displayList>

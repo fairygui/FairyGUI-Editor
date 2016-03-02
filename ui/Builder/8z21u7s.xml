@@ -2,36 +2,28 @@
 <component size="460,345">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n25" name="n25" xy="0,0" size="460,345" type="rect" lineSize="0" fillColor="#fff3f6f7">
+    <graph id="n25" name="n25" xy="0,0" size="460,345" type="rect" lineSize="0" lineColor="#ff151415" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n8" name="n8" xy="11,9" size="439,326" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
-    <graph id="n9" name="n9" xy="11,9" size="439,24" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
-    <component id="n10" name="n10" src="au3n6i" pkg="nk9ejx23" xy="12,10" size="63,22">
-      <Button checked="true" title="打开项目" controller="c1" page="0"/>
-    </component>
-    <component id="n11" name="n11" src="au3n6i" pkg="nk9ejx23" xy="75,10" size="63,22">
-      <relation target="n10" sidePair="left-right"/>
-      <Button title="创建项目" controller="c1" page="1"/>
-    </component>
+    <graph id="n8" name="n8" xy="11,30" size="439,305" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
     <component id="n2" name="btnOpen" src="xualm" pkg="nk9ejx23" xy="355,298" group="n14">
       <Button title="打开"/>
     </component>
     <component id="n3" name="btnOpenOther" src="xualm" pkg="nk9ejx23" xy="27,298" size="126,25" group="n14">
       <Button title="打开其他..."/>
     </component>
-    <text id="n6" name="n6" xy="21,38" size="125,16" group="n14" fontSize="12" text="选择最近打开的项目："/>
-    <graph id="n5" name="n5" xy="19,60" size="423,230" group="n13" type="rect" lineColor="#ffa0a0a0"/>
+    <text id="n6" name="n6" xy="21,38" size="125,16" group="n14" fontSize="12" color="#ffffff" text="选择最近打开的项目："/>
+    <graph id="n5" name="n5" xy="19,60" size="423,230" group="n13" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <list id="n7" name="list" xy="20,61" size="421,228" group="n13" overflow="scroll" scrollBarFlags="4" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n4s"/>
     <group id="n13" name="n13" xy="19,60" size="423,230" group="n14"/>
-    <component id="n24" name="btnDelete" src="au3n4b" pkg="nk9ejx23" xy="422,38" size="20,20" group="n14" tooltips="删除历史记录">
+    <component id="n24" name="btnDelete" src="au3n4b" pkg="nk9ejx23" xy="415,33" size="23,23" group="n14" tooltips="删除历史记录">
       <Button icon="ui://2pshu6oipsdnu6r"/>
     </component>
-    <group id="n14" name="n14" xy="19,38" size="423,285" advanced="true">
+    <group id="n14" name="n14" xy="19,33" size="423,290" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <text id="n15" name="n15" xy="18,44" size="63,16" group="n23" fontSize="12" align="right" autoSize="height" singleLine="true" text="项目名称"/>
-    <text id="n16" name="n16" xy="18,71" size="63,16" group="n23" fontSize="12" align="right" autoSize="height" singleLine="true" text="项目位置"/>
+    <text id="n15" name="n15" xy="18,44" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目名称"/>
+    <text id="n16" name="n16" xy="18,71" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目位置"/>
     <component id="n17" name="name" src="gcza1s" pkg="nk9ejx23" xy="86,42" size="282,20" group="n23"/>
     <component id="n18" name="path" src="gcza1s" pkg="nk9ejx23" xy="86,69" size="282,20" group="n23"/>
     <component id="n19" name="btnBrowse" src="xualm" pkg="nk9ejx23" xy="375,67" size="64,25" group="n23">
@@ -40,12 +32,20 @@
     <component id="n20" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="354,298" group="n23">
       <Button title="创建"/>
     </component>
-    <text id="n21" name="n21" xy="18,99" size="63,16" group="n23" fontSize="12" align="right" autoSize="height" singleLine="true" text="项目类型"/>
+    <text id="n21" name="n21" xy="18,99" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目类型"/>
     <component id="n22" name="type" src="gcza18" pkg="nk9ejx23" xy="86,97" size="282,20" group="n23">
       <ComboBox visibleItemCount="10"/>
     </component>
     <group id="n23" name="n23" xy="18,42" size="421,281" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
+    <image id="n26" name="n26" src="au3n39" pkg="nk9ejx23" xy="12,29" size="437,2"/>
+    <component id="n10" name="n10" src="au3n6i" pkg="nk9ejx23" xy="11,9" size="63,22">
+      <Button checked="true" title="打开项目" controller="c1" page="0"/>
+    </component>
+    <component id="n11" name="n11" src="au3n6i" pkg="nk9ejx23" xy="73,9" size="63,22">
+      <relation target="n10" sidePair="left-right"/>
+      <Button title="创建项目" controller="c1" page="1"/>
+    </component>
   </displayList>
 </component>

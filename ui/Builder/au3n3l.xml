@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="350,100" idnum="3">
+<component size="350,100">
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="350,100">
       <relation target="" sidePair="height-height,width-width"/>
@@ -8,7 +8,7 @@
       <relation target="n2" sidePair="top-bottom"/>
       <Button title="确定"/>
     </component>
-    <text id="n2" name="n2" xy="12,28" size="326,16" fontSize="12" autoSize="height" text=""/>
+    <text id="n2" name="n2" xy="12,28" size="326,16" fontSize="12" color="#b2b2b2" autoSize="height" text=""/>
   </displayList>
   <relation target="n2" sidePair="height-height"/>
 </component>

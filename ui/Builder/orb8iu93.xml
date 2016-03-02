@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="319,135">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="319,135">
+      <relation target="" sidePair="height-height,width-width"/>
+      <Label title="设置滚动条资源"/>
+    </component>
+    <component id="n1" name="n1" src="xualm" pkg="nk9ejx23" xy="63,94">
+      <Button title="确定"/>
+    </component>
+    <component id="n5" name="vtScrollBar" src="au3n6j" pkg="nk9ejx23" xy="87,31" size="220,20"/>
+    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="175,94">
+      <Button title="取消"/>
+    </component>
+    <text id="n7" name="n7" xy="12,61" size="68,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="水平"/>
+    <text id="n8" name="n8" xy="12,34" size="68,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="垂直"/>
+    <component id="n9" name="hzScrollBar" src="au3n6j" pkg="nk9ejx23" xy="87,59" size="220,20"/>
+  </displayList>
+</component>

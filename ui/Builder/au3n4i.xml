@@ -2,7 +2,7 @@
 <component size="229,60" extention="Button">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n0" name="n0" xy="0,0" size="228,59" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff"/>
+    <graph id="n0" name="n0" xy="0,0" size="228,59" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
     <component id="n4" name="clear" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除关联">
       <Button icon="ui://2pshu6oipsdnu6r"/>
     </component>
@@ -14,11 +14,11 @@
     <image id="n9" name="n9" src="au3n6s" pkg="nk9ejx23" xy="5,6" size="170,21">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n13" name="n13" xy="8,8" size="53,16" fontSize="12" text="点击设置">
+    <text id="n13" name="n13" xy="8,8" size="53,16" fontSize="12" color="#b2b2b2" text="点击设置">
       <gearDisplay controller="c1" pages="1"/>
     </text>
     <loader id="n10" name="icon" xy="8,9" size="16,16" group="n14" align="center" vAlign="middle"/>
-    <text id="n11" name="title" xy="26,8" size="146,18" group="n14" fontSize="12" color="#ff0066" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n11" name="title" xy="26,8" size="146,18" group="n14" fontSize="12" color="#d1a211" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <group id="n14" name="n14" xy="8,8" size="165,18" advanced="true">

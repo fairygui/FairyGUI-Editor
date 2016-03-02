@@ -1,72 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,310" overflow="hidden">
+<component size="240,336" overflow="hidden">
   <displayList>
-    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,310">
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,336" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="文本"/>
     </component>
-    <text id="n17" name="n17" xy="10,125" size="36,16" fontSize="12" align="right" autoSize="none" text="字体"/>
-    <component id="n32" name="singleLine" src="xualt" pkg="nk9ejx23" xy="131,255" size="107,19">
+    <text id="n17" name="n17" xy="3,123" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="字体"/>
+    <component id="n32" name="singleLine" src="xualt" pkg="nk9ejx23" xy="9,314" size="107,19">
       <Button title="单行"/>
     </component>
-    <text id="n33" name="n33" xy="6,150" size="64,16" fontSize="12" align="right" autoSize="height" singleLine="true" text="字体大小"/>
-    <text id="n35" name="n35" xy="130,150" size="40,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="颜色"/>
+    <text id="n33" name="n33" xy="3,147" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n35" name="n35" xy="3,171" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="颜色"/>
     <component id="n38" name="ubbEnabled" src="xualt" pkg="nk9ejx23" xy="171,98" size="42,19">
       <Button title="UBB"/>
     </component>
-    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="71,200">
+    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="83,241" size="122,19">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n46" name="n46" xy="7,202" size="62,16" fontSize="12" align="right" autoSize="height" singleLine="true" text="自动大小"/>
-    <text id="n47" name="n47" xy="10,228" size="41,16" fontSize="12" align="right" autoSize="height" singleLine="true" text="对齐"/>
-    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="57,226" size="72,20">
-      <ComboBox visibleItemCount="10"/>
+    <text id="n46" name="n46" xy="3,243" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n47" name="n47" xy="3,267" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="83,265" size="74,20">
+      <ComboBox title="水平居中" visibleItemCount="10"/>
     </component>
-    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="136,226" size="82,20">
+    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="161,265" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n50" name="input" src="xualt" pkg="nk9ejx23" xy="10,98" size="51,19">
       <Button title="输入"/>
     </component>
-    <component id="n51" name="underline" src="xualt" pkg="nk9ejx23" xy="8,281" size="76,19">
+    <component id="n51" name="underline" src="xualt" pkg="nk9ejx23" xy="154,204" size="76,19">
       <Button title="下划线"/>
     </component>
     <component id="n52" name="displayAsPassword" src="xualt" pkg="nk9ejx23" xy="92,98" size="75,19">
       <Button title="密码"/>
     </component>
-    <text id="n42" name="n42" xy="9,177" size="29,16" fontSize="12" align="right" singleLine="true" text="行距"/>
-    <text id="n44" name="n44" xy="82,177" size="29,16" fontSize="12" singleLine="true" text="字距">
-      <relation target="n58" sidePair="left-right"/>
-    </text>
-    <component id="n56" name="color" src="935t5o" xy="174,150"/>
-    <component id="n58" name="leading" src="au3n69" pkg="nk9ejx23" xy="40,175" size="34,20">
-      <relation target="n42" sidePair="left-right"/>
+    <text id="n42" name="n42" xy="3,195" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n44" name="n44" xy="3,219" size="78,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <component id="n56" name="color" src="935t5o" xy="83,169"/>
+    <component id="n58" name="leading" src="au3n69" pkg="nk9ejx23" xy="83,192" size="34,20">
       <Label title="12"/>
     </component>
-    <component id="n59" name="letterSpacing" src="au3n69" pkg="nk9ejx23" xy="113,175" size="34,20">
-      <relation target="n44" sidePair="left-right"/>
+    <component id="n59" name="letterSpacing" src="au3n69" pkg="nk9ejx23" xy="83,216" size="34,20">
       <Label title="12"/>
     </component>
     <component id="n60" name="text" src="au3n6k" pkg="nk9ejx23" xy="9,26" size="223,65"/>
-    <component id="n63" name="font" src="au3n6j" pkg="nk9ejx23" xy="50,122" size="154,20"/>
-    <component id="n66" name="strokeColor" src="935t5o" xy="72,255"/>
-    <component id="n68" name="stroke" src="xualt" pkg="nk9ejx23" xy="8,254" size="56,19">
+    <component id="n63" name="font" src="au3n6j" pkg="nk9ejx23" xy="83,122" size="122,20"/>
+    <component id="n66" name="strokeColor" src="935t5o" xy="83,292"/>
+    <component id="n68" name="stroke" src="xualt" pkg="nk9ejx23" xy="8,289" size="71,19">
       <Button title="描边"/>
     </component>
-    <component id="n71" name="bold" src="xualt" pkg="nk9ejx23" xy="91,281" size="60,19">
+    <component id="n71" name="bold" src="xualt" pkg="nk9ejx23" xy="154,152" size="60,19">
       <Button title="粗体"/>
     </component>
-    <component id="n72" name="italic" src="xualt" pkg="nk9ejx23" xy="158,281" size="60,19">
+    <component id="n72" name="italic" src="xualt" pkg="nk9ejx23" xy="154,178" size="60,19">
       <Button title="斜体"/>
     </component>
-    <component id="n55" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="73,148" size="34,20" group="n76">
+    <component id="n55" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="83,145" size="34,20" group="n76">
       <Label title="12"/>
     </component>
-    <component id="n78" name="n78" src="gcza2i" pkg="nk9ejx23" xy="108,148" size="19,19" group="n76">
+    <component id="n78" name="n78" src="gcza2i" pkg="nk9ejx23" xy="118,145" size="19,19" group="n76">
       <Button icon="ui://2pshu6oipsdnu6q"/>
     </component>
-    <group id="n76" name="n76" xy="73,148" size="54,20"/>
-    <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="207,122" size="20,20">
+    <group id="n76" name="n76" xy="83,145" size="54,20"/>
+    <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="209,122" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
     <component id="n80" name="promptEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">

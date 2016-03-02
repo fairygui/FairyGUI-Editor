@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="480,380" idnum="42">
+<component size="480,380">
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="480,380">
       <relation target="" sidePair="width-width,height-height"/>
@@ -8,14 +8,14 @@
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="397,342" size="66,25">
       <Button title="关闭"/>
     </component>
-    <graph id="n20" name="n20" xy="9,47" size="460,287" group="n35" type="rect" lineColor="#ffa0a0a0"/>
-    <list id="n19" name="list" xy="10,48" size="458,285" group="n35" layout="flow_vt" overflow="scroll" scroll="horizontal" scrollBar="visible" colGap="2" defaultItem="ui://nk9ejx23ofk56x">
+    <graph id="n20" name="n20" xy="9,47" size="460,287" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n19" name="list" xy="9,47" size="460,287" group="n35" layout="flow_vt" overflow="scroll" scroll="horizontal" scrollBar="visible" margin="1,1,1,1" colGap="2" defaultItem="ui://nk9ejx23ofk56x">
       <item title="包1" icon="ui://2pshu6oiau3n2e"/>
       <item title="包2" icon="ui://2pshu6oiau3n2e"/>
       <item title="包3" icon="ui://2pshu6oiau3n2e"/>
     </list>
     <group id="n35" name="n35" xy="9,47" size="460,287"/>
-    <text id="n39" name="n39" xy="11,26" size="124,19" fontSize="12" text="设定要在库中显示的包"/>
+    <text id="n39" name="n39" xy="11,26" size="125,16" fontSize="12" color="#b2b2b2" text="设定要在库中显示的包"/>
     <component id="n40" name="n40" src="xualm" pkg="nk9ejx23" xy="11,342" size="66,25">
       <Button title="全选"/>
     </component>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,90" overflow="hidden">
+<component size="240,129" overflow="hidden">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,90">
+    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,129">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动效"/>
     </component>
@@ -21,11 +21,11 @@
     <group id="n55" name="n55" xy="11,155" size="210,71" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <component id="n66" name="exit" src="xualm" pkg="nk9ejx23" xy="148,25">
-      <Button title="退出编辑"/>
+    <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="146,98">
+      <Button title="删除动效" titleColor="#ff3366"/>
     </component>
     <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="45,27" size="98,20"/>
-    <text id="n69" name="n69" xy="3,28" size="40,16" fontSize="12" align="right" autoSize="none" text="名称"/>
+    <text id="n69" name="n69" xy="3,28" size="40,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
     <component id="n70" name="ignoreDisplayController" src="xualt" pkg="nk9ejx23" xy="38,58" size="196,19">
       <Button title="忽略显示控制器影响"/>
     </component>

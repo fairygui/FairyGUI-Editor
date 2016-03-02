@@ -2,7 +2,7 @@
 <component size="1200,800">
   <controller name="test" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n4" name="n4" xy="0,0" size="1200,800" locked="true" type="rect" lineSize="0" fillColor="#ffeeeeee">
+    <graph id="n4" name="n4" xy="0,0" size="1200,800" locked="true" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <component id="n8" name="libPanel" src="au3n3" xy="3,24" size="220,569">
@@ -13,19 +13,19 @@
       <relation target="" sidePair="bottom-bottom"/>
       <relation target="n90" sidePair="rightext-left"/>
     </component>
-    <component id="n10" name="menuBar" src="au3ng" xy="0,0" size="1200,19">
+    <component id="n10" name="menuBar" src="au3ng" xy="0,0" size="1200,22">
       <relation target="" sidePair="width-width"/>
     </component>
-    <component id="n12" name="editPanel" src="au3nh" xy="227,50" size="718,746">
+    <component id="n12" name="editPanel" src="au3nh" xy="227,50" size="707,746">
       <gearDisplay controller="test" pages="0"/>
       <relation target="n73" sidePair="rightext-left,height-height"/>
       <relation target="n90" sidePair="leftext-left"/>
     </component>
     <component id="n88" name="n88" src="pi83u6y" xy="505,23" size="48,25" group="n76" tooltips="弹出发布菜单"/>
-    <component id="n43" name="contentScale" src="gcza18" pkg="nk9ejx23" xy="803,25" size="54,20" group="n76" tooltips="放大：Ctrl+'+'&#xA;缩小：Ctrl+'-'">
+    <component id="n43" name="contentScale" src="gcza18" pkg="nk9ejx23" xy="803,25" size="80,20" group="n76" tooltips="放大：Ctrl+'+'&#xA;缩小：Ctrl+'-'">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n44" name="n44" xy="745,26" size="53,16" group="n76" fontSize="12" align="right" autoSize="none" text="缩放比例"/>
+    <text id="n44" name="n44" xy="745,26" size="53,16" group="n76" fontSize="12" color="#cccccc" align="right" autoSize="none" text="缩放比例"/>
     <component id="n45" name="n45" src="au3n2i" xy="262,22" group="n76" tooltips="新建组件(Ctrl+N)">
       <Button icon="ui://2pshu6oiau3n1p"/>
     </component>
@@ -41,7 +41,7 @@
     <image id="n51" name="n51" src="au3n38" pkg="nk9ejx23" xy="423,24" group="n76" aspect="true"/>
     <image id="n52" name="n52" src="au3n38" pkg="nk9ejx23" xy="499,24" group="n76" aspect="true"/>
     <image id="n53" name="n53" src="au3n38" pkg="nk9ejx23" xy="594,24" group="n76" aspect="true"/>
-    <text id="n54" name="n54" xy="604,26" size="59,16" group="n76" fontSize="12" autoSize="height" singleLine="true" text="背景颜色"/>
+    <text id="n54" name="n54" xy="604,26" size="59,16" group="n76" fontSize="12" color="#cccccc" autoSize="height" singleLine="true" text="背景颜色"/>
     <component id="n66" name="bgColor" src="au3n5y" pkg="nk9ejx23" xy="665,26" group="n76"/>
     <component id="n74" name="n74" src="au3n2i" xy="326,22" group="n76" tooltips="新建位图字体">
       <Button icon="ui://2pshu6oiau3n4l"/>
@@ -60,19 +60,19 @@
       <Button icon="ui://2pshu6oiau3n1e"/>
     </component>
     <component id="n91" name="bgColor2" src="au3n5y" pkg="nk9ejx23" xy="700,26" group="n76"/>
-    <group id="n76" name="n76" xy="262,22" size="595,26" advanced="true">
+    <group id="n76" name="n76" xy="262,22" size="621,26" advanced="true">
       <gearDisplay controller="test" pages="0"/>
       <relation target="n12" sidePair="left-left"/>
     </group>
     <component id="n80" name="testPanel" src="au3n53" xy="230,25" size="963,770">
       <gearDisplay controller="test" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n90" sidePair="leftext-left"/>
     </component>
-    <list id="n73" name="propPanelList" xy="952,49" size="240,746" margin="0,0,0,0" lineGap="5" autoItemSize="false">
+    <list id="n73" name="propPanelList" xy="941,49" size="256,746" overflow="scroll" scrollBarFlags="4" margin="0,0,0,3" lineGap="5" autoItemSize="false">
       <gearDisplay controller="test" pages="0"/>
       <relation target="" sidePair="right-right,height-height"/>
     </list>
-    <component id="n83" name="n83" src="gcza2i" pkg="nk9ejx23" xy="98,-38"/>
     <graph id="n90" name="libPanelResizer" xy="223,45" size="5,752" type="rect" lineSize="0" fillColor="#00ff99cc">
       <relation target="" sidePair="height-height"/>
     </graph>

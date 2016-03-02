@@ -5,16 +5,16 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="控制器属性"/>
     </component>
-    <graph id="n20" name="n20" xy="11,91" size="378,254" type="rect" lineColor="#ffa0a0a0"/>
+    <graph id="n20" name="n20" xy="11,91" size="378,254" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="246,356" size="62,25">
       <Button title="保存"/>
     </component>
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="321,356" size="56,25">
       <Button title="取消"/>
     </component>
-    <text id="n15" name="n15" xy="12,32" size="38,16" fontSize="12" align="right" autoSize="height" text="名称"/>
+    <text id="n15" name="n15" xy="12,32" size="38,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="名称"/>
     <component id="n16" name="n16" src="gcza1s" pkg="nk9ejx23" xy="54,30" size="105,20"/>
-    <list id="n19" name="n19" xy="12,113" size="376,231" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n3u"/>
+    <list id="n19" name="n19" xy="11,111" size="378,234" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n3u"/>
     <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="9,61" size="69,25">
       <Button title="增加页"/>
     </component>
@@ -34,8 +34,8 @@
     <component id="n34" name="n34" src="xualm" pkg="nk9ejx23" xy="18,356" size="83,25">
       <Button title="删除控制器"/>
     </component>
-    <component id="n35" name="n35" src="au3n3v" xy="12,92" size="376,21"/>
-    <component id="n36" name="autoRadioGroupDepth" src="xualt" pkg="nk9ejx23" xy="181,31" size="205,19">
+    <component id="n35" name="n35" src="au3n3v" xy="11,91" size="378,21"/>
+    <component id="n36" name="autoRadioGroupDepth" src="xualt" pkg="nk9ejx23" xy="168,31" size="197,19">
       <Button title="自动调整单选组对象层次"/>
     </component>
     <component id="n37" name="n37" src="ehmsu7z" xy="375,32" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xA;选中状态的按钮都会被自动调整到其他按钮的最上面"/>

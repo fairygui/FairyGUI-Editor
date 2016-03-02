@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="16,25" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+<component size="16,24" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
   <displayList>
-    <image id="n2" name="n2" src="pi83u6x" xy="3,10" aspect="true">
+    <image id="n3" name="n3" src="xualk" pkg="nk9ejx23" xy="0,0" size="17,25">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="pi83u6x" xy="3,9" aspect="true">
       <relation target="" sidePair="right-right,middle-middle"/>
     </image>
-    <graph id="n3" name="n3" xy="1,1" size="13,23" type="rect" lineColor="#ff999999" fillColor="#00ffffff">
-      <gearDisplay controller="button" pages="2,3"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <graph id="n4" name="n4" xy="0,1" size="1,23" type="rect" lineColor="#ff999999" fillColor="#00ffffff">
-      <gearDisplay controller="button" pages="2,3"/>
-      <relation target="" sidePair="right-right"/>
-    </graph>
   </displayList>
   <Button mode="Check"/>
 </component>

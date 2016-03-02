@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="60,20" extention="Label">
-  <controller name="c1" pages="3,,1," selected="0"/>
+  <controller name="c1" pages="3,,1," selected="1"/>
   <displayList>
-    <image id="n0" name="n0" src="gcza1r" xy="0,0" size="60,20" aspect="true">
-      <gearDisplay controller="c1" pages="3"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
     <loader id="n4" name="icon" xy="2,2" size="16,16" align="center" vAlign="middle">
       <gearDisplay controller="c1" pages="1"/>
     </loader>
-    <text id="n5" name="nameText" xy="20,1" size="38,18" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n5" name="nameText" xy="20,1" size="38,18" fontSize="12" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="1"/>
       <relation target="" sidePair="width-width"/>
     </text>
-    <text id="n7" name="title" xy="2,1" size="55,18" input="true" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n7" name="title" xy="2,1" size="55,18" input="true" fontSize="12" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>

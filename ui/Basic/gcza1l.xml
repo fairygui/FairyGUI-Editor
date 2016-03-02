@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="353,142" extention="Label" initName="frame">
   <displayList>
-    <image id="n0" name="n0" src="gcza1h" xy="0,0" aspect="true">
+    <image id="n0" name="n0" src="gcza1h" xy="-4,-4" size="359,149">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <component id="n1" name="closeButton" src="gcza1m" xy="326,4">
-      <relation target="" sidePair="right-right"/>
-    </component>
-    <graph id="n2" name="dragArea" xy="0,1" size="323,22">
+    <graph id="n2" name="dragArea" xy="0,1" size="346,22">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <text id="n3" name="title" xy="5,4" size="316,18" fontSize="12" color="#ffffff" vAlign="middle" autoSize="none" text="">
+    <text id="n3" name="title" xy="5,3" size="342,18" fontSize="12" align="center" vAlign="middle" autoSize="none" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <graph id="n4" name="contentArea" xy="4,24" size="345,114">

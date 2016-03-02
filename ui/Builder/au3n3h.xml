@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="361,29">
+<component size="361,29" overflow="hidden">
   <displayList>
-    <graph id="n0" name="n0" xy="0,0" size="361,29" type="rect" lineSize="0" fillColor="#fff0f0f0">
+    <graph id="n0" name="n0" xy="0,0" size="361,29" type="rect" lineSize="0" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <list id="n1" name="n1" xy="1,2" size="358,25" layout="flow_hz" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n3f">
+    <list id="n1" name="n1" xy="106,2" size="253,25" layout="flow_hz" margin="0,0,0,0" defaultItem="ui://2pshu6oiau3n3f">
       <relation target="" sidePair="width-width"/>
     </list>
-    <graph id="n2" name="bottom" xy="0,28" size="362,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ffa0a0a0">
+    <image id="n2" name="bottom" src="au3n39" pkg="nk9ejx23" xy="0,27" size="362,2">
       <relation target="" sidePair="width-width,bottom-bottom"/>
-    </graph>
+    </image>
+    <text id="n3" name="n3" xy="3,7" size="69,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="控制器"/>
+    <image id="n4" name="n4" src="au3n38" pkg="nk9ejx23" xy="96,0" size="2,27">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <component id="n5" name="n5" src="au3n2i" xy="67,3" tooltips="新建控制器">
+      <Button icon="ui://2pshu6oikrunu6h"/>
+    </component>
   </displayList>
   <relation target="n1" sidePair="height-height"/>
 </component>

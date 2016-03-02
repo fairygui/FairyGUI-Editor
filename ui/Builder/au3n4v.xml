@@ -5,9 +5,9 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="进度条"/>
     </component>
-    <text id="n70" name="n70" xy="10,36" size="41,16" fontSize="12" align="right" autoSize="none" text="当前值"/>
+    <text id="n70" name="n70" xy="10,36" size="41,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="当前值"/>
     <component id="n71" name="value" src="au3n69" pkg="nk9ejx23" xy="56,35"/>
-    <text id="n72" name="n72" xy="123,36" size="41,16" fontSize="12" align="right" autoSize="none" text="最大值"/>
+    <text id="n72" name="n72" xy="123,36" size="41,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="最大值"/>
     <component id="n73" name="max" src="au3n69" pkg="nk9ejx23" xy="169,35"/>
   </displayList>
 </component>

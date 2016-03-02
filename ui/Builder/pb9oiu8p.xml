@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="262,126">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="262,126">
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="-4,-4" size="269,134">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n32" name="n32" xy="8,9" size="244,39" fontSize="12" autoSize="none" text="输入框为空时显示的提示文字&#xA;可以直接使用UBB语法"/>
-    <component id="n33" name="promptText" src="au3n6k" pkg="nk9ejx23" xy="6,51" size="247,63"/>
+    <text id="n32" name="n32" xy="8,9" size="244,39" fontSize="12" color="#b2b2b2" autoSize="none" text="输入框为空时显示的提示文字&#xA;可以直接使用UBB语法"/>
+    <component id="n33" name="promptText" src="au3n6k" pkg="nk9ejx23" xy="6,54" size="247,63"/>
   </displayList>
 </component>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="400,20" extention="Button">
   <displayList>
-    <graph id="n0" name="n0" xy="0,19" size="400,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ffdedede">
+    <graph id="n0" name="n0" xy="0,19" size="400,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff555555">
       <relation target="" sidePair="width-width"/>
     </graph>
     <component id="n1" name="range" src="mduxu76" xy="145,0"/>
+    <component id="n2" name="selector" src="85piu7g" xy="77,0" touchable="false"/>
+    <component id="n3" name="draggingSelector" src="85piu7h" xy="95,0" touchable="false"/>
   </displayList>
   <Button mode="Radio"/>
 </component>

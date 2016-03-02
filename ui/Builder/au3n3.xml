@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="220,580">
+<component size="220,580" designImageOffsetX="-428" designImageAlpha="100">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n1" name="n1" xy="0,0" size="220,580" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0" corner="6,6,0,0">
+    <graph id="n1" name="n1" xy="0,0" size="220,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n5" name="n5" xy="1,23" size="218,1" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffcccc">
+    <component id="n39" name="n39" src="kwng7h" pkg="nk9ejx23" xy="0,0" size="220,23">
       <relation target="" sidePair="width-width"/>
-    </graph>
-    <text id="n15" name="n15" xy="6,4" size="17,16" fontSize="12" text="库"/>
-    <graph id="n6" name="n6" xy="1,25" size="217,552" type="rect" lineSize="0">
+      <Button title="库"/>
+    </component>
+    <graph id="n6" name="n6" xy="1,23" size="217,555" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <list id="n3" name="treeView" xy="1,24" size="217,554" overflow="scroll" margin="0,10,0,0">
+    <list id="n3" name="treeView" xy="1,22" size="219,558" overflow="scroll" margin="1,10,1,1">
       <relation target="" sidePair="width-width,height-height"/>
       <relation target="n38" sidePair="topext-bottom"/>
     </list>
-    <text id="n19" name="n19" xy="51,4" size="29,16" fontSize="12" singleLine="true" text="包："/>
-    <text id="n20" name="n20" xy="77,4" size="47,16" fontSize="12" singleLine="true" text="100/100">
+    <text id="n19" name="n19" xy="51,3" size="29,16" fontSize="12" color="#cccccc" singleLine="true" text="包："/>
+    <text id="n20" name="n20" xy="77,3" size="47,16" fontSize="12" color="#cccccc" singleLine="true" text="100/100">
       <relation target="n19" sidePair="left-right"/>
     </text>
     <component id="n21" name="n21" src="au3n2i" xy="166,1" size="24,22" tooltips="过滤显示包">
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiofk55t"/>
     </component>
-    <component id="n22" name="n22" src="au3n3e" xy="-222,235"/>
     <component id="n24" name="n24" src="au3n2i" xy="192,1" size="24,22" tooltips="全部折叠">
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oibfc35y"/>
@@ -33,9 +32,9 @@
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiur4wu65"/>
     </component>
-    <component id="n38" name="find" src="rjtoiu8j" xy="0,-35">
+    <component id="n38" name="find" src="rjtoiu8j" xy="0,-35" size="220,58">
       <gearDisplay controller="c1" pages="1"/>
-      <gearXY controller="c1" pages="0,1" values="0,-35|-" default="0,23"/>
+      <gearXY controller="c1" pages="0,1" values="0,-35|0,22" default="0,23"/>
       <relation target="" sidePair="width-width"/>
     </component>
   </displayList>

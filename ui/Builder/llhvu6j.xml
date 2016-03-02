@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="425,420">
-  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c1" pages="0,,1," selected="1"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="425,420">
       <relation target="" sidePair="width-width,height-height"/>
@@ -9,8 +9,8 @@
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="327,379" size="79,25">
       <Button title="关闭"/>
     </component>
-    <graph id="n20" name="n20" xy="13,81" size="397,287" group="n35" type="rect" lineColor="#ffa0a0a0"/>
-    <list id="n19" name="n19" xy="14,82" size="395,285" group="n35" overflow="scroll" scrollBar="visible" margin="0,0,0,0" defaultItem="ui://nk9ejx23au3n6q"/>
+    <graph id="n20" name="n20" xy="13,81" size="397,287" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n19" name="n19" xy="13,81" size="397,287" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
     <group id="n35" name="n35" xy="13,81" size="397,287"/>
     <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="287,29" size="63,25">
       <Button title="查询"/>
@@ -18,10 +18,10 @@
     <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="15,373" size="395,2"/>
     <component id="n39" name="n39" src="au3n6j" pkg="nk9ejx23" xy="15,31" size="266,20"/>
     <component id="n40" name="n40" src="gcza13" pkg="nk9ejx23" xy="165,56" size="138,19">
-      <Button title="我依赖的资源" controller="c1" page="1"/>
+      <Button checked="true" title="我依赖的资源" controller="c1" page="1"/>
     </component>
     <component id="n41" name="n41" src="gcza13" pkg="nk9ejx23" xy="17,56" size="137,19">
-      <Button checked="true" title="依赖我的资源" controller="c1" page="0"/>
+      <Button title="依赖我的资源" controller="c1" page="0"/>
     </component>
     <component id="n42" name="n42" src="xualm" pkg="nk9ejx23" xy="19,379" size="86,25">
       <gearDisplay controller="c1" pages="0"/>

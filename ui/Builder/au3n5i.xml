@@ -21,9 +21,9 @@
     <component id="n33" name="n33" src="gcza13" pkg="nk9ejx23" xy="243,35" size="74,19">
       <Button title="表格" controller="c1" page="2"/>
     </component>
-    <text id="n34" name="n34" xy="12,68" size="50,16" fontSize="12" align="center" autoSize="height" text="行距"/>
-    <text id="n35" name="n35" xy="132,68" size="50,16" fontSize="12" align="center" autoSize="height" text="列距"/>
-    <text id="n36" name="n36" xy="252,68" size="50,16" fontSize="12" align="center" autoSize="height" text="列数"/>
+    <text id="n34" name="n34" xy="12,68" size="50,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="行距"/>
+    <text id="n35" name="n35" xy="132,68" size="50,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="列距"/>
+    <text id="n36" name="n36" xy="252,68" size="50,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="列数"/>
     <component id="n37" name="n37" src="au3n69" pkg="nk9ejx23" xy="63,66" size="60,20">
       <Label title="0"/>
     </component>

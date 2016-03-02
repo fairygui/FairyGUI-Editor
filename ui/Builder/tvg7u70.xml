@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="229,35">
   <displayList>
-    <graph id="n0" name="n0" xy="0,0" size="228,34" type="rect" lineColor="#ffa0a0a0" fillColor="#00ffffff">
+    <graph id="n0" name="n0" xy="0,0" size="228,34" type="rect" lineColor="#ff151415" fillColor="#00ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <component id="n4" name="delete" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除动效">

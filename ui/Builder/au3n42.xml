@@ -10,14 +10,14 @@
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" autoSize="none" text=""/>
-    <graph id="n3" name="n3" xy="182,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n4" name="n4" xy="0,20" size="430,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc">
+    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
+    <graph id="n3" name="n3" xy="182,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <graph id="n4" name="n4" xy="0,20" size="430,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
-    <graph id="n16" name="n16" xy="244,1" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n17" name="n17" xy="306,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
-    <graph id="n18" name="n18" xy="369,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ffcccccc"/>
+    <graph id="n16" name="n16" xy="244,1" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <graph id="n17" name="n17" xy="306,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <graph id="n18" name="n18" xy="369,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
     <component id="n19" name="n19" src="au3n6m" pkg="nk9ejx23" xy="184,0" size="60,20">
       <relation target="" sidePair="width-width"/>
     </component>

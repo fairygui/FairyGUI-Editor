@@ -5,8 +5,8 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建组件"/>
     </component>
-    <text id="n1" name="n1" xy="12,35" size="62,16" fontSize="12" align="right" autoSize="none" text="组件名称"/>
-    <text id="n2" name="n2" xy="12,65" size="62,16" fontSize="12" align="right" autoSize="none" text="大小"/>
+    <text id="n1" name="n1" xy="12,35" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="组件名称"/>
+    <text id="n2" name="n2" xy="12,65" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="大小"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="78,34" size="225,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="80,158">
       <Button title="创建"/>
@@ -15,9 +15,9 @@
       <Button title="取消"/>
     </component>
     <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="78,63"/>
-    <text id="n9" name="n9" xy="155,66" size="11,16" fontSize="12" text="X"/>
+    <text id="n9" name="n9" xy="155,66" size="11,16" fontSize="12" color="#b2b2b2" text="X"/>
     <component id="n10" name="n10" src="gcza1s" pkg="nk9ejx23" xy="174,63"/>
-    <text id="n12" name="n12" xy="12,94" size="62,16" fontSize="12" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="12,94" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="78,92" size="179,20"/>
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="266,89" size="76,25">
       <Button title="浏览.."/>

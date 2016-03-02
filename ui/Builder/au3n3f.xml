@@ -4,9 +4,6 @@
     <list id="n3" name="list" xy="44,3" size="42,19" layout="row" overflow="hidden" margin="0,0,0,0" colGap="5" defaultItem="ui://2pshu6oiau3n3g">
       <relation target="n12" sidePair="left-right"/>
     </list>
-    <image id="n11" name="n11" src="au3n38" pkg="nk9ejx23" xy="88,0" size="2,25" aspect="true">
-      <relation target="n3" sidePair="left-right"/>
-    </image>
     <component id="n12" name="nameButton" src="au3n5h" xy="23,3">
       <Button icon="ui://2pshu6oiau3n26"/>
     </component>
@@ -14,5 +11,5 @@
       <Button icon="ui://2pshu6oiau3n26" selectedIcon="ui://2pshu6oixguriu8o"/>
     </component>
   </displayList>
-  <relation target="n11" sidePair="rightext-right"/>
+  <relation target="n3" sidePair="rightext-right"/>
 </component>

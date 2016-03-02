@@ -10,25 +10,22 @@
     <component id="n11" name="useSourceSize" src="xualt" pkg="nk9ejx23" xy="179,97" size="59,19">
       <Button title="原大小"/>
     </component>
-    <text id="n16" name="title" xy="31,25" size="199,18" fontSize="12" autoSize="none" text=""/>
-    <text id="n17" name="n17" xy="3,49" size="42,16" fontSize="12" align="right" autoSize="none" text="名称"/>
-    <text id="n13" name="n13" xy="25,72" size="20,16" fontSize="12" align="center" autoSize="none" text="X"/>
-    <component id="n21" name="x" src="au3n69" pkg="nk9ejx23" xy="48,71" size="52,20">
+    <text id="n16" name="title" xy="31,25" size="199,18" fontSize="12" color="#cda200" autoSize="none" text=""/>
+    <text id="n17" name="n17" xy="3,49" size="42,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="25,72" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="X"/>
+    <component id="n21" name="x" src="au3n69" pkg="nk9ejx23" xy="48,71" size="48,20">
       <Label title="100000"/>
     </component>
-    <text id="n22" name="n22" xy="101,72" size="20,16" fontSize="12" align="center" autoSize="none" text="Y"/>
-    <component id="n23" name="y" src="au3n69" pkg="nk9ejx23" xy="124,71" size="52,20">
+    <text id="n22" name="n22" xy="101,72" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Y"/>
+    <component id="n23" name="y" src="au3n69" pkg="nk9ejx23" xy="124,71" size="48,20">
       <Label title="100000"/>
     </component>
-    <component id="n18" name="locked" src="au3n48" xy="2,68" size="25,25">
-      <Button icon="ui://2pshu6oiau3n1a" selectedIcon="ui://2pshu6oiau3n1b"/>
-    </component>
-    <text id="n24" name="n24" xy="25,97" size="20,16" fontSize="12" align="center" autoSize="none" text="宽"/>
-    <text id="n26" name="n26" xy="101,98" size="20,16" fontSize="12" align="center" autoSize="none" text="高"/>
-    <component id="n27" name="height" src="au3n69" pkg="nk9ejx23" xy="124,96" size="52,20">
+    <text id="n24" name="n24" xy="25,97" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="宽"/>
+    <text id="n26" name="n26" xy="101,98" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="高"/>
+    <component id="n27" name="height" src="au3n69" pkg="nk9ejx23" xy="124,96" size="48,20">
       <Label title="100000"/>
     </component>
-    <component id="n25" name="width" src="au3n69" pkg="nk9ejx23" xy="48,96" size="52,20">
+    <component id="n25" name="width" src="au3n69" pkg="nk9ejx23" xy="48,96" size="48,20">
       <Label title="100000"/>
     </component>
     <component id="n29" name="aspectLocked" src="au3n48" xy="2,92" size="25,25">
@@ -40,8 +37,8 @@
     <component id="n32" name="visible" src="xualt" pkg="nk9ejx23" xy="8,196" size="65,19" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
       <Button title="可见"/>
     </component>
-    <text id="n33" name="n33" xy="11,172" size="41,16" fontSize="12" align="right" autoSize="none" text="透明度"/>
-    <text id="n35" name="n35" xy="101,172" size="62,16" fontSize="12" align="right" autoSize="height" text="旋转"/>
+    <text id="n33" name="n33" xy="11,172" size="41,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="透明度"/>
+    <text id="n35" name="n35" xy="101,172" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="旋转"/>
     <component id="n36" name="grayed" src="xualt" pkg="nk9ejx23" xy="80,196" size="64,19">
       <Button title="变灰"/>
     </component>
@@ -51,24 +48,27 @@
     <component id="n38" name="rotation" src="au3n69" pkg="nk9ejx23" xy="167,170" size="40,20">
       <Label title="0"/>
     </component>
-    <text id="n39" name="n39" xy="4,146" size="48,16" fontSize="12" align="right" autoSize="none" text="轴心X"/>
-    <text id="n40" name="n40" xy="111,147" size="52,16" fontSize="12" align="right" autoSize="none" text="轴心Y"/>
-    <component id="n41" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="167,145" size="52,20">
+    <text id="n39" name="n39" xy="4,146" size="48,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="轴心X"/>
+    <text id="n40" name="n40" xy="111,147" size="52,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="轴心Y"/>
+    <component id="n41" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="167,145" size="48,20">
       <Label title="100000"/>
     </component>
-    <component id="n42" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="56,145" size="52,20">
+    <component id="n42" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="56,145" size="48,20">
       <Label title="100000"/>
     </component>
-    <text id="n48" name="n48" xy="4,123" size="48,16" group="n52" fontSize="12" align="right" autoSize="none" text="ScaleX"/>
-    <text id="n49" name="n49" xy="111,123" size="52,16" group="n52" fontSize="12" align="right" autoSize="none" text="ScaleY"/>
-    <component id="n50" name="scaleY" src="au3n69" pkg="nk9ejx23" xy="167,121" size="52,20" group="n52">
+    <text id="n48" name="n48" xy="4,123" size="48,16" group="n52" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="ScaleX"/>
+    <text id="n49" name="n49" xy="111,123" size="52,16" group="n52" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="ScaleY"/>
+    <component id="n50" name="scaleY" src="au3n69" pkg="nk9ejx23" xy="167,121" size="48,20" group="n52">
       <Label title="100000"/>
     </component>
-    <component id="n51" name="scaleX" src="au3n69" pkg="nk9ejx23" xy="56,121" size="52,20" group="n52">
+    <component id="n51" name="scaleX" src="au3n69" pkg="nk9ejx23" xy="56,121" size="48,20" group="n52">
       <Label title="100000"/>
     </component>
-    <group id="n52" name="scaleProps" xy="4,121" size="215,20" advanced="true"/>
+    <group id="n52" name="scaleProps" xy="4,121" size="211,20" advanced="true"/>
     <component id="n53" name="n53" src="ehmsu7z" xy="212,50" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：&#xA;a#&#xA;则选定的元件的名称依次修改为a0,a1,a2.."/>
     <loader id="n54" name="icon" xy="11,26" size="16,16" align="center" vAlign="middle"/>
+    <component id="n55" name="n55" src="gcza2i" pkg="nk9ejx23" xy="216,145" size="19,19">
+      <Button icon="ui://2pshu6oipi83u6x"/>
+    </component>
   </displayList>
 </component>

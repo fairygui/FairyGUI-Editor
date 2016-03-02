@@ -6,8 +6,8 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="粘贴项目"/>
     </component>
-    <graph id="n43" name="n43" xy="13,58" size="395,121" type="rect" lineColor="#ffa0a0a0" fillColor="#00ff99cc"/>
-    <text id="n36" name="n36" xy="20,33" size="381,16" fontSize="12" autoSize="none" text="从x复制到x"/>
+    <graph id="n43" name="n43" xy="13,58" size="395,121" type="rect" lineColor="#ff151415" fillColor="#00ff99cc"/>
+    <text id="n36" name="n36" xy="20,33" size="381,16" fontSize="12" color="#b2b2b2" autoSize="none" text="从x复制到x"/>
     <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="116,66" size="126,19">
       <Button checked="true" title="重命名" controller="c1" page="0"/>
     </component>
@@ -17,7 +17,7 @@
     <component id="n40" name="n40" src="xualt" pkg="nk9ejx23" xy="29,156" size="233,19">
       <Button title="忽略已导出的元件"/>
     </component>
-    <text id="n42" name="n42" xy="17,67" size="89,16" fontSize="12" align="right" autoSize="height" text="同名元件处理"/>
+    <text id="n42" name="n42" xy="17,67" size="89,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="同名元件处理"/>
     <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="102,188" group="n44">
       <Button title="确定"/>
     </component>

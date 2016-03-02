@@ -2,16 +2,16 @@
 <component size="310,228">
   <controller name="showAlpha" pages="0,,1," selected="1"/>
   <displayList>
-    <image id="n0" name="n0" src="gcza19" xy="0,0" size="314,232"/>
+    <image id="n0" name="n0" src="gcza19" xy="-4,-4" size="318,236"/>
     <component id="n3" name="currentColorValue" src="gcza1s" xy="60,4"/>
     <image id="n6" name="colorTable" src="au3n5z" xy="4,29" aspect="true"/>
     <image id="n9" name="n9" src="au3n6b" xy="5,4" size="50,18"/>
-    <graph id="n2" name="currentColorBox" xy="5,4" size="50,18" type="rect" fillColor="#00ff9999"/>
-    <text id="n5" name="n5" xy="201,6" size="51,16" group="n10" fontSize="12" align="right" autoSize="height" text="透明度"/>
+    <graph id="n2" name="currentColorBox" xy="5,4" size="50,18" type="rect" lineColor="#ff151415" fillColor="#00ff9999"/>
+    <text id="n5" name="n5" xy="201,6" size="51,16" group="n10" fontSize="12" color="#cccccc" align="right" autoSize="height" text="透明度"/>
     <component id="n7" name="alphaInput" src="au3n69" xy="254,4" size="31,19" group="n10">
       <Label title="100"/>
     </component>
-    <text id="n8" name="n8" xy="286,6" size="11,16" group="n10" fontSize="12" text="%"/>
+    <text id="n8" name="n8" xy="286,6" size="11,16" group="n10" fontSize="12" color="#cccccc" text="%"/>
     <group id="n10" name="n10" xy="201,4" size="96,19" advanced="true">
       <gearDisplay controller="showAlpha" pages="1"/>
     </group>

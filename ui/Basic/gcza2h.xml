@@ -3,11 +3,11 @@
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="checked" pages="0,,1,,2," selected="0"/>
   <displayList>
-    <image id="n14" name="n14" src="au3n50" xy="0,0" size="80,22">
+    <image id="n14" name="n14" src="kwng7m" xy="0,0" size="80,22">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n6" name="n6" src="au3n38" xy="18,0" aspect="true">
+    <image id="n6" name="n6" src="kwng7o" xy="18,0" aspect="true">
       <relation target="" sidePair="height-height"/>
     </image>
     <text id="n1" name="title" xy="22,3" size="50,16" fontSize="12" autoSize="none" singleLine="true" text="">

@@ -6,7 +6,7 @@
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1" name="title" xy="3,1" size="10,16" fontSize="12" align="center" vAlign="middle" text=""/>
+    <text id="n1" name="title" xy="3,1" size="10,16" fontSize="12" color="#b2b2b2" align="center" vAlign="middle" text=""/>
   </displayList>
   <Button/>
   <relation target="n1" sidePair="width-width"/>

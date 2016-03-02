@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="100,8" idnum="2">
+<component size="100,8">
   <displayList>
-    <image id="n0" name="n0" src="au3n39" xy="21,3" size="77,2">
+    <image id="n0" name="n0" src="kwng7n" xy="21,3" size="77,2">
       <relation target="" sidePair="width-width"/>
     </image>
-    <image id="n1" name="n1" src="au3n38" xy="18,0" size="2,8"/>
+    <image id="n1" name="n1" src="kwng7o" xy="18,0" size="2,8"/>
   </displayList>
 </component>
