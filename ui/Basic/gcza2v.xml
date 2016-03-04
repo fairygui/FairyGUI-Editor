@@ -10,7 +10,7 @@
       <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="3,3" size="10,16" fontSize="12" color="#b2b2b2" vAlign="middle" singleLine="true" text=""/>
+    <text id="n2" name="title" xy="3,3" size="10,16" fontSize="12" color="#bdbdbd" vAlign="middle" singleLine="true" text=""/>
     <component id="n3" name="closeButton" src="gcza2u" xy="14,1">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="right-right"/>

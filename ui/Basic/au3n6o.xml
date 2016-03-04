@@ -18,9 +18,9 @@
       <gearDisplay controller="button" pages="4,5"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n4" name="title" xy="2,2" size="81,16" fontSize="12" color="#b2b2b2" autoSize="none" singleLine="true" text="">
+    <text id="n4" name="title" xy="2,2" size="81,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
-      <gearColor controller="button" pages="4,5" values="#787b7b|#787b7b" default="#b2b2b2"/>
+      <gearColor controller="button" pages="4,5" values="#787b7b|#787b7b" default="#bdbdbd"/>
     </text>
   </displayList>
   <Button/>

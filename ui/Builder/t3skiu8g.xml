@@ -6,7 +6,7 @@
       <Label title="创建弹出菜单"/>
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n1" name="n1" xy="225,35" size="63,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="225,35" size="63,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="290,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="321,367">
       <Button title="创建"/>
@@ -14,27 +14,27 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="447,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="225,65" size="63,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="225,65" size="63,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="290,63" size="216,20"/>
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="60,25">
       <Button title="浏览.."/>
     </component>
-    <text id="n17" name="n17" xy="230,102" size="350,67" fontSize="12" color="#b2b2b2" leading="6" autoSize="none" text="弹出菜单由两部分组成&#xA;(1)菜单背景&#xA;(2)菜单项目列表"/>
+    <text id="n17" name="n17" xy="230,102" size="350,67" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="弹出菜单由两部分组成&#xA;(1)菜单背景&#xA;(2)菜单项目列表"/>
     <image id="n33" name="n33" src="au3n39" pkg="nk9ejx23" xy="224,96" size="367,2"/>
     <image id="n34" name="n34" src="au3n39" pkg="nk9ejx23" xy="225,355" size="367,2"/>
-    <text id="n36" name="n36" xy="231,175" size="67,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="菜单背景"/>
+    <text id="n36" name="n36" xy="231,175" size="67,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="菜单背景"/>
     <component id="n38" name="n38" src="au3n6j" pkg="nk9ejx23" xy="301,172" size="214,20"/>
     <image id="n91" name="n91" src="t3skiu8h" xy="21,43"/>
-    <text id="n93" name="n93" xy="233,227" size="141,16" group="n101" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n94" name="n94" xy="233,257" size="141,16" group="n101" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n95" name="n95" xy="233,287" size="141,16" group="n101" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n96" name="n96" xy="233,317" size="141,16" group="n101" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <text id="n93" name="n93" xy="233,227" size="141,16" group="n101" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
+    <text id="n94" name="n94" xy="233,257" size="141,16" group="n101" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n95" name="n95" xy="233,287" size="141,16" group="n101" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n96" name="n96" xy="233,317" size="141,16" group="n101" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
     <component id="n97" name="n97" src="au3n6j" pkg="nk9ejx23" xy="376,225" size="214,20" group="n101"/>
     <component id="n98" name="n98" src="au3n6j" pkg="nk9ejx23" xy="376,255" size="214,20" group="n101"/>
     <component id="n99" name="n99" src="au3n6j" pkg="nk9ejx23" xy="376,285" size="214,20" group="n101"/>
     <component id="n100" name="n100" src="au3n6j" pkg="nk9ejx23" xy="376,315" size="214,20" group="n101"/>
     <group id="n101" name="n101" xy="233,225" size="357,110" group="n103"/>
-    <text id="n102" name="n102" xy="236,202" size="281,16" group="n103" fontSize="12" color="#b2b2b2" text="菜单项目按钮图片设置：（以下图片设置均为可选）"/>
+    <text id="n102" name="n102" xy="236,202" size="281,16" group="n103" fontSize="12" color="#bdbdbd" text="菜单项目按钮图片设置：（以下图片设置均为可选）"/>
     <group id="n103" name="n103" xy="233,202" size="357,133"/>
   </displayList>
 </component>

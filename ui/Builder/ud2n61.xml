@@ -7,12 +7,12 @@
       <Label title="设计图"/>
     </component>
     <component id="n9" name="designImage" src="au3n6j" pkg="nk9ejx23" xy="67,29" size="168,20"/>
-    <text id="n17" name="n17" xy="2,31" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="资源"/>
-    <text id="n61" name="n61" xy="2,57" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="偏移X"/>
-    <text id="n62" name="n62" xy="110,57" size="53,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="偏移Y"/>
+    <text id="n17" name="n17" xy="2,31" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="资源"/>
+    <text id="n61" name="n61" xy="2,57" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="偏移X"/>
+    <text id="n62" name="n62" xy="110,57" size="53,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="偏移Y"/>
     <component id="n63" name="designImageOffsetX" src="au3n69" pkg="nk9ejx23" xy="67,55" size="39,20"/>
     <component id="n64" name="designImageOffsetY" src="au3n69" pkg="nk9ejx23" xy="165,55" size="39,20"/>
-    <text id="n65" name="n65" xy="2,83" size="62,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="透明度"/>
+    <text id="n65" name="n65" xy="2,83" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="透明度"/>
     <component id="n66" name="designImageAlpha" src="au3n69" pkg="nk9ejx23" xy="67,81" size="39,20"/>
     <component id="n67" name="n67" src="gcza13" pkg="nk9ejx23" xy="174,84" size="57,19">
       <Button title="顶层" controller="layer" page="1"/>
@@ -20,6 +20,6 @@
     <component id="n68" name="n68" src="gcza13" pkg="nk9ejx23" xy="112,84" size="59,19">
       <Button checked="true" title="底层" controller="layer" page="0"/>
     </component>
-    <component id="n69" name="n69" src="ehmsu7z" xy="192,3" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xA;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F6可切换。&#xA;设计图只在设计期可见，不会发布到最终资源包中。"/>
+    <component id="n69" name="n69" src="ehmsu7z" xy="221,2" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xA;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F6可切换。&#xA;设计图只在设计期可见，不会发布到最终资源包中。"/>
   </displayList>
 </component>

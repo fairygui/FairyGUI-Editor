@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="302,21">
   <displayList>
-    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="302,21">
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <text id="n13" name="n13" xy="57,2" size="244,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="元件">
+    <text id="n13" name="n13" xy="57,2" size="244,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="24,1" size="2,19"/>
-    <component id="n15" name="status" src="au3n2i" xy="0,1" size="23,20">
+    <component id="n15" name="status" src="au3n2i" xy="1,1" size="23,20">
       <Button icon="ui://2pshu6oiuzegu6a"/>
     </component>
     <image id="n16" name="n16" src="au3n38" pkg="nk9ejx23" xy="48,1" size="2,19"/>
-    <component id="n17" name="lock" src="au3n2i" xy="26,0" size="23,20">
+    <component id="n17" name="lock" src="au3n2i" xy="26,1" size="23,20">
       <Button icon="ui://2pshu6oiau3n1b"/>
     </component>
+    <image id="n18" name="n18" src="au3n39" pkg="nk9ejx23" xy="1,19" size="300,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
   </displayList>
 </component>

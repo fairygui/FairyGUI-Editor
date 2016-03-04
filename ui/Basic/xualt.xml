@@ -11,7 +11,7 @@
     <image id="n3" name="n3" src="xualk" xy="0,3" size="13,13">
       <gearDisplay controller="button" pages="2,3"/>
     </image>
-    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n5" name="title" xy="13,0" size="10,19" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
     <image id="n7" name="n7" src="kwng7e" xy="1,2">

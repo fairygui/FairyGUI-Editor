@@ -13,7 +13,7 @@
     <text id="n2" name="title" xy="50,2" size="37,16" fontSize="12" color="#ffffff" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
-      <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#b2b2b2"/>
+      <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#bdbdbd"/>
     </text>
     <graph id="n3" name="indent" xy="0,0" size="16,20"/>
     <loader id="n6" name="icon" xy="30,0" size="20,20" align="center" vAlign="middle">

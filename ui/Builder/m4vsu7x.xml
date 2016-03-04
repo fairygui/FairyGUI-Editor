@@ -4,21 +4,21 @@
     <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="200,257">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n13" name="n13" xy="6,11" size="67,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="滚动条显示"/>
+    <text id="n13" name="n13" xy="6,11" size="67,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="滚动条显示"/>
     <component id="n14" name="scrollBarDisplay" src="gcza18" pkg="nk9ejx23" xy="77,8" size="112,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n15" name="scrollBarOnLeft" src="xualt" pkg="nk9ejx23" xy="12,176" size="168,19">
       <Button title="将垂直滚动条显示在左边"/>
     </component>
-    <text id="n16" name="n16" xy="6,125" size="57,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="定位"/>
-    <text id="n17" name="n17" xy="68,125" size="17,16" group="n25" fontSize="12" color="#b2b2b2" autoSize="none" text="上"/>
+    <text id="n16" name="n16" xy="6,125" size="57,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="定位"/>
+    <text id="n17" name="n17" xy="68,125" size="17,16" group="n25" fontSize="12" color="#bdbdbd" autoSize="none" text="上"/>
     <component id="n18" name="scrollBarMarginTop" src="au3n69" pkg="nk9ejx23" xy="88,122" size="35,20" group="n25"/>
-    <text id="n19" name="n19" xy="128,125" size="17,16" group="n25" fontSize="12" color="#b2b2b2" autoSize="none" text="下"/>
+    <text id="n19" name="n19" xy="128,125" size="17,16" group="n25" fontSize="12" color="#bdbdbd" autoSize="none" text="下"/>
     <component id="n20" name="scrollBarMarginBottom" src="au3n69" pkg="nk9ejx23" xy="148,122" size="35,20" group="n25"/>
-    <text id="n21" name="n21" xy="68,150" size="17,16" group="n25" fontSize="12" color="#b2b2b2" autoSize="none" text="左"/>
+    <text id="n21" name="n21" xy="68,150" size="17,16" group="n25" fontSize="12" color="#bdbdbd" autoSize="none" text="左"/>
     <component id="n22" name="scrollBarMarginLeft" src="au3n69" pkg="nk9ejx23" xy="88,147" size="35,20" group="n25"/>
-    <text id="n23" name="n23" xy="128,150" size="17,16" group="n25" fontSize="12" color="#b2b2b2" autoSize="none" text="右"/>
+    <text id="n23" name="n23" xy="128,150" size="17,16" group="n25" fontSize="12" color="#bdbdbd" autoSize="none" text="右"/>
     <component id="n24" name="scrollBarMarginRight" src="au3n69" pkg="nk9ejx23" xy="148,147" size="35,20" group="n25"/>
     <group id="n25" name="n25" xy="68,122" size="115,45"/>
     <component id="n26" name="scrollBarSnapping" src="xualt" pkg="nk9ejx23" xy="12,223" size="168,19">
@@ -27,7 +27,7 @@
     <component id="n27" name="scrollBarInDemand" src="xualt" pkg="nk9ejx23" xy="12,199" size="177,19">
       <Button title="仅在内容溢出时才显示滚动条"/>
     </component>
-    <text id="n29" name="n29" xy="6,38" size="89,16" fontSize="12" color="#b2b2b2" singleLine="true" text="覆盖滚动条资源"/>
+    <text id="n29" name="n29" xy="6,38" size="89,16" fontSize="12" color="#bdbdbd" singleLine="true" text="覆盖滚动条资源"/>
     <component id="n59" name="n59" src="xualm" pkg="nk9ejx23" xy="128,34" size="58,24">
       <Button title="设置"/>
     </component>
@@ -37,8 +37,8 @@
     <image id="n63" name="n63" src="au3n6s" pkg="nk9ejx23" xy="43,89" size="148,21">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n51" name="n51" xy="10,68" size="29,16" fontSize="12" color="#b2b2b2" singleLine="true" text="垂直"/>
-    <text id="n60" name="n60" xy="10,92" size="29,16" fontSize="12" color="#b2b2b2" singleLine="true" text="水平"/>
+    <text id="n51" name="n51" xy="10,68" size="29,16" fontSize="12" color="#bdbdbd" singleLine="true" text="垂直"/>
+    <text id="n60" name="n60" xy="10,92" size="29,16" fontSize="12" color="#bdbdbd" singleLine="true" text="水平"/>
     <loader id="n38" name="vtScrollBarIcon" xy="47,68" size="16,16" group="n49" align="center" vAlign="middle"/>
     <text id="n39" name="vtScrollBarRes" xy="65,68" size="120,16" group="n49" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>

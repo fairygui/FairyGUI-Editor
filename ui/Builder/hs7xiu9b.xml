@@ -11,7 +11,7 @@
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <text id="n1" name="title" xy="7,2" size="29,16" fontSize="12" color="#d1a211" text="名称">
-      <gearColor controller="button" pages="0,1,2,3" values="-|#d1a211|-|#d1a211" default="#b2b2b2"/>
+      <gearColor controller="button" pages="0,1,2,3" values="-|#d1a211|-|#d1a211" default="#bdbdbd"/>
     </text>
   </displayList>
   <Button mode="Radio"/>

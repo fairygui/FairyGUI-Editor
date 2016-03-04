@@ -14,7 +14,7 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <loader id="n8" name="icon" xy="36,38" size="16,16" align="center" vAlign="middle"/>
-    <text id="n9" name="title" xy="54,37" size="146,18" fontSize="12" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n9" name="title" xy="54,37" size="146,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
   </displayList>

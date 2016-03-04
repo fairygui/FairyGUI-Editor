@@ -12,7 +12,7 @@
     </image>
     <text id="n2" name="title" xy="21,0" size="67,20" fontSize="12" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
-      <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#b2b2b2"/>
+      <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#bdbdbd"/>
     </text>
     <loader id="n3" name="icon" xy="0,0" size="20,20" align="center" vAlign="middle"/>
   </displayList>

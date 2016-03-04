@@ -16,13 +16,9 @@
       <relation target="" sidePair="width-width,height-height"/>
       <relation target="n38" sidePair="topext-bottom"/>
     </list>
-    <text id="n19" name="n19" xy="51,3" size="29,16" fontSize="12" color="#cccccc" singleLine="true" text="包："/>
-    <text id="n20" name="n20" xy="77,3" size="47,16" fontSize="12" color="#cccccc" singleLine="true" text="100/100">
-      <relation target="n19" sidePair="left-right"/>
-    </text>
     <component id="n21" name="n21" src="au3n2i" xy="166,1" size="24,22" tooltips="过滤显示包">
       <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oiofk55t"/>
+      <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
     <component id="n24" name="n24" src="au3n2i" xy="192,1" size="24,22" tooltips="全部折叠">
       <relation target="" sidePair="right-right"/>

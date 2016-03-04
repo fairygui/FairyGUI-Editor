@@ -6,7 +6,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动画属性"/>
     </component>
-    <text id="n19" name="n19" xy="14,60" size="54,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="纹理集"/>
+    <text id="n19" name="n19" xy="14,60" size="54,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="纹理集"/>
     <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="71,59" size="136,20">
       <ComboBox visibleItemCount="10"/>
     </component>
@@ -31,7 +31,7 @@
       <Button icon="ui://2pshu6oig1zau6d"/>
     </component>
     <group id="n72" name="n72" xy="275,480" size="144,28"/>
-    <text id="n58" name="n58" xy="12,31" size="40,16" group="n73" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="速度"/>
+    <text id="n58" name="n58" xy="12,31" size="40,16" group="n73" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="速度"/>
     <component id="n59" name="n59" src="xualm" pkg="nk9ejx23" xy="54,29" size="39,19" group="n73">
       <Button title="快"/>
     </component>
@@ -41,11 +41,11 @@
     <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="139,30" size="39,19" group="n73">
       <Button title="慢"/>
     </component>
-    <text id="n62" name="n62" xy="185,32" size="85,16" group="n73" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="循环延迟"/>
+    <text id="n62" name="n62" xy="185,32" size="85,16" group="n73" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="循环延迟"/>
     <component id="n63" name="repeatDelay" src="au3n69" pkg="nk9ejx23" xy="273,30" size="42,20" group="n73">
       <Label title="0"/>
     </component>
-    <text id="n64" name="n64" xy="324,32" size="85,16" group="n73" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="本帧延迟"/>
+    <text id="n64" name="n64" xy="324,32" size="85,16" group="n73" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="本帧延迟"/>
     <component id="n65" name="frameDelay" src="au3n69" pkg="nk9ejx23" xy="411,30" size="42,20" group="n73">
       <Label title="0"/>
     </component>
@@ -54,7 +54,7 @@
     </component>
     <group id="n73" name="n73" xy="12,29" size="561,23"/>
     <component id="n74" name="n74" src="au3n3y" xy="12,86" size="676,387"/>
-    <text id="n75" name="n75" xy="120,520" size="288,18" fontSize="12" color="#b2b2b2" autoSize="none" text="（也可以从库中拖入）"/>
+    <text id="n75" name="n75" xy="120,520" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
     <component id="n76" name="n76" src="xualm" pkg="nk9ejx23" xy="19,517" size="100,25">
       <Button title="导入图片序列"/>
     </component>

@@ -6,9 +6,14 @@
     </graph>
     <component id="n18" name="titleBar" src="kwng7h" pkg="nk9ejx23" xy="0,0" size="220,20">
       <relation target="" sidePair="width-width"/>
-      <Button title="预览"/>
+      <Button title="显示列表"/>
     </component>
-    <text id="n16" name="desc" xy="7,23" size="203,16" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
-    <graph id="n17" name="holder" xy="8,45" size="204,148"/>
+    <list id="n21" name="list" xy="0,19" size="220,181" group="n25" overflow="scroll" margin="21,3,1,1" defaultItem="ui://2pshu6oixl19iu8x">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <component id="n22" name="n22" src="oj7qiu9f" xy="0,18" size="207,21" group="n25">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <group id="n25" name="n25" xy="0,18" size="220,182"/>
   </displayList>
 </component>

@@ -10,7 +10,7 @@
     <image id="n2" name="bottom" src="au3n39" pkg="nk9ejx23" xy="0,27" size="362,2">
       <relation target="" sidePair="width-width,bottom-bottom"/>
     </image>
-    <text id="n3" name="n3" xy="3,7" size="69,16" fontSize="12" color="#b2b2b2" align="center" autoSize="height" text="控制器"/>
+    <text id="n3" name="n3" xy="3,7" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="控制器"/>
     <image id="n4" name="n4" src="au3n38" pkg="nk9ejx23" xy="96,0" size="2,27">
       <relation target="" sidePair="height-height"/>
     </image>

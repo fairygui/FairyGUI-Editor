@@ -11,14 +11,14 @@
       <gearDisplay controller="grayed" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n1" name="title" xy="1,1" size="58,18" input="true" fontSize="12" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n1" name="title" xy="1,1" size="58,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
     <loader id="n4" name="icon" xy="2,2" size="16,16" align="center" vAlign="middle">
       <gearDisplay controller="c1" pages="1"/>
     </loader>
-    <text id="n5" name="nameText" xy="20,1" size="38,18" fontSize="12" color="#b2b2b2" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n5" name="nameText" xy="20,1" size="38,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="1"/>
       <relation target="" sidePair="width-width"/>
     </text>

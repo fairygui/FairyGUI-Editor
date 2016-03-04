@@ -5,16 +5,16 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="包围"/>
     </component>
-    <text id="n7" name="n7" xy="38,32" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="X"/>
+    <text id="n7" name="n7" xy="38,32" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
     <component id="n8" name="x" src="au3n69" pkg="nk9ejx23" xy="59,31" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n9" name="n9" xy="119,32" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Y"/>
+    <text id="n9" name="n9" xy="119,32" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
     <component id="n10" name="y" src="au3n69" pkg="nk9ejx23" xy="140,31" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n11" name="n11" xy="38,59" size="20,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="宽"/>
-    <text id="n12" name="n12" xy="119,59" size="20,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="高"/>
+    <text id="n11" name="n11" xy="38,59" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="宽"/>
+    <text id="n12" name="n12" xy="119,59" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="高"/>
     <component id="n13" name="height" src="gcza1s" pkg="nk9ejx23" xy="140,58" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>

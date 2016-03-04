@@ -15,12 +15,15 @@
       <item title="包3" icon="ui://2pshu6oiau3n2e"/>
     </list>
     <group id="n35" name="n35" xy="9,47" size="460,287"/>
-    <text id="n39" name="n39" xy="11,26" size="125,16" fontSize="12" color="#b2b2b2" text="设定要在库中显示的包"/>
+    <text id="n39" name="n39" xy="11,26" size="125,16" fontSize="12" color="#bdbdbd" singleLine="true" text="设定要在库中显示的包"/>
     <component id="n40" name="n40" src="xualm" pkg="nk9ejx23" xy="11,342" size="66,25">
       <Button title="全选"/>
     </component>
     <component id="n41" name="n41" src="xualm" pkg="nk9ejx23" xy="86,342" size="66,25">
       <Button title="清空"/>
     </component>
+    <text id="n43" name="count" xy="141,26" size="87,16" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="100/100">
+      <relation target="n39" sidePair="left-right"/>
+    </text>
   </displayList>
 </component>

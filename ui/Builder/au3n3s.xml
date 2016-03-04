@@ -12,7 +12,7 @@
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="321,356" size="56,25">
       <Button title="取消"/>
     </component>
-    <text id="n15" name="n15" xy="12,32" size="38,16" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="名称"/>
+    <text id="n15" name="n15" xy="12,32" size="38,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="名称"/>
     <component id="n16" name="n16" src="gcza1s" pkg="nk9ejx23" xy="54,30" size="105,20"/>
     <list id="n19" name="n19" xy="11,111" size="378,234" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n3u"/>
     <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="9,61" size="69,25">

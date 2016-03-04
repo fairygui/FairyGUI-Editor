@@ -11,7 +11,7 @@
       <relation target="" sidePair="height-height,width-width"/>
     </image>
     <text id="n2" name="title" xy="3,3" size="10,16" fontSize="12" color="#ffffff" vAlign="middle" singleLine="true" text="">
-      <gearColor controller="button" pages="0,1,2,3" values="#b2b2b2|#ffffff|#b2b2b2|#ffffff" default="#cccccc"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd|#ffffff|#bdbdbd|#ffffff" default="#bdbdbd"/>
     </text>
   </displayList>
   <Button mode="Radio"/>

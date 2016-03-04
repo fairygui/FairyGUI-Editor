@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="名称冲突"/>
     </component>
-    <text id="n1" name="n1" xy="17,36" size="317,16" fontSize="12" color="#b2b2b2" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="17,36" size="317,16" fontSize="12" color="#bdbdbd" autoSize="none" text="名称"/>
     <component id="n2" name="n2" src="gcza1s" pkg="nk9ejx23" xy="16,63" size="327,20"/>
     <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="70,98">
       <Button title="确定"/>

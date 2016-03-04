@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="400,400" overflow="scroll" scrollBarFlags="4" margin="1,5,1,1">
   <displayList>
-    <text id="n0" name="txt" xy="1,2" size="374,16" fontSize="12" color="#b2b2b2" ubb="true" autoSize="height" text="">
+    <text id="n0" name="txt" xy="1,2" size="374,16" fontSize="12" color="#bdbdbd" ubb="true" autoSize="height" text="">
       <relation target="" sidePair="width-width"/>
     </text>
   </displayList>

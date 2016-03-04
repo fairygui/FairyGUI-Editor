@@ -9,17 +9,17 @@
     <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="42,51" size="184,20">
       <Label title="txtRemark"/>
     </component>
-    <text id="n67" name="n67" xy="2,53" size="39,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
-    <text id="n68" name="n68" xy="21,76" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="X"/>
+    <text id="n67" name="n67" xy="2,53" size="39,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
+    <text id="n68" name="n68" xy="21,76" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
     <component id="n69" name="x" src="au3n69" pkg="nk9ejx23" xy="42,75" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n70" name="n70" xy="95,76" size="20,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Y"/>
+    <text id="n70" name="n70" xy="95,76" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
     <component id="n71" name="y" src="au3n69" pkg="nk9ejx23" xy="116,75" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n72" name="n72" xy="21,101" size="20,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="宽"/>
-    <text id="n73" name="n73" xy="95,101" size="20,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="高"/>
+    <text id="n72" name="n72" xy="21,101" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="宽"/>
+    <text id="n73" name="n73" xy="95,101" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="高"/>
     <component id="n74" name="height" src="gcza1s" pkg="nk9ejx23" xy="116,100" size="52,20">
       <Label title="100000"/>
     </component>

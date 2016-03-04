@@ -44,21 +44,21 @@
       <gearDisplay controller="c1" pages="0,1,2,3,4"/>
       <Button title="Tween"/>
     </component>
-    <text id="n40" name="n40" xy="10,33" size="49,16" group="n42" fontSize="12" color="#b2b2b2" autoSize="height" text="透明度"/>
+    <text id="n40" name="n40" xy="10,33" size="49,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="height" text="透明度"/>
     <component id="n41" name="alpha" src="au3n69" pkg="nk9ejx23" xy="61,31" size="33,20" group="n42">
       <Label title="100"/>
     </component>
     <group id="n42" name="n42" xy="10,31" size="84,20" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
     </group>
-    <text id="n43" name="n43" xy="10,33" size="60,16" group="n45" fontSize="12" color="#b2b2b2" autoSize="height" text="旋转"/>
+    <text id="n43" name="n43" xy="10,33" size="60,16" group="n45" fontSize="12" color="#bdbdbd" autoSize="height" text="旋转"/>
     <component id="n44" name="rotation" src="au3n69" pkg="nk9ejx23" xy="72,31" size="45,20" group="n45">
       <Label title="0"/>
     </component>
     <group id="n45" name="n45" xy="10,31" size="107,20" advanced="true">
       <gearDisplay controller="c1" pages="3"/>
     </group>
-    <text id="n46" name="n46" xy="5,31" size="43,16" group="n48" fontSize="12" color="#b2b2b2" autoSize="height" text="颜色"/>
+    <text id="n46" name="n46" xy="5,31" size="43,16" group="n48" fontSize="12" color="#bdbdbd" autoSize="height" text="颜色"/>
     <component id="n47" name="color" src="935t5o" xy="50,31" group="n48"/>
     <group id="n48" name="n48" xy="5,31" size="100,16" advanced="true">
       <gearDisplay controller="c1" pages="6"/>
@@ -73,8 +73,8 @@
     <group id="n52" name="n52" xy="10,31" size="196,20" advanced="true">
       <gearDisplay controller="c1" pages="7"/>
     </group>
-    <text id="n54" name="n54" xy="6,34" size="49,16" group="n63" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="ScaleX"/>
-    <text id="n55" name="n55" xy="112,34" size="52,16" group="n63" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="ScaleY"/>
+    <text id="n54" name="n54" xy="6,34" size="49,16" group="n63" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="ScaleX"/>
+    <text id="n55" name="n55" xy="112,34" size="52,16" group="n63" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="ScaleY"/>
     <component id="n56" name="scaleY" src="au3n69" pkg="nk9ejx23" xy="165,31" size="48,20" group="n63">
       <Label title="1"/>
     </component>
@@ -84,8 +84,8 @@
     <group id="n63" name="n63" xy="6,31" size="207,20" advanced="true">
       <gearDisplay controller="c1" pages="4"/>
     </group>
-    <text id="n64" name="n64" xy="5,33" size="48,16" group="n68" fontSize="12" color="#b2b2b2" align="right" autoSize="height" text="轴心X"/>
-    <text id="n65" name="n65" xy="105,33" size="46,16" group="n68" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="轴心Y"/>
+    <text id="n64" name="n64" xy="5,33" size="48,16" group="n68" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="轴心X"/>
+    <text id="n65" name="n65" xy="105,33" size="46,16" group="n68" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="轴心Y"/>
     <component id="n66" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="154,31" size="44,20" group="n68">
       <Label title="100000"/>
     </component>
@@ -98,7 +98,7 @@
     <group id="n68" name="n68" xy="5,31" size="214,20" advanced="true">
       <gearDisplay controller="c1" pages="8"/>
     </group>
-    <text id="n77" name="n77" xy="10,61" size="211,81" group="n71" fontSize="12" color="#b2b2b2" autoSize="none" text="格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。"/>
+    <text id="n77" name="n77" xy="10,61" size="211,81" group="n71" fontSize="12" color="#bdbdbd" autoSize="none" text="格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。"/>
     <component id="n121" name="controllerSetting" src="gcza1s" pkg="nk9ejx23" xy="11,30" size="204,20" group="n71"/>
     <group id="n71" name="n71" xy="10,30" size="211,112" advanced="true">
       <gearDisplay controller="c1" pages="9"/>
@@ -109,41 +109,41 @@
     <component id="n72" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="144,89" size="51,20" group="n73">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n86" name="n86" xy="12,91" size="59,16" group="n73" fontSize="12" color="#b2b2b2" autoSize="none" text="缓动函数"/>
+    <text id="n86" name="n86" xy="12,91" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="缓动函数"/>
     <component id="n104" name="yoyo" src="xualt" pkg="nk9ejx23" xy="147,119" size="50,19" group="n73">
       <Button title="yoyo"/>
     </component>
-    <text id="n105" name="n105" xy="12,119" size="59,16" group="n73" fontSize="12" color="#b2b2b2" autoSize="none" text="重复"/>
+    <text id="n105" name="n105" xy="12,119" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="重复"/>
     <component id="n107" name="repeat" src="au3n69" pkg="nk9ejx23" xy="80,117" group="n73">
       <Label title="0"/>
     </component>
-    <text id="n127" name="n127" xy="80,142" size="144,17" group="n73" fontSize="12" color="#b2b2b2" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
+    <text id="n127" name="n127" xy="80,142" size="144,17" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
     <group id="n73" name="n73" xy="12,89" size="212,70" advanced="true">
       <gearDisplay controller="tween" pages="1"/>
     </group>
-    <text id="n90" name="n90" xy="5,34" size="48,16" group="n92" fontSize="12" color="#b2b2b2" autoSize="none" text="声音"/>
+    <text id="n90" name="n90" xy="5,34" size="48,16" group="n92" fontSize="12" color="#bdbdbd" autoSize="none" text="声音"/>
     <component id="n91" name="sound" src="au3n6j" pkg="nk9ejx23" xy="55,31" size="160,20" group="n92"/>
-    <text id="n100" name="n100" xy="5,61" size="48,16" group="n92" fontSize="12" color="#b2b2b2" autoSize="height" text="音量"/>
+    <text id="n100" name="n100" xy="5,61" size="48,16" group="n92" fontSize="12" color="#bdbdbd" autoSize="height" text="音量"/>
     <component id="n101" name="volume" src="au3n69" pkg="nk9ejx23" xy="55,59" size="50,20" group="n92">
       <Label title="100"/>
     </component>
     <group id="n92" name="n92" xy="5,31" size="210,48" advanced="true">
       <gearDisplay controller="c1" pages="10"/>
     </group>
-    <text id="n93" name="n93" xy="5,33" size="61,16" group="n95" fontSize="12" color="#b2b2b2" autoSize="height" text="动效名称"/>
+    <text id="n93" name="n93" xy="5,33" size="61,16" group="n95" fontSize="12" color="#bdbdbd" autoSize="height" text="动效名称"/>
     <component id="n94" name="transName" src="gcza1s" pkg="nk9ejx23" xy="71,31" size="131,20" group="n95"/>
-    <text id="n96" name="n96" xy="5,60" size="61,16" group="n95" fontSize="12" color="#b2b2b2" autoSize="height" text="播放次数"/>
+    <text id="n96" name="n96" xy="5,60" size="61,16" group="n95" fontSize="12" color="#bdbdbd" autoSize="height" text="播放次数"/>
     <component id="n97" name="transTimes" src="au3n69" pkg="nk9ejx23" xy="71,57" size="50,20" group="n95">
       <Label title="1"/>
     </component>
-    <text id="n103" name="n103" xy="12,85" size="206,55" group="n95" fontSize="12" color="#b2b2b2" autoSize="none" text="(0表示停止播放，-1表示无限次数)"/>
+    <text id="n103" name="n103" xy="12,85" size="206,55" group="n95" fontSize="12" color="#bdbdbd" autoSize="none" text="(0表示停止播放，-1表示无限次数)"/>
     <group id="n95" name="n95" xy="5,31" size="213,109" advanced="true">
       <gearDisplay controller="c1" pages="11"/>
     </group>
-    <text id="n108" name="n108" xy="5,176" size="42,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="标签"/>
+    <text id="n108" name="n108" xy="5,176" size="42,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="标签"/>
     <component id="n109" name="label" src="gcza1s" pkg="nk9ejx23" xy="51,174"/>
-    <text id="n115" name="n115" xy="4,34" size="71,16" group="n114" fontSize="12" color="#b2b2b2" autoSize="height" text="震动幅度"/>
-    <text id="n117" name="n117" xy="4,60" size="71,16" group="n114" fontSize="12" color="#b2b2b2" autoSize="height" text="持续时间"/>
+    <text id="n115" name="n115" xy="4,34" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="震动幅度"/>
+    <text id="n117" name="n117" xy="4,60" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="持续时间"/>
     <component id="n118" name="shakeAmplitude" src="au3n69" pkg="nk9ejx23" xy="78,32" size="65,20" group="n114"/>
     <component id="n119" name="shakePeriod" src="au3n69" pkg="nk9ejx23" xy="78,57" size="65,20" group="n114"/>
     <group id="n114" name="n114" xy="4,32" size="139,45" advanced="true">

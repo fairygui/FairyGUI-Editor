@@ -13,12 +13,14 @@
     </component>
     <component id="n35" name="btnPrev" src="au3n4b" pkg="nk9ejx23" xy="161,33" size="26,22">
       <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oikucciu8k"/>
+      <Button icon="ui://2pshu6oikucciu8l"/>
     </component>
     <component id="n36" name="btnNext" src="au3n4b" pkg="nk9ejx23" xy="191,33" size="26,22">
       <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oikucciu8l"/>
+      <Button icon="ui://2pshu6oikucciu8k"/>
     </component>
-    <text id="n37" name="msg" xy="8,33" size="125,16" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
+    <text id="n37" name="msg" xy="8,33" size="137,16" fontSize="12" color="#bdbdbd" autoSize="none" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
   </displayList>
 </component>

@@ -19,7 +19,7 @@
     <graph id="n16" name="n16" xy="44,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="height-height"/>
     </graph>
-    <text id="n18" name="index" xy="2,2" size="35,16" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
+    <text id="n18" name="index" xy="2,2" size="35,16" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
     <component id="n20" name="name" src="au3n6m" pkg="nk9ejx23" xy="46,0" size="134,20"/>
     <component id="n21" name="size" src="au3n6m" pkg="nk9ejx23" xy="190,0" size="214,20">
       <relation target="" sidePair="width-width"/>

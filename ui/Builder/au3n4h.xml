@@ -5,15 +5,15 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="多媒体文本"/>
     </component>
-    <text id="n17" name="n17" xy="3,102" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="字体"/>
-    <text id="n33" name="n33" xy="3,126" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n35" name="n35" xy="3,150" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <text id="n17" name="n17" xy="3,102" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
+    <text id="n33" name="n33" xy="3,126" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n35" name="n35" xy="3,150" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
     <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="82,223">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n46" name="n46" xy="3,222" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="自动大小"/>
-    <text id="n42" name="n42" xy="3,174" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n44" name="n44" xy="3,198" size="77,18" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <text id="n46" name="n46" xy="3,222" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n42" name="n42" xy="3,174" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n44" name="n44" xy="3,198" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
     <component id="n56" name="color" src="935t5o" xy="82,150"/>
     <component id="n58" name="leading" src="au3n69" pkg="nk9ejx23" xy="82,173" size="34,20">
       <Label title="12"/>
@@ -45,6 +45,10 @@
     <group id="n76" name="n76" xy="82,124" size="54,20"/>
     <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="210,101" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <text id="n80" name="n80" xy="144,248" size="39,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="宽度"/>
+    <component id="n81" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="186,247" size="34,20">
+      <Label title="1"/>
     </component>
   </displayList>
 </component>

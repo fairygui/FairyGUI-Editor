@@ -5,9 +5,9 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <image id="n4" name="n4" src="dnyau7t" xy="12,8"/>
-    <text id="n10" name="desc" xy="68,9" size="378,58" fontSize="12" color="#b2b2b2" leading="6" ubb="true" autoSize="none" text=""/>
+    <text id="n10" name="desc" xy="68,9" size="378,58" fontSize="12" color="#bdbdbd" leading="6" ubb="true" autoSize="none" text=""/>
     <graph id="n11" name="n11" xy="64,89" size="384,228" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n14" name="n14" xy="68,67" size="89,16" fontSize="12" color="#b2b2b2" autoSize="none" text="Release Notes:"/>
+    <text id="n14" name="n14" xy="68,67" size="89,16" fontSize="12" color="#bdbdbd" autoSize="none" text="Release Notes:"/>
     <component id="n15" name="btnSkip" src="xualm" pkg="nk9ejx23" xy="66,324" size="105,25">
       <Button title="跳过此版本"/>
     </component>

@@ -25,15 +25,15 @@
     <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="504,88" touchable="false">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <text id="n21" name="n21" xy="43,87" size="23,15" group="n23" fontSize="11" color="#cccccc" text="fps"/>
+    <text id="n21" name="n21" xy="43,87" size="23,15" group="n23" fontSize="11" color="#bdbdbd" text="fps"/>
     <text id="n22" name="fps" xy="22,87" size="21,16" group="n23" fontSize="11" color="#d19036" align="right" autoSize="none" text="24"/>
-    <text id="n24" name="n24" xy="85,87" size="41,15" group="n23" fontSize="11" color="#cccccc" text="frame:"/>
+    <text id="n24" name="n24" xy="85,87" size="41,15" group="n23" fontSize="11" color="#bdbdbd" text="frame:"/>
     <text id="n25" name="frame" xy="121,87" size="34,16" group="n23" fontSize="11" color="#d19036" autoSize="none" text="24"/>
-    <text id="n26" name="n26" xy="168,87" size="35,15" group="n23" fontSize="11" color="#cccccc" text="time:"/>
+    <text id="n26" name="n26" xy="168,87" size="35,15" group="n23" fontSize="11" color="#bdbdbd" text="time:"/>
     <text id="n27" name="time" xy="198,87" size="48,16" group="n23" fontSize="11" color="#d19036" autoSize="none" text="1s"/>
     <group id="n23" name="n23" xy="22,87" size="224,16" advanced="true">
       <relation target="" sidePair="bottom-bottom"/>
     </group>
-    <text id="n30" name="prompt" xy="152,28" size="269,16" fontSize="12" color="#cccccc" text="选择一个元件后，在右键菜单中选择改变目标属性"/>
+    <text id="n30" name="prompt" xy="152,28" size="269,16" fontSize="12" color="#bdbdbd" text="选择一个元件后，在右键菜单中选择改变目标属性"/>
   </displayList>
 </component>

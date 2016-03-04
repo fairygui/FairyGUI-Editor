@@ -5,7 +5,7 @@
     <image id="n1" name="n1" src="kwng7g" xy="0,0">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n2" name="title" xy="21,0" size="56,20" fontSize="12" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n2" name="title" xy="21,0" size="56,20" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
     <image id="n3" name="n3" src="kwng7j" xy="6,6">

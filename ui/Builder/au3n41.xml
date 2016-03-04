@@ -8,10 +8,10 @@
     <image id="n18" name="n18" src="au3n38" pkg="nk9ejx23" xy="369,1" size="2,19"/>
     <image id="n17" name="n17" src="au3n38" pkg="nk9ejx23" xy="306,1" size="2,19"/>
     <image id="n3" name="n3" src="au3n38" pkg="nk9ejx23" xy="182,1" size="2,19"/>
-    <text id="n12" name="n12" xy="184,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="字符"/>
-    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" color="#b2b2b2" autoSize="none" text="图片"/>
-    <text id="n13" name="n13" xy="246,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="偏移X"/>
-    <text id="n14" name="n14" xy="308,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="偏移Y"/>
-    <text id="n15" name="n15" xy="370,2" size="60,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="占位"/>
+    <text id="n12" name="n12" xy="184,2" size="60,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字符"/>
+    <text id="n0" name="n0" xy="1,2" size="180,16" fontSize="12" color="#bdbdbd" autoSize="none" text="图片"/>
+    <text id="n13" name="n13" xy="246,2" size="60,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="偏移X"/>
+    <text id="n14" name="n14" xy="308,2" size="60,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="偏移Y"/>
+    <text id="n15" name="n15" xy="370,2" size="60,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="占位"/>
   </displayList>
 </component>

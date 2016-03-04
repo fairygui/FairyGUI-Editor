@@ -17,7 +17,7 @@
       <gearDisplay controller="c1" pages="0"/>
       <ProgressBar value="50" max="100"/>
     </component>
-    <text id="n9" name="n9" xy="118,32" size="125,16" fontSize="12" color="#b2b2b2" text="正在拼命的下载。。。">
+    <text id="n9" name="n9" xy="118,32" size="125,16" fontSize="12" color="#bdbdbd" text="正在拼命的下载。。。">
       <gearDisplay controller="c1" pages="0"/>
       <relation target="" sidePair="center-center"/>
     </text>

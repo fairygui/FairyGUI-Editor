@@ -16,7 +16,7 @@
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="323,362" size="67,25">
       <Button title="关闭"/>
     </component>
-    <text id="n40" name="n40" xy="15,33" size="306,16" fontSize="12" color="#b2b2b2" autoSize="height" text="已安装的插件:"/>
+    <text id="n40" name="n40" xy="15,33" size="306,16" fontSize="12" color="#bdbdbd" autoSize="height" text="已安装的插件:"/>
     <component id="n41" name="n41" src="xualm" pkg="nk9ejx23" xy="169,362" size="104,25">
       <Button title="重新载入"/>
     </component>

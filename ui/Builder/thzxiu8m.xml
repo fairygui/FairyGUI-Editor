@@ -13,6 +13,6 @@
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="179,88">
       <Button title="取消"/>
     </component>
-    <text id="n7" name="n7" xy="22,34" size="322,18" fontSize="12" color="#b2b2b2" autoSize="none" text="将对查找目标的引用全部替换为下面所输入的元件"/>
+    <text id="n7" name="n7" xy="22,34" size="322,18" fontSize="12" color="#bdbdbd" autoSize="none" text="将对查找目标的引用全部替换为下面所输入的元件"/>
   </displayList>
 </component>

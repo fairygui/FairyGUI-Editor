@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="28,24" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="1"/>
   <displayList>
-    <loader id="n0" name="icon" xy="1,1" size="26,22" align="center" vAlign="middle">
+    <loader id="n0" name="icon" xy="1,1" size="26,22" align="center" vAlign="middle" color="#838383">
       <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="grayed" pages="0,1" values="-|#838383" default="#ffffff"/>
     </loader>
   </displayList>
   <Button mode="Radio"/>

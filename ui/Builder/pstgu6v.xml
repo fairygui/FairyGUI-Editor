@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图片"/>
     </component>
-    <text id="n71" name="n71" xy="7,28" size="70,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="颜色"/>
+    <text id="n71" name="n71" xy="7,28" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
     <component id="n72" name="color" src="935t5o" xy="82,28"/>
     <component id="n73" name="flipHZ" src="xualt" pkg="nk9ejx23" xy="16,74" size="92,19">
       <Button title="水平翻转"/>
@@ -13,7 +13,7 @@
     <component id="n74" name="flipVT" src="xualt" pkg="nk9ejx23" xy="16,100" size="101,19">
       <Button title="垂直翻转"/>
     </component>
-    <text id="n75" name="n75" xy="7,51" size="70,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" singleLine="true" text="亮度"/>
+    <text id="n75" name="n75" xy="7,51" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
     <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="82,49" size="42,20"/>
   </displayList>
 </component>

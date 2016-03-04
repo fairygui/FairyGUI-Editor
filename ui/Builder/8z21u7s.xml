@@ -22,8 +22,8 @@
     <group id="n14" name="n14" xy="19,33" size="423,290" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <text id="n15" name="n15" xy="18,44" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目名称"/>
-    <text id="n16" name="n16" xy="18,71" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目位置"/>
+    <text id="n15" name="n15" xy="18,44" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目名称"/>
+    <text id="n16" name="n16" xy="18,71" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目位置"/>
     <component id="n17" name="name" src="gcza1s" pkg="nk9ejx23" xy="86,42" size="282,20" group="n23"/>
     <component id="n18" name="path" src="gcza1s" pkg="nk9ejx23" xy="86,69" size="282,20" group="n23"/>
     <component id="n19" name="btnBrowse" src="xualm" pkg="nk9ejx23" xy="375,67" size="64,25" group="n23">
@@ -32,7 +32,7 @@
     <component id="n20" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="354,298" group="n23">
       <Button title="创建"/>
     </component>
-    <text id="n21" name="n21" xy="18,99" size="63,16" group="n23" fontSize="12" color="#b2b2b2" align="right" autoSize="height" singleLine="true" text="项目类型"/>
+    <text id="n21" name="n21" xy="18,99" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目类型"/>
     <component id="n22" name="type" src="gcza18" pkg="nk9ejx23" xy="86,97" size="282,20" group="n23">
       <ComboBox visibleItemCount="10"/>
     </component>

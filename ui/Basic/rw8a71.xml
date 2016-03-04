@@ -10,9 +10,9 @@
       <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="3,3" size="55,16" fontSize="12" color="#b2b2b2" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n2" name="title" xy="3,3" size="55,16" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
-      <gearColor controller="button" pages="0,1,2,3" values="#b2b2b2|#ffffff|-|-" default="#cccccc"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd|#ffffff|-|-" default="#bdbdbd"/>
     </text>
   </displayList>
   <Button mode="Radio"/>

@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="105,1" size="2,19"/>
-    <text id="n12" name="n12" xy="0,2" size="102,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Key"/>
-    <text id="n13" name="n13" xy="110,2" size="191,16" fontSize="12" color="#b2b2b2" align="center" autoSize="none" text="Value"/>
+    <text id="n12" name="n12" xy="0,2" size="102,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Key"/>
+    <text id="n13" name="n13" xy="110,2" size="191,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Value"/>
   </displayList>
 </component>

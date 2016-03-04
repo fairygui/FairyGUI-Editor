@@ -9,7 +9,7 @@
     </component>
     <graph id="n16" name="n16" xy="6,29" size="213,339" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <image id="n15" name="n15" src="fmz5u86" xy="13,37"/>
-    <text id="n1" name="n1" xy="220,35" size="68,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="名称"/>
+    <text id="n1" name="n1" xy="220,35" size="68,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="289,34" size="134,20"/>
     <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="384,366">
       <gearDisplay controller="c1" pages="4"/>
@@ -18,7 +18,7 @@
     <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="499,366">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="220,65" size="68,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="创建位置"/>
+    <text id="n12" name="n12" xy="220,65" size="68,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="289,63" size="216,20"/>
     <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="66,25">
       <Button title="浏览.."/>
@@ -27,7 +27,7 @@
       <gearDisplay controller="c1" pages="0,1,2,3"/>
       <Button title="下一步"/>
     </component>
-    <text id="n17" name="n17" xy="230,108" size="354,135" group="n31" fontSize="12" color="#b2b2b2" leading="6" autoSize="none" text="滚动条由四部分组成&#xA;(1)向上/向左箭头按钮&#xA;(2)向下/向右箭头按钮&#xA;(3)滚动条背景&#xA;(4)把手按钮&#xA;其中上下/左右的箭头按钮在移动设备上不是必须的"/>
+    <text id="n17" name="n17" xy="230,108" size="354,135" group="n31" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="滚动条由四部分组成&#xA;(1)向上/向左箭头按钮&#xA;(2)向下/向右箭头按钮&#xA;(3)滚动条背景&#xA;(4)把手按钮&#xA;其中上下/左右的箭头按钮在移动设备上不是必须的"/>
     <component id="n64" name="n64" src="gcza13" pkg="nk9ejx23" xy="241,252" size="107,19" group="n31">
       <Button checked="true" title="垂直滚动条" controller="c4" page="0"/>
     </component>
@@ -42,12 +42,12 @@
     </group>
     <image id="n33" name="n33" src="au3n39" pkg="nk9ejx23" xy="224,96" size="367,2"/>
     <image id="n34" name="n34" src="au3n39" pkg="nk9ejx23" xy="225,355" size="367,2"/>
-    <text id="n32" name="n32" xy="225,106" size="155,16" group="n35" fontSize="12" color="#b2b2b2" text="第一步：设计向上/向左按钮"/>
-    <text id="n30" name="n30" xy="232,137" size="209,16" group="n62" fontSize="12" color="#b2b2b2" text="图片设置：（以下图片设置均为可选）"/>
-    <text id="n19" name="n19" xy="232,162" size="138,16" group="n62" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n20" name="n20" xy="232,192" size="138,16" group="n62" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n21" name="n21" xy="232,222" size="138,16" group="n62" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n22" name="n22" xy="232,252" size="138,16" group="n62" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <text id="n32" name="n32" xy="225,106" size="155,16" group="n35" fontSize="12" color="#bdbdbd" text="第一步：设计向上/向左按钮"/>
+    <text id="n30" name="n30" xy="232,137" size="209,16" group="n62" fontSize="12" color="#bdbdbd" text="图片设置：（以下图片设置均为可选）"/>
+    <text id="n19" name="n19" xy="232,162" size="138,16" group="n62" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
+    <text id="n20" name="n20" xy="232,192" size="138,16" group="n62" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n21" name="n21" xy="232,222" size="138,16" group="n62" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n22" name="n22" xy="232,252" size="138,16" group="n62" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
     <component id="n23" name="n23" src="au3n6j" pkg="nk9ejx23" xy="372,160" size="214,20" group="n62"/>
     <component id="n24" name="n24" src="au3n6j" pkg="nk9ejx23" xy="372,190" size="214,20" group="n62"/>
     <component id="n25" name="n25" src="au3n6j" pkg="nk9ejx23" xy="372,220" size="214,20" group="n62"/>
@@ -56,23 +56,23 @@
     <group id="n35" name="n35" xy="225,106" size="361,164" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <text id="n36" name="n36" xy="225,106" size="185,16" group="n41" fontSize="12" color="#b2b2b2" text="第三步：设计滚动条背景（可选）"/>
+    <text id="n36" name="n36" xy="225,106" size="185,16" group="n41" fontSize="12" color="#bdbdbd" text="第三步：设计滚动条背景（可选）"/>
     <component id="n38" name="n38" src="au3n6j" pkg="nk9ejx23" xy="310,132" size="214,20" group="n41"/>
-    <text id="n81" name="n81" xy="227,134" size="80,16" group="n41" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="背景图片"/>
+    <text id="n81" name="n81" xy="227,134" size="80,16" group="n41" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="背景图片"/>
     <group id="n41" name="n41" xy="225,106" size="299,46" advanced="true">
       <gearDisplay controller="c1" pages="3"/>
     </group>
-    <text id="n42" name="n42" xy="225,106" size="155,16" group="n44" fontSize="12" color="#b2b2b2" text="第二步：设计向下/向右按钮"/>
-    <text id="n49" name="n49" xy="230,162" size="140,16" group="n59" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n50" name="n50" xy="230,192" size="140,16" group="n59" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n51" name="n51" xy="230,222" size="140,16" group="n59" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n52" name="n52" xy="230,252" size="140,16" group="n59" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <text id="n42" name="n42" xy="225,106" size="155,16" group="n44" fontSize="12" color="#bdbdbd" text="第二步：设计向下/向右按钮"/>
+    <text id="n49" name="n49" xy="230,162" size="140,16" group="n59" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
+    <text id="n50" name="n50" xy="230,192" size="140,16" group="n59" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n51" name="n51" xy="230,222" size="140,16" group="n59" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n52" name="n52" xy="230,252" size="140,16" group="n59" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
     <component id="n53" name="n53" src="au3n6j" pkg="nk9ejx23" xy="372,160" size="214,20" group="n59"/>
     <component id="n54" name="n54" src="au3n6j" pkg="nk9ejx23" xy="372,190" size="214,20" group="n59"/>
     <component id="n55" name="n55" src="au3n6j" pkg="nk9ejx23" xy="372,220" size="214,20" group="n59"/>
     <component id="n56" name="n56" src="au3n6j" pkg="nk9ejx23" xy="372,250" size="214,20" group="n59"/>
     <group id="n59" name="n59" xy="230,160" size="356,110" group="n61"/>
-    <text id="n60" name="n60" xy="232,137" size="209,16" group="n61" fontSize="12" color="#b2b2b2" text="图片设置：（以下图片设置均为可选）"/>
+    <text id="n60" name="n60" xy="232,137" size="209,16" group="n61" fontSize="12" color="#bdbdbd" text="图片设置：（以下图片设置均为可选）"/>
     <group id="n61" name="n61" xy="230,137" size="356,133" group="n44"/>
     <group id="n44" name="n44" xy="225,106" size="361,164" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
@@ -81,12 +81,12 @@
       <gearDisplay controller="c1" pages="1,2,3,4"/>
       <Button title="上一步"/>
     </component>
-    <text id="n68" name="n68" xy="225,106" size="125,16" group="n80" fontSize="12" color="#b2b2b2" text="第四步：设计把手按钮"/>
-    <text id="n70" name="n70" xy="232,137" size="209,16" group="n79" fontSize="12" color="#b2b2b2" text="图片设置：（以下图片设置均为可选）"/>
-    <text id="n71" name="n71" xy="229,162" size="141,16" group="n79" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n72" name="n72" xy="229,192" size="141,16" group="n79" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n73" name="n73" xy="229,222" size="141,16" group="n79" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n74" name="n74" xy="229,252" size="141,16" group="n79" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <text id="n68" name="n68" xy="225,106" size="125,16" group="n80" fontSize="12" color="#bdbdbd" text="第四步：设计把手按钮"/>
+    <text id="n70" name="n70" xy="232,137" size="209,16" group="n79" fontSize="12" color="#bdbdbd" text="图片设置：（以下图片设置均为可选）"/>
+    <text id="n71" name="n71" xy="229,162" size="141,16" group="n79" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
+    <text id="n72" name="n72" xy="229,192" size="141,16" group="n79" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n73" name="n73" xy="229,222" size="141,16" group="n79" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n74" name="n74" xy="229,252" size="141,16" group="n79" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
     <component id="n75" name="n75" src="au3n6j" pkg="nk9ejx23" xy="372,160" size="214,20" group="n79"/>
     <component id="n76" name="n76" src="au3n6j" pkg="nk9ejx23" xy="372,190" size="214,20" group="n79"/>
     <component id="n77" name="n77" src="au3n6j" pkg="nk9ejx23" xy="372,220" size="214,20" group="n79"/>

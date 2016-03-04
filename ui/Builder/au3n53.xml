@@ -26,7 +26,7 @@
       <gearDisplay controller="c1" pages="1"/>
       <Button title="再次播放(F5)"/>
     </component>
-    <text id="n9" name="n9" xy="101,6" size="75,16" group="n10" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="动效列表："/>
+    <text id="n9" name="n9" xy="101,6" size="75,16" group="n10" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="动效列表："/>
     <list id="n11" name="transList" xy="183,2" size="311,25" group="n10" layout="row" overflow="hidden" margin="0,0,0,0" colGap="6" defaultItem="ui://nk9ejx23gss372">
       <relation target="" sidePair="width-width"/>
       <item/>

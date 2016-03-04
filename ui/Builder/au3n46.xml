@@ -8,7 +8,7 @@
       <relation target="n2" sidePair="top-bottom"/>
       <Button title="是"/>
     </component>
-    <text id="n2" name="n2" xy="12,28" size="326,16" fontSize="12" color="#b2b2b2" autoSize="height" text=""/>
+    <text id="n2" name="n2" xy="12,28" size="326,16" fontSize="12" color="#bdbdbd" autoSize="height" text=""/>
     <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="198,63">
       <relation target="n2" sidePair="top-bottom"/>
       <Button title="否"/>

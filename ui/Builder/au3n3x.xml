@@ -7,10 +7,10 @@
       <Label title="图片属性"/>
     </component>
     <graph id="n0" name="n0" xy="9,28" size="402,443" type="rect" lineColor="#ff151415" fillColor="#ff333333"/>
-    <text id="n1" name="n1" xy="422,31" size="69,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="图像大小："/>
-    <text id="n2" name="n2" xy="494,31" size="142,18" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
-    <text id="n3" name="n3" xy="422,55" size="69,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="数据大小："/>
-    <text id="n4" name="n4" xy="494,55" size="144,18" fontSize="12" color="#b2b2b2" autoSize="none" text=""/>
+    <text id="n1" name="n1" xy="422,31" size="69,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="图像大小："/>
+    <text id="n2" name="n2" xy="494,31" size="142,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <text id="n3" name="n3" xy="422,55" size="69,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="数据大小："/>
+    <text id="n4" name="n4" xy="494,55" size="144,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
     <component id="n15" name="n15" src="gcza13" pkg="nk9ejx23" xy="436,134" size="155,19">
       <Button title="使用九宫格进行缩放" controller="c1" page="1"/>
     </component>
@@ -27,11 +27,11 @@
       <Button title="取消"/>
     </component>
     <component id="n26" name="n26" src="au3n3y" xy="10,29"/>
-    <text id="n27" name="n27" xy="422,87" size="65,16" fontSize="12" color="#b2b2b2" text="缩放模式："/>
-    <text id="n6" name="n6" xy="573,159" size="17,16" group="n28" fontSize="12" color="#b2b2b2" text="左"/>
-    <text id="n7" name="n7" xy="455,159" size="17,16" group="n28" fontSize="12" color="#b2b2b2" text="上"/>
-    <text id="n8" name="n8" xy="634,159" size="17,16" group="n28" fontSize="12" color="#b2b2b2" text="右"/>
-    <text id="n9" name="n9" xy="514,159" size="17,16" group="n28" fontSize="12" color="#b2b2b2" text="下"/>
+    <text id="n27" name="n27" xy="422,87" size="65,16" fontSize="12" color="#bdbdbd" text="缩放模式："/>
+    <text id="n6" name="n6" xy="573,159" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="左"/>
+    <text id="n7" name="n7" xy="455,159" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="上"/>
+    <text id="n8" name="n8" xy="634,159" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="右"/>
+    <text id="n9" name="n9" xy="514,159" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="下"/>
     <component id="n10" name="n10" src="au3n69" pkg="nk9ejx23" xy="593,157" size="39,20" group="n28"/>
     <component id="n11" name="n11" src="au3n69" pkg="nk9ejx23" xy="473,157" size="39,20" group="n28"/>
     <component id="n12" name="n12" src="au3n69" pkg="nk9ejx23" xy="653,157" size="39,20" group="n28"/>
@@ -43,16 +43,16 @@
     <component id="n34" name="n34" src="xualm" pkg="nk9ejx23" xy="263,440" size="67,25">
       <Button title="导入..."/>
     </component>
-    <text id="n17" name="n17" xy="422,250" size="69,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="质量"/>
+    <text id="n17" name="n17" xy="422,250" size="69,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="质量"/>
     <component id="n18" name="n18" src="gcza18" pkg="nk9ejx23" xy="494,248" size="134,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n25" name="n25" src="gcza1s" pkg="nk9ejx23" xy="633,248" size="51,20"/>
-    <text id="n19" name="n19" xy="422,283" size="69,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="纹理集"/>
+    <text id="n19" name="n19" xy="422,283" size="69,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="纹理集"/>
     <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="494,280" size="160,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n32" name="n32" xy="422,220" size="69,16" fontSize="12" color="#b2b2b2" align="right" autoSize="none" text="允许平滑"/>
+    <text id="n32" name="n32" xy="422,220" size="69,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="允许平滑"/>
     <component id="n33" name="n33" src="gcza18" pkg="nk9ejx23" xy="494,218" size="56,20">
       <ComboBox visibleItemCount="10"/>
     </component>

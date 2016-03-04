@@ -14,8 +14,8 @@
     <graph id="n4" name="n4" xy="0,20" size="375,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
-    <text id="n18" name="text" xy="2,2" size="216,16" fontSize="12" color="#b2b2b2" autoSize="height" text=""/>
-    <text id="n19" name="value" xy="224,2" size="148,16" fontSize="12" color="#b2b2b2" autoSize="height" text=""/>
+    <text id="n18" name="text" xy="2,2" size="216,16" fontSize="12" color="#bdbdbd" autoSize="height" text=""/>
+    <text id="n19" name="value" xy="224,2" size="148,16" fontSize="12" color="#bdbdbd" autoSize="height" text=""/>
   </displayList>
   <Button mode="Radio"/>
 </component>
