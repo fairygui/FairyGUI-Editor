@@ -31,15 +31,17 @@
     <component id="n29" name="aspectLocked" src="au3n48" xy="2,92" size="25,25">
       <Button icon="ui://2pshu6oiau3n1c" selectedIcon="ui://2pshu6oiau3n1d"/>
     </component>
-    <component id="n31" name="touchable" src="xualt" pkg="nk9ejx23" xy="149,196" size="78,19">
-      <Button title="可触摸"/>
+    <component id="n31" name="untouchable" src="dp4f7u" pkg="nk9ejx23" xy="119,196" size="70,19">
+      <relation target="n36" sidePair="left-right"/>
+      <Button title="不可触摸"/>
     </component>
-    <component id="n32" name="visible" src="xualt" pkg="nk9ejx23" xy="8,196" size="65,19" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
-      <Button title="可见"/>
+    <component id="n32" name="invisible" src="dp4f7u" pkg="nk9ejx23" xy="11,196" size="58,19" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
+      <Button title="不可见"/>
     </component>
     <text id="n33" name="n33" xy="11,172" size="41,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="透明度"/>
     <text id="n35" name="n35" xy="101,172" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="旋转"/>
-    <component id="n36" name="grayed" src="xualt" pkg="nk9ejx23" xy="80,196" size="64,19">
+    <component id="n36" name="grayed" src="dp4f7u" pkg="nk9ejx23" xy="71,196" size="46,19">
+      <relation target="n32" sidePair="left-right"/>
       <Button title="变灰"/>
     </component>
     <component id="n37" name="alpha" src="au3n69" pkg="nk9ejx23" xy="56,170" size="40,20">

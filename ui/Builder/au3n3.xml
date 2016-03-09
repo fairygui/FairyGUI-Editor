@@ -5,7 +5,7 @@
     <graph id="n1" name="n1" xy="0,0" size="220,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n39" name="n39" src="kwng7h" pkg="nk9ejx23" xy="0,0" size="220,23">
+    <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="220,23">
       <relation target="" sidePair="width-width"/>
       <Button title="库"/>
     </component>

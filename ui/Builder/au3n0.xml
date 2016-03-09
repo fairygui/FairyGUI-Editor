@@ -2,7 +2,7 @@
 <component size="1200,800">
   <controller name="test" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n4" name="n4" xy="0,0" size="1200,800" locked="true" type="rect" lineSize="0" fillColor="#ff383838">
+    <graph id="n4" name="n4" xy="0,0" size="1200,800" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <component id="n88" name="n88" src="pi83u6y" xy="505,23" size="48,25" group="n76" tooltips="弹出发布菜单"/>

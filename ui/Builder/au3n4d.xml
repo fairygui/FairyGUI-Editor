@@ -26,8 +26,8 @@
     <component id="n75" name="width" src="gcza1s" pkg="nk9ejx23" xy="42,100" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n76" name="visible" src="xualt" pkg="nk9ejx23" xy="23,132" size="85,19">
-      <Button title="可见"/>
+    <component id="n76" name="invisible" src="dp4f7u" pkg="nk9ejx23" xy="23,132" size="58,19">
+      <Button title="不可见"/>
     </component>
     <component id="n78" name="n78" src="gcza13" pkg="nk9ejx23" xy="9,27" size="60,19">
       <Button checked="true" title="普通组" controller="c1" page="0"/>

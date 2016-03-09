@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="302,21">
+<component size="207,22">
   <displayList>
-    <text id="n13" name="n13" xy="57,2" size="244,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="">
-      <relation target="" sidePair="width-width"/>
-    </text>
-    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="24,1" size="2,19"/>
+    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="24,1" size="2,20"/>
     <component id="n15" name="status" src="au3n2i" xy="1,1" size="23,20">
       <Button icon="ui://2pshu6oiuzegu6a"/>
     </component>
-    <image id="n16" name="n16" src="au3n38" pkg="nk9ejx23" xy="48,1" size="2,19"/>
+    <image id="n16" name="n16" src="au3n38" pkg="nk9ejx23" xy="48,1" size="2,20"/>
     <component id="n17" name="lock" src="au3n2i" xy="26,1" size="23,20">
       <Button icon="ui://2pshu6oiau3n1b"/>
     </component>
-    <image id="n18" name="n18" src="au3n39" pkg="nk9ejx23" xy="1,19" size="300,2">
+    <image id="n18" name="n18" src="au3n39" pkg="nk9ejx23" xy="1,20" size="205,2">
       <relation target="" sidePair="width-width"/>
     </image>
+    <text id="n21" name="findInput" xy="57,2" size="123,16" input="true" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n23" name="btnFind" src="au3n2i" xy="181,1" size="23,20">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oic3ppiu9h"/>
+    </component>
   </displayList>
 </component>

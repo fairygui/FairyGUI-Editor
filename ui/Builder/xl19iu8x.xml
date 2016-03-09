@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="150,24" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+<component size="150,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
   <displayList>
-    <image id="n0" name="n0" src="au3n4v" pkg="nk9ejx23" xy="0,0" size="150,23">
+    <image id="n0" name="n0" src="au3n4v" pkg="nk9ejx23" xy="0,0" size="150,19">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <image id="n1" name="n1" src="au3n50" pkg="nk9ejx23" xy="0,0" size="150,23">
+    <image id="n1" name="n1" src="au3n50" pkg="nk9ejx23" xy="0,0" size="150,19">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="91,2" size="56,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
+    <graph id="n3" name="indent" xy="54,0" size="16,20"/>
+    <graph id="n8" name="n8" xy="0,19" size="150,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+    <graph id="n12" name="n12" xy="48,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <graph id="n10" name="n10" xy="24,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <component id="n9" name="status" src="isb8iu9c" xy="0,1" size="23,20">
+      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1j"/>
+    </component>
+    <component id="n11" name="lock" src="isb8iu9c" xy="26,0" size="23,20">
+      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1b"/>
+    </component>
+    <loader id="n6" name="icon" xy="71,0" size="20,20" align="center" vAlign="middle">
+      <relation target="n3" sidePair="left-right"/>
+    </loader>
+    <text id="n2" name="title" xy="91,2" size="56,16" fontSize="12" color="#ffffff" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
       <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#bdbdbd"/>
     </text>
-    <graph id="n3" name="indent" xy="54,0" size="16,20"/>
-    <loader id="n6" name="icon" xy="71,0" size="20,20" align="center" vAlign="middle">
-      <relation target="n3" sidePair="left-right"/>
-    </loader>
-    <graph id="n8" name="n8" xy="0,23" size="150,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
-      <relation target="" sidePair="width-width,top-bottom"/>
-    </graph>
-    <component id="n9" name="status" src="isb8iu9c" xy="0,1" size="23,20">
-      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1j"/>
-    </component>
-    <graph id="n10" name="n10" xy="24,0" size="1,23" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
-    <component id="n11" name="lock" src="isb8iu9c" xy="26,0" size="23,20">
-      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1b"/>
-    </component>
-    <graph id="n12" name="n12" xy="48,0" size="1,23" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
   </displayList>
   <Button mode="Radio"/>
 </component>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,345" overflow="hidden">
+<component size="240,369" overflow="hidden">
   <displayList>
-    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,345">
+    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,369" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="基本"/>
     </component>
@@ -18,18 +18,18 @@
       <Label title="100000"/>
     </component>
     <text id="n46" name="n46" xy="4,109" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="边缘留空"/>
-    <text id="n48" name="n48" xy="4,185" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="溢出处理"/>
-    <component id="n49" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="84,183" size="114,20">
+    <text id="n48" name="n48" xy="4,210" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="溢出处理"/>
+    <component id="n49" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="84,208" size="114,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n58" name="n58" xy="4,211" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="扩展"/>
-    <component id="n59" name="extentionId" src="gcza18" pkg="nk9ejx23" xy="84,210" size="114,20">
+    <text id="n58" name="n58" xy="4,236" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="扩展"/>
+    <component id="n59" name="extentionId" src="gcza18" pkg="nk9ejx23" xy="84,235" size="114,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n62" name="n62" xy="4,237" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="背景颜色"/>
-    <component id="n64" name="bgColorEnabled" src="xualt" pkg="nk9ejx23" xy="84,236"/>
-    <component id="n63" name="bgColor" src="935t5o" xy="100,236"/>
-    <text id="n65" name="n65" xy="83,257" size="146,19" fontSize="12" color="#bdbdbd" autoSize="none" text="（仅设计期有效）"/>
+    <text id="n62" name="n62" xy="4,262" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="背景颜色"/>
+    <component id="n64" name="bgColorEnabled" src="xualt" pkg="nk9ejx23" xy="84,261"/>
+    <component id="n63" name="bgColor" src="935t5o" xy="100,261"/>
+    <text id="n65" name="n65" xy="83,282" size="146,19" fontSize="12" color="#bdbdbd" autoSize="none" text="（仅设计期有效）"/>
     <text id="n66" name="n66" xy="91,110" size="17,16" group="n74" fontSize="12" color="#bdbdbd" autoSize="none" text="上"/>
     <component id="n67" name="marginTop" src="au3n69" pkg="nk9ejx23" xy="111,107" size="35,20" group="n74"/>
     <text id="n68" name="n68" xy="151,110" size="17,16" group="n74" fontSize="12" color="#bdbdbd" autoSize="none" text="下"/>
@@ -44,12 +44,17 @@
     <component id="n77" name="clipSoftnessX" src="au3n69" pkg="nk9ejx23" xy="111,157" size="35,20"/>
     <text id="n78" name="n78" xy="151,160" size="17,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
     <component id="n79" name="clipSoftnessY" src="au3n69" pkg="nk9ejx23" xy="171,157" size="35,20"/>
-    <component id="n80" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="205,183" size="20,20">
+    <component id="n80" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="205,208" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
     <component id="n81" name="n81" src="ehmsu7z" xy="212,159" tooltips="边缘虚化效果在编辑器无法预览"/>
     <component id="n82" name="n82" src="ehmsu7z" xy="212,83" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
-    <text id="n83" name="n83" xy="4,282" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="备注"/>
-    <component id="n84" name="remark" src="au3n6k" pkg="nk9ejx23" xy="84,282" size="149,45"/>
+    <text id="n83" name="n83" xy="4,307" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="备注"/>
+    <component id="n84" name="remark" src="au3n6k" pkg="nk9ejx23" xy="84,307" size="149,45"/>
+    <component id="n85" name="clickThrough" src="xualt" pkg="nk9ejx23" xy="93,184" size="112,19">
+      <Button title="可穿透空白区域"/>
+    </component>
+    <text id="n86" name="n86" xy="5,185" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="点击穿透"/>
+    <component id="n87" name="n87" src="ehmsu7z" xy="212,185" tooltips="不勾选时，点击无法穿透组件的矩形范围。（推荐）&#xD;勾选时，点击可以穿透组件的空白区域。"/>
   </displayList>
 </component>

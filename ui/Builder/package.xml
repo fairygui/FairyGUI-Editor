@@ -29,7 +29,7 @@
     <image id="au3n1e" name="动画.png" folder="au3n2h" qualityOption="source" file="au3n1e.png" size="13,15" exported="true"/>
     <image id="au3n1g" name="hand.png" folder="au3n2h" qualityOption="source" file="au3n1g.png" size="16,16"/>
     <image id="au3n1h" name="group.png" folder="au3n2h" qualityOption="source" file="au3n1h.png" size="14,14" exported="true"/>
-    <image id="au3n1i" name="cursor.png" folder="au3n2h" qualityOption="source" file="au3n1i.png" size="8,15"/>
+    <image id="au3n1i" name="cursor.png" folder="au3n2h" qualityOption="source" file="au3n1i.png" size="12,16"/>
     <image id="au3n1j" name="cross.png" folder="au3n2h" qualityOption="source" file="au3n1j.png" size="14,14"/>
     <image id="au3n1l" name="button.png" folder="au3n2h" qualityOption="source" file="au3n1l.png" size="16,8"/>
     <image id="au3n1m" name="bullet_red.png" folder="au3n2h" file="au3n1m.png" size="6,6" exported="true"/>
@@ -147,8 +147,8 @@
     <image id="uzegu6a" name="eye.png" folder="au3n2h" qualityOption="source" file="uzegu6a.png" size="16,11"/>
     <image id="g1zau6d" name="play_right.png" folder="au3n2h" qualityOption="source" file="g1zau6d.png" size="16,16"/>
     <image id="g1zau6e" name="play_left.png" folder="au3n2h" qualityOption="source" file="g1zau6e.png" size="16,16"/>
-    <image id="g1zau6f" name="ani_play.png" folder="au3n2h" qualityOption="package" file="g1zau6f.png" size="24,24"/>
-    <image id="g1zau6g" name="ani_paused.png" folder="au3n2h" qualityOption="package" file="g1zau6g.png" size="24,24"/>
+    <image id="g1zau6f" name="ani_play.png" folder="au3n2h" qualityOption="source" file="g1zau6f.png" size="10,16"/>
+    <image id="g1zau6g" name="ani_paused.png" folder="au3n2h" qualityOption="source" file="g1zau6g.png" size="12,12"/>
     <image id="krunu6h" name="add_res.png" folder="au3n2h" file="krunu6h.png" size="18,18" smoothing="false" qualityOption="source"/>
     <component id="yi3eu6i" name="CreateMovieClipDialog" folder="au3n4n" file="yi3eu6i.xml" exported="true"/>
     <component id="llhvu6j" name="FindReferenceDialog" folder="au3n4n" file="llhvu6j.xml" exported="true"/>
@@ -205,7 +205,7 @@
     <image id="t3skiu8h" name="Bitmap(3)" folder="pia6u82" qualityOption="source" file="t3skiu8h.png" size="187,186"/>
     <component id="f5apiu8i" name="FontList_item" folder="au3n4n" file="f5apiu8i.xml"/>
     <component id="rjtoiu8j" name="SearchPanel" folder="" file="rjtoiu8j.xml"/>
-    <image id="kucciu8k" name="arrow_down" folder="au3n2h" qualityOption="source" file="kucciu8k.png" size="16,16"/>
+    <image id="kucciu8k" name="arrow_down" folder="au3n2h" qualityOption="source" file="kucciu8k.png" size="12,12"/>
     <image id="kucciu8l" name="arrow_up" folder="au3n2h" qualityOption="source" file="kucciu8l.png" size="16,16"/>
     <component id="thzxiu8m" name="ReplaceRefDialog" folder="au3n4n" file="thzxiu8m.xml" exported="true"/>
     <component id="pb9oiu8p" name="InputPromptEditPanel" folder="au3n4m" file="pb9oiu8p.xml" exported="true"/>
@@ -234,6 +234,7 @@
     <component id="oj7qiu9e" name="ChildrenPanel" folder="k0kuiu9g" file="oj7qiu9e.xml"/>
     <component id="oj7qiu9f" name="ChildrenPanel_header" folder="k0kuiu9g" file="oj7qiu9f.xml"/>
     <folder id="k0kuiu9g" name="children" folder=""/>
+    <image id="c3ppiu9h" name="Search" folder="au3n2h" qualityOption="source" file="c3ppiu9h.png" size="16,16"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

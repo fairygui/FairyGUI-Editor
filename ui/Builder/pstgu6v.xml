@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,130" overflow="hidden">
+<component size="240,167" overflow="hidden">
   <displayList>
-    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,130" locked="true">
+    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,167" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图片"/>
     </component>
@@ -15,5 +15,10 @@
     </component>
     <text id="n75" name="n75" xy="7,51" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
     <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="82,49" size="42,20"/>
+    <component id="n77" name="forHitTest" src="dp4f7u" pkg="nk9ejx23" xy="16,139" size="178,19">
+      <Button title="将我作为组件的点击测试图片"/>
+    </component>
+    <image id="n79" name="n79" src="au3n39" pkg="nk9ejx23" xy="16,130" size="208,2"/>
+    <component id="n80" name="n80" src="ehmsu7z" xy="214,140" tooltips="勾选后，在组件点击测试时，点击的坐标将映射到图片中的坐标，&#xD;如果在该坐标的像素为透明，则点击穿透组件。"/>
   </displayList>
 </component>

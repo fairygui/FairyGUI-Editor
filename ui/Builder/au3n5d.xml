@@ -19,7 +19,7 @@
     </component>
     <graph id="n67" name="n67" xy="9,479" size="685,29" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
     <component id="n68" name="play" src="au3n48" xy="275,480" size="31,26" group="n72">
-      <Button checked="true" icon="ui://2pshu6oig1zau6g" selectedIcon="ui://2pshu6oig1zau6f"/>
+      <Button checked="true" icon="ui://2pshu6oig1zau6f" selectedIcon="ui://2pshu6oig1zau6g"/>
     </component>
     <component id="n69" name="currentFrame" src="au3n69" pkg="nk9ejx23" xy="344,482" size="43,20" group="n72">
       <Label title="0"/>

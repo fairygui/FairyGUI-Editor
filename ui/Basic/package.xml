@@ -172,6 +172,8 @@
     <image id="p0yg7q" name="a52" folder="gcza2q" qualityOption="source" file="p0yg7q.png" size="68,19" scale="9grid" scale9grid="5,5,55,10"/>
     <component id="p0yg7r" name="FileTabButton" folder="gcza2q" file="p0yg7r.xml" exported="true"/>
     <image id="fzqg7s" name="c4" folder="gcza14" qualityOption="source" file="fzqg7s.png" size="81,20" scale="9grid" scale9grid="10,5,45,10"/>
+    <component id="g7vk7t" name="TitleBar2" folder="kwng7f" file="g7vk7t.xml" exported="true"/>
+    <component id="dp4f7u" name="CriticalCheckbox" folder="xualr" file="dp4f7u.xml" exported="true"/>
   </resources>
   <publish name="basic" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>
