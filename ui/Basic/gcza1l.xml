@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="353,142" extention="Label" initName="frame">
   <displayList>
-    <image id="n0" name="n0" src="gcza1h" xy="-4,-4" size="359,149">
+    <image id="n0" name="n0" src="gcza1h" xy="-4,-4" size="359,149" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <graph id="n2" name="dragArea" xy="0,1" size="346,22">

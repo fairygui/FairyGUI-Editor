@@ -40,12 +40,12 @@
     <text id="n51" name="n51" xy="10,68" size="29,16" fontSize="12" color="#bdbdbd" singleLine="true" text="垂直"/>
     <text id="n60" name="n60" xy="10,92" size="29,16" fontSize="12" color="#bdbdbd" singleLine="true" text="水平"/>
     <loader id="n38" name="vtScrollBarIcon" xy="47,68" size="16,16" group="n49" align="center" vAlign="middle"/>
-    <text id="n39" name="vtScrollBarRes" xy="65,68" size="120,16" group="n49" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n39" name="vtScrollBarRes" xy="65,68" size="120,16" group="n49" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <group id="n49" name="n49" xy="47,68" size="138,16" advanced="true"/>
     <loader id="n54" name="hzScrollBarIcon" xy="47,92" size="16,16" group="n56" align="center" vAlign="middle"/>
-    <text id="n55" name="hzScrollBarRes" xy="65,92" size="120,16" group="n56" fontSize="12" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n55" name="hzScrollBarRes" xy="65,92" size="120,16" group="n56" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <group id="n56" name="n56" xy="47,92" size="138,16" advanced="true"/>

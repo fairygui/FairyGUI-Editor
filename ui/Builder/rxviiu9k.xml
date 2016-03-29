@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="441,388">
+  <displayList>
+    <component id="n61" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="441,388" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="纹理集定义"/>
+    </component>
+    <graph id="n40" name="n40" xy="7,54" size="422,282" group="n44" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n39" name="n39" xy="8,75" size="420,260" group="n44" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oimellu6u">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n42" name="n42" src="mellu6t" xy="7,54" size="422,21" group="n44"/>
+    <group id="n44" name="n44" xy="7,54" size="422,282" collapsed="true"/>
+    <text id="n59" name="n59" xy="139,30" size="182,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="最大允许纹理大小"/>
+    <component id="n60" name="maxAtlasSize" src="gcza18" pkg="nk9ejx23" xy="328,28">
+      <ComboBox title="2048" visibleItemCount="10">
+        <item title="256" value="256"/>
+        <item title="512" value="512"/>
+        <item title="1024" value="1024"/>
+        <item title="2048" value="2048"/>
+        <item title="4096" value="4096"/>
+        <item title="8192" value="8192"/>
+      </ComboBox>
+    </component>
+    <image id="n62" name="n62" src="au3n39" pkg="nk9ejx23" xy="7,345" size="421,2"/>
+    <component id="n63" name="n63" src="xualm" pkg="nk9ejx23" xy="154,353" size="58,25" group="n65">
+      <Button title="保存"/>
+    </component>
+    <component id="n64" name="n64" src="xualm" pkg="nk9ejx23" xy="229,353" size="58,25" group="n65">
+      <Button title="取消"/>
+    </component>
+    <group id="n65" name="n65" xy="154,353" size="133,25"/>
+  </displayList>
+</component>

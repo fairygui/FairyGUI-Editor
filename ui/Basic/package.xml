@@ -77,11 +77,11 @@
     <component id="gcza2h" name="PopupMenuItem" folder="gcza27" file="gcza2h.xml" exported="true"/>
     <component id="gcza2i" name="FlatIconButton" folder="xuali" file="gcza2i.xml" exported="true"/>
     <folder id="gcza2k" name="Tree" folder=""/>
-    <image id="gcza2l" name="i3.png" folder="gcza2k" qualityOption="source" file="gcza2l.png" size="5,9"/>
+    <image id="gcza2l" name="i3.png" folder="gcza2k" qualityOption="source" file="gcza2l.png" size="5,9" exported="true"/>
     <image id="gcza2m" name="i2.png" folder="gcza2k" qualityOption="source" file="gcza2m.png" size="15,13"/>
     <image id="gcza2n" name="i1.png" folder="gcza2k" qualityOption="source" file="gcza2n.png" size="15,13"/>
     <image id="gcza2o" name="i5.png" folder="gcza2k" qualityOption="source" file="gcza2o.png" size="13,15"/>
-    <image id="gcza2p" name="i4.png" folder="gcza2k" qualityOption="source" file="gcza2p.png" size="9,5"/>
+    <image id="gcza2p" name="i4.png" folder="gcza2k" qualityOption="source" file="gcza2p.png" size="9,5" exported="true"/>
     <folder id="gcza2q" name="Tab" folder=""/>
     <image id="gcza2r" name="f7.png" folder="gcza2q" qualityOption="source" file="gcza2r.png" size="10,10"/>
     <image id="gcza2s" name="f6.png" folder="gcza2q" qualityOption="source" file="gcza2s.png" size="10,10"/>
@@ -102,7 +102,7 @@
     <image id="au3n4v" name="a9.png" folder="gcza1d" file="au3n4v.png" size="12,18" scale9grid="6,5,6,10" exported="true" qualityOption="source"/>
     <image id="au3n50" name="a8.png" folder="gcza1d" file="au3n50.png" size="15,16" scale9grid="3,2,6,9" exported="true" qualityOption="source"/>
     <component id="au3n5m" name="TreeItem" folder="gcza2k" file="au3n5m.xml" exported="true"/>
-    <component id="au3n5n" name="TreeExpandButton" folder="gcza2k" file="au3n5n.xml"/>
+    <component id="au3n5n" name="TreeExpandButton" folder="gcza2k" file="au3n5n.xml" exported="true"/>
     <folder id="au3n5o" name="Cursor" folder=""/>
     <image id="au3n5p" name="cursor_move.png" folder="au3n5o" qualityOption="package" file="au3n5p.png" size="24,24" exported="true"/>
     <image id="au3n5q" name="cursor_hResize.png" folder="au3n5o" qualityOption="source" file="au3n5q.png" size="24,16" exported="true"/>
@@ -174,6 +174,7 @@
     <image id="fzqg7s" name="c4" folder="gcza14" qualityOption="source" file="fzqg7s.png" size="81,20" scale="9grid" scale9grid="10,5,45,10"/>
     <component id="g7vk7t" name="TitleBar2" folder="kwng7f" file="g7vk7t.xml" exported="true"/>
     <component id="dp4f7u" name="CriticalCheckbox" folder="xualr" file="dp4f7u.xml" exported="true"/>
+    <component id="rm0l7v" name="AutoSizeCheckbox" folder="xualr" file="rm0l7v.xml" exported="true"/>
   </resources>
   <publish name="basic" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

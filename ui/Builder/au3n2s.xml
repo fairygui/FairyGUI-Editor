@@ -68,8 +68,8 @@
     <component id="n80" name="promptEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <text id="n81" name="n81" xy="141,292" size="39,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="宽度"/>
-    <component id="n82" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="183,291" size="34,20">
+    <text id="n81" name="n81" xy="141,292" size="46,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="粗细"/>
+    <component id="n82" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="192,291" size="34,20">
       <Label title="1"/>
     </component>
   </displayList>

@@ -13,9 +13,6 @@
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n5" name="n5" xy="173,414" size="73,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="字体大小"/>
-    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="508,365" size="92,25">
-      <Button title="删除选定字符"/>
-    </component>
     <image id="n8" name="n8" src="au3n39" pkg="nk9ejx23" xy="5,444" size="640,2"/>
     <component id="n9" name="n9" src="xualm" pkg="nk9ejx23" xy="157,456">
       <Button title="保存"/>
@@ -36,6 +33,9 @@
     <component id="n23" name="n23" src="ehmsu7z" xy="306,414" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放"/>
     <component id="n24" name="n24" src="xualt" pkg="nk9ejx23" xy="327,414" size="145,19">
       <Button title="允许动态改变字号"/>
+    </component>
+    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="508,365" size="92,25">
+      <Button title="删除选定字符"/>
     </component>
   </displayList>
 </component>

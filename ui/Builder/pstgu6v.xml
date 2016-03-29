@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,167" overflow="hidden">
+<component size="240,252" overflow="hidden">
+  <controller name="fill" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,167" locked="true">
+    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,252" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图片"/>
     </component>
-    <text id="n71" name="n71" xy="7,28" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
-    <component id="n72" name="color" src="935t5o" xy="82,28"/>
+    <text id="n71" name="n71" xy="4,28" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
+    <component id="n72" name="color" src="935t5o" xy="86,28"/>
     <component id="n73" name="flipHZ" src="xualt" pkg="nk9ejx23" xy="16,74" size="92,19">
       <Button title="水平翻转"/>
     </component>
     <component id="n74" name="flipVT" src="xualt" pkg="nk9ejx23" xy="16,100" size="101,19">
       <Button title="垂直翻转"/>
     </component>
-    <text id="n75" name="n75" xy="7,51" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
-    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="82,49" size="42,20"/>
-    <component id="n77" name="forHitTest" src="dp4f7u" pkg="nk9ejx23" xy="16,139" size="178,19">
+    <text id="n75" name="n75" xy="4,52" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
+    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="86,49" size="42,20"/>
+    <image id="n81" name="n81" src="au3n39" pkg="nk9ejx23" xy="16,125" size="208,2"/>
+    <component id="n86" name="fillMethod" src="gcza18" pkg="nk9ejx23" xy="86,136" size="109,19">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n87" name="n87" xy="4,138" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
+    <component id="n88" name="n88" src="ehmsu7z" xy="212,139" tooltips="抱歉此功能未能提供预览"/>
+    <component id="n77" name="forHitTest" src="dp4f7u" pkg="nk9ejx23" xy="16,222" size="178,19">
       <Button title="将我作为组件的点击测试图片"/>
     </component>
-    <image id="n79" name="n79" src="au3n39" pkg="nk9ejx23" xy="16,130" size="208,2"/>
-    <component id="n80" name="n80" src="ehmsu7z" xy="214,140" tooltips="勾选后，在组件点击测试时，点击的坐标将映射到图片中的坐标，&#xD;如果在该坐标的像素为透明，则点击穿透组件。"/>
+    <image id="n79" name="n79" src="au3n39" pkg="nk9ejx23" xy="16,213" size="208,2"/>
+    <component id="n80" name="n80" src="ehmsu7z" xy="212,223" tooltips="勾选后，在组件点击测试时，点击的坐标将映射到图片中的坐标，&#xD;如果在该坐标的像素为透明，则点击穿透组件。"/>
+    <text id="n89" name="n89" xy="4,186" size="78,16" group="n95" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <component id="n90" name="fillAmount" src="au3n69" pkg="nk9ejx23" xy="88,184" size="42,20" group="n95"/>
+    <component id="n91" name="fillOrigin" src="gcza18" pkg="nk9ejx23" xy="86,160" size="109,19" group="n95">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n92" name="n92" xy="4,162" size="78,16" group="n95" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
+    <component id="n93" name="fillClockwise" src="rm0l7v" pkg="nk9ejx23" xy="145,185" size="82,19" group="n95">
+      <Button title="顺时针方向"/>
+    </component>
+    <group id="n95" name="n95" xy="4,160" size="223,44" advanced="true">
+      <gearDisplay controller="fill" pages="1"/>
+    </group>
   </displayList>
 </component>

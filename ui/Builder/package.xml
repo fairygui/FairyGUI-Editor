@@ -235,6 +235,9 @@
     <component id="oj7qiu9f" name="ChildrenPanel_header" folder="k0kuiu9g" file="oj7qiu9f.xml"/>
     <folder id="k0kuiu9g" name="children" folder=""/>
     <image id="c3ppiu9h" name="Search" folder="au3n2h" qualityOption="source" file="c3ppiu9h.png" size="16,16"/>
+    <component id="rn0hiu9i" name="ToolButton_Check2" folder="au3n4p" file="rn0hiu9i.xml"/>
+    <component id="rxviiu9k" name="AtlasSettingsDialog" folder="au3n4n" file="rxviiu9k.xml" exported="true"/>
+    <component id="qnujiu9l" name="CodeGenSettingsDialog" folder="au3n4n" file="qnujiu9l.xml" exported="true"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

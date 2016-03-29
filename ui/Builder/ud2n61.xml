@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,120" overflow="hidden">
+<component size="240,139" overflow="hidden">
   <controller name="layer" pages="0,底层,1,顶层" selected="0"/>
   <displayList>
-    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,120">
+    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,139">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="设计图"/>
     </component>
-    <component id="n9" name="designImage" src="au3n6j" pkg="nk9ejx23" xy="67,29" size="168,20"/>
-    <text id="n17" name="n17" xy="2,31" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="资源"/>
-    <text id="n61" name="n61" xy="2,57" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="偏移X"/>
-    <text id="n62" name="n62" xy="110,57" size="53,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="偏移Y"/>
-    <component id="n63" name="designImageOffsetX" src="au3n69" pkg="nk9ejx23" xy="67,55" size="39,20"/>
-    <component id="n64" name="designImageOffsetY" src="au3n69" pkg="nk9ejx23" xy="165,55" size="39,20"/>
-    <text id="n65" name="n65" xy="2,83" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="透明度"/>
-    <component id="n66" name="designImageAlpha" src="au3n69" pkg="nk9ejx23" xy="67,81" size="39,20"/>
-    <component id="n67" name="n67" src="gcza13" pkg="nk9ejx23" xy="174,84" size="57,19">
+    <component id="n9" name="designImage" src="au3n6j" pkg="nk9ejx23" xy="82,29" size="151,20"/>
+    <text id="n17" name="n17" xy="2,31" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
+    <text id="n61" name="n61" xy="2,57" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="偏移"/>
+    <text id="n62" name="n62" xy="151,57" size="18,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="Y"/>
+    <component id="n63" name="designImageOffsetX" src="au3n69" pkg="nk9ejx23" xy="104,55" size="39,20"/>
+    <component id="n64" name="designImageOffsetY" src="au3n69" pkg="nk9ejx23" xy="172,55" size="39,20"/>
+    <text id="n65" name="n65" xy="2,83" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="透明度"/>
+    <component id="n66" name="designImageAlpha" src="au3n69" pkg="nk9ejx23" xy="82,81" size="39,20"/>
+    <component id="n67" name="n67" src="gcza13" pkg="nk9ejx23" xy="152,108" size="57,19">
       <Button title="顶层" controller="layer" page="1"/>
     </component>
-    <component id="n68" name="n68" src="gcza13" pkg="nk9ejx23" xy="112,84" size="59,19">
+    <component id="n68" name="n68" src="gcza13" pkg="nk9ejx23" xy="88,108" size="59,19">
       <Button checked="true" title="底层" controller="layer" page="0"/>
     </component>
     <component id="n69" name="n69" src="ehmsu7z" xy="221,2" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xA;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F6可切换。&#xA;设计图只在设计期可见，不会发布到最终资源包中。"/>
+    <text id="n70" name="n70" xy="83,57" size="18,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="X"/>
+    <text id="n71" name="n71" xy="2,109" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="显示层次"/>
   </displayList>
 </component>

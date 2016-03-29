@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="656,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="1"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="0"/>
   <controller name="single_package" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="656,500">
@@ -18,9 +18,9 @@
       <Button title="发布"/>
     </component>
     <list id="n26" name="pkgs" xy="12,30" size="182,417" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
-    <text id="n27" name="n27" xy="196,33" size="74,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="导出目录"/>
+    <text id="n27" name="n27" xy="196,33" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="导出目录"/>
     <component id="n28" name="path" src="gcza1s" pkg="nk9ejx23" xy="271,31" size="217,20"/>
-    <text id="n29" name="n29" xy="196,62" size="74,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="文件名"/>
+    <text id="n29" name="n29" xy="196,62" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="文件名"/>
     <component id="n30" name="fileName" src="gcza1s" pkg="nk9ejx23" xy="271,60" size="218,20"/>
     <component id="n33" name="n33" src="xualm" pkg="nk9ejx23" xy="492,29" size="69,25">
       <Button title="浏览"/>
@@ -28,64 +28,43 @@
     <component id="n35" name="n35" src="xualm" pkg="nk9ejx23" xy="21,458" size="115,25">
       <Button title="全部发布"/>
     </component>
-    <component id="n36" name="n36" src="gcza13" pkg="nk9ejx23" xy="276,97" size="214,19" group="n38">
+    <component id="n36" name="n36" src="gcza13" pkg="nk9ejx23" xy="276,92" size="214,19" group="n38">
       <Button checked="true" title="两个包（定义文件包+资源包）" controller="single_package" page="0"/>
     </component>
-    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="494,97" size="103,19" group="n38">
+    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="276,118" size="103,19" group="n38">
       <Button title="一个包" controller="single_package" page="1"/>
     </component>
-    <text id="n31" name="n31" xy="199,98" size="69,16" group="n38" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="打包方式"/>
-    <group id="n38" name="n38" xy="199,97" size="398,19" advanced="true">
+    <text id="n31" name="n31" xy="196,93" size="74,16" group="n38" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="打包方式"/>
+    <group id="n38" name="n38" xy="196,92" size="294,45" advanced="true">
       <gearDisplay controller="project_type" pages="0,2"/>
     </group>
-    <text id="n41" name="n41" xy="209,142" size="65,16" group="n45" fontSize="12" color="#bdbdbd" text="纹理集定义"/>
-    <graph id="n40" name="n40" xy="210,165" size="422,282" group="n44" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n39" name="n39" xy="211,186" size="420,260" group="n44" overflow="scroll" margin="0,0,0,0" defaultItem="ui://2pshu6oimellu6u">
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-    </list>
-    <component id="n42" name="n42" src="mellu6t" xy="210,165" size="422,21" group="n44"/>
-    <group id="n44" name="n44" xy="210,165" size="422,282" group="n45"/>
-    <text id="n59" name="n59" xy="341,142" size="182,16" group="n45" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="最大允许纹理大小"/>
-    <component id="n60" name="maxAtlasSize" src="gcza18" pkg="nk9ejx23" xy="531,140" group="n45">
-      <ComboBox title="2048" visibleItemCount="10">
-        <item title="256" value="256"/>
-        <item title="512" value="512"/>
-        <item title="1024" value="1024"/>
-        <item title="2048" value="2048"/>
-        <item title="4096" value="4096"/>
-        <item title="8192" value="8192"/>
-      </ComboBox>
-    </component>
-    <group id="n45" name="n45" xy="209,140" size="423,307" advanced="true">
-      <gearDisplay controller="project_type" pages="1,2,3"/>
-    </group>
-    <component id="n52" name="extract_alpha" src="xualt" pkg="nk9ejx23" xy="261,91" size="224,19" group="n51" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
+    <component id="n52" name="extract_alpha" src="xualt" pkg="nk9ejx23" xy="277,91" size="224,19" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
       <gearDisplay controller="project_type" pages="1"/>
       <Button title="为Alpha通道创建单独的贴图"/>
     </component>
-    <group id="n51" name="n51" xy="261,91" size="224,19" advanced="true">
-      <gearDisplay controller="project_type" pages="1"/>
-    </group>
     <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="197,458" size="140,25">
       <Button title="仅发布定义"/>
     </component>
     <component id="n56" name="n56" src="xualm" pkg="nk9ejx23" xy="566,29" size="81,25">
       <Button title="设为默认值"/>
     </component>
-    <text id="n54" name="n54" xy="495,62" size="77,16" group="n57" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="压缩包扩展名"/>
-    <component id="n55" name="zipExt" src="gcza1s" pkg="nk9ejx23" xy="578,60" size="50,20" group="n57"/>
-    <group id="n57" name="n57" xy="495,60" size="133,20" advanced="true">
+    <text id="n54" name="n54" xy="495,62" size="82,16" group="n57" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="压缩包扩展名"/>
+    <component id="n55" name="zipExt" src="gcza1s" pkg="nk9ejx23" xy="583,60" size="61,20" group="n57"/>
+    <group id="n57" name="n57" xy="495,60" size="149,20" advanced="true">
       <gearDisplay controller="project_type" pages="0,2,3"/>
     </group>
+    <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="250,252" size="140,25">
+      <gearDisplay controller="project_type" pages="1,2,3"/>
+      <Button title="纹理集定义..."/>
+    </component>
+    <component id="n62" name="n62" src="xualm" pkg="nk9ejx23" xy="445,252" size="140,25">
+      <gearDisplay controller="project_type" pages="0,1,2"/>
+      <Button title="代码生成设置..."/>
+    </component>
+    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="277,144" size="106,19">
+      <gearDisplay controller="project_type" pages="0,1,2"/>
+      <gearXY controller="project_type" pages="0,1,2,3" values="-|277,118|-|-" default="277,144"/>
+      <Button title="为本包生成代码"/>
+    </component>
   </displayList>
 </component>

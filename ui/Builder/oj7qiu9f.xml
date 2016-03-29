@@ -2,22 +2,26 @@
 <component size="207,22">
   <displayList>
     <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="24,1" size="2,20"/>
-    <component id="n15" name="status" src="au3n2i" xy="1,1" size="23,20">
+    <component id="n15" name="status" src="au3n2i" xy="1,1" size="23,20" tooltips="取消所有隐藏">
       <Button icon="ui://2pshu6oiuzegu6a"/>
     </component>
     <image id="n16" name="n16" src="au3n38" pkg="nk9ejx23" xy="48,1" size="2,20"/>
-    <component id="n17" name="lock" src="au3n2i" xy="26,1" size="23,20">
+    <component id="n17" name="lock" src="au3n2i" xy="26,1" size="23,20" tooltips="取消所有锁定">
       <Button icon="ui://2pshu6oiau3n1b"/>
     </component>
     <image id="n18" name="n18" src="au3n39" pkg="nk9ejx23" xy="1,20" size="205,2">
       <relation target="" sidePair="width-width"/>
     </image>
-    <text id="n21" name="findInput" xy="57,2" size="123,16" input="true" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="">
+    <text id="n21" name="findInput" xy="77,2" size="102,16" input="true" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <component id="n23" name="btnFind" src="au3n2i" xy="181,1" size="23,20">
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oic3ppiu9h"/>
+    </component>
+    <image id="n24" name="n24" src="au3n38" pkg="nk9ejx23" xy="71,1" size="2,20"/>
+    <component id="n25" name="expand" src="rn0hiu9i" xy="49,1" size="23,20" tooltips="全部展开/全部收起">
+      <Button icon="ui://nk9ejx23gcza2l" selectedIcon="ui://nk9ejx23gcza2p"/>
     </component>
   </displayList>
 </component>

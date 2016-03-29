@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="150,20" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
     <image id="n0" name="n0" src="au3n4v" pkg="nk9ejx23" xy="0,0" size="150,19">
       <gearDisplay controller="button" pages="2"/>
@@ -22,14 +22,17 @@
     <component id="n11" name="lock" src="isb8iu9c" xy="26,0" size="23,20">
       <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1b"/>
     </component>
-    <loader id="n6" name="icon" xy="71,0" size="20,20" align="center" vAlign="middle">
-      <relation target="n3" sidePair="left-right"/>
+    <loader id="n6" name="icon" xy="83,0" size="20,20" align="center" vAlign="middle">
+      <relation target="n13" sidePair="left-right"/>
     </loader>
-    <text id="n2" name="title" xy="91,2" size="56,16" fontSize="12" color="#ffffff" autoSize="none" singleLine="true" text="">
+    <text id="n2" name="title" xy="103,2" size="43,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
       <gearColor controller="button" pages="0,1,2,3" values="-|#ffffff|-|#ffffff" default="#bdbdbd"/>
     </text>
+    <component id="n13" name="expandButton" src="au3n5n" pkg="nk9ejx23" xy="68,2">
+      <relation target="n3" sidePair="left-right"/>
+    </component>
   </displayList>
   <Button mode="Radio"/>
 </component>
