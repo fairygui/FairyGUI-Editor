@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,129" overflow="hidden">
+<component size="240,174" overflow="hidden">
   <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,129">
+    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,174">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动效"/>
     </component>
@@ -21,14 +22,30 @@
     <group id="n55" name="n55" xy="11,155" size="210,71" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="146,98">
+    <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="151,24">
       <Button title="删除动效"/>
     </component>
     <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="45,27" size="98,20"/>
     <text id="n69" name="n69" xy="3,28" size="40,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
-    <component id="n70" name="ignoreDisplayController" src="xualt" pkg="nk9ejx23" xy="38,58" size="196,19">
+    <component id="n70" name="ignoreDisplayController" src="dp4f7u" pkg="nk9ejx23" xy="38,62" size="130,19">
       <Button title="忽略显示控制器影响"/>
     </component>
-    <component id="n71" name="n71" src="ehmsu7z" xy="15,58" tooltips="勾选后，动效开始时所有参与此动效的元件不受显示控制器的控制，也就是不会被显示控制器隐藏。&#xA;动效结束后恢复控制。"/>
+    <component id="n71" name="n71" src="ehmsu7z" xy="174,62" tooltips="勾选后，动效开始时所有参与此动效的元件不受显示控制器的控制，也就是不会被显示控制器隐藏。&#xA;动效结束后恢复控制。">
+      <relation target="n70" sidePair="left-right"/>
+    </component>
+    <component id="n72" name="autoPlay" src="dp4f7u" pkg="nk9ejx23" xy="38,86" size="70,19">
+      <Button title="自动播放" controller="c2" page="1"/>
+    </component>
+    <text id="n73" name="n73" xy="69,108" size="67,16" group="n78" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="重复次数"/>
+    <component id="n74" name="autoPlayRepeat" src="au3n69" pkg="nk9ejx23" xy="137,107" size="50,20" group="n78">
+      <Label title="1"/>
+    </component>
+    <text id="n76" name="n76" xy="68,133" size="67,16" group="n78" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="延迟"/>
+    <component id="n77" name="autoPlayDelay" src="au3n69" pkg="nk9ejx23" xy="137,132" size="50,20" group="n78">
+      <Label title="1"/>
+    </component>
+    <group id="n78" name="n78" xy="68,107" size="119,45" advanced="true">
+      <gearDisplay controller="c2" pages="1"/>
+    </group>
   </displayList>
 </component>

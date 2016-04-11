@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="408,394">
+<component size="408,373">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="408,394">
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="408,373" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建按钮"/>
     </component>
-    <graph id="n25" name="n25" xy="17,114" size="373,166" type="rect" lineColor="#ff151415" fillColor="#00ff99cc"/>
+    <graph id="n25" name="n25" xy="17,114" size="373,148" type="rect" lineColor="#ff151415" fillColor="#00ff99cc"/>
     <text id="n1" name="n1" xy="19,33" size="53,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按钮名称"/>
     <component id="n2" name="n2" src="gcza1s" pkg="nk9ejx23" xy="75,32" size="210,20"/>
-    <component id="n11" name="n11" src="xualt" pkg="nk9ejx23" xy="171,290" size="112,19">
+    <component id="n11" name="n11" src="xualt" pkg="nk9ejx23" xy="171,272" size="112,19">
       <Button title="创建文本标题"/>
     </component>
-    <component id="n12" name="n12" src="xualt" pkg="nk9ejx23" xy="290,290" size="112,19">
+    <component id="n12" name="n12" src="xualt" pkg="nk9ejx23" xy="290,272" size="112,19">
       <Button title="创建图形标题"/>
     </component>
-    <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="108,351">
+    <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="108,336">
       <Button title="创建"/>
     </component>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="226,351">
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="226,336">
       <Button title="取消"/>
     </component>
-    <text id="n15" name="n15" xy="16,322" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
-    <component id="n16" name="n16" src="gcza1s" pkg="nk9ejx23" xy="83,320" size="216,20"/>
-    <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="304,318" size="81,25">
+    <text id="n15" name="n15" xy="16,304" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
+    <component id="n16" name="n16" src="gcza1s" pkg="nk9ejx23" xy="83,302" size="216,20"/>
+    <component id="n17" name="n17" src="xualm" pkg="nk9ejx23" xy="304,300" size="81,25">
       <Button title="浏览.."/>
     </component>
     <component id="n22" name="n22" src="gcza13" pkg="nk9ejx23" xy="22,85" size="302,19">
@@ -39,21 +39,17 @@
       <gearDisplay controller="c1" pages="1"/>
     </group>
     <text id="n3" name="n3" xy="30,145" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n4" name="n4" xy="30,194" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n5" name="n5" xy="30,224" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n6" name="n6" xy="30,253" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <text id="n4" name="n4" xy="30,174" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n5" name="n5" xy="30,204" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n6" name="n6" xy="30,233" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
     <component id="n7" name="n7" src="au3n6j" pkg="nk9ejx23" xy="167,143" size="214,20" group="n26"/>
-    <component id="n8" name="n8" src="au3n6j" pkg="nk9ejx23" xy="167,192" size="214,20" group="n26"/>
-    <component id="n9" name="n9" src="au3n6j" pkg="nk9ejx23" xy="167,222" size="214,20" group="n26"/>
-    <component id="n10" name="n10" src="au3n6j" pkg="nk9ejx23" xy="167,252" size="214,20" group="n26"/>
-    <component id="n30" name="n30" src="xualt" pkg="nk9ejx23" xy="168,168" size="179,19" group="n26">
-      <Button title="为此图片创建按下时变暗效果"/>
-    </component>
-    <component id="n31" name="n31" src="ehmsu7z" xy="345,169" group="n26" tooltips="当你只使用一张图片创建按钮时，&#xA;可以将此图片连接到一个颜色控制器，使其按下时变暗，&#xA;从而实现按钮的效果。&#xA;如果设置了按下状态图片，则此选项被忽略。"/>
-    <group id="n26" name="n26" xy="30,143" size="351,129"/>
+    <component id="n8" name="n8" src="au3n6j" pkg="nk9ejx23" xy="167,172" size="214,20" group="n26"/>
+    <component id="n9" name="n9" src="au3n6j" pkg="nk9ejx23" xy="167,202" size="214,20" group="n26"/>
+    <component id="n10" name="n10" src="au3n6j" pkg="nk9ejx23" xy="167,232" size="214,20" group="n26"/>
+    <group id="n26" name="n26" xy="30,143" size="351,109"/>
     <text id="n27" name="n27" xy="26,121" size="351,16" fontSize="12" color="#bdbdbd" autoSize="none" text="图片设置：（以下图片设置均为可选）"/>
-    <text id="n28" name="n28" xy="16,292" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按钮模式"/>
-    <component id="n29" name="mode" src="gcza18" pkg="nk9ejx23" xy="83,290" size="84,20">
+    <text id="n28" name="n28" xy="16,274" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按钮模式"/>
+    <component id="n29" name="mode" src="gcza18" pkg="nk9ejx23" xy="83,272" size="84,20">
       <ComboBox visibleItemCount="10"/>
     </component>
   </displayList>

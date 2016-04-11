@@ -154,9 +154,9 @@
     <image id="kwng78" name="2016-02-27_224443" folder="xual1" qualityOption="source" file="kwng78.png" size="15,13"/>
     <image id="kwng79" name="2016-02-27_224421" folder="xual1" qualityOption="source" file="kwng79.png" size="15,13"/>
     <image id="kwng7a" name="2016-02-27_224326" folder="xual1" qualityOption="source" file="kwng7a.png" size="15,13"/>
-    <image id="kwng7b" name="bar12" folder="xual1" qualityOption="source" file="kwng7b.png" size="104,13" scale="9grid" scale9grid="14,3,78,6"/>
-    <image id="kwng7c" name="bar13" folder="xual1" qualityOption="source" file="kwng7c.png" size="136,13" scale="9grid" scale9grid="12,4,113,5"/>
-    <image id="kwng7d" name="bar14" folder="xual1" qualityOption="source" file="kwng7d.png" size="129,13" scale="9grid" scale9grid="9,4,110,5"/>
+    <image id="kwng7b" name="bar12" folder="xual1" qualityOption="source" file="kwng7b.png" size="104,13" scale="9grid" scale9grid="3,3,96,6"/>
+    <image id="kwng7c" name="bar13" folder="xual1" qualityOption="source" file="kwng7c.png" size="136,13" scale="9grid" scale9grid="3,4,129,5"/>
+    <image id="kwng7d" name="bar14" folder="xual1" qualityOption="source" file="kwng7d.png" size="129,13" scale="9grid" scale9grid="3,4,122,5"/>
     <image id="kwng7e" name="gou" folder="xualr" qualityOption="source" file="kwng7e.png" size="13,11"/>
     <folder id="kwng7f" name="TitleBar" folder=""/>
     <image id="kwng7g" name="bar15" folder="kwng7f" qualityOption="source" file="kwng7g.png" size="81,20" scale="9grid" scale9grid="4,7,71,5" exported="true"/>
