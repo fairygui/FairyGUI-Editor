@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="656,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret" selected="0"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="3"/>
   <controller name="single_package" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="656,500">
@@ -8,13 +8,10 @@
       <Label title="发布设置"/>
     </component>
     <graph id="n1" name="n1" xy="12,30" size="182,417" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="455,458" size="80,25">
-      <Button title="保存"/>
-    </component>
     <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="556,458" size="80,25">
       <Button title="关闭"/>
     </component>
-    <component id="n25" name="n25" src="xualm" pkg="nk9ejx23" xy="354,458" size="80,25">
+    <component id="n25" name="n25" src="xualm" pkg="nk9ejx23" xy="461,458" size="80,25">
       <Button title="发布"/>
     </component>
     <list id="n26" name="pkgs" xy="12,30" size="182,417" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
@@ -42,7 +39,7 @@
       <gearDisplay controller="project_type" pages="1"/>
       <Button title="为Alpha通道创建单独的贴图"/>
     </component>
-    <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="197,458" size="140,25">
+    <component id="n53" name="n53" src="xualm" pkg="nk9ejx23" xy="304,458" size="140,25">
       <Button title="仅发布定义"/>
     </component>
     <component id="n56" name="n56" src="xualm" pkg="nk9ejx23" xy="566,29" size="81,25">
@@ -51,19 +48,19 @@
     <text id="n54" name="n54" xy="495,62" size="82,16" group="n57" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="压缩包扩展名"/>
     <component id="n55" name="zipExt" src="gcza1s" pkg="nk9ejx23" xy="583,60" size="61,20" group="n57"/>
     <group id="n57" name="n57" xy="495,60" size="149,20" advanced="true">
-      <gearDisplay controller="project_type" pages="0,2,3"/>
+      <gearDisplay controller="project_type" pages="0,2,3,4"/>
     </group>
     <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="250,252" size="140,25">
       <gearDisplay controller="project_type" pages="1,2,3"/>
       <Button title="纹理集定义..."/>
     </component>
     <component id="n62" name="n62" src="xualm" pkg="nk9ejx23" xy="445,252" size="140,25">
-      <gearDisplay controller="project_type" pages="0,1,2"/>
+      <gearDisplay controller="project_type" pages="0,1,2,4"/>
       <Button title="代码生成设置..."/>
     </component>
     <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="277,144" size="106,19">
-      <gearDisplay controller="project_type" pages="0,1,2"/>
-      <gearXY controller="project_type" pages="0,1,2,3" values="-|277,118|-|-" default="277,144"/>
+      <gearDisplay controller="project_type" pages="0,1,2,4"/>
+      <gearXY controller="project_type" pages="0,1,2,3,4" values="-|277,118|-|-|277,91" default="277,144"/>
       <Button title="为本包生成代码"/>
     </component>
   </displayList>

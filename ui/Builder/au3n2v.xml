@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,285" overflow="hidden">
-  <controller name="fill" pages="0,,1," selected="1"/>
+<component size="240,238" overflow="hidden">
+  <controller name="fill" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,285" locked="true">
+    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,238" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="装载器"/>
     </component>
+    <graph id="n91" name="n91" xy="9,228" size="223,3">
+      <gearSize controller="fill" pages="0,1" values="223,3,1,1|223,50,1,1" default="223,48,1,1"/>
+    </graph>
     <text id="n17" name="n17" xy="4,28" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
     <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,50" size="146,20">
       <ComboBox visibleItemCount="10"/>
@@ -47,8 +50,9 @@
     <component id="n89" name="fillClockwise" src="rm0l7v" pkg="nk9ejx23" xy="145,254" size="82,19" group="n90">
       <Button title="顺时针方向"/>
     </component>
-    <group id="n90" name="n90" xy="4,229" size="223,44" advanced="true">
+    <group id="n90" name="n90" xy="4,229" size="223,44" advanced="true" collapsed="true">
       <gearDisplay controller="fill" pages="1"/>
     </group>
   </displayList>
+  <relation target="n91" sidePair="bottomext-bottom"/>
 </component>

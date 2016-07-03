@@ -16,7 +16,7 @@
     <text id="n1" name="n1" xy="19,66" size="95,16" group="n16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="包名称"/>
     <text id="n2" name="n2" xy="19,112" size="95,16" group="n16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="JPEG品质"/>
     <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="120,64" size="200,20" group="n16"/>
-    <image id="n28" name="n28" src="au3n39" pkg="nk9ejx23" xy="45,95" size="316,1" group="n16">
+    <image id="n28" name="n28" src="au3n39" pkg="nk9ejx23" xy="45,95" size="316,2" group="n16">
       <relation target="" sidePair="width-width"/>
     </image>
     <component id="n32" name="n32" src="au3n69" pkg="nk9ejx23" xy="120,109" size="53,20" group="n16">

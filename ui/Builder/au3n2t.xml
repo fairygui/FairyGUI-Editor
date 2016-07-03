@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,151" overflow="hidden">
+<component size="240,192" overflow="hidden">
   <displayList>
-    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,151" locked="true">
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,192" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图形"/>
     </component>
@@ -19,5 +19,9 @@
     </component>
     <component id="n59" name="lineColor" src="935t5o" xy="92,76"/>
     <component id="n60" name="fillColor" src="935t5o" xy="92,99"/>
+    <image id="n64" name="n64" src="au3n39" pkg="nk9ejx23" xy="16,151" size="208,2"/>
+    <component id="n66" name="forMask" src="dp4f7u" pkg="nk9ejx23" xy="17,161" size="130,19">
+      <Button title="将我作为组件的遮罩"/>
+    </component>
   </displayList>
 </component>

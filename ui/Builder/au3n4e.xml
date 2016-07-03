@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,107" overflow="hidden">
+<component size="240,100" overflow="hidden">
   <displayList>
-    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,107">
+    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,100" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动画"/>
     </component>
-    <component id="n32" name="playing" src="xualt" pkg="nk9ejx23" xy="158,34" size="85,19">
+    <component id="n32" name="playing" src="xualt" pkg="nk9ejx23" xy="158,26" size="85,19">
       <Button title="播放"/>
     </component>
-    <text id="n69" name="n69" xy="6,35" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧"/>
-    <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="82,33"/>
-    <text id="n71" name="n71" xy="6,59" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
-    <component id="n72" name="color" src="935t5o" xy="82,58"/>
-    <text id="n73" name="n73" xy="6,81" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
-    <component id="n74" name="brightness" src="au3n69" pkg="nk9ejx23" xy="82,79" size="42,20"/>
+    <text id="n69" name="n69" xy="6,27" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧"/>
+    <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="82,25"/>
+    <text id="n71" name="n71" xy="6,51" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n72" name="color" src="935t5o" xy="82,50"/>
+    <text id="n73" name="n73" xy="6,73" size="70,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
+    <component id="n74" name="brightness" src="au3n69" pkg="nk9ejx23" xy="82,71" size="42,20"/>
   </displayList>
 </component>

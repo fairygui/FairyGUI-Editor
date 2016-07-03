@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,80" overflow="hidden">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,80" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="效果"/>
+    </component>
+    <graph id="n72" name="n72" xy="6,76" size="230,2">
+      <gearSize controller="c1" pages="0,1" values="230,2,1,1|-" default="230,55,1,1"/>
+    </graph>
+    <text id="n56" name="n56" xy="8,29" size="66,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="BlendMode"/>
+    <component id="n57" name="blendMode" src="gcza18" pkg="nk9ejx23" xy="78,26" size="101,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n58" name="filter" src="gcza18" pkg="nk9ejx23" xy="78,49" size="101,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n59" name="n59" xy="8,52" size="66,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="滤镜"/>
+    <text id="n63" name="n63" xy="8,77" size="66,16" group="n71" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
+    <component id="n64" name="filter_cb" src="au3n69" pkg="nk9ejx23" xy="78,75" size="40,20" group="n71">
+      <Label title="100"/>
+    </component>
+    <text id="n65" name="n65" xy="123,77" size="66,16" group="n71" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
+    <component id="n66" name="filter_cc" src="au3n69" pkg="nk9ejx23" xy="193,75" size="40,20" group="n71">
+      <Label title="100"/>
+    </component>
+    <text id="n67" name="n67" xy="8,99" size="66,16" group="n71" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
+    <component id="n68" name="filter_cs" src="au3n69" pkg="nk9ejx23" xy="78,97" size="40,20" group="n71">
+      <Label title="100"/>
+    </component>
+    <text id="n69" name="n69" xy="123,99" size="66,16" group="n71" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
+    <component id="n70" name="filter_ch" src="au3n69" pkg="nk9ejx23" xy="193,97" size="40,20" group="n71">
+      <Label title="100"/>
+    </component>
+    <group id="n71" name="n71" xy="8,75" size="225,42" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n72" sidePair="bottomext-bottom"/>
+</component>

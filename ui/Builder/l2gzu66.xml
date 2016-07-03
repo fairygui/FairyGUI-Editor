@@ -10,7 +10,7 @@
     <text id="n8" name="n8" xy="284,50" size="55,20" fontSize="16" color="#ffffff" autoSize="none" text="Editor"/>
     <text id="n9" name="version" xy="339,50" size="45,20" fontSize="16" color="#ffffff" text="1.0.0"/>
     <richtext id="n13" name="msg" xy="78,81" size="313,127" fontSize="12" color="#bdbdbd" ubb="true" autoSize="none" text=""/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="184,213">
+    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="157,213">
       <Button title="关闭"/>
     </component>
   </displayList>

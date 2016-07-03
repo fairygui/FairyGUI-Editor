@@ -8,7 +8,7 @@
       <relation target="" sidePair="width-width"/>
       <Button title="显示列表"/>
     </component>
-    <list id="n21" name="list" xy="0,19" size="220,181" group="n25" overflow="scroll" margin="22,3,1,1" defaultItem="ui://2pshu6oixl19iu8x">
+    <list id="n21" name="list" xy="0,19" size="220,181" group="n25" selectionMode="multiple" overflow="scroll" margin="22,3,1,1" defaultItem="ui://2pshu6oixl19iu8x">
       <relation target="" sidePair="width-width,height-height"/>
     </list>
     <component id="n22" name="n22" src="oj7qiu9f" xy="0,19" size="207,22" group="n25">
