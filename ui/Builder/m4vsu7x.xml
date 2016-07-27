@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="244,324">
+<component size="244,357">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,324" locked="true">
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,357" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n13" name="n13" xy="7,10" size="103,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="滚动条显示"/>
@@ -53,8 +53,11 @@
     <component id="n68" name="scrollTouchEffect" src="gcza18" pkg="nk9ejx23" xy="115,60" size="112,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n69" name="scrollPageMode" src="dp4f7u" pkg="nk9ejx23" xy="12,292" size="70,19">
+    <component id="n69" name="scrollPageMode" src="dp4f7u" pkg="nk9ejx23" xy="12,293" size="70,19">
       <Button title="页面模式"/>
+    </component>
+    <component id="n70" name="inertiaDisabled" src="dp4f7u" pkg="nk9ejx23" xy="12,316" size="70,19">
+      <Button title="禁用惯性"/>
     </component>
   </displayList>
 </component>
