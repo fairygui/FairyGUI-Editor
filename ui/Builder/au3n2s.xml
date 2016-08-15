@@ -65,7 +65,7 @@
     <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="209,122" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
-    <component id="n80" name="promptEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">
+    <component id="n80" name="inputEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
     <component id="n82" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="83,290" size="34,20">

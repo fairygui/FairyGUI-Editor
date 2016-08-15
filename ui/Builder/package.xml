@@ -208,7 +208,7 @@
     <image id="kucciu8k" name="arrow_down" folder="au3n2h" qualityOption="source" file="kucciu8k.png" size="12,12"/>
     <image id="kucciu8l" name="arrow_up" folder="au3n2h" qualityOption="source" file="kucciu8l.png" size="16,16"/>
     <component id="thzxiu8m" name="ReplaceRefDialog" folder="au3n4n" file="thzxiu8m.xml" exported="true"/>
-    <component id="pb9oiu8p" name="InputPromptEditPanel" folder="au3n4m" file="pb9oiu8p.xml" exported="true"/>
+    <component id="pb9oiu8p" name="TextInputEditPanel" folder="au3n4m" file="pb9oiu8p.xml" exported="true"/>
     <component id="ocfaiu8q" name="PlugInManageDialog" folder="au3n4n" file="ocfaiu8q.xml" exported="true"/>
     <component id="ocfaiu8r" name="PlugInEdit_header" folder="au3n4n" file="ocfaiu8r.xml"/>
     <component id="ocfaiu8s" name="PlugInEdit_item" folder="au3n4n" file="ocfaiu8s.xml"/>
