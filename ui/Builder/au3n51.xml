@@ -12,8 +12,8 @@
     </component>
     <component id="n57" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="159,100"/>
     <text id="n59" name="n59" xy="4,126" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="图标"/>
-    <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="83,124" size="117,20"/>
-    <component id="n64" name="promptEdit" src="au3n4b" pkg="nk9ejx23" xy="210,99" size="20,20">
+    <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="83,124" size="150,20"/>
+    <component id="n64" name="inputEdit" src="au3n4b" pkg="nk9ejx23" xy="210,99" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
   </displayList>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="244,357">
+<component size="244,371">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,357" locked="true">
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,371" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n13" name="n13" xy="7,10" size="103,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="滚动条显示"/>
@@ -58,6 +58,9 @@
     </component>
     <component id="n70" name="inertiaDisabled" src="dp4f7u" pkg="nk9ejx23" xy="12,316" size="70,19">
       <Button title="禁用惯性"/>
+    </component>
+    <component id="n71" name="maskDisabled" src="dp4f7u" pkg="nk9ejx23" xy="12,339" size="70,19">
+      <Button title="禁用剪裁"/>
     </component>
   </displayList>
 </component>

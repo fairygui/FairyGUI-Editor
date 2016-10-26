@@ -10,7 +10,7 @@
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n69" name="n69" xy="5,77" size="230,88" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="（可选）横向伸缩部分请命名为bar&#xA;　　　　纵向伸缩部分请命名为bar_v&#xA;　　　　并设置至100%长度&#xA;（可选）文本标题请命名为title&#xA;（可选）动画请命名为ani"/>
-    <component id="n70" name="reverse" src="xualt" pkg="nk9ejx23" xy="72,54" size="107,19">
+    <component id="n70" name="reverse" src="dp4f7u" pkg="nk9ejx23" xy="72,54" size="46,19">
       <Button title="反向"/>
     </component>
   </displayList>

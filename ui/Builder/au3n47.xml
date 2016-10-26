@@ -6,9 +6,9 @@
       <Label title="基本"/>
     </component>
     <graph id="n61" name="n61" xy="3,27" size="232,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
-    <component id="n9" name="initName" src="gcza1s" pkg="nk9ejx23" xy="84,127" size="121,20"/>
+    <component id="n9" name="initName" src="gcza1s" pkg="nk9ejx23" xy="84,79" size="121,20"/>
     <text id="n16" name="title" xy="5,29" size="226,18" fontSize="12" color="#d18835" autoSize="none" underline="true" text="元件描述"/>
-    <text id="n17" name="n17" xy="4,129" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="初始名字"/>
+    <text id="n17" name="n17" xy="4,81" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="初始名字"/>
     <text id="n24" name="n24" xy="4,57" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
     <text id="n26" name="n26" xy="105,56" size="47,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
     <component id="n27" name="height" src="au3n69" pkg="nk9ejx23" xy="153,55" size="52,20">
@@ -19,11 +19,11 @@
     </component>
     <text id="n46" name="n46" xy="4,155" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="边缘留空"/>
     <text id="n48" name="n48" xy="4,256" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="溢出处理"/>
-    <component id="n49" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="84,254" size="114,20">
+    <component id="n49" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="84,254" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n58" name="n58" xy="4,282" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="扩展"/>
-    <component id="n59" name="extentionId" src="gcza18" pkg="nk9ejx23" xy="84,281" size="114,20">
+    <component id="n59" name="extentionId" src="gcza18" pkg="nk9ejx23" xy="84,281" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n62" name="n62" xy="4,308" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="背景颜色"/>
@@ -44,11 +44,11 @@
     <component id="n77" name="clipSoftnessX" src="au3n69" pkg="nk9ejx23" xy="111,203" size="35,20"/>
     <text id="n78" name="n78" xy="151,206" size="17,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
     <component id="n79" name="clipSoftnessY" src="au3n69" pkg="nk9ejx23" xy="171,203" size="35,20"/>
-    <component id="n80" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="205,254" size="20,20">
+    <component id="n80" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="210,254" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
     <component id="n81" name="n81" src="ehmsu7z" xy="212,205" tooltips="边缘虚化效果在编辑器无法预览"/>
-    <component id="n82" name="n82" src="ehmsu7z" xy="212,129" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
+    <component id="n82" name="n82" src="ehmsu7z" xy="212,81" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
     <text id="n83" name="n83" xy="4,353" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="备注"/>
     <component id="n84" name="remark" src="au3n6k" pkg="nk9ejx23" xy="84,353" size="149,45"/>
     <component id="n85" name="clickThrough" src="xualt" pkg="nk9ejx23" xy="93,230" size="112,19">
@@ -56,19 +56,22 @@
     </component>
     <text id="n86" name="n86" xy="5,231" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="点击穿透"/>
     <component id="n87" name="n87" src="ehmsu7z" xy="212,231" tooltips="不勾选时，点击无法穿透组件的矩形范围。（推荐）&#xD;勾选时，点击可以穿透组件的空白区域。"/>
-    <text id="n88" name="n88" xy="4,80" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心X"/>
-    <text id="n89" name="n89" xy="105,80" size="47,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心Y"/>
-    <component id="n90" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="155,78" size="52,20">
+    <text id="n88" name="n88" xy="5,107" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心X"/>
+    <text id="n89" name="n89" xy="106,107" size="47,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心Y"/>
+    <component id="n90" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="156,105" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n91" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="51,78" size="48,20">
+    <component id="n91" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="52,105" size="48,20">
       <Label title="100000"/>
     </component>
-    <component id="n92" name="n92" src="gcza2i" pkg="nk9ejx23" xy="211,78" size="19,19">
+    <component id="n92" name="n92" src="gcza2i" pkg="nk9ejx23" xy="212,105" size="19,19">
       <Button icon="ui://2pshu6oipi83u6x"/>
     </component>
-    <component id="n93" name="anchor" src="dp4f7u" pkg="nk9ejx23" xy="49,102" size="94,19" tooltips="勾选后，轴心位置将作为元件的原点">
+    <component id="n93" name="anchor" src="dp4f7u" pkg="nk9ejx23" xy="50,129" size="94,19" tooltips="勾选后，轴心位置将作为元件的原点">
       <Button title="同时作为锚点"/>
+    </component>
+    <component id="n94" name="fitSize" src="au3n4b" pkg="nk9ejx23" xy="210,56" size="20,20" tooltips="设置为最适合大小">
+      <Button icon="ui://2pshu6oivb5vu7q"/>
     </component>
   </displayList>
 </component>

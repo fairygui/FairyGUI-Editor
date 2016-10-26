@@ -176,7 +176,7 @@
     <component id="dp4f7u" name="CriticalCheckbox" folder="xualr" file="dp4f7u.xml" exported="true"/>
     <component id="rm0l7v" name="AutoSizeCheckbox" folder="xualr" file="rm0l7v.xml" exported="true"/>
   </resources>
-  <publish name="basic" atlas="0" format="0" singlePackage="true">
+  <publish name="basic" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>
   </publish>
 </packageDescription>

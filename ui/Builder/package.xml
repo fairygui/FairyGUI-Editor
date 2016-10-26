@@ -60,7 +60,7 @@
     <component id="au3n2v" name="LoaderPropsPanel" folder="au3n4m" file="au3n2v.xml" exported="true"/>
     <component id="au3n3e" name="ToolButton_Radio" folder="au3n4p" file="au3n3e.xml"/>
     <component id="au3n3f" name="ControllerBar" folder="au3n4o" file="au3n3f.xml"/>
-    <component id="au3n3g" name="ControllerItem" folder="au3n4o" file="au3n3g.xml"/>
+    <component id="au3n3g" name="ControllerItem" folder="au3n4o" file="au3n3g.xml" exported="true"/>
     <component id="au3n3h" name="ControllerPanel" folder="au3n4o" file="au3n3h.xml"/>
     <component id="au3n3k" name="SaveConfirmDialog" folder="au3n4n" file="au3n3k.xml" exported="true"/>
     <component id="au3n3l" name="AlertDialog" folder="au3n4n" file="au3n3l.xml" exported="true"/>
@@ -131,7 +131,6 @@
     <component id="935t5o" name="ColorInputWithPreset" folder="935t5p" file="935t5o.xml" exported="true"/>
     <image id="935t5q" name="a17.png" folder="935t5p" file="935t5q.png" size="7,6" scale="tile"/>
     <component id="io7w5r" name="PreferencesDialog" folder="au3n4n" file="io7w5r.xml" exported="true"/>
-    <image id="ofk55t" name="filter.png" folder="au3n2h" qualityOption="source" file="ofk55t.png" size="14,14"/>
     <component id="ofk55u" name="ChoosePackagesDialog" folder="au3n4n" file="ofk55u.xml" exported="true"/>
     <component id="gs6u5w" name="PromptDialog" folder="au3n4n" file="gs6u5w.xml" exported="true"/>
     <component id="vdh75x" name="ChooseFolderDialog" folder="au3n4n" file="vdh75x.xml" exported="true"/>
@@ -183,7 +182,7 @@
     <image id="vb5vu7q" name="link_go" folder="au3n2h" qualityOption="source" file="vb5vu7q.png" size="11,14"/>
     <component id="jcdgu7r" name="TweenEditPanel" folder="au3n4m" file="jcdgu7r.xml" exported="true"/>
     <component id="8z21u7s" name="OpenProjectWindow" folder="" file="8z21u7s.xml" exported="true"/>
-    <image id="dnyau7t" name="logo48" folder="au3n2h" qualityOption="package" file="dnyau7t.png" size="48,48"/>
+    <image id="dnyau7t" name="logo48" folder="au3n2h" qualityOption="source" file="dnyau7t.png" size="48,48"/>
     <image id="dnyau7u" name="1427600131_808551" folder="pia6u82" qualityOption="source" file="dnyau7u.png" size="194,44"/>
     <component id="sux8u7v" name="UpgradeWindow" folder="" file="sux8u7v.xml" exported="true"/>
     <component id="tgp0u7w" name="UpgradeNotes" folder="" file="tgp0u7w.xml"/>
@@ -240,6 +239,8 @@
     <component id="qnujiu9l" name="CodeGenSettingsDialog" folder="au3n4n" file="qnujiu9l.xml" exported="true"/>
     <component id="k3u8iu9m" name="EffectPropsPanel" folder="au3n4m" file="k3u8iu9m.xml" exported="true"/>
     <component id="fr0ciu9n" name="GearPropsItem" folder="au3n4m" file="fr0ciu9n.xml" exported="true"/>
+    <component id="xj8hiu9p" name="ExcludedResourcesEditDialog" folder="au3n4n" file="xj8hiu9p.xml" exported="true"/>
+    <component id="qgdeiu9q" name="ExcludedResourceEdit_item" folder="au3n4n" file="qgdeiu9q.xml"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>

@@ -11,26 +11,26 @@
       <ComboBox visibleItemCount="10"/>
     </component>
     <graph id="n31" name="n31" xy="10,84" size="681,391" type="rect" lineColor="#ff151415" fillColor="#ff333333"/>
-    <component id="n42" name="n42" src="xualm" pkg="nk9ejx23" xy="524,517" size="62,25">
+    <component id="n42" name="n42" src="xualm" pkg="nk9ejx23" xy="547,517" size="62,25">
       <Button title="保存"/>
     </component>
-    <component id="n44" name="n44" src="xualm" pkg="nk9ejx23" xy="600,517" size="62,25">
+    <component id="n44" name="n44" src="xualm" pkg="nk9ejx23" xy="623,517" size="62,25">
       <Button title="关闭"/>
     </component>
     <graph id="n67" name="n67" xy="9,479" size="685,29" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <component id="n68" name="play" src="au3n48" xy="275,480" size="31,26" group="n72">
+    <component id="n68" name="play" src="au3n48" xy="263,480" size="31,26" group="n72">
       <Button checked="true" icon="ui://2pshu6oig1zau6f" selectedIcon="ui://2pshu6oig1zau6g"/>
     </component>
-    <component id="n69" name="currentFrame" src="au3n69" pkg="nk9ejx23" xy="344,482" size="43,20" group="n72">
+    <component id="n69" name="currentFrame" src="gcza1s" pkg="nk9ejx23" xy="326,483" size="69,20" group="n72">
       <Label title="0"/>
     </component>
-    <component id="n70" name="prevFrame" src="au3n2i" xy="311,480" size="30,28" group="n72">
+    <component id="n70" name="prevFrame" src="au3n2i" xy="291,480" size="30,28" group="n72">
       <Button icon="ui://2pshu6oig1zau6e"/>
     </component>
-    <component id="n71" name="nextFrame" src="au3n2i" xy="389,480" size="30,28" group="n72">
+    <component id="n71" name="nextFrame" src="au3n2i" xy="395,480" size="30,28" group="n72">
       <Button icon="ui://2pshu6oig1zau6d"/>
     </component>
-    <group id="n72" name="n72" xy="275,480" size="144,28"/>
+    <group id="n72" name="n72" xy="263,480" size="162,28"/>
     <text id="n58" name="n58" xy="12,31" size="40,16" group="n73" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="速度"/>
     <component id="n59" name="n59" src="xualm" pkg="nk9ejx23" xy="54,29" size="39,19" group="n73">
       <Button title="快"/>
@@ -54,9 +54,13 @@
     </component>
     <group id="n73" name="n73" xy="12,29" size="561,23"/>
     <component id="n74" name="n74" src="au3n3y" xy="12,86" size="676,387"/>
-    <text id="n75" name="n75" xy="120,520" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
-    <component id="n76" name="n76" src="xualm" pkg="nk9ejx23" xy="19,517" size="100,25">
+    <text id="n75" name="n75" xy="243,521" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
+    <component id="n76" name="n76" src="xualm" pkg="nk9ejx23" xy="14,517" size="100,25">
       <Button title="导入图片序列"/>
     </component>
+    <component id="n77" name="n77" src="xualm" pkg="nk9ejx23" xy="121,517" size="121,25">
+      <Button title="导入Sprite表"/>
+    </component>
+    <text id="n80" name="n80" xy="652,485" size="35,16" fontSize="12" color="#bdbdbd" text="24FPS"/>
   </displayList>
 </component>

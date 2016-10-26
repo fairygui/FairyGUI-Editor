@@ -6,7 +6,7 @@
       <Label title="滚动条"/>
     </component>
     <text id="n69" name="n69" xy="12,58" size="215,86" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="（可选）上/左按钮请命名为arrow1&#xA;（可选）下/右按钮请命名为arrow2&#xA;滚动滑块请命名为grip&#xA;滚动滑块限制区域请命名为bar"/>
-    <component id="n70" name="fixedGripSize" src="xualt" pkg="nk9ejx23" xy="15,30" size="216,19">
+    <component id="n70" name="fixedGripSize" src="dp4f7u" pkg="nk9ejx23" xy="15,30" size="130,19">
       <Button title="固定的滚动滑块大小"/>
     </component>
   </displayList>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="656,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="4"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="3"/>
   <controller name="single_package" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="656,500">
@@ -50,18 +50,19 @@
     <group id="n57" name="n57" xy="495,60" size="149,20" advanced="true">
       <gearDisplay controller="project_type" pages="0,2,3,4"/>
     </group>
-    <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="250,252" size="140,25">
+    <component id="n61" name="n61" src="xualm" pkg="nk9ejx23" xy="250,215" size="140,25">
       <gearDisplay controller="project_type" pages="1,2,3,4"/>
       <Button title="纹理集定义..."/>
     </component>
-    <component id="n62" name="n62" src="xualm" pkg="nk9ejx23" xy="445,252" size="140,25">
-      <gearDisplay controller="project_type" pages="0,1,2,4"/>
+    <component id="n62" name="n62" src="xualm" pkg="nk9ejx23" xy="250,263" size="140,25">
       <Button title="代码生成设置..."/>
     </component>
     <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="277,91" size="106,19">
-      <gearDisplay controller="project_type" pages="0,1,2,4"/>
-      <gearXY controller="project_type" pages="1,4" values="277,118|277,91" default="277,144"/>
+      <gearXY controller="project_type" pages="1,3,4" values="277,118|277,91|277,91" default="277,144"/>
       <Button title="为本包生成代码"/>
+    </component>
+    <component id="n67" name="n67" src="xualm" pkg="nk9ejx23" xy="250,312" size="140,25">
+      <Button title="资源排除设置..."/>
     </component>
   </displayList>
 </component>

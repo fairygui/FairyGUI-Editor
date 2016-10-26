@@ -16,5 +16,8 @@
     <text id="n41" name="n41" xy="9,77" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="提示文字"/>
     <component id="n42" name="n42" src="ehmsu7z" xy="90,78" tooltips="输入框为空时显示的提示文字&#xD;可以直接使用UBB语法"/>
     <component id="n43" name="n43" src="ehmsu7z" xy="207,53" tooltips="仅在移动平台有效"/>
+    <component id="n44" name="password" src="rm0l7v" pkg="nk9ejx23" xy="199,5" size="46,19">
+      <Button title="密码"/>
+    </component>
   </displayList>
 </component>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="114,25">
+<component size="68,25">
   <displayList>
-    <list id="n3" name="list" xy="65,3" size="44,19" layout="row" overflow="hidden" margin="0,0,0,0" colGap="5" defaultItem="ui://2pshu6oiau3n3g">
-      <relation target="n15" sidePair="left-right"/>
-    </list>
     <component id="n12" name="nameButton" src="au3n5h" xy="2,1">
       <Button icon="ui://2pshu6oiau3n26"/>
     </component>
@@ -12,5 +9,5 @@
       <Button icon="ui://2pshu6oiuzegu6a" selectedIcon="ui://2pshu6oiau3n1j"/>
     </component>
   </displayList>
-  <relation target="n3" sidePair="rightext-right"/>
+  <relation target="n15" sidePair="rightext-right"/>
 </component>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="400,80" idnum="4">
+<component size="400,80">
   <displayList>
-    <graph id="n1" name="n1" xy="26,14" size="350,40" type="rect" lineColor="#ffcccc66" fillColor="#ffffff99"/>
-    <text id="n0" name="title" xy="32,23" size="336,25" fontSize="18" align="center" autoSize="none" text="操作成功完成"/>
+    <graph id="n1" name="n1" xy="3,14" size="397,40" type="rect" lineColor="#ffcccc66" fillColor="#ffffff99">
+      <relation target="n0" sidePair="height-height"/>
+    </graph>
+    <text id="n0" name="title" xy="9,23" size="387,22" fontSize="18" align="center" autoSize="height" text="操作成功完成"/>
   </displayList>
 </component>

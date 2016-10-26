@@ -20,7 +20,7 @@
     <text id="n46" name="n46" xy="3,242" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
     <text id="n47" name="n47" xy="3,266" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
     <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="83,265" size="74,20">
-      <ComboBox title="水平居中" visibleItemCount="10"/>
+      <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="161,265" size="74,20">
       <ComboBox visibleItemCount="10"/>
@@ -30,9 +30,6 @@
     </component>
     <component id="n51" name="underline" src="rm0l7v" pkg="nk9ejx23" xy="154,193" size="58,19">
       <Button title="下划线"/>
-    </component>
-    <component id="n52" name="displayAsPassword" src="rm0l7v" pkg="nk9ejx23" xy="92,98" size="46,19">
-      <Button title="密码"/>
     </component>
     <text id="n42" name="n42" xy="3,193" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
     <text id="n44" name="n44" xy="3,217" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>

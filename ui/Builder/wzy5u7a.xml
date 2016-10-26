@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,200" extention="Button">
-  <controller name="c1" pages="0,XY,1,Size,2,Alpha,3,Rotation,4,Scale,6,Color,7,Animation,8,Pivot,9,Controller,10,Sound,11,Transition,12,Shake,13,Visible" selected="12"/>
+<component size="240,244" extention="Button">
+  <controller name="c1" pages="0,XY,1,Size,2,Alpha,3,Rotation,4,Scale,6,Color,7,Animation,8,Pivot,9,Controller,10,Sound,11,Transition,12,Shake,13,Visible,14,ColorFilter,15,Skew" selected="14"/>
   <controller name="tween" pages="0,,1," selected="0"/>
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <component id="n85" name="bg" src="au3n4c" xy="0,0" size="240,200">
+    <component id="n85" name="bg" src="au3n4c" xy="0,0" size="240,244">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="帧"/>
     </component>
@@ -98,27 +98,27 @@
     <group id="n68" name="n68" xy="5,31" size="214,20" advanced="true">
       <gearDisplay controller="c1" pages="8"/>
     </group>
-    <text id="n77" name="n77" xy="10,61" size="211,81" group="n71" fontSize="12" color="#bdbdbd" autoSize="none" text="格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。"/>
+    <text id="n77" name="n77" xy="10,61" size="211,60" group="n71" fontSize="12" color="#bdbdbd" autoSize="none" text="格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。"/>
     <component id="n121" name="controllerSetting" src="gcza1s" pkg="nk9ejx23" xy="11,30" size="204,20" group="n71"/>
-    <group id="n71" name="n71" xy="10,30" size="211,112" advanced="true">
+    <group id="n71" name="n71" xy="10,30" size="211,91" advanced="true">
       <gearDisplay controller="c1" pages="9"/>
     </group>
-    <component id="n31" name="easeType" src="gcza18" pkg="nk9ejx23" xy="80,89" size="60,20" group="n73">
+    <component id="n31" name="easeType" src="gcza18" pkg="nk9ejx23" xy="80,132" size="60,20" group="n73">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n72" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="144,89" size="51,20" group="n73">
+    <component id="n72" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="144,132" size="51,20" group="n73">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n86" name="n86" xy="12,91" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="缓动函数"/>
-    <component id="n104" name="yoyo" src="xualt" pkg="nk9ejx23" xy="147,119" size="50,19" group="n73">
+    <text id="n86" name="n86" xy="12,134" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="缓动函数"/>
+    <component id="n104" name="yoyo" src="xualt" pkg="nk9ejx23" xy="147,162" size="50,19" group="n73">
       <Button title="yoyo"/>
     </component>
-    <text id="n105" name="n105" xy="12,119" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="重复"/>
-    <component id="n107" name="repeat" src="au3n69" pkg="nk9ejx23" xy="80,117" group="n73">
+    <text id="n105" name="n105" xy="12,162" size="59,16" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" text="重复"/>
+    <component id="n107" name="repeat" src="au3n69" pkg="nk9ejx23" xy="80,160" group="n73">
       <Label title="0"/>
     </component>
-    <text id="n127" name="n127" xy="80,142" size="144,17" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
-    <group id="n73" name="n73" xy="12,89" size="212,70" advanced="true">
+    <text id="n127" name="n127" xy="80,185" size="144,17" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
+    <group id="n73" name="n73" xy="12,132" size="212,70" advanced="true">
       <gearDisplay controller="tween" pages="1"/>
     </group>
     <text id="n90" name="n90" xy="5,34" size="48,16" group="n92" fontSize="12" color="#bdbdbd" autoSize="none" text="声音"/>
@@ -136,12 +136,12 @@
     <component id="n97" name="transTimes" src="au3n69" pkg="nk9ejx23" xy="71,57" size="50,20" group="n95">
       <Label title="1"/>
     </component>
-    <text id="n103" name="n103" xy="12,85" size="206,55" group="n95" fontSize="12" color="#bdbdbd" autoSize="none" text="(0表示停止播放，-1表示无限次数)"/>
-    <group id="n95" name="n95" xy="5,31" size="213,109" advanced="true">
+    <text id="n103" name="n103" xy="12,85" size="206,38" group="n95" fontSize="12" color="#bdbdbd" autoSize="none" text="(0表示停止播放，-1表示无限次数)"/>
+    <group id="n95" name="n95" xy="5,31" size="213,92" advanced="true">
       <gearDisplay controller="c1" pages="11"/>
     </group>
-    <text id="n108" name="n108" xy="5,176" size="42,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="标签"/>
-    <component id="n109" name="label" src="gcza1s" pkg="nk9ejx23" xy="51,174"/>
+    <text id="n108" name="n108" xy="5,215" size="42,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="标签"/>
+    <component id="n109" name="label" src="gcza1s" pkg="nk9ejx23" xy="51,213"/>
     <text id="n115" name="n115" xy="4,34" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="震动幅度"/>
     <text id="n117" name="n117" xy="4,60" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="持续时间"/>
     <component id="n118" name="shakeAmplitude" src="au3n69" pkg="nk9ejx23" xy="78,32" size="65,20" group="n114"/>
@@ -154,6 +154,36 @@
     </component>
     <group id="n123" name="n123" xy="14,32" size="86,19" advanced="true">
       <gearDisplay controller="c1" pages="13"/>
+    </group>
+    <text id="n128" name="n128" xy="8,28" size="66,16" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
+    <component id="n129" name="filter_cb" src="au3n69" pkg="nk9ejx23" xy="78,26" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n130" name="n130" xy="123,28" size="66,16" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
+    <component id="n131" name="filter_cc" src="au3n69" pkg="nk9ejx23" xy="193,26" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n132" name="n132" xy="8,50" size="66,16" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
+    <component id="n133" name="filter_cs" src="au3n69" pkg="nk9ejx23" xy="78,48" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n134" name="n134" xy="123,50" size="66,16" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
+    <component id="n135" name="filter_ch" src="au3n69" pkg="nk9ejx23" xy="193,48" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <group id="n136" name="n136" xy="8,26" size="225,42" advanced="true">
+      <gearDisplay controller="c1" pages="1,14"/>
+    </group>
+    <text id="n137" name="n137" xy="6,34" size="49,16" group="n141" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="倾斜X"/>
+    <text id="n138" name="n138" xy="112,34" size="52,16" group="n141" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="倾斜Y"/>
+    <component id="n139" name="skewY" src="au3n69" pkg="nk9ejx23" xy="165,31" size="48,20" group="n141">
+      <Label title="1"/>
+    </component>
+    <component id="n140" name="skewX" src="au3n69" pkg="nk9ejx23" xy="57,31" size="49,20" group="n141">
+      <Label title="1"/>
+    </component>
+    <group id="n141" name="n141" xy="6,31" size="207,20" advanced="true">
+      <gearDisplay controller="c1" pages="15"/>
     </group>
   </displayList>
   <Button mode="Radio"/>

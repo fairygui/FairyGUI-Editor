@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="71,20" extention="Label">
-  <controller name="grayed" pages="0,,1," selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="1"/>
   <displayList>
     <image id="n0" name="n0" src="gcza1r" xy="0,0" size="71,20">
       <gearDisplay controller="grayed" pages="0"/>
@@ -10,8 +10,9 @@
       <gearDisplay controller="grayed" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n1" name="title" xy="1,1" size="69,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n1" name="title" xy="1,1" size="69,18" input="true" fontSize="12" color="#787b7b" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="grayed" pages="1" values="#787b7b" default="#bdbdbd"/>
     </text>
   </displayList>
 </component>

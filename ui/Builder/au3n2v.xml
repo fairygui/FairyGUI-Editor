@@ -19,10 +19,10 @@
     </component>
     <text id="n59" name="n59" xy="4,76" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
     <text id="n47" name="n47" xy="4,100" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
-    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="86,98" size="70,20">
+    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="86,98" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="162,98" size="70,20">
+    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,98" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n32" name="playing" src="xualt" pkg="nk9ejx23" xy="152,124" size="78,19">
