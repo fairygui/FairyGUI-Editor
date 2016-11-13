@@ -22,7 +22,7 @@
     <list id="n29" name="list" xy="145,23" size="505,78" overflow="scroll" scroll="both" margin="0,3,0,0" scrollBarMargin="0,0,130,0" defaultItem="ui://2pshu6oi85piu7f">
       <relation target="" sidePair="width-width,height-height"/>
     </list>
-    <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="504,88" touchable="false">
+    <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="492,88" touchable="false">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
     <text id="n21" name="n21" xy="43,87" size="23,15" group="n23" fontSize="11" color="#bdbdbd" text="fps"/>

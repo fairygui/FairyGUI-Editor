@@ -172,7 +172,7 @@
       <Label title="100"/>
     </component>
     <group id="n136" name="n136" xy="8,26" size="225,42" advanced="true">
-      <gearDisplay controller="c1" pages="1,14"/>
+      <gearDisplay controller="c1" pages="14"/>
     </group>
     <text id="n137" name="n137" xy="6,34" size="49,16" group="n141" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="倾斜X"/>
     <text id="n138" name="n138" xy="112,34" size="52,16" group="n141" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="倾斜Y"/>

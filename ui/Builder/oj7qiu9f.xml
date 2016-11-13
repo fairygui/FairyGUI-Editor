@@ -12,7 +12,7 @@
     <image id="n18" name="n18" src="au3n39" pkg="nk9ejx23" xy="1,20" size="205,2">
       <relation target="" sidePair="width-width"/>
     </image>
-    <text id="n21" name="findInput" xy="77,2" size="102,16" input="true" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="">
+    <text id="n21" name="findInput" xy="77,2" size="102,16" input="true" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
     </text>
     <component id="n23" name="btnFind" src="au3n2i" xy="181,1" size="23,20">

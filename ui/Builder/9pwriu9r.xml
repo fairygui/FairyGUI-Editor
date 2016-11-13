@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="351,195" extention="Label">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="351,195" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n72" name="title" src="au3n6k" pkg="nk9ejx23" xy="9,9" size="332,175">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -241,6 +241,10 @@
     <component id="fr0ciu9n" name="GearPropsItem" folder="au3n4m" file="fr0ciu9n.xml" exported="true"/>
     <component id="xj8hiu9p" name="ExcludedResourcesEditDialog" folder="au3n4n" file="xj8hiu9p.xml" exported="true"/>
     <component id="qgdeiu9q" name="ExcludedResourceEdit_item" folder="au3n4n" file="qgdeiu9q.xml"/>
+    <component id="9pwriu9r" name="TextInputPanel" folder="au3n4m" file="9pwriu9r.xml" exported="true"/>
+    <image id="9vz0iu9s" name="tweenline_tail" folder="tvg7u71" qualityOption="source" file="9vz0iu9s.png" size="3,7"/>
+    <image id="9vz0iu9t" name="tweenline_body" folder="tvg7u71" qualityOption="source" file="9vz0iu9t.png" size="3,3"/>
+    <image id="9vz0iu9u" name="tweenline_head" folder="tvg7u71" qualityOption="source" file="9vz0iu9u.png" size="4,5"/>
   </resources>
   <publish name="builder" atlas="0" format="0" singlePackage="true">
     <atlas name="默认纹理集" index="0"/>
