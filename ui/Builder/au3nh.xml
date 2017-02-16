@@ -18,7 +18,7 @@
     <component id="n33" name="n33" src="au3n2i" xy="4,293" group="n3" tooltips="左对齐">
       <Button icon="ui://2pshu6oiau3n13"/>
     </component>
-    <component id="n34" name="n34" src="au3n2i" xy="4,320" group="n3" tooltips="垂直中线对齐">
+    <component id="n34" name="n34" src="au3n2i" xy="4,320" group="n3" tooltips="水平居中">
       <Button icon="ui://2pshu6oiau3n14"/>
     </component>
     <component id="n35" name="n35" src="au3n2i" xy="4,347" group="n3" tooltips="右对齐">
@@ -27,7 +27,7 @@
     <component id="n36" name="n36" src="au3n2i" xy="4,374" group="n3" tooltips="上对齐">
       <Button icon="ui://2pshu6oiau3n10"/>
     </component>
-    <component id="n37" name="n37" src="au3n2i" xy="4,401" group="n3" tooltips="水平中线对齐">
+    <component id="n37" name="n37" src="au3n2i" xy="4,401" group="n3" tooltips="垂直居中">
       <Button icon="ui://2pshu6oiau3n12"/>
     </component>
     <component id="n38" name="n38" src="au3n2i" xy="4,428" group="n3" tooltips="下对齐">

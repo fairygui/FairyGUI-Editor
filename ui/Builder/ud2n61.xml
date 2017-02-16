@@ -20,7 +20,7 @@
     <component id="n68" name="n68" src="gcza13" pkg="nk9ejx23" xy="88,108" size="59,19">
       <Button checked="true" title="底层" controller="layer" page="0"/>
     </component>
-    <component id="n69" name="n69" src="ehmsu7z" xy="221,2" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xD;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F2可切换。&#xD;设计图只在设计期可见，不会发布到最终资源包中。"/>
+    <component id="n69" name="n69" src="ehmsu7z" xy="221,2" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xD;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F4可切换。&#xD;设计图只在设计期可见，不会发布到最终资源包中。"/>
     <text id="n70" name="n70" xy="83,57" size="18,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="X"/>
     <text id="n71" name="n71" xy="2,109" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="显示层次"/>
   </displayList>

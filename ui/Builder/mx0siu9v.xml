@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,23" extention="Label">
+  <displayList>
+    <text id="n74" name="title" xy="3,3" size="97,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text=""/>
+    <component id="n75" name="pages" src="gcza18" pkg="nk9ejx23" xy="106,1" size="121,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

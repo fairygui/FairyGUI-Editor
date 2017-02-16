@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,244" extention="Button">
-  <controller name="c1" pages="0,XY,1,Size,2,Alpha,3,Rotation,4,Scale,6,Color,7,Animation,8,Pivot,9,Controller,10,Sound,11,Transition,12,Shake,13,Visible,14,ColorFilter,15,Skew" selected="14"/>
+<component size="240,244" overflow="hidden" extention="Button">
+  <controller name="c1" pages="0,XY,1,Size,2,Alpha,3,Rotation,4,Scale,6,Color,7,Animation,8,Pivot,9,Controller,10,Sound,11,Transition,12,Shake,13,Visible,14,ColorFilter,15,Skew" selected="0"/>
   <controller name="tween" pages="0,,1," selected="0"/>
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>

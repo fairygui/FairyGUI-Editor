@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,79" overflow="hidden">
+  <controller name="controllerSettings" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,79">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="组件"/>
+    </component>
+    <list id="n66" name="controllerSettings" xy="3,24" size="234,49" group="n67" selectionMode="none" margin="0,0,0,0" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
+      <item/>
+      <item/>
+    </list>
+    <group id="n67" name="n67" xy="3,24" size="234,49" advanced="true">
+      <gearDisplay controller="controllerSettings" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n66" sidePair="bottomext-bottom"/>
+</component>

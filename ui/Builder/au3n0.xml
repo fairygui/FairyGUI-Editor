@@ -73,7 +73,6 @@
     <component id="n92" name="childrenPanel" src="oj7qiu9e" xy="3,395" size="220,199">
       <relation target="n9" sidePair="top-top"/>
       <relation target="n90" sidePair="rightext-left"/>
-      <relation target="n93" sidePair="topext-bottom"/>
     </component>
     <graph id="n90" name="libPanelResizer" xy="223,45" size="5,752" type="rect" lineSize="0" fillColor="#00ff99cc">
       <relation target="" sidePair="height-height"/>

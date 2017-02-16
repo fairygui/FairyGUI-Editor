@@ -15,9 +15,9 @@
     <graph id="n4" name="n4" xy="0,20" size="333,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
-    <component id="n13" name="n13" src="au3n6m" pkg="nk9ejx23" xy="45,0" size="124,20"/>
+    <component id="n13" name="name" src="au3n6m" pkg="nk9ejx23" xy="45,0" size="124,20"/>
     <graph id="n14" name="n14" xy="171,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
-    <component id="n15" name="n15" src="au3n6m" pkg="nk9ejx23" xy="175,0" size="154,20">
+    <component id="n15" name="trans" src="au3n6m" pkg="nk9ejx23" xy="175,0" size="154,20">
       <relation target="" sidePair="width-width"/>
     </component>
   </displayList>
