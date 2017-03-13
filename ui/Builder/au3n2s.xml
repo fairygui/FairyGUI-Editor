@@ -55,7 +55,7 @@
     <component id="n55" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="83,145" size="34,20" group="n76">
       <Label title="12"/>
     </component>
-    <component id="n78" name="n78" src="gcza2i" pkg="nk9ejx23" xy="118,145" size="19,19" group="n76">
+    <component id="n78" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="118,145" size="19,19" group="n76">
       <Button icon="ui://2pshu6oipsdnu6q"/>
     </component>
     <group id="n76" name="n76" xy="83,145" size="54,20"/>

@@ -38,7 +38,7 @@
     <component id="n137" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="83,119" size="34,20" group="n139">
       <Label title="12"/>
     </component>
-    <component id="n138" name="n138" src="gcza2i" pkg="nk9ejx23" xy="118,119" size="19,19" group="n139">
+    <component id="n138" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="118,119" size="19,19" group="n139">
       <Button icon="ui://2pshu6oipsdnu6q"/>
     </component>
     <group id="n139" name="n139" xy="83,119" size="54,20"/>

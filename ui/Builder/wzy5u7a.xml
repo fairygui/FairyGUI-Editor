@@ -141,7 +141,7 @@
       <gearDisplay controller="c1" pages="11"/>
     </group>
     <text id="n108" name="n108" xy="5,215" size="42,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="标签"/>
-    <component id="n109" name="label" src="gcza1s" pkg="nk9ejx23" xy="51,213"/>
+    <component id="n109" name="label" src="gcza1s" pkg="nk9ejx23" xy="51,213" size="168,20"/>
     <text id="n115" name="n115" xy="4,34" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="震动幅度"/>
     <text id="n117" name="n117" xy="4,60" size="71,16" group="n114" fontSize="12" color="#bdbdbd" autoSize="height" text="持续时间"/>
     <component id="n118" name="shakeAmplitude" src="au3n69" pkg="nk9ejx23" xy="78,32" size="65,20" group="n114"/>

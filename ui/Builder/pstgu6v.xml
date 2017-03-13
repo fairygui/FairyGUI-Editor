@@ -15,7 +15,7 @@
       <Button title="垂直翻转"/>
     </component>
     <text id="n75" name="n75" xy="4,52" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
-    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="86,49" size="42,20"/>
+    <component id="n76" name="brightness" src="au3n69" pkg="nk9ejx23" xy="86,51" size="42,20"/>
     <image id="n81" name="n81" src="au3n39" pkg="nk9ejx23" xy="16,125" size="208,2"/>
     <component id="n86" name="fillMethod" src="gcza18" pkg="nk9ejx23" xy="86,136" size="109,19">
       <ComboBox visibleItemCount="10"/>
@@ -35,7 +35,7 @@
       <gearDisplay controller="fill" pages="1"/>
     </group>
     <graph id="n97" name="n97" xy="6,159" size="228,3">
-      <gearSize controller="fill" pages="0,1" values="-|228,50,1,1" default="228,3,1,1"/>
+      <gearSize controller="fill" pages="1" values="228,50,1,1" default="228,3,1,1"/>
     </graph>
     <component id="n77" name="forHitTest" src="dp4f7u" pkg="nk9ejx23" xy="16,176" size="178,19" group="n98">
       <Button title="将我作为组件的点击测试图片"/>
