@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,238" overflow="hidden">
+  <controller name="fill" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n67" name="bg" src="au3n4c" xy="0,0" size="240,238" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="装载器"/>
+    </component>
+    <graph id="n91" name="n91" xy="9,228" size="223,3">
+      <gearSize controller="fill" pages="0,1" values="223,3,1,1|223,50,1,1" default="223,48,1,1"/>
+    </graph>
+    <text id="n17" name="n17" xy="4,28" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
+    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,50" size="146,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n46" name="n46" xy="4,52" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="自动大小"/>
+    <component id="n58" name="fill" src="gcza18" pkg="nk9ejx23" xy="86,73" size="146,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n59" name="n59" xy="4,76" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
+    <text id="n47" name="n47" xy="4,100" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="86,98" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,98" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n32" name="playing" src="xualt" pkg="nk9ejx23" xy="152,124" size="78,19">
+      <Button title="播放"/>
+    </component>
+    <component id="n65" name="url" src="au3n6j" pkg="nk9ejx23" xy="86,26" size="146,20"/>
+    <text id="n69" name="n69" xy="4,124" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
+    <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="86,124"/>
+    <text id="n71" name="n71" xy="4,148" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
+    <component id="n72" name="color" src="p06b7x" xy="86,148" pkg="nk9ejx23"/>
+    <text id="n73" name="n73" xy="4,172" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="亮度"/>
+    <component id="n74" name="brightness" src="au3n69" pkg="nk9ejx23" xy="86,171" size="42,20"/>
+    <image id="n75" name="n75" src="au3n39" pkg="nk9ejx23" xy="19,197" size="208,2"/>
+    <component id="n80" name="fillMethod" src="gcza18" pkg="nk9ejx23" xy="86,205" size="109,19">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n81" name="n81" xy="4,207" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
+    <component id="n82" name="n82" src="ehmsu7z" xy="212,209" tooltips="抱歉此功能未能提供预览"/>
+    <text id="n85" name="n85" xy="4,255" size="78,16" group="n90" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <component id="n86" name="fillAmount" src="au3n69" pkg="nk9ejx23" xy="88,253" size="42,20" group="n90"/>
+    <component id="n87" name="fillOrigin" src="gcza18" pkg="nk9ejx23" xy="86,229" size="109,19" group="n90">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n88" name="n88" xy="4,231" size="78,16" group="n90" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
+    <component id="n89" name="fillClockwise" src="rm0l7v" pkg="nk9ejx23" xy="145,254" size="82,19" group="n90">
+      <Button title="顺时针方向"/>
+    </component>
+    <group id="n90" name="n90" xy="4,229" size="223,44" advanced="true" collapsed="true">
+      <gearDisplay controller="fill" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n91" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2pshu6oi" jpegQuality="80" compressPNG="false">
+  <resources>
+    <component id="au3n0" name="MainPanel.xml" path="/" exported="true"/>
+    <component id="au3n3" name="LibPanel.xml" path="/"/>
+    <component id="au3n4" name="PreviewPanel.xml" path="/"/>
+    <component id="au3n5" name="BasicPropsPanel.xml" path="/props/" exported="true"/>
+    <image id="au3nb" name="s3.png" path="/images/"/>
+    <image id="au3nc" name="s5.png" path="/images/" qualityOption="source"/>
+    <image id="au3nd" name="s4.png" path="/images/" qualityOption="source"/>
+    <component id="au3ne" name="展开按钮.xml" path="/basic/"/>
+    <image id="au3nf" name="s6.png" path="/images/"/>
+    <component id="au3ng" name="MenuBar.xml" path="/"/>
+    <component id="au3nh" name="EditPanel.xml" path="/"/>
+    <component id="au3ni" name="DocContainer.xml" path="/"/>
+    <image id="au3nl" name="more_files.png" path="/icons/" qualityOption="source"/>
+    <component id="au3nm" name="MoreButton.xml" path="/basic/"/>
+    <image id="au3nt" name="shape_group.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n10" name="shape_align_top.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n11" name="shape_align_right.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n12" name="shape_align_middle.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n13" name="shape_align_left.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n14" name="shape_align_center.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n15" name="shape_align_bottom.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n17" name="装载器.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1b" name="lock.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1c" name="link_break.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1d" name="link.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1e" name="动画.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1g" name="hand.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1h" name="group.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1i" name="cursor.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1j" name="cross.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1l" name="button.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1m" name="bullet_red.png" path="/icons/" exported="true"/>
+    <image id="au3n1n" name="自定义排列.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1p" name="元件.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1s" name="相同宽度.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1t" name="相同高度.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1u" name="文字.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n21" name="图形.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n22" name="图片.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n23" name="声音.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n24" name="其他素材.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n25" name="列表.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n26" name="控制器.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n29" name="发布.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2a" name="测试.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2c" name="保存全部.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2d" name="保存.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2e" name="包.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n2f" name="SWF.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n2g" name="shape_ungroup.png" path="/icons/" qualityOption="source"/>
+    <component id="au3n2i" name="ToolButton.xml" path="/basic/"/>
+    <component id="au3n2r" name="GearPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n2s" name="TextPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n2t" name="GraphPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n2u" name="ListPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n2v" name="LoaderPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n3e" name="ToolButton_Radio.xml" path="/basic/"/>
+    <component id="au3n3f" name="ControllerBar.xml" path="/controller/"/>
+    <component id="au3n3g" name="ControllerItem.xml" path="/controller/" exported="true"/>
+    <component id="au3n3h" name="ControllerPanel.xml" path="/controller/"/>
+    <component id="au3n3k" name="SaveConfirmDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3l" name="AlertDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3n" name="ProjectSettingsDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3o" name="CreatePackageDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3p" name="PackageSettingsDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3q" name="CreateComDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3r" name="CreateButtonDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3s" name="ControllerEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3t" name="WaitingDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3u" name="ControllerEdit_item.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3v" name="ControllerEdit_header.xml" path="/dialogs/"/>
+    <component id="au3n3w" name="CreateFontDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3x" name="ImageEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3y" name="ImageContainer.xml" path="/dialogs/"/>
+    <component id="au3n40" name="FontEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n41" name="FontEdit_header.xml" path="/dialogs/"/>
+    <component id="au3n42" name="FontEdit_item.xml" path="/dialogs/"/>
+    <image id="au3n43" name="文字H.png" path="/icons/" exported="true" qualityOption="source"/>
+    <component id="au3n44" name="RenameDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n45" name="FixConflictedNameDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n46" name="ConfirmDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n47" name="ComPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n48" name="ToggleButton.xml" path="/basic/"/>
+    <component id="au3n49" name="ControllerPageInput.xml" path="/basic/" exported="true"/>
+    <component id="au3n4a" name="RelationPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n4c" name="PropsBg.xml" path="/props/"/>
+    <component id="au3n4d" name="GroupPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n4e" name="MovieClipPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n4f" name="SwfPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n4h" name="RichTextPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n4i" name="RelationItem.xml" path="/props/"/>
+    <component id="au3n4k" name="ButtonPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <image id="au3n4l" name="font.png" path="/icons/" exported="true" qualityOption="source"/>
+    <component id="au3n4r" name="ButtonPropsPanel.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4s" name="ComboBoxPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4t" name="ComboBoxPropsPanel.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4u" name="ProgressBarPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4v" name="ProgressBarPropsPanel.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4w" name="SliderPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4x" name="SliderPropsPanel.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n4y" name="ScrollBarPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n50" name="LabelPropsPanel2.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n51" name="LabelPropsPanel.xml" path="/props/extention/" exported="true"/>
+    <component id="au3n53" name="TestPanel.xml" path="/"/>
+    <component id="au3n54" name="PublishDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n55" name="ListItemsEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n56" name="ListItemsEdit_item.xml" path="/dialogs/"/>
+    <component id="au3n57" name="ListItemsEdit_header.xml" path="/dialogs/"/>
+    <component id="au3n58" name="ComboBoxEdit_item.xml" path="/dialogs/"/>
+    <component id="au3n59" name="ComboBoxEdit_header.xml" path="/dialogs/"/>
+    <component id="au3n5a" name="ComboBoxEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n5b" name="CropQueryDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n5c" name="ExchangeDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n5d" name="MovieClipEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n5e" name="PasteOptionDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n5f" name="SelectObjectPanel.xml" path="/props/" exported="true"/>
+    <component id="au3n5h" name="ControllerNameItem.xml" path="/controller/"/>
+    <component id="au3n5i" name="CustomArrangeDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="sl3v5j" name="RelationTypePopup.xml" path="/props/" exported="true"/>
+    <image id="x5ao5k" name="cog.png" path="/icons/" qualityOption="source"/>
+    <component id="io7w5r" name="PreferencesDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="ofk55u" name="ChoosePackagesDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="gs6u5w" name="PromptDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="vdh75x" name="ChooseFolderDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="bfc35y" name="collapse.png" path="/icons/" qualityOption="source"/>
+    <component id="iyi45z" name="ToolButton3.xml" path="/basic/"/>
+    <component id="ud2n61" name="ComDesignPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="guki62" name="EtcPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="104iu63" name="DownloadDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="ur4wu64" name="ToolButton_Check.xml" path="/basic/"/>
+    <image id="ur4wu65" name="find.png" path="/icons/" qualityOption="source"/>
+    <component id="l2gzu66" name="AboutDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="sq3uu67" name="layers.png" path="/icons/" qualityOption="source"/>
+    <image id="uzegu6a" name="eye.png" path="/icons/" qualityOption="source"/>
+    <image id="g1zau6d" name="play_right.png" path="/icons/" qualityOption="source"/>
+    <image id="g1zau6e" name="play_left.png" path="/icons/" qualityOption="source"/>
+    <image id="g1zau6f" name="ani_play.png" path="/icons/" qualityOption="source"/>
+    <image id="g1zau6g" name="ani_paused.png" path="/icons/" qualityOption="source"/>
+    <image id="krunu6h" name="add_res.png" path="/icons/" qualityOption="source"/>
+    <component id="yi3eu6i" name="CreateMovieClipDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="llhvu6j" name="FindReferenceDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="oqvzu6k" name="StringsFunctionDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="f814u6l" name="CreateComboBoxDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="f814u6n" name="CreateLabelDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="psdnu6q" name="dropdown.png" path="/icons/" qualityOption="source"/>
+    <image id="psdnu6r" name="trash.png" path="/icons/" qualityOption="source"/>
+    <image id="psdnu6s" name="folder.png" path="/icons/" exported="true" qualityOption="source"/>
+    <component id="mellu6t" name="AtlasList_header.xml" path="/dialogs/"/>
+    <component id="mellu6u" name="AtlasList_item.xml" path="/dialogs/"/>
+    <component id="pstgu6v" name="ImagePropsPanel.xml" path="/props/" exported="true"/>
+    <image id="pi83u6x" name="下箭头.png" path="/icons/" qualityOption="source"/>
+    <component id="pi83u6y" name="下拉按钮.xml" path="/basic/"/>
+    <component id="tvg7u72" name="TimelinePanel.xml" path="/timeline/"/>
+    <component id="tvg7u73" name="TransitionPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="nkoeu75" name="TimelineHead.xml" path="/timeline/"/>
+    <component id="mduxu76" name="TimelineRange.xml" path="/timeline/"/>
+    <component id="vplzu77" name="TimelineIndicator.xml" path="/timeline/" exported="true"/>
+    <component id="wzy5u7a" name="TransitionFramePanel.xml" path="/props/" exported="true"/>
+    <image id="cnolu7b" name="tweenline2.png" path="/timeline/" qualityOption="source"/>
+    <image id="cnolu7c" name="dot.png" path="/icons/" qualityOption="source"/>
+    <image id="cnolu7d" name="tweenline.png" path="/timeline/" scale="9grid" scale9grid="4,2,2,4" qualityOption="source"/>
+    <component id="cnolu7e" name="TweenLine.xml" path="/timeline/" exported="true"/>
+    <component id="85piu7f" name="Timeline.xml" path="/timeline/"/>
+    <component id="85piu7g" name="TimelineSelection.xml" path="/timeline/"/>
+    <component id="85piu7h" name="TimelineSelection2.xml" path="/timeline/"/>
+    <component id="f9sbu7i" name="TimelinePanelInner.xml" path="/timeline/"/>
+    <component id="j9jou7j" name="TimelineNameItem.xml" path="/timeline/"/>
+    <component id="q5ueu7m" name="BasicPropsInTransPanel.xml" path="/props/" exported="true"/>
+    <image id="vb5vu7q" name="link_go.png" path="/icons/" qualityOption="source"/>
+    <component id="jcdgu7r" name="TweenEditPanel.xml" path="/props/" exported="true"/>
+    <component id="8z21u7s" name="OpenProjectWindow.xml" path="/" exported="true"/>
+    <image id="dnyau7t" name="logo48.png" path="/icons/" qualityOption="source"/>
+    <image id="dnyau7u" name="1427600131_808551.png" path="/images/" qualityOption="source"/>
+    <component id="sux8u7v" name="UpgradeWindow.xml" path="/" exported="true"/>
+    <component id="tgp0u7w" name="UpgradeNotes.xml" path="/"/>
+    <component id="m4vsu7x" name="ScrollEditPanel.xml" path="/props/" exported="true"/>
+    <image id="ehmsu7y" name="info.png" path="/icons/" qualityOption="source"/>
+    <component id="ehmsu7z" name="信息按钮.xml" path="/basic/"/>
+    <component id="qacnu81" name="MultiSelectionPanel.xml" path="/props/" exported="true"/>
+    <image id="pia6u83" name="2015-07-24_162052.png" path="/images/"/>
+    <component id="fmz5u85" name="CreateScrollBarDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="fmz5u86" name="未标题-1.png" path="/images/"/>
+    <component id="w67pu87" name="CreateProgressBarDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="jgs1u8a" name="CreateSliderDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="jgs1u8c" name="Bitmap(2).png" path="/images/"/>
+    <image id="hrh6u8d" name="Bitmap.png" path="/images/"/>
+    <component id="10j9iu8e" name="ChooseFontDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="8swdiu8f" name="MultiImageEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="t3skiu8g" name="CreatePopupMenuDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="t3skiu8h" name="Bitmap(3).png" path="/images/" qualityOption="source"/>
+    <component id="f5apiu8i" name="FontList_item.xml" path="/dialogs/"/>
+    <component id="rjtoiu8j" name="SearchPanel.xml" path="/"/>
+    <image id="kucciu8k" name="arrow_down.png" path="/icons/" qualityOption="source"/>
+    <image id="kucciu8l" name="arrow_up.png" path="/icons/" qualityOption="source"/>
+    <component id="thzxiu8m" name="ReplaceRefDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="pb9oiu8p" name="TextInputEditPanel.xml" path="/props/" exported="true"/>
+    <component id="ocfaiu8q" name="PlugInManageDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="ocfaiu8r" name="PlugInEdit_header.xml" path="/dialogs/"/>
+    <component id="ocfaiu8s" name="PlugInEdit_item.xml" path="/dialogs/"/>
+    <component id="ryi8iu8t" name="ImportProgressDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="kqx1iu8u" name="ProjectProps_header.xml" path="/dialogs/"/>
+    <component id="kqx1iu8v" name="ProjectProps_item.xml" path="/dialogs/"/>
+    <component id="xl19iu8x" name="ChildrenPanel_item.xml" path="/children/"/>
+    <image id="xl19iu8z" name="folder_closed.png" path="/icons/" qualityOption="source"/>
+    <image id="xl19iu90" name="folder_opened.png" path="/icons/" qualityOption="source"/>
+    <image id="9z66iu91" name="to_left.png" path="/icons/" qualityOption="source"/>
+    <image id="9z66iu92" name="to_right.png" path="/icons/" qualityOption="source"/>
+    <component id="orb8iu93" name="ScrollBarSettingDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="jvwaiu94" name="QQ20160226-1.png" path="/images/" qualityOption="source"/>
+    <image id="jvwaiu95" name="bar2.png" path="/images/" scale="9grid" scale9grid="48,6,96,12" qualityOption="source"/>
+    <image id="jvwaiu96" name="bar.png" path="/images/" scale="9grid" scale9grid="8,5,357,10" qualityOption="source"/>
+    <image id="kwngiu97" name="2016-02-29_133956.png" path="/images/" scale="9grid" scale9grid="4,3,8,10" qualityOption="source"/>
+    <image id="kwngiu98" name="2016-02-29_134237.png" path="/images/" scale="9grid" scale9grid="2,5,8,16" qualityOption="source"/>
+    <component id="krzwiu99" name="TransitionListPanel.xml" path="/transition/"/>
+    <component id="hs7xiu9b" name="TransitionNameItem.xml" path="/transition/" exported="true"/>
+    <component id="isb8iu9c" name="ToolButton_Radio2.xml" path="/basic/"/>
+    <image id="izo1iu9d" name="dot2.png" path="/icons/" qualityOption="source"/>
+    <component id="oj7qiu9e" name="ChildrenPanel.xml" path="/children/"/>
+    <component id="oj7qiu9f" name="ChildrenPanel_header.xml" path="/children/"/>
+    <image id="c3ppiu9h" name="Search.png" path="/icons/" qualityOption="source"/>
+    <component id="rn0hiu9i" name="ToolButton_Check2.xml" path="/basic/"/>
+    <component id="rxviiu9k" name="AtlasSettingsDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="k3u8iu9m" name="EffectPropsPanel.xml" path="/props/" exported="true"/>
+    <component id="fr0ciu9n" name="GearPropsItem.xml" path="/props/" exported="true"/>
+    <component id="xj8hiu9p" name="ExcludedResourcesEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="qgdeiu9q" name="ExcludedResourceEdit_item.xml" path="/dialogs/"/>
+    <component id="9pwriu9r" name="TextInputPanel.xml" path="/props/" exported="true"/>
+    <image id="9vz0iu9s" name="tweenline_tail.png" path="/timeline/" qualityOption="source"/>
+    <image id="9vz0iu9t" name="tweenline_body.png" path="/timeline/" qualityOption="source"/>
+    <image id="9vz0iu9u" name="tweenline_head.png" path="/timeline/" qualityOption="source"/>
+    <component id="mx0siu9v" name="ControllerSettingItem.xml" path="/props/extention/"/>
+    <component id="pq8giu9w" name="ComPropsPanel2.xml" path="/props/" exported="true"/>
+    <image id="w04viu9x" name="Loader.png" path="/images/" qualityOption="source"/>
+    <image id="w04viu9y" name="List.png" path="/images/" qualityOption="source"/>
+    <image id="w04viu9z" name="Graph.png" path="/images/" qualityOption="source"/>
+    <component id="ieyliua0" name="AdaptationPanel.xml" path="/"/>
+    <component id="ytvfiua1" name="AdaptationSettingsDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="ih9xiua2" name="refresh.png" path="/images/"/>
+    <image id="kpzgiua3" name="chess_bg.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="builder" zipExt="">
+    <atlas name="默认纹理集" index="0"/>
+  </publish>
+</packageDescription>

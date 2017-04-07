@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,343" overflow="hidden">
+  <displayList>
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,343" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="文本"/>
+    </component>
+    <text id="n17" name="n17" xy="3,123" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
+    <component id="n32" name="singleLine" src="rm0l7v" pkg="nk9ejx23" xy="154,215" size="46,19">
+      <Button title="单行"/>
+    </component>
+    <text id="n33" name="n33" xy="3,147" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n35" name="n35" xy="3,170" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n38" name="ubbEnabled" src="rm0l7v" pkg="nk9ejx23" xy="171,98" size="40,19">
+      <Button title="UBB"/>
+    </component>
+    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="83,241" size="122,19">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n46" name="n46" xy="3,242" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n47" name="n47" xy="3,266" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="83,265" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n49" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="161,265" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n50" name="input" src="rm0l7v" pkg="nk9ejx23" xy="10,98" size="46,19">
+      <Button title="输入"/>
+    </component>
+    <component id="n51" name="underline" src="rm0l7v" pkg="nk9ejx23" xy="154,193" size="58,19">
+      <Button title="下划线"/>
+    </component>
+    <text id="n42" name="n42" xy="3,193" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n44" name="n44" xy="3,217" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <component id="n56" name="color" src="p06b7x" xy="83,169" pkg="nk9ejx23"/>
+    <component id="n58" name="leading" src="au3n69" pkg="nk9ejx23" xy="83,192" size="34,20">
+      <Label title="12"/>
+    </component>
+    <component id="n59" name="letterSpacing" src="au3n69" pkg="nk9ejx23" xy="83,216" size="34,20">
+      <Label title="12"/>
+    </component>
+    <component id="n60" name="text" src="au3n6k" pkg="nk9ejx23" xy="9,26" size="223,65"/>
+    <component id="n63" name="font" src="au3n6j" pkg="nk9ejx23" xy="83,122" size="122,20"/>
+    <component id="n66" name="strokeColor" src="p06b7x" xy="163,290" pkg="nk9ejx23"/>
+    <component id="n68" name="stroke" src="dp4f7u" pkg="nk9ejx23" xy="7,290" size="46,19">
+      <Button title="描边"/>
+    </component>
+    <component id="n71" name="bold" src="rm0l7v" pkg="nk9ejx23" xy="154,149" size="46,19">
+      <Button title="粗体"/>
+    </component>
+    <component id="n72" name="italic" src="rm0l7v" pkg="nk9ejx23" xy="154,171" size="46,19">
+      <Button title="斜体"/>
+    </component>
+    <component id="n55" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="83,145" size="34,20" group="n76">
+      <Label title="12"/>
+    </component>
+    <component id="n78" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="118,145" size="19,19" group="n76">
+      <Button icon="ui://2pshu6oipsdnu6q"/>
+    </component>
+    <group id="n76" name="n76" xy="83,145" size="54,20"/>
+    <component id="n79" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="209,122" size="20,20">
+      <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <component id="n80" name="inputEdit" src="au3n4b" pkg="nk9ejx23" xy="59,97" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+    <component id="n82" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="83,290" size="34,20">
+      <Label title="1"/>
+    </component>
+    <component id="n83" name="shadow" src="dp4f7u" pkg="nk9ejx23" xy="7,314" size="46,19">
+      <Button title="投影"/>
+    </component>
+    <text id="n84" name="n84" xy="82,315" size="25,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="X"/>
+    <component id="n85" name="shadowX" src="au3n69" pkg="nk9ejx23" xy="111,313" size="34,20">
+      <Label title="1"/>
+    </component>
+    <component id="n86" name="shadowY" src="au3n69" pkg="nk9ejx23" xy="178,313" size="34,20">
+      <Label title="1"/>
+    </component>
+    <text id="n87" name="n87" xy="148,315" size="25,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="Y"/>
+  </displayList>
+</component>

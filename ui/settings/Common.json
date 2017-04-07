@@ -1,0 +1,23 @@
+{
+	"scrollBars": {
+		"defaultDisplay": "visible",
+		"horizontal": "ui://nk9ejx23xualf",
+		"vertical": "ui://nk9ejx23xual0"
+	},
+	"textColor": "#bdbdbd",
+	"fontSizeScheme": [
+		"自定义字体大小 30"
+	],
+	"font": "SimSun",
+	"colorScheme": [
+		"文本颜色 #bdbdbd",
+		"边框颜色 #151415",
+		"填充颜色 #3f3f3f",
+		"主填充颜色 #383838",
+		"输入填充颜色 #A0A0A0",
+		"亮文字 #D19036",
+		"文本框背景 #414141",
+		"分割线 #555555"
+	],
+	"fontSize": 12
+}

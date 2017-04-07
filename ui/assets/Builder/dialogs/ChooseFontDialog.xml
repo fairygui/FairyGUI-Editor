@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="335,430">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="335,430">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="选择字体"/>
+    </component>
+    <graph id="n20" name="n20" xy="10,58" size="314,331" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n19" name="list" xy="10,58" size="314,331" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oif5apiu8i"/>
+    <group id="n35" name="n35" xy="10,58" size="314,331"/>
+    <component id="n40" name="n40" src="xualm" pkg="nk9ejx23" xy="98,395" size="66,25">
+      <Button title="选择"/>
+    </component>
+    <component id="n41" name="n41" src="xualm" pkg="nk9ejx23" xy="183,395" size="66,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n42" name="globalSetting" src="okou7w" pkg="nk9ejx23" xy="15,31" size="90,18">
+      <Button title="全局字体设置"/>
+    </component>
+  </displayList>
+</component>

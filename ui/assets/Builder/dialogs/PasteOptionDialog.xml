@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="419,200">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="419,200">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="粘贴项目"/>
+    </component>
+    <graph id="n43" name="n43" xy="13,58" size="395,95" type="rect" lineColor="#ff151415" fillColor="#00ff99cc"/>
+    <text id="n36" name="n36" xy="20,33" size="381,16" fontSize="12" color="#bdbdbd" autoSize="none" text="从x复制到x"/>
+    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="116,66" size="126,19">
+      <Button checked="true" title="重命名" controller="c1" page="0"/>
+    </component>
+    <component id="n38" name="n38" src="gcza13" pkg="nk9ejx23" xy="116,93" size="277,19">
+      <Button title="替换(多个元件可能被覆盖）" controller="c1" page="1"/>
+    </component>
+    <text id="n42" name="n42" xy="17,67" size="89,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="同名元件处理"/>
+    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="102,164" group="n44">
+      <Button title="确定"/>
+    </component>
+    <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="231,164" group="n44">
+      <Button title="取消"/>
+    </component>
+    <group id="n44" name="n44" xy="102,164" size="214,25"/>
+    <component id="n45" name="n45" src="gcza13" pkg="nk9ejx23" xy="116,121" size="277,19">
+      <Button title="跳过" controller="c1" page="2"/>
+    </component>
+  </displayList>
+</component>

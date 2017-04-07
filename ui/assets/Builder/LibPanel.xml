@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,580" designImageOffsetX="-428" designImageAlpha="100">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="220,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="220,23">
+      <relation target="" sidePair="width-width"/>
+      <Button title="库"/>
+    </component>
+    <graph id="n6" name="n6" xy="1,23" size="217,555" type="rect" lineSize="0" fillColor="#ff383838">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n3" name="treeView" xy="1,22" size="219,558" overflow="scroll" margin="1,10,1,1">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n38" sidePair="topext-bottom"/>
+    </list>
+    <component id="n21" name="btnSettings" src="au3n2i" xy="166,1" size="24,22" tooltips="过滤显示包">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="192,1" size="24,22" tooltips="全部折叠">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oibfc35y"/>
+    </component>
+    <component id="n27" name="btnFind" src="ur4wu64" xy="141,1" size="24,22" tooltips="查找">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiur4wu65"/>
+    </component>
+    <component id="n38" name="find" src="rjtoiu8j" xy="0,-35" size="220,58">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0,1" values="0,-35|0,22" default="0,23"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n41" name="btnRefresh" src="au3n2i" xy="117,1" size="24,22" tooltips="刷新当前包">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiih9xiua2"/>
+    </component>
+  </displayList>
+</component>

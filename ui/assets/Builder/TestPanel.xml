@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="729,400">
+  <controller name="c1" pages="0,普通状态,1,动效测试" selected="0"/>
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="729,400" type="rect" lineColor="#ff151415" fillColor="#ff383838">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2" name="controllerPanel" src="au3n3h" xy="1,30" size="727,29">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <image id="n3" name="n3" src="au3n39" pkg="nk9ejx23" xy="1,28" size="727,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n5" name="back" src="xualm" pkg="nk9ejx23" xy="5,3" size="88,23">
+      <Button title="返回(ESC)"/>
+    </component>
+    <graph id="n1" name="n1" xy="1,117" size="727,282" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n20" sidePair="topext-bottom"/>
+    </graph>
+    <component id="n6" name="docContainer" src="au3ni" xy="0,117" size="729,283">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n20" sidePair="topext-bottom"/>
+    </component>
+    <component id="n7" name="play" src="xualm" pkg="nk9ejx23" xy="104,3" size="86,23">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="再次播放(F5)"/>
+    </component>
+    <component id="n16" name="transitionListPanel" src="krzwiu99" xy="1,59" size="727,29">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n2" sidePair="top-bottom"/>
+    </component>
+    <component id="n20" name="adaptationPanel" src="ieyliua0" xy="1,88" size="726,28">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n16" sidePair="top-bottom"/>
+    </component>
+    <component id="n13" name="viewScale" src="gcza18" pkg="nk9ejx23" xy="644,4" size="80,20" group="n19" tooltips="放大：Ctrl+'+'&#xD;缩小：Ctrl+'-'&#xD;自由缩放：Ctrl+鼠标滚轮&#xD;恢复到100%：Ctrl+1">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n14" name="n14" xy="563,6" size="75,16" group="n19" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="缩放比例"/>
+    <group id="n19" name="n19" xy="563,4" size="161,20" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <graph id="n21" name="n21" xy="716,387" size="12,12" type="rect" lineSize="0" fillColor="#ff383838">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </graph>
+  </displayList>
+</component>

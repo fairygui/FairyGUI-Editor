@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,501">
+  <controller name="c1" pages="0,,1,9grid,2,tile" selected="0"/>
+  <controller name="c2" pages="0,Fit,1,1x,2,2x,3,4x" selected="0"/>
+  <displayList>
+    <component id="n24" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="700,501" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="图片属性"/>
+    </component>
+    <graph id="n0" name="n0" xy="9,28" size="402,432" type="rect" lineColor="#ff151415" fillColor="#ff333333"/>
+    <text id="n1" name="n1" xy="422,31" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图像大小"/>
+    <text id="n2" name="n2" xy="494,31" size="142,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <text id="n3" name="n3" xy="422,55" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="数据大小"/>
+    <text id="n4" name="n4" xy="494,55" size="144,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <component id="n15" name="n15" src="rm0l7v" pkg="nk9ejx23" xy="436,125" size="130,19">
+      <Button title="使用九宫格进行缩放" controller="c1" page="1"/>
+    </component>
+    <component id="n16" name="n16" src="rm0l7v" pkg="nk9ejx23" xy="436,291" size="118,19">
+      <Button title="使用平铺进行缩放" controller="c1" page="2"/>
+    </component>
+    <component id="n21" name="n21" src="xualm" pkg="nk9ejx23" xy="480,466" size="63,25">
+      <Button title="保存"/>
+    </component>
+    <component id="n22" name="n22" src="xualm" pkg="nk9ejx23" xy="555,466" size="63,25">
+      <Button title="应用"/>
+    </component>
+    <component id="n23" name="n23" src="xualm" pkg="nk9ejx23" xy="627,466" size="63,25">
+      <Button title="关闭"/>
+    </component>
+    <component id="n26" name="n26" src="au3n3y" xy="10,29"/>
+    <text id="n27" name="n27" xy="422,78" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放模式"/>
+    <text id="n6" name="n6" xy="573,150" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="左"/>
+    <text id="n7" name="n7" xy="455,150" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="上"/>
+    <text id="n8" name="n8" xy="634,150" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="右"/>
+    <text id="n9" name="n9" xy="514,150" size="17,16" group="n28" fontSize="12" color="#bdbdbd" text="下"/>
+    <component id="n10" name="n10" src="au3n69" pkg="nk9ejx23" xy="593,148" size="39,20" group="n28"/>
+    <component id="n11" name="n11" src="au3n69" pkg="nk9ejx23" xy="473,148" size="39,20" group="n28"/>
+    <component id="n12" name="n12" src="au3n69" pkg="nk9ejx23" xy="653,148" size="39,20" group="n28"/>
+    <component id="n13" name="n13" src="au3n69" pkg="nk9ejx23" xy="533,148" size="39,20" group="n28"/>
+    <group id="n28" name="n28" xy="455,148" size="237,20"/>
+    <component id="n29" name="n29" src="rm0l7v" pkg="nk9ejx23" xy="436,101" size="34,19">
+      <Button checked="true" title="无" controller="c1" page="0"/>
+    </component>
+    <component id="n34" name="n34" src="xualm" pkg="nk9ejx23" xy="16,466" size="67,25">
+      <Button title="导入..."/>
+    </component>
+    <text id="n19" name="n19" xy="422,374" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集"/>
+    <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="494,371" size="134,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n32" name="n32" xy="422,322" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="允许平滑"/>
+    <component id="n33" name="n33" src="gcza18" pkg="nk9ejx23" xy="494,320" size="56,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <image id="n42" name="n42" src="au3n39" pkg="nk9ejx23" xy="409,459" size="289,2"/>
+    <text id="n43" name="n43" xy="454,175" size="185,16" fontSize="12" color="#bdbdbd" text="勾选需要使用平铺进行缩放的宫格"/>
+    <graph id="n46" name="n46" xy="475,201" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n47" name="n47" xy="531,201" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n48" name="n48" xy="587,201" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n49" name="n49" xy="475,227" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n50" name="n50" xy="531,227" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n51" name="n51" xy="587,227" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n52" name="n52" xy="475,253" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n53" name="n53" xy="531,253" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n54" name="n54" xy="587,253" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
+    <graph id="n61" name="n61" xy="476,201" size="162,74" group="n60" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
+    <group id="n60" name="n60" xy="475,201" size="163,74" group="n62"/>
+    <component id="n55" name="gridTile0" src="xualt" pkg="nk9ejx23" xy="551,202" size="24,19" group="n62"/>
+    <component id="n59" name="gridTile1" src="xualt" pkg="nk9ejx23" xy="551,254" size="24,19" group="n62"/>
+    <component id="n57" name="gridTile2" src="xualt" pkg="nk9ejx23" xy="496,228" size="24,19" group="n62"/>
+    <component id="n58" name="gridTile3" src="xualt" pkg="nk9ejx23" xy="606,228" size="24,19" group="n62"/>
+    <component id="n56" name="gridTile4" src="xualt" pkg="nk9ejx23" xy="551,228" size="24,19" group="n62"/>
+    <group id="n62" name="n62" xy="475,201" size="163,74"/>
+    <text id="n17" name="n17" xy="422,347" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="质量"/>
+    <component id="n18" name="n18" src="gcza18" pkg="nk9ejx23" xy="494,345" size="134,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n25" name="n25" src="gcza1s" pkg="nk9ejx23" xy="633,345" size="51,20"/>
+    <component id="n64" name="n64" src="gcza13" pkg="nk9ejx23" xy="189,437" size="45,19" group="n69">
+      <Button checked="true" title="Fit" controller="c2" page="0"/>
+    </component>
+    <component id="n65" name="n65" src="gcza13" pkg="nk9ejx23" xy="247,437" size="45,19" group="n69">
+      <Button title="1x" controller="c2" page="1"/>
+    </component>
+    <component id="n66" name="n66" src="gcza13" pkg="nk9ejx23" xy="305,437" size="45,19" group="n69">
+      <Button title="2x" controller="c2" page="2"/>
+    </component>
+    <component id="n67" name="n67" src="gcza13" pkg="nk9ejx23" xy="363,437" size="45,19" group="n69">
+      <Button title="4x" controller="c2" page="3"/>
+    </component>
+    <group id="n69" name="n69" xy="189,437" size="219,19"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,18" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n0" name="title" xy="6,1" size="53,16" fontSize="12" color="#d19036" underline="true" singleLine="true" text="链接内容"/>
+  </displayList>
+  <Button/>
+  <relation target="n0" sidePair="rightext-right"/>
+</component>

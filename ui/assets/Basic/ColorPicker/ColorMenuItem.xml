@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="121,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="checked" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n14" name="n14" src="kwng7m" xy="0,0" size="121,22">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1" name="title" xy="50,3" size="65,16" fontSize="12" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n16" name="shape" xy="4,3" size="40,17" type="rect"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

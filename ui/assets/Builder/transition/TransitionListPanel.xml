@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="361,29" overflow="hidden">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="361,29" type="rect" lineSize="0" fillColor="#ff424242">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n1" name="n1" xy="106,0" size="158,29" layout="flow_hz" scroll="horizontal" margin="3,3,0,0" lineGap="4" colGap="5" defaultItem="ui://2pshu6oihs7xiu9b" autoItemSize="false">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2" name="bottom" src="au3n39" pkg="nk9ejx23" xy="0,27" size="362,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n3" name="n3" xy="3,6" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="动效"/>
+    <image id="n4" name="n4" src="au3n38" pkg="nk9ejx23" xy="96,0" size="2,27">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <component id="n5" name="n5" src="au3n2i" xy="67,2" tooltips="创建动效">
+      <Button icon="ui://2pshu6oikrunu6h"/>
+    </component>
+    <component id="n6" name="exit" src="xualm" pkg="nk9ejx23" xy="273,1" visible="false">
+      <relation target="" sidePair="right-right"/>
+      <Button title="退出编辑"/>
+    </component>
+  </displayList>
+  <relation target="n1" sidePair="height-height"/>
+</component>
