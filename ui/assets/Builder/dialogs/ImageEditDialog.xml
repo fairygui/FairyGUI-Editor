@@ -11,7 +11,7 @@
     <text id="n1" name="n1" xy="422,31" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图像大小"/>
     <text id="n2" name="n2" xy="494,31" size="142,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
     <text id="n3" name="n3" xy="422,55" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="数据大小"/>
-    <text id="n4" name="n4" xy="494,55" size="144,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <text id="n4" name="n4" xy="494,55" size="195,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text=""/>
     <component id="n15" name="n15" src="rm0l7v" pkg="nk9ejx23" xy="436,125" size="130,19">
       <Button title="使用九宫格进行缩放" controller="c1" page="1"/>
     </component>

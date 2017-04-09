@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,32" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="ah2b82" name="n1" xy="0,0">
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text id="n2" name="title" xy="0,0" size="32,32" fontSize="12" autoSize="none" align="center" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+  </displayList>
+</component>

@@ -163,8 +163,10 @@
     <image id="p06b7z" name="DropdownArrow.png" path="/ColorPicker/" qualityOption="source"/>
     <component id="p06b80" name="ColorMenuItem.xml" path="/ColorPicker/" exported="true"/>
     <image id="xt8c81" name="color_none.png" path="/ColorPicker/"/>
+    <image id="ah2b82" name="button_light.png" path="/Button/" scale="9grid" scale9grid="8,8,16,16"/>
+    <component id="ah2b83" name="Button_light.xml" path="/Button/" exported="true"/>
   </resources>
-  <publish name="basic" zipExt="">
+  <publish name="basic">
     <atlas name="默认纹理集" index="0"/>
   </publish>
 </packageDescription>

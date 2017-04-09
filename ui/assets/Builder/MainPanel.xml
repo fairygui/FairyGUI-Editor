@@ -81,8 +81,19 @@
       <relation target="n90" sidePair="rightext-left"/>
       <relation target="n92" sidePair="top-top"/>
     </graph>
+    <component id="n100_ah2b" name="newVersionPrompt" src="ah2biuaa" xy="253,-36" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
     <component id="n10" name="menuBar" src="au3ng" xy="0,0" size="1200,22">
       <relation target="" sidePair="width-width"/>
     </component>
   </displayList>
+  <transition name="newVersionShow">
+    <item time="0" type="Visible" target="n100_ah2b" value="true"/>
+    <item time="0" type="XY" target="n100_ah2b" tween="true" startValue="-,-34" endValue="-,21" duration="18" ease="Linear"/>
+  </transition>
+  <transition name="newVersionHide">
+    <item time="0" type="XY" target="n100_ah2b" tween="true" startValue="-,19" endValue="-,-34" duration="12" ease="Linear"/>
+    <item time="12" type="Visible" target="n100_ah2b" value="false"/>
+  </transition>
 </component>

@@ -2,9 +2,9 @@
 <component size="400,80">
   <displayList>
     <graph id="n1" name="n1" xy="1,14" size="397,40" type="rect" lineColor="#ffcccc66"/>
-    <text id="n0" name="title" xy="8,23" size="302,25" fontSize="18" autoSize="none" singleLine="true" text="正在努力完成你的请求。。。"/>
-    <component id="n3" name="cancel" src="xualm" pkg="nk9ejx23" xy="318,24" size="74,24">
-      <Button title="取消"/>
+    <text id="n0" name="title" xy="8,23" size="346,25" fontSize="18" autoSize="none" singleLine="true" text="正在努力完成你的请求。。。"/>
+    <component id="n4_ah2b" name="cancel" src="au3n2i" xy="358,16" size="38,38">
+      <Button icon="ui://2pshu6oiah2biua9"/>
     </component>
   </displayList>
 </component>
