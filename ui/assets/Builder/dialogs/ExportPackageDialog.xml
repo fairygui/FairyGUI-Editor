@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="432,430">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="432,430">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="导出资源包"/>
+    </component>
+    <graph id="n20" name="n20" xy="8,31" size="413,358" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n19" name="list" xy="8,31" size="413,358" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t"/>
+    <group id="n35" name="n35" xy="8,31" size="413,358"/>
+    <component id="n40" name="ok" src="xualm" pkg="nk9ejx23" xy="140,395" size="66,25" group="n42_cdxv">
+      <Button title="导出"/>
+    </component>
+    <component id="n41" name="cancel" src="xualm" pkg="nk9ejx23" xy="225,395" size="66,25" group="n42_cdxv">
+      <Button title="取消"/>
+    </component>
+    <group id="n42_cdxv" name="n42" xy="140,395" size="151,25"/>
+  </displayList>
+</component>

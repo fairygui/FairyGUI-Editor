@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="88,20" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n0" name="n0" src="au3n4v" xy="0,0" size="88,20">
       <gearDisplay controller="button" pages="2"/>
@@ -13,9 +13,9 @@
     </image>
     <text id="n2" name="title" xy="50,2" size="37,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="0"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd,#000000|#ffffff,#000000|#bdbdbd,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="left-right"/>
-      <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd|#ffffff|#bdbdbd|#ffffff" default="#bdbdbd"/>
     </text>
     <graph id="n3" name="indent" xy="0,0" size="16,20"/>
     <loader id="n6" name="icon" xy="30,0" size="20,20" align="center" vAlign="middle">
@@ -35,6 +35,9 @@
     <component id="n10" name="expandButton" src="au3n5n" xy="15,2">
       <relation target="n3" sidePair="left-right"/>
     </component>
+    <loader id="n11_r74d" name="sign" xy="42,12" size="10,10">
+      <relation target="n6" sidePair="left-left,top-top"/>
+    </loader>
   </displayList>
   <Button mode="Radio"/>
 </component>

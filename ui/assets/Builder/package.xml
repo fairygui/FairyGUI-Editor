@@ -242,6 +242,8 @@
     <image id="kpzgiua3" name="chess_bg.png" path="/images/" exported="true"/>
     <image id="ah2biua9" name="Cancel_32px.png" path="/images/"/>
     <component id="ah2biuaa" name="NewVersionPrompt.xml" path="/"/>
+    <component id="cdxviuab" name="ExportPackageDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="cdxviuac" name="ImportPackageDialog.xml" path="/dialogs/" exported="true"/>
   </resources>
   <publish name="builder">
     <atlas name="默认纹理集" index="0"/>
