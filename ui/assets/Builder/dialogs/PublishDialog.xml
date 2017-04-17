@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="722,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="0"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="4"/>
   <controller name="global" pages="0,包设置,1,全局设置" selected="0"/>
   <controller name="global_package_count" pages="0,一个包,1,两个包" selected="0"/>
   <displayList>
@@ -39,13 +39,13 @@
       <gearDisplay controller="project_type" pages="1,2,3,4"/>
       <Button title="纹理集定义..."/>
     </component>
-    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,183" size="106,19" group="n94">
+    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,122" size="106,19" group="n94">
       <Button title="为本包生成代码"/>
     </component>
-    <text id="n91" name="n91" xy="201,184" size="83,16" group="n94" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="生成代码"/>
-    <image id="n118" name="n118" src="au3n39" pkg="nk9ejx23" xy="210,173" size="494,2" group="n94"/>
-    <group id="n94" name="n94" xy="201,173" size="503,29" group="n69" advanced="true">
-      <gearXY controller="project_type" pages="0,1,2,3,4" values="201,173|201,149|201,171|201,112|201,112" default="201,222"/>
+    <text id="n91" name="n91" xy="201,122" size="83,16" group="n94" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="生成代码"/>
+    <image id="n118" name="n118" src="au3n39" pkg="nk9ejx23" xy="210,112" size="494,2" group="n94"/>
+    <group id="n94" name="n94" xy="201,112" size="503,29" group="n69" advanced="true">
+      <gearXY controller="project_type" pages="0,1,2,3,4" values="201,173|201,112|201,171|201,112|201,112" default="201,222"/>
     </group>
     <component id="n93" name="useGlobalPkgCount" src="rm0l7v" pkg="nk9ejx23" xy="289,148" size="94,19" group="n95">
       <Button checked="true" title="使用全局设置" page="0"/>
@@ -60,15 +60,6 @@
     <image id="n117" name="n117" src="au3n39" pkg="nk9ejx23" xy="210,112" size="494,2" group="n95"/>
     <group id="n95" name="n95" xy="201,112" size="503,55" group="n69" advanced="true">
       <gearDisplay controller="project_type" pages="0,2"/>
-    </group>
-    <component id="n52" name="extract_alpha" src="xualt" pkg="nk9ejx23" xy="289,122" size="224,19" group="n97" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
-      <gearDisplay controller="project_type" pages="1"/>
-      <Button title="为Alpha通道创建单独的贴图"/>
-    </component>
-    <text id="n96" name="n96" xy="201,123" size="83,16" group="n97" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="打包方式"/>
-    <image id="n119" name="n119" src="au3n39" pkg="nk9ejx23" xy="210,111" size="494,2" group="n97"/>
-    <group id="n97" name="n97" xy="201,111" size="503,30" group="n69" advanced="true">
-      <gearDisplay controller="project_type" pages="1"/>
     </group>
     <group id="n69" name="n69" xy="201,33" size="515,288" advanced="true">
       <gearDisplay controller="global" pages="0"/>
