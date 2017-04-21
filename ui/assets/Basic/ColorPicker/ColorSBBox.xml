@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="258,258" overflow="hidden">
+  <displayList>
+    <graph id="n15_ss7s" name="sbArea" xy="0,0" size="258,258" type="rect" fillColor="#ffff0000"/>
+    <image id="n16_ss7s" name="n16" src="ss7s84" xy="1,1"/>
+    <graph id="n46_nm5v" name="sbValue" xy="124,105" pivot="0.5,0.5" anchor="true" size="8,8" type="eclipse" lineColor="#ffffffff" fillColor="#00ffffff"/>
+  </displayList>
+</component>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="310,228">
   <controller name="showAlpha" pages="0,,1," selected="1"/>
-  <controller name="showNone" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n0" name="n0" src="gcza19" xy="-4,-4" size="318,236"/>
     <component id="n3" name="currentColorValue" src="gcza1s" xy="60,4"/>
     <image id="n6" name="colorTable" src="au3n5z" xy="4,29" aspect="true"/>
     <image id="n9" name="n9" src="au3n6b" xy="5,4" size="50,18"/>
-    <graph id="n2" name="currentColorBox" xy="5,4" size="50,18" type="rect" lineColor="#ff151415" fillColor="#00ff9999"/>
-    <text id="n5" name="n5" xy="207,6" size="51,16" group="n10" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="透明度"/>
-    <component id="n7" name="alphaInput" src="au3n69" xy="260,5" size="31,19" group="n10">
+    <graph id="n2" name="currentColorBox" xy="5,4" size="51,19" type="rect" lineColor="#ff151415" fillColor="#00ff9999"/>
+    <text id="n5" name="n5" xy="145,6" size="51,16" group="n10" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="透明度"/>
+    <component id="n7" name="alphaInput" src="au3n69" xy="198,5" size="31,19" group="n10">
       <Label title="100"/>
     </component>
-    <text id="n8" name="n8" xy="292,6" size="11,16" group="n10" fontSize="12" color="#bdbdbd" text="%"/>
-    <group id="n10" name="n10" xy="207,5" size="96,19" advanced="true">
+    <text id="n8" name="n8" xy="230,6" size="11,16" group="n10" fontSize="12" color="#bdbdbd" text="%"/>
+    <group id="n10" name="n10" xy="145,5" size="96,19" advanced="true">
       <gearDisplay controller="showAlpha" pages="1"/>
-      <gearXY controller="showNone" pages="0" values="207,5" default="187,5"/>
     </group>
-    <component id="n12" name="none" src="gcza2i" xy="287,5" size="16,17">
-      <gearDisplay controller="showNone" pages="1"/>
-      <Button icon="ui://nk9ejx23xt8c81"/>
+    <component id="n15_mkkf" name="more" src="gcza2i" xy="286,3" size="20,22">
+      <Button icon="ui://nk9ejx23mkkf87"/>
+    </component>
+    <component id="n17_m8r1" name="picker" src="gcza2i" xy="261,4" size="20,22">
+      <Button icon="ui://nk9ejx23hdec8c"/>
     </component>
   </displayList>
 </component>

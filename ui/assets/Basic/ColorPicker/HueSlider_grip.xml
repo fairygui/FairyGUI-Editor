@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="51,18" extention="Button">
+  <displayList>
+    <image id="n41_mkkf" name="n41" src="au3n3t" xy="3,2"/>
+    <image id="n42_mkkf" name="n42" src="au3n3t" xy="38,2" flip="hz"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="505,298">
+  <controller name="showAlpha" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n37_mkkf" name="frame" src="gcza1l" xy="0,0" size="505,298" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="颜色"/>
+    </component>
+    <component id="n23_ss7s" name="ok" src="xualm" xy="424,38" size="67,25">
+      <Button title="确定"/>
+    </component>
+    <component id="n24_ss7s" name="cancel" src="xualm" xy="424,74" size="67,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n42_mkkf" name="hueSlider" src="mkkf88" xy="270,30">
+      <Slider value="47" max="360"/>
+    </component>
+    <component id="n47_nm5v" name="sbBox" src="nm5v8a" xy="8,30"/>
+    <image id="n18_ss7s" name="n18" src="au3n6b" xy="325,35" size="57,59" group="n20_ss7s"/>
+    <graph id="n48_qfvx" name="currentColorBox" xy="325,35" size="58,30" group="n20_ss7s" type="rect" lineColor="#00151415" fillColor="#ff00ff99"/>
+    <graph id="n49_qfvx" name="oldColorBox" xy="325,64" size="58,31" group="n20_ss7s" type="rect" lineColor="#00151415" fillColor="#5eff0000"/>
+    <graph id="n19_ss7s" name="n19" xy="325,35" size="58,60" group="n20_ss7s" type="rect" lineColor="#ff151415" fillColor="#00ff9999"/>
+    <group id="n20_ss7s" name="n20" xy="325,35" size="58,60"/>
+    <text id="n0_ss7s" name="n0" xy="322,109" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="H:"/>
+    <text id="n2_ss7s" name="n2" xy="322,135" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="S:"/>
+    <text id="n4_ss7s" name="n4" xy="322,161" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="B:"/>
+    <text id="n6_ss7s" name="n6" xy="322,187" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="R:"/>
+    <text id="n8_ss7s" name="n8" xy="322,213" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="G:"/>
+    <text id="n10_ss7s" name="n10" xy="322,239" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="B:"/>
+    <text id="n38_mkkf" name="n38" xy="322,267" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="#:"/>
+    <component id="n1_ss7s" name="hsb_h" src="au3n69" xy="338,107" size="45,20" group="n50_qfvx"/>
+    <component id="n3_ss7s" name="hsb_s" src="au3n69" xy="338,133" size="45,20" group="n50_qfvx"/>
+    <component id="n5_ss7s" name="hsb_b" src="au3n69" xy="338,159" size="45,20" group="n50_qfvx"/>
+    <component id="n7_ss7s" name="rgb_r" src="au3n69" xy="338,185" size="45,20" group="n50_qfvx"/>
+    <component id="n9_ss7s" name="rgb_g" src="au3n69" xy="338,211" size="45,20" group="n50_qfvx"/>
+    <component id="n11_ss7s" name="rgb_b" src="au3n69" xy="338,237" size="45,20" group="n50_qfvx"/>
+    <component id="n39_mkkf" name="alphaValue" src="gcza1s" xy="343,265" size="28,20" group="n50_qfvx">
+      <gearDisplay controller="showAlpha" pages="1"/>
+      <Label title="FF"/>
+    </component>
+    <component id="n22_ss7s" name="colorValue" src="gcza1s" xy="338,266" group="n50_qfvx">
+      <gearXY controller="showAlpha" pages="0,1" values="338,266|375,265"/>
+    </component>
+    <text id="n43_rxuv" name="n43" xy="387,109" size="17,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="度"/>
+    <text id="n44_rxuv" name="n44" xy="387,134" size="11,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="%"/>
+    <text id="n45_rxuv" name="n45" xy="387,161" size="11,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="%"/>
+    <group id="n50_qfvx" name="n50" xy="322,107" size="124,178"/>
+  </displayList>
+</component>

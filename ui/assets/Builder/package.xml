@@ -174,15 +174,13 @@
     <component id="8z21u7s" name="OpenProjectWindow.xml" path="/" exported="true"/>
     <image id="dnyau7t" name="logo48.png" path="/icons/" qualityOption="source"/>
     <image id="dnyau7u" name="1427600131_808551.png" path="/images/" qualityOption="source"/>
-    <component id="sux8u7v" name="UpgradeWindow.xml" path="/" exported="true"/>
-    <component id="tgp0u7w" name="UpgradeNotes.xml" path="/"/>
     <component id="m4vsu7x" name="ScrollEditPanel.xml" path="/props/" exported="true"/>
     <image id="ehmsu7y" name="info.png" path="/icons/" qualityOption="source"/>
     <component id="ehmsu7z" name="信息按钮.xml" path="/basic/"/>
     <component id="qacnu81" name="MultiSelectionPanel.xml" path="/props/" exported="true"/>
     <image id="pia6u83" name="2015-07-24_162052.png" path="/images/"/>
     <component id="fmz5u85" name="CreateScrollBarDialog.xml" path="/dialogs/" exported="true"/>
-    <image id="fmz5u86" name="未标题-1.png" path="/images/"/>
+    <image id="fmz5u86" name="noname.png" path="/images/"/>
     <component id="w67pu87" name="CreateProgressBarDialog.xml" path="/dialogs/" exported="true"/>
     <component id="jgs1u8a" name="CreateSliderDialog.xml" path="/dialogs/" exported="true"/>
     <image id="jgs1u8c" name="Bitmap(2).png" path="/images/"/>

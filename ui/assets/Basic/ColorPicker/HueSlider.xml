@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="46,258" extention="Slider">
+  <displayList>
+    <graph id="n13_ss7s" name="n13" xy="11,0" size="22,258" group="n14_ss7s" type="rect" fillColor="#00ffffff"/>
+    <image id="n12_ss7s" name="n12" src="ss7s85" xy="12,1" group="n14_ss7s"/>
+    <group id="n14_ss7s" name="n14" xy="11,0" size="22,258"/>
+    <graph id="n42_mkkf" name="bar_v" xy="6,1" size="6,256"/>
+    <component id="n43_mkkf" name="grip" src="mkkf89" xy="-5,257" pivot="0,0.5" anchor="true" size="51,18">
+      <relation target="n42_mkkf" sidePair="top-bottom"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

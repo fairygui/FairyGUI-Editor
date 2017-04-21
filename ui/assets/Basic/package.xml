@@ -165,6 +165,14 @@
     <image id="xt8c81" name="color_none.png" path="/ColorPicker/"/>
     <image id="ah2b82" name="button_light.png" path="/Button/" scale="9grid" scale9grid="8,8,16,16"/>
     <component id="ah2b83" name="Button_light.xml" path="/Button/" exported="true"/>
+    <image id="ss7s84" name="bgGradient.png" path="/ColorPicker/" qualityOption="source"/>
+    <image id="ss7s85" name="hueBar.png" path="/Input/"/>
+    <component id="ss7s86" name="ColorPickerDialog.xml" path="/ColorPicker/" exported="true"/>
+    <image id="mkkf87" name="Button_Color_Circle.png" path="/ColorPicker/"/>
+    <component id="mkkf88" name="HueSlider.xml" path="/ColorPicker/"/>
+    <component id="mkkf89" name="HueSlider_grip.xml" path="/ColorPicker/"/>
+    <component id="nm5v8a" name="ColorSBBox.xml" path="/ColorPicker/"/>
+    <image id="hdec8c" name="cursor_picker.png" path="/Cursor/" exported="true"/>
   </resources>
   <publish name="basic">
     <atlas name="默认纹理集" index="0"/>
