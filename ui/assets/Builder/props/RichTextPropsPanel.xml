@@ -3,7 +3,7 @@
   <displayList>
     <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,322" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
-      <Label title="多媒体文本"/>
+      <Label title="富文本"/>
     </component>
     <text id="n113" name="n113" xy="3,97" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
     <text id="n115" name="n115" xy="3,121" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
@@ -20,7 +20,7 @@
     </component>
     <text id="n126" name="n126" xy="3,167" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
     <text id="n127" name="n127" xy="3,191" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
-    <component id="n128" name="color" src="p06b7x" xy="83,143" pkg="nk9ejx23"/>
+    <component id="n128" name="color" src="p06b7x" pkg="nk9ejx23" xy="83,143"/>
     <component id="n129" name="leading" src="au3n69" pkg="nk9ejx23" xy="83,166" size="34,20">
       <Label title="12"/>
     </component>
@@ -45,7 +45,7 @@
     <component id="n140" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="209,96" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
-    <component id="n152" name="strokeColor" src="p06b7x" xy="163,267" pkg="nk9ejx23"/>
+    <component id="n152" name="strokeColor" src="p06b7x" pkg="nk9ejx23" xy="163,267"/>
     <component id="n153" name="stroke" src="dp4f7u" pkg="nk9ejx23" xy="7,267" size="46,19">
       <Button title="描边"/>
     </component>

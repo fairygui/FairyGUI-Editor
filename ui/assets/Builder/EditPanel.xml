@@ -69,7 +69,7 @@
     <component id="n32" name="n32" src="au3n2i" xy="4,263" group="n71" tooltips="取消组合">
       <Button icon="ui://2pshu6oiau3n2g"/>
     </component>
-    <component id="n49" name="n49" src="au3n2i" xy="4,122" group="n71" tooltips="多媒体文本">
+    <component id="n49" name="n49" src="au3n2i" xy="4,122" group="n71" tooltips="富文本">
       <Button icon="ui://2pshu6oiau3n43"/>
     </component>
     <image id="n78" name="n78" src="au3n39" pkg="nk9ejx23" xy="7,464" group="n3" aspect="true"/>
@@ -88,15 +88,15 @@
     <component id="n2" name="moreBtn" src="au3nm" xy="684,3">
       <relation target="" sidePair="right-right"/>
     </component>
-    <graph id="n54" name="n54" xy="41,195" size="106,26" group="n55" type="rect" lineColor="#91006699" fillColor="#350099ff">
+    <graph id="n54" name="n54" xy="41,195" size="112,26" group="n55" type="rect" lineColor="#ff1f1919" fillColor="#ff383838" corner="10">
       <relation target="n51" sidePair="width-width"/>
     </graph>
-    <list id="n51" name="groupPathList" xy="81,195" size="65,25" group="n55" layout="row" overflow="hidden" defaultItem="ui://2pshu6oiau3n2i">
+    <list id="n51" name="groupPathList" xy="85,195" size="65,25" group="n55" layout="row" overflow="hidden" defaultItem="ui://2pshu6oiau3n2i">
       <item icon="ui://2pshu6oiau3n1h"/>
       <item icon="ui://2pshu6oiau3n1h"/>
     </list>
-    <text id="n56" name="n56" xy="42,199" size="41,16" group="n55" fontSize="12" color="#bdbdbd" text="组导航"/>
-    <group id="n55" name="groupPathBar" xy="41,195" size="106,26" advanced="true">
+    <text id="n56" name="n56" xy="46,199" size="41,16" group="n55" fontSize="12" color="#bdbdbd" text="组导航"/>
+    <group id="n55" name="groupPathBar" xy="41,195" size="112,26" advanced="true">
       <relation target="n0" sidePair="left-left,top-top"/>
     </group>
     <image id="n73" name="n73" src="au3n39" pkg="nk9ejx23" xy="36,25" size="673,2">
@@ -122,5 +122,21 @@
     <graph id="n76" name="n76" xy="697,587" size="12,12" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </graph>
+    <graph id="n80_k8kl" name="n80" xy="562,196" size="120,30" group="n85_k8kl" type="rect" lineColor="#ff1f1919" fillColor="#ff383838" corner="10"/>
+    <component id="n81_k8kl" name="btnRelationDisabled" src="rn0hiu9i" xy="597,198" size="24,24" group="n85_k8kl" tooltips="切换关联系统屏蔽状态（仅设计期有效）&#xD;屏蔽后，当手动修改元件坐标和大小时所有关联将不起作用。">
+      <Button icon="ui://2pshu6oik8kliuae" selectedIcon="ui://2pshu6oik8kliuah"/>
+    </component>
+    <component id="n82_k8kl" name="btnControllerDisabled" src="rn0hiu9i" xy="567,198" size="24,24" group="n85_k8kl" tooltips="切换控制器屏蔽状态（仅设计期有效）&#xD;屏蔽后，则所有显示控制器不起作用，方便查看所有被控制器隐藏的元件">
+      <Button icon="ui://2pshu6oiau3n26" selectedIcon="ui://2pshu6oik8kliuaj"/>
+    </component>
+    <component id="n83_k8kl" name="btnWarning" src="rn0hiu9i" xy="627,198" size="24,24" group="n85_k8kl" tooltips="当前文档没有警告和错误。">
+      <Button icon="ui://2pshu6oik8kliuai" selectedIcon="ui://2pshu6oik8kliuaf"/>
+    </component>
+    <component id="n84_k8kl" name="btnLocate" src="au3n2i" xy="654,198" size="24,24" group="n85_k8kl" tooltips="在库中定位此组件">
+      <Button icon="ui://2pshu6oik8kliuag"/>
+    </component>
+    <group id="n85_k8kl" name="toolbox" xy="562,196" size="120,30" advanced="true">
+      <relation target="n0" sidePair="right-right,top-top"/>
+    </group>
   </displayList>
 </component>

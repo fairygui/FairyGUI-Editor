@@ -16,13 +16,16 @@
     <graph id="n20" name="numBar" xy="1,0" size="648,23" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <list id="n16" name="nameList" xy="1,23" size="143,62" overflow="scroll" scrollBar="hidden" margin="0,0,0,0" defaultItem="ui://2pshu6oij9jou7j">
+    <list id="n16" name="nameList" xy="1,23" size="143,62" overflow="scroll" scrollBar="hidden" defaultItem="ui://2pshu6oij9jou7j">
       <relation target="" sidePair="height-height"/>
     </list>
     <list id="n29" name="list" xy="145,23" size="505,78" overflow="scroll" scroll="both" margin="0,3,0,0" scrollBarMargin="0,0,130,0" defaultItem="ui://2pshu6oi85piu7f">
       <relation target="" sidePair="width-width,height-height"/>
     </list>
     <component id="n15" name="inner" src="f9sbu7i" xy="145,0" size="492,88" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n33_mcag" name="selContainer" src="bhgeiuad" xy="145,23" size="492,65" touchable="false">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
     <text id="n21" name="n21" xy="43,87" size="23,15" group="n23" fontSize="11" color="#bdbdbd" text="fps"/>

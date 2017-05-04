@@ -4,7 +4,7 @@
     <graph id="n0" name="n0" xy="0,0" size="361,29" type="rect" lineSize="0" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <list id="n1" name="n1" xy="106,2" size="253,25" layout="flow_hz" selectionMode="none" lineGap="2" defaultItem="ui://2pshu6oiau3n3f">
+    <list id="n1" name="n1" xy="106,2" size="253,25" layout="flow_hz" selectionMode="none" lineGap="2" defaultItem="ui://2pshu6oiau3n5h">
       <relation target="" sidePair="width-width"/>
       <item/>
       <item url="ui://2pshu6oiau3n3g"/>

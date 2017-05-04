@@ -7,7 +7,7 @@
       <Label title="动效"/>
     </component>
     <graph id="n61" name="n61" xy="3,27" size="232,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
-    <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="146,212">
+    <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="138,211">
       <Button title="删除动效"/>
     </component>
     <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="45,27" size="182,20"/>
@@ -40,6 +40,9 @@
         <item title="当前位置" value="false"/>
         <item title="结束位置" value="true"/>
       </ComboBox>
+    </component>
+    <component id="n82_th4e" name="duplicate" src="xualm" pkg="nk9ejx23" xy="23,211">
+      <Button title="复制动效"/>
     </component>
   </displayList>
 </component>

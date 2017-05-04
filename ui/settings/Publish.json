@@ -1,14 +1,14 @@
 {
-	"fileExtension": "",
-	"packageCount": 1,
-	"path": "D:\\FairyGUI-Editor\\assets",
-	"codeGeneration": {
-		"getMemberByName": false,
-		"codePath": "",
-		"codeType": "",
-		"classNamePrefix": "",
-		"memberNamePrefix": "",
-		"packageName": "",
-		"ignoreNoname": true
-	}
+	"codeGeneration":{
+		"classNamePrefix":"",
+		"codePath":"",
+		"codeType":"",
+		"getMemberByName":false,
+		"ignoreNoname":true,
+		"memberNamePrefix":"",
+		"packageName":""
+	},
+	"fileExtension":"",
+	"packageCount":1,
+	"path":"D:\\FairyGUI-Editor\\assets"
 }

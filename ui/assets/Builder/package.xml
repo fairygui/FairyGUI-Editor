@@ -58,7 +58,6 @@
     <component id="au3n2u" name="ListPropsPanel.xml" path="/props/" exported="true"/>
     <component id="au3n2v" name="LoaderPropsPanel.xml" path="/props/" exported="true"/>
     <component id="au3n3e" name="ToolButton_Radio.xml" path="/basic/"/>
-    <component id="au3n3f" name="ControllerBar.xml" path="/controller/"/>
     <component id="au3n3g" name="ControllerItem.xml" path="/controller/" exported="true"/>
     <component id="au3n3h" name="ControllerPanel.xml" path="/controller/"/>
     <component id="au3n3k" name="SaveConfirmDialog.xml" path="/dialogs/" exported="true"/>
@@ -164,8 +163,8 @@
     <image id="cnolu7d" name="tweenline.png" path="/timeline/" scale="9grid" scale9grid="4,2,2,4" qualityOption="source"/>
     <component id="cnolu7e" name="TweenLine.xml" path="/timeline/" exported="true"/>
     <component id="85piu7f" name="Timeline.xml" path="/timeline/"/>
-    <component id="85piu7g" name="TimelineSelection.xml" path="/timeline/"/>
-    <component id="85piu7h" name="TimelineSelection2.xml" path="/timeline/"/>
+    <component id="85piu7g" name="TimelineSelection.xml" path="/timeline/" exported="true"/>
+    <component id="85piu7h" name="TimelineSelection2.xml" path="/timeline/" exported="true"/>
     <component id="f9sbu7i" name="TimelinePanelInner.xml" path="/timeline/"/>
     <component id="j9jou7j" name="TimelineNameItem.xml" path="/timeline/"/>
     <component id="q5ueu7m" name="BasicPropsInTransPanel.xml" path="/props/" exported="true"/>
@@ -236,12 +235,19 @@
     <image id="w04viu9z" name="Graph.png" path="/images/" qualityOption="source"/>
     <component id="ieyliua0" name="AdaptationPanel.xml" path="/"/>
     <component id="ytvfiua1" name="AdaptationSettingsDialog.xml" path="/dialogs/" exported="true"/>
-    <image id="ih9xiua2" name="refresh.png" path="/images/"/>
+    <image id="ih9xiua2" name="refresh.png" path="/icons/"/>
     <image id="kpzgiua3" name="chess_bg.png" path="/images/" exported="true"/>
     <image id="ah2biua9" name="Cancel_32px.png" path="/images/"/>
     <component id="ah2biuaa" name="NewVersionPrompt.xml" path="/"/>
     <component id="cdxviuab" name="ExportPackageDialog.xml" path="/dialogs/" exported="true"/>
     <component id="cdxviuac" name="ImportPackageDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="bhgeiuad" name="TimelinePanelSelection.xml" path="/timeline/"/>
+    <image id="k8kliuae" name="connect.png" path="/icons/"/>
+    <image id="k8kliuaf" name="Warning.png" path="/icons/"/>
+    <image id="k8kliuag" name="Location.png" path="/icons/"/>
+    <image id="k8kliuah" name="connect_disabled.png" path="/icons/"/>
+    <image id="k8kliuai" name="Warning_none.png" path="/icons/"/>
+    <image id="k8kliuaj" name="controller_disabled.png" path="/icons/"/>
   </resources>
   <publish name="builder">
     <atlas name="默认纹理集" index="0"/>
