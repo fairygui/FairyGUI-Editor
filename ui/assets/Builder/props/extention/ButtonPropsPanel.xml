@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,332" overflow="hidden">
-  <controller name="controllerSettings" pages="0,,1," selected="0"/>
+<component size="240,336" overflow="hidden">
+  <controller name="controllerSettings" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,332" locked="true">
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,336" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="按钮"/>
     </component>
-    <text id="n50" name="n50" xy="5,26" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="状态"/>
-    <text id="n83" name="n83" xy="5,101" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题颜色"/>
-    <text id="n84" name="n84" xy="5,126" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n85" name="n85" xy="5,201" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="点击声音"/>
-    <text id="n86" name="n86" xy="5,226" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="音量"/>
-    <text id="n52" name="n52" xy="5,51" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
-    <text id="n54" name="n54" xy="5,76" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
-    <text id="n59" name="n59" xy="5,151" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <text id="n61" name="n61" xy="5,176" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
-    <text id="n63" name="n63" xy="5,251" size="74,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="单选控制"/>
-    <component id="n51" name="checked" src="xualt" pkg="nk9ejx23" xy="83,25" size="71,19">
+    <text id="n50" name="n50" xy="4,26" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="状态"/>
+    <text id="n83" name="n83" xy="4,104" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题颜色"/>
+    <text id="n84" name="n84" xy="4,130" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n85" name="n85" xy="4,208" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="点击声音"/>
+    <text id="n86" name="n86" xy="4,234" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="音量"/>
+    <text id="n52" name="n52" xy="4,52" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
+    <text id="n54" name="n54" xy="4,78" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
+    <text id="n59" name="n59" xy="4,156" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <text id="n61" name="n61" xy="4,182" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
+    <text id="n63" name="n63" xy="4,260" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="单选控制"/>
+    <component id="n51" name="selected" src="xualt" pkg="nk9ejx23" xy="86,25" size="71,19">
       <Button title="选中"/>
     </component>
-    <component id="n53" name="title" src="gcza1s" pkg="nk9ejx23" xy="83,50" size="150,20"/>
-    <component id="n55" name="selectedTitle" src="gcza1s" pkg="nk9ejx23" xy="83,75" size="150,20"/>
-    <component id="n56" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="84,100" size="20,19"/>
-    <component id="n57" name="titleColor" src="p06b7x" xy="106,101" pkg="nk9ejx23"/>
-    <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="83,150" size="150,20"/>
-    <component id="n62" name="selectedIcon" src="au3n6j" pkg="nk9ejx23" xy="83,175" size="150,20"/>
-    <component id="n79" name="titleFontSizeSet" src="xualt" pkg="nk9ejx23" xy="84,124" size="20,19"/>
-    <component id="n80" name="titleFontSize" src="au3n69" pkg="nk9ejx23" xy="106,124" size="34,20" group="n82">
+    <component id="n53" name="title" src="gcza1s" pkg="nk9ejx23" xy="86,50" size="149,20"/>
+    <component id="n55" name="selectedTitle" src="gcza1s" pkg="nk9ejx23" xy="86,76" size="149,20"/>
+    <component id="n56" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="87,103" size="20,19"/>
+    <component id="n57" name="titleColor" src="p06b7x" pkg="nk9ejx23" xy="109,103"/>
+    <component id="n60" name="icon" src="au3n6j" pkg="nk9ejx23" xy="86,154" size="149,20"/>
+    <component id="n62" name="selectedIcon" src="au3n6j" pkg="nk9ejx23" xy="86,180" size="149,20"/>
+    <component id="n79" name="titleFontSizeSet" src="xualt" pkg="nk9ejx23" xy="87,130" size="20,19"/>
+    <component id="n80" name="titleFontSize" src="au3n69" pkg="nk9ejx23" xy="109,128" size="34,20" group="n82">
       <Label title="12"/>
     </component>
-    <component id="n81" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="141,124" size="19,19" group="n82">
+    <component id="n81" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="144,128" size="19,19" group="n82">
       <Button icon="ui://2pshu6oipsdnu6q"/>
     </component>
-    <group id="n82" name="n82" xy="106,124" size="54,20" collapsed="true"/>
-    <component id="n64" name="controller" src="gcza18" pkg="nk9ejx23" xy="83,249" size="81,20">
+    <group id="n82" name="n82" xy="109,128" size="54,20" collapsed="true"/>
+    <component id="n64" name="controller" src="gcza18" pkg="nk9ejx23" xy="86,257" size="78,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n65" name="page" src="gcza18" pkg="nk9ejx23" xy="168,249" size="69,20">
+    <component id="n65" name="page" src="gcza18" pkg="nk9ejx23" xy="169,257" size="69,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n70" name="volume" src="au3n69" pkg="nk9ejx23" xy="106,225" size="50,20">
+    <component id="n70" name="volume" src="au3n69" pkg="nk9ejx23" xy="109,232" size="50,20">
       <Label title="100"/>
     </component>
-    <component id="n71" name="soundSet" src="xualt" pkg="nk9ejx23" xy="84,200" size="20,19"/>
-    <component id="n68" name="sound" src="au3n6j" pkg="nk9ejx23" xy="104,200" size="129,20"/>
-    <component id="n72" name="soundVolumeSet" src="xualt" pkg="nk9ejx23" xy="84,225" size="20,19"/>
+    <component id="n71" name="soundSet" src="xualt" pkg="nk9ejx23" xy="87,207" size="20,19"/>
+    <component id="n68" name="sound" src="au3n6j" pkg="nk9ejx23" xy="107,206" size="128,20"/>
+    <component id="n72" name="soundVolumeSet" src="xualt" pkg="nk9ejx23" xy="87,232" size="20,19"/>
     <image id="n73" name="n73" src="au3n39" pkg="nk9ejx23" xy="5,273" size="230,2" group="n78"/>
-    <list id="n76" name="controllerSettings" xy="3,279" size="234,49" group="n78" selectionMode="none" margin="0,0,0,0" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
+    <list id="n76" name="controllerSettings" xy="3,279" size="234,49" group="n78" selectionMode="none" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
       <item/>
       <item/>
     </list>

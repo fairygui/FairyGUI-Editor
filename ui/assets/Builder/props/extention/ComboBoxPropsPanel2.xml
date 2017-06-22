@@ -5,9 +5,9 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="下拉框"/>
     </component>
-    <text id="n47" name="n47" xy="12,30" size="53,16" fontSize="12" color="#bdbdbd" text="弹出组件"/>
+    <text id="n47" name="n47" xy="4,30" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="弹出组件"/>
     <text id="n69" name="n69" xy="5,61" size="230,70" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="按钮控制器请命名为button&#xA;弹出组件里需放置名称为list的列表&#xA;list的项目资源为单选按钮&#xA;（可选）文本标题请命名为title"/>
-    <component id="n70" name="dropdown" src="au3n6j" pkg="nk9ejx23" xy="70,28" size="159,20"/>
+    <component id="n70" name="dropdown" src="au3n6j" pkg="nk9ejx23" xy="86,28" size="149,20"/>
   </displayList>
   <ComboBox/>
 </component>

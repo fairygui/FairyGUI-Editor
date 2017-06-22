@@ -10,8 +10,8 @@
     <component id="n66" name="delete" src="xualm" pkg="nk9ejx23" xy="138,211">
       <Button title="删除动效"/>
     </component>
-    <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="45,27" size="182,20"/>
-    <text id="n69" name="n69" xy="3,28" size="40,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
+    <component id="n68" name="name" src="gcza1s" pkg="nk9ejx23" xy="56,27" size="172,20"/>
+    <text id="n69" name="n69" xy="4,28" size="50,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
     <component id="n70" name="ignoreDisplayController" src="dp4f7u" pkg="nk9ejx23" xy="16,58" size="130,19">
       <Button title="忽略显示控制器影响"/>
     </component>

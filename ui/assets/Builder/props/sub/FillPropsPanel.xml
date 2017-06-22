@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="244,90">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,90" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n133_a9x3" name="n133" xy="10,59" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <component id="n134_a9x3" name="fillAmount" src="au3n69" pkg="nk9ejx23" xy="94,57" size="42,20"/>
+    <component id="n135_a9x3" name="fillOrigin" src="gcza18" pkg="nk9ejx23" xy="92,10" size="141,19">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n136_a9x3" name="n136" xy="10,12" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
+    <component id="n137_a9x3" name="fillClockwise" src="rm0l7v" pkg="nk9ejx23" xy="95,35" size="82,19">
+      <Button title="顺时针方向"/>
+    </component>
+  </displayList>
+</component>

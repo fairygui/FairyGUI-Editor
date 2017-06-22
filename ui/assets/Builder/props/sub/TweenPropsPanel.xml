@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="263,71">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="263,71" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3" name="easeType" src="gcza18" pkg="nk9ejx23" xy="79,37" size="81,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n4" name="easeInOutType" src="gcza18" pkg="nk9ejx23" xy="169,37" size="81,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n5" name="n5" xy="7,39" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缓动函数"/>
+    <text id="n9" name="n9" xy="7,12" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="持续时间"/>
+    <component id="n10" name="duration" src="au3n69" pkg="nk9ejx23" xy="79,11" size="50,20">
+      <Label title="0"/>
+    </component>
+    <text id="n11" name="n11" xy="131,12" size="69,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="延迟时间"/>
+    <component id="n12" name="delay" src="au3n69" pkg="nk9ejx23" xy="203,11" size="50,20">
+      <Label title="0"/>
+    </component>
+  </displayList>
+</component>

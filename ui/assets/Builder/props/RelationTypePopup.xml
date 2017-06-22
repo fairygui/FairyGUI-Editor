@@ -11,7 +11,7 @@
     <component id="n7" name="clear" src="xualm" pkg="nk9ejx23" xy="155,253" size="55,21">
       <Button title="清除"/>
     </component>
-    <component id="n8" name="percent" src="xualt" pkg="nk9ejx23" xy="12,254" size="113,19">
+    <component id="n8" name="percent" src="dp4f7u" pkg="nk9ejx23" xy="12,254" size="82,19">
       <Button title="使用百分比"/>
     </component>
   </displayList>

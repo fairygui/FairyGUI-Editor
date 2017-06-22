@@ -6,27 +6,28 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="组"/>
     </component>
-    <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="42,51" size="184,20">
+    <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="57,51" size="171,20">
       <Label title="txtRemark"/>
     </component>
-    <text id="n67" name="n67" xy="2,53" size="39,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
-    <text id="n68" name="n68" xy="21,76" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
-    <component id="n69" name="x" src="au3n69" pkg="nk9ejx23" xy="42,75" size="52,20">
+    <text id="n67" name="n67" xy="4,53" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n68" name="n68" xy="4,79" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
+    <component id="n69" name="x" src="au3n69" pkg="nk9ejx23" xy="58,77" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n70" name="n70" xy="95,76" size="20,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
-    <component id="n71" name="y" src="au3n69" pkg="nk9ejx23" xy="116,75" size="52,20">
+    <text id="n70" name="n70" xy="115,79" size="48,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
+    <component id="n71" name="y" src="au3n69" pkg="nk9ejx23" xy="166,77" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n72" name="n72" xy="21,101" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="宽"/>
-    <text id="n73" name="n73" xy="95,101" size="20,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="高"/>
-    <component id="n74" name="height" src="gcza1s" pkg="nk9ejx23" xy="116,100" size="52,20">
+    <text id="n72" name="n72" xy="4,105" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
+    <text id="n73" name="n73" xy="115,105" size="48,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
+    <component id="n74" name="height" src="gcza1s" pkg="nk9ejx23" xy="166,103" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n75" name="width" src="gcza1s" pkg="nk9ejx23" xy="42,100" size="52,20">
+    <component id="n75" name="width" src="gcza1s" pkg="nk9ejx23" xy="58,103" size="52,20">
       <Label title="100000"/>
     </component>
     <component id="n76" name="invisible" src="dp4f7u" pkg="nk9ejx23" xy="23,132" size="58,19">
+      <gearDisplay controller="c1" pages="1"/>
       <Button title="不可见"/>
     </component>
     <component id="n78" name="n78" src="gcza13" pkg="nk9ejx23" xy="9,27" size="60,19">

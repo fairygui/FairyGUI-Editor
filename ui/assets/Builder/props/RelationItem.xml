@@ -17,14 +17,7 @@
     <text id="n13" name="n13" xy="8,8" size="53,16" fontSize="12" color="#bdbdbd" text="点击设置">
       <gearDisplay controller="c1" pages="1"/>
     </text>
-    <loader id="n10" name="icon" xy="8,9" size="16,16" group="n14" align="center" vAlign="middle"/>
-    <text id="n11" name="title" xy="26,8" size="146,18" group="n14" fontSize="12" color="#d1a211" vAlign="middle" autoSize="none" singleLine="true" text="">
-      <relation target="" sidePair="width-width"/>
-    </text>
-    <group id="n14" name="n14" xy="8,8" size="165,18" advanced="true">
-      <gearDisplay controller="c1" pages="0"/>
-    </group>
-    <graph id="n15" name="target" xy="5,6" size="169,20" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n15" name="target" src="gmjuiuan" xy="5,6" size="169,20" controller="hideClear,1"/>
   </displayList>
   <Button/>
 </component>
