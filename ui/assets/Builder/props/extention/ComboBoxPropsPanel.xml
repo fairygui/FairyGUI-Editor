@@ -1,36 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,265" overflow="hidden">
-  <controller name="controllerSettings" pages="0,,1," selected="0"/>
+<component size="240,276" overflow="hidden">
+  <controller name="controllerSettings" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,265">
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,276" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="下拉框"/>
     </component>
-    <text id="n70" name="n70" xy="3,33" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题"/>
-    <component id="n71" name="title" src="gcza1s" pkg="nk9ejx23" xy="86,31" size="149,20"/>
-    <component id="n72" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="87,56" size="69,19">
+    <text id="n70" name="n70" xy="4,30" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题"/>
+    <component id="n71" name="title" src="gcza1s" pkg="nk9ejx23" xy="86,28" size="149,20"/>
+    <component id="n72" name="titleColorSet" src="xualt" pkg="nk9ejx23" xy="86,53" size="69,19">
       <Button title="标题颜色"/>
     </component>
-    <component id="n73" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="162,57"/>
-    <text id="n75" name="n75" xy="3,109" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="可见项目数"/>
-    <component id="n76" name="visibleItemCount" src="au3n69" pkg="nk9ejx23" xy="86,107"/>
-    <component id="n77" name="n77" src="xualm" pkg="nk9ejx23" xy="71,171" size="102,25">
+    <component id="n73" name="titleColor" src="au3n5y" pkg="nk9ejx23" xy="161,54"/>
+    <text id="n75" name="n75" xy="4,103" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="可见项目数"/>
+    <component id="n76" name="visibleItemCount" src="au3n69" pkg="nk9ejx23" xy="86,102"/>
+    <component id="n77" name="n77" src="xualm" pkg="nk9ejx23" xy="66,184" size="102,25">
       <Button title="编辑列表项目"/>
     </component>
-    <text id="n78" name="n78" xy="3,137" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="弹出方向"/>
-    <component id="n79" name="direction" src="gcza18" pkg="nk9ejx23" xy="86,135" size="81,20">
+    <text id="n78" name="n78" xy="4,129" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="弹出方向"/>
+    <component id="n79" name="direction" src="gcza18" pkg="nk9ejx23" xy="86,127" size="144,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n80" name="n80" xy="3,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <component id="n81" name="icon" src="au3n6j" pkg="nk9ejx23" xy="86,80" size="150,20"/>
-    <image id="n82" name="n82" src="au3n39" pkg="nk9ejx23" xy="5,205" size="230,2" group="n84"/>
-    <list id="n83" name="controllerSettings" xy="3,211" size="234,49" group="n84" selectionMode="none" margin="0,0,0,0" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
+    <text id="n80" name="n80" xy="4,77" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <component id="n81" name="icon" src="au3n6j" pkg="nk9ejx23" xy="86,76" size="150,20"/>
+    <image id="n82" name="n82" src="au3n39" pkg="nk9ejx23" xy="5,215" size="230,2" group="n84"/>
+    <list id="n83" name="controllerSettings" xy="3,221" size="234,49" group="n84" selectionMode="none" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
       <item/>
       <item/>
     </list>
-    <group id="n84" name="n84" xy="3,205" size="234,55" advanced="true">
+    <group id="n84" name="n84" xy="3,215" size="234,55" advanced="true">
       <gearDisplay controller="controllerSettings" pages="1"/>
     </group>
+    <text id="n85_e4se" name="n85" xy="4,155" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
+    <component id="n86_e4se" name="selectionController" src="gcza18" pkg="nk9ejx23" xy="86,153" size="144,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
   </displayList>
   <relation target="n83" sidePair="bottomext-bottom"/>
 </component>

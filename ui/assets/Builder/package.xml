@@ -169,11 +169,11 @@
     <component id="j9jou7j" name="TimelineNameItem.xml" path="/timeline/"/>
     <component id="q5ueu7m" name="BasicPropsInTransPanel.xml" path="/props/" exported="true"/>
     <image id="vb5vu7q" name="link_go.png" path="/icons/" qualityOption="source"/>
-    <component id="jcdgu7r" name="TweenEditPanel.xml" path="/props/" exported="true"/>
+    <component id="jcdgu7r" name="TweenPropsPanel.xml" path="/props/sub/" exported="true"/>
     <component id="8z21u7s" name="OpenProjectWindow.xml" path="/" exported="true"/>
     <image id="dnyau7t" name="logo48.png" path="/icons/" qualityOption="source"/>
     <image id="dnyau7u" name="1427600131_808551.png" path="/images/" qualityOption="source"/>
-    <component id="m4vsu7x" name="ScrollEditPanel.xml" path="/props/" exported="true"/>
+    <component id="m4vsu7x" name="ScrollPropsPanel.xml" path="/props/sub/" exported="true"/>
     <image id="ehmsu7y" name="info.png" path="/icons/" qualityOption="source"/>
     <component id="ehmsu7z" name="信息按钮.xml" path="/basic/"/>
     <component id="qacnu81" name="MultiSelectionPanel.xml" path="/props/" exported="true"/>
@@ -193,7 +193,7 @@
     <image id="kucciu8k" name="arrow_down.png" path="/icons/" qualityOption="source"/>
     <image id="kucciu8l" name="arrow_up.png" path="/icons/" qualityOption="source"/>
     <component id="thzxiu8m" name="ReplaceRefDialog.xml" path="/dialogs/" exported="true"/>
-    <component id="pb9oiu8p" name="TextInputEditPanel.xml" path="/props/" exported="true"/>
+    <component id="pb9oiu8p" name="TextInputPropsPanel.xml" path="/props/sub/" exported="true"/>
     <component id="ocfaiu8q" name="PlugInManageDialog.xml" path="/dialogs/" exported="true"/>
     <component id="ocfaiu8r" name="PlugInEdit_header.xml" path="/dialogs/"/>
     <component id="ocfaiu8s" name="PlugInEdit_item.xml" path="/dialogs/"/>
@@ -248,6 +248,18 @@
     <image id="k8kliuah" name="connect_disabled.png" path="/icons/"/>
     <image id="k8kliuai" name="Warning_none.png" path="/icons/"/>
     <image id="k8kliuaj" name="controller_disabled.png" path="/icons/"/>
+    <image id="ruiliual" name="上箭头.png" path="/icons/"/>
+    <component id="ruiliuam" name="UpDownButton.xml" path="/basic/"/>
+    <component id="gmjuiuan" name="ChildObjectInput.xml" path="/basic/" exported="true"/>
+    <image id="qg5piuao" name="delete.png" path="/icons/"/>
+    <image id="ac2eiuap" name="rect.png" path="/icons/"/>
+    <component id="mfi3iuaq" name="MarginPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <component id="byixiuar" name="ListLayoutPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <component id="a9x3iuas" name="FillPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <component id="a9x3iuat" name="FilterPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <image id="ikoviuau" name="copy.png" path="/icons/"/>
+    <image id="ikoviuav" name="paste.png" path="/icons/"/>
+    <image id="ikoviuaw" name="reset.png" path="/icons/"/>
   </resources>
   <publish name="builder">
     <atlas name="默认纹理集" index="0"/>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="240,153" overflow="hidden">
-  <controller name="controllerSettings" pages="0,,1," selected="1"/>
+  <controller name="controllerSettings" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,153">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="滑动条"/>
     </component>
-    <text id="n70" name="n70" xy="9,36" size="41,16" fontSize="12" color="#bdbdbd" text="当前值"/>
-    <component id="n71" name="value" src="au3n69" pkg="nk9ejx23" xy="56,35"/>
-    <text id="n72" name="n72" xy="123,36" size="41,16" fontSize="12" color="#bdbdbd" text="最大值"/>
-    <component id="n73" name="max" src="au3n69" pkg="nk9ejx23" xy="169,35"/>
+    <text id="n70" name="n70" xy="4,28" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="当前值"/>
+    <component id="n71" name="value" src="au3n69" pkg="nk9ejx23" xy="87,26"/>
+    <text id="n72" name="n72" xy="4,53" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大值"/>
+    <component id="n73" name="max" src="au3n69" pkg="nk9ejx23" xy="88,51"/>
     <image id="n74" name="n74" src="au3n39" pkg="nk9ejx23" xy="5,92" size="230,2" group="n76"/>
-    <list id="n75" name="controllerSettings" xy="3,98" size="234,49" group="n76" selectionMode="none" margin="0,0,0,0" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
+    <list id="n75" name="controllerSettings" xy="3,98" size="234,49" group="n76" selectionMode="none" lineGap="3" defaultItem="ui://2pshu6oimx0siu9v">
       <item/>
       <item/>
     </list>

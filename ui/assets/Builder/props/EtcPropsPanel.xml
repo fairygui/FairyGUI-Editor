@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="其它"/>
     </component>
-    <component id="n47" name="tooltips" src="au3n6k" pkg="nk9ejx23" xy="65,24" size="169,65"/>
-    <text id="n48" name="n48" xy="6,25" size="55,19" fontSize="12" color="#bdbdbd" autoSize="none" text="Tooltips"/>
+    <component id="n47" name="tooltips" src="au3n6k" pkg="nk9ejx23" xy="79,24" size="156,65"/>
+    <text id="n48" name="n48" xy="4,25" size="71,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Tooltips"/>
   </displayList>
 </component>

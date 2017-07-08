@@ -1,69 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,356" overflow="hidden">
+<component size="240,346" overflow="hidden">
   <displayList>
-    <component id="n69" name="bg" src="au3n4c" xy="0,0" size="240,356">
+    <component id="n69" name="bg" src="au3n4c" xy="0,0" size="240,346" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="列表"/>
     </component>
     <text id="n17" name="n17" xy="4,28" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="列表布局"/>
-    <component id="n39" name="layout" src="gcza18" pkg="nk9ejx23" xy="86,26" size="121,20">
+    <component id="n39" name="layout" src="gcza18" pkg="nk9ejx23" xy="86,26" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n58" name="n58" xy="4,101" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
-    <component id="n59" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="86,100" size="122,20">
+    <text id="n58" name="n58" xy="4,132" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
+    <component id="n59" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="86,130" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n33" name="n33" xy="4,151" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n57" name="n57" xy="4,225" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="边缘留空"/>
-    <text id="n61" name="n61" xy="4,175" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
-    <text id="n62" name="n62" xy="4,300" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
-    <component id="n63" name="n63" src="xualm" pkg="nk9ejx23" xy="81,325" size="100,25">
+    <text id="n33" name="n33" xy="4,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n61" name="n61" xy="123,80" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
+    <text id="n62" name="n62" xy="4,288" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
+    <component id="n63" name="editItems" src="xualm" pkg="nk9ejx23" xy="87,314" size="100,25">
       <Button title="编辑列表数据"/>
     </component>
-    <component id="n64" name="lineGap" src="au3n69" pkg="nk9ejx23" xy="87,150" size="35,20">
+    <component id="n64" name="lineGap" src="au3n69" pkg="nk9ejx23" xy="85,78" size="34,20">
       <Label title="0"/>
     </component>
-    <component id="n65" name="columnGap" src="au3n69" pkg="nk9ejx23" xy="87,173" size="35,20">
+    <component id="n65" name="columnGap" src="au3n69" pkg="nk9ejx23" xy="198,78" size="33,20">
       <Label title="0"/>
     </component>
-    <component id="n67" name="defaultItem" src="au3n6j" pkg="nk9ejx23" xy="86,298" size="144,20"/>
-    <text id="n77" name="n77" xy="87,226" size="17,16" group="n85" fontSize="12" color="#bdbdbd" autoSize="none" text="上"/>
-    <component id="n78" name="marginTop" src="au3n69" pkg="nk9ejx23" xy="107,223" size="35,20" group="n85"/>
-    <text id="n79" name="n79" xy="147,226" size="17,16" group="n85" fontSize="12" color="#bdbdbd" autoSize="none" text="下"/>
-    <component id="n80" name="marginBottom" src="au3n69" pkg="nk9ejx23" xy="167,223" size="35,20" group="n85"/>
-    <text id="n81" name="n81" xy="87,251" size="17,16" group="n85" fontSize="12" color="#bdbdbd" autoSize="none" text="左"/>
-    <component id="n82" name="marginLeft" src="au3n69" pkg="nk9ejx23" xy="107,248" size="35,20" group="n85"/>
-    <text id="n83" name="n83" xy="147,251" size="17,16" group="n85" fontSize="12" color="#bdbdbd" autoSize="none" text="右"/>
-    <component id="n84" name="marginRight" src="au3n69" pkg="nk9ejx23" xy="167,248" size="35,20" group="n85"/>
-    <group id="n85" name="n85" xy="87,223" size="115,45"/>
-    <text id="n86" name="n86" xy="4,275" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="边缘虚化"/>
-    <text id="n87" name="n87" xy="88,275" size="17,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
-    <component id="n88" name="clipSoftnessX" src="au3n69" pkg="nk9ejx23" xy="108,272" size="35,20"/>
-    <text id="n89" name="n89" xy="148,275" size="17,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
-    <component id="n90" name="clipSoftnessY" src="au3n69" pkg="nk9ejx23" xy="168,272" size="35,20"/>
-    <component id="n91" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="211,101" size="20,20">
+    <component id="n67" name="defaultItem" src="au3n6j" pkg="nk9ejx23" xy="86,286" size="150,20"/>
+    <component id="n91" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="213,132" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <component id="n92" name="n92" src="ehmsu7z" xy="209,274" tooltips="边缘虚化效果在编辑器无法预览"/>
-    <text id="n93" name="n93" xy="4,76" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
-    <component id="n94" name="selectionMode" src="gcza18" pkg="nk9ejx23" xy="86,74" size="121,20">
+    <text id="n93" name="n93" xy="4,184" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
+    <component id="n94" name="selectionMode" src="gcza18" pkg="nk9ejx23" xy="86,182" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n95" name="autoResizeItem" src="xualt" pkg="nk9ejx23" xy="66,51" size="143,19">
-      <Button title="自动调整列表项目大小"/>
-    </component>
-    <component id="n96" name="n96" src="ehmsu7z" xy="47,51" tooltips="如果勾选，&#xA;1、列表布局为单列时，列表项目的宽度自动设置为列表显示区域的宽度；&#xA;2、列表布局为单行时，列表项目的高度自动设置为列表显示区域的高度。&#xA;3、其他布局此选项无效"/>
-    <text id="n97" name="n97" xy="4,127" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="行数/列数"/>
-    <component id="n98" name="lineItemCount" src="au3n69" pkg="nk9ejx23" xy="87,125" size="35,20">
+    <text id="n97" name="n97" xy="4,54" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行数"/>
+    <component id="n98" name="repeatY" src="au3n69" pkg="nk9ejx23" xy="85,52" size="34,20">
       <Label title="0"/>
     </component>
-    <component id="n99" name="n99" src="ehmsu7z" xy="129,128" tooltips="当列表布局为横向流动时，这里设定的是固定的列数；&#xD;当列表布局为竖向流动时，这里设定的是固定的行数；&#xD;其他情况下该值无效。&#xD;如果为0，表示自动换行。"/>
-    <text id="n100" name="n100" xy="4,198" size="78,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
-    <component id="n101" name="align" src="gcza18" pkg="nk9ejx23" xy="86,196" size="74,20">
+    <text id="n100" name="n100" xy="4,106" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <component id="n101" name="align" src="gcza18" pkg="nk9ejx23" xy="86,104" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n102" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,196" size="74,20">
+    <component id="n102" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,104" size="74,20">
       <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n103_b8ef" name="n103" xy="123,54" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列数"/>
+    <component id="n104_b8ef" name="repeatX" src="au3n69" pkg="nk9ejx23" xy="198,52" size="33,20">
+      <Label title="0"/>
+    </component>
+    <text id="n105_gkk7" name="n105" xy="4,210" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
+    <component id="n106_gkk7" name="selectionController" src="gcza18" pkg="nk9ejx23" xy="86,208" size="120,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n108_gkk7" name="n108" xy="4,158" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="渲染顺序"/>
+    <component id="n109_gkk7" name="childrenRenderOrder" src="gcza18" pkg="nk9ejx23" xy="86,156" size="102,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n110_gkk7" name="apexIndex" src="au3n69" pkg="nk9ejx23" xy="196,158" size="33,20">
+      <Label title="0"/>
+    </component>
+    <text id="n112_mfi3" name="n112" xy="4,236" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
+    <component id="n113_mfi3" name="pageController" src="gcza18" pkg="nk9ejx23" xy="86,234" size="120,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n114_mfi3" name="n114" xy="4,262" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
+    <component id="n116_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,260" size="120,20"/>
+    <component id="n117_byix" name="layoutEdit" src="au3n4b" pkg="nk9ejx23" xy="213,28" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
   </displayList>
 </component>
