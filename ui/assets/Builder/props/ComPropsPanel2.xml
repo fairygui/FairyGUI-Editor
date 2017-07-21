@@ -14,9 +14,7 @@
       <gearDisplay controller="controllerSettings" pages="1"/>
     </group>
     <text id="n68_t23e" name="n68" xy="4,27" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
-    <component id="n69_t23e" name="pageController" src="gcza18" pkg="nk9ejx23" xy="87,25" size="120,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
+    <component id="n69_t23e" name="pageController" src="au3n6o" pkg="nk9ejx23" xy="86,25" size="120,20"/>
   </displayList>
   <relation target="n66" sidePair="bottomext-bottom"/>
 </component>

@@ -6,14 +6,12 @@
       <Label title="属性控制"/>
     </component>
     <text id="n17" name="n17" xy="10,27" size="109,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="显示控制"/>
-    <component id="n37" name="visController" src="gcza18" pkg="nk9ejx23" xy="8,50" size="101,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n38" name="visPages" src="au3n49" xy="118,50" size="117,20"/>
+    <component id="n37" name="visController" src="au3n6o" pkg="nk9ejx23" xy="8,50" size="101,20"/>
+    <component id="n38" name="visPages" src="au3n6o" pkg="nk9ejx23" xy="118,50" size="117,20"/>
     <component id="n48" name="add" src="au3n2i" xy="212,22" tooltips="新建属性控制">
       <Button icon="ui://2pshu6oikrunu6h"/>
     </component>
-    <list id="n51" name="list" xy="0,79" size="240,55" selectionMode="none" margin="0,0,0,0" defaultItem="ui://2pshu6oifr0ciu9n">
+    <list id="n51" name="list" xy="0,79" size="240,55" selectionMode="none" defaultItem="ui://2pshu6oifr0ciu9n">
       <item/>
     </list>
   </displayList>

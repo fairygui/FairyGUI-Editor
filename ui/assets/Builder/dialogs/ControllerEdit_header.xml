@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="333,21">
   <displayList>
-    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="333,21">
+    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="333,21" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="171,1" size="2,19"/>
+    <text id="n0" name="n0" xy="3,2" size="40,16" restrictSize="0,40,0,0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="索引"/>
     <image id="n3" name="n3" src="au3n38" pkg="nk9ejx23" xy="44,1" size="2,19"/>
-    <text id="n12" name="n12" xy="49,2" size="118,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <text id="n0" name="n0" xy="3,2" size="40,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="索引"/>
-    <text id="n13" name="n13" xy="174,2" size="155,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="动效"/>
-    <component id="n19" name="n19" src="ehmsu7z" xy="311,2" tooltips="格式为：变换前索引A=特效名称T&#xA;1)表示从A页跳转到本页时播放T动效&#xA;2)其中“A=”可以忽略，表示从任何页面跳转&#xA;3)多个设置用逗号隔开"/>
+    <text id="n12" name="n12" xy="46,2" size="146,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="194,1" size="2,19"/>
   </displayList>
 </component>

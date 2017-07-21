@@ -13,7 +13,7 @@
       <gearDisplay controller="c1" pages="0"/>
       <relation target="" sidePair="width-width"/>
     </text>
-    <text id="n16_gmju" name="n16" xy="2,3" size="65,16" fontSize="12" color="#959595" text="&lt;点击设置>">
+    <text id="n16_gmju" name="n16" xy="2,3" size="53,16" fontSize="12" color="#959595" text="点击设置">
       <gearDisplay controller="c1" pages="1"/>
     </text>
     <component id="n17_pxtp" name="clear" src="au3n2i" xy="149,1" size="20,20" group="n18_r6pl" tooltips="删除关联">

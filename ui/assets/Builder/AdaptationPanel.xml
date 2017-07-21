@@ -13,6 +13,7 @@
     </image>
     <text id="n21" name="n21" xy="3,6" size="86,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="适配测试"/>
     <component id="n22" name="contentScaler" src="okou7w" pkg="nk9ejx23" xy="157,6" size="90,18">
+      <relation target="n24" sidePair="left-right"/>
       <Button title="整体缩放设置" titleColor="#bdbdbd"/>
     </component>
     <component id="n24" name="enabled" src="dp4f7u" pkg="nk9ejx23" xy="104,6" size="46,19">

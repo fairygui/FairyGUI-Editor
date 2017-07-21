@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="158,119">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" xy="-4,-4" size="166,126" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n10_6irh" name="n10" src="au3n39" xy="1,47" size="156,2">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <list id="n1" name="list" xy="0,1" size="157,46" overflow="scroll" scrollBarFlags="4" scrollBar="visible" lineGap="2" defaultItem="ui://nk9ejx23mvcw8j"/>
+    <component id="n5_bg8o" name="b0" src="okou7w" xy="7,51" size="42,18" group="n9_bg8o">
+      <Button title="全选"/>
+    </component>
+    <component id="n6_bg8o" name="b1" src="okou7w" xy="7,72" size="66,18" group="n9_bg8o">
+      <Button title="反向选择"/>
+    </component>
+    <component id="n7_bg8o" name="b2" src="okou7w" xy="7,93" size="42,18" group="n9_bg8o">
+      <Button title="清空"/>
+    </component>
+    <component id="n11_ugn9" name="b3" src="okou7w" xy="113,93" size="42,18" group="n9_bg8o">
+      <relation target="" sidePair="right-right"/>
+      <Button title="关闭"/>
+    </component>
+    <group id="n9_bg8o" name="n9" xy="7,51" size="148,60" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

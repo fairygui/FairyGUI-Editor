@@ -6,7 +6,7 @@
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1" name="title" xy="1,1" size="98,17" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n1" name="title" xy="4,1" size="95,17" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd,#000000|#ffffff,#000000|#ffffff,#000000|#ffffff,#000000"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>

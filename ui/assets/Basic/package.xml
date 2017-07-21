@@ -141,7 +141,7 @@
     <image id="kwng7b" name="bar12.png" path="/ScrollBar/" scale="9grid" scale9grid="3,3,96,6" qualityOption="source"/>
     <image id="kwng7c" name="bar13.png" path="/ScrollBar/" scale="9grid" scale9grid="3,4,129,5" qualityOption="source"/>
     <image id="kwng7d" name="bar14.png" path="/ScrollBar/" scale="9grid" scale9grid="3,4,122,5" qualityOption="source"/>
-    <image id="kwng7e" name="gou.png" path="/Checkbox/" qualityOption="source"/>
+    <image id="kwng7e" name="gou.png" path="/Checkbox/" exported="true" qualityOption="source"/>
     <image id="kwng7g" name="bar15.png" path="/TitleBar/" exported="true" scale="9grid" scale9grid="4,7,71,5" qualityOption="source"/>
     <component id="kwng7h" name="TitleBar.xml" path="/TitleBar/" exported="true"/>
     <image id="kwng7i" name="2016-02-29_120502.png" path="/TitleBar/" qualityOption="source"/>
@@ -173,6 +173,10 @@
     <component id="mkkf89" name="HueSlider_grip.xml" path="/ColorPicker/"/>
     <component id="nm5v8a" name="ColorSBBox.xml" path="/ColorPicker/"/>
     <image id="hdec8c" name="cursor_picker.png" path="/Cursor/" exported="true"/>
+    <component id="bg8o8g" name="PopupMenuItem2.xml" path="/Menu/" exported="true"/>
+    <component id="dqzd8h" name="PopupMenu_check.xml" path="/Menu/" exported="true"/>
+    <component id="dqzd8i" name="PopupMenu2.xml" path="/Menu/" exported="true"/>
+    <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
   </resources>
   <publish name="basic">
     <atlas name="默认纹理集" index="0"/>

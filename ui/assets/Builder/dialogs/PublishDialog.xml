@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="722,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="4"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox" selected="0"/>
   <controller name="global" pages="0,包设置,1,全局设置" selected="0"/>
   <controller name="global_package_count" pages="0,一个包,1,两个包" selected="0"/>
   <displayList>
@@ -9,17 +9,17 @@
       <Label title="发布设置"/>
     </component>
     <graph id="n1" name="n1" xy="12,30" size="182,416" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <component id="n4" name="close" src="xualm" pkg="nk9ejx23" xy="630,458" size="80,25">
+    <component id="n4" name="close" src="xualm" pkg="nk9ejx23" xy="630,462" size="80,25">
       <Button title="关闭"/>
     </component>
-    <component id="n25" name="publish" src="xualm" pkg="nk9ejx23" xy="535,458" size="80,25">
+    <component id="n25" name="publish" src="xualm" pkg="nk9ejx23" xy="535,462" size="80,25">
       <Button title="发布"/>
     </component>
     <list id="n26" name="pkgs" xy="12,30" size="182,416" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
-    <component id="n35" name="publishAll" src="xualm" pkg="nk9ejx23" xy="21,458" size="115,25">
+    <component id="n35" name="publishAll" src="xualm" pkg="nk9ejx23" xy="21,462" size="115,25">
       <Button title="全部发布"/>
     </component>
-    <component id="n53" name="publishDesc" src="xualm" pkg="nk9ejx23" xy="378,458" size="140,25">
+    <component id="n53" name="publishDesc" src="xualm" pkg="nk9ejx23" xy="378,462" size="140,25">
       <Button title="仅发布定义"/>
     </component>
     <component id="n28" name="path" src="gcza1s" pkg="nk9ejx23" xy="289,60" size="353,20" group="n69"/>
@@ -39,13 +39,13 @@
       <gearDisplay controller="project_type" pages="1,2,3,4"/>
       <Button title="纹理集定义..."/>
     </component>
-    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,122" size="106,19" group="n94">
+    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,183" size="106,19" group="n94">
       <Button title="为本包生成代码"/>
     </component>
-    <text id="n91" name="n91" xy="201,122" size="83,16" group="n94" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="生成代码"/>
-    <image id="n118" name="n118" src="au3n39" pkg="nk9ejx23" xy="210,112" size="494,2" group="n94"/>
-    <group id="n94" name="n94" xy="201,112" size="503,29" group="n69" advanced="true">
-      <gearXY controller="project_type" pages="0,1,2,3,4" values="201,173|201,112|201,171|201,112|201,112" default="201,222"/>
+    <text id="n91" name="n91" xy="201,183" size="83,16" group="n94" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="生成代码"/>
+    <image id="n118" name="n118" src="au3n39" pkg="nk9ejx23" xy="210,173" size="494,2" group="n94"/>
+    <group id="n94" name="n94" xy="201,173" size="503,29" group="n69" advanced="true">
+      <gearXY controller="project_type" pages="0,1,2,3,4" values="201,173|201,112|201,171|201,112|201,112"/>
     </group>
     <component id="n93" name="useGlobalPkgCount" src="rm0l7v" pkg="nk9ejx23" xy="289,148" size="94,19" group="n95">
       <Button checked="true" title="使用全局设置" page="0"/>
@@ -118,5 +118,6 @@
       <relation target="" sidePair="right-right"/>
       <Button title="编辑全局设置"/>
     </component>
+    <image id="n119_vbrg" name="n119" src="au3n39" pkg="nk9ejx23" xy="0,451" size="719,2"/>
   </displayList>
 </component>

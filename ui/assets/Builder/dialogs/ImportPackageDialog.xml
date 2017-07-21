@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="432,469">
+<component size="432,481">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="432,469">
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="432,481" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="导入资源包"/>
     </component>
     <graph id="n20" name="n20" xy="8,31" size="413,358" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <list id="n19" name="list" xy="8,31" size="413,358" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t"/>
     <group id="n35" name="n35" xy="8,31" size="413,358"/>
-    <component id="n40" name="ok" src="xualm" pkg="nk9ejx23" xy="140,429" size="66,25" group="n42_cdxv">
+    <component id="n40" name="ok" src="xualm" pkg="nk9ejx23" xy="140,444" size="66,25" group="n42_cdxv">
       <Button title="导入"/>
     </component>
-    <component id="n41" name="cancel" src="xualm" pkg="nk9ejx23" xy="225,429" size="66,25" group="n42_cdxv">
+    <component id="n41" name="cancel" src="xualm" pkg="nk9ejx23" xy="225,444" size="66,25" group="n42_cdxv">
       <Button title="取消"/>
     </component>
-    <group id="n42_cdxv" name="n42" xy="140,429" size="151,25"/>
+    <group id="n42_cdxv" name="n42" xy="140,444" size="151,25"/>
     <text id="n43_cdxv" name="n43" xy="9,400" size="77,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="导入位置"/>
-    <component id="n44_cdxv" name="n44" src="gcza1s" pkg="nk9ejx23" xy="88,398" size="252,20"/>
+    <component id="n44_cdxv" name="n44" src="gcza1s" pkg="nk9ejx23" xy="90,398" size="252,20"/>
     <component id="n45_cdxv" name="n45" src="xualm" pkg="nk9ejx23" xy="349,395" size="70,25">
       <Button title="浏览.."/>
     </component>
+    <image id="n46_11c6h" name="n46" src="au3n39" pkg="nk9ejx23" xy="1,433" size="428,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
   </displayList>
 </component>

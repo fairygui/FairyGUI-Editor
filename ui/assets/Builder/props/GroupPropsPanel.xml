@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,160" overflow="hidden">
+<component size="240,245" overflow="hidden">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,160" locked="true">
+    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,245" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="组"/>
     </component>
-    <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="57,51" size="171,20">
-      <Label title="txtRemark"/>
-    </component>
+    <component id="n66" name="name" src="gcza1s" pkg="nk9ejx23" xy="57,51" size="171,20"/>
     <text id="n67" name="n67" xy="4,53" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
     <text id="n68" name="n68" xy="4,79" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
     <component id="n69" name="x" src="au3n69" pkg="nk9ejx23" xy="58,77" size="52,20">
@@ -20,21 +18,37 @@
     </component>
     <text id="n72" name="n72" xy="4,105" size="52,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
     <text id="n73" name="n73" xy="115,105" size="48,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
-    <component id="n74" name="height" src="gcza1s" pkg="nk9ejx23" xy="166,103" size="52,20">
+    <component id="n74" name="height" src="au3n69" pkg="nk9ejx23" xy="166,103" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n75" name="width" src="gcza1s" pkg="nk9ejx23" xy="58,103" size="52,20">
+    <component id="n75" name="width" src="au3n69" pkg="nk9ejx23" xy="58,103" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n76" name="invisible" src="dp4f7u" pkg="nk9ejx23" xy="23,132" size="58,19">
+    <component id="n76" name="invisible" src="dp4f7u" pkg="nk9ejx23" xy="19,130" size="58,19">
       <gearDisplay controller="c1" pages="1"/>
       <Button title="不可见"/>
     </component>
-    <component id="n78" name="n78" src="gcza13" pkg="nk9ejx23" xy="9,27" size="60,19">
+    <component id="n78" name="n78" src="gcza13" pkg="nk9ejx23" xy="9,27" size="80,19">
       <Button checked="true" title="普通组" controller="c1" page="0"/>
     </component>
-    <component id="n79" name="n79" src="gcza13" pkg="nk9ejx23" xy="79,27" size="60,19">
+    <component id="n79" name="n79" src="gcza13" pkg="nk9ejx23" xy="101,27" size="85,19">
       <Button title="高级组" controller="c1" page="1"/>
     </component>
+    <text id="n80_qmnq" name="n80" xy="4,170" size="80,16" group="n82_qmnq" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="布局"/>
+    <component id="n81_qmnq" name="layout" src="gcza18" pkg="nk9ejx23" xy="85,168" size="120,20" group="n82_qmnq">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n83_qmnq" name="n83" xy="4,202" size="80,16" group="n82_qmnq" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n84_qmnq" name="n84" xy="123,202" size="73,16" group="n82_qmnq" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
+    <component id="n85_qmnq" name="lineGap" src="au3n69" pkg="nk9ejx23" xy="85,200" size="34,20" group="n82_qmnq">
+      <Label title="0"/>
+    </component>
+    <component id="n86_qmnq" name="columnGap" src="au3n69" pkg="nk9ejx23" xy="198,200" size="33,20" group="n82_qmnq">
+      <Label title="0"/>
+    </component>
+    <image id="n87_qmnq" name="n87" src="au3n39" pkg="nk9ejx23" xy="10,155" size="216,2" group="n82_qmnq"/>
+    <group id="n82_qmnq" name="n82" xy="4,155" size="227,65" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
   </displayList>
 </component>

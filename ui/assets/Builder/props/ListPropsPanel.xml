@@ -16,7 +16,7 @@
     <text id="n33" name="n33" xy="4,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
     <text id="n61" name="n61" xy="123,80" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
     <text id="n62" name="n62" xy="4,288" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
-    <component id="n63" name="n63" src="xualm" pkg="nk9ejx23" xy="87,314" size="100,25">
+    <component id="n63" name="editItems" src="xualm" pkg="nk9ejx23" xy="87,314" size="100,25">
       <Button title="编辑列表数据"/>
     </component>
     <component id="n64" name="lineGap" src="au3n69" pkg="nk9ejx23" xy="85,78" size="34,20">
@@ -49,9 +49,7 @@
       <Label title="0"/>
     </component>
     <text id="n105_gkk7" name="n105" xy="4,210" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
-    <component id="n106_gkk7" name="selectionController" src="gcza18" pkg="nk9ejx23" xy="86,208" size="120,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
+    <component id="n106_gkk7" name="selectionController" src="au3n6o" pkg="nk9ejx23" xy="86,208" size="120,20"/>
     <text id="n108_gkk7" name="n108" xy="4,158" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="渲染顺序"/>
     <component id="n109_gkk7" name="childrenRenderOrder" src="gcza18" pkg="nk9ejx23" xy="86,156" size="102,20">
       <ComboBox visibleItemCount="10"/>
@@ -60,14 +58,9 @@
       <Label title="0"/>
     </component>
     <text id="n112_mfi3" name="n112" xy="4,236" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
-    <component id="n113_mfi3" name="pageController" src="gcza18" pkg="nk9ejx23" xy="86,234" size="120,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
+    <component id="n113_mfi3" name="pageController" src="au3n6o" pkg="nk9ejx23" xy="86,234" size="120,20"/>
     <text id="n114_mfi3" name="n114" xy="4,262" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
-    <component id="n115_mfi3" name="marginEdit" src="au3n4b" pkg="nk9ejx23" xy="213,260" size="20,20">
-      <Button icon="ui://2pshu6oix5ao5k"/>
-    </component>
-    <component id="n116_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,260" size="120,20" touchable="false"/>
+    <component id="n116_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,260" size="120,20"/>
     <component id="n117_byix" name="layoutEdit" src="au3n4b" pkg="nk9ejx23" xy="213,28" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>

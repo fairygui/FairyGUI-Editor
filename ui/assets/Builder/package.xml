@@ -8,7 +8,7 @@
     <image id="au3nb" name="s3.png" path="/images/"/>
     <image id="au3nc" name="s5.png" path="/images/" qualityOption="source"/>
     <image id="au3nd" name="s4.png" path="/images/" qualityOption="source"/>
-    <component id="au3ne" name="展开按钮.xml" path="/basic/"/>
+    <component id="au3ne" name="ExpandButton.xml" path="/basic/"/>
     <image id="au3nf" name="s6.png" path="/images/"/>
     <component id="au3ng" name="MenuBar.xml" path="/"/>
     <component id="au3nh" name="EditPanel.xml" path="/"/>
@@ -22,34 +22,34 @@
     <image id="au3n13" name="shape_align_left.png" path="/icons/" qualityOption="source"/>
     <image id="au3n14" name="shape_align_center.png" path="/icons/" qualityOption="source"/>
     <image id="au3n15" name="shape_align_bottom.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n17" name="装载器.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n17" name="icon_loader.png" path="/icons/" exported="true" qualityOption="source"/>
     <image id="au3n1b" name="lock.png" path="/icons/" qualityOption="source"/>
     <image id="au3n1c" name="link_break.png" path="/icons/" qualityOption="source"/>
     <image id="au3n1d" name="link.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n1e" name="动画.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1e" name="icon_movieclip.png" path="/icons/" exported="true" qualityOption="source"/>
     <image id="au3n1g" name="hand.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n1h" name="group.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1h" name="icon_group.png" path="/icons/" exported="true" qualityOption="source"/>
     <image id="au3n1i" name="cursor.png" path="/icons/" qualityOption="source"/>
     <image id="au3n1j" name="cross.png" path="/icons/" qualityOption="source"/>
     <image id="au3n1l" name="button.png" path="/icons/" qualityOption="source"/>
     <image id="au3n1m" name="bullet_red.png" path="/icons/" exported="true"/>
-    <image id="au3n1n" name="自定义排列.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n1p" name="元件.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n1s" name="相同宽度.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n1t" name="相同高度.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n1u" name="文字.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n21" name="图形.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n22" name="图片.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n23" name="声音.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n24" name="其他素材.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n25" name="列表.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n26" name="控制器.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n29" name="发布.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n2a" name="测试.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n2c" name="保存全部.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n2d" name="保存.png" path="/icons/" qualityOption="source"/>
-    <image id="au3n2e" name="包.png" path="/icons/" exported="true" qualityOption="source"/>
-    <image id="au3n2f" name="SWF.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1n" name="custom_arrange.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1p" name="icon_component.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n1s" name="same_width.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1t" name="same_height.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n1u" name="icon_text.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n21" name="icon_graph.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n22" name="icon_image.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n23" name="icon_sound.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n24" name="icon_etc.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n25" name="icon_list.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n26" name="controller.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n29" name="publish.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2a" name="test.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2c" name="save_all.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2d" name="save.png" path="/icons/" qualityOption="source"/>
+    <image id="au3n2e" name="icon_package.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n2f" name="icon_swf.png" path="/icons/" exported="true" qualityOption="source"/>
     <image id="au3n2g" name="shape_ungroup.png" path="/icons/" qualityOption="source"/>
     <component id="au3n2i" name="ToolButton.xml" path="/basic/"/>
     <component id="au3n2r" name="GearPropsPanel.xml" path="/props/" exported="true"/>
@@ -69,7 +69,7 @@
     <component id="au3n3r" name="CreateButtonDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n3s" name="ControllerEditDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n3t" name="WaitingDialog.xml" path="/dialogs/" exported="true"/>
-    <component id="au3n3u" name="ControllerEdit_item.xml" path="/dialogs/" exported="true"/>
+    <component id="au3n3u" name="ControllerEdit_PageItem.xml" path="/dialogs/" exported="true"/>
     <component id="au3n3v" name="ControllerEdit_header.xml" path="/dialogs/"/>
     <component id="au3n3w" name="CreateFontDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n3x" name="ImageEditDialog.xml" path="/dialogs/" exported="true"/>
@@ -77,13 +77,12 @@
     <component id="au3n40" name="FontEditDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n41" name="FontEdit_header.xml" path="/dialogs/"/>
     <component id="au3n42" name="FontEdit_item.xml" path="/dialogs/"/>
-    <image id="au3n43" name="文字H.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n43" name="icon_richtext.png" path="/icons/" exported="true" qualityOption="source"/>
     <component id="au3n44" name="RenameDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n45" name="FixConflictedNameDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n46" name="ConfirmDialog.xml" path="/dialogs/" exported="true"/>
     <component id="au3n47" name="ComPropsPanel.xml" path="/props/" exported="true"/>
     <component id="au3n48" name="ToggleButton.xml" path="/basic/"/>
-    <component id="au3n49" name="ControllerPageInput.xml" path="/basic/" exported="true"/>
     <component id="au3n4a" name="RelationPropsPanel.xml" path="/props/" exported="true"/>
     <component id="au3n4c" name="PropsBg.xml" path="/props/"/>
     <component id="au3n4d" name="GroupPropsPanel.xml" path="/props/" exported="true"/>
@@ -92,7 +91,7 @@
     <component id="au3n4h" name="RichTextPropsPanel.xml" path="/props/" exported="true"/>
     <component id="au3n4i" name="RelationItem.xml" path="/props/"/>
     <component id="au3n4k" name="ButtonPropsPanel2.xml" path="/props/extention/" exported="true"/>
-    <image id="au3n4l" name="font.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="au3n4l" name="icon_font.png" path="/icons/" exported="true" qualityOption="source"/>
     <component id="au3n4r" name="ButtonPropsPanel.xml" path="/props/extention/" exported="true"/>
     <component id="au3n4s" name="ComboBoxPropsPanel2.xml" path="/props/extention/" exported="true"/>
     <component id="au3n4t" name="ComboBoxPropsPanel.xml" path="/props/extention/" exported="true"/>
@@ -146,12 +145,12 @@
     <component id="f814u6n" name="CreateLabelDialog.xml" path="/dialogs/" exported="true"/>
     <image id="psdnu6q" name="dropdown.png" path="/icons/" qualityOption="source"/>
     <image id="psdnu6r" name="trash.png" path="/icons/" qualityOption="source"/>
-    <image id="psdnu6s" name="folder.png" path="/icons/" exported="true" qualityOption="source"/>
+    <image id="psdnu6s" name="icon_folder.png" path="/icons/" exported="true" qualityOption="source"/>
     <component id="mellu6t" name="AtlasList_header.xml" path="/dialogs/"/>
     <component id="mellu6u" name="AtlasList_item.xml" path="/dialogs/"/>
     <component id="pstgu6v" name="ImagePropsPanel.xml" path="/props/" exported="true"/>
-    <image id="pi83u6x" name="下箭头.png" path="/icons/" qualityOption="source"/>
-    <component id="pi83u6y" name="下拉按钮.xml" path="/basic/"/>
+    <image id="pi83u6x" name="down_arrow.png" path="/icons/" qualityOption="source"/>
+    <component id="pi83u6y" name="PopupMenuButton.xml" path="/basic/"/>
     <component id="tvg7u72" name="TimelinePanel.xml" path="/timeline/"/>
     <component id="tvg7u73" name="TransitionPropsPanel.xml" path="/props/" exported="true"/>
     <component id="nkoeu75" name="TimelineHead.xml" path="/timeline/"/>
@@ -175,7 +174,7 @@
     <image id="dnyau7u" name="1427600131_808551.png" path="/images/" qualityOption="source"/>
     <component id="m4vsu7x" name="ScrollPropsPanel.xml" path="/props/sub/" exported="true"/>
     <image id="ehmsu7y" name="info.png" path="/icons/" qualityOption="source"/>
-    <component id="ehmsu7z" name="信息按钮.xml" path="/basic/"/>
+    <component id="ehmsu7z" name="InfoButton.xml" path="/basic/"/>
     <component id="qacnu81" name="MultiSelectionPanel.xml" path="/props/" exported="true"/>
     <image id="pia6u83" name="2015-07-24_162052.png" path="/images/"/>
     <component id="fmz5u85" name="CreateScrollBarDialog.xml" path="/dialogs/" exported="true"/>
@@ -206,7 +205,6 @@
     <image id="9z66iu91" name="to_left.png" path="/icons/" qualityOption="source"/>
     <image id="9z66iu92" name="to_right.png" path="/icons/" qualityOption="source"/>
     <component id="orb8iu93" name="ScrollBarSettingDialog.xml" path="/dialogs/" exported="true"/>
-    <image id="jvwaiu94" name="QQ20160226-1.png" path="/images/" qualityOption="source"/>
     <image id="jvwaiu95" name="bar2.png" path="/images/" scale="9grid" scale9grid="48,6,96,12" qualityOption="source"/>
     <image id="jvwaiu96" name="bar.png" path="/images/" scale="9grid" scale9grid="8,5,357,10" qualityOption="source"/>
     <image id="kwngiu97" name="2016-02-29_133956.png" path="/images/" scale="9grid" scale9grid="4,3,8,10" qualityOption="source"/>
@@ -234,10 +232,9 @@
     <image id="w04viu9y" name="List.png" path="/images/" qualityOption="source"/>
     <image id="w04viu9z" name="Graph.png" path="/images/" qualityOption="source"/>
     <component id="ieyliua0" name="AdaptationPanel.xml" path="/"/>
-    <component id="ytvfiua1" name="AdaptationSettingsDialog.xml" path="/dialogs/" exported="true"/>
     <image id="ih9xiua2" name="refresh.png" path="/icons/"/>
     <image id="kpzgiua3" name="chess_bg.png" path="/images/" exported="true"/>
-    <image id="ah2biua9" name="Cancel_32px.png" path="/images/"/>
+    <image id="ah2biua9" name="Cancel.png" path="/icons/"/>
     <component id="ah2biuaa" name="NewVersionPrompt.xml" path="/"/>
     <component id="cdxviuab" name="ExportPackageDialog.xml" path="/dialogs/" exported="true"/>
     <component id="cdxviuac" name="ImportPackageDialog.xml" path="/dialogs/" exported="true"/>
@@ -248,7 +245,7 @@
     <image id="k8kliuah" name="connect_disabled.png" path="/icons/"/>
     <image id="k8kliuai" name="Warning_none.png" path="/icons/"/>
     <image id="k8kliuaj" name="controller_disabled.png" path="/icons/"/>
-    <image id="ruiliual" name="上箭头.png" path="/icons/"/>
+    <image id="ruiliual" name="up_arrow.png" path="/icons/"/>
     <component id="ruiliuam" name="UpDownButton.xml" path="/basic/"/>
     <component id="gmjuiuan" name="ChildObjectInput.xml" path="/basic/" exported="true"/>
     <image id="qg5piuao" name="delete.png" path="/icons/"/>
@@ -257,6 +254,12 @@
     <component id="byixiuar" name="ListLayoutPropsPanel.xml" path="/props/sub/" exported="true"/>
     <component id="a9x3iuas" name="FillPropsPanel.xml" path="/props/sub/" exported="true"/>
     <component id="a9x3iuat" name="FilterPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <image id="ikoviuau" name="copy.png" path="/icons/"/>
+    <image id="ikoviuav" name="paste.png" path="/icons/"/>
+    <image id="ikoviuaw" name="reset.png" path="/icons/"/>
+    <component id="5yy4iuax" name="ControllerEdit_ActionItem.xml" path="/dialogs/" exported="true"/>
+    <component id="jz5viuaz" name="PlayTransActionPropsPanel.xml" path="/props/sub/" exported="true"/>
+    <image id="mkfyiub7" name="import.png" path="/icons/"/>
   </resources>
   <publish name="builder">
     <atlas name="默认纹理集" index="0"/>

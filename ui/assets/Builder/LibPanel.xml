@@ -1,41 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="220,580" designImageOffsetX="-428" designImageAlpha="100">
-  <controller name="c1" pages="0,,1," selected="0"/>
+<component size="235,580" designImageOffsetX="-428" designImageAlpha="100">
+  <controller name="search" pages="0,,1," selected="0"/>
+  <controller name="library" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n1" name="n1" xy="0,0" size="220,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
+    <graph id="n1" name="n1" xy="0,0" size="235,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="220,23">
+    <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="235,27">
       <relation target="" sidePair="width-width"/>
       <Button title="库"/>
     </component>
-    <graph id="n6" name="n6" xy="1,23" size="217,555" type="rect" lineSize="0" fillColor="#ff383838">
+    <graph id="n6" name="n6" xy="1,27" size="232,550" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <list id="n3" name="treeView" xy="1,22" size="219,558" overflow="scroll" margin="1,10,1,1">
-      <relation target="" sidePair="width-width,height-height"/>
-      <relation target="n38" sidePair="topext-bottom"/>
-    </list>
-    <component id="n21" name="btnSettings" src="au3n2i" xy="166,1" size="24,22" tooltips="过滤显示包">
+    <component id="n21" name="btnSettings" src="au3n2i" xy="185,3" size="24,22" tooltips="过滤显示包">
+      <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="192,1" size="24,22" tooltips="全部折叠">
+    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="208,3" size="24,22" tooltips="全部折叠">
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oibfc35y"/>
     </component>
-    <component id="n27" name="btnFind" src="ur4wu64" xy="141,1" size="24,22" tooltips="查找">
+    <component id="n27" name="btnFind" src="ur4wu64" xy="161,3" size="24,22" tooltips="查找">
+      <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiur4wu65"/>
     </component>
-    <component id="n38" name="find" src="rjtoiu8j" xy="0,-35" size="220,58">
-      <gearDisplay controller="c1" pages="1"/>
-      <gearXY controller="c1" pages="0,1" values="0,-35|0,22" default="0,23"/>
-      <relation target="" sidePair="width-width"/>
-    </component>
-    <component id="n41" name="btnRefresh" src="au3n2i" xy="117,1" size="24,22" tooltips="刷新当前包">
+    <component id="n41" name="btnRefresh" src="au3n2i" xy="137,3" size="24,22" tooltips="刷新当前包">
+      <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiih9xiua2"/>
     </component>
+    <component id="n49_gs9a" name="n49" src="au3n6i" pkg="nk9ejx23" xy="5,4" size="51,22" group="n52_gs9a">
+      <Button checked="true" title="资源库" controller="library" page="0"/>
+    </component>
+    <component id="n51_gs9a" name="n51" src="au3n6i" pkg="nk9ejx23" xy="57,4" size="51,22" group="n52_gs9a">
+      <Button title="收藏夹" controller="library" page="1"/>
+    </component>
+    <group id="n52_gs9a" name="n52" xy="5,4" size="103,22" advanced="true" layout="hz" colGap="1"/>
+    <list id="n53_gs9a" name="favorites" xy="1,26" size="234,554" overflow="scroll" margin="1,10,1,1" defaultItem="ui://nk9ejx23au3n6t">
+      <gearDisplay controller="library" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <item url="ui://2pshu6oirkdciub0"/>
+      <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub2"/>
+      <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub3"/>
+      <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub4"/>
+      <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub5"/>
+    </list>
+    <component id="n38" name="find" src="rjtoiu8j" xy="0,-31" size="235,58" group="n54_gs9a">
+      <gearDisplay controller="search" pages="1"/>
+      <gearXY controller="search" pages="0,1" values="0,-31|0,26"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <list id="n3" name="treeView" xy="1,26" size="234,554" group="n54_gs9a" overflow="scroll" margin="1,10,1,1" defaultItem="ui://nk9ejx23au3n6t">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n38" sidePair="topext-bottom"/>
+    </list>
+    <group id="n54_gs9a" name="n54" xy="0,-31" size="235,611" hideByEditor="true" advanced="true">
+      <gearDisplay controller="library" pages="0"/>
+    </group>
   </displayList>
 </component>

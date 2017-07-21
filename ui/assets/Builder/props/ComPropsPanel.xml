@@ -86,9 +86,6 @@
       <Button title="反向（挖洞）"/>
     </component>
     <text id="n117_mfi3" name="n117" xy="4,246" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
-    <component id="n118_mfi3" name="marginEdit" src="au3n4b" pkg="nk9ejx23" xy="213,245" size="20,20">
-      <Button icon="ui://2pshu6oix5ao5k"/>
-    </component>
-    <component id="n119_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,244" size="120,20" touchable="false"/>
+    <component id="n119_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,244" size="120,20"/>
   </displayList>
 </component>

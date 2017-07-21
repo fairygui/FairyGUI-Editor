@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="240,55" extention="Label">
-  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
     <text id="n43" name="title" xy="10,6" size="193,16" fontSize="12" color="#d19036" autoSize="none" singleLine="true" text=""/>
-    <component id="n45" name="controller" src="gcza18" pkg="nk9ejx23" xy="8,28" size="127,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
+    <component id="n45" name="controller" src="au3n6o" pkg="nk9ejx23" xy="8,28" size="127,20"/>
     <image id="n47" name="n47" src="au3n39" pkg="nk9ejx23" xy="3,0" size="234,2"/>
     <component id="n48" name="delete" src="au3n4b" pkg="nk9ejx23" xy="202,29" size="20,20">
       <gearDisplay controller="c1" pages="1"/>

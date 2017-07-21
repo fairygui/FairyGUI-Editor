@@ -9,7 +9,7 @@
     <component id="n23_ss7s" name="ok" src="xualm" xy="424,38" size="67,25">
       <Button title="确定"/>
     </component>
-    <component id="n24_ss7s" name="cancel" src="xualm" xy="424,74" size="67,25">
+    <component id="n24_ss7s" name="cancel" src="xualm" xy="424,110" size="67,25">
       <Button title="取消"/>
     </component>
     <component id="n42_mkkf" name="hueSlider" src="mkkf88" xy="270,30">
@@ -45,5 +45,8 @@
     <text id="n44_rxuv" name="n44" xy="387,134" size="11,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="%"/>
     <text id="n45_rxuv" name="n45" xy="387,161" size="11,16" group="n50_qfvx" fontSize="12" color="#bdbdbd" text="%"/>
     <group id="n50_qfvx" name="n50" xy="322,107" size="124,178"/>
+    <component id="n51_eu5q" name="apply" src="xualm" xy="424,74" size="67,25">
+      <Button title="应用"/>
+    </component>
   </displayList>
 </component>

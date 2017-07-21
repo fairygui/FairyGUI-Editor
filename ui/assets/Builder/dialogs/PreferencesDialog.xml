@@ -4,17 +4,11 @@
     <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="400,400" locked="true">
       <Label title="偏好设置"/>
     </component>
-    <component id="n14" name="ok" src="xualm" pkg="nk9ejx23" xy="103,357">
-      <Button title="保存"/>
-    </component>
-    <component id="n15" name="cancel" src="xualm" pkg="nk9ejx23" xy="226,357">
-      <Button title="取消"/>
-    </component>
     <text id="n33" name="n33" xy="8,34" size="259,16" touchable="false" fontSize="12" color="#bdbdbd" autoSize="none" text="导入时自动裁剪图片到最小包围"/>
     <component id="n34" name="crop_resource" src="gcza18" pkg="nk9ejx23" xy="273,33" size="113,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <image id="n36" name="n36" src="au3n39" pkg="nk9ejx23" xy="23,347" size="360,2"/>
+    <image id="n36" name="n36" src="au3n39" pkg="nk9ejx23" xy="1,351" size="396,2"/>
     <text id="n37" name="n37" xy="9,67" size="259,16" touchable="false" fontSize="12" color="#bdbdbd" autoSize="none" text="语言（需重启后生效）"/>
     <component id="n38" name="language" src="gcza18" pkg="nk9ejx23" xy="273,66" size="113,20">
       <ComboBox visibleItemCount="10"/>
@@ -23,5 +17,12 @@
     <component id="n40_htim" name="check_new_version" src="gcza18" pkg="nk9ejx23" xy="273,98" size="113,20">
       <ComboBox visibleItemCount="10"/>
     </component>
+    <component id="n14" name="ok" src="xualm" pkg="nk9ejx23" xy="96,363" group="n41_vbrg">
+      <Button title="确定"/>
+    </component>
+    <component id="n15" name="cancel" src="xualm" pkg="nk9ejx23" xy="219,363" group="n41_vbrg">
+      <Button title="取消"/>
+    </component>
+    <group id="n41_vbrg" name="n41" xy="96,363" size="208,25"/>
   </displayList>
 </component>

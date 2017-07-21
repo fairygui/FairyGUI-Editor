@@ -1,79 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="400,430">
-  <controller name="c1" pages="0,,1,,2," selected="1"/>
+<component size="513,430">
+  <controller name="c1" pages="0,基本,1,字体,2,颜色,3,预览,4,适配,5,自定义" selected="0"/>
+  <controller name="scaleMode" pages="0,ScaleWithScreenSize,1,ConstantPixelSize" selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="400,430" locked="true">
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="513,430" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
-      <Label title="项目属性"/>
+      <Label title="项目设置"/>
     </component>
-    <graph id="n21" name="n21" xy="14,53" size="370,335" locked="true" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <text id="n1" name="n1" xy="22,66" size="97,16" group="n16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="项目名称"/>
-    <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="122,64" size="200,20" group="n16"/>
-    <text id="n34" name="n34" xy="22,94" size="97,16" group="n16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="项目类型"/>
-    <component id="n35" name="n35" src="gcza18" pkg="nk9ejx23" xy="122,92" size="200,20" group="n16">
+    <graph id="n51_vbrg" name="n51" xy="1,23" size="142,352" type="rect" lineSize="0" lineColor="#ff151415" fillColor="#ff4a4a4a"/>
+    <text id="n1" name="n1" xy="151,30" size="137,16" group="n16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="项目名称"/>
+    <component id="n8" name="projectName" src="gcza1s" pkg="nk9ejx23" xy="293,28" size="200,20" group="n16"/>
+    <text id="n34" name="n34" xy="151,58" size="137,16" group="n16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="项目类型"/>
+    <component id="n35" name="projectType" src="gcza18" pkg="nk9ejx23" xy="293,56" size="200,20" group="n16">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="18,119" size="361,2" group="n16"/>
-    <graph id="n43" name="n43" xy="39,155" size="324,167" group="n46" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n44" name="n44" xy="39,175" size="324,147" group="n46" selectionMode="none" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oikqx1iu8v"/>
-    <component id="n45" name="n45" src="kqx1iu8u" xy="39,155" size="324,21" group="n46"/>
-    <group id="n46" name="n46" xy="39,155" size="324,167" group="n16"/>
-    <text id="n47" name="n47" xy="23,131" size="200,16" group="n16" fontSize="12" color="#bdbdbd" autoSize="height" text="自定义属性"/>
-    <group id="n16" name="n16" xy="18,64" size="361,258" advanced="true">
+    <group id="n16" name="n16" xy="151,28" size="342,48" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <component id="n25" name="n25" src="au3n6k" pkg="nk9ejx23" xy="25,162" size="354,96" group="n40"/>
-    <text id="n32" name="n32" xy="21,143" size="360,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="颜色方案（每行一个记录，每行格式为“记录名 颜色值”）"/>
-    <text id="n2" name="n2" xy="16,64" size="77,16" group="n40" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体"/>
-    <text id="n3" name="n3" xy="16,91" size="77,16" group="n40" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n4" name="n4" xy="16,115" size="77,16" group="n40" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="字体颜色"/>
-    <component id="n9" name="n9" src="gcza1s" pkg="nk9ejx23" xy="96,62" size="175,20" group="n40"/>
-    <component id="n11" name="n11" src="au3n69" pkg="nk9ejx23" xy="96,89" size="34,20" group="n40">
+    <text id="n2" name="n2" xy="153,31" size="118,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="字体"/>
+    <text id="n3" name="n3" xy="153,58" size="118,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n4" name="n4" xy="153,82" size="118,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="字体颜色"/>
+    <component id="n9" name="fontName" src="gcza1s" pkg="nk9ejx23" xy="275,29" size="175,20" group="n40"/>
+    <component id="n11" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="275,56" size="34,20" group="n40">
       <Label title="12"/>
     </component>
-    <component id="n12" name="n12" src="au3n5y" pkg="nk9ejx23" xy="96,115" group="n40"/>
-    <component id="n36" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="276,62" size="20,20" group="n40">
+    <component id="n12" name="textColor" src="au3n5y" pkg="nk9ejx23" xy="275,82" group="n40"/>
+    <component id="n36" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="455,29" size="20,20" group="n40">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
-    <component id="n26" name="n26" src="au3n6k" pkg="nk9ejx23" xy="25,284" size="354,96" group="n40"/>
-    <text id="n33" name="n33" xy="21,265" size="360,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="文字大小方案（每行一个记录，每行格式为“记录名 字号”）"/>
-    <component id="n49" name="n49" src="dp4f7u" pkg="nk9ejx23" xy="169,91" size="142,19" group="n40">
+    <component id="n26" name="fontSizeScheme" src="au3n6k" pkg="nk9ejx23" xy="154,154" size="336,202" group="n40"/>
+    <text id="n33" name="n33" xy="153,107" size="118,16" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="文字大小方案"/>
+    <component id="n49" name="disableFontAdjustment" src="dp4f7u" pkg="nk9ejx23" xy="348,58" size="142,19" group="n40">
       <Button title="禁用字体渲染位置优化"/>
     </component>
-    <group id="n40" name="n40" xy="16,62" size="365,318" advanced="true">
+    <text id="n60_vbrg" name="n60" xy="153,131" size="263,16" group="n40" fontSize="12" color="#bdbdbd" text="每行一个记录，每行格式为“记录名 字体大小”"/>
+    <group id="n40" name="n40" xy="153,29" size="337,327" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <text id="n5" name="n5" xy="26,69" size="74,16" group="n42" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="垂直"/>
-    <text id="n6" name="n6" xy="26,97" size="74,16" group="n42" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="水平"/>
-    <text id="n7" name="n7" xy="26,125" size="74,16" group="n42" fontSize="12" color="#bdbdbd" align="right" autoSize="none" singleLine="true" text="默认显示"/>
-    <component id="n13" name="n13" src="gcza18" pkg="nk9ejx23" xy="104,124" size="228,20" group="n42">
+    <text id="n5" name="n5" xy="149,32" size="115,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="垂直滚动条"/>
+    <text id="n6" name="n6" xy="149,60" size="115,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="水平滚动条"/>
+    <text id="n7" name="n7" xy="149,88" size="115,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="滚动条显示"/>
+    <component id="n13" name="scrollBarDisplay" src="gcza18" pkg="nk9ejx23" xy="268,87" size="223,20" group="n42">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n22" name="n22" src="au3n6j" pkg="nk9ejx23" xy="104,67" size="228,20" group="n42"/>
-    <component id="n23" name="n23" src="au3n6j" pkg="nk9ejx23" xy="104,95" size="228,20" group="n42"/>
-    <group id="n42" name="n42" xy="26,67" size="306,77" advanced="true">
+    <component id="n22" name="vtScrollBarRes" src="au3n6j" pkg="nk9ejx23" xy="268,30" size="223,20" group="n42"/>
+    <component id="n23" name="hzScrollBarRes" src="au3n6j" pkg="nk9ejx23" xy="268,58" size="223,20" group="n42"/>
+    <text id="n61_vbrg" name="n61" xy="149,116" size="115,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="TIPS组件"/>
+    <component id="n62_vbrg" name="tipsRes" src="au3n6j" pkg="nk9ejx23" xy="268,115" size="223,20" group="n42"/>
+    <text id="n63_vbrg" name="n63" xy="149,144" size="115,16" group="n42" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="按钮点击声音"/>
+    <component id="n64_vbrg" name="buttonClickSound" src="au3n6j" pkg="nk9ejx23" xy="268,142" size="223,20" group="n42"/>
+    <group id="n42" name="n42" xy="149,30" size="342,132" advanced="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </group>
+    <list id="n52_vbrg" name="tab" xy="1,23" size="142,352" margin="1,1,4,1" lineGap="4" defaultItem="ui://nk9ejx23au3n4s" selectionController="c1">
+      <item title="基本"/>
+      <item title="字体设置"/>
+      <item title="颜色方案"/>
+      <item title="预览设置"/>
+      <item title="适配测试"/>
+      <item title="自定义属性"/>
+    </list>
+    <image id="n53_vbrg" name="n53" src="au3n38" pkg="nk9ejx23" xy="144,23" size="2,352"/>
+    <image id="n55_vbrg" name="n55" src="au3n39" pkg="nk9ejx23" xy="2,376" size="508,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <graph id="n43" name="n43" xy="162,31" size="324,329" group="n46" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n44" name="customProps" xy="162,51" size="324,309" group="n46" selectionMode="none" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oikqx1iu8v"/>
+    <component id="n45" name="n45" src="kqx1iu8u" xy="162,31" size="324,21" group="n46"/>
+    <group id="n46" name="n46" xy="162,31" size="324,329" advanced="true">
+      <gearDisplay controller="c1" pages="5"/>
+    </group>
+    <component id="n25" name="colorScheme" src="au3n6k" pkg="nk9ejx23" xy="154,77" size="336,243" group="n56_vbrg"/>
+    <text id="n32" name="n32" xy="155,30" size="53,16" group="n56_vbrg" fontSize="12" color="#bdbdbd" text="颜色方案"/>
+    <text id="n59_vbrg" name="n59" xy="155,54" size="251,16" group="n56_vbrg" fontSize="12" color="#bdbdbd" text="每行一个记录，每行格式为“记录名 颜色值”"/>
+    <group id="n56_vbrg" name="n56" xy="154,30" size="336,290" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
     </group>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="75,395" size="76,25">
-      <Button title="保存"/>
+    <component id="n14" name="ok" src="xualm" pkg="nk9ejx23" xy="119,392" size="76,25" group="n65_vbrg">
+      <Button title="确定"/>
     </component>
-    <component id="n15" name="n15" src="xualm" pkg="nk9ejx23" xy="268,395" size="76,25">
-      <Button title="关闭"/>
+    <component id="n15" name="cancel" src="xualm" pkg="nk9ejx23" xy="331,392" size="76,25" group="n65_vbrg">
+      <Button title="取消"/>
     </component>
-    <image id="n48" name="n48" src="au3n39" pkg="nk9ejx23" xy="15,53" size="368,2"/>
-    <component id="n17" name="n17" src="au3n6i" pkg="nk9ejx23" xy="14,33" size="39,22">
-      <Button title="基本" controller="c1" page="0"/>
-    </component>
-    <component id="n18" name="n18" src="au3n6i" pkg="nk9ejx23" xy="52,33" size="69,22">
-      <relation target="n17" sidePair="left-right"/>
-      <Button checked="true" title="字体/颜色" controller="c1" page="1"/>
-    </component>
-    <component id="n19" name="n19" src="au3n6i" pkg="nk9ejx23" xy="120,33" size="75,22">
-      <relation target="n18" sidePair="left-right"/>
-      <Button title="滚动条设置" controller="c1" page="2"/>
-    </component>
-    <component id="n50" name="n50" src="xualm" pkg="nk9ejx23" xy="173,395" size="76,25">
+    <component id="n82_q6js" name="apply" src="xualm" pkg="nk9ejx23" xy="225,392" size="76,25" group="n65_vbrg">
       <Button title="应用"/>
     </component>
+    <group id="n65_vbrg" name="n65" xy="119,392" size="288,25"/>
+    <text id="n69_q6js" name="n69" xy="150,35" size="115,16" group="n81_q6js" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="缩放模式"/>
+    <component id="n70_q6js" name="scaleMode" src="gcza18" pkg="nk9ejx23" xy="268,34" size="223,19" group="n81_q6js">
+      <ComboBox title="根据屏幕大小缩放" visibleItemCount="10" selectionController="scaleMode">
+        <item title="根据屏幕大小缩放" value="ScaleWithScreenSize"/>
+        <item title="不缩放" value="ConstantPixelSize"/>
+      </ComboBox>
+    </component>
+    <component id="n71_q6js" name="designResolutionX" src="au3n6j" pkg="nk9ejx23" xy="268,91" size="75,20" group="n77_q6js"/>
+    <text id="n72_q6js" name="n72" xy="150,94" size="115,16" group="n77_q6js" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="设计分辨率"/>
+    <text id="n73_q6js" name="n73" xy="150,63" size="115,16" group="n77_q6js" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="适配模式"/>
+    <component id="n74_q6js" name="designResolutionY" src="au3n6j" pkg="nk9ejx23" xy="363,91" size="75,20" group="n77_q6js"/>
+    <component id="n75_q6js" name="screenMatchMode" src="gcza18" pkg="nk9ejx23" xy="268,62" size="223,19" group="n77_q6js">
+      <ComboBox title="适应宽度和高度" visibleItemCount="10">
+        <item title="适应宽度和高度" value="MatchWidthOrHeight"/>
+        <item title="适应宽度" value="MatchWidth"/>
+        <item title="适应高度" value="MatchHeight"/>
+      </ComboBox>
+    </component>
+    <text id="n76_q6js" name="n76" xy="348,94" size="11,16" group="n77_q6js" fontSize="12" color="#bdbdbd" text="X"/>
+    <group id="n77_q6js" name="n77" xy="150,62" size="341,49" group="n81_q6js" advanced="true">
+      <gearDisplay controller="scaleMode" pages="0"/>
+    </group>
+    <text id="n78_q6js" name="n78" xy="150,122" size="115,16" group="n80_q6js" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="默认屏幕大小"/>
+    <component id="n79_q6js" name="defaultResolution" src="gcza18" pkg="nk9ejx23" xy="268,121" size="223,19" group="n80_q6js">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <group id="n80_q6js" name="n80" xy="150,121" size="341,19" group="n81_q6js" advanced="true">
+      <gearXY controller="scaleMode" pages="0,1" values="150,121|150,66"/>
+    </group>
+    <group id="n81_q6js" name="n81" xy="150,34" size="341,106" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
   </displayList>
 </component>
