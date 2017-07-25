@@ -177,6 +177,7 @@
     <component id="dqzd8h" name="PopupMenu_check.xml" path="/Menu/" exported="true"/>
     <component id="dqzd8i" name="PopupMenu2.xml" path="/Menu/" exported="true"/>
     <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
+    <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true"/>
   </resources>
   <publish name="basic">
     <atlas name="默认纹理集" index="0"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,262" overflow="hidden" extention="Slider">
+<component size="240,269" overflow="hidden" extention="Slider">
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,262">
+    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,269">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="滑动条"/>
     </component>
@@ -9,7 +9,10 @@
     <component id="n48" name="titleType" src="gcza18" pkg="nk9ejx23" xy="87,29" size="135,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n69" name="n69" xy="5,59" size="230,106" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="（可选）横向伸缩部分请命名为bar&#xA;　　　　纵向伸缩部分请命名为bar_v&#xA;　　　　并设置至100%长度&#xA;（可选）拖动滑块请命名为grip&#xA;（可选）文本标题请命名为title&#xA;（可选）动画请命名为ani"/>
+    <text id="n69" name="n69" xy="5,78" size="230,106" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="（可选）横向伸缩部分请命名为bar&#xA;　　　　纵向伸缩部分请命名为bar_v&#xA;　　　　并设置至100%长度&#xA;（可选）拖动滑块请命名为grip&#xA;（可选）文本标题请命名为title&#xA;（可选）动画请命名为ani"/>
+    <component id="n70_in52" name="reverse" src="dp4f7u" pkg="nk9ejx23" xy="26,54" size="46,19">
+      <Button title="反向"/>
+    </component>
   </displayList>
   <Slider/>
 </component>

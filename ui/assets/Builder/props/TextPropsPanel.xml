@@ -6,7 +6,7 @@
       <Label title="文本"/>
     </component>
     <text id="n17" name="n17" xy="4,123" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
-    <component id="n32" name="singleLine" src="rm0l7v" pkg="nk9ejx23" xy="168,98" size="46,19">
+    <component id="n32" name="singleLine" src="rm0l7v" pkg="nk9ejx23" xy="154,98" size="46,19">
       <Button title="单行"/>
     </component>
     <text id="n33" name="n33" xy="4,149" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
