@@ -9,7 +9,7 @@
     <component id="n43" name="viewScale" src="gcza18" pkg="nk9ejx23" xy="818,25" size="80,20" group="n76" tooltips="放大：Ctrl+'+'&#xD;缩小：Ctrl+'-'&#xD;自由缩放：Ctrl+鼠标滚轮&#xD;恢复到100%：Ctrl+1">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n44" name="n44" xy="760,27" size="53,16" group="n76" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="缩放比例"/>
+    <text id="n44" name="n44" xy="760,27" size="53,18" group="n76" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="缩放比例"/>
     <component id="n45" name="n45" src="au3n2i" xy="277,22" group="n76" tooltips="新建组件(Ctrl+N)">
       <Button icon="ui://2pshu6oiau3n1p"/>
     </component>
@@ -25,7 +25,7 @@
     <image id="n51" name="n51" src="au3n38" pkg="nk9ejx23" xy="438,24" group="n76" aspect="true"/>
     <image id="n52" name="n52" src="au3n38" pkg="nk9ejx23" xy="514,24" group="n76" aspect="true"/>
     <image id="n53" name="n53" src="au3n38" pkg="nk9ejx23" xy="609,24" group="n76" aspect="true"/>
-    <text id="n54" name="n54" xy="619,27" size="59,16" group="n76" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="背景颜色"/>
+    <text id="n54" name="n54" xy="619,27" size="59,18" group="n76" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="背景颜色"/>
     <component id="n66" name="bgColor" src="au3n5y" pkg="nk9ejx23" xy="680,27" group="n76"/>
     <component id="n74" name="n74" src="au3n2i" xy="341,22" group="n76" tooltips="新建位图字体">
       <Button icon="ui://2pshu6oiau3n4l"/>
@@ -44,7 +44,21 @@
       <Button icon="ui://2pshu6oiau3n1e"/>
     </component>
     <component id="n91" name="bgColor2" src="au3n5y" pkg="nk9ejx23" xy="715,27" group="n76"/>
-    <group id="n76" name="n76" xy="277,22" size="621,26" advanced="true">
+    <image id="n101_jv5l" name="n101" src="au3n38" pkg="nk9ejx23" xy="908,24" group="n76" aspect="true"/>
+    <component id="n102_jv5l" name="btnRelationDisabled" src="rn0hiu9i" xy="947,23" size="24,24" group="n106_jv5l" tooltips="切换关联系统屏蔽状态（仅设计期有效）&#xD;屏蔽后，当手动修改元件坐标和大小时所有关联将不起作用。">
+      <Button icon="ui://2pshu6oik8kliuae" selectedIcon="ui://2pshu6oik8kliuah"/>
+    </component>
+    <component id="n103_jv5l" name="btnControllerDisabled" src="rn0hiu9i" xy="917,23" size="24,24" group="n106_jv5l" tooltips="切换控制器屏蔽状态（仅设计期有效）&#xD;屏蔽后，则所有显示控制器不起作用，方便查看所有被控制器隐藏的元件">
+      <Button icon="ui://2pshu6oiau3n26" selectedIcon="ui://2pshu6oik8kliuaj"/>
+    </component>
+    <component id="n104_jv5l" name="btnWarning" src="rn0hiu9i" xy="977,23" size="24,24" group="n106_jv5l" tooltips="当前文档没有警告和错误。">
+      <Button icon="ui://2pshu6oik8kliuai" selectedIcon="ui://2pshu6oik8kliuaf"/>
+    </component>
+    <component id="n105_jv5l" name="btnLocate" src="au3n2i" xy="1004,23" size="24,24" group="n106_jv5l" tooltips="在库中定位此组件">
+      <Button icon="ui://2pshu6oik8kliuag"/>
+    </component>
+    <group id="n106_jv5l" name="toolbox" xy="917,23" size="111,24" group="n76" advanced="true"/>
+    <group id="n76" name="toolbar" xy="277,22" size="751,26" advanced="true">
       <gearDisplay controller="test" pages="0"/>
       <relation target="n12" sidePair="left-left"/>
     </group>
