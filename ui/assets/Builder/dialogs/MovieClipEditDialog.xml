@@ -6,8 +6,8 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动画属性"/>
     </component>
-    <text id="n19" name="n19" xy="13,60" size="86,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="纹理集"/>
-    <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="102,59" size="136,20">
+    <text id="n19" name="n19" xy="13,60" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="纹理集"/>
+    <component id="n20" name="atlas" src="gcza18" pkg="nk9ejx23" xy="102,59" size="136,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <graph id="n31" name="n31" xy="10,84" size="681,391" type="rect" lineColor="#ff151415" fillColor="#ff333333"/>
@@ -31,22 +31,22 @@
       <Button icon="ui://2pshu6oig1zau6d"/>
     </component>
     <group id="n72" name="n72" xy="263,480" size="162,28"/>
-    <text id="n58" name="n58" xy="160,31" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="播放间隔"/>
+    <text id="n58" name="n58" xy="160,31" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="播放间隔"/>
     <component id="n60" name="speed" src="au3n69" pkg="nk9ejx23" xy="237,29" size="42,20">
       <Label title="1"/>
     </component>
-    <text id="n62" name="n62" xy="290,31" size="85,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="循环延迟"/>
+    <text id="n62" name="n62" xy="290,31" size="85,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="循环延迟"/>
     <component id="n63" name="repeatDelay" src="au3n69" pkg="nk9ejx23" xy="378,29" size="42,20">
       <Label title="0"/>
     </component>
-    <text id="n64" name="n64" xy="429,31" size="85,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="本帧延迟"/>
+    <text id="n64" name="n64" xy="429,31" size="85,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="本帧延迟"/>
     <component id="n65" name="frameDelay" src="au3n69" pkg="nk9ejx23" xy="516,29" size="42,20">
       <Label title="0"/>
     </component>
     <component id="n66" name="swing" src="xualt" pkg="nk9ejx23" xy="572,30" size="92,19">
       <Button title="摆动式播放"/>
     </component>
-    <text id="n81_xbeb" name="n81" xy="13,31" size="86,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
+    <text id="n81_xbeb" name="n81" xy="13,31" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
     <component id="n82_xbeb" name="fps" src="gcza18" pkg="nk9ejx23" xy="102,29" size="48,20">
       <ComboBox title="24" visibleItemCount="10">
         <item title="24"/>
@@ -61,6 +61,10 @@
     </component>
     <component id="n77" name="n77" src="xualm" pkg="nk9ejx23" xy="121,517" size="121,25">
       <Button title="导入Sprite表"/>
+    </component>
+    <text id="n83_tudt" name="n83" xy="250,60" size="69,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="允许平滑"/>
+    <component id="n84_tudt" name="smoothing" src="gcza18" pkg="nk9ejx23" xy="322,59" size="56,20">
+      <ComboBox visibleItemCount="10"/>
     </component>
   </displayList>
 </component>

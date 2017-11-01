@@ -5,16 +5,16 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="装载器"/>
     </component>
-    <text id="n17" name="n17" xy="4,28" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
+    <text id="n17" name="n17" xy="4,28" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
     <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,53" size="146,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n46" name="n46" xy="4,54" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="自动大小"/>
+    <text id="n46" name="n46" xy="4,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="自动大小"/>
     <component id="n58" name="fill" src="gcza18" pkg="nk9ejx23" xy="86,78" size="146,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n59" name="n59" xy="4,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
-    <text id="n47" name="n47" xy="4,106" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <text id="n59" name="n59" xy="4,80" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
+    <text id="n47" name="n47" xy="4,106" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
     <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="86,105" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
@@ -25,16 +25,16 @@
       <Button title="播放"/>
     </component>
     <component id="n65" name="url" src="au3n6j" pkg="nk9ejx23" xy="86,26" size="146,20"/>
-    <text id="n69" name="n69" xy="4,132" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
+    <text id="n69" name="n69" xy="4,132" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
     <component id="n70" name="frame" src="au3n69" pkg="nk9ejx23" xy="86,130"/>
-    <text id="n71" name="n71" xy="4,158" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
+    <text id="n71" name="n71" xy="4,158" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
     <component id="n72" name="color" src="p06b7x" pkg="nk9ejx23" xy="86,159"/>
-    <text id="n73" name="n73" xy="4,184" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="亮度"/>
+    <text id="n73" name="n73" xy="4,184" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="亮度"/>
     <component id="n74" name="brightness" src="au3n69" pkg="nk9ejx23" xy="86,182" size="42,20"/>
-    <component id="n80" name="fillMethod" src="gcza18" pkg="nk9ejx23" xy="86,209" size="122,19">
+    <component id="n80" name="fillMethod" src="gcza18" pkg="nk9ejx23" xy="86,209" size="122,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n81" name="n81" xy="4,210" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
+    <text id="n81" name="n81" xy="4,210" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
     <component id="n92_a9x3" name="fillEdit" src="au3n4b" pkg="nk9ejx23" xy="214,209" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>

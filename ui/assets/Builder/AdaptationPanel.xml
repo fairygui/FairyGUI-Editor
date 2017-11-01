@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="746,28" overflow="hidden">
-  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c1" pages="0,,1," selected="1"/>
   <displayList>
     <graph id="n19" name="n19" xy="0,0" size="746,29" locked="true" type="rect" lineSize="0" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
@@ -11,27 +11,27 @@
     <image id="n20" name="n20" src="au3n38" pkg="nk9ejx23" xy="96,0" size="2,27">
       <relation target="" sidePair="height-height"/>
     </image>
-    <text id="n21" name="n21" xy="3,6" size="86,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="适配测试"/>
-    <component id="n22" name="contentScaler" src="okou7w" pkg="nk9ejx23" xy="157,6" size="90,18">
+    <text id="n21" name="n21" xy="3,5" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="适配测试"/>
+    <component id="n22" name="contentScaler" src="okou7w" pkg="nk9ejx23" xy="157,5" size="90,18">
       <relation target="n24" sidePair="left-right"/>
       <Button title="整体缩放设置" titleColor="#bdbdbd"/>
     </component>
     <component id="n24" name="enabled" src="dp4f7u" pkg="nk9ejx23" xy="104,6" size="46,19">
-      <Button title="启用" controller="c1" page="1"/>
+      <Button checked="true" title="启用" controller="c1" page="1"/>
     </component>
-    <component id="n12" name="screenSize" src="gcza18" pkg="nk9ejx23" xy="556,5" size="177,19" group="n26">
+    <component id="n12" name="screenSize" src="gcza18" pkg="nk9ejx23" xy="556,4" size="177,20" group="n26">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n17" name="screenMatch" src="gcza18" pkg="nk9ejx23" xy="327,5" size="142,19" group="n26">
+    <component id="n17" name="screenMatch" src="gcza18" pkg="nk9ejx23" xy="327,4" size="142,20" group="n26">
       <ComboBox title="全屏" visibleItemCount="10">
         <item title="全屏" value="FitSize"/>
         <item title="适应高度，左右居中" value="FitHeightAndSetCenter"/>
         <item title="适应宽度，上下居中" value="FitWidthAndSetMiddle"/>
       </ComboBox>
     </component>
-    <text id="n18" name="n18" xy="473,6" size="79,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="屏幕大小"/>
-    <text id="n25" name="n25" xy="255,6" size="70,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="适应屏幕"/>
-    <group id="n26" name="n26" xy="255,5" size="478,19" advanced="true">
+    <text id="n18" name="n18" xy="473,5" size="79,18" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="屏幕大小"/>
+    <text id="n25" name="n25" xy="255,5" size="70,18" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="适应屏幕"/>
+    <group id="n26" name="n26" xy="255,4" size="478,20" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
   </displayList>

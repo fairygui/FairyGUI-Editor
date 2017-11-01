@@ -5,15 +5,15 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="图形"/>
     </component>
-    <text id="n17" name="n17" xy="4,28" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图形"/>
-    <text id="n33" name="n33" xy="4,54" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条大小"/>
-    <text id="n35" name="n35" xy="4,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条颜色"/>
-    <component id="n39" name="type" src="gcza18" pkg="nk9ejx23" xy="89,26" size="137,19">
+    <text id="n17" name="n17" xy="4,28" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图形"/>
+    <text id="n33" name="n33" xy="4,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条大小"/>
+    <text id="n35" name="n35" xy="4,80" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条颜色"/>
+    <component id="n39" name="type" src="gcza18" pkg="nk9ejx23" xy="89,26" size="137,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n55" name="n55" xy="4,106" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充颜色"/>
+    <text id="n55" name="n55" xy="4,106" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充颜色"/>
     <component id="n56" name="cornerRadius" src="gcza1s" pkg="nk9ejx23" xy="89,130" size="137,20"/>
-    <text id="n57" name="n57" xy="4,132" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="圆角"/>
+    <text id="n57" name="n57" xy="4,132" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="圆角"/>
     <component id="n58" name="lineSize" src="au3n69" pkg="nk9ejx23" xy="90,52" size="35,20">
       <Label title="0"/>
     </component>

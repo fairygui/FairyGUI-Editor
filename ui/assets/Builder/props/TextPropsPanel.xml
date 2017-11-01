@@ -5,20 +5,20 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="文本"/>
     </component>
-    <text id="n17" name="n17" xy="4,123" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
+    <text id="n17" name="n17" xy="4,123" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
     <component id="n32" name="singleLine" src="rm0l7v" pkg="nk9ejx23" xy="154,98" size="46,19">
       <Button title="单行"/>
     </component>
-    <text id="n33" name="n33" xy="4,149" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n35" name="n35" xy="4,175" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
-    <component id="n38" name="ubbEnabled" src="rm0l7v" pkg="nk9ejx23" xy="104,98" size="40,19">
+    <text id="n33" name="n33" xy="4,149" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n35" name="n35" xy="4,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n38" name="ubbEnabled" src="rm0l7v" pkg="nk9ejx23" xy="104,98" size="44,19">
       <Button title="UBB"/>
     </component>
-    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,252" size="122,19">
+    <component id="n45" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,252" size="122,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n46" name="n46" xy="4,253" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
-    <text id="n47" name="n47" xy="4,279" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <text id="n46" name="n46" xy="4,253" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n47" name="n47" xy="4,279" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
     <component id="n48" name="align" src="gcza18" pkg="nk9ejx23" xy="86,277" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
@@ -31,8 +31,8 @@
     <component id="n51" name="underline" src="rm0l7v" pkg="nk9ejx23" xy="157,194" size="58,19">
       <Button title="下划线"/>
     </component>
-    <text id="n42" name="n42" xy="4,201" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n44" name="n44" xy="4,227" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <text id="n42" name="n42" xy="4,201" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n44" name="n44" xy="4,227" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
     <component id="n56" name="color" src="p06b7x" pkg="nk9ejx23" xy="86,174"/>
     <component id="n58" name="leading" src="au3n69" pkg="nk9ejx23" xy="87,199" size="34,20">
       <Label title="12"/>

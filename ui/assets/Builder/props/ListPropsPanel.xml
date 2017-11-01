@@ -5,17 +5,17 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="列表"/>
     </component>
-    <text id="n17" name="n17" xy="4,28" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="列表布局"/>
+    <text id="n17" name="n17" xy="4,28" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="列表布局"/>
     <component id="n39" name="layout" src="gcza18" pkg="nk9ejx23" xy="86,26" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n58" name="n58" xy="4,132" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
+    <text id="n58" name="n58" xy="4,132" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
     <component id="n59" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="86,130" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n33" name="n33" xy="4,80" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n61" name="n61" xy="123,80" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
-    <text id="n62" name="n62" xy="4,288" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
+    <text id="n33" name="n33" xy="4,80" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n61" name="n61" xy="123,80" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
+    <text id="n62" name="n62" xy="4,288" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
     <component id="n63" name="editItems" src="xualm" pkg="nk9ejx23" xy="87,314" size="100,25">
       <Button title="编辑列表数据"/>
     </component>
@@ -29,37 +29,37 @@
     <component id="n91" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="213,132" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <text id="n93" name="n93" xy="4,184" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
+    <text id="n93" name="n93" xy="4,184" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
     <component id="n94" name="selectionMode" src="gcza18" pkg="nk9ejx23" xy="86,182" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n97" name="n97" xy="4,54" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行数"/>
+    <text id="n97" name="n97" xy="4,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行数"/>
     <component id="n98" name="repeatY" src="au3n69" pkg="nk9ejx23" xy="85,52" size="34,20">
       <Label title="0"/>
     </component>
-    <text id="n100" name="n100" xy="4,106" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <text id="n100" name="n100" xy="4,106" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
     <component id="n101" name="align" src="gcza18" pkg="nk9ejx23" xy="86,104" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n102" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,104" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n103_b8ef" name="n103" xy="123,54" size="73,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列数"/>
+    <text id="n103_b8ef" name="n103" xy="123,54" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列数"/>
     <component id="n104_b8ef" name="repeatX" src="au3n69" pkg="nk9ejx23" xy="198,52" size="33,20">
       <Label title="0"/>
     </component>
-    <text id="n105_gkk7" name="n105" xy="4,210" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
+    <text id="n105_gkk7" name="n105" xy="4,210" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
     <component id="n106_gkk7" name="selectionController" src="au3n6o" pkg="nk9ejx23" xy="86,208" size="120,20"/>
-    <text id="n108_gkk7" name="n108" xy="4,158" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="渲染顺序"/>
+    <text id="n108_gkk7" name="n108" xy="4,158" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="渲染顺序"/>
     <component id="n109_gkk7" name="childrenRenderOrder" src="gcza18" pkg="nk9ejx23" xy="86,156" size="102,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n110_gkk7" name="apexIndex" src="au3n69" pkg="nk9ejx23" xy="196,158" size="33,20">
       <Label title="0"/>
     </component>
-    <text id="n112_mfi3" name="n112" xy="4,236" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
+    <text id="n112_mfi3" name="n112" xy="4,236" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
     <component id="n113_mfi3" name="pageController" src="au3n6o" pkg="nk9ejx23" xy="86,234" size="120,20"/>
-    <text id="n114_mfi3" name="n114" xy="4,262" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
+    <text id="n114_mfi3" name="n114" xy="4,262" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
     <component id="n116_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,260" size="120,20"/>
     <component id="n117_byix" name="layoutEdit" src="au3n4b" pkg="nk9ejx23" xy="213,28" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>

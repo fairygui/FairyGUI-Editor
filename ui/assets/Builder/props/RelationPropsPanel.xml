@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,170" idnum="48" overflow="hidden" extention="Label">
+<component size="240,170" overflow="hidden" extention="Label">
   <displayList>
     <component id="n41" name="bg" src="au3n4c" xy="0,0" size="240,170">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="关联"/>
     </component>
-    <list id="n47" name="list" xy="4,26" size="230,138" overflow="hidden" lineGap="5" defaultItem="ui://2pshu6oiau3n4i" items="ui://2pshu6oiau3n4i,ui://2pshu6oiau3n4i"/>
+    <list id="n47" name="list" xy="4,26" size="230,138" overflow="hidden" lineGap="5" defaultItem="ui://2pshu6oiau3n4i"/>
   </displayList>
-  <relation target="n47" sidePair="height-height"/>
 </component>
