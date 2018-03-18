@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="722,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox,5,Haxe,6,Pixi,7,Cocos2dx" selected="1"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox,5,Haxe,6,Pixi,7,Cocos2dx,8,Cry,9,Vision" selected="4"/>
   <controller name="global" pages="0,包设置,1,全局设置" selected="1"/>
   <controller name="global_package_count" pages="0,一个包,1,两个包" selected="0"/>
   <displayList>
@@ -36,7 +36,7 @@
       <Button checked="true" title="使用全局设置"/>
     </component>
     <component id="n61" name="atlasSettings" src="xualm" pkg="nk9ejx23" xy="289,253" size="140,25" group="n69">
-      <gearDisplay controller="project_type" pages="1,2,3,4,6,7"/>
+      <gearDisplay controller="project_type" pages="1,2,3,4,6,7,8,9"/>
       <Button title="纹理集定义..."/>
     </component>
     <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,122" size="106,19" group="n94">
@@ -94,18 +94,29 @@
     <component id="n101" name="classNamePrefix" src="gcza1s" pkg="nk9ejx23" xy="340,245" size="300,20" group="n115"/>
     <text id="n102" name="n102" xy="213,276" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="成员名称前缀"/>
     <component id="n103" name="memberNamePrefix" src="gcza1s" pkg="nk9ejx23" xy="340,275" size="300,20" group="n115"/>
-    <text id="n104" name="n104" xy="213,354" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包名称"/>
-    <component id="n105" name="codePackageName" src="gcza1s" pkg="nk9ejx23" xy="340,353" size="300,20" group="n115"/>
+    <text id="n104" name="n104" xy="213,350" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包名称"/>
+    <component id="n105" name="codePackageName" src="gcza1s" pkg="nk9ejx23" xy="340,349" size="300,20" group="n115"/>
     <component id="n106" name="browse3" src="xualm" pkg="nk9ejx23" xy="647,212" size="60,25" group="n115">
       <Button title="浏览"/>
     </component>
-    <component id="n107" name="ignoreNoname" src="rm0l7v" pkg="nk9ejx23" xy="343,303" size="166,19" group="n115">
+    <component id="n107" name="ignoreNoname" src="rm0l7v" pkg="nk9ejx23" xy="343,301" size="166,19" group="n115">
       <Button title="不生成使用默认名称的成员"/>
     </component>
-    <component id="n110" name="getMemberByName" src="rm0l7v" pkg="nk9ejx23" xy="343,327" size="142,19" group="n115">
+    <component id="n110" name="getMemberByName" src="rm0l7v" pkg="nk9ejx23" xy="343,324" size="142,19" group="n115">
       <Button title="使用名称获取成员对象"/>
     </component>
+    <text id="n108" name="n108" xy="213,377" size="120,18" group="n120_p23d" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="代码类型"/>
+    <component id="n109" name="codeType" src="gcza18" pkg="nk9ejx23" xy="341,375" size="147,20" group="n120_p23d">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <group id="n120_p23d" name="n120" xy="213,375" size="275,20" group="n115" advanced="true">
+      <gearDisplay controller="project_type" pages="4"/>
+    </group>
     <group id="n115" name="n115" xy="204,170" size="509,230" group="n86"/>
+    <component id="n121_sqzs" name="compressDesc" src="rm0l7v" pkg="nk9ejx23" xy="368,91" size="94,19" group="n86">
+      <gearDisplay controller="project_type" pages="3,4"/>
+      <Button title="压缩描述文件"/>
+    </component>
     <group id="n86" name="n86" xy="203,58" size="511,342" advanced="true">
       <gearDisplay controller="global" pages="1"/>
     </group>

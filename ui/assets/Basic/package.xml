@@ -178,6 +178,7 @@
     <component id="dqzd8i" name="PopupMenu2.xml" path="/Menu/" exported="true"/>
     <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
     <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true"/>
+    <component id="q5hg8l" name="TabIconButton2.xml" path="/Tab/" exported="true"/>
   </resources>
   <publish name="basic">
     <atlas name="默认纹理集" index="0"/>

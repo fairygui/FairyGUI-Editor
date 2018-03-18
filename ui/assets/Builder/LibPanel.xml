@@ -8,37 +8,36 @@
     </graph>
     <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="235,27">
       <relation target="" sidePair="width-width"/>
-      <Button title="库"/>
     </component>
     <graph id="n6" name="n6" xy="1,27" size="232,550" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n21" name="btnSettings" src="au3n2i" xy="185,3" size="24,22" tooltips="过滤显示包">
+    <component id="n21" name="btnSettings" src="ur4wu64" xy="184,3" size="24,22" tooltips="过滤显示包">
       <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oix5ao5k"/>
+      <Button icon="ui://2pshu6oiig4eiubc"/>
     </component>
-    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="208,3" size="24,22" tooltips="全部折叠">
+    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="209,3" size="24,22" tooltips="全部折叠">
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oibfc35y"/>
     </component>
-    <component id="n27" name="btnFind" src="ur4wu64" xy="161,3" size="24,22" tooltips="查找">
+    <component id="n27" name="btnFind" src="ur4wu64" xy="134,3" size="24,22" tooltips="查找">
       <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiur4wu65"/>
     </component>
-    <component id="n41" name="btnRefresh" src="au3n2i" xy="137,3" size="24,22" tooltips="刷新当前包">
+    <component id="n41" name="btnRefresh" src="au3n2i" xy="109,3" size="24,22" tooltips="刷新当前包">
       <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiih9xiua2"/>
     </component>
-    <component id="n49_gs9a" name="n49" src="au3n6i" pkg="nk9ejx23" xy="5,4" size="51,22" group="n52_gs9a">
-      <Button checked="true" title="资源库" controller="library" page="0"/>
+    <component id="n59_q5hg" name="n49" src="q5hg8l" pkg="nk9ejx23" xy="6,4" size="28,22" group="n52_gs9a" tooltips="资源库">
+      <Button checked="true" icon="ui://2pshu6oiq5hgiub9" controller="library" page="0"/>
     </component>
-    <component id="n51_gs9a" name="n51" src="au3n6i" pkg="nk9ejx23" xy="57,4" size="51,22" group="n52_gs9a">
-      <Button title="收藏夹" controller="library" page="1"/>
+    <component id="n60_q5hg" name="n51" src="q5hg8l" pkg="nk9ejx23" xy="35,4" size="28,22" group="n52_gs9a" tooltips="收藏夹">
+      <Button icon="ui://2pshu6oiq5hgiuba" controller="library" page="1"/>
     </component>
-    <group id="n52_gs9a" name="n52" xy="5,4" size="103,22" advanced="true" layout="hz" colGap="1"/>
+    <group id="n52_gs9a" name="n52" xy="6,4" size="57,22" advanced="true" layout="hz" colGap="1"/>
     <list id="n53_gs9a" name="favorites" xy="1,26" size="234,554" overflow="scroll" margin="1,10,1,1" defaultItem="ui://nk9ejx23au3n6t">
       <gearDisplay controller="library" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
@@ -60,5 +59,11 @@
     <group id="n54_gs9a" name="n54" xy="0,-31" size="235,611" hideByEditor="true" advanced="true">
       <gearDisplay controller="library" pages="0"/>
     </group>
+    <image id="n55_q5hg" name="n55" src="q5hgiub9" xy="-11,739"/>
+    <component id="n61_ig4e" name="btnSync" src="ur4wu64" xy="159,3" size="24,22" tooltips="与编辑器链接">
+      <gearDisplay controller="library" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiq5hgiubb"/>
+    </component>
   </displayList>
 </component>

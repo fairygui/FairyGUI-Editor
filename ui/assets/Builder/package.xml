@@ -260,6 +260,11 @@
     <component id="5yy4iuax" name="ControllerEdit_ActionItem.xml" path="/dialogs/" exported="true"/>
     <component id="jz5viuaz" name="PlayTransActionPropsPanel.xml" path="/props/sub/" exported="true"/>
     <image id="mkfyiub7" name="import.png" path="/icons/"/>
+    <component id="p462iub8" name="BigTextInputDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="q5hgiub9" name="library.png" path="/icons/"/>
+    <image id="q5hgiuba" name="favorite.png" path="/icons/"/>
+    <image id="q5hgiubb" name="sync.png" path="/icons/"/>
+    <image id="ig4eiubc" name="filter.png" path="/icons/"/>
   </resources>
   <publish name="builder">
     <atlas name="默认纹理集" index="0"/>
