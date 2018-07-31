@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,211" overflow="hidden">
+<component size="240,174" overflow="hidden">
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,211" locked="true">
+    <component id="n46" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="0,0" size="240,174" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="按钮"/>
     </component>
     <text id="n47" name="n47" xy="4,30" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="模式"/>
-    <component id="n48" name="mode" src="gcza18" pkg="nk9ejx23" xy="86,29" size="94,20">
+    <component id="n48" name="mode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,29" size="94,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n69" name="n69" xy="5,145" size="230,56" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="按钮控制器请命名为button&#xA;（可选）文本标题请命名为title&#xA;（可选）图标请命名为icon"/>
     <text id="n71" name="n71" xy="4,56" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="声音"/>
-    <component id="n72" name="sound" src="au3n6j" pkg="nk9ejx23" xy="86,54" size="147,20"/>
+    <component id="n72" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,54" size="147,20"/>
     <text id="n73" name="n73" xy="4,82" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="音量"/>
-    <component id="n74" name="volume" src="au3n69" pkg="nk9ejx23" xy="86,80" size="44,20">
+    <component id="n74" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,80" size="44,20">
       <Label title="100"/>
     </component>
-    <component id="n79" name="downEffectValue" src="au3n69" pkg="nk9ejx23" xy="186,106" size="49,20"/>
+    <component id="n79" name="downEffectValue" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="186,106" size="49,20"/>
     <text id="n86" name="n86" xy="4,108" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="按下效果"/>
-    <component id="n87" name="downEffect" src="gcza18" pkg="nk9ejx23" xy="86,107" size="94,20">
+    <component id="n87" name="downEffect" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,107" size="94,20">
       <ComboBox visibleItemCount="10"/>
     </component>
+    <component id="n88_gwcn" name="n88" src="gwcniud1" fileName="props/extention/Instructions.xml" xy="86,142" tooltips="命名约定 &#xD;button: 按钮控制器名称。&#xD;title: 文本标题。&#xD;icon: 图标。通常是一个装载器。"/>
   </displayList>
 </component>

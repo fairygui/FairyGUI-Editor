@@ -6,35 +6,16 @@
     <graph id="n1" name="n1" xy="0,0" size="235,580" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n39" name="n39" src="g7vk7t" pkg="nk9ejx23" xy="0,0" size="235,27">
+    <component id="n39" name="n39" src="g7vk7t" fileName="TitleBar/TitleBar2.xml" pkg="nk9ejx23" xy="0,0" size="235,27">
       <relation target="" sidePair="width-width"/>
     </component>
     <graph id="n6" name="n6" xy="1,27" size="232,550" type="rect" lineSize="0" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n21" name="btnSettings" src="ur4wu64" xy="184,3" size="24,22" tooltips="过滤显示包">
-      <gearDisplay controller="library" pages="0"/>
-      <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oiig4eiubc"/>
-    </component>
-    <component id="n24" name="btnCollapseAll" src="au3n2i" xy="209,3" size="24,22" tooltips="全部折叠">
-      <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oibfc35y"/>
-    </component>
-    <component id="n27" name="btnFind" src="ur4wu64" xy="134,3" size="24,22" tooltips="查找">
-      <gearDisplay controller="library" pages="0"/>
-      <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oiur4wu65"/>
-    </component>
-    <component id="n41" name="btnRefresh" src="au3n2i" xy="109,3" size="24,22" tooltips="刷新当前包">
-      <gearDisplay controller="library" pages="0"/>
-      <relation target="" sidePair="right-right"/>
-      <Button icon="ui://2pshu6oiih9xiua2"/>
-    </component>
-    <component id="n59_q5hg" name="n49" src="q5hg8l" pkg="nk9ejx23" xy="6,4" size="28,22" group="n52_gs9a" tooltips="资源库">
+    <component id="n59_q5hg" name="n49" src="q5hg8l" fileName="Tab/TabIconButton2.xml" pkg="nk9ejx23" xy="6,4" size="28,22" group="n52_gs9a" tooltips="资源库">
       <Button checked="true" icon="ui://2pshu6oiq5hgiub9" controller="library" page="0"/>
     </component>
-    <component id="n60_q5hg" name="n51" src="q5hg8l" pkg="nk9ejx23" xy="35,4" size="28,22" group="n52_gs9a" tooltips="收藏夹">
+    <component id="n60_q5hg" name="n51" src="q5hg8l" fileName="Tab/TabIconButton2.xml" pkg="nk9ejx23" xy="35,4" size="28,22" group="n52_gs9a" tooltips="收藏夹">
       <Button icon="ui://2pshu6oiq5hgiuba" controller="library" page="1"/>
     </component>
     <group id="n52_gs9a" name="n52" xy="6,4" size="57,22" advanced="true" layout="hz" colGap="1"/>
@@ -47,7 +28,7 @@
       <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub4"/>
       <item url="ui://2pshu6oirkdciub0" icon="ui://2pshu6oirkdciub5"/>
     </list>
-    <component id="n38" name="find" src="rjtoiu8j" xy="0,-31" size="235,58" group="n54_gs9a">
+    <component id="n38" name="find" src="rjtoiu8j" fileName="SearchPanel.xml" xy="0,-31" size="235,58" group="n54_gs9a">
       <gearDisplay controller="search" pages="1"/>
       <gearXY controller="search" pages="0,1" values="0,-31|0,26"/>
       <relation target="" sidePair="width-width"/>
@@ -59,11 +40,30 @@
     <group id="n54_gs9a" name="n54" xy="0,-31" size="235,611" hideByEditor="true" advanced="true">
       <gearDisplay controller="library" pages="0"/>
     </group>
-    <image id="n55_q5hg" name="n55" src="q5hgiub9" xy="-11,739"/>
-    <component id="n61_ig4e" name="btnSync" src="ur4wu64" xy="159,3" size="24,22" tooltips="与编辑器链接">
+    <component id="n21" name="btnSettings" src="au3n2i" fileName="basic/ToolButton.xml" xy="184,2" size="24,24" group="n62_hvpq" tooltips="过滤显示包">
+      <gearDisplay controller="library" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiig4eiubc"/>
+    </component>
+    <component id="n24" name="btnCollapseAll" src="au3n2i" fileName="basic/ToolButton.xml" xy="208,2" size="24,24" group="n62_hvpq" tooltips="全部折叠">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oibfc35y"/>
+    </component>
+    <component id="n27" name="btnFind" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="136,2" size="24,24" group="n62_hvpq" tooltips="查找">
+      <gearDisplay controller="library" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oic3ppiu9h"/>
+    </component>
+    <component id="n41" name="btnRefresh" src="au3n2i" fileName="basic/ToolButton.xml" xy="112,2" size="24,24" group="n62_hvpq" tooltips="刷新当前包">
+      <gearDisplay controller="library" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiih9xiua2"/>
+    </component>
+    <component id="n61_ig4e" name="btnSync" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="160,2" size="24,24" group="n62_hvpq" tooltips="与编辑器链接">
       <gearDisplay controller="library" pages="0"/>
       <relation target="" sidePair="right-right"/>
       <Button icon="ui://2pshu6oiq5hgiubb"/>
     </component>
+    <group id="n62_hvpq" name="n62" xy="112,2" size="120,24"/>
   </displayList>
 </component>

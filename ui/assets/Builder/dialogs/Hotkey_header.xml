@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="428,21">
+  <displayList>
+    <image id="n11" name="n11" src="kwng7g" pkg="nk9ejx23" xy="0,0" size="428,21">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n14" name="n14" src="au3n38" pkg="nk9ejx23" xy="276,1" size="2,19"/>
+    <text id="n12" name="n12" xy="0,2" size="273,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="功能"/>
+    <text id="n13" name="n13" xy="280,2" size="145,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="热键"/>
+  </displayList>
+</component>

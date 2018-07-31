@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="nk9ejx23" jpegQuality="80" compressPNG="false">
+<packageDescription id="nk9ejx23" jpegQuality="80" compressPNG="false" hasFavorites="true">
   <resources>
     <component id="xual0" name="ScrollBar_VT.xml" path="/ScrollBar/" exported="true"/>
     <image id="xual2" name="s1.png" path="/ScrollBar/" scale="9grid" scale9grid="4,2,5,109" qualityOption="source"/>
@@ -21,10 +21,10 @@
     <image id="xualk" name="b6.png" path="/Button/" exported="true" scale="9grid" scale9grid="4,2,65,12"/>
     <image id="xuall" name="b7.png" path="/Button/" exported="true" scale="9grid" scale9grid="4,2,67,13"/>
     <component id="xualm" name="Button.xml" path="/Button/" exported="true"/>
-    <image id="xualn" name="b1.png" path="/Checkbox/" qualityOption="source"/>
-    <image id="xualo" name="b2.png" path="/Checkbox/" qualityOption="source"/>
-    <image id="xualp" name="b3.png" path="/Checkbox/" qualityOption="source"/>
-    <image id="xualq" name="b4.png" path="/Checkbox/" qualityOption="source"/>
+    <image id="xualn" name="b1.png" path="/Checkbox/" exported="true" qualityOption="source"/>
+    <image id="xualo" name="b2.png" path="/Checkbox/" exported="true" qualityOption="source"/>
+    <image id="xualp" name="b3.png" path="/Checkbox/" exported="true" qualityOption="source"/>
+    <image id="xualq" name="b4.png" path="/Checkbox/" exported="true" qualityOption="source"/>
     <component id="xualt" name="Checkbox.xml" path="/Checkbox/" exported="true"/>
     <image id="gczav" name="a3.png" path="/RadioButton/" qualityOption="source"/>
     <image id="gcza10" name="a2.png" path="/RadioButton/" qualityOption="source"/>
@@ -43,7 +43,7 @@
     <image id="gcza1i" name="f5.png" path="/Window/"/>
     <image id="gcza1j" name="f4.png" path="/Window/"/>
     <image id="gcza1k" name="f3.png" path="/Window/"/>
-    <component id="gcza1l" name="WindowFrame.xml" path="/Window/" exported="true"/>
+    <component id="gcza1l" name="WindowFrame.xml" path="/Window/" exported="true" favorite="true"/>
     <component id="gcza1m" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
     <image id="gcza1n" name="p3.png" path="/ProgressBar/" qualityOption="source"/>
     <image id="gcza1o" name="p2.png" path="/ProgressBar/" scale="9grid" scale9grid="10,4,121,4" qualityOption="source"/>
@@ -179,6 +179,8 @@
     <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
     <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true"/>
     <component id="q5hg8l" name="TabIconButton2.xml" path="/Tab/" exported="true"/>
+    <image id="yy9i8m" name="a7(1).png" path="/Tab/" exported="true" scale="9grid" scale9grid="6,3,38,10" qualityOption="source"/>
+    <image id="olcx8n" name="EditText.png" path="/Input/"/>
   </resources>
   <publish name="basic">
     <atlas name="默认纹理集" index="0"/>

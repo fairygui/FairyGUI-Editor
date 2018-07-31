@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="244,117">
+  <displayList>
+    <image id="n1_v3j1" name="n1" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,117" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n110_v3j1" name="n110" src="au3n39" pkg="nk9ejx23" xy="5,73" size="234,2"/>
+    <text id="n111_v3j1" name="n111" xy="83,14" size="77,18" fontSize="12" color="#bdbdbd" text="请按下快捷键"/>
+    <text id="n112_v3j1" name="hotkey" xy="21,43" size="202,18" fontSize="12" color="#d19036" align="center" autoSize="none" text=""/>
+    <component id="n113_v3j1" name="ok" src="xualm" pkg="nk9ejx23" xy="51,81" size="49,25">
+      <Button title="确定"/>
+    </component>
+    <component id="n114_v3j1" name="cancel" src="xualm" pkg="nk9ejx23" xy="105,81" size="49,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n115_v3j1" name="reset" src="xualm" pkg="nk9ejx23" xy="159,81" size="49,25">
+      <Button title="重置"/>
+    </component>
+  </displayList>
+</component>

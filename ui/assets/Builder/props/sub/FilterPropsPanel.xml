@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="147,145">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="147,145" locked="true">
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="147,145" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n133_a9x3" name="n133" xy="10,11" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
-    <component id="n134_a9x3" name="filter_cb" src="au3n69" pkg="nk9ejx23" xy="94,9" size="40,20">
+    <text id="n133_a9x3" name="n133" xy="10,11" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
+    <component id="n134_a9x3" name="filter_cb" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,9" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n135_a9x3" name="n135" xy="10,37" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
-    <component id="n136_a9x3" name="filter_cc" src="au3n69" pkg="nk9ejx23" xy="94,35" size="40,20">
+    <text id="n135_a9x3" name="n135" xy="10,37" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
+    <component id="n136_a9x3" name="filter_cc" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,35" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n137_a9x3" name="n137" xy="10,63" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
-    <component id="n138_a9x3" name="filter_cs" src="au3n69" pkg="nk9ejx23" xy="94,61" size="40,20">
+    <text id="n137_a9x3" name="n137" xy="10,63" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
+    <component id="n138_a9x3" name="filter_cs" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,61" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n139_a9x3" name="n139" xy="10,89" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
-    <component id="n140_a9x3" name="filter_ch" src="au3n69" pkg="nk9ejx23" xy="94,87" size="40,20">
+    <text id="n139_a9x3" name="n139" xy="10,89" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
+    <component id="n140_a9x3" name="filter_ch" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,87" size="40,20">
       <Label title="100"/>
     </component>
-    <component id="n141_ikov" name="copy" src="au3n2i" xy="35,113" tooltips="复制">
+    <component id="n141_ikov" name="copy" src="au3n2i" fileName="basic/ToolButton.xml" xy="35,113" tooltips="复制">
       <Button icon="ui://2pshu6oiikoviuau"/>
     </component>
-    <component id="n143_ikov" name="paste" src="au3n2i" xy="63,113" tooltips="粘贴">
+    <component id="n143_ikov" name="paste" src="au3n2i" fileName="basic/ToolButton.xml" xy="63,113" tooltips="粘贴">
       <Button icon="ui://2pshu6oiikoviuav"/>
     </component>
-    <component id="n144_ikov" name="reset" src="au3n2i" xy="93,112" tooltips="重置">
+    <component id="n144_ikov" name="reset" src="au3n2i" fileName="basic/ToolButton.xml" xy="93,112" tooltips="重置">
       <Button icon="ui://2pshu6oiikoviuaw"/>
     </component>
   </displayList>

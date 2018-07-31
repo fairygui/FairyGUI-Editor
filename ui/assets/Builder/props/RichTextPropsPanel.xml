@@ -1,77 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="240,362" overflow="hidden">
   <displayList>
-    <component id="n62" name="bg" src="au3n4c" xy="0,0" size="240,362" locked="true">
+    <component id="n62" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="0,0" size="240,362" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="富文本"/>
     </component>
     <text id="n113" name="n113" xy="4,123" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
     <text id="n115" name="n115" xy="4,149" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
     <text id="n116" name="n116" xy="4,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
-    <component id="n117" name="ubbEnabled" src="rm0l7v" pkg="nk9ejx23" xy="10,98" size="44,19">
-      <Button title="UBB"/>
-    </component>
-    <component id="n118" name="autoSize" src="gcza18" pkg="nk9ejx23" xy="86,252" size="122,20">
+    <component id="n118" name="autoSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,252" size="122,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n119" name="n119" xy="4,253" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
-    <component id="n124" name="underline" src="rm0l7v" pkg="nk9ejx23" xy="158,194" size="58,19">
+    <component id="n124" name="underline" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="158,194" size="58,19">
       <Button title="下划线"/>
     </component>
     <text id="n126" name="n126" xy="4,201" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
     <text id="n127" name="n127" xy="4,227" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
-    <component id="n128" name="color" src="p06b7x" pkg="nk9ejx23" xy="86,174"/>
-    <component id="n129" name="leading" src="au3n69" pkg="nk9ejx23" xy="86,199" size="34,20">
+    <component id="n128" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="86,174"/>
+    <component id="n129" name="leading" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,199" size="34,20">
       <Label title="12"/>
     </component>
-    <component id="n130" name="letterSpacing" src="au3n69" pkg="nk9ejx23" xy="86,225" size="34,20">
+    <component id="n130" name="letterSpacing" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,225" size="34,20">
       <Label title="12"/>
     </component>
-    <component id="n131" name="text" src="au3n6k" pkg="nk9ejx23" xy="5,26" size="231,65"/>
-    <component id="n132" name="font" src="au3n6j" pkg="nk9ejx23" xy="86,121" size="122,20"/>
-    <component id="n135" name="bold" src="rm0l7v" pkg="nk9ejx23" xy="158,149" size="46,19">
+    <component id="n131" name="text" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="5,26" size="230,65" controller="showEditButton,1"/>
+    <component id="n132" name="font" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,121" size="101,20"/>
+    <component id="n135" name="bold" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="158,149" size="46,19">
       <Button title="粗体"/>
     </component>
-    <component id="n136" name="italic" src="rm0l7v" pkg="nk9ejx23" xy="158,171" size="46,19">
+    <component id="n136" name="italic" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="158,171" size="46,19">
       <Button title="斜体"/>
     </component>
-    <component id="n137" name="fontSize" src="au3n69" pkg="nk9ejx23" xy="86,147" size="34,20" group="n139">
+    <component id="n137" name="fontSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,147" size="34,20" group="n139">
       <Label title="12"/>
     </component>
-    <component id="n138" name="fontSizePreset" src="gcza2i" pkg="nk9ejx23" xy="121,147" size="19,19" group="n139">
+    <component id="n138" name="fontSizePreset" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="121,147" size="19,19" group="n139">
       <Button icon="ui://2pshu6oipsdnu6q"/>
     </component>
     <group id="n139" name="n139" xy="86,147" size="54,20"/>
-    <component id="n140" name="chooseFont" src="au3n4b" pkg="nk9ejx23" xy="212,121" size="20,20">
+    <component id="n140" name="chooseFont" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="214,120" size="20,20">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
-    <component id="n152" name="strokeColor" src="p06b7x" pkg="nk9ejx23" xy="166,305"/>
-    <component id="n153" name="stroke" src="dp4f7u" pkg="nk9ejx23" xy="7,305" size="46,19">
+    <component id="n152" name="strokeColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="166,305"/>
+    <component id="n153" name="stroke" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="7,305" size="46,19">
       <Button title="描边"/>
     </component>
-    <component id="n154" name="strokeSize" src="au3n69" pkg="nk9ejx23" xy="86,304" size="34,20">
+    <component id="n154" name="strokeSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,304" size="34,20">
       <Label title="1"/>
     </component>
-    <component id="n155" name="shadow" src="dp4f7u" pkg="nk9ejx23" xy="7,333" size="46,19">
+    <component id="n155" name="shadow" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="7,333" size="46,19">
       <Button title="投影"/>
     </component>
     <text id="n156" name="n156" xy="87,332" size="25,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="X"/>
-    <component id="n157" name="shadowX" src="au3n69" pkg="nk9ejx23" xy="114,330" size="34,20">
+    <component id="n157" name="shadowX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="114,330" size="34,20">
       <Label title="1"/>
     </component>
-    <component id="n158" name="shadowY" src="au3n69" pkg="nk9ejx23" xy="181,330" size="34,20">
+    <component id="n158" name="shadowY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="181,330" size="34,20">
       <Label title="1"/>
     </component>
     <text id="n159" name="n159" xy="153,332" size="25,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="Y"/>
     <text id="n160" name="n160" xy="4,279" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
-    <component id="n161" name="align" src="gcza18" pkg="nk9ejx23" xy="86,277" size="74,20">
+    <component id="n161" name="align" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,277" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n162" name="verticalAlign" src="gcza18" pkg="nk9ejx23" xy="163,277" size="74,20">
+    <component id="n162" name="verticalAlign" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="163,277" size="74,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n163_ezxq" name="singleLine" src="rm0l7v" pkg="nk9ejx23" xy="74,98" size="46,19">
-      <Button title="单行"/>
+    <component id="n164_s8d3" name="fontPreset" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="191,121" size="19,19">
+      <Button icon="ui://2pshu6oipsdnu6q"/>
+    </component>
+    <component id="n167_jp7y" name="ubbEnabled" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="7,93" size="24,24" tooltips="允许使用UBB语法。例如：[b]文本[/b]">
+      <Button checked="true" icon="ui://2pshu6oiyy9iiuci"/>
+    </component>
+    <component id="n168_jp7y" name="singleLine" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="32,93" size="24,24" tooltips="单行">
+      <Button checked="true" icon="ui://2pshu6oiyy9iiucj"/>
+    </component>
+    <component id="n169_jp7y" name="autoClearText" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="57,93" size="24,24" tooltips="发布时清除文本">
+      <Button icon="ui://2pshu6oiyy9iiuck"/>
+    </component>
+    <component id="n170_jp7y" name="varsEnabled" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="82,93" size="24,24" tooltips="允许使用模板。例如：数量：{count=100}">
+      <Button icon="ui://2pshu6oiyy9iiucl"/>
     </component>
   </displayList>
 </component>

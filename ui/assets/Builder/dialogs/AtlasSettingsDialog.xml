@@ -21,7 +21,7 @@
     </list>
     <component id="n42" name="header" src="mellu6t" xy="7,107" size="400,21" group="n44"/>
     <group id="n44" name="n44" xy="7,107" size="400,282"/>
-    <text id="n59" name="n59" xy="9,31" size="84,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大大小"/>
+    <text id="n59" name="n59" xy="9,29" size="84,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大大小"/>
     <component id="n60" name="maxAtlasSize" src="gcza18" pkg="nk9ejx23" xy="101,29">
       <ComboBox title="2048" visibleItemCount="10">
         <item title="256" value="256"/>
@@ -43,7 +43,7 @@
     <component id="n66_gww6" name="multiPage" src="rm0l7v" pkg="nk9ejx23" xy="218,30" size="106,19">
       <Button title="超出后自动分页"/>
     </component>
-    <component id="n67_unlo" name="npot" src="rm0l7v" pkg="nk9ejx23" xy="14,58" size="70,19">
+    <component id="n67_unlo" name="npot" src="rm0l7v" pkg="nk9ejx23" xy="14,58" size="79,19">
       <Button title="None POT"/>
     </component>
     <component id="n68_unlo" name="square" src="rm0l7v" pkg="nk9ejx23" xy="148,58" size="58,19">

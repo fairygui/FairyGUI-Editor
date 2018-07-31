@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="240,239" overflow="hidden">
+<component size="240,119" overflow="hidden">
   <displayList>
-    <component id="n46" name="bg" src="au3n4c" xy="0,0" size="240,239">
+    <component id="n46" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="0,0" size="240,119">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="进度条"/>
     </component>
-    <text id="n47" name="n47" xy="4,31" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="标题类型"/>
-    <component id="n48" name="titleType" src="gcza18" pkg="nk9ejx23" xy="86,29" size="139,20">
+    <text id="n47" name="n47" xy="4,31" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="标题类型"/>
+    <component id="n48" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,29" size="139,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n69" name="n69" xy="5,78" size="230,88" fontSize="12" color="#bdbdbd" leading="6" autoSize="height" text="（可选）横向伸缩部分请命名为bar&#xA;　　　　纵向伸缩部分请命名为bar_v&#xA;　　　　并设置至100%长度&#xA;（可选）文本标题请命名为title&#xA;（可选）动画请命名为ani"/>
-    <component id="n70" name="reverse" src="dp4f7u" pkg="nk9ejx23" xy="24,54" size="46,19">
+    <component id="n70" name="reverse" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="24,54" size="46,19">
       <Button title="反向"/>
     </component>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="props/extention/Instructions.xml" xy="86,84" tooltips="命名约定&#xD;bar: 横向伸缩部分。&#xD;bar_v: 纵向伸缩部分。并设置至100%长度。&#xD;title: 文本标题。&#xD;ani: 动画。"/>
   </displayList>
 </component>

@@ -5,24 +5,24 @@
     <graph id="n19" name="n19" xy="0,0" size="746,29" locked="true" type="rect" lineSize="0" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <image id="n23" name="bottom" src="au3n39" pkg="nk9ejx23" xy="0,27" size="746,2">
+    <image id="n23" name="bottom" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="0,27" size="746,2">
       <relation target="" sidePair="width-width,bottom-bottom"/>
     </image>
-    <image id="n20" name="n20" src="au3n38" pkg="nk9ejx23" xy="96,0" size="2,27">
+    <image id="n20" name="n20" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="96,0" size="2,27">
       <relation target="" sidePair="height-height"/>
     </image>
     <text id="n21" name="n21" xy="3,5" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="适配测试"/>
-    <component id="n22" name="contentScaler" src="okou7w" pkg="nk9ejx23" xy="157,5" size="90,18">
+    <component id="n22" name="contentScaler" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="146,4" size="90,18">
       <relation target="n24" sidePair="left-right"/>
       <Button title="整体缩放设置" titleColor="#bdbdbd"/>
     </component>
-    <component id="n24" name="enabled" src="dp4f7u" pkg="nk9ejx23" xy="104,6" size="46,19">
+    <component id="n24" name="enabled" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="104,5" size="46,19">
       <Button checked="true" title="启用" controller="c1" page="1"/>
     </component>
-    <component id="n12" name="screenSize" src="gcza18" pkg="nk9ejx23" xy="556,4" size="177,20" group="n26">
+    <component id="n12" name="screenSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="556,4" size="177,20" group="n26">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n17" name="screenMatch" src="gcza18" pkg="nk9ejx23" xy="327,4" size="142,20" group="n26">
+    <component id="n17" name="screenMatch" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="327,4" size="142,20" group="n26">
       <ComboBox title="全屏" visibleItemCount="10">
         <item title="全屏" value="FitSize"/>
         <item title="适应高度，左右居中" value="FitHeightAndSetCenter"/>

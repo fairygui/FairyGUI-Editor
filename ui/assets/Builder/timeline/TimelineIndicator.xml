@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="10,20">
+  <controller name="c1" pages="0,,1," selected="1"/>
   <displayList>
-    <image id="n1" name="n1" src="cnolu7c" xy="2,7"/>
+    <image id="n1" name="n1" src="cnolu7c" fileName="icons/dot.png" xy="2,7">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n2_dpcr" name="flag" src="dpcriuda" fileName="icons/flag.png" xy="-2,3">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n3_eyof" name="label" xy="9,-3" size="25,16" fontSize="10" color="#e84e40" singleLine="true" autoClearText="true" text="标签">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
   </displayList>
 </component>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="871,453">
+  <controller name="c1" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="871,453">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="文本输入"/>
+    </component>
+    <component id="n45_p462" name="input" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,62" size="423,332" controller="showEditButton,0">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="8,62|8,28" default="8,62"/>
+      <gearSize controller="c1" pages="0,1" values="423,332,1,1|423,366,1,1" default="423,332,1,1"/>
+      <Label titleFontSize="14"/>
+    </component>
+    <component id="n40" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="360,415" size="66,25" group="n42_cdxv">
+      <Button title="确定"/>
+    </component>
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="445,415" size="66,25" group="n42_cdxv">
+      <Button title="取消"/>
+    </component>
+    <group id="n42_cdxv" name="n42" xy="360,415" size="151,25" advanced="true" collapsed="true">
+      <gearXY controller="c1" pages="1" values="144,415" default="360,415"/>
+    </group>
+    <image id="n43_11c6h" name="n43" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="1,403" size="867,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n46_o213" name="n46" src="gcza1r" fileName="Input/p4.png" pkg="nk9ejx23" xy="439,62" size="423,332" group="n82_hd18"/>
+    <component id="n47_o213" name="preview" src="qwjciucz" fileName="dialogs/RichTextInput_Component1.xml" xy="441,63" size="421,330" group="n82_hd18"/>
+    <group id="n82_hd18" name="n82" xy="439,62" size="423,332" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <gearXY controller="c1" pages="1" values="8,62" default="439,62"/>
+    </group>
+    <component id="n48_o213" name="btnFontSize" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="159,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oio213iucy"/>
+    </component>
+    <component id="n51_o213" name="btnBold" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="10,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oiyy9iiucn" page="0"/>
+    </component>
+    <component id="n52_o213" name="btnItalic" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="35,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oiyy9iiucm" page="1"/>
+    </component>
+    <component id="n53_o213" name="btnUnderline" src="ur4wu64" fileName="basic/ToolButton_Check.xml" xy="60,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oiyy9iiuco" page="2"/>
+    </component>
+    <component id="n54_o213" name="btnColor" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="85,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oiitz3iuc7" page="0"/>
+    </component>
+    <component id="n55_o213" name="btnLink" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="110,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oip6lhiubj" page="1"/>
+    </component>
+    <component id="n56_o213" name="btnImg" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="135,28" size="24,24" group="n84_sqgo">
+      <Button icon="ui://2pshu6oiau3n22" page="2"/>
+    </component>
+    <component id="n83_mvu5" name="colorInput" src="au3n5y" fileName="ColorPicker/ColorInput.xml" pkg="nk9ejx23" xy="398,33" group="n84_sqgo" visible="false"/>
+    <group id="n84_sqgo" name="n84" xy="10,28" size="418,24" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <graph id="n81_hd18" name="n81" xy="0,24" size="871,381" group="n80_hd18" type="rect" lineSize="0" lineColor="#ffffffff" fillColor="#61666666"/>
+    <image id="n58_ol8p" name="n58" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="113,55" size="404,93" group="n80_hd18">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n59_ol8p" name="linkValue" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="190,72" size="310,20" group="n65_ol8p"/>
+    <text id="n60_ol8p" name="n60" xy="124,72" size="59,18" group="n65_ol8p" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="URL"/>
+    <group id="n65_ol8p" name="inputURL" xy="124,72" size="376,20" group="n80_hd18" visible="false" advanced="true" collapsed="true"/>
+    <component id="n67_deg4" name="fontSizeValue" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="200,74" size="76,20" group="n73_deg4"/>
+    <text id="n68_deg4" name="n68" xy="124,74" size="70,18" group="n73_deg4" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <group id="n73_deg4" name="inputFontSize" xy="124,74" size="152,20" group="n80_hd18" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <component id="n75_deg4" name="imgValue" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="222,74" size="269,20" group="n79_deg4"/>
+    <text id="n76_deg4" name="n76" xy="124,74" size="88,18" group="n79_deg4" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="插入图片"/>
+    <group id="n79_deg4" name="inputImg" xy="124,74" size="367,20" group="n80_hd18" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <component id="n63_ol8p" name="btnInputOk" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="234,106" size="66,25" group="n80_hd18">
+      <Button title="确定"/>
+    </component>
+    <component id="n64_ol8p" name="btnInputCancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="328,106" size="66,25" group="n80_hd18">
+      <Button title="取消"/>
+    </component>
+    <group id="n80_hd18" name="inputPanel" xy="0,24" size="871,381" hideByEditor="true" visible="false" advanced="true"/>
+    <image id="n93_tezg" name="n93" src="gcza1r" fileName="Input/p4.png" pkg="nk9ejx23" xy="8,62" size="422,331" group="n92_tezg"/>
+    <list id="n85_tezg" name="list" xy="8,62" size="423,331" group="n92_tezg" overflow="scroll" margin="1,0,1,0" defaultItem="ui://2pshu6oiu3n8iud3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item url="ui://2pshu6oitezgiud9"/>
+    </list>
+    <component id="n86_tezg" name="btnAddText" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="8,29" size="71,25" group="n92_tezg">
+      <Button title="增加文字"/>
+    </component>
+    <component id="n87_tezg" name="btnAddImage" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="89,29" size="71,25" group="n92_tezg">
+      <Button title="增加图片"/>
+    </component>
+    <component id="n88_tezg" name="btnDelete" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="170,29" size="71,25" group="n92_tezg">
+      <Button title="删除"/>
+    </component>
+    <component id="n89_tezg" name="btnMoveUp" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="251,29" size="71,25" group="n92_tezg">
+      <Button title="上移"/>
+    </component>
+    <component id="n90_tezg" name="btnMoveDown" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="332,29" size="71,25" group="n92_tezg">
+      <Button title="下移"/>
+    </component>
+    <group id="n92_tezg" name="n92" xy="8,29" size="423,364" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+  </displayList>
+  <relation target="n82_hd18" sidePair="rightext-right"/>
+</component>

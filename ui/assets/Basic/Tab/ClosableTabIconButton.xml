@@ -2,23 +2,23 @@
 <component size="55,22" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n5" name="n5" src="au3n3m" xy="0,0" size="55,22">
+    <image id="n5" name="n5" src="au3n3m" fileName="Tab/a5.png" xy="0,0" size="55,22">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <image id="n4" name="n4" src="au3n3o" xy="0,0" size="55,22">
+    <image id="n4" name="n4" src="au3n3o" fileName="Tab/a7.png" xy="0,0" size="55,22">
       <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="25,3" size="10,16" fontSize="12" color="#bdbdbd" vAlign="middle" text="">
+    <text id="n2" name="title" xy="25,3" size="10,18" fontSize="12" color="#bdbdbd" vAlign="middle" text="">
+      <gearColor controller="button" pages="0,1,3" values="#bdbdbd,#000000|#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
       <relation target="" sidePair=""/>
-      <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd|#ffffff|-|#ffffff" default="#bdbdbd"/>
     </text>
-    <component id="n3" name="closeButton" src="gcza2u" xy="34,1">
+    <component id="n3" name="closeButton" src="gcza2u" fileName="Tab/TabCloseButton.xml" xy="34,1">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="right-right"/>
     </component>
-    <loader id="n6" name="icon" xy="1,1" size="20,20" align="center" vAlign="middle"/>
+    <loader id="n6" name="icon" xy="2,1" size="20,20" align="center" vAlign="middle"/>
   </displayList>
   <Button mode="Radio"/>
   <relation target="n2" sidePair="width-width"/>

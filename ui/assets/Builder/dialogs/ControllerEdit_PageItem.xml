@@ -17,6 +17,9 @@
     </graph>
     <component id="n13" name="name" src="au3n6m" pkg="nk9ejx23" xy="45,0" size="149,20"/>
     <graph id="n14" name="n14" xy="194,0" size="1,20" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+    <component id="n15_kvg9" name="remark" src="au3n6m" pkg="nk9ejx23" xy="195,0" size="137,20">
+      <relation target="" sidePair="rightext-right"/>
+    </component>
   </displayList>
   <Button mode="Radio"/>
 </component>

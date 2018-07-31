@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="462,400">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="462,400">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="462,400">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="编辑列表"/>
     </component>
     <graph id="n20" name="n20" xy="13,58" size="435,287" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <list id="n19" name="n19" xy="13,78" size="435,267" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n58"/>
-    <component id="n38" name="n38" src="au3n59" xy="13,58" size="434,21" group="n35"/>
+    <component id="n38" name="n38" src="au3n59" fileName="dialogs/ComboBoxEdit_header.xml" xy="13,58" size="434,21" group="n35"/>
     <group id="n35" name="n35" xy="13,58" size="435,287"/>
-    <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="13,28" size="67,25" group="n36">
+    <component id="n28" name="n28" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="13,28" size="67,25" group="n36">
       <Button title="增加"/>
     </component>
-    <component id="n29" name="n29" src="xualm" pkg="nk9ejx23" xy="83,28" size="67,25" group="n36">
+    <component id="n29" name="n29" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="83,28" size="67,25" group="n36">
       <Button title="删除"/>
     </component>
-    <component id="n31" name="n31" src="xualm" pkg="nk9ejx23" xy="153,28" size="67,25" group="n36">
+    <component id="n31" name="n31" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="153,28" size="67,25" group="n36">
       <Button title="上移"/>
     </component>
-    <component id="n32" name="n32" src="xualm" pkg="nk9ejx23" xy="223,28" size="67,25" group="n36">
+    <component id="n32" name="n32" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="223,28" size="67,25" group="n36">
       <Button title="下移"/>
     </component>
     <group id="n36" name="n36" xy="13,28" size="277,25"/>
-    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="11,353" size="441,2"/>
-    <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="164,361" size="58,25" group="n39">
+    <image id="n37" name="n37" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="11,353" size="441,2"/>
+    <component id="n13" name="n13" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="164,361" size="58,25" group="n39">
       <Button title="保存"/>
     </component>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="239,361" size="58,25" group="n39">
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="239,361" size="58,25" group="n39">
       <Button title="取消"/>
     </component>
     <group id="n39" name="n39" xy="164,361" size="133,25"/>
+    <component id="n41_n6zs" name="autoClear" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="309,32" size="106,19">
+      <Button title="发布时自动清空"/>
+    </component>
   </displayList>
 </component>

@@ -3,21 +3,21 @@
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n0" name="n0" xy="0,0" size="228,59" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <component id="n4" name="clear" src="au3n4b" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除关联">
+    <component id="n4" name="clear" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="203,6" size="20,20" tooltips="删除关联">
       <Button icon="ui://2pshu6oipsdnu6r"/>
     </component>
-    <component id="n5" name="r0" src="au3n6o" pkg="nk9ejx23" xy="5,33" size="108,20"/>
-    <component id="n6" name="r1" src="au3n6o" pkg="nk9ejx23" xy="116,33" size="107,20"/>
-    <component id="n8" name="setToParent" src="au3n4b" pkg="nk9ejx23" xy="179,6" size="20,20" tooltips="设置关联目标为父元件">
-      <Button icon="ui://2pshu6oivb5vu7q"/>
+    <component id="n5" name="r0" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="5,33" size="108,20"/>
+    <component id="n6" name="r1" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="116,33" size="107,20"/>
+    <component id="n8" name="setToParent" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="179,6" size="20,20" tooltips="设置关联目标为父元件">
+      <Button icon="ui://2pshu6oismkeiucg"/>
     </component>
-    <image id="n9" name="n9" src="au3n6s" pkg="nk9ejx23" xy="5,6" size="170,21">
+    <image id="n9" name="n9" src="au3n6s" fileName="Input/p16.png" pkg="nk9ejx23" xy="5,6" size="170,21">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n13" name="n13" xy="8,8" size="53,16" fontSize="12" color="#bdbdbd" text="点击设置">
+    <text id="n13" name="n13" xy="8,8" size="53,18" fontSize="12" color="#bdbdbd" text="点击设置">
       <gearDisplay controller="c1" pages="1"/>
     </text>
-    <component id="n15" name="target" src="gmjuiuan" xy="5,6" size="169,20" controller="hideClear,1"/>
+    <component id="n15" name="target" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="5,6" size="169,20" controller="hideClear,1"/>
   </displayList>
   <Button/>
 </component>

@@ -1,91 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="240,460" overflow="hidden">
   <displayList>
-    <component id="n57" name="bg" src="au3n4c" xy="0,0" size="240,460" locked="true">
+    <component id="n57" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="0,0" size="240,460" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="基本"/>
     </component>
-    <graph id="n61" name="n61" xy="3,27" size="232,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
-    <component id="n9" name="initName" src="gcza1s" pkg="nk9ejx23" xy="86,166" size="121,20"/>
-    <component id="n16" name="title" src="okou7w" pkg="nk9ejx23" xy="5,27">
+    <graph id="n61" name="n61" xy="3,24" size="203,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n9" name="initName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,166" size="121,20"/>
+    <component id="n16" name="title" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="31,25">
       <Button title="资源名称"/>
     </component>
     <text id="n17" name="n17" xy="4,168" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="初始名字"/>
     <text id="n24" name="n24" xy="4,50" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
     <text id="n26" name="n26" xy="106,49" size="47,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
-    <component id="n27" name="height" src="au3n69" pkg="nk9ejx23" xy="155,48" size="52,20">
+    <component id="n27" name="height" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="155,48" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n25" name="width" src="au3n69" pkg="nk9ejx23" xy="50,48" size="48,20">
+    <component id="n25" name="width" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="50,48" size="48,20">
       <Label title="100000"/>
     </component>
     <text id="n48" name="n48" xy="4,220" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="溢出处理"/>
-    <component id="n49" name="overflow2" src="gcza18" pkg="nk9ejx23" xy="86,218" size="120,20">
+    <component id="n49" name="overflow2" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,218" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n58" name="n58" xy="4,350" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="扩展"/>
-    <component id="n59" name="extentionId" src="gcza18" pkg="nk9ejx23" xy="86,348" size="120,20">
+    <component id="n59" name="extentionId" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,348" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <text id="n62" name="n62" xy="4,376" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="背景颜色"/>
-    <component id="n64" name="bgColorEnabled" src="xualt" pkg="nk9ejx23" xy="87,375"/>
-    <component id="n63" name="bgColor" src="p06b7x" pkg="nk9ejx23" xy="105,376"/>
-    <component id="n80" name="scrollEdit" src="au3n4b" pkg="nk9ejx23" xy="213,218" size="20,20">
+    <component id="n64" name="bgColorEnabled" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="87,375"/>
+    <component id="n63" name="bgColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="105,376"/>
+    <component id="n80" name="scrollEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="213,218" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <component id="n82" name="n82" src="ehmsu7z" xy="215,168" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
+    <component id="n82" name="n82" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="215,168" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
     <text id="n83" name="n83" xy="4,402" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义数据"/>
-    <component id="n84" name="customData" src="au3n6k" pkg="nk9ejx23" xy="86,400" size="149,55"/>
-    <component id="n85" name="clickThrough" src="dp4f7u" pkg="nk9ejx23" xy="95,193" size="106,19">
+    <component id="n84" name="remark" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="86,400" size="149,55" controller="showEditButton,1"/>
+    <component id="n85" name="clickThrough" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="95,193" size="106,19">
       <Button title="可穿透空白区域"/>
     </component>
     <text id="n86" name="n86" xy="4,194" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="点击穿透"/>
-    <component id="n87" name="n87" src="ehmsu7z" xy="215,193" tooltips="不勾选时，点击无法穿透组件的矩形范围。（推荐）&#xD;勾选时，点击可以穿透组件的空白区域。"/>
+    <component id="n87" name="n87" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="215,193" tooltips="不勾选时，点击无法穿透组件的矩形范围。（推荐）&#xD;勾选时，点击可以穿透组件的空白区域。"/>
     <text id="n88" name="n88" xy="4,122" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心X"/>
     <text id="n89" name="n89" xy="106,122" size="47,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心Y"/>
-    <component id="n90" name="pivotY" src="au3n69" pkg="nk9ejx23" xy="155,120" size="52,20">
+    <component id="n90" name="pivotY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="155,120" size="52,20">
       <Label title="100000"/>
     </component>
-    <component id="n91" name="pivotX" src="au3n69" pkg="nk9ejx23" xy="51,120" size="48,20">
+    <component id="n91" name="pivotX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="51,120" size="48,20">
       <Label title="100000"/>
     </component>
-    <component id="n92" name="n92" src="gcza2i" pkg="nk9ejx23" xy="213,120" size="19,19">
+    <component id="n92" name="n92" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="213,120" size="19,19">
       <Button icon="ui://2pshu6oipi83u6x"/>
     </component>
-    <component id="n93" name="anchor" src="dp4f7u" pkg="nk9ejx23" xy="50,144" size="94,19" tooltips="勾选后，轴心位置将作为元件的原点">
+    <component id="n93" name="anchor" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="50,144" size="94,19" tooltips="勾选后，轴心位置将作为元件的原点">
       <Button title="同时作为锚点"/>
     </component>
-    <component id="n94" name="fitSize" src="au3n4b" pkg="nk9ejx23" xy="213,49" size="20,20" tooltips="设置为最适合大小">
-      <Button icon="ui://2pshu6oivb5vu7q"/>
+    <component id="n94" name="fitSize" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="213,49" size="20,20" tooltips="设置为最适合大小">
+      <Button icon="ui://2pshu6oim9saiuce"/>
     </component>
-    <component id="n95" name="n95" src="ehmsu7z" xy="215,376" tooltips="仅用于辅助设计"/>
+    <component id="n95" name="n95" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="215,376" tooltips="仅用于辅助设计"/>
     <text id="n101_ruil" name="n101" xy="154,74" size="24,16" group="n109_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="-"/>
-    <component id="n102_ruil" name="maxWidth" src="au3n69" pkg="nk9ejx23" xy="181,72" size="41,20" group="n109_ruil">
+    <component id="n102_ruil" name="maxWidth" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="181,72" size="41,20" group="n109_ruil">
       <Label title="10000"/>
     </component>
     <text id="n103_ruil" name="n103" xy="34,74" size="75,16" group="n109_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽度限制"/>
-    <component id="n104_ruil" name="minWidth" src="au3n69" pkg="nk9ejx23" xy="111,72" size="41,20" group="n109_ruil">
+    <component id="n104_ruil" name="minWidth" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="111,72" size="41,20" group="n109_ruil">
       <Label title="10000"/>
     </component>
     <text id="n105_ruil" name="n105" xy="154,98" size="24,16" group="n109_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="-"/>
-    <component id="n106_ruil" name="maxHeight" src="au3n69" pkg="nk9ejx23" xy="181,96" size="41,20" group="n109_ruil">
+    <component id="n106_ruil" name="maxHeight" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="181,96" size="41,20" group="n109_ruil">
       <Label title="10000"/>
     </component>
     <text id="n107_ruil" name="n107" xy="34,98" size="75,16" group="n109_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高度限制"/>
-    <component id="n108_ruil" name="minHeight" src="au3n69" pkg="nk9ejx23" xy="111,96" size="41,20" group="n109_ruil">
+    <component id="n108_ruil" name="minHeight" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="111,96" size="41,20" group="n109_ruil">
       <Label title="10000"/>
     </component>
     <group id="n109_ruil" name="n109" xy="34,72" size="188,44" advanced="true"/>
-    <component id="n110_gmju" name="mask" src="gmjuiuan" xy="86,270" size="121,21" controller="hideClear,0"/>
+    <component id="n110_gmju" name="mask" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="86,270" size="121,21" controller="hideClear,0"/>
     <text id="n111_gmju" name="n111" xy="4,272" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义遮罩"/>
-    <component id="n112_gmju" name="hitTestSource" src="gmjuiuan" xy="86,322" size="121,21" controller="hideClear,0"/>
+    <component id="n112_gmju" name="hitTestSource" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="86,322" size="121,21" controller="hideClear,0"/>
     <text id="n113_gmju" name="n113" xy="4,324" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="像素点击测试"/>
-    <component id="n114_gmju" name="n114" src="ehmsu7z" xy="215,325" tooltips="可以选择容器内一个图片，在组件点击测试时，点击的坐标将映射到该图片中的坐标，&#xD;如果在该坐标的像素为透明，则点击穿透组件。"/>
-    <component id="n115_gmju" name="n115" src="ehmsu7z" xy="215,273" tooltips="可以选择容器内一个图形或者图片作为组件的遮罩。"/>
-    <component id="n116_b4yr" name="reversedMask" src="dp4f7u" pkg="nk9ejx23" xy="88,297" size="94,19">
+    <component id="n114_gmju" name="n114" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="215,325" tooltips="可以选择容器内一个图片，在组件点击测试时，点击的坐标将映射到该图片中的坐标，&#xD;如果在该坐标的像素为透明，则点击穿透组件。"/>
+    <component id="n115_gmju" name="n115" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="215,273" tooltips="可以选择容器内一个图形或者图片作为组件的遮罩。"/>
+    <component id="n116_b4yr" name="reversedMask" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="88,297" size="94,19">
       <Button title="反向（挖洞）"/>
     </component>
     <text id="n117_mfi3" name="n117" xy="4,246" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
-    <component id="n119_mfi3" name="margin" src="gcza1s" pkg="nk9ejx23" xy="86,244" size="120,20"/>
+    <component id="n119_mfi3" name="margin" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,244" size="120,20"/>
+    <component id="n120_rvv6" name="copyId" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="213,24" size="20,20" tooltips="复制资源URL到剪贴板">
+      <Button icon="ui://2pshu6oip6lhiubj"/>
+    </component>
+    <loader id="n121_rvv6" name="icon" xy="11,26" size="16,16" url="ui://2pshu6oiau3n1p" align="center" vAlign="middle"/>
   </displayList>
 </component>

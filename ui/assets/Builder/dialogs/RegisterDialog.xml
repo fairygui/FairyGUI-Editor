@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="486,250">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="486,250">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="输入授权码"/>
+    </component>
+    <component id="n45_p462" name="input" src="au3n6k" pkg="nk9ejx23" xy="6,27" size="473,166"/>
+    <component id="n40" name="ok" src="xualm" pkg="nk9ejx23" xy="167,215" size="66,25" group="n42_cdxv">
+      <Button title="确定"/>
+    </component>
+    <component id="n41" name="cancel" src="xualm" pkg="nk9ejx23" xy="252,215" size="66,25" group="n42_cdxv">
+      <Button title="取消"/>
+    </component>
+    <group id="n42_cdxv" name="n42" xy="167,215" size="151,25"/>
+    <image id="n43_11c6h" name="n43" src="au3n39" pkg="nk9ejx23" xy="1,203" size="482,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+</component>

@@ -4,11 +4,14 @@
     <graph id="n7" name="n7" xy="0,0" size="220,200" type="rect" lineColor="#ff151415" fillColor="#ff383838">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n18" name="titleBar" src="kwng7h" pkg="nk9ejx23" xy="0,0" size="220,20">
+    <component id="n18" name="titleBar" src="kwng7h" fileName="TitleBar/TitleBar.xml" pkg="nk9ejx23" xy="0,0" size="220,20">
       <relation target="" sidePair="width-width"/>
       <Button title="预览"/>
     </component>
     <text id="n16" name="desc" xy="7,23" size="203,16" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
-    <graph id="n17" name="holder" xy="8,45" size="204,148"/>
+    <graph id="n17" name="holder" xy="8,45" size="204,148">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n19_d1l0" name="play" src="d1l0iubo" fileName="basic/PlayButton.xml" xy="94,91" size="32,32"/>
   </displayList>
 </component>

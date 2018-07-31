@@ -1,37 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="674,400">
+<component size="514,450">
+  <controller name="controllerSettings" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="674,400">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="514,450">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="编辑列表"/>
     </component>
-    <graph id="n20" name="n20" xy="13,58" size="645,287" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n19" name="list" xy="13,78" size="645,267" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n56"/>
-    <component id="n38" name="n38" src="au3n57" xy="13,58" size="645,21" group="n35"/>
-    <group id="n35" name="n35" xy="13,58" size="645,287"/>
-    <component id="n28" name="n28" src="xualm" pkg="nk9ejx23" xy="14,28" size="67,25" group="n36">
+    <graph id="n20" name="n20" xy="10,58" size="246,341" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <list id="n19" name="list" xy="10,78" size="246,321" group="n35" overflow="scroll" scrollBarFlags="4" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n56">
+      <item/>
+      <item/>
+    </list>
+    <image id="n54_ioq6" name="n54" src="kwng7g" fileName="TitleBar/bar15.png" pkg="nk9ejx23" xy="10,58" size="246,21" group="n35">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n55_ioq6" name="n55" xy="11,59" size="242,18" group="n35" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
+    <group id="n35" name="n35" xy="10,58" size="246,341"/>
+    <component id="n28" name="add" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="11,28" size="67,25" group="n36">
       <Button title="增加"/>
     </component>
-    <component id="n29" name="n29" src="xualm" pkg="nk9ejx23" xy="84,28" size="67,25" group="n36">
+    <component id="n29" name="remove" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="81,28" size="67,25" group="n36">
       <Button title="删除"/>
     </component>
-    <component id="n31" name="n31" src="xualm" pkg="nk9ejx23" xy="154,28" size="67,25" group="n36">
+    <component id="n31" name="moveUp" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="151,28" size="67,25" group="n36">
       <Button title="上移"/>
     </component>
-    <component id="n32" name="n32" src="xualm" pkg="nk9ejx23" xy="224,28" size="67,25" group="n36">
+    <component id="n32" name="moveDown" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="221,28" size="67,25" group="n36">
       <Button title="下移"/>
     </component>
-    <group id="n36" name="n36" xy="14,28" size="277,25"/>
-    <image id="n37" name="n37" src="au3n39" pkg="nk9ejx23" xy="15,353" size="640,2"/>
-    <component id="n13" name="n13" src="xualm" pkg="nk9ejx23" xy="265,361" size="64,25" group="n39">
+    <group id="n36" name="n36" xy="11,28" size="277,25"/>
+    <image id="n37" name="n37" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="1,404" size="510,2"/>
+    <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="149,414" size="64,25" group="n39">
       <Button title="保存"/>
     </component>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="351,361" size="58,25" group="n39">
+    <component id="n14" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="307,414" size="58,25" group="n39">
       <Button title="取消"/>
     </component>
-    <group id="n39" name="n39" xy="265,361" size="144,25"/>
-    <component id="n40_q4xf" name="autoClear" src="dp4f7u" pkg="nk9ejx23" xy="536,31" size="106,19">
+    <component id="n53_uytn" name="apply" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="229,414" size="64,25" group="n39">
+      <Button title="应用"/>
+    </component>
+    <group id="n39" name="n39" xy="149,414" size="216,25"/>
+    <component id="n40_q4xf" name="autoClear" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="329,32" size="106,19">
       <Button title="发布时自动清空"/>
     </component>
+    <component id="n41_uytn" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="263,59" size="240,340" group="n46_uytn">
+      <Label title="属性"/>
+    </component>
+    <list id="n42_uytn" name="controllerSettings" xy="266,264" size="234,49" group="n43_uytn" selectionMode="none" lineGap="4" defaultItem="ui://2pshu6oimx0siu9v">
+      <item/>
+      <item/>
+    </list>
+    <group id="n43_uytn" name="n43" xy="266,264" size="234,49" group="n46_uytn" advanced="true">
+      <gearDisplay controller="controllerSettings" pages="1"/>
+    </group>
+    <component id="n47_uytn" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="349,84" size="149,20" group="n46_uytn"/>
+    <text id="n48_uytn" name="n48" xy="267,86" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n49_uytn" name="n49" xy="267,239" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
+    <component id="n50_uytn" name="selectedIcon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="349,238" size="149,20" group="n46_uytn"/>
+    <text id="n51_uytn" name="n51" xy="267,161" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
+    <component id="n52_uytn" name="selectedTitle" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="349,161" size="149,45" group="n46_uytn" controller="showEditButton,1"/>
+    <text id="n58_ioq6" name="n58" xy="267,111" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
+    <component id="n59_ioq6" name="title" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="349,110" size="149,45" group="n46_uytn" controller="showEditButton,1"/>
+    <text id="n60_ioq6" name="n60" xy="268,212" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <component id="n61_ioq6" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="349,212" size="149,20" group="n46_uytn"/>
+    <group id="n46_uytn" name="n46" xy="263,59" size="240,340"/>
   </displayList>
 </component>
