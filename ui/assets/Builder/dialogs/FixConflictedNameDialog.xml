@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="357,143">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="357,143">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="357,143">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="名称冲突"/>
     </component>
-    <text id="n1" name="n1" xy="17,36" size="317,16" fontSize="12" color="#bdbdbd" autoSize="none" text="名称"/>
-    <component id="n2" name="n2" src="gcza1s" pkg="nk9ejx23" xy="16,63" size="327,20"/>
-    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="70,98">
+    <text id="n1" name="n1" xy="17,36" size="317,18" fontSize="12" color="#bdbdbd" autoSize="none" text="名称"/>
+    <component id="n2" name="n2" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="16,63" size="327,20"/>
+    <component id="n3" name="n3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="70,98">
       <Button title="确定"/>
     </component>
-    <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="220,98">
+    <component id="n4" name="n4" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="220,98">
       <Button title="取消"/>
     </component>
   </displayList>

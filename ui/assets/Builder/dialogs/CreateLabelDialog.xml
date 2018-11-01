@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="360,200">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="360,200">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="360,200">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建标签"/>
     </component>
-    <text id="n1" name="n1" xy="9,34" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
-    <text id="n2" name="n2" xy="9,64" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="大小"/>
-    <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="74,34" size="235,20"/>
-    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="87,158">
+    <text id="n1" name="n1" xy="4,34" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n2" name="n2" xy="4,64" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="大小"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="74,34" size="235,20"/>
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="87,158">
       <Button title="创建"/>
     </component>
-    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="205,158">
+    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="205,158">
       <Button title="取消"/>
     </component>
-    <component id="n8" name="n8" src="gcza1s" pkg="nk9ejx23" xy="74,63"/>
+    <component id="n8" name="n8" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="74,63"/>
     <text id="n9" name="n9" xy="151,66" size="11,16" fontSize="12" color="#bdbdbd" autoSize="none" text="X"/>
-    <component id="n10" name="n10" src="gcza1s" pkg="nk9ejx23" xy="170,63"/>
-    <text id="n12" name="n12" xy="9,94" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="74,92" size="204,20"/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="282,89" size="69,25">
+    <component id="n10" name="n10" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="170,63"/>
+    <text id="n12" name="n12" xy="4,94" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="74,92" size="204,20"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="282,89" size="69,25">
       <Button title="浏览.."/>
     </component>
   </displayList>

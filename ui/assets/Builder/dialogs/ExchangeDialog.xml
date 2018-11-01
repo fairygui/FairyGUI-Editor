@@ -2,29 +2,29 @@
 <component size="300,129">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="300,129" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="300,129" locked="true">
       <relation target="" sidePair="height-height,width-width"/>
-      <Label title="交换元件"/>
+      <Label title="替换元件"/>
     </component>
-    <component id="n1" name="ok" src="xualm" pkg="nk9ejx23" xy="66,96">
+    <component id="n1" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="66,96">
       <Button title="确定"/>
     </component>
-    <component id="n5" name="target" src="au3n6j" pkg="nk9ejx23" xy="18,33" size="266,20"/>
-    <component id="n6" name="cancel" src="xualm" pkg="nk9ejx23" xy="164,96">
+    <component id="n5" name="target" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="18,33" size="266,20"/>
+    <component id="n6" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="164,96">
       <Button title="取消"/>
     </component>
-    <component id="n7_f613" name="text" src="au3n2i" xy="21,58">
+    <component id="n7_f613" name="text" src="au3n2i" fileName="basic/ToolButton.xml" xy="21,58">
       <Button icon="ui://2pshu6oiau3n1u"/>
     </component>
-    <component id="n8_f613" name="graph" src="au3n2i" xy="73,58">
+    <component id="n8_f613" name="graph" src="au3n2i" fileName="basic/ToolButton.xml" xy="73,58">
       <Button icon="ui://2pshu6oiau3n21"/>
     </component>
-    <component id="n10_f613" name="loader" src="au3n2i" xy="101,58">
+    <component id="n10_f613" name="loader" src="au3n2i" fileName="basic/ToolButton.xml" xy="101,58">
       <Button icon="ui://2pshu6oiau3n17"/>
     </component>
-    <component id="n11_f613" name="richtext" src="au3n2i" xy="46,58">
+    <component id="n11_f613" name="richtext" src="au3n2i" fileName="basic/ToolButton.xml" xy="46,58">
       <Button icon="ui://2pshu6oiau3n43"/>
     </component>
-    <image id="n12_f613" name="n12" src="au3n39" pkg="nk9ejx23" xy="12,85" size="275,2"/>
+    <image id="n12_f613" name="n12" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="12,85" size="275,2"/>
   </displayList>
 </component>

@@ -308,6 +308,7 @@
     <image id="u3n8iud6" name="move_up.png" path="/icons/"/>
     <component id="tezgiud9" name="TextInput_item2.xml" path="/dialogs/"/>
     <image id="dpcriuda" name="flag.png" path="/icons/"/>
+    <component id="lujbiudb" name="CreateWindowFrameDialog.xml" path="/dialogs/" exported="true"/>
   </resources>
   <publish name="builder" multiPage="false">
     <atlas name="默认纹理集" index="0"/>

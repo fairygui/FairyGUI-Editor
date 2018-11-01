@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="540,420">
-  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c1" pages="0,,1," selected="1"/>
   <displayList>
     <graph id="n25" name="n25" xy="0,0" size="540,420" type="rect" lineSize="0" lineColor="#ff151415" fillColor="#ff424242">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <graph id="n8" name="n8" xy="11,30" size="519,378" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <component id="n2" name="btnOpen" src="xualm" pkg="nk9ejx23" xy="436,369" group="n14">
+    <component id="n2" name="btnOpen" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="436,369" group="n14">
       <Button title="打开"/>
     </component>
-    <component id="n3" name="btnOpenOther" src="xualm" pkg="nk9ejx23" xy="27,370" size="126,25" group="n14">
+    <component id="n3" name="btnOpenOther" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="27,370" size="126,25" group="n14">
       <Button title="打开其他..."/>
     </component>
-    <text id="n6" name="n6" xy="21,38" size="125,16" group="n14" fontSize="12" color="#bdbdbd" text="选择最近打开的项目："/>
+    <text id="n6" name="n6" xy="21,38" size="125,18" group="n14" fontSize="12" color="#bdbdbd" text="选择最近打开的项目："/>
     <graph id="n5" name="n5" xy="19,60" size="503,299" group="n13" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <list id="n7" name="list" xy="20,61" size="502,298" group="n13" overflow="scroll" defaultItem="ui://nk9ejx23au3n4s"/>
     <group id="n13" name="n13" xy="19,60" size="503,299" group="n14"/>
-    <component id="n24" name="btnDelete" src="au3n4b" pkg="nk9ejx23" xy="496,33" size="23,23" group="n14" tooltips="删除历史记录">
+    <component id="n24" name="btnDelete" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="496,33" size="23,23" group="n14" tooltips="删除历史记录">
       <Button icon="ui://2pshu6oipsdnu6r"/>
     </component>
-    <component id="n27" name="btnOpenFolder" src="xualm" pkg="nk9ejx23" xy="173,370" size="126,25" group="n14">
+    <component id="n27" name="btnOpenFolder" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="173,370" size="126,25" group="n14">
       <Button title="打开目录..."/>
     </component>
     <group id="n14" name="n14" xy="19,33" size="503,362" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <text id="n15" name="n15" xy="18,44" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目名称"/>
-    <text id="n16" name="n16" xy="18,71" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目位置"/>
-    <component id="n17" name="name" src="gcza1s" pkg="nk9ejx23" xy="86,42" size="361,20" group="n23"/>
-    <component id="n18" name="path" src="gcza1s" pkg="nk9ejx23" xy="86,69" size="361,20" group="n23"/>
-    <component id="n19" name="btnBrowse" src="xualm" pkg="nk9ejx23" xy="455,67" size="64,25" group="n23">
+    <text id="n15" name="n15" xy="18,44" size="63,18" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目名称"/>
+    <text id="n16" name="n16" xy="18,71" size="63,18" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目位置"/>
+    <component id="n17" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,42" size="361,20" group="n23"/>
+    <component id="n18" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,69" size="361,20" group="n23"/>
+    <component id="n19" name="btnBrowse" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="455,67" size="64,25" group="n23">
       <Button title="浏览.."/>
     </component>
-    <component id="n20" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="432,364" group="n23">
+    <component id="n20" name="btnCreate" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="432,364" group="n23">
       <Button title="创建"/>
     </component>
-    <text id="n21" name="n21" xy="18,99" size="63,16" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目类型"/>
-    <component id="n22" name="type" src="gcza18" pkg="nk9ejx23" xy="86,97" size="282,20" group="n23">
-      <ComboBox visibleItemCount="10"/>
+    <text id="n21" name="n21" xy="18,99" size="63,18" group="n23" fontSize="12" color="#bdbdbd" align="right" autoSize="height" singleLine="true" text="项目类型"/>
+    <component id="n22" name="type" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,97" size="282,20" group="n23">
+      <ComboBox visibleItemCount="20"/>
     </component>
     <group id="n23" name="n23" xy="18,42" size="501,347" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <image id="n26" name="n26" src="au3n39" pkg="nk9ejx23" xy="12,29" size="517,2"/>
-    <component id="n10" name="n10" src="au3n6i" pkg="nk9ejx23" xy="11,9" size="63,22">
-      <Button checked="true" title="打开项目" controller="c1" page="0"/>
+    <image id="n26" name="n26" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="12,29" size="517,2"/>
+    <component id="n10" name="n10" src="au3n6i" fileName="Tab/TabButton.xml" pkg="nk9ejx23" xy="11,9" size="63,22">
+      <Button title="打开项目" controller="c1" page="0"/>
     </component>
-    <component id="n11" name="n11" src="au3n6i" pkg="nk9ejx23" xy="73,9" size="63,22">
+    <component id="n11" name="n11" src="au3n6i" fileName="Tab/TabButton.xml" pkg="nk9ejx23" xy="73,9" size="63,22">
       <relation target="n10" sidePair="left-right"/>
-      <Button title="创建项目" controller="c1" page="1"/>
+      <Button checked="true" title="创建项目" controller="c1" page="1"/>
     </component>
     <graph id="n33" name="n33" xy="0,0" size="540,420" group="n35" type="rect" lineSize="0" fillColor="#33000000"/>
-    <image id="n32" name="n32" src="gcza19" pkg="nk9ejx23" xy="63,86" size="414,180" group="n35"/>
-    <text id="n30" name="n30" xy="120,130" size="299,16" group="n35" fontSize="12" color="#ffffff" singleLine="true" text="正在升级项目，这可能需要几分钟时间，请耐心等候...">
+    <image id="n32" name="n32" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="63,86" size="414,180" group="n35"/>
+    <text id="n30" name="n30" xy="120,130" size="293,18" group="n35" fontSize="12" color="#ffffff" singleLine="true" text="正在升级项目，这可能需要几分钟时间，请耐心等候...">
       <relation target="" sidePair="center-center"/>
     </text>
-    <text id="n34" name="upgradeMsg" xy="230,190" size="83,16" group="n35" fontSize="12" color="#ffffff" singleLine="true" text="正在转换'xxx'">
+    <text id="n34" name="upgradeMsg" xy="230,190" size="77,18" group="n35" fontSize="12" color="#ffffff" singleLine="true" text="正在转换'xxx'">
       <relation target="" sidePair="center-center"/>
     </text>
-    <group id="n35" name="upgrade" xy="0,0" size="540,420" visible="false" advanced="true"/>
+    <group id="n35" name="upgrade" xy="0,0" size="540,420" hideByEditor="true" visible="false" advanced="true"/>
   </displayList>
 </component>

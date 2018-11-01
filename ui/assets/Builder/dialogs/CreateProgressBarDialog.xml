@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="608,407">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="608,407">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="608,407">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建进度条"/>
     </component>
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n1" name="n1" xy="223,35" size="64,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="名称"/>
-    <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="289,34" size="134,20"/>
-    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="321,367">
+    <text id="n1" name="n1" xy="223,35" size="64,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,34" size="134,20"/>
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="321,367">
       <Button title="创建"/>
     </component>
-    <component id="n7" name="n7" src="xualm" pkg="nk9ejx23" xy="447,367">
+    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="447,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="223,65" size="64,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" pkg="nk9ejx23" xy="289,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" pkg="nk9ejx23" xy="510,61" size="66,25">
+    <text id="n12" name="n12" xy="223,65" size="64,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,63" size="216,20"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="510,61" size="66,25">
       <Button title="浏览.."/>
     </component>
     <text id="n17" name="n17" xy="230,108" size="302,64" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="进度条由两部分组成&#xA;(1)进度条背景&#xA;(2)进度条伸缩部分"/>
-    <image id="n33" name="n33" src="au3n39" pkg="nk9ejx23" xy="224,96" size="367,2"/>
-    <image id="n34" name="n34" src="au3n39" pkg="nk9ejx23" xy="225,355" size="367,2"/>
-    <text id="n36" name="n36" xy="223,182" size="91,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="进度条背景"/>
-    <component id="n38" name="n38" src="au3n6j" pkg="nk9ejx23" xy="316,181" size="214,20"/>
-    <text id="n82" name="n82" xy="223,210" size="91,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="进度条伸缩部分"/>
-    <component id="n83" name="n83" src="au3n6j" pkg="nk9ejx23" xy="316,208" size="214,20"/>
-    <text id="n87" name="n87" xy="223,238" size="91,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="标题类型"/>
-    <component id="n88" name="titleType" src="gcza18" pkg="nk9ejx23" xy="316,235" size="129,20">
+    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,2"/>
+    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="225,355" size="367,2"/>
+    <text id="n36" name="n36" xy="223,182" size="91,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="进度条背景"/>
+    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="316,181" size="214,20"/>
+    <text id="n82" name="n82" xy="223,210" size="91,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="进度条伸缩部分"/>
+    <component id="n83" name="n83" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="316,208" size="214,20"/>
+    <text id="n87" name="n87" xy="223,238" size="91,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题类型"/>
+    <component id="n88" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="316,235" size="129,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n89" name="reverse" src="xualt" pkg="nk9ejx23" xy="295,267" size="95,19">
+    <component id="n89" name="reverse" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="295,267" size="95,19">
       <Button title="反向"/>
     </component>
-    <image id="n90" name="n90" src="hrh6u8d" xy="26,50"/>
+    <image id="n90" name="n90" src="hrh6u8d" fileName="images/Bitmap.png" xy="26,50"/>
   </displayList>
 </component>

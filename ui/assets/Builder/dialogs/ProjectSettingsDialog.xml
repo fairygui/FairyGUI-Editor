@@ -11,7 +11,7 @@
     <component id="n8" name="projectName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="293,28" size="200,20" group="n16"/>
     <text id="n34" name="n34" xy="151,58" size="137,18" group="n16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="项目类型"/>
     <component id="n35" name="projectType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="293,56" size="200,20" group="n16">
-      <ComboBox visibleItemCount="10"/>
+      <ComboBox visibleItemCount="20"/>
     </component>
     <component id="n88_cvd8" name="publishDepEnabled" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="157,99" size="190,19" group="n16">
       <Button title="发布时一并发布修改过的其它包"/>
@@ -30,12 +30,12 @@
     <component id="n36" name="chooseFont" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="455,29" size="20,20" group="n40">
       <Button icon="ui://2pshu6oiau3n4l"/>
     </component>
-    <component id="n26" name="fontSizeScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,142" size="336,125" group="n40"/>
+    <component id="n26" name="fontSizeScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,142" size="336,125" group="n40" controller="showEditButton,0"/>
     <text id="n33" name="n33" xy="153,120" size="348,18" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="文字大小方案（每行一个记录，每行格式为“记录名 字体大小”）"/>
     <component id="n49" name="disableFontAdjustment" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="348,58" size="142,19" group="n40">
       <Button title="禁用字体渲染位置优化"/>
     </component>
-    <component id="n83_s8d3" name="fontScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,296" size="336,125" group="n40"/>
+    <component id="n83_s8d3" name="fontScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,296" size="336,125" group="n40" controller="showEditButton,0"/>
     <text id="n84_s8d3" name="n84" xy="153,274" size="348,18" group="n40" fontSize="12" color="#bdbdbd" autoSize="none" text="字体方案（每行一个记录，每行格式为“记录名 字体名称”）"/>
     <image id="n85_s8d3" name="n85" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="152,110" size="348,2" group="n40">
       <relation target="" sidePair="width-width"/>
@@ -68,7 +68,7 @@
     <group id="n46" name="n46" xy="162,31" size="324,329" advanced="true">
       <gearDisplay controller="c1" pages="5"/>
     </group>
-    <component id="n25" name="colorScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,77" size="336,333" group="n56_vbrg"/>
+    <component id="n25" name="colorScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="154,77" size="336,333" group="n56_vbrg" controller="showEditButton,0"/>
     <text id="n32" name="n32" xy="155,30" size="53,18" group="n56_vbrg" fontSize="12" color="#bdbdbd" text="颜色方案"/>
     <text id="n59_vbrg" name="n59" xy="155,54" size="235,18" group="n56_vbrg" fontSize="12" color="#bdbdbd" text="每行一个记录，每行格式为“记录名 颜色值”"/>
     <group id="n56_vbrg" name="n56" xy="154,30" size="336,380" advanced="true">

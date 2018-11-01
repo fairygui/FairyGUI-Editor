@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="429,21">
+<component size="453,20">
   <displayList>
-    <image id="n11" name="n11" src="kwng7g" fileName="TitleBar/bar15.png" pkg="nk9ejx23" xy="0,0" size="429,21">
+    <image id="n11" name="n11" src="kwng7g" fileName="TitleBar/bar15.png" pkg="nk9ejx23" xy="0,0" size="453,20">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n3" name="n3" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="146,1" size="2,19"/>
-    <image id="n14" name="n14" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="279,1" size="2,19"/>
-    <text id="n12" name="n12" xy="149,2" size="126,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="文本"/>
-    <text id="n0" name="n0" xy="0,2" size="144,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
-    <text id="n13" name="n13" xy="282,2" size="127,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图标"/>
+    <image id="n3" name="n3" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="173,1" size="2,19"/>
+    <image id="n14" name="n14" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="304,1" size="2,19"/>
+    <text id="n12" name="n12" xy="176,2" size="126,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题"/>
+    <text id="n0" name="n0" xy="30,2" size="139,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
+    <text id="n13" name="n13" xy="309,2" size="127,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图标"/>
   </displayList>
 </component>

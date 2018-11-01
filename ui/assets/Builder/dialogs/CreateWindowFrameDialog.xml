@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="414,241">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="414,241" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="创建窗口框架"/>
+    </component>
+    <text id="n1" name="n1" xy="5,33" size="95,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="105,31" size="216,20"/>
+    <text id="n12" name="n12" xy="5,63" size="95,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="105,61" size="216,20"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="328,59" size="60,25">
+      <Button title="浏览.."/>
+    </component>
+    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="2,191" size="408,2"/>
+    <text id="n36" name="n36" xy="5,92" size="95,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="窗口背景"/>
+    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="105,89" size="216,20"/>
+    <text id="n104_lujb" name="n104" xy="5,122" size="95,36" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="窗口关闭按钮&#xA;（可选）"/>
+    <component id="n105_lujb" name="n105" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="105,119" size="216,20"/>
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="101,203" group="n106_lujb">
+      <Button title="创建"/>
+    </component>
+    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="227,203" group="n106_lujb">
+      <Button title="取消"/>
+    </component>
+    <group id="n106_lujb" name="n106" xy="101,203" size="211,25"/>
+    <component id="n107_lujb" name="n107" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="108,164" size="112,19">
+      <Button title="创建文本标题"/>
+    </component>
+    <component id="n108_lujb" name="n108" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="227,164" size="112,19">
+      <Button title="创建图形标题"/>
+    </component>
+  </displayList>
+</component>

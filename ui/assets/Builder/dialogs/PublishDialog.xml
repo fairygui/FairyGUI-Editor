@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="722,500">
-  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox,5,Haxe,6,Pixi,7,Cocos2dx,8,Cry,9,Vision" selected="0"/>
-  <controller name="global" pages="0,包设置,1,全局设置" selected="0"/>
+  <controller name="project_type" pages="0,Flash,1,Unity,2,Starling,3,Egret,4,Layabox,5,Haxe,6,Pixi,7,Cocos2dx,8,Cry,9,Vision,10,MonoGame" selected="0"/>
+  <controller name="global" pages="0,包设置,1,全局设置" selected="1"/>
   <controller name="global_package_count" pages="0,一个包,1,两个包" selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="722,500" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="722,500" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="发布设置"/>
     </component>
     <graph id="n1" name="n1" xy="12,30" size="182,416" group="n122_r6vk" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
     <list id="n26" name="pkgs" xy="12,30" size="182,416" group="n122_r6vk" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
     <group id="n122_r6vk" name="n122" xy="12,30" size="182,416"/>
-    <component id="n4" name="close" src="xualm" pkg="nk9ejx23" xy="630,462" size="80,25">
+    <component id="n4" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="630,462" size="80,25">
       <Button title="关闭"/>
     </component>
-    <component id="n25" name="publish" src="xualm" pkg="nk9ejx23" xy="535,462" size="80,25">
+    <component id="n25" name="publish" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="535,462" size="80,25">
       <Button title="发布"/>
     </component>
-    <component id="n35" name="publishAll" src="xualm" pkg="nk9ejx23" xy="21,462" size="115,25">
+    <component id="n35" name="publishAll" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="21,462" size="115,25">
       <Button title="全部发布"/>
     </component>
-    <component id="n53" name="publishDesc" src="xualm" pkg="nk9ejx23" xy="378,462" size="140,25">
+    <component id="n53" name="publishDesc" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="378,462" size="140,25">
       <Button title="仅发布定义"/>
     </component>
-    <component id="n28" name="path" src="gcza1s" pkg="nk9ejx23" xy="289,60" size="353,20" group="n69"/>
+    <component id="n28" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,60" size="353,20" group="n69"/>
     <text id="n29" name="n29" xy="201,35" size="83,18" group="n69" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="文件名"/>
-    <component id="n30" name="fileName" src="gcza1s" pkg="nk9ejx23" xy="289,33" size="218,20" group="n69"/>
-    <component id="n33" name="browse1" src="xualm" pkg="nk9ejx23" xy="647,58" size="69,25" group="n69">
+    <component id="n30" name="fileName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,33" size="218,20" group="n69"/>
+    <component id="n33" name="browse1" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="647,58" size="69,25" group="n69">
       <Button title="浏览"/>
     </component>
-    <component id="n67" name="excludedSettings" src="xualm" pkg="nk9ejx23" xy="289,296" size="140,25" group="n69">
+    <component id="n67" name="excludedSettings" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="289,296" size="140,25" group="n69">
       <Button title="资源排除设置..."/>
     </component>
     <text id="n88" name="n88" xy="201,61" size="83,18" group="n69" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
-    <component id="n89" name="useGlobalPath" src="rm0l7v" pkg="nk9ejx23" xy="289,87" size="94,19" group="n69">
+    <component id="n89" name="useGlobalPath" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="289,87" size="94,19" group="n69">
       <Button checked="true" title="使用全局设置"/>
     </component>
-    <component id="n61" name="atlasSettings" src="xualm" pkg="nk9ejx23" xy="289,253" size="140,25" group="n69">
-      <gearDisplay controller="project_type" pages="1,2,3,4,6,7,8,9"/>
+    <component id="n61" name="atlasSettings" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="289,253" size="140,25" group="n69">
+      <gearDisplay controller="project_type" pages="1,2,3,4,6,7,8,9,10"/>
       <Button title="纹理集定义..."/>
     </component>
-    <component id="n66" name="genCode" src="dp4f7u" pkg="nk9ejx23" xy="289,183" size="106,19" group="n94">
+    <component id="n66" name="genCode" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="289,183" size="106,19" group="n94">
       <Button title="为本包生成代码"/>
     </component>
     <text id="n91" name="n91" xy="201,183" size="83,18" group="n94" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="生成代码"/>
-    <image id="n118" name="n118" src="au3n39" pkg="nk9ejx23" xy="210,173" size="494,2" group="n94"/>
+    <image id="n118" name="n118" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="210,173" size="494,2" group="n94"/>
     <group id="n94" name="n94" xy="201,173" size="503,29" group="n69" advanced="true">
       <gearXY controller="project_type" pages="0,1,2,3,4,5" values="201,173|201,112|201,171|201,112|201,112|201,173" default="201,112"/>
     </group>
-    <component id="n93" name="useGlobalPkgCount" src="rm0l7v" pkg="nk9ejx23" xy="289,148" size="94,19" group="n95">
+    <component id="n93" name="useGlobalPkgCount" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="289,148" size="94,19" group="n95">
       <Button checked="true" title="使用全局设置" page="0"/>
     </component>
     <text id="n31" name="n31" xy="201,125" size="83,18" group="n95" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="打包方式"/>
-    <component id="n116" name="packageCount" src="gcza18" pkg="nk9ejx23" xy="289,123" size="176,20" group="n95">
+    <component id="n116" name="packageCount" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="289,123" size="176,20" group="n95">
       <ComboBox visibleItemCount="10">
         <item title="两个包（定义文件包+资源包）" value="2"/>
         <item title="一个包" value="1"/>
       </ComboBox>
     </component>
-    <image id="n117" name="n117" src="au3n39" pkg="nk9ejx23" xy="210,112" size="494,2" group="n95"/>
+    <image id="n117" name="n117" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="210,112" size="494,2" group="n95"/>
     <group id="n95" name="n95" xy="201,112" size="503,55" group="n69" advanced="true">
       <gearDisplay controller="project_type" pages="0,2,5"/>
     </group>
@@ -66,66 +66,71 @@
       <gearDisplay controller="global" pages="0"/>
     </group>
     <text id="n70" name="n70" xy="203,62" size="85,18" group="n86" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="导出目录"/>
-    <component id="n71" name="globalPath" src="gcza1s" pkg="nk9ejx23" xy="294,60" size="346,20" group="n86"/>
-    <component id="n74" name="browse2" src="xualm" pkg="nk9ejx23" xy="645,58" size="69,25" group="n86">
+    <component id="n71" name="globalPath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="294,60" size="346,20" group="n86"/>
+    <component id="n74" name="browse2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="645,58" size="69,25" group="n86">
       <Button title="浏览"/>
     </component>
-    <component id="n75" name="n75" src="gcza13" pkg="nk9ejx23" xy="296,121" size="186,19" group="n78">
+    <component id="n75" name="n75" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="296,121" size="186,19" group="n78">
       <Button title="两个包（定义文件包+资源包）" controller="global_package_count" page="1"/>
     </component>
-    <component id="n76" name="n76" src="gcza13" pkg="nk9ejx23" xy="296,147" size="58,19" group="n78">
+    <component id="n76" name="n76" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="296,147" size="58,19" group="n78">
       <Button checked="true" title="一个包" controller="global_package_count" page="0"/>
     </component>
     <text id="n77" name="n77" xy="203,122" size="88,18" group="n78" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="打包方式"/>
     <group id="n78" name="n78" xy="203,121" size="307,45" group="n86" advanced="true">
       <gearDisplay controller="project_type" pages="0,2"/>
     </group>
-    <text id="n80" name="n80" xy="203,92" size="86,18" group="n114" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="压缩包扩展名"/>
-    <component id="n81" name="globalZipExt" src="gcza1s" pkg="nk9ejx23" xy="294,90" size="61,20" group="n114"/>
+    <text id="n80" name="n80" xy="203,92" size="86,18" group="n114" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="扩展名"/>
+    <component id="n81" name="globalZipExt" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="294,90" size="61,20" group="n114"/>
     <group id="n114" name="n114" xy="203,90" size="152,20" group="n86" advanced="true">
       <gearDisplay controller="project_type" pages="0,2,3,4,5,6"/>
     </group>
     <graph id="n112" name="n112" xy="204,190" size="509,210" group="n115" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <component id="n113" name="n113" src="au3n6i" pkg="nk9ejx23" xy="204,170" size="87,22" group="n115" touchable="false">
+    <component id="n113" name="n113" src="au3n6i" fileName="Tab/TabButton.xml" pkg="nk9ejx23" xy="204,170" size="87,22" group="n115" touchable="false">
       <Button checked="true" title="代码发布设置" titleColor="#bdbdbd" page="0"/>
     </component>
     <text id="n98" name="n98" xy="213,216" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="代码保存路径"/>
-    <component id="n99" name="codePath" src="gcza1s" pkg="nk9ejx23" xy="340,214" size="300,20" group="n115"/>
+    <component id="n99" name="codePath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="340,214" size="300,20" group="n115"/>
     <text id="n100" name="n100" xy="213,246" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="组件名前缀"/>
-    <component id="n101" name="classNamePrefix" src="gcza1s" pkg="nk9ejx23" xy="340,245" size="300,20" group="n115"/>
+    <component id="n101" name="classNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="340,245" size="300,20" group="n115"/>
     <text id="n102" name="n102" xy="213,276" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="成员名称前缀"/>
-    <component id="n103" name="memberNamePrefix" src="gcza1s" pkg="nk9ejx23" xy="340,275" size="300,20" group="n115"/>
+    <component id="n103" name="memberNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="340,275" size="300,20" group="n115"/>
     <text id="n104" name="n104" xy="213,350" size="120,18" group="n115" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包名称"/>
-    <component id="n105" name="codePackageName" src="gcza1s" pkg="nk9ejx23" xy="340,349" size="300,20" group="n115"/>
-    <component id="n106" name="browse3" src="xualm" pkg="nk9ejx23" xy="647,212" size="60,25" group="n115">
+    <component id="n105" name="codePackageName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="340,349" size="300,20" group="n115"/>
+    <component id="n106" name="browse3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="647,212" size="60,25" group="n115">
       <Button title="浏览"/>
     </component>
-    <component id="n107" name="ignoreNoname" src="rm0l7v" pkg="nk9ejx23" xy="343,301" size="166,19" group="n115">
+    <component id="n107" name="ignoreNoname" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="343,301" size="166,19" group="n115">
       <Button title="不生成使用默认名称的成员"/>
     </component>
-    <component id="n110" name="getMemberByName" src="rm0l7v" pkg="nk9ejx23" xy="343,324" size="142,19" group="n115">
+    <component id="n110" name="getMemberByName" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="343,324" size="142,19" group="n115">
       <Button title="使用名称获取成员对象"/>
     </component>
     <text id="n108" name="n108" xy="213,377" size="120,18" group="n120_p23d" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="代码类型"/>
-    <component id="n109" name="codeType" src="gcza18" pkg="nk9ejx23" xy="341,375" size="147,20" group="n120_p23d">
+    <component id="n109" name="codeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="341,375" size="147,20" group="n120_p23d">
       <ComboBox visibleItemCount="10"/>
     </component>
     <group id="n120_p23d" name="n120" xy="213,375" size="275,20" group="n115" advanced="true">
       <gearDisplay controller="project_type" pages="4"/>
     </group>
     <group id="n115" name="n115" xy="204,170" size="509,230" group="n86"/>
-    <component id="n121_sqzs" name="compressDesc" src="rm0l7v" pkg="nk9ejx23" xy="368,91" size="94,19" group="n86">
-      <gearDisplay controller="project_type" pages="3,4"/>
+    <component id="n121_sqzs" name="compressDesc" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="385,92" size="94,19" group="n86">
+      <gearDisplay controller="project_type" pages="3,4,6"/>
       <Button title="压缩描述文件"/>
+    </component>
+    <component id="n123_mmp1" name="binaryFormat" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="385,115" size="106,19" group="n86">
+      <gearDisplay controller="project_type" pages="1,3,4,6,7"/>
+      <gearXY controller="project_type" pages="1,7,8,9" values="294,98|294,98|294,98|294,98" default="385,115"/>
+      <Button title="使用二进制格式"/>
     </component>
     <group id="n86" name="n86" xy="203,58" size="511,342" advanced="true">
       <gearDisplay controller="global" pages="1"/>
     </group>
-    <component id="n68" name="globalSettings" src="okou7w" pkg="nk9ejx23" xy="620,30" size="90,18">
+    <component id="n68" name="globalSettings" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="614,30" size="96,18">
       <gearText controller="global" pages="1" values="&lt;&lt;返回包设置" default="编辑全局设置"/>
       <relation target="" sidePair="right-right"/>
-      <Button title="编辑全局设置"/>
+      <Button title="&lt;&lt;返回包设置"/>
     </component>
-    <image id="n119_vbrg" name="n119" src="au3n39" pkg="nk9ejx23" xy="0,451" size="719,2"/>
+    <image id="n119_vbrg" name="n119" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="0,451" size="719,2"/>
   </displayList>
 </component>

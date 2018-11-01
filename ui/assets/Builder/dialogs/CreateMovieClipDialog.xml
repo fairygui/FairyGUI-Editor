@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="364,200">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="364,200">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="364,200">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建动画"/>
     </component>
-    <text id="n1" name="n1" xy="12,36" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="动画名称"/>
-    <component id="n3" name="n3" src="gcza1s" pkg="nk9ejx23" xy="81,34" size="204,20"/>
-    <component id="n6" name="btnCreate" src="xualm" pkg="nk9ejx23" xy="85,158">
+    <text id="n1" name="n1" xy="8,36" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="动画名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="81,34" size="204,20"/>
+    <component id="n6" name="btnCreate" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="85,158">
       <Button title="创建"/>
     </component>
-    <component id="n7" name="btnCancel" src="xualm" pkg="nk9ejx23" xy="203,158">
+    <component id="n7" name="btnCancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="203,158">
       <Button title="取消"/>
     </component>
-    <text id="n8" name="n8" xy="13,64" size="62,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="创建位置"/>
-    <component id="n9" name="n9" src="gcza1s" pkg="nk9ejx23" xy="81,61" size="204,20"/>
-    <component id="n10" name="n10" src="xualm" pkg="nk9ejx23" xy="290,59" size="66,25">
+    <text id="n8" name="n8" xy="8,64" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n9" name="n9" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="81,61" size="204,20"/>
+    <component id="n10" name="n10" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="290,59" size="66,25">
       <Button title="浏览.."/>
     </component>
   </displayList>

@@ -2,26 +2,26 @@
 <component size="419,190">
   <controller name="c1" pages="0,,1,,2," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="419,190" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="419,190" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="粘贴项目"/>
     </component>
     <graph id="n43" name="n43" xy="13,29" size="395,117" type="rect" lineColor="#ff151415" fillColor="#00ff99cc"/>
-    <component id="n37" name="n37" src="gcza13" pkg="nk9ejx23" xy="70,63" size="126,19">
+    <component id="n37" name="n37" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="70,63" size="58,19">
       <Button checked="true" title="重命名" controller="c1" page="0"/>
     </component>
-    <component id="n38" name="n38" src="gcza13" pkg="nk9ejx23" xy="70,90" size="126,19">
+    <component id="n38" name="n38" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="70,90" size="46,19">
       <Button title="替换" controller="c1" page="1"/>
     </component>
-    <text id="n42" name="n42" xy="19,35" size="379,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="同名元件处理"/>
-    <component id="n3" name="n3" src="xualm" pkg="nk9ejx23" xy="102,155" group="n44">
+    <text id="n42" name="n42" xy="19,35" size="379,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="同名元件处理"/>
+    <component id="n3" name="n3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="102,155" group="n44">
       <Button title="确定"/>
     </component>
-    <component id="n4" name="n4" src="xualm" pkg="nk9ejx23" xy="231,155" group="n44">
+    <component id="n4" name="n4" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="231,155" group="n44">
       <Button title="取消"/>
     </component>
     <group id="n44" name="n44" xy="102,155" size="214,25"/>
-    <component id="n45" name="n45" src="gcza13" pkg="nk9ejx23" xy="70,118" size="126,19">
+    <component id="n45" name="n45" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="70,118" size="46,19">
       <Button title="跳过" controller="c1" page="2"/>
     </component>
   </displayList>
