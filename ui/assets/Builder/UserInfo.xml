@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="34,24">
+  <controller name="c1" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n139_gcfv" name="n139" xy="4,0" size="24,24" type="eclipse" lineColor="#ffa0a0a0" fillColor="#ff3f3f3f" corner="10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n138_gcfv" name="n138" xy="6,1" size="20,22" url="ui://2pshu6oigcfvixicun" align="center" vAlign="middle">
+      <gearIcon controller="c1" pages="1" values="ui://2pshu6oigcfvixicun" default="ui://2pshu6oigcfvixicuk"/>
+    </loader>
+  </displayList>
+</component>

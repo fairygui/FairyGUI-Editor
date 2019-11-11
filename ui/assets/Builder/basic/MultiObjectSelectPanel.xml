@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="266,384">
+  <displayList>
+    <image id="n0_ht85" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="266,384">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_ht85" name="n1" xy="3,3" size="257,376" overflow="scroll" scrollBarFlags="4" margin="1,1,1,1" defaultItem="ui://nk9ejx23ofk56x" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="Test" icon="ui://2pshu6oiau3n1l"/>
+      <item title="Test" icon="ui://2pshu6oimclsiubu"/>
+      <item title="Test" icon="ui://2pshu6oiau3n1p"/>
+    </list>
+  </displayList>
+</component>

@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="498,488">
+<component size="479,600">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="498,488">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="479,600">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="选择字体"/>
     </component>
-    <graph id="n20" name="n20" xy="10,58" size="477,374" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n19" name="list" xy="10,58" size="477,374" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oif5apiu8i"/>
-    <group id="n35" name="n35" xy="10,58" size="477,374"/>
+    <graph id="n20" name="n20" xy="11,58" size="455,492" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="12,59" size="453,490" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oif5apiu8i" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <group id="n35" name="n35" xy="11,58" size="455,492"/>
     <component id="n42" name="globalSetting" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="15,31" size="90,18">
       <Button title="全局字体设置"/>
     </component>
-    <component id="n40" name="select" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="132,449" size="66,25" group="n45_u4wx">
+    <component id="n40" name="select" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="123,562" size="66,25" group="n45_u4wx">
       <Button title="选择"/>
     </component>
-    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="299,449" size="66,25" group="n45_u4wx">
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="290,562" size="66,25" group="n45_u4wx">
       <Button title="取消"/>
     </component>
-    <component id="n43_s8d3" name="copy" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="216,449" size="66,25" group="n45_u4wx">
+    <component id="n43_s8d3" name="copy" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="207,562" size="66,25" group="n45_u4wx">
       <Button title="复制"/>
     </component>
-    <group id="n45_u4wx" name="n45" xy="132,449" size="233,25"/>
+    <group id="n45_u4wx" name="n45" xy="123,562" size="233,25"/>
   </displayList>
 </component>

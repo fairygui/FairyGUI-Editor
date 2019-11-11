@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,22" extention="Button">
+  <controller name="bg" exported="true" pages="0,,1," selected="0"/>
+  <controller name="type" exported="true" pages="0,,1,,2," selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n2_u2dk" name="n2" xy="0,0" size="400,18" type="rect" lineSize="0" fillColor="#ff414141">
+      <gearDisplay controller="bg" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n4_rl37" name="n4" src="au3n50" fileName="List/images/listitem_selected.png" pkg="nk9ejx23" xy="0,0" size="400,22" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n0_ngyq" name="title" xy="32,1" size="368,18" fontSize="12" color="#bdbdbd" ubb="true" autoSize="height" text="text">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+    <loader id="n1_u2dk" name="icon" xy="2,0" size="24,20" url="ui://2pshu6oiu2dkixictr" align="center" vAlign="middle">
+      <gearIcon controller="type" pages="0,1,2" values="ui://2pshu6oiu2dkixictr|ui://2pshu6oiu2dkixictp|ui://2pshu6oiu2dkixictq"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+  <relation target="n0_ngyq" sidePair="height-height"/>
+</component>

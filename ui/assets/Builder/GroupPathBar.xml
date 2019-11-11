@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,26">
+  <displayList>
+    <graph id="n54" name="n54" xy="0,0" size="102,26" type="rect" lineColor="#9e66ccff" fillColor="#9e003366" corner="5">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <list id="n51" name="list" xy="44,0" size="55,24" layout="row" overflow="hidden" defaultItem="ui://nk9ejx23dp9p97">
+      <item icon="ui://2pshu6oiau3n1h"/>
+      <item icon="ui://2pshu6oiau3n1h"/>
+    </list>
+    <text id="n56" name="n56" xy="5,4" size="41,18" fontSize="12" color="#bdbdbd" text="组导航"/>
+  </displayList>
+  <relation target="n51" sidePair="rightext-right"/>
+</component>

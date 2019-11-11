@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="112,23" idnum="3" extention="Slider">
+<component size="113,12" extention="Slider">
   <displayList>
-    <image id="n0" name="n0" src="gcza29" xy="0,0" aspect="true">
+    <graph id="n2" name="bg" xy="0,6" size="112,2" type="rect" lineSize="0" fillColor="#ff555555">
       <relation target="" sidePair="width-width"/>
-    </image>
-    <image id="n2" name="bar" src="gcza28" xy="5,9" size="100,6">
-      <relation target="n0" sidePair="width-width"/>
-    </image>
-    <component id="n1" name="grip" src="gcza2f" xy="101,2">
-      <relation target="n2" sidePair="right-right"/>
+    </graph>
+    <graph id="n3_kbvs" name="bar" xy="0,6" size="112,2">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n1" name="grip" src="gcza2f" fileName="Slider/SliderArrow_HZ.xml" xy="105,1" size="10,10">
+      <relation target="n3_kbvs" sidePair="right-right"/>
     </component>
   </displayList>
   <Slider/>

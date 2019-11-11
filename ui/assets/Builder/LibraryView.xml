@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,580" designImageOffsetX="-428" designImageAlpha="100" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <graph id="n12_qilr" name="n12" xy="0,26" size="283,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n5_qilr" name="btnCollapseAll" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="258,1" size="22,22" group="n9_qilr" tooltips="全部折叠">
+      <Button icon="ui://2pshu6oibfc35y"/>
+    </component>
+    <component id="n6_qilr" name="btnRefresh" src="so5uixicsd" fileName="basic/RefreshButton.xml" xy="162,1" size="22,22" group="n9_qilr" tooltips="刷新">
+      <Button icon="ui://2pshu6oiih9xiua2"/>
+    </component>
+    <component id="n7_qilr" name="btnSync" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="210,1" size="22,22" group="n9_qilr" tooltips="与编辑器链接">
+      <Button icon="ui://2pshu6oiq5hgiubb"/>
+    </component>
+    <component id="n13_emg4" name="btnTwoColumn" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="234,1" size="22,22" group="n9_qilr" tooltips="两栏显示">
+      <Button icon="ui://2pshu6oiemg4ixictv"/>
+    </component>
+    <component id="n8_qilr" name="btnLocate" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="186,1" size="22,22" group="n9_qilr" tooltips="定位当前文档">
+      <Button icon="ui://2pshu6oik8kliuag"/>
+    </component>
+    <group id="n9_qilr" name="n9" xy="162,1" size="118,22" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n11_qilr" name="group" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="5,3" size="136,20" restrictSize="0,200,0,0">
+      <relation target="" sidePair="width-width"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <list id="n3" name="treeView" xy="0,27" size="179,553" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" autoClearItems="true" treeView="true" indent="15" clickToExpand="2">
+      <relation target="" sidePair=""/>
+      <item title="Package" icon="ui://2pshu6oiptssa7iug6" level="0"/>
+      <item title="Folder" icon="ui://2pshu6oin8o8a7iug2" level="1"/>
+      <item title="Component" icon="ui://2pshu6oiau3n1p" level="2"/>
+      <item title="Button" icon="ui://2pshu6oiau3n1l" level="2"/>
+      <item title="Image" icon="ui://2pshu6oiau3n22" level="2"/>
+      <item title="MovieClip" icon="ui://2pshu6oiau3n1e" level="2"/>
+      <item title="Swf" icon="ui://2pshu6oig5gnixics7" level="2"/>
+      <item title="Font" icon="ui://2pshu6oiau3n4l" level="2"/>
+      <item title="Label" icon="ui://2pshu6oimclsiuby" level="2"/>
+      <item title="ComboBox" icon="ui://2pshu6oimclsiubu" level="2"/>
+      <item title="ProgressBar" icon="ui://2pshu6oimclsiubw" level="2"/>
+      <item title="Slider" icon="ui://2pshu6oimclsiubx" level="2"/>
+      <item title="ScrollBar" icon="ui://2pshu6oiitz3iuc3" level="2"/>
+      <item title="Branch" icon="ui://2pshu6oipzcca7iuir" level="1"/>
+      <item title="Folder" icon="ui://2pshu6oin8o8a7iug2" level="2"/>
+      <item title="Misc" icon="ui://2pshu6oik1m2a7iuiy" level="3"/>
+      <item title="Sound" icon="ui://2pshu6oig5gnixics8" level="3"/>
+    </list>
+    <component id="n14_emg4" name="sep" src="e80aixictx" fileName="LibView_sep.xml" xy="179,27" restrictSize="4,4,0,0" group="n16_emg4"/>
+    <list id="n15_emg4" name="listView" xy="183,27" size="100,553" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23d8p07iuek"/>
+    <group id="n16_emg4" name="columns" xy="0,27" size="283,553" advanced="true" layout="hz" excludeInvisibles="true" autoSizeDisabled="true" mainGridIndex="2">
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+  </displayList>
+</component>

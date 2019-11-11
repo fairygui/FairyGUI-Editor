@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,27" extention="Label">
+  <displayList>
+    <graph id="n93_qilr" name="n93" xy="0,1" size="78,26" type="rect" lineColor="#9e66ccff" fillColor="#9e003366" corner="5">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n94_qilr" name="title" xy="6,5" size="15,18" fontSize="12" color="#bdbdbd" text="t0"/>
+    <graph id="n95_qilr" name="n95" xy="28,6" size="1,16" group="n98_qilr" type="rect" lineColor="#9e66ccff"/>
+    <text id="n96_qilr" name="n96" xy="34,5" size="37,18" group="n98_qilr" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="退出"/>
+    <group id="n98_qilr" name="n98" xy="28,5" size="43,18" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+  <relation target="n94_qilr" sidePair="width-width"/>
+</component>

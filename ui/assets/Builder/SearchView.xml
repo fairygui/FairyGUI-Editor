@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,580" designImageOffsetX="-428" designImageAlpha="100" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n3" name="list" xy="0,59" size="283,521" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <graph id="n12_qilr" name="n12" xy="0,58" size="283,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n13_n5mh" name="keyword" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="19,10" size="192,20" controller="noBorder,0,showClear,0"/>
+    <component id="n17_ml2h" name="find" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="222,10">
+      <Button icon="ui://2pshu6oic3ppiu9h"/>
+    </component>
+    <text id="n18_ml2h" name="result" xy="20,36" size="231,18" fontSize="12" color="#bdbdbd" vars="true" autoSize="none" text="{count=4}个结果"/>
+  </displayList>
+</component>

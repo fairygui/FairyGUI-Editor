@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="402,65" bgColorEnabled="true" bgColor="#3f3f3f">
-  <controller name="type" pages="0,play_transition,1,change_page" selected="0"/>
+<component size="396,69" extention="Button" bgColorEnabled="true" bgColor="#3f3f3f">
+  <controller name="type" exported="true" pages="0,play_transition,1,change_page" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n65_5yy4" name="n65" xy="0,64" size="402,1" locked="true" type="rect" lineColor="#ff333333" fillColor="#00ffffff">
-      <relation target="" sidePair="width-width"/>
+    <graph id="n65_5yy4" name="n65" xy="0,0" size="396,69" type="rect" lineColor="#ff555555" fillColor="#00383838">
+      <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n58_5yy4" name="n58" xy="22,8" size="42,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="从"/>
-    <component id="n59_5yy4" name="fromPage" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="73,6" size="115,20"/>
-    <text id="n60_5yy4" name="n60" xy="196,8" size="42,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="到"/>
-    <component id="n61_5yy4" name="toPage" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="244,6" size="115,20"/>
-    <component id="n64_5yy4" name="delete" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,6" size="20,20" tooltips="删除">
-      <Button icon="ui://2pshu6oipsdnu6r"/>
-    </component>
-    <text id="n68_qqmo" name="n68" xy="3,39" size="96,16" fontSize="12" color="#d19036" align="center" autoSize="none" text="播放动效">
+    <graph id="n85_dp9p" name="n85" xy="0,0" size="396,69" type="rect" lineColor="#ff4583cc" fillColor="#40383838">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n58_5yy4" name="n58" xy="20,8" size="42,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="从"/>
+    <component id="n59_5yy4" name="fromPage" src="dp9p7iufl" fileName="basic/ControllerMultiPageInput2.xml" xy="67,6" size="135,20"/>
+    <text id="n60_5yy4" name="n60" xy="207,8" size="42,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="到"/>
+    <component id="n61_5yy4" name="toPage" src="dp9p7iufl" fileName="basic/ControllerMultiPageInput2.xml" xy="254,6" size="135,20"/>
+    <text id="n68_qqmo" name="n68" xy="20,39" size="82,18" fontSize="12" color="#bdbdbd" autoSize="none" text="播放动效">
       <gearText controller="type" pages="1" values="切换页面" default="播放动效"/>
     </text>
-    <component id="n69_qqmo" name="transitionName" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="105,36" size="185,20" group="n78_jz5v"/>
-    <group id="n78_jz5v" name="n78" xy="105,36" size="185,20" advanced="true">
+    <component id="n69_qqmo" name="transitionName" src="nbr4iudh" fileName="basic/TransitionInput.xml" xy="105,38" size="153,20" group="n78_jz5v"/>
+    <component id="n94_dp9p" name="edit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="267,38" group="n78_jz5v"/>
+    <group id="n78_jz5v" name="n78" xy="105,38" size="184,22" advanced="true">
       <gearDisplay controller="type" pages="0"/>
     </group>
-    <component id="n79_g0r8" name="controllerName" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="105,36" size="178,20" group="n82_g0r8"/>
-    <component id="n83_g0r8" name="targetPage" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="287,36" size="110,20" group="n82_g0r8"/>
-    <group id="n82_g0r8" name="n82" xy="105,36" size="292,20" advanced="true">
+    <component id="n79_g0r8" name="controllerName" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="105,38" size="163,20" group="n82_g0r8"/>
+    <component id="n83_g0r8" name="targetPage" src="zn3piude" fileName="basic/ControllerPageInput.xml" xy="274,38" size="114,20" group="n82_g0r8"/>
+    <group id="n82_g0r8" name="n82" xy="105,38" size="283,20" advanced="true">
       <gearDisplay controller="type" pages="1"/>
     </group>
-    <component id="n76_gy5o" name="edit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="298,37" size="20,20">
-      <gearDisplay controller="type" pages="0"/>
-      <Button icon="ui://2pshu6oix5ao5k"/>
-    </component>
+    <graph id="n86_dp9p" name="n86" xy="0,0" size="10,69" type="rect" lineColor="#ff4583cc" fillColor="#ff4583cc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height"/>
+    </graph>
   </displayList>
+  <Button mode="Radio"/>
 </component>

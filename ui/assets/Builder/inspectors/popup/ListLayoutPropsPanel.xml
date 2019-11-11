@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="293,103">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="293,103">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n131_byix" name="autoResizeItem" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,16" size="144,19">
+      <Button title="自动调整列表项目大小"/>
+    </component>
+    <component id="n132_byix" name="n132" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="163,17" tooltips="如果勾选，&#xD;1、列表布局为单列，则列表项目的宽度自动设置为列表显示区域的宽度；&#xD;2、列表布局为单行，则列表项目的高度自动设置为列表显示区域的高度；&#xD;3、列表布局为水平流动，且设置了列数时，则每行内的列表项目的宽度自动调整使行宽与列表显示区域的宽度相等；&#xD;4、列表布局为垂直流动，且设置了行数时，则每列内的项目的高度自动调整使行高与列表显示区域的高度相等；&#xD;5、列表布局为分页，则3、4规则均适用。">
+      <relation target="n131_byix" sidePair="left-right"/>
+    </component>
+    <component id="n133_tkc0" name="foldInvisibleItems" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,41" size="108,19">
+      <Button title="折叠隐藏的项目"/>
+    </component>
+    <component id="n134_tkc0" name="scrollItemToViewOnClick" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,66" size="204,19">
+      <Button title="点击项目时自动滚动到它全部可见"/>
+    </component>
+  </displayList>
+</component>

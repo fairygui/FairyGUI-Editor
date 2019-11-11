@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,146" bgColorEnabled="true" bgColor="#383838">
+  <controller name="transType" pages="0,XY,1,Size,2,Alpha,3,Rotation,4,Scale,6,Color,7,Animation,8,Pivot,9,Controller,10,Sound,11,Transition,12,Shake,13,Visible,14,ColorFilter,15,Skew,16,Text,17,Icon" selected="0"/>
+  <controller name="positionInPercent" pages="0,,1," selected="0"/>
+  <controller name="usePath" pages="0,,1," selected="1"/>
+  <controller name="pathEditing" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n79" name="xEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="10,14" size="31,19" group="n16">
+      <Button title="X"/>
+    </component>
+    <component id="n80" name="yEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="116,14" size="32,19" group="n16">
+      <Button title="Y"/>
+    </component>
+    <component id="n13" name="x" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="43,13" size="55,20" group="n16">
+      <Label title="100000"/>
+    </component>
+    <component id="n15" name="y" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="150,13" size="55,20" group="n16">
+      <Label title="100000"/>
+    </component>
+    <component id="n124" name="n124" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="232,14" group="n16" tooltips="如果不勾选，表示不改变当前的值"/>
+    <component id="n148_qkqy" name="usePath" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="10,84" size="84,19" group="n16">
+      <Button checked="true" title="使用引导线" controller="usePath" page="1"/>
+    </component>
+    <component id="n150_r1st" name="positionInPercent" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="10,58" size="132,19" group="n16">
+      <Button title="使用百分比记录坐标" controller="positionInPercent" page="1"/>
+    </component>
+    <text id="n151_r1st" name="px" xy="43,35" size="55,16" group="n16" fontSize="10" color="#bdbdbd" align="center" autoSize="none" text="(100%)">
+      <gearDisplay controller="positionInPercent" pages="1"/>
+    </text>
+    <text id="n152_r1st" name="py" xy="151,34" size="55,16" group="n16" fontSize="10" color="#bdbdbd" align="center" autoSize="none" text="(100%)">
+      <gearDisplay controller="positionInPercent" pages="1"/>
+    </text>
+    <component id="n161_m89o" name="pathEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="100,83" group="n16" tooltips="编辑引导线">
+      <gearDisplay controller="usePath" pages="1"/>
+      <relation target="n148_qkqy" sidePair="left-right"/>
+      <Button icon="ui://2pshu6oifcq3ixicup"/>
+    </component>
+    <group id="n16" name="n16" xy="10,13" size="238,92" advanced="true">
+      <gearDisplay controller="transType" pages="0"/>
+    </group>
+    <component id="n81" name="widthEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="10,14" size="47,19" group="n26">
+      <Button title="宽"/>
+    </component>
+    <component id="n82" name="heightEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="104,14" size="47,19" group="n26">
+      <Button title="高"/>
+    </component>
+    <component id="n21" name="width" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="41,13" size="52,20" group="n26">
+      <Label title="100000"/>
+    </component>
+    <component id="n20" name="height" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="133,13" size="52,20" group="n26">
+      <Label title="100000"/>
+    </component>
+    <component id="n125" name="n125" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="191,15" group="n26" tooltips="如果不勾选，表示不改变当前的值"/>
+    <group id="n26" name="n26" xy="10,13" size="197,20" advanced="true">
+      <gearDisplay controller="transType" pages="1"/>
+    </group>
+    <text id="n40" name="n40" xy="10,15" size="59,18" group="n42" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="透明度"/>
+    <component id="n41" name="alpha" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="70,13" size="33,20" group="n42">
+      <Label title="100"/>
+    </component>
+    <group id="n42" name="n42" xy="10,13" size="93,20" advanced="true">
+      <gearDisplay controller="transType" pages="2"/>
+    </group>
+    <text id="n43" name="n43" xy="10,15" size="64,18" group="n45" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="旋转"/>
+    <component id="n44" name="rotation" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="76,13" size="45,20" group="n45">
+      <Label title="0"/>
+    </component>
+    <group id="n45" name="n45" xy="10,13" size="111,20" advanced="true">
+      <gearDisplay controller="transType" pages="3"/>
+    </group>
+    <text id="n46" name="n46" xy="5,13" size="54,18" group="n48" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n47" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="60,13" group="n48"/>
+    <group id="n48" name="n48" xy="5,13" size="110,16" advanced="true">
+      <gearDisplay controller="transType" pages="6"/>
+    </group>
+    <component id="n83" name="frameEnabled" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="10,14" size="36,19" group="n52">
+      <Button title="帧"/>
+    </component>
+    <component id="n49" name="playing" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="133,14" size="48,19" group="n52">
+      <Button title="播放"/>
+    </component>
+    <component id="n51" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="62,13" group="n52"/>
+    <group id="n52" name="n52" xy="10,13" size="171,20" advanced="true">
+      <gearDisplay controller="transType" pages="7"/>
+    </group>
+    <text id="n54" name="n54" xy="6,16" size="49,18" group="n63" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="ScaleX"/>
+    <text id="n55" name="n55" xy="112,16" size="52,18" group="n63" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="ScaleY"/>
+    <component id="n56" name="scaleY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="165,14" size="48,20" group="n63">
+      <Label title="1"/>
+    </component>
+    <component id="n57" name="scaleX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="57,14" size="49,20" group="n63">
+      <Label title="1"/>
+    </component>
+    <group id="n63" name="n63" xy="6,14" size="207,20" advanced="true">
+      <gearDisplay controller="transType" pages="4"/>
+    </group>
+    <text id="n64" name="n64" xy="5,15" size="48,18" group="n68" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="轴心X"/>
+    <text id="n65" name="n65" xy="105,15" size="46,18" group="n68" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="轴心Y"/>
+    <component id="n66" name="pivotY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="154,13" size="44,20" group="n68">
+      <Label title="100000"/>
+    </component>
+    <component id="n67" name="pivotX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="57,13" size="44,20" group="n68">
+      <Label title="100000"/>
+    </component>
+    <component id="n126" name="selectPivot" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="200,13" size="19,19" group="n68">
+      <Button icon="ui://2pshu6oipi83u6x"/>
+    </component>
+    <group id="n68" name="n68" xy="5,13" size="214,20" advanced="true">
+      <gearDisplay controller="transType" pages="8"/>
+    </group>
+    <text id="n77" name="n77" xy="10,43" size="211,60" group="n71" fontSize="12" color="#bdbdbd" autoSize="none" text="格式name=index或者name=$page，例如c1=1,c1=$up，多个设置用逗号分隔。"/>
+    <component id="n121" name="controllerSetting" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="11,12" size="204,20" group="n71" controller="noBorder,0,showClear,0"/>
+    <group id="n71" name="n71" xy="10,12" size="211,91" advanced="true">
+      <gearDisplay controller="transType" pages="9"/>
+    </group>
+    <text id="n90" name="n90" xy="5,15" size="53,18" group="n92" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="声音"/>
+    <component id="n91" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="60,13" size="160,20" group="n92"/>
+    <text id="n100" name="n100" xy="5,42" size="53,18" group="n92" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="音量"/>
+    <component id="n101" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="60,41" size="50,20" group="n92">
+      <Label title="100"/>
+    </component>
+    <group id="n92" name="n92" xy="5,13" size="215,48" advanced="true">
+      <gearDisplay controller="transType" pages="10"/>
+    </group>
+    <text id="n93" name="n93" xy="5,15" size="66,18" group="n95" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="动效名称"/>
+    <component id="n94" name="transName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="74,13" size="131,20" group="n95" controller="noBorder,0,showClear,0"/>
+    <text id="n96" name="n96" xy="5,42" size="66,18" group="n95" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="播放次数"/>
+    <component id="n97" name="transTimes" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="74,39" size="50,20" group="n95">
+      <Label title="1"/>
+    </component>
+    <text id="n103" name="n103" xy="12,67" size="206,38" group="n95" fontSize="12" color="#bdbdbd" autoSize="none" text="(0表示停止播放，-1表示无限次数)"/>
+    <group id="n95" name="n95" xy="5,13" size="213,92" advanced="true">
+      <gearDisplay controller="transType" pages="11"/>
+    </group>
+    <text id="n115" name="n115" xy="4,16" size="82,18" group="n114" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="震动幅度"/>
+    <text id="n117" name="n117" xy="4,42" size="82,18" group="n114" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="持续时间"/>
+    <component id="n118" name="shakeAmplitude" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="88,14" size="65,20" group="n114"/>
+    <component id="n119" name="shakePeriod" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="88,39" size="65,20" group="n114"/>
+    <group id="n114" name="n114" xy="4,14" size="149,46" advanced="true">
+      <gearDisplay controller="transType" pages="12"/>
+    </group>
+    <component id="n122" name="visible" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="14,14" size="48,19" group="n123">
+      <Button title="可见"/>
+    </component>
+    <group id="n123" name="n123" xy="14,14" size="48,19" advanced="true">
+      <gearDisplay controller="transType" pages="13"/>
+    </group>
+    <text id="n128" name="n128" xy="8,9" size="66,18" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
+    <component id="n129" name="filter_cb" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="78,8" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n130" name="n130" xy="123,9" size="66,18" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对比度"/>
+    <component id="n131" name="filter_cc" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="193,8" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n132" name="n132" xy="8,31" size="66,18" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="饱和度"/>
+    <component id="n133" name="filter_cs" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="78,30" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <text id="n134" name="n134" xy="123,31" size="66,18" group="n136" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="色相"/>
+    <component id="n135" name="filter_ch" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="193,30" size="40,20" group="n136">
+      <Label title="100"/>
+    </component>
+    <group id="n136" name="n136" xy="8,8" size="225,42" advanced="true">
+      <gearDisplay controller="transType" pages="14"/>
+    </group>
+    <text id="n137" name="n137" xy="6,16" size="49,18" group="n141" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="倾斜X"/>
+    <text id="n138" name="n138" xy="112,16" size="52,18" group="n141" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="倾斜Y"/>
+    <component id="n139" name="skewY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="165,14" size="48,20" group="n141">
+      <Label title="1"/>
+    </component>
+    <component id="n140" name="skewX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="57,14" size="49,20" group="n141">
+      <Label title="1"/>
+    </component>
+    <group id="n141" name="n141" xy="6,14" size="207,20" advanced="true">
+      <gearDisplay controller="transType" pages="15"/>
+    </group>
+    <component id="n142_lry0" name="textValue" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="5,5" size="259,113" controller="showEditButton,1">
+      <gearDisplay controller="transType" pages="16"/>
+    </component>
+    <text id="n145_lry0" name="n145" xy="4,10" size="80,18" group="n147_lry0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
+    <component id="n146_lry0" name="iconValue" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,8" size="175,20" group="n147_lry0"/>
+    <group id="n147_lry0" name="n147" xy="4,8" size="257,20" advanced="true">
+      <gearDisplay controller="transType" pages="17"/>
+    </group>
+    <text id="n153_ol93" name="n153" xy="19,112" size="80,18" group="n160_ol93" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选定点"/>
+    <component id="n157_ol93" name="pointX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="104,111" size="69,20" group="n160_ol93" controller="xy,0"/>
+    <component id="n158_ol93" name="pointY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="181,111" size="69,20" group="n160_ol93" controller="xy,1"/>
+    <group id="n160_ol93" name="n160" xy="19,111" size="231,20" advanced="true">
+      <gearDisplay controller="usePath" pages="1"/>
+      <gearDisplay2 controller="pathEditing" pages="1" condition="0"/>
+    </group>
+  </displayList>
+</component>

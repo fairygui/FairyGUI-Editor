@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,143" bgColorEnabled="true" bgColor="#383838">
+  <controller name="layer" pages="0,底层,1,顶层" selected="0"/>
+  <displayList>
+    <component id="n9" name="src" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,6" size="152,20"/>
+    <text id="n17" name="n17" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
+    <text id="n61" name="n61" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="偏移"/>
+    <component id="n63" name="offsetX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,32" size="67,20" controller="xy,0"/>
+    <component id="n64" name="offsetY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="172,32" size="67,20" controller="xy,1"/>
+    <text id="n65" name="n65" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="透明度"/>
+    <component id="n66" name="alpha" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,58" size="39,20"/>
+    <component id="n67" name="n67" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="155,85" size="46,19">
+      <Button title="顶层" controller="layer" page="1"/>
+    </component>
+    <component id="n68" name="layer" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="91,85" size="46,19">
+      <Button checked="true" title="底层" controller="layer" page="0"/>
+    </component>
+    <component id="n69" name="n69" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,8" tooltips="为方便拼接界面，可以在这里为组件指定设计图。&#xD;设计图以半透明的方式显示在底层或顶层（均不影响正常操作），使用F4可切换。&#xD;设计图只在设计期可见，不会发布到最终资源包中。"/>
+    <text id="n71" name="n71" xy="4,86" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="显示层次"/>
+    <component id="n72_bjbm" name="forTest" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="91,111" size="120,19">
+      <Button title="在测试视图中显示"/>
+    </component>
+  </displayList>
+</component>

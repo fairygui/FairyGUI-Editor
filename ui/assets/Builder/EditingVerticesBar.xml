@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="221,27" extention="Label">
+  <displayList>
+    <graph id="n93_qilr" name="n93" xy="0,1" size="220,26" type="rect" lineColor="#9e66ccff" fillColor="#9e003366" corner="5">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n94_qilr" name="title" xy="6,5" size="207,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="正在编辑路径，双击空白处可退出"/>
+  </displayList>
+  <relation target="n94_qilr" sidePair="width-width"/>
+</component>

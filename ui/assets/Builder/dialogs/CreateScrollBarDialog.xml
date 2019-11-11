@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="608,407">
-  <controller name="c1" pages="0,,1,,2,,3,,4," selected="4"/>
+<component size="608,415">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="0"/>
   <controller name="c4" pages="0,垂直,1,水平" selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="608,407">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="608,415">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建滚动条"/>
     </component>
-    <graph id="n16" name="n16" xy="6,29" size="213,339" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <graph id="n16" name="n16" xy="6,29" size="213,339" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
     <image id="n15" name="n15" src="fmz5u86" fileName="images/noname.png" xy="13,37"/>
-    <text id="n1" name="n1" xy="224,35" size="68,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="296,34" size="134,20"/>
-    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="384,366">
+    <text id="n1" name="n1" xy="224,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="307,34" size="122,20" controller="noBorder,0"/>
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="384,378">
       <gearDisplay controller="c1" pages="4"/>
       <Button title="创建"/>
     </component>
-    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="499,366">
+    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="499,378">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="224,65" size="68,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="296,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="517,61" size="66,25">
-      <Button title="浏览.."/>
+    <text id="n12" name="n12" xy="224,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="307,63" size="247,20" controller="noBorder,0"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="557,61" size="30,25">
+      <Button title="..."/>
     </component>
-    <component id="n18" name="n18" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="384,366">
+    <component id="n18" name="n18" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="384,378">
       <gearDisplay controller="c1" pages="0,1,2,3"/>
       <Button title="下一步"/>
     </component>
     <text id="n17" name="n17" xy="230,108" size="354,135" group="n31" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="滚动条由四部分组成&#xA;(1)向上/向左箭头按钮&#xA;(2)向下/向右箭头按钮&#xA;(3)滚动条背景&#xA;(4)把手按钮&#xA;其中上下/左右的箭头按钮在移动设备上不是必须的"/>
-    <component id="n64" name="n64" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="241,252" size="82,19" group="n31">
+    <component id="n64" name="n64" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="241,252" size="82,19" group="n31">
       <Button checked="true" title="垂直滚动条" controller="c4" page="0"/>
     </component>
-    <component id="n65" name="n65" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="344,252" size="82,19" group="n31">
+    <component id="n65" name="n65" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="344,252" size="82,19" group="n31">
       <Button title="水平滚动条" controller="c4" page="1"/>
     </component>
-    <component id="n66" name="n66" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="241,283" size="203,19" group="n31">
+    <component id="n66" name="n66" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="241,283" size="203,19" group="n31">
       <Button title="不创建箭头按钮"/>
     </component>
     <group id="n31" name="n31" xy="230,108" size="354,194" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,2"/>
-    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="225,355" size="367,2"/>
-    <text id="n32" name="n32" xy="225,106" size="154,18" group="n35" fontSize="12" color="#bdbdbd" text="第一步：设计向上/向左按钮"/>
+    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,1"/>
+    <text id="n32" name="n32" xy="225,106" size="153,18" group="n35" fontSize="12" color="#bdbdbd" text="第一步：设计向上/向左按钮"/>
     <text id="n30" name="n30" xy="232,137" size="209,18" group="n62" fontSize="12" color="#bdbdbd" autoSize="none" text="图片设置：（以下图片设置均为可选）"/>
     <text id="n19" name="n19" xy="232,162" size="138,18" group="n62" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="正常状态图片"/>
     <text id="n20" name="n20" xy="232,192" size="138,18" group="n62" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按下状态图片"/>
@@ -62,7 +61,7 @@
     <group id="n41" name="n41" xy="224,106" size="300,46" advanced="true">
       <gearDisplay controller="c1" pages="3"/>
     </group>
-    <text id="n42" name="n42" xy="225,106" size="154,18" group="n44" fontSize="12" color="#bdbdbd" text="第二步：设计向下/向右按钮"/>
+    <text id="n42" name="n42" xy="225,106" size="153,18" group="n44" fontSize="12" color="#bdbdbd" text="第二步：设计向下/向右按钮"/>
     <text id="n49" name="n49" xy="230,162" size="140,18" group="n59" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="正常状态图片"/>
     <text id="n50" name="n50" xy="230,192" size="140,18" group="n59" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按下状态图片"/>
     <text id="n51" name="n51" xy="230,222" size="140,18" group="n59" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="鼠标悬浮时图片"/>
@@ -77,7 +76,7 @@
     <group id="n44" name="n44" xy="225,106" size="361,164" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
     </group>
-    <component id="n63" name="n63" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="269,366">
+    <component id="n63" name="n63" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="269,378">
       <gearDisplay controller="c1" pages="1,2,3,4"/>
       <Button title="上一步"/>
     </component>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="121,22" extention="Button">
+<component size="121,22" extention="Button" bgColor="#bdbdbd">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="checked" pages="0,,1,,2," selected="0"/>
   <displayList>
-    <image id="n14" name="n14" src="kwng7m" xy="0,0" size="121,22">
+    <image id="n14" name="n14" src="kwng7m" fileName="Menu/a8.png" xy="0,0" size="121,22">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>

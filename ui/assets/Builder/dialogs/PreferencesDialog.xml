@@ -1,48 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="587,450">
-  <controller name="c1" pages="0,,1," selected="1"/>
+<component size="587,465">
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="587,450" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="587,465">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="偏好设置"/>
     </component>
-    <image id="n36" name="n36" src="au3n39" pkg="nk9ejx23" xy="1,405" size="583,2">
-      <relation target="" sidePair="width-width"/>
-    </image>
-    <component id="n15" name="cancel" src="xualm" pkg="nk9ejx23" xy="471,415">
+    <component id="n15" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="472,430">
       <Button title="关闭"/>
     </component>
-    <graph id="n42_g9yd" name="n42" xy="1,23" size="142,381" group="n44_g9yd" type="rect" lineSize="0" lineColor="#ff151415" fillColor="#ff4a4a4a"/>
-    <list id="n43_g9yd" name="tab" xy="1,23" size="142,381" group="n44_g9yd" margin="1,1,4,1" lineGap="4" defaultItem="ui://nk9ejx23au3n4s" selectionController="c1">
+    <graph id="n42_g9yd" name="n42" xy="1,23" size="142,394" group="n44_g9yd" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff3f3f3f"/>
+    <list id="n43_g9yd" name="tab" xy="2,24" size="140,392" group="n44_g9yd" margin="0,1,0,1" lineGap="4" defaultItem="ui://nk9ejx23au3n4s" selectionController="c1">
       <item title="通用"/>
       <item title="热键设置"/>
     </list>
-    <group id="n44_g9yd" name="n44" xy="1,23" size="142,381"/>
-    <text id="n33" name="n33" xy="158,31" size="295,18" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="导入时自动裁剪图片到最小包围"/>
-    <component id="n34" name="crop_resource" src="gcza18" pkg="nk9ejx23" xy="463,30" size="113,20" group="n45_g9yd">
+    <group id="n44_g9yd" name="n44" xy="1,23" size="142,394"/>
+    <text id="n39_htim" name="n39" xy="154,64" size="309,18" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="版本更新"/>
+    <component id="n40_htim" name="check_new_version" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="467,64" size="113,20" group="n45_g9yd">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n37" name="n37" xy="159,64" size="295,18" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="语言（需重启后生效）"/>
-    <component id="n38" name="language" src="gcza18" pkg="nk9ejx23" xy="463,63" size="113,20" group="n45_g9yd">
+    <text id="n37" name="n37" xy="154,32" size="309,18" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="界面语言（需重启后生效）"/>
+    <component id="n38" name="language" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="467,32" size="113,20" group="n45_g9yd">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n39_htim" name="n39" xy="159,95" size="295,18" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="版本更新"/>
-    <component id="n40_htim" name="check_new_version" src="gcza18" pkg="nk9ejx23" xy="463,95" size="113,20" group="n45_g9yd">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <group id="n45_g9yd" name="n45" xy="158,30" size="418,85" advanced="true">
+    <group id="n45_g9yd" name="n45" xy="154,32" size="426,52" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <image id="n46_g9yd" name="n46" src="au3n38" pkg="nk9ejx23" xy="145,22" size="2,383"/>
-    <graph id="n47_g9yd" name="n47" xy="151,27" size="427,343" group="n50_g9yd" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n48_g9yd" name="functionList" xy="151,47" size="427,323" group="n50_g9yd" selectionMode="none" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oig9ydiubg"/>
-    <component id="n49_g9yd" name="n49" src="g9ydiubf" xy="151,27" size="427,21" group="n50_g9yd"/>
-    <group id="n50_g9yd" name="n50" xy="151,27" size="427,343" group="n52_v3j1" advanced="true"/>
-    <component id="n51_v3j1" name="resetHotkeys" src="xualm" pkg="nk9ejx23" xy="441,375" size="126,25" group="n52_v3j1">
+    <graph id="n47_g9yd" name="n47" xy="151,28" size="427,343" group="n52_v3j1" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n48_g9yd" name="functionList" xy="152,49" size="425,321" group="n52_v3j1" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oig9ydiubg" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n51_v3j1" name="resetHotkeys" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="441,378" size="126,25" group="n52_v3j1">
       <Button title="恢复默认设置"/>
     </component>
-    <group id="n52_v3j1" name="n52" xy="151,27" size="427,373" advanced="true">
+    <image id="n57_mwte" name="n57" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="150,28" size="428,21" group="n61_mwte"/>
+    <image id="n58_mwte" name="n58" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="429,29" size="1,19" group="n61_mwte"/>
+    <text id="n59_mwte" name="n59" xy="151,30" size="273,18" group="n61_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="功能"/>
+    <text id="n60_mwte" name="n60" xy="431,30" size="145,18" group="n61_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="热键"/>
+    <group id="n61_mwte" name="n61" xy="150,28" size="428,21" group="n52_v3j1"/>
+    <group id="n52_v3j1" name="n52" xy="150,28" size="428,375" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
+    <image id="n55_dp9p" name="n55" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="144,23" size="1,395"/>
+    <image id="n56_dp9p" name="n56" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="1,418" size="584,1">
+      <relation target="" sidePair="width-width"/>
+    </image>
   </displayList>
 </component>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,362" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <component id="n127_r1st" name="maxWidth" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,53" size="71,20" controller="xy,2">
+      <Label title="10000"/>
+    </component>
+    <text id="n128_r1st" name="n128" xy="4,31" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最小尺寸"/>
+    <component id="n129_r1st" name="minWidth" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,29" size="72,20" controller="xy,2">
+      <Label title="10000"/>
+    </component>
+    <component id="n131_r1st" name="maxHeight" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="167,53" size="71,20" controller="xy,3">
+      <Label title="10000"/>
+    </component>
+    <component id="n132_r1st" name="minHeight" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="167,29" size="72,20" controller="xy,3">
+      <Label title="10000"/>
+    </component>
+    <component id="n9" name="initName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,123" size="152,20" controller="noBorder,0,showClear,0"/>
+    <text id="n17" name="n17" xy="4,124" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="初始名字"/>
+    <text id="n24" name="n24" xy="4,6" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="尺寸"/>
+    <component id="n27" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="167,4" size="71,20" controller="xy,3">
+      <Label title="100000"/>
+    </component>
+    <component id="n25" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,4" size="72,20" controller="xy,2">
+      <Label title="100000"/>
+    </component>
+    <text id="n48" name="n48" xy="4,150" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="溢出处理"/>
+    <component id="n49" name="overflow2" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,149" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n62" name="n62" xy="4,333" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="背景颜色"/>
+    <component id="n64" name="bgColorEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,331"/>
+    <component id="n63" name="bgColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="107,333"/>
+    <component id="n80" name="scrollEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="245,149" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+    <component id="n82" name="n82" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,124" tooltips="当此组件被拖入使用时，自动设置组件的“名称”属性为这里设置的值"/>
+    <text id="n88" name="n88" xy="4,78" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心"/>
+    <component id="n90" name="pivotY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="167,77" size="71,20" controller="xy,1">
+      <Label title="100000"/>
+    </component>
+    <component id="n91" name="pivotX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,78" size="72,20" controller="xy,0">
+      <Label title="100000"/>
+    </component>
+    <component id="n92" name="n92" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="247,77" size="19,19">
+      <Button icon="ui://2pshu6oipi83u6x"/>
+    </component>
+    <component id="n93" name="anchor" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="93,101" size="96,19" tooltips="勾选后，轴心位置将作为元件的原点">
+      <Button title="同时作为锚点"/>
+    </component>
+    <component id="n94" name="fitSize" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="246,4" size="20,20" tooltips="设置为最适合大小">
+      <Button icon="ui://2pshu6oim9saiuce"/>
+    </component>
+    <component id="n95" name="n95" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,332" tooltips="仅用于辅助设计"/>
+    <component id="n110_gmju" name="mask" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="87,201" size="152,21" controller="hideClear,0"/>
+    <text id="n111_gmju" name="n111" xy="4,202" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义遮罩"/>
+    <component id="n115_gmju" name="n115" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,203" tooltips="可以选择容器内一个图形或者图片作为组件的遮罩。"/>
+    <component id="n116_b4yr" name="reversedMask" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,228" size="96,19">
+      <Button title="反向（挖洞）"/>
+    </component>
+    <text id="n117_mfi3" name="n117" xy="4,176" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
+    <component id="n119_mfi3" name="margin" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,175" size="152,20" controller="noBorder,0,showClear,0"/>
+    <text id="n135_wqe7" name="n135" xy="4,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大尺寸"/>
+    <component id="n85" name="opaque" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="92,280" size="108,19">
+      <Button title="可穿透空白区域"/>
+    </component>
+    <text id="n86" name="n86" xy="4,281" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="点击穿透"/>
+    <component id="n87" name="n87" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,279" tooltips="不勾选时，点击无法穿透组件的矩形范围。（推荐）&#xD;勾选时，点击可以穿透组件的空白区域。"/>
+    <component id="n114_gmju" name="n114" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,256" tooltips="可以选择容器内一个图片或者图形。&#xD;如果为图片，在组件点击测试时，点击的坐标将映射到该图片中的坐标，如果在该坐标的像素为透明，则点击穿透组件。&#xD;如果为图形，则使用图形的形状进行点击测试。"/>
+    <text id="n113_gmju" name="n113" xy="4,255" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="点击测试"/>
+    <component id="n112_gmju" name="hitTestSource" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="87,254" size="152,21" controller="hideClear,0"/>
+    <text id="n58" name="n58" xy="4,307" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="扩展"/>
+    <component id="n59" name="extentionId" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,306" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

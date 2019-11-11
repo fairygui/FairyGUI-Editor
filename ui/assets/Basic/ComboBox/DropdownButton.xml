@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="100,20" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+<component size="100,20" extention="Button" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n1" name="n1" src="gcza15" xy="0,0" size="101,20">
-      <gearDisplay controller="button" pages="0"/>
+    <graph id="n12_phl6" name="n12" xy="0,0" size="100,20" type="rect" lineColor="#ff666666" fillColor="#ff454545">
+      <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n2" name="n2" src="gcza16" xy="0,0" size="101,20">
+    </graph>
+    <graph id="n13_phl6" name="n13" xy="0,0" size="100,20" type="rect" lineColor="#ff262424" fillColor="#ff454545">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n3" name="n3" src="gcza17" xy="0,0" size="101,20">
-      <gearDisplay controller="button" pages="2"/>
+    </graph>
+    <graph id="n14_phl6" name="n14" xy="0,0" size="100,20" type="rect" lineColor="#ff555555" fillColor="#00454545">
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n5" name="n5" src="fzqg7s" xy="0,0" size="101,20">
-      <gearDisplay controller="button" pages="4,5"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <text id="n4" name="title" xy="2,1" size="81,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
-      <gearColor controller="button" pages="4,5" values="#787b7b,#000000|#787b7b,#000000" default="#bdbdbd,#000000"/>
+    </graph>
+    <text id="n15_phl6" name="title" xy="2,1" size="78,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
+    <image id="n16_phl6" name="n16" src="e4p48q" fileName="ComboBox/dropdown_arrow.svg" xy="83,3">
+      <relation target="" sidePair="right-right"/>
+    </image>
   </displayList>
   <Button/>
 </component>

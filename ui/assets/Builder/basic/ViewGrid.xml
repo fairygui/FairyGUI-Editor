@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" bgColorEnabled="true" bgColor="#383838">
+  <controller name="mode" pages="0,,2," selected="0"/>
+  <controller name="tabLayout" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n2_7fi9" name="n2" xy="0,27" size="400,1" group="n15_j5yv" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n11_s4vj" name="n11" xy="0,399" size="400,1" group="n15_j5yv" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <graph id="n12_s4vj" name="n12" xy="0,0" size="1,400" group="n15_j5yv" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <graph id="n13_s4vj" name="n13" xy="399,27" size="1,373" group="n15_j5yv" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="height-height,right-right"/>
+    </graph>
+    <group id="n15_j5yv" name="border" xy="0,0" size="400,400" advanced="true">
+      <gearDisplay controller="mode" pages="0,1"/>
+    </group>
+    <list id="n0_7fi9" name="tab" xy="0,0" size="392,28" group="n16_j5yv" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="640" scrollBar="hidden" colGap="-1" defaultItem="ui://nk9ejx23au3n6v" autoClearItems="true">
+      <gearDisplay controller="tabLayout" pages="0"/>
+      <item title="库"/>
+      <item title="收藏夹"/>
+    </list>
+    <list id="n9_gzi6" name="tab2" xy="0,0" size="392,28" group="n16_j5yv" layout="flow_hz" scroll="horizontal" colGap="-1" lineItemCount="9999" defaultItem="ui://nk9ejx23gzi68p" autoItemSize="true" autoClearItems="true">
+      <gearDisplay controller="tabLayout" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+      <item title="库"/>
+      <item title="收藏夹"/>
+    </list>
+    <group id="n16_j5yv" name="topBar" xy="0,0" size="392,28" advanced="true">
+      <gearDisplay controller="mode" pages="0,1"/>
+    </group>
+    <component id="n5_r5uk" name="content" src="jluviudn" fileName="basic/ViewGrid_content.xml" xy="1,28" size="398,371">
+      <gearXY controller="mode" pages="0,2" values="1,28|0,0"/>
+      <gearSize controller="mode" pages="0,2" values="398,371,1,1|400,400,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

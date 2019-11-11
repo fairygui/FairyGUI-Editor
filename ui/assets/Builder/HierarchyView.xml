@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,200" bgColorEnabled="true" bgColor="#3f3f3f">
+  <displayList>
+    <list id="n21" name="list" xy="0,25" size="280,175" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oixl19iu8x" autoClearItems="true" treeView="true" indent="15" clickToExpand="0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item level="undefined"/>
+      <item level="undefined"/>
+    </list>
+    <graph id="n28_jvd5" name="n28" xy="21,0" size="1,24" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <graph id="n30_jvd5" name="n30" xy="0,24" size="280,1" type="rect" lineSize="0" fillColor="#ff292828">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n34_jvd5" name="expand" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="1,2" size="20,20" tooltips="全部展开/全部收起">
+      <Button icon="ui://nk9ejx23gcza2l" selectedIcon="ui://nk9ejx23gcza2p"/>
+    </component>
+    <graph id="n33_jvd5" name="n33" xy="220,0" size="1,24" group="n36_un0b" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <graph id="n26_jvd5" name="n26" xy="244,0" size="1,24" group="n36_un0b" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <component id="n27_jvd5" name="status" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="223,2" size="20,20" group="n36_un0b" tooltips="隐藏元件">
+      <Button icon="ui://2pshu6oiuzegu6a"/>
+    </component>
+    <component id="n29_jvd5" name="lock" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="247,2" size="20,20" group="n36_un0b" tooltips="锁定元件">
+      <Button icon="ui://2pshu6oiau3n1b"/>
+    </component>
+    <component id="n38_qilr" name="btnRelationDisabled" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="194,2" size="20,20" group="n36_un0b" tooltips="切换关联系统屏蔽状态（仅设计期有效）&#xD;屏蔽后，当手动修改元件坐标和大小时所有关联将不起作用。">
+      <Button icon="ui://2pshu6oiitz3iucb" selectedIcon="ui://2pshu6oiitz3iucc"/>
+    </component>
+    <component id="n39_qilr" name="btnShowAllInvisibles" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="169,2" size="20,20" group="n36_un0b" tooltips="显示所有被显示控制器隐藏的元件（仅设计期有效）&#xD;即所有显示控制器不起作用，方便查看所有被控制器隐藏的元件">
+      <Button icon="ui://2pshu6oiitz3iuca" selectedIcon="ui://2pshu6oiitz3iuc9"/>
+    </component>
+    <component id="n41_dp9p" name="rename" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="144,2" size="20,20" group="n36_un0b" tooltips="重命名(F2)">
+      <Button icon="ui://2pshu6oidp9p7iufi"/>
+    </component>
+    <group id="n36_un0b" name="n36" xy="144,0" size="123,24" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n37_li8o" name="warnings" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="26,2" size="20,20">
+      <Button icon="ui://2pshu6oik8kliuaf"/>
+    </component>
+    <component id="n42_dp9p" name="searchBar" src="dp9p7iufj" fileName="InlineSearchBar.xml" xy="237,28">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

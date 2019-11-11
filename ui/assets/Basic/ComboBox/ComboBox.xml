@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="100,20" extention="ComboBox">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n1" name="n1" src="gcza15" xy="0,0" size="101,21">
-      <gearDisplay controller="button" pages="0"/>
+    <graph id="n1" name="n1" xy="0,0" size="100,20" type="rect" lineColor="#ff515151" fillColor="#ff454545">
+      <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n2" name="n2" src="gcza16" xy="0,0" size="101,21">
+    </graph>
+    <graph id="n2" name="n2" xy="0,0" size="100,20" type="rect" lineColor="#ff292828" fillColor="#ff454545">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n3" name="n3" src="gcza17" xy="0,0" size="101,21">
-      <gearDisplay controller="button" pages="2"/>
+    </graph>
+    <graph id="n5" name="n5" xy="0,0" size="100,20" type="rect" lineColor="#ff555555" fillColor="#00454545">
+      <gearDisplay controller="grayed" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n5" name="n5" src="fzqg7s" xy="0,0" size="101,20">
-      <gearDisplay controller="button" pages="4,5"/>
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
+    </graph>
     <text id="n4" name="title" xy="2,1" size="78,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
-      <gearColor controller="button" pages="4,5" values="#787b7b,#000000|#787b7b,#000000" default="#bdbdbd,#000000"/>
+      <gearColor controller="grayed" pages="1" values="#878787,#000000" default="#bdbdbd,#000000"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
+    <image id="n6_e4p4" name="n6" src="e4p48q" fileName="ComboBox/dropdown_arrow.svg" xy="83,3">
+      <gearColor controller="grayed" pages="1" values="#a7a7a7" default="#ffffff"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
   </displayList>
   <ComboBox dropdown="ui://nk9ejx23gcza1a"/>
 </component>

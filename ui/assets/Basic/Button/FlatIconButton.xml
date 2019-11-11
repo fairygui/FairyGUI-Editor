@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="26,26" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+<component size="22,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="1"/>
   <displayList>
-    <image id="n7" name="n7" src="xualk" xy="0,0" size="26,26">
-      <gearDisplay controller="button" pages="1,2,3"/>
+    <graph id="n7" name="n7" xy="0,0" size="22,22" type="rect" lineColor="#ff515151" fillColor="#ff454545">
+      <gearDisplay controller="button" pages="2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <loader id="n4" name="icon" xy="0,0" size="26,26" align="center" vAlign="middle">
+    </graph>
+    <graph id="n8_gj1q" name="n8" xy="0,0" size="22,22" type="rect" lineColor="#ff262424" fillColor="#ff383838">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n4" name="icon" xy="0,0" size="22,22" align="center" vAlign="middle" color="#a5a5a5">
+      <gearColor controller="grayed" pages="1" values="#a5a5a5" default="#ffffff"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
   </displayList>

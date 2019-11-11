@@ -3,23 +3,23 @@
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="checked" pages="0,,1,,2," selected="0"/>
   <displayList>
-    <image id="n14" name="n14" src="kwng7m" xy="0,0" size="80,22">
+    <image id="n14" name="n14" src="kwng7m" fileName="Menu/a8.png" xy="0,0" size="80,22">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <image id="n6" name="n6" src="kwng7o" xy="18,0" aspect="true">
-      <relation target="" sidePair="height-height"/>
     </image>
     <text id="n1" name="title" xy="22,3" size="50,16" fontSize="12" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
     <loader id="n3" name="icon" xy="1,1" size="16,20" align="center" vAlign="middle"/>
-    <image id="n13" name="n13" src="au3n6p" xy="3,7" aspect="true">
+    <image id="n13" name="n13" src="au3n6p" fileName="Menu/a18.png" xy="3,7" aspect="true">
       <gearDisplay controller="checked" pages="2"/>
     </image>
     <text id="n15" name="shortcut" xy="35,3" size="37,16" fontSize="12" align="right" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
+    <image id="n16_nisj" name="arrow" src="nisj98" fileName="Menu/sub_arrow.svg" xy="68,6" visible="false">
+      <relation target="" sidePair="right-right"/>
+    </image>
   </displayList>
   <Button mode="Radio"/>
 </component>

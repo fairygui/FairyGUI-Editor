@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="462,414">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="462,414">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="自定义组件属性"/>
+    </component>
+    <graph id="n20" name="n20" xy="13,61" size="435,308" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="14,82" size="432,286" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oidx25ixicuh" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n60_mwte" name="n60" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="13,61" size="435,21" group="n66_mwte"/>
+    <text id="n61_mwte" name="n61" xy="14,63" size="148,16" group="n66_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="元件名称"/>
+    <text id="n62_mwte" name="n62" xy="297,63" size="148,16" group="n66_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注"/>
+    <image id="n63_mwte" name="n63" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="165,62" size="1,19" group="n66_mwte"/>
+    <text id="n64_mwte" name="n64" xy="166,63" size="127,16" group="n66_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="属性类型"/>
+    <image id="n65_mwte" name="n65" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="296,62" size="1,19" group="n66_mwte"/>
+    <group id="n66_mwte" name="n66" xy="13,61" size="435,21" group="n35"/>
+    <group id="n35" name="n35" xy="13,61" size="435,308"/>
+    <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="164,377" size="58,25" group="n39">
+      <Button title="保存"/>
+    </component>
+    <component id="n14" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="239,377" size="58,25" group="n39">
+      <Button title="取消"/>
+    </component>
+    <group id="n39" name="n39" xy="164,377" size="133,25"/>
+    <component id="n42_nhha" name="addItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="15,30" size="22,22" group="n46_nhha">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n43_nhha" name="removeItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="71,30" size="22,22" group="n46_nhha">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n44_nhha" name="moveUp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="99,30" size="22,22" group="n46_nhha">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n45_nhha" name="moveDown" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="127,30" size="22,22" group="n46_nhha">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <component id="n68_c22z" name="insertItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="43,30" size="22,22" group="n46_nhha">
+      <Button icon="ui://2pshu6oioskoixicub"/>
+    </component>
+    <group id="n46_nhha" name="n46" xy="15,30" size="134,22"/>
+    <component id="n67_dx25" name="n67" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="421,34" tooltips="可以将容器内任一元件或者嵌套的元件的指定属性暴露给外层。&#xD;&#xD;元件名称：例如text1， comp.comp.loader1，层次关系用句号分隔&#xD;备注：显示在属性前的提示文字。"/>
+  </displayList>
+</component>

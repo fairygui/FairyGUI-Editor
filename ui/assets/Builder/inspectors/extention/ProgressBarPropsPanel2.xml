@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,92" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n47" name="n47" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="标题类型"/>
+    <component id="n48" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,6" size="178,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n70" name="reverse" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="24,31" size="48,19">
+      <Button title="反向"/>
+    </component>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,61" tooltips="命名约定&#xD;bar: 横向伸缩部分。&#xD;bar_v: 纵向伸缩部分。并设置至100%长度。&#xD;title: 文本标题。&#xD;ani: 动画。"/>
+  </displayList>
+</component>

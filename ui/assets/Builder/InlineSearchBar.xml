@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="23,27" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <graph id="n93_qilr" name="n93" xy="0,1" size="22,26" type="rect" lineColor="#9eff9900" fillColor="#85653723" corner="5">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n94_qilr" name="title" xy="6,4" size="11,18" fontSize="12" color="#bdbdbd" text="a"/>
+    <component id="n99_dp9p" name="cancel" src="dp9p97" fileName="Button/FlatIconButton_nobg.xml" pkg="nk9ejx23" xy="18,3" size="0,20" alpha="0">
+      <gearDisplay controller="button" pages="2,3"/>
+      <gearSize controller="button" pages="0,1" values="0,20,1,1|0,20,1,1" default="20,20,1,1" tween="true"/>
+      <gearLook controller="button" pages="0,1" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="n94_qilr" sidePair="left-right"/>
+      <Button icon="ui://2pshu6oiet857iuff"/>
+    </component>
+  </displayList>
+  <Button/>
+  <relation target="n99_dp9p" sidePair="rightext-right"/>
+</component>

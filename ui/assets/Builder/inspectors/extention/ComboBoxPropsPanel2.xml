@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,71" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n47" name="n47" xy="4,10" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="弹出组件"/>
+    <component id="n70" name="dropdown" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,8" size="178,20"/>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="86,40" tooltips="命名约定&#xD;button: 按钮控制器名称。&#xD;title: 文本标题。&#xD;icon: 图标。通常是一个装载器。&#xD;list: 弹出组件里需放置名称为list的列表。"/>
+  </displayList>
+</component>

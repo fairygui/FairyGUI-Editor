@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,20">
+  <displayList>
+    <text id="n88_gwcn" name="n88" xy="4,1" size="53,18" fontSize="12" color="#bdbdbd" align="center" singleLine="true" text="制作说明"/>
+    <component id="n89_gwcn" name="n89" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="63,2">
+      <relation target="n88_gwcn" sidePair="left-right"/>
+    </component>
+  </displayList>
+  <relation target="n89_gwcn" sidePair="rightext-right"/>
+</component>

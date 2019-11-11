@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n4" name="icon" xy="0,0" size="22,22" align="center" vAlign="middle">
+      <gearColor controller="grayed" pages="1" values="#a5a5a5" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,20" extention="Label">
+  <displayList>
+    <component id="n64" name="title" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="0,0" size="152,20">
+      <relation target="" sidePair="width-width%"/>
+    </component>
+  </displayList>
+</component>

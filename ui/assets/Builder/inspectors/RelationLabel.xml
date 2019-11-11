@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="68,24" extention="Label" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <component id="n14_gj1q" name="percent" src="gj1q7iuep" fileName="props/RelationPercent.xml" xy="0,0" size="67,24">
+      <relation target="n12_gj1q" sidePair="width-width"/>
+    </component>
+    <component id="n12_gj1q" name="title" src="gj1q8w" fileName="Button/FlatTextButton_as.xml" pkg="nk9ejx23" xy="0,0" size="49,24">
+      <Button title="Bottom"/>
+    </component>
+    <graph id="n15_erjf" name="n15" xy="0,23" size="48,1" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff666666">
+      <relation target="n12_gj1q" sidePair="width-width"/>
+    </graph>
+  </displayList>
+</component>

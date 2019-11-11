@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,66" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <component id="n70" name="fixedGripSize" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="15,7" size="132,19">
+      <Button title="固定的滚动滑块大小"/>
+    </component>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,40" tooltips="命名约定&#xD;arrow1: 上/左箭头按钮。&#xD;arrow2: 下/右箭头按钮。&#xD;grip: 滚动滑块。&#xD;bar: 滚动滑块限制区域。"/>
+  </displayList>
+</component>

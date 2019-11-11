@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="432,507">
-  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="432,507" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="432,507">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="导入资源包"/>
     </component>
-    <graph id="n20" name="n20" xy="8,31" size="413,358" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n19" name="list" xy="8,31" size="413,358" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t"/>
+    <graph id="n20" name="n20" xy="8,31" size="413,358" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="9,32" size="411,356" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" treeView="true" indent="15" clickToExpand="2"/>
     <group id="n35" name="n35" xy="8,31" size="413,358"/>
-    <component id="n40" name="ok" src="xualm" pkg="nk9ejx23" xy="140,471" size="66,25" group="n42_cdxv">
+    <component id="n40" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="140,467" size="66,25" group="n42_cdxv">
       <Button title="导入"/>
     </component>
-    <component id="n41" name="cancel" src="xualm" pkg="nk9ejx23" xy="225,471" size="66,25" group="n42_cdxv">
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="225,467" size="66,25" group="n42_cdxv">
       <Button title="取消"/>
     </component>
-    <group id="n42_cdxv" name="n42" xy="140,471" size="151,25"/>
-    <component id="n44_cdxv" name="targetLocation" src="gcza1s" pkg="nk9ejx23" xy="130,429" size="212,20">
+    <group id="n42_cdxv" name="n42" xy="140,467" size="151,25"/>
+    <component id="n44_cdxv" name="targetLocation" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="130,429" size="252,20" touchable="false" grayed="true" controller="noBorder,0,showClear,0">
       <gearLook controller="c1" pages="0,1" values="1,0,1,0|1,0,0,1"/>
     </component>
-    <component id="n45_cdxv" name="browse" src="xualm" pkg="nk9ejx23" xy="349,426" size="70,25">
+    <component id="n45_cdxv" name="browse" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="387,427" size="30,25" touchable="false" grayed="true">
       <gearLook controller="c1" pages="0,1" values="1,0,1,0|1,0,0,1"/>
-      <Button title="浏览.."/>
+      <Button title="..."/>
     </component>
-    <image id="n46_11c6h" name="n46" src="au3n39" pkg="nk9ejx23" xy="1,460" size="428,2">
-      <relation target="" sidePair="width-width"/>
-    </image>
-    <component id="n48_vfm1" name="n48" src="gcza13" pkg="nk9ejx23" xy="15,399" size="82,19">
-      <Button title="导入到新包" controller="c1" page="0"/>
+    <component id="n48_vfm1" name="n48" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="15,399" size="82,19">
+      <Button checked="true" title="导入到新包" controller="c1" page="0"/>
     </component>
-    <component id="n49_vfm1" name="n49" src="gcza13" pkg="nk9ejx23" xy="15,429" size="70,19">
-      <Button checked="true" title="导入位置" controller="c1" page="1"/>
+    <component id="n49_vfm1" name="n49" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="15,429" size="70,19">
+      <Button title="导入位置" controller="c1" page="1"/>
     </component>
-    <component id="n50_vfm1" name="targetPackage" src="gcza1s" pkg="nk9ejx23" xy="130,400" size="212,20" touchable="false" grayed="true">
+    <component id="n50_vfm1" name="targetPackage" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="130,400" size="212,20" controller="noBorder,0,showClear,0">
       <gearLook controller="c1" pages="0,1" values="1,0,0,1|1,0,1,0"/>
     </component>
   </displayList>

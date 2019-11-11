@@ -6,10 +6,10 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建下拉框"/>
     </component>
-    <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
+    <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
     <image id="n15" name="n15" src="pia6u83" fileName="images/2015-07-24_162052.png" xy="29,62"/>
-    <text id="n1" name="n1" xy="222,35" size="64,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,34" size="134,20"/>
+    <text id="n1" name="n1" xy="222,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,34" size="116,20" controller="noBorder,0"/>
     <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="388,367">
       <gearDisplay controller="c1" pages="3"/>
       <Button title="创建"/>
@@ -17,10 +17,10 @@
     <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="503,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="222,65" size="64,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="289,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="510,61" size="70,25">
-      <Button title="浏览.."/>
+    <text id="n12" name="n12" xy="222,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,63" size="240,20" controller="noBorder,0"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="553,61" size="30,25">
+      <Button title="..."/>
     </component>
     <component id="n18" name="n18" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="388,367">
       <gearDisplay controller="c1" pages="0,1,2"/>
@@ -30,8 +30,7 @@
     <group id="n31" name="n31" xy="230,108" size="350,132" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,2"/>
-    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="225,355" size="367,2"/>
+    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,1"/>
     <text id="n32" name="n32" xy="231,106" size="101,18" group="n35" fontSize="12" color="#bdbdbd" text="第一步：设计按钮"/>
     <text id="n30" name="n30" xy="232,135" size="209,18" group="n62" fontSize="12" color="#bdbdbd" text="图片设置：（以下图片设置均为可选）"/>
     <text id="n19" name="n19" xy="229,160" size="141,16" group="n62" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
@@ -47,9 +46,9 @@
       <gearDisplay controller="c1" pages="1"/>
     </group>
     <text id="n36" name="n36" xy="231,106" size="125,18" group="n41" fontSize="12" color="#bdbdbd" text="第二步：设计弹出组件"/>
-    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="320,133" size="214,20" group="n41"/>
-    <text id="n64" name="n64" xy="232,135" size="86,16" group="n41" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="背景图片"/>
-    <group id="n41" name="n41" xy="231,106" size="303,47" advanced="true">
+    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="306,133" size="214,20" group="n41"/>
+    <text id="n64" name="n64" xy="222,135" size="80,18" group="n41" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="背景图片"/>
+    <group id="n41" name="n41" xy="222,106" size="298,47" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
     </group>
     <text id="n42" name="n42" xy="225,105" size="377,18" group="n44" fontSize="12" color="#bdbdbd" text="第三步：设计弹出列表中每个项目。列表中每个项目是一个单选按钮。"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,25" extention="Button" bgColorEnabled="true" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <graph id="n3_f39x" name="button" xy="0,0" size="37,20" alpha="0" type="rect" lineSize="0">
+      <relation target="n0_itme" sidePair="width-width"/>
+    </graph>
+    <text id="n0_itme" name="title" xy="22,1" size="10,18" fontSize="12" color="#bdbdbd" vAlign="middle" singleLine="true" text=""/>
+    <image id="n1_itme" name="n1" src="pi83u6x" fileName="icons/down_arrow.svg" xy="5,4" pivot="0.5,0.5">
+      <gearLook controller="button" pages="1" values="1,-90,0,1" default="1,0,0,1"/>
+    </image>
+    <graph id="n2_puqj" name="line" xy="39,10" size="157,1" type="rect" lineSize="0" lineColor="#ff151415" fillColor="#ff515151">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n0_itme" sidePair="leftext-right"/>
+    </graph>
+  </displayList>
+  <Button mode="Check"/>
+</component>

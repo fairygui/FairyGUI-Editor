@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,134">
+  <displayList>
+    <component id="n1" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="360,134">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="导入素材"/>
+    </component>
+    <component id="n3" name="btnCancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="131,90" size="96,25">
+      <Button title="取消"/>
+    </component>
+    <component id="n8" name="n8" src="gcza1p" fileName="ProgressBar/ProgressBar.xml" pkg="nk9ejx23" xy="23,59" size="316,12">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n9" name="n9" xy="27,32" size="310,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="正在导入"/>
+  </displayList>
+</component>

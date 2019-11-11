@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="286,746" restrictSize="286,0,0,0" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n73" name="list" xy="1,1" size="284,744" selectionMode="none" overflow="scroll" scrollBarFlags="4" margin="5,5,0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,20" extention="Label">
+  <displayList>
+    <component id="n55" name="title" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="0,0" size="34,20">
+      <relation target="" sidePair="width-width"/>
+      <Label title="12"/>
+    </component>
+    <component id="n78" name="btn" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="35,0" size="19,19">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://nk9ejx23e4p48q"/>
+    </component>
+  </displayList>
+</component>

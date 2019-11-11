@@ -7,9 +7,9 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建滑动条"/>
     </component>
-    <graph id="n16" name="n16" xy="7,35" size="208,322" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n1" name="n1" xy="222,35" size="65,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="291,34" size="134,20"/>
+    <graph id="n16" name="n16" xy="7,35" size="208,322" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <text id="n1" name="n1" xy="222,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,34" size="134,20" controller="noBorder,0"/>
     <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="379,365">
       <gearDisplay controller="c1" pages="4"/>
       <Button title="创建"/>
@@ -17,35 +17,34 @@
     <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="494,366">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="222,65" size="65,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="291,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="512,61" size="66,25">
-      <Button title="浏览.."/>
+    <text id="n12" name="n12" xy="222,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,63" size="248,20" controller="noBorder,0"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="559,61" size="30,25">
+      <Button title="..."/>
     </component>
     <component id="n18" name="n18" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="379,365">
       <gearDisplay controller="c1" pages="0,1,3"/>
       <Button title="下一步"/>
     </component>
     <text id="n17" name="n17" xy="230,108" size="302,84" group="n31" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="滑动条由三部分组成&#xA;(1)滑动条背景&#xA;(2)滑动条伸缩部分&#xA;(3)拖动滑块"/>
-    <component id="n64" name="n64" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="241,226" size="82,19" group="n31">
+    <component id="n64" name="n64" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="241,226" size="82,19" group="n31">
       <Button checked="true" title="水平滑动条" controller="c4" page="0"/>
     </component>
-    <component id="n65" name="n65" src="gcza13" fileName="RadioButton/RadioButton.xml" pkg="nk9ejx23" xy="344,226" size="82,19" group="n31">
+    <component id="n65" name="n65" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="344,226" size="82,19" group="n31">
       <Button title="垂直滑动条" controller="c4" page="1"/>
     </component>
-    <text id="n90" name="n90" xy="225,261" size="74,18" group="n31" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题类型"/>
-    <component id="n91" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="302,259" group="n31">
+    <text id="n90" name="n90" xy="222,261" size="80,18" group="n31" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题类型"/>
+    <component id="n91" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="306,259" group="n31">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <group id="n31" name="n31" xy="225,108" size="307,171" advanced="true">
+    <group id="n31" name="n31" xy="222,108" size="310,171" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,2"/>
-    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="225,355" size="367,2"/>
+    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,1"/>
     <text id="n36" name="n36" xy="228,112" size="137,18" group="n41" fontSize="12" color="#bdbdbd" text="第一步：设计滑动条背景"/>
-    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="294,138" size="214,20" group="n41"/>
-    <text id="n92" name="n92" xy="219,140" size="72,18" group="n41" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="背景图片"/>
-    <group id="n41" name="n41" xy="219,112" size="289,46" advanced="true">
+    <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="306,138" size="214,20" group="n41"/>
+    <text id="n92" name="n92" xy="222,140" size="80,18" group="n41" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="背景图片"/>
+    <group id="n41" name="n41" xy="222,112" size="298,46" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
     <component id="n63" name="n63" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="264,365">
@@ -68,9 +67,9 @@
     </group>
     <image id="n82" name="n82" src="jgs1u8c" fileName="images/Bitmap(2).png" xy="9,42"/>
     <text id="n83" name="n83" xy="228,112" size="161,18" group="n87" fontSize="12" color="#bdbdbd" text="第二步：设计滑动条伸缩部分"/>
-    <component id="n84" name="n84" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="291,137" size="214,20" group="n87"/>
-    <text id="n88" name="n88" xy="222,139" size="64,18" group="n87" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图片"/>
-    <group id="n87" name="n87" xy="222,112" size="283,45" advanced="true">
+    <component id="n84" name="n84" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="306,137" size="214,20" group="n87"/>
+    <text id="n88" name="n88" xy="222,139" size="80,18" group="n87" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图片"/>
+    <group id="n87" name="n87" xy="222,112" size="298,45" advanced="true">
       <gearDisplay controller="c1" pages="3"/>
     </group>
   </displayList>

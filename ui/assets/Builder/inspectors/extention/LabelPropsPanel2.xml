@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,39" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <component id="n48_e0th" name="n48" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,9" tooltips="命名约定&#xD;title: 文本标题。&#xD;icon: 图标。通常是一个装载器。&#xD;&#xD;closeButton: 窗口关闭按钮。&#xD;dragArea: 窗口的拖动检测区域。可以使用一个类型为空白的图形。当用户在此区域内按住并拖动时，窗口随之被拖动。&#xD;contentArea: 一个名称为contentArea的图形（类型设置为空白）将作为窗口的主要内容区域，这个区域只用于ShowModalWait。"/>
+  </displayList>
+</component>

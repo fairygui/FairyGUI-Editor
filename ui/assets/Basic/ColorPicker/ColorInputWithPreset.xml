@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="55,16" extention="Button">
+<component size="55,16" extention="Button" bgColorEnabled="true" bgColor="#383838">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="grayed" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n2" name="n2" src="au3n6b" xy="0,0" size="30,16"/>
-    <graph id="n1" name="n1" xy="0,0" size="31,17" type="rect"/>
-    <component id="n4" name="arrow" src="gcza2i" xy="33,0" size="19,16">
-      <gearLook controller="grayed" pages="1" values="1,0,1" default="1,0,0"/>
-      <Button icon="ui://nk9ejx23p06b7z"/>
+    <image id="n2" name="n2" src="au3n6b" fileName="ColorPicker/images/a17.png" xy="0,0" size="30,16"/>
+    <graph id="n1" name="n1" xy="0,0" size="30,16" type="rect"/>
+    <component id="n4" name="arrow" src="gcza2i" fileName="Button/FlatIconButton.xml" xy="33,0" size="19,16">
+      <gearLook controller="grayed" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <Button icon="ui://nk9ejx23e4p48q"/>
     </component>
   </displayList>
   <Button/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,485">
+  <displayList>
+    <component id="n0_nb4z" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="750,485">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="纹理集定义"/>
+    </component>
+    <graph id="n2_nb4z" name="n2" xy="199,55" size="542,382" group="n4_nb4z" type="rect" lineColor="#ff292828" fillColor="#ff383838"/>
+    <list id="n3_nb4z" name="resList" xy="200,56" size="540,380" group="n4_nb4z" layout="flow_vt" selectionMode="multiple" overflow="scroll" scroll="horizontal" scrollBar="visible" margin="1,1,1,1" colGap="2" defaultItem="ui://nk9ejx23au3n6q" autoClearItems="true">
+      <item title="包1" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包2" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包3" icon="ui://2pshu6oiptssa7iug6"/>
+    </list>
+    <group id="n4_nb4z" name="n4" xy="199,55" size="542,382"/>
+    <text id="n5_nb4z" name="n5" xy="200,31" size="125,18" fontSize="12" color="#bdbdbd" singleLine="true" text="此纹理集中包含的资源"/>
+    <graph id="n6_nb4z" name="n6" xy="9,30" size="182,408" group="n8_nb4z" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n7_nb4z" name="atlasList" xy="10,51" size="180,385" group="n8_nb4z" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oimellu6u" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n22_nb4z" name="n22" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="9,30" size="182,21" group="n26_nb4z">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n23_nb4z" name="n23" xy="9,32" size="37,18" group="n26_nb4z" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="编号"/>
+    <image id="n24_nb4z" name="n24" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="48,31" size="1,19" group="n26_nb4z"/>
+    <text id="n25_nb4z" name="n25" xy="52,32" size="125,18" group="n26_nb4z" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <group id="n26_nb4z" name="n26" xy="9,30" size="182,21" group="n8_nb4z"/>
+    <group id="n8_nb4z" name="n8" xy="9,30" size="182,408"/>
+    <text id="n27_nb4z" name="n27" xy="15,450" size="97,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集最大编号"/>
+    <component id="n28_nb4z" name="max" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="118,449">
+      <Label title="10"/>
+    </component>
+    <component id="n29_nb4z" name="compression" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="555,30" size="70,19">
+      <Button title="压缩PNG"/>
+    </component>
+    <component id="n1_nb4z" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="660,447" size="66,25">
+      <Button title="关闭"/>
+    </component>
+  </displayList>
+</component>

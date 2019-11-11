@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="28,25" extention="Button">
+  <displayList>
+    <image id="n52_93ak" name="n52" src="e4cx7iue7" fileName="icons/add.svg" xy="0,5">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+    <text id="n53_93ak" name="title" xy="16,4" size="10,18" fontSize="12" color="#bdbdbd" singleLine="true" text="">
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+  <relation target="n53_93ak" sidePair="width-width"/>
+</component>

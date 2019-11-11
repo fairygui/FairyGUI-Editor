@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,580" designImageOffsetX="-428" designImageAlpha="100" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n3" name="treeView" xy="0,27" size="283,553" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" treeView="true" indent="15" clickToExpand="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <graph id="n12_qilr" name="n12" xy="0,26" size="283,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n5_qilr" name="btnCollapseAll" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="255,2" size="22,22" group="n9_qilr" tooltips="全部折叠">
+      <Button icon="ui://2pshu6oibfc35y"/>
+    </component>
+    <component id="n14_d8p0" name="btnExpandAll" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="231,2" size="22,22" group="n9_qilr" tooltips="全部展开">
+      <Button icon="ui://2pshu6oid8p0a7iufu"/>
+    </component>
+    <group id="n9_qilr" name="n9" xy="231,2" size="46,22" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

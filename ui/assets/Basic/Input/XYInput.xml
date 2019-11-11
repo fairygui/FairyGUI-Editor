@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,20" extention="Label">
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <controller name="xy" exported="true" pages="0,x,1,y,2,w,3,h" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="wqe79b" fileName="Input/input_bg2.png" xy="0,0" size="60,20">
+      <gearDisplay controller="grayed" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="wqe79c" fileName="Input/input_bg_grayed2.png" xy="0,0" size="60,20">
+      <gearDisplay controller="grayed" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n3" name="holder" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_wqe7" name="n5" xy="1,1" size="14,18" fontSize="11" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" text="X">
+      <gearText controller="xy" pages="0,1,2,3" values="X|Y|W|H"/>
+    </text>
+    <text id="n1" name="title" xy="18,1" size="40,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

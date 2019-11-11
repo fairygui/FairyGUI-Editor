@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="33,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n8_f37u" name="n8" xy="0,0" size="33,22" type="rect" lineColor="#ff515151" fillColor="#ff454545">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n10_n1pz" name="title" xy="2,1" size="29,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" autoClearText="true" text="名称">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

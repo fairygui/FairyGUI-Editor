@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,96" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n76" name="list" xy="0,5" size="270,82" selectionMode="none" lineGap="6" defaultItem="ui://2pshu6oimx0siu9v">
+      <relation target="" sidePair="width-width"/>
+      <item controllers="propertyId,0"/>
+      <item controllers="propertyId,1"/>
+      <item controllers="propertyId,2"/>
+    </list>
+  </displayList>
+  <relation target="n76" sidePair="bottomext-bottom"/>
+</component>

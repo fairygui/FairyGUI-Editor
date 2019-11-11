@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,20" extention="Label">
+  <controller name="propertyId" exported="true" pages="0,-1,1,0,2,1" selected="0"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n81_yo9d" name="n81" xy="0,0" size="270,20">
+      <gearSize controller="propertyId" pages="1" values="270,30,1,1" default="270,20,1,1"/>
+    </graph>
+    <component id="n78_dx25" name="title" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="5,0" size="80,19">
+      <Button title="Title" controller="c1" page="1"/>
+    </component>
+    <component id="n75" name="pages" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,0" size="178,20" touchable="false" grayed="true">
+      <gearDisplay controller="propertyId" pages="0"/>
+      <gearLook controller="c1" pages="0" values="1,0,1,0" default="1,0,0,1"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n83_yo9d" name="textValue" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,0" size="178,30" touchable="false" grayed="true" controller="showEditButton,1">
+      <gearDisplay controller="propertyId" pages="1"/>
+      <gearLook controller="c1" pages="0,1" values="1,0,1,0|1,0,0,1"/>
+    </component>
+    <component id="n85_yo9d" name="iconValue" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,0" size="178,20" touchable="false" grayed="true">
+      <gearDisplay controller="propertyId" pages="2"/>
+      <gearLook controller="c1" pages="0,1" values="1,0,1,0|1,0,0,1"/>
+    </component>
+  </displayList>
+  <relation target="n81_yo9d" sidePair="height-height"/>
+</component>

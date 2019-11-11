@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,159" bgColorEnabled="true" bgColor="#383838">
+  <controller name="advanced" pages="0,,1," selected="0"/>
+  <controller name="layout" pages="0,none,1,hz,2,vt" selected="0"/>
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n66" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,29" size="174,20" controller="noBorder,0,showClear,0"/>
+    <text id="n67" name="n67" xy="4,31" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n76" name="visible" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="19,106" size="60,19">
+      <gearDisplay controller="advanced" pages="1"/>
+      <Button title="不可见"/>
+    </component>
+    <component id="n78" name="n78" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="59,5" size="58,19">
+      <Button checked="true" title="普通组" controller="advanced" page="0"/>
+    </component>
+    <component id="n79" name="advanced" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="151,5" size="58,19">
+      <Button title="高级组" controller="advanced" page="1"/>
+    </component>
+    <text id="n80_qmnq" name="n80" xy="4,134" size="80,18" group="n82_qmnq" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="布局"/>
+    <component id="n81_qmnq" name="layout" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,132" size="150,20" group="n82_qmnq">
+      <ComboBox title="(无)" visibleItemCount="10" selectionController="layout">
+        <item title="(无)" value="none"/>
+        <item title="水平布局" value="hz"/>
+        <item title="垂直布局" value="vt"/>
+      </ComboBox>
+    </component>
+    <component id="n88_jej2" name="excludeInvisibles" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,218" size="108,19" group="n106_mq4a">
+      <Button title="排除隐藏的对象"/>
+    </component>
+    <text id="n90_jej2" name="n90" xy="4,162" size="80,18" group="n106_mq4a" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n91_jej2" name="n91" xy="4,190" size="80,18" group="n106_mq4a" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
+    <component id="n92_jej2" name="lineGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,161" size="61,20" group="n106_mq4a">
+      <Label title="0"/>
+    </component>
+    <component id="n93_jej2" name="columnGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,189" size="60,20" group="n106_mq4a">
+      <Label title="0"/>
+    </component>
+    <component id="n102_lmbt" name="autoSizeDisabled" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,243" size="120,19" group="n106_mq4a">
+      <Button title="禁用自动计算包围"/>
+    </component>
+    <component id="n103_lmbt" name="n103" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="142,244" group="n106_mq4a" tooltips="禁用后，组的大小和位置将保持用户设定的数值，不会随着组内元素的变化而自动更新。仅适用于水平布局或者垂直布局的高级组。">
+      <relation target="n102_lmbt" sidePair="right-right"/>
+    </component>
+    <component id="n107_mq4a" name="hasMainGrid" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,268" size="132,19" group="n106_mq4a">
+      <Button title="仅伸缩指定索引元件" controller="c1" page="1"/>
+    </component>
+    <component id="n108_mq4a" name="n108" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="154,270" group="n106_mq4a" tooltips="勾选后，只要指定索引的元件才会随着组伸缩而伸缩；不勾选，则组内所有元件都会随着组伸缩而伸缩。">
+      <relation target="n107_mq4a" sidePair="right-right"/>
+    </component>
+    <text id="n104_mq4a" name="n104" xy="48,297" size="80,18" group="n109_mq4a" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="索引值"/>
+    <component id="n105_mq4a" name="mainGridIndex" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,296" size="41,20" group="n109_mq4a">
+      <Label title="0"/>
+    </component>
+    <group id="n109_mq4a" name="n109" xy="48,296" size="124,20" group="n106_mq4a" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <group id="n106_mq4a" name="n106" xy="4,161" size="168,155" group="n82_qmnq" advanced="true">
+      <gearDisplay controller="layout" pages="1,2"/>
+    </group>
+    <group id="n82_qmnq" name="n82" xy="4,132" size="233,184" advanced="true">
+      <gearDisplay controller="advanced" pages="1"/>
+    </group>
+    <text id="n94_r1st" name="n94" xy="4,55" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="位置"/>
+    <component id="n95_r1st" name="x" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,55" size="72,20" controller="xy,0">
+      <Label title="100000"/>
+    </component>
+    <component id="n97_r1st" name="y" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,55" size="72,20" controller="xy,1">
+      <Label title="100000"/>
+    </component>
+    <text id="n98_r1st" name="n98" xy="4,81" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="尺寸"/>
+    <component id="n100_r1st" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,80" size="72,20" controller="xy,3">
+      <Label title="100000"/>
+    </component>
+    <component id="n101_r1st" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,80" size="72,20" controller="xy,2">
+      <Label title="100000"/>
+    </component>
+    <graph id="n110_jo40" name="n110" xy="4,154" size="260,3">
+      <gearXY controller="layout" pages="0,1,2" values="4,154|4,317|4,317"/>
+    </graph>
+  </displayList>
+  <relation target="n110_jo40" sidePair="bottomext-bottom"/>
+</component>

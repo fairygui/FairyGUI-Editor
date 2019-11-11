@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="88,20" extention="Button">
+<component size="88,22" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="expaned" pages="0,,1," selected="0"/>
+  <controller name="leaf" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n0" name="n0" src="au3n4v" xy="0,0" size="88,20">
+    <image id="n0" name="n0" src="au3n4v" fileName="List/images/listitem_hover.png" xy="0,0" size="88,22">
       <gearDisplay controller="button" pages="2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <image id="n1" name="n1" src="au3n50" xy="0,0" size="88,20">
+    <image id="n1" name="n1" src="au3n50" fileName="List/images/listitem_selected.png" xy="0,0" size="88,22">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="50,2" size="37,16" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
+    <text id="n2" name="title" xy="50,0" size="37,22" fontSize="12" color="#bdbdbd" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="">
       <gearColor controller="button" pages="1,3" values="#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
     </text>
-    <graph id="n3" name="indent" xy="0,0" size="16,20"/>
-    <loader id="n6" name="icon" xy="30,0" size="20,20" align="center" vAlign="middle">
+    <graph id="n3" name="indent" xy="0,1" size="16,20"/>
+    <loader id="n6" name="icon" xy="30,1" size="20,20" align="center" vAlign="middle">
       <relation target="n3" sidePair="left-right"/>
     </loader>
-    <component id="n7" name="expandButton" src="au3n5n" xy="15,2">
+    <component id="n7" name="expandButton" src="au3n5n" fileName="Tree/TreeExpandButton.xml" xy="15,3">
+      <gearDisplay controller="leaf" pages="0"/>
       <relation target="n3" sidePair="left-right"/>
+      <Button controller="expaned" page="1"/>
     </component>
-    <loader id="n8_r74d" name="sign" xy="42,12" size="10,10">
+    <loader id="n8_r74d" name="sign" xy="45,16" size="5,5">
       <relation target="n6" sidePair="left-left,top-top"/>
     </loader>
   </displayList>

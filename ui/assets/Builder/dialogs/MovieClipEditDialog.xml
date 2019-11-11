@@ -1,70 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="700,557">
-  <controller name="c1" pages="0,,1,9grid,2,tile" selected="0"/>
+<component size="770,506">
   <displayList>
-    <component id="n24" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="700,557" locked="true">
+    <component id="n24" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="770,506" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动画属性"/>
     </component>
-    <text id="n19" name="n19" xy="13,60" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="纹理集"/>
-    <component id="n20" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="102,59" size="136,20">
+    <text id="n19" name="n19" xy="517,179" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="纹理集"/>
+    <component id="n20" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,178" size="125,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <graph id="n31" name="n31" xy="10,84" size="681,391" type="rect" lineColor="#ff151415" fillColor="#ff333333"/>
-    <component id="n42" name="btnSave" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="547,517" size="62,25">
+    <graph id="n31" name="n31" xy="10,28" size="502,432" type="rect" lineColor="#ff292828" fillColor="#ff333333"/>
+    <component id="n42" name="btnSave" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="611,469" size="62,25">
       <Button title="保存"/>
     </component>
-    <component id="n44" name="btnClose" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="623,517" size="62,25">
+    <component id="n44" name="btnClose" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="687,469" size="62,25">
       <Button title="关闭"/>
     </component>
-    <graph id="n67" name="n67" xy="9,479" size="685,29" type="rect" lineColor="#ff151415" fillColor="#00ffffff"/>
-    <component id="n68" name="play" src="au3n48" fileName="basic/ToggleButton.xml" xy="263,480" size="31,26" group="n72">
-      <Button checked="true" icon="ui://2pshu6oig1zau6f" selectedIcon="ui://2pshu6oig1zau6g"/>
+    <component id="n68" name="play" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="188,432" size="22,22" group="n72">
+      <Button icon="ui://2pshu6oig1zau6f" selectedIcon="ui://2pshu6oig1zau6g"/>
     </component>
-    <component id="n69" name="currentFrame" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="326,483" size="69,20" group="n72">
+    <component id="n69" name="currentFrame" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="240,433" size="69,20" group="n72" controller="noBorder,0">
       <Label title="0"/>
     </component>
-    <component id="n70" name="prevFrame" src="au3n2i" fileName="basic/ToolButton.xml" xy="291,480" size="30,28" group="n72">
+    <component id="n70" name="prevFrame" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="214,432" size="22,22" group="n72">
       <Button icon="ui://2pshu6oig1zau6e"/>
     </component>
-    <component id="n71" name="nextFrame" src="au3n2i" fileName="basic/ToolButton.xml" xy="395,480" size="30,28" group="n72">
+    <component id="n71" name="nextFrame" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="312,432" size="22,22" group="n72">
       <Button icon="ui://2pshu6oig1zau6d"/>
     </component>
-    <group id="n72" name="n72" xy="263,480" size="162,28"/>
-    <text id="n58" name="n58" xy="160,31" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="播放间隔"/>
-    <component id="n60" name="speed" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="237,29" size="42,20">
+    <group id="n72" name="n72" xy="188,432" size="146,22"/>
+    <text id="n58" name="n58" xy="517,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="播放间隔"/>
+    <component id="n60" name="speed" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,54" size="57,20">
       <Label title="1"/>
     </component>
-    <text id="n62" name="n62" xy="290,31" size="85,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="循环延迟"/>
-    <component id="n63" name="repeatDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="378,29" size="42,20">
+    <text id="n62" name="n62" xy="517,79" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="循环延迟"/>
+    <component id="n63" name="repeatDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,79" size="57,20">
       <Label title="0"/>
     </component>
-    <text id="n64" name="n64" xy="429,31" size="85,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="本帧延迟"/>
-    <component id="n65" name="frameDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="516,29" size="42,20">
+    <text id="n64" name="n64" xy="517,104" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="本帧延迟"/>
+    <component id="n65" name="frameDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,103" size="57,20">
       <Label title="0"/>
     </component>
-    <component id="n66" name="swing" src="xualt" fileName="Checkbox/Checkbox.xml" pkg="nk9ejx23" xy="572,30" size="92,19">
-      <Button title="摆动式播放"/>
-    </component>
-    <text id="n81_xbeb" name="n81" xy="13,31" size="86,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
-    <component id="n82_xbeb" name="fps" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="102,29" size="48,20">
+    <component id="n66" name="swing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,128" size="20,19"/>
+    <text id="n81_xbeb" name="n81" xy="517,29" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
+    <component id="n82_xbeb" name="fps" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,27" size="57,20">
       <ComboBox title="24" visibleItemCount="10">
         <item title="24"/>
         <item title="30"/>
         <item title="60"/>
       </ComboBox>
     </component>
-    <component id="n74" name="container" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="12,86" size="676,387"/>
-    <text id="n75" name="n75" xy="243,521" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
-    <component id="n76" name="btnImport" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="14,517" size="100,25">
+    <component id="n74" name="container" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="11,29" size="500,400"/>
+    <text id="n75" name="n75" xy="243,473" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
+    <component id="n76" name="btnImport" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="14,469" size="100,25">
       <Button title="导入图片序列"/>
     </component>
-    <component id="n77" name="btnImport2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="121,517" size="121,25">
+    <component id="n77" name="btnImport2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="121,469" size="121,25">
       <Button title="导入Sprite表"/>
     </component>
-    <text id="n83_tudt" name="n83" xy="250,60" size="69,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="允许平滑"/>
-    <component id="n84_tudt" name="smoothing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="322,59" size="56,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
+    <text id="n83_tudt" name="n83" xy="517,154" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="平滑"/>
+    <text id="n86_r1st" name="n86" xy="517,129" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="摆动播放"/>
+    <component id="n87_r1st" name="smoothing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,153" size="20,19"/>
   </displayList>
 </component>

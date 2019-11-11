@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,133">
+  <controller name="c1" pages="0,均匀行距,1,均匀列距,2,表格" selected="0"/>
+  <displayList>
+    <image id="n24" name="frame" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="155,133" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n34" name="n34" xy="16,14" size="56,18" group="n46_ov4h" fontSize="12" color="#bdbdbd" align="center" leading="0" autoSize="none" singleLine="true" text="行距"/>
+    <component id="n37" name="lineSpacing" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="80,13" size="60,20" group="n46_ov4h">
+      <Label title="0"/>
+    </component>
+    <group id="n46_ov4h" name="n46" xy="16,13" size="124,20" group="n48_ryaj" advanced="true">
+      <gearDisplay controller="c1" pages="0,2"/>
+    </group>
+    <text id="n35" name="n35" xy="16,39" size="56,18" group="n45_ov4h" fontSize="12" color="#bdbdbd" align="center" leading="0" autoSize="none" singleLine="true" text="列距"/>
+    <component id="n38" name="columnSpacing" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="80,38" group="n45_ov4h">
+      <Label title="0"/>
+    </component>
+    <group id="n45_ov4h" name="n45" xy="16,38" size="124,20" group="n48_ryaj" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <text id="n36" name="n36" xy="16,64" size="56,18" group="n44_ov4h" fontSize="12" color="#bdbdbd" align="center" leading="0" autoSize="none" singleLine="true" text="列数"/>
+    <component id="n39" name="columnCount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="80,63" group="n44_ov4h">
+      <Label title="0"/>
+    </component>
+    <group id="n44_ov4h" name="n44" xy="16,63" size="124,20" group="n48_ryaj" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <group id="n48_ryaj" name="n48" xy="16,13" size="124,70" advanced="true" layout="vt" lineGap="5" excludeInvisibles="true"/>
+    <component id="n49_ryaj" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="49,93" size="57,25">
+      <Button title="排列"/>
+    </component>
+  </displayList>
+</component>

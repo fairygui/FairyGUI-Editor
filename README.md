@@ -1,4 +1,3 @@
-FairyGUI Editor is FREE.
-Download the editor from here: [www.fairygui.com](http://www.fairygui.com/index.php/product)
+Here is the UI project of the FairyGUI Editor itself.
 
-The editor was made by itself. Here is the UI project of the editor.
+You can use it freely, the only request is to like this project.

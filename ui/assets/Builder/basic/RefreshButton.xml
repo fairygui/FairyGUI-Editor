@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,22" extention="Button" bgColorEnabled="true" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n7" name="n7" xy="0,0" size="22,22" type="rect" lineColor="#ff515151" fillColor="#ff454545">
+      <gearDisplay controller="button" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n8_gj1q" name="n8" xy="0,0" size="22,22" type="rect" lineColor="#ff262424" fillColor="#ff383838">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n4" name="icon" xy="0,0" pivot="0.5,0.5" size="22,22" url="ui://2pshu6oiih9xiua2" align="center" vAlign="middle">
+      <gearColor controller="grayed" pages="1" values="#a5a5a5" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+  <transition name="t0" options="2" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n4" tween="true" startValue="0" endValue="360" duration="24" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

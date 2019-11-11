@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,32" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n68_t23e" name="n68" xy="4,7" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
+    <component id="n69_t23e" name="pageController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="87,6" size="120,20"/>
+  </displayList>
+</component>

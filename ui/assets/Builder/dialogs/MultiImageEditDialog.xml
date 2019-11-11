@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="304,296">
-  <controller name="c1" pages="0,,1,9grid,2,tile" selected="0"/>
+  <controller name="scaleOption" pages="0,none,1,9grid,2,tile" selected="0"/>
+  <controller name="qualityOption" pages="0,default,1,source,2,custom" selected="0"/>
   <displayList>
-    <component id="n24" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="304,296" locked="true">
+    <component id="n24" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="304,296">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="批量修改图片属性"/>
     </component>
-    <component id="n15" name="n15" src="gcza13" pkg="nk9ejx23" xy="33,81" size="155,19">
-      <Button title="使用九宫格进行缩放" controller="c1" page="1"/>
-    </component>
-    <component id="n16" name="n16" src="gcza13" pkg="nk9ejx23" xy="33,106" size="197,19">
-      <Button title="使用平铺进行缩放" controller="c1" page="2"/>
-    </component>
-    <component id="n21" name="n21" src="xualm" pkg="nk9ejx23" xy="81,242" size="65,25">
+    <component id="n21" name="n21" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="81,242" size="65,25">
       <Button title="保存"/>
     </component>
-    <component id="n23" name="n23" src="xualm" pkg="nk9ejx23" xy="164,242" size="65,25">
+    <component id="n23" name="n23" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="164,242" size="65,25">
       <Button title="取消"/>
     </component>
-    <component id="n29" name="n29" src="gcza13" pkg="nk9ejx23" xy="33,57" size="155,19">
-      <Button checked="true" title="无" controller="c1" page="0"/>
+    <component id="n18" name="qualityOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="112,89" size="140,20">
+      <ComboBox title="默认" visibleItemCount="10" selectionController="qualityOption">
+        <item title="默认" value="default"/>
+        <item title="使用原始数据" value="source"/>
+        <item title="自定义" value="custom"/>
+      </ComboBox>
     </component>
-    <component id="n18" name="n18" src="gcza18" pkg="nk9ejx23" xy="92,162" size="137,20">
+    <component id="n25" name="quality" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="257,89" size="39,20" controller="noBorder,0">
+      <gearDisplay controller="qualityOption" pages="2"/>
+    </component>
+    <component id="n20" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="112,120" size="160,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n25" name="n25" src="gcza1s" pkg="nk9ejx23" xy="234,162" size="51,20"/>
-    <component id="n20" name="n20" src="gcza18" pkg="nk9ejx23" xy="92,193" size="160,20">
-      <ComboBox visibleItemCount="10"/>
+    <component id="n33" name="smoothing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="112,59" size="56,20">
+      <ComboBox title="是" visibleItemCount="10">
+        <item title="否"/>
+        <item title="是"/>
+      </ComboBox>
     </component>
-    <component id="n33" name="n33" src="gcza18" pkg="nk9ejx23" xy="92,132" size="56,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n39" name="n39" src="xualt" pkg="nk9ejx23" xy="18,31" size="90,19">
+    <component id="n39" name="cb0" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="18,31" size="72,19">
       <Button title="缩放模式"/>
     </component>
-    <component id="n40" name="n40" src="xualt" pkg="nk9ejx23" xy="18,132" size="68,19">
+    <component id="n40" name="cb1" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="18,59" size="72,19">
       <Button title="允许平滑"/>
     </component>
-    <component id="n41" name="n41" src="xualt" pkg="nk9ejx23" xy="18,162" size="56,19">
+    <component id="n41" name="cb2" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="18,89" size="48,19">
       <Button title="质量"/>
     </component>
-    <component id="n42" name="n42" src="xualt" pkg="nk9ejx23" xy="18,193" size="71,19">
+    <component id="n42" name="cb3" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="18,120" size="60,19">
       <Button title="纹理集"/>
     </component>
+    <component id="n43_r1st" name="n43" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="112,31" size="26,20" group="n46_r1st">
+      <Button checked="true" title="无" controller="scaleOption" page="0"/>
+    </component>
+    <component id="n44_r1st" name="n44" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="143,31" size="50,20" group="n46_r1st">
+      <Button title="九宫格" controller="scaleOption" page="1"/>
+    </component>
+    <component id="n45_r1st" name="n45" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="198,31" group="n46_r1st">
+      <Button title="平铺" controller="scaleOption" page="2"/>
+    </component>
+    <group id="n46_r1st" name="n46" xy="112,31" size="124,20" advanced="true" layout="hz" colGap="5"/>
   </displayList>
 </component>

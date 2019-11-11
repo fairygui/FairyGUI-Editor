@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="20,20" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="modified" exported="true" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n1" name="n1" src="gcza2r" xy="5,5" aspect="true">
+    <image id="n3_j5yv" name="n3" src="j5yv93" fileName="Tab/images/dot3.png" xy="6,6" size="8,8">
+      <gearDisplay controller="modified" pages="1"/>
+      <gearDisplay2 controller="button" pages="0" condition="0"/>
+    </image>
+    <image id="n1" name="n1" src="gcza2r" fileName="Tab/images/tab_cross.svg" xy="2,2" aspect="true">
       <gearDisplay controller="button" pages="0"/>
+      <gearDisplay2 controller="modified" pages="0" condition="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n2" name="n2" src="gcza2s" xy="5,5" aspect="true">
+    <image id="n2" name="n2" src="gcza2t" fileName="Tab/images/tab_cross_hover.svg" xy="2,2" aspect="true">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>

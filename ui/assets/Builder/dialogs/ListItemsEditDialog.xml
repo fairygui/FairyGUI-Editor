@@ -1,65 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="717,450">
-  <controller name="controllerSettings" pages="0,,1," selected="0"/>
+<component size="688,500">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="717,450">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="688,500">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="编辑列表"/>
     </component>
-    <graph id="n20" name="n20" xy="10,58" size="453,341" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n19" name="list" xy="10,78" size="452,320" group="n35" overflow="scroll" scrollBarFlags="4" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n56">
+    <graph id="n20" name="n20" xy="10,58" size="667,395" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="11,78" size="665,374" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n56">
       <item/>
       <item/>
     </list>
-    <component id="n62_e9to" name="n62" src="au3n57" fileName="dialogs/ListItemsEdit_header.xml" xy="10,58" size="452,20" group="n35"/>
-    <group id="n35" name="n35" xy="10,58" size="453,341"/>
-    <component id="n28" name="add" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="11,28" size="67,25" group="n36">
-      <Button title="增加"/>
-    </component>
-    <component id="n29" name="remove" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="81,28" size="67,25" group="n36">
-      <Button title="删除"/>
-    </component>
-    <component id="n31" name="moveUp" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="151,28" size="67,25" group="n36">
-      <Button title="上移"/>
-    </component>
-    <component id="n32" name="moveDown" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="221,28" size="67,25" group="n36">
-      <Button title="下移"/>
-    </component>
-    <group id="n36" name="n36" xy="11,28" size="277,25"/>
-    <image id="n37" name="n37" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="1,404" size="713,2"/>
-    <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="240,414" size="64,25" group="n39">
+    <image id="n69_mwte" name="n69" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="10,58" size="666,20" group="n75_mwte"/>
+    <image id="n70_mwte" name="n70" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="206,59" size="1,19" group="n75_mwte"/>
+    <image id="n71_mwte" name="n71" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="337,59" size="1,19" group="n75_mwte"/>
+    <text id="n72_mwte" name="n72" xy="209,60" size="127,18" group="n75_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题"/>
+    <text id="n73_mwte" name="n73" xy="40,60" size="163,18" group="n75_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="资源"/>
+    <text id="n74_mwte" name="n74" xy="341,60" size="169,18" group="n75_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图标"/>
+    <image id="n76_mwte" name="n76" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="512,58" size="1,19" group="n75_mwte"/>
+    <text id="n77_mwte" name="n77" xy="515,60" size="100,18" group="n75_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <image id="n80_duy1" name="n80" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="618,59" size="1,19" group="n75_mwte"/>
+    <text id="n81_duy1" name="n81" xy="620,60" size="40,18" group="n83_duy1" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="层级"/>
+    <image id="n82_duy1" name="n82" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="662,59" size="1,19" group="n83_duy1"/>
+    <group id="n83_duy1" name="indentColumn" xy="620,59" size="43,19" group="n75_mwte" advanced="true"/>
+    <group id="n75_mwte" name="n75" xy="10,58" size="666,20" group="n35"/>
+    <group id="n35" name="n35" xy="10,58" size="667,395"/>
+    <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="237,463" size="64,25" group="n39">
       <Button title="保存"/>
     </component>
-    <component id="n14" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="398,414" size="58,25" group="n39">
+    <component id="n14" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="395,463" size="58,25" group="n39">
       <Button title="取消"/>
     </component>
-    <component id="n53_uytn" name="apply" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="320,414" size="64,25" group="n39">
+    <component id="n53_uytn" name="apply" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="317,463" size="64,25" group="n39">
       <Button title="应用"/>
     </component>
-    <group id="n39" name="n39" xy="240,414" size="216,25"/>
-    <component id="n40_q4xf" name="autoClear" src="dp4f7u" fileName="Checkbox/CriticalCheckbox.xml" pkg="nk9ejx23" xy="329,32" size="106,19">
+    <group id="n39" name="n39" xy="237,463" size="216,25"/>
+    <component id="n40_q4xf" name="clearOnPublish" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="194,33" size="108,19">
       <Button title="发布时自动清空"/>
     </component>
-    <component id="n41_uytn" name="bg" src="au3n4c" fileName="props/PropsBg.xml" xy="468,59" size="240,340" group="n46_uytn">
-      <Label title="详细属性"/>
+    <component id="n64_nhha" name="addItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="12,29" size="22,22" group="n68_nhha">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
     </component>
-    <list id="n42_uytn" name="controllerSettings" xy="471,264" size="234,49" group="n43_uytn" selectionMode="none" lineGap="4" defaultItem="ui://2pshu6oimx0siu9v">
-      <item/>
-      <item/>
-    </list>
-    <group id="n43_uytn" name="n43" xy="471,264" size="234,49" group="n46_uytn" advanced="true">
-      <gearDisplay controller="controllerSettings" pages="1"/>
-    </group>
-    <component id="n47_uytn" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="554,84" size="149,20" group="n46_uytn"/>
-    <text id="n48_uytn" name="n48" xy="472,86" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <text id="n49_uytn" name="n49" xy="472,239" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
-    <component id="n50_uytn" name="selectedIcon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="554,238" size="149,20" group="n46_uytn"/>
-    <text id="n51_uytn" name="n51" xy="472,161" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
-    <component id="n52_uytn" name="selectedTitle" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="554,161" size="149,45" group="n46_uytn" controller="showEditButton,1"/>
-    <text id="n58_ioq6" name="n58" xy="472,111" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
-    <component id="n59_ioq6" name="title" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="554,110" size="149,45" group="n46_uytn" controller="showEditButton,1"/>
-    <text id="n60_ioq6" name="n60" xy="473,212" size="80,18" group="n46_uytn" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <component id="n61_ioq6" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="554,212" size="149,20" group="n46_uytn"/>
-    <group id="n46_uytn" name="n46" xy="468,59" size="240,340"/>
+    <component id="n84_f5gz" name="insertItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="40,29" size="22,22" group="n68_nhha">
+      <Button icon="ui://2pshu6oioskoixicub"/>
+    </component>
+    <component id="n65_nhha" name="removeItem" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="68,29" size="22,22" group="n68_nhha">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n66_nhha" name="moveUp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="96,29" size="22,22" group="n68_nhha">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n67_nhha" name="moveDown" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="124,29" size="22,22" group="n68_nhha">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <group id="n68_nhha" name="n68" xy="12,29" size="134,22"/>
+    <text id="n85_ijwl" name="n85" xy="503,32" size="166,18" fontSize="12" color="#bdbdbd" text="更多信息可以在检查器设置-->">
+      <relation target="" sidePair="right-right"/>
+    </text>
   </displayList>
 </component>

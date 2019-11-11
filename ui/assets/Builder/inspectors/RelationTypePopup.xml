@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,333" bgColorEnabled="true" bgColor="#3f3f3f">
+  <displayList>
+    <image id="n3" name="n3" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="-4,-4" size="337,341" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n7" name="finish" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="262,8" size="55,21">
+      <Button title="完成"/>
+    </component>
+    <component id="n14_gj1q" name="11" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="55,39" size="112,24">
+      <Label title="宽 -> 宽"/>
+    </component>
+    <component id="n15_gj1q" name="23" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="198,38" size="119,24">
+      <Label title="高 -> 高"/>
+    </component>
+    <component id="n19_gj1q" name="3" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="55,68" size="121,24">
+      <Label title="左右居中"/>
+    </component>
+    <component id="n20_gj1q" name="15" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="198,68" size="107,24">
+      <Label title="上下居中"/>
+    </component>
+    <component id="n16_gj1q" name="0" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,95" size="48,24">
+      <Label title="左"/>
+    </component>
+    <component id="n17_gj1q" name="2" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,95" size="70,24">
+      <Label title="右"/>
+    </component>
+    <component id="n18_gj1q" name="1" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="178,95" size="70,24">
+      <Label title="中"/>
+    </component>
+    <component id="n21_gj1q" name="4" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,124" size="48,24">
+      <Label title="左"/>
+    </component>
+    <component id="n22_gj1q" name="6" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,124" size="70,24">
+      <Label title="右"/>
+    </component>
+    <component id="n23_gj1q" name="5" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="178,124" size="70,24">
+      <Label title="中"/>
+    </component>
+    <component id="n24_gj1q" name="12" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,153" size="48,24">
+      <Label title="顶"/>
+    </component>
+    <component id="n25_gj1q" name="14" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,153" size="70,24">
+      <Label title="底"/>
+    </component>
+    <component id="n26_gj1q" name="13" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="178,153" size="70,24">
+      <Label title="中"/>
+    </component>
+    <component id="n27_gj1q" name="16" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,182" size="48,24">
+      <Label title="顶"/>
+    </component>
+    <component id="n28_gj1q" name="18" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,182" size="70,24">
+      <Label title="底"/>
+    </component>
+    <component id="n29_gj1q" name="17" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="178,182" size="70,24">
+      <Label title="中"/>
+    </component>
+    <component id="n32_gj1q" name="9" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,240" size="48,24">
+      <Label title="左"/>
+    </component>
+    <component id="n33_gj1q" name="10" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,240" size="70,24">
+      <Label title="右"/>
+    </component>
+    <component id="n34_gj1q" name="19" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,269" size="48,24">
+      <Label title="顶"/>
+    </component>
+    <component id="n35_gj1q" name="20" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,269" size="70,24">
+      <Label title="底"/>
+    </component>
+    <component id="n36_gj1q" name="21" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,298" size="48,24">
+      <Label title="顶"/>
+    </component>
+    <component id="n37_gj1q" name="22" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,298" size="70,24">
+      <Label title="底"/>
+    </component>
+    <component id="n30_gj1q" name="7" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="121,211" size="48,24">
+      <Label title="左"/>
+    </component>
+    <component id="n31_gj1q" name="8" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="252,211" size="70,24">
+      <Label title="右"/>
+    </component>
+    <graph id="n40_gj1q" name="n40" xy="0,34" size="328,1" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <text id="n41_gj1q" name="n41" xy="15,95" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="左 ->"/>
+    <text id="n42_gj1q" name="n42" xy="15,124" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="右 ->"/>
+    <text id="n43_gj1q" name="n43" xy="15,153" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="顶 ->"/>
+    <text id="n44_gj1q" name="n44" xy="15,182" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="底 ->"/>
+    <text id="n45_gj1q" name="n45" xy="15,211" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="左延展 ->"/>
+    <text id="n46_gj1q" name="n46" xy="15,240" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="右延展 ->"/>
+    <text id="n47_gj1q" name="n47" xy="15,269" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="顶延展 ->"/>
+    <text id="n48_gj1q" name="n48" xy="15,298" size="103,24" fontSize="12" color="#bdbdbd" align="right" vAlign="middle" autoSize="none" text="底延展 ->"/>
+  </displayList>
+</component>

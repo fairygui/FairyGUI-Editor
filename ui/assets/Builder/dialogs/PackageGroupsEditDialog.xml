@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,485" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="750,485">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="编辑包分组"/>
+    </component>
+    <component id="n14" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="660,447" size="66,25">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n20" name="n20" xy="199,55" size="542,382" group="n35" type="rect" lineColor="#ff292828" fillColor="#ff383838"/>
+    <list id="n19" name="pkgList" xy="200,56" size="540,380" group="n35" layout="flow_vt" selectionMode="multipleSingleClick" overflow="scroll" scroll="horizontal" scrollBar="visible" margin="1,1,1,1" colGap="2" defaultItem="ui://nk9ejx23ofk56x">
+      <item title="包1" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包2" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包3" icon="ui://2pshu6oiptssa7iug6"/>
+    </list>
+    <group id="n35" name="n35" xy="199,55" size="542,382"/>
+    <text id="n39" name="n39" xy="200,31" size="125,18" fontSize="12" color="#bdbdbd" singleLine="true" text="设定要在该组显示的包"/>
+    <text id="n43" name="count" xy="329,31" size="87,18" fontSize="12" color="#bdbdbd" autoSize="height" singleLine="true" text="100/100">
+      <relation target="n39" sidePair="left-right"/>
+    </text>
+    <graph id="n44_e4cx" name="n44" xy="9,30" size="182,408" group="n46_e4cx" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n45_e4cx" name="groupList" xy="10,31" size="180,405" group="n46_e4cx" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23e4cx8r"/>
+    <group id="n46_e4cx" name="n46" xy="9,30" size="182,408"/>
+    <component id="n49_e4cx" name="addGroup" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="17,446" size="22,22" group="n51_e4cx" tooltips="增加分组">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n50_e4cx" name="removeGroup" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="45,446" size="22,22" group="n51_e4cx" tooltips="删除分组">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n56_e4cx" name="moveUp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="101,446" size="22,22" group="n51_e4cx" tooltips="上移">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n57_e4cx" name="moveDown" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="129,446" size="22,22" group="n51_e4cx" tooltips="下移">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <component id="n58_e4cx" name="editGroup" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="73,446" size="22,22" group="n51_e4cx" tooltips="重命名分组">
+      <Button icon="ui://2pshu6oidp9p7iufi"/>
+    </component>
+    <group id="n51_e4cx" name="n51" xy="17,446" size="134,22"/>
+    <component id="n52_e4cx" name="selectAll" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="643,28" group="n54_e4cx" tooltips="全选">
+      <Button icon="ui://2pshu6oie4cx7iued"/>
+    </component>
+    <component id="n53_e4cx" name="selectReverse" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="677,28" group="n54_e4cx" tooltips="反向选择">
+      <Button icon="ui://2pshu6oie4cx7iueg"/>
+    </component>
+    <component id="n55_e4cx" name="selectNone" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="711,28" group="n54_e4cx" tooltips="取消全选">
+      <Button icon="ui://2pshu6oite5p7iufq"/>
+    </component>
+    <group id="n54_e4cx" name="n54" xy="643,28" size="90,22"/>
+    <component id="n59_t5zw" name="find" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="448,29" size="139,20" controller="noBorder,0,showClear,1">
+      <Label prompt="[color=#959595]查找...[/color]"/>
+    </component>
+  </displayList>
+</component>

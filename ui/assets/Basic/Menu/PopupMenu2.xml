@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="158,119">
+<component size="158,120">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" xy="-4,-4" size="166,126" locked="true">
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" xy="-4,-3" size="166,126">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <list id="n1" name="list" xy="0,1" size="157,115" overflow="scroll" scrollBarFlags="4" scrollBar="visible" lineGap="2" defaultItem="ui://nk9ejx23bg8o8g"/>
+    <list id="n1" name="list" xy="1,2" size="155,115" overflow="scroll" scrollBarFlags="4" scrollBar="visible" lineGap="2" defaultItem="ui://nk9ejx23bg8o8g"/>
   </displayList>
 </component>

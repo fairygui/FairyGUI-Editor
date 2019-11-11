@@ -5,23 +5,22 @@
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建弹出菜单"/>
     </component>
-    <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n1" name="n1" xy="223,35" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="293,33" size="134,20"/>
+    <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <text id="n1" name="n1" xy="223,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="307,33" size="134,20" controller="noBorder,0"/>
     <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="321,367">
       <Button title="创建"/>
     </component>
     <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="447,367">
       <Button title="取消"/>
     </component>
-    <text id="n12" name="n12" xy="223,65" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="293,63" size="216,20"/>
-    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="516,61" size="60,25">
-      <Button title="浏览.."/>
+    <text id="n12" name="n12" xy="223,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="307,63" size="246,20" controller="noBorder,0"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="557,61" size="30,25">
+      <Button title="..."/>
     </component>
     <text id="n17" name="n17" xy="230,102" size="350,67" fontSize="12" color="#bdbdbd" leading="6" autoSize="none" text="弹出菜单由两部分组成&#xA;(1)菜单背景&#xA;(2)菜单项目列表"/>
-    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,2"/>
-    <image id="n34" name="n34" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="225,355" size="367,2"/>
+    <image id="n33" name="n33" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="224,96" size="367,1"/>
     <text id="n36" name="n36" xy="223,175" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="菜单背景"/>
     <component id="n38" name="n38" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="293,172" size="214,20"/>
     <image id="n91" name="n91" src="t3skiu8h" fileName="images/Bitmap(3).png" xy="21,43"/>

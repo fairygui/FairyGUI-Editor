@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,19" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="4"/>
+  <displayList>
+    <image id="n1" name="n1" src="t64x7iues" fileName="Button/images/checkbox_up.png" xy="0,3" size="14,14">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n8_lgdb" name="n8" src="lgdb7iufk" fileName="Button/images/checkbox_disabled.png" xy="0,3">
+      <gearDisplay controller="button" pages="4,5"/>
+    </image>
+    <image id="n7" name="n7" src="kwng7e" fileName="Button/images/gou.png" xy="3,6">
+      <gearDisplay controller="button" pages="1,3,5"/>
+    </image>
+    <text id="n5" name="title" xy="15,1" size="10,18" fontSize="12" color="#878787" vAlign="middle" singleLine="true" text="">
+      <gearColor controller="button" pages="1,3,4,5" values="#d19036,#000000|#d19036,#000000|#878787,#000000|#878787,#000000" default="#bdbdbd,#000000"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+  <relation target="n5" sidePair="rightext-right"/>
+</component>

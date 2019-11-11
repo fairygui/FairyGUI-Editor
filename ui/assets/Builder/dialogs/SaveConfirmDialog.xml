@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="360,300">
+<component size="400,300">
   <displayList>
-    <component id="n1" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="360,300"/>
-    <component id="n2" name="btnYes" src="xualm" pkg="nk9ejx23" xy="35,256">
+    <component id="n1" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="400,300" locked="true"/>
+    <graph id="n5" name="n5" xy="12,55" size="374,190" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <text id="n6" name="n6" xy="14,30" size="149,18" fontSize="12" color="#bdbdbd" text="是否保存以下各项的修改？"/>
+    <list id="n7" name="list" xy="13,56" size="372,188" overflow="scroll" scrollBarFlags="4" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n4s"/>
+    <component id="n2" name="btnYes" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="51,256">
       <Button title="是"/>
     </component>
-    <component id="n3" name="btnNo" src="xualm" pkg="nk9ejx23" xy="142,256">
+    <component id="n3" name="btnNo" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="158,256">
       <Button title="否"/>
     </component>
-    <component id="n4" name="btnCancel" src="xualm" pkg="nk9ejx23" xy="248,255">
+    <component id="n4" name="btnCancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="264,255">
       <Button title="取消"/>
     </component>
-    <graph id="n5" name="n5" xy="12,55" size="335,190" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n6" name="n6" xy="14,30" size="149,16" fontSize="12" color="#bdbdbd" text="是否保存以下各项的修改？"/>
-    <list id="n7" name="list" xy="12,55" size="335,190" overflow="scroll" scrollBarFlags="4" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n4s"/>
   </displayList>
 </component>

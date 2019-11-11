@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,25" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_t67h" name="n5" src="phl68y" fileName="Button/button_up.png" xy="0,0" size="31,25">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n6_t67h" name="n6" src="phl68z" fileName="Button/button_down.png" xy="0,0" size="31,25">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4" name="title" xy="10,4" size="10,16" fontSize="12" color="#bdbdbd" text="">
+      <gearColor controller="grayed" pages="0,1" values="#bdbdbd,#000000|#999999,#000000"/>
+      <relation target="" sidePair="height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+  <relation target="n4" sidePair="width-width"/>
+</component>

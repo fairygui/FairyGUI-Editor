@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="53,25" extention="Button">
+<component size="55,28" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="modified" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="" objectId="n3" controller="modified" targetPage="~1"/>
+  </controller>
   <displayList>
-    <image id="n5" name="n5" src="p0yg7q" fileName="Tab/a52.png" xy="0,0" size="53,25">
-      <gearDisplay controller="button" pages="1,3"/>
-      <relation target="" sidePair="height-height,width-width"/>
-    </image>
-    <image id="n4" name="n4" src="p0yg7p" fileName="Tab/a72.png" xy="0,0" size="53,25">
+    <image id="n4" name="n4" src="j5yv95" fileName="Tab/images/tab_normal2.png" xy="0,0" size="55,28">
       <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="23,5" size="10,16" fontSize="12" color="#959595" vAlign="middle" text="">
-      <gearColor controller="button" pages="0,1,3" values="#959595,#000000|#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
-    </text>
-    <component id="n3" name="closeButton" src="gcza2u" fileName="Tab/TabCloseButton.xml" xy="32,3">
-      <gearDisplay controller="button" pages="1,2,3"/>
-      <relation target="" sidePair="right-right"/>
-    </component>
-    <loader id="n6" name="icon" xy="2,3" size="20,20" align="center" vAlign="middle" color="#b4b4b4">
+    <image id="n5" name="n5" src="uodi7iufi" fileName="Tab/images/tab_selected2.png" xy="0,0" size="55,28">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <loader id="n6" name="icon" xy="5,5" size="20,20" align="center" vAlign="middle" color="#b4b4b4">
       <gearColor controller="button" pages="0,2" values="#b4b4b4|#b4b4b4" default="#ffffff"/>
     </loader>
+    <text id="n2" name="title" xy="26,6" size="10,18" fontSize="12" color="#959595" singleLine="true" text="">
+      <gearColor controller="button" pages="0,1,3" values="#959595,#000000|#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <component id="n3" name="closeButton" src="gcza2u" fileName="Tab/TabCloseButton.xml" xy="34,5" controller="modified,1">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <gearDisplay2 controller="modified" pages="1" condition="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
   </displayList>
   <Button mode="Radio"/>
   <relation target="n2" sidePair="width-width"/>

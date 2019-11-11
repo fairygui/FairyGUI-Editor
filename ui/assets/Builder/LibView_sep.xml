@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="4,552">
+  <displayList>
+    <graph id="n14_emg4" name="sep" xy="0,0" size="1,552" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff292828">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+  </displayList>
+</component>

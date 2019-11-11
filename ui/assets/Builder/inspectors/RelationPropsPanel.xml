@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,135" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n47" name="list" xy="0,0" size="270,110" defaultItem="ui://2pshu6oiau3n4i" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n52_gj1q" name="add" src="aall7iuez" fileName="basic/addOtherButton.xml" xy="10,110" size="83,22">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="对其他元件"/>
+    </component>
+  </displayList>
+  <relation target="n47" sidePair="bottomext-bottom"/>
+</component>

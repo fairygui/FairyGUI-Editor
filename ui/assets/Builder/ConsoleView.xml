@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,580" designImageOffsetX="-428" designImageAlpha="100" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n3" name="list" xy="0,27" size="283,553" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oingyqa7iufw" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item controllers="bg,0,type,0"/>
+      <item controllers="bg,1,type,1"/>
+      <item controllers="bg,0,type,2"/>
+    </list>
+    <graph id="n12_qilr" name="n12" xy="0,26" size="283,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n13_jrsv" name="btnCopy" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="227,2" size="22,22" group="n9_qilr" tooltips="复制到剪贴板">
+      <Button icon="ui://2pshu6oiikoviuau"/>
+    </component>
+    <component id="n5_qilr" name="btnClear" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="254,2" size="22,22" group="n9_qilr" tooltips="清空">
+      <Button icon="ui://2pshu6oior3eixicsj"/>
+    </component>
+    <group id="n9_qilr" name="n9" xy="227,2" size="49,22" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

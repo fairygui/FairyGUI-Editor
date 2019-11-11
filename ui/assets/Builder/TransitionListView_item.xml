@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,25" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="au3n4v" fileName="List/listitem_hover.png" pkg="nk9ejx23" xy="0,0" size="218,24">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <image id="n1" name="n1" src="au3n50" fileName="List/listitem_selected.png" pkg="nk9ejx23" xy="0,0" size="218,25">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="height-height,width-width"/>
+    </image>
+    <loader id="n6" name="icon" xy="4,2" size="20,20" url="ui://2pshu6oiitz3iucd" align="center" vAlign="middle"/>
+    <component id="n2" name="title" src="au3n6m" fileName="Input/ListItemInput.xml" pkg="nk9ejx23" xy="26,2" size="141,22">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="200,13" extention="ScrollBar">
+<component size="200,12" extention="ScrollBar">
   <displayList>
-    <image id="n0" name="n0" src="xuale" xy="0,0" size="200,13">
-      <relation target="" sidePair="width-width"/>
-    </image>
-    <graph id="n5" name="bar" xy="15,0" size="170,13">
+    <graph id="n6_ty2q" name="n6" xy="0,0" size="200,12" type="rect" lineSize="0" fillColor="#ff3f3f3f">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n5" name="bar" xy="0,0" size="200,12">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <component id="n4" name="grip" src="xualh" xy="36,0" size="20,13"/>
-    <component id="n3" name="arrow2" src="kwng74" xy="185,0">
-      <relation target="" sidePair="right-right"/>
-    </component>
-    <component id="n2" name="arrow1" src="kwng73" xy="0,0"/>
+    <component id="n4" name="grip" src="xualh" fileName="ScrollBar/GripButton_HZ.xml" xy="36,1" restrictSize="30,0,0,0"/>
   </displayList>
   <ScrollBar/>
 </component>

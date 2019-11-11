@@ -1,76 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="844,426">
-  <controller name="c1" pages="0,,1," selected="1"/>
+<component size="827,532">
+  <controller name="homepage" pages="0,default,1,specific,2,branch,3,variable" selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="844,426" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="827,532">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="控制器属性"/>
     </component>
-    <graph id="n20" name="n20" xy="11,124" size="378,254" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <text id="n15" name="n15" xy="9,32" size="41,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="名称"/>
-    <component id="n16" name="name" src="gcza1s" pkg="nk9ejx23" xy="54,30" size="147,20"/>
-    <list id="n19" name="pageList" xy="11,144" size="378,234" overflow="scroll" scrollBar="visible" margin="0,1,1,1" defaultItem="ui://2pshu6oiau3n3u"/>
-    <component id="n28" name="addPage" src="xualm" pkg="nk9ejx23" xy="9,94" size="69,25">
-      <Button title="增加页"/>
-    </component>
-    <component id="n29" name="removePage" src="xualm" pkg="nk9ejx23" xy="80,94" size="69,25">
-      <Button title="删除页"/>
-    </component>
-    <component id="n30" name="buttonTemplate" src="xualm" pkg="nk9ejx23" xy="301,94" size="90,25">
-      <Button title="按钮模板"/>
-    </component>
-    <component id="n31" name="moveUp" src="xualm" pkg="nk9ejx23" xy="151,94" size="69,25">
-      <Button title="上移"/>
-    </component>
-    <component id="n32" name="moveDown" src="xualm" pkg="nk9ejx23" xy="222,94" size="69,25">
-      <Button title="下移"/>
-    </component>
-    <image id="n33" name="n33" src="au3n39" pkg="nk9ejx23" xy="8,83" size="382,2"/>
-    <component id="n34" name="deleteController" src="xualm" pkg="nk9ejx23" xy="9,393" size="83,25">
-      <Button title="删除控制器"/>
-    </component>
-    <component id="n35" name="n35" src="au3n3v" xy="11,124" size="378,21"/>
-    <component id="n36" name="autoRadioGroupDepth" src="dp4f7u" pkg="nk9ejx23" xy="181,60" size="154,19" group="n38">
-      <Button title="自动调整单选组对象层次"/>
-    </component>
-    <component id="n37" name="n37" src="ehmsu7z" xy="330,61" group="n38" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xD;选中状态的按钮都会被自动调整到其他按钮的最上面">
-      <relation target="n36" sidePair="left-right"/>
-    </component>
-    <group id="n38" name="n38" xy="181,60" size="165,19"/>
-    <text id="n39" name="n39" xy="205,32" size="62,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="别名"/>
-    <component id="n40" name="alias" src="gcza1s" pkg="nk9ejx23" xy="272,30" size="117,20"/>
-    <component id="n41" name="exported" src="dp4f7u" pkg="nk9ejx23" xy="15,60" size="106,19" group="n43">
-      <Button title="导出为组件属性"/>
-    </component>
-    <component id="n42" name="n42" src="ehmsu7z" xy="117,61" group="n43" tooltips="勾选后，可以在组件的属性页面设置此控制器的活动页面。属性标题为别名或者控制器名称。">
-      <relation target="n41" sidePair="left-right"/>
-    </component>
-    <group id="n43" name="n43" xy="15,60" size="118,19"/>
-    <image id="n45" name="n45" src="au3n39" pkg="nk9ejx23" xy="8,385" size="382,2"/>
-    <component id="n13" name="save" src="xualm" pkg="nk9ejx23" xy="254,393" size="62,25" group="n47">
-      <Button title="保存"/>
-    </component>
-    <component id="n14" name="cancel" src="xualm" pkg="nk9ejx23" xy="332,394" size="56,25" group="n47">
-      <Button title="取消"/>
-    </component>
-    <group id="n47" name="n47" xy="254,393" size="134,26"/>
-    <image id="n48_ncy4" name="n48" src="au3n38" pkg="nk9ejx23" xy="398,27" size="2,394"/>
-    <graph id="n55_ncy4" name="n55" xy="405,28" size="434,389">
-      <gearSize controller="c1" pages="0,1" values="40,389,1,1|434,389,1,1"/>
-    </graph>
-    <text id="n52_ncy4" name="n52" xy="401,32" size="45,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="动作"/>
-    <component id="n53_ncy4" name="addAction" src="au3n2i" xy="441,29" tooltips="新建动作">
-      <gearXY controller="c1" pages="0,1" values="408,57|441,29"/>
-      <Button icon="ui://2pshu6oikrunu6h"/>
-    </component>
-    <graph id="n49_ncy4" name="n49" xy="411,55" size="419,353" group="n57_ncy4" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n56_ncy4" name="actionList" xy="411,54" size="420,353" group="n57_ncy4" overflow="scroll" scrollBarFlags="4" margin="4,0,2,0" lineGap="5" defaultItem="ui://2pshu6oi5yy4iuax">
+    <text id="n15" name="n15" xy="9,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <component id="n16" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="71,31" size="147,20" controller="noBorder,0,showClear,0"/>
+    <graph id="n20" name="n20" xy="10,125" size="380,359" group="n65_dp9p" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="pageList" xy="11,145" size="378,337" group="n65_dp9p" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n3u" autoClearItems="true">
+      <item/>
       <item/>
       <item/>
     </list>
-    <group id="n57_ncy4" name="n57" xy="411,54" size="420,354" advanced="true">
-      <gearDisplay controller="c1" pages="1"/>
-    </group>
+    <group id="n65_dp9p" name="n65" xy="10,125" size="380,359"/>
+    <component id="n34" name="deleteController" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="732,29" size="83,25">
+      <Button title="删除控制器"/>
+    </component>
+    <component id="n36" name="autoRadioGroupDepth" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="151,61" size="156,19" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xD;选中状态的按钮都会被自动调整到其他按钮的最上面">
+      <Button title="自动调整单选组对象层次"/>
+    </component>
+    <text id="n39" name="n39" xy="224,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注名"/>
+    <component id="n40" name="alias" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="286,31" size="117,20" controller="noBorder,0,showClear,0"/>
+    <component id="n41" name="exported" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="11,61" size="108,19" tooltips="勾选后，可以在组件的附加属性页面设置此控制器的活动页面。属性标题为别名或者控制器名称。">
+      <Button title="导出为组件属性"/>
+    </component>
+    <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="346,496" size="62,25" group="n47">
+      <Button title="保存"/>
+    </component>
+    <component id="n14" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="424,497" size="56,25" group="n47">
+      <Button title="取消"/>
+    </component>
+    <group id="n47" name="n47" xy="346,496" size="134,26"/>
+    <graph id="n49_ncy4" name="n49" xy="398,126" size="419,358" group="n57_ncy4" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n56_ncy4" name="actionList" xy="399,127" size="417,356" group="n57_ncy4" overflow="scroll" margin="4,4,4,4" lineGap="8" defaultItem="ui://2pshu6oi5yy4iuax" autoClearItems="true">
+      <item controllers="type,1"/>
+      <item controllers="type,0"/>
+      <item controllers="type,0"/>
+      <item controllers="type,0"/>
+      <item controllers="type,0"/>
+      <item controllers="type,0"/>
+    </list>
+    <group id="n57_ncy4" name="n57" xy="398,126" size="419,358" advanced="true"/>
+    <image id="n100_mwte" name="n100" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="10,125" size="380,21" group="n106_mwte"/>
+    <text id="n101_mwte" name="n101" xy="13,127" size="40,18" restrictSize="0,40,0,0" group="n106_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="索引"/>
+    <graph id="n102_mwte" name="n102" xy="56,126" size="1,19" group="n106_mwte" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <text id="n103_mwte" name="n103" xy="60,127" size="141,18" group="n106_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <graph id="n104_mwte" name="n104" xy="206,126" size="1,19" group="n106_mwte" type="rect" lineSize="0" fillColor="#ff292828"/>
+    <text id="n105_mwte" name="n105" xy="209,127" size="112,18" group="n106_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注">
+      <relation target="" sidePair="rightext-right"/>
+    </text>
+    <group id="n106_mwte" name="n106" xy="10,125" size="380,21"/>
+    <component id="n58_dp9p" name="addPage" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="53,95" size="22,22" group="n114_omf5">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n59_dp9p" name="removePage" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="109,95" size="22,22" group="n114_omf5">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n60_dp9p" name="moveUp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="137,95" size="22,22" group="n114_omf5">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n61_dp9p" name="moveDown" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="165,95" size="22,22" group="n114_omf5">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <component id="n62_dp9p" name="buttonTemplate" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="193,95" size="22,22" group="n114_omf5" tooltips="按钮控制器模板">
+      <Button icon="ui://2pshu6oiau3n1l"/>
+    </component>
+    <text id="n72_dp9p" name="n72" xy="11,97" size="41,18" group="n114_omf5" fontSize="12" color="#bdbdbd" autoSize="none" text="页面"/>
+    <component id="n120_pptp" name="insertPage" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="81,95" size="22,22" group="n114_omf5">
+      <Button icon="ui://2pshu6oioskoixicub"/>
+    </component>
+    <group id="n114_omf5" name="n114" xy="11,95" size="204,22"/>
+    <text id="n115_omf5" name="n115" xy="409,32" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="首页"/>
+    <component id="n116_omf5" name="homePageType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="478,32" size="120,20">
+      <ComboBox title="第一页" visibleItemCount="10" selectionController="homepage">
+        <item title="第一页" value="default"/>
+        <item title="指定页面" value="specific"/>
+        <item title="匹配分支名称" value="branch"/>
+        <item title="匹配变量名称" value="variable"/>
+      </ComboBox>
+    </component>
+    <component id="n117_omf5" name="homePage" src="zn3piude" fileName="basic/ControllerPageInput.xml" xy="601,32" size="105,20">
+      <gearDisplay controller="homepage" pages="1"/>
+    </component>
+    <component id="n118_omf5" name="homePage_var" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,32" size="105,20">
+      <gearDisplay controller="homepage" pages="3"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n52_ncy4" name="n52" xy="398,96" size="38,18" group="n119_omf5" fontSize="12" color="#bdbdbd" autoSize="none" text="动作"/>
+    <component id="n67_dp9p" name="addAction" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="437,94" size="22,22" group="n119_omf5">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n68_dp9p" name="removeAction" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="465,94" size="22,22" group="n119_omf5">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n69_dp9p" name="moveUpAction" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="493,94" size="22,22" group="n119_omf5">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n70_dp9p" name="moveDownAction" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="521,94" size="22,22" group="n119_omf5">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <group id="n119_omf5" name="n119" xy="398,94" size="145,22"/>
   </displayList>
-  <relation target="n55_ncy4" sidePair="rightext-right"/>
 </component>

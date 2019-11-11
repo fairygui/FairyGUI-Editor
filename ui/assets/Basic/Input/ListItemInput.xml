@@ -2,7 +2,7 @@
 <component size="60,20" extention="Label">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n6" name="n6" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#ff3f3f3f">
+    <graph id="n6_rnct" name="n6" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#ff383838">
       <gearDisplay controller="c1" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="263,97">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="263,97" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n13_jz5v" name="n13" xy="14,12" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="重复次数"/>
+    <component id="n14_jz5v" name="repeat" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="82,11" size="50,20">
+      <Label title="1"/>
+    </component>
+    <text id="n15_jz5v" name="n15" xy="13,37" size="67,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="延迟"/>
+    <component id="n16_jz5v" name="delay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="82,36" size="50,20">
+      <Label title="1"/>
+    </component>
+    <component id="n18_jz5v" name="stopOnExit" src="rm0l7v" fileName="Checkbox/AutoSizeCheckbox.xml" pkg="nk9ejx23" xy="14,65" size="106,19">
+      <Button title="离开页面时停止"/>
+    </component>
+    <text id="n19_jz5v" name="n19" xy="138,14" size="74,18" fontSize="12" color="#bdbdbd" text="(-1表示循环)"/>
+  </displayList>
+</component>

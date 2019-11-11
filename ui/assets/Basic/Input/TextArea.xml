@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="156,81" extention="Label">
-  <controller name="showEditButton" exported="true" pages="0,,1," selected="1"/>
+  <controller name="showEditButton" exported="true" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n0" name="n0" src="gcza1r" fileName="Input/p4.png" xy="0,0" size="156,81" aspect="true">
+    <image id="n0" name="n0" src="gcza1r" fileName="Input/input_bg.png" xy="0,0" size="156,81" aspect="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n1" name="title" xy="1,2" size="154,79" input="true" fontSize="12" color="#bdbdbd" autoSize="none" text="">

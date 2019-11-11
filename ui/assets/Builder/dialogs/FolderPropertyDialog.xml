@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="415,151">
+<component size="415,162">
   <displayList>
-    <component id="n61" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="415,151" locked="true">
+    <component id="n61" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="415,162" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="文件夹属性"/>
     </component>
-    <image id="n62" name="n62" src="au3n39" pkg="nk9ejx23" xy="7,108" size="397,2"/>
-    <component id="n63" name="ok" src="xualm" pkg="nk9ejx23" xy="141,118" size="58,25" group="n65">
+    <component id="n63" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="141,118" size="58,25" group="n65">
       <Button title="保存"/>
     </component>
-    <component id="n64" name="cancel" src="xualm" pkg="nk9ejx23" xy="216,118" size="58,25" group="n65">
+    <component id="n64" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="216,118" size="58,25" group="n65">
       <Button title="取消"/>
     </component>
     <group id="n65" name="n65" xy="141,118" size="133,25"/>
-    <component id="n71_prja" name="atlas" src="gcza18" pkg="nk9ejx23" xy="94,80" size="160,20">
+    <component id="n71_prja" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="103,80" size="160,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n72_prja" name="atlasEnabled" src="xualt" pkg="nk9ejx23" xy="20,80" size="71,19">
+    <component id="n72_prja" name="atlasEnabled" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="20,80" size="80,19">
       <Button title="纹理集"/>
     </component>
     <text id="n73_prja" name="n73" xy="17,31" size="375,38" fontSize="12" color="#bdbdbd" autoSize="none" text="可以为文件夹指定一个纹理集，则此文件夹以及子文件夹下的图片和动画都使用此纹理集设置。"/>

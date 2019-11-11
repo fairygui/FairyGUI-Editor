@@ -3,15 +3,15 @@
   <displayList>
     <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="494,351">
       <relation target="" sidePair="height-height,width-width"/>
-      <Label title="关于 FairyGUI Editor"/>
+      <Label title="关于 FairyGUI 编辑器"/>
     </component>
     <graph id="n15_pmbq" name="n15" xy="2,213" size="487,134" type="rect" lineSize="0" lineColor="#ff5c5b5b" fillColor="#ff4a4a4a"/>
-    <image id="n4" name="n4" src="dnyau7t" fileName="icons/logo48.png" xy="26,39" size="80,80"/>
-    <image id="n8" name="n8" src="qbyliubl" fileName="icons/n8.png" xy="120,33" size="346,46"/>
+    <image id="n4" name="n4" src="so5uixicsc" fileName="icons/logo128.png" xy="26,39" size="80,80"/>
     <richtext id="n13" name="msg" xy="120,85" size="346,100" fontSize="14" color="#bdbdbd" align="center" ubb="true" autoSize="none" text=""/>
     <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="392,310">
       <Button title="关闭"/>
     </component>
-    <richtext id="n16_pmbq" name="license" xy="7,221" size="364,118" fontSize="12" color="#bdbdbd" ubb="true" autoSize="none" text=""/>
+    <richtext id="n16_pmbq" name="license" xy="7,221" size="364,118" fontSize="14" color="#bdbdbd" ubb="true" autoSize="none" text=""/>
+    <text id="n17_et85" name="n17" xy="184,34" size="205,40" fontSize="30" color="#bdbdbd" text="FairyGUI Editor"/>
   </displayList>
 </component>

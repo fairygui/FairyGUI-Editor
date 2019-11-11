@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,117" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n51" name="list" xy="0,-1" size="270,90" selectionMode="none" defaultItem="ui://2pshu6oifr0ciu9n">
+      <item url="ui://2pshu6oiaall7iuf0" controllers="second,0"/>
+      <item url="ui://2pshu6oiaall7iuf0" controllers="second,1"/>
+      <item/>
+    </list>
+    <component id="n52_93ak" name="add" src="aall7iuez" fileName="basic/addOtherButton.xml" xy="10,89" size="71,22">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="更多控制"/>
+    </component>
+  </displayList>
+  <relation target="n51" sidePair="bottomext-bottom"/>
+</component>

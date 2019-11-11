@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,128">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="350,128">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n1" name="prompt" xy="25,37" size="304,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <component id="n2" name="input" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="20,63" size="312,20" controller="noBorder,0"/>
+    <component id="n3" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="75,91" group="n5_wxof">
+      <Button title="确定"/>
+    </component>
+    <component id="n4" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="193,91" group="n5_wxof">
+      <Button title="取消"/>
+    </component>
+    <group id="n5_wxof" name="n5" xy="75,91" size="203,25"/>
+  </displayList>
+</component>

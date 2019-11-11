@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,20" extention="Label" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n64" name="title" xy="0,0" size="127,20" fontSize="12" color="#bdbdbd" autoSize="none" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <graph id="n65_dp9p" name="n65" xy="0,19" size="152,1" type="rect" lineSize="0" fillColor="#ff555555">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <image id="n66_dp9p" name="n66" src="e4p48q" fileName="ComboBox/dropdown_arrow.svg" pkg="nk9ejx23" xy="133,3">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

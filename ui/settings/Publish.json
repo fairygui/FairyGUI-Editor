@@ -1,4 +1,9 @@
 {
+	"atlasSetting":{
+		"paging":true,
+		"sizeOption":"pot"
+	},
+	"binaryFormat":false,
 	"codeGeneration":{
 		"classNamePrefix":"",
 		"codePath":"",
@@ -8,7 +13,11 @@
 		"memberNamePrefix":"",
 		"packageName":""
 	},
-	"fileExtension":"",
+	"compressDesc":true,
+	"fileExtension":"zip",
+	"includeHighResolution":1,
+	"mergeBranch":false,
 	"packageCount":1,
-	"path":"D:\\FairyGUI-Editor\\assets"
+	"path":"../assets",
+	"unityDataFormat":1
 }

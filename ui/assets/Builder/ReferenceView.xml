@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,580" designImageOffsetX="-428" designImageAlpha="100" bgColorEnabled="true" bgColor="#383838">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="queryType" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="0" toPage="1" controller="c1" targetPage="0"/>
+  </controller>
+  <displayList>
+    <component id="n13_n5mh" name="source" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="34,61" size="164,20"/>
+    <component id="n19_kk1i" name="showReplace" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="8,60" tooltips="显示替换选项">
+      <gearDisplay controller="queryType" pages="0"/>
+      <Button icon="ui://2pshu6oipi83u6x" selectedIcon="ui://2pshu6oiruiliual" controller="c1" page="1"/>
+    </component>
+    <component id="n22_kk1i" name="find" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="205,59" size="71,25">
+      <Button title="查询"/>
+    </component>
+    <component id="n20_kk1i" name="replaceTarget" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="35,61" size="163,20" group="n24_kk1i"/>
+    <component id="n23_kk1i" name="replace" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="205,59" size="71,25" group="n24_kk1i">
+      <Button title="替换"/>
+    </component>
+    <group id="n24_kk1i" name="n24" xy="35,59" size="241,25" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="0,1" values="35,59|35,90"/>
+    </group>
+    <text id="n18_ml2h" name="result" xy="15,88" size="231,18" fontSize="12" color="#bdbdbd" vars="true" autoSize="none" text="{count=4}个结果 在{file_count=1}个文件">
+      <relation target="n24_kk1i" sidePair="top-bottom"/>
+    </text>
+    <graph id="n12_qilr" name="n12" xy="0,110" size="283,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n24_kk1i" sidePair="top-bottom"/>
+    </graph>
+    <list id="n3" name="list" xy="0,111" size="283,468" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n12_qilr" sidePair="topext-bottom"/>
+    </list>
+    <component id="n27_btwf" name="n27" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="17,7" size="118,19">
+      <Button checked="true" title="查询依赖我的资源" controller="queryType" page="0"/>
+    </component>
+    <component id="n28_usin" name="n28" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="17,32" size="118,19">
+      <Button title="查询我依赖的资源" controller="queryType" page="1"/>
+    </component>
+  </displayList>
+</component>

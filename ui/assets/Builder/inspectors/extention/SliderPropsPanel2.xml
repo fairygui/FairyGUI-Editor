@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,164" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n47" name="n47" xy="4,9" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="标题类型"/>
+    <component id="n48" name="titleType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,7" size="178,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n70_in52" name="reverse" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,38" size="48,19">
+      <Button title="反向"/>
+    </component>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,129" tooltips="命名约定&#xD;bar: 横向伸缩部分。并设置至100%长度。&#xD;bar_v: 纵向伸缩部分。并设置至100%长度。&#xD;grip: 拖动滑块。&#xD;title: 文本标题。&#xD;ani: 动画。"/>
+    <component id="n72_9rrf" name="wholeNumbers" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,64" size="72,19">
+      <Button title="整数输入"/>
+    </component>
+    <component id="n73_iz6l" name="changeOnClick" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,92" size="120,19">
+      <Button title="允许通过点击更改"/>
+    </component>
+  </displayList>
+</component>

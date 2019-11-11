@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,22" extention="Label">
+  <displayList>
+    <component id="n132" name="title" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="0,1" size="101,20">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n140" name="chooseFont" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="128,0" size="22,22">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <component id="n164_s8d3" name="preset" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="105,1" size="19,19">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://nk9ejx23e4p48q"/>
+    </component>
+  </displayList>
+</component>

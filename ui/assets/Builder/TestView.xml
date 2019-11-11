@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="790,400" bgColorEnabled="true" bgColor="#383838">
+  <controller name="orientation" pages="0,landscape,1,portriait" selected="0"/>
+  <displayList>
+    <graph id="n21_s4vj" name="n21" xy="0,0" size="790,400" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n23_qilr" name="n23" xy="0,31" size="790,1" touchable="false" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff292828">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n1" name="n1" xy="1,64" size="788,335" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n37_hv6o" sidePair="topext-bottom"/>
+    </graph>
+    <graph id="n40_s3qd" name="n40" xy="0,63" size="790,1" touchable="false" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff292828">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n1" sidePair="top-top"/>
+    </graph>
+    <component id="n6" name="docContainer" src="au3ni" fileName="DocContainer.xml" xy="1,64" size="788,335">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n1" sidePair="topext-top"/>
+    </component>
+    <graph id="n22_j5yv" name="n22" xy="777,387" size="12,12" type="rect" lineSize="0" fillColor="#ff3f3f3f">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </graph>
+    <component id="n28_g3d6" name="adaptation" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="10,7" size="48,19">
+      <Button checked="true" title="适配" page="1"/>
+    </component>
+    <component id="n29_g3d6" name="device" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="442,6" size="197,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n30_g3d6" name="screenMatch" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="203,6" size="142,20">
+      <ComboBox title="(无)" visibleItemCount="10">
+        <item title="(无)"/>
+        <item title="全屏" value="FitSize"/>
+        <item title="适应高度，左右居中" value="FitHeightAndSetCenter"/>
+        <item title="适应宽度，上下居中" value="FitWidthAndSetMiddle"/>
+      </ComboBox>
+    </component>
+    <component id="n34_g3d6" name="contentScaler" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="92,6" size="20,20" tooltips="输入设置">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+    <list id="n37_hv6o" name="controllerList" xy="3,35" size="785,25" layout="flow_hz" selectionMode="none" lineGap="2" defaultItem="ui://2pshu6oiau3n5h">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item url="ui://2pshu6oiau3n3g"/>
+      <item/>
+      <item url="ui://2pshu6oiau3n3g"/>
+    </list>
+    <text id="n38_s3qd" name="n38" xy="120,7" size="79,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="适应屏幕"/>
+    <text id="n39_s3qd" name="n39" xy="360,7" size="77,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="设备"/>
+    <component id="n41_rvrn" name="landscape" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="649,3" tooltips="横屏">
+      <Button checked="true" icon="ui://2pshu6oirvrnixicso" controller="orientation" page="0"/>
+    </component>
+    <component id="n44_rvrn" name="portrait" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="675,3" tooltips="竖屏">
+      <Button icon="ui://2pshu6oirvrnixicsq" controller="orientation" page="1"/>
+    </component>
+  </displayList>
+</component>

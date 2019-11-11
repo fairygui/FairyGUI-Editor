@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="100,8">
   <displayList>
-    <image id="n0" name="n0" src="kwng7n" xy="21,3" size="77,2">
+    <image id="n0" name="n0" src="kwng7n" fileName="Menu/HzSeperator2.png" xy="0,3" size="100,2">
       <relation target="" sidePair="width-width"/>
     </image>
-    <image id="n1" name="n1" src="kwng7o" xy="18,0" size="2,8"/>
   </displayList>
 </component>

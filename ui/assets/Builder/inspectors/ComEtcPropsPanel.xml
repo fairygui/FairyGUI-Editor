@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,126" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n49_sqzs" name="n49" xy="4,38" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义数据"/>
+    <component id="n50_sqzs" name="remark" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,38" size="178,81" controller="showEditButton,1"/>
+    <text id="n53_rlad" name="n53" xy="4,7" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义属性"/>
+    <component id="n54_rlad" name="editCustomProps" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="97,5">
+      <Button title="编辑..."/>
+    </component>
+  </displayList>
+</component>

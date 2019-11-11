@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,200" overflow="hidden" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n16" name="desc" xy="3,6" size="178,18" fontSize="12" color="#bdbdbd" autoSize="none" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <graph id="n17" name="holder" xy="8,29" size="204,164">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n19_d1l0" name="play" src="d1l0iubo" fileName="basic/PlayButton.xml" xy="78,75" pivot="0.5,0.5" size="64,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n20_w36i" name="option" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="191,4">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+  </displayList>
+</component>

@@ -1,93 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="nk9ejx23" jpegQuality="80" compressPNG="false" hasFavorites="true">
+<packageDescription id="nk9ejx23">
   <resources>
     <component id="xual0" name="ScrollBar_VT.xml" path="/ScrollBar/" exported="true"/>
-    <image id="xual2" name="s1.png" path="/ScrollBar/" scale="9grid" scale9grid="4,2,5,109" qualityOption="source"/>
-    <image id="xual3" name="s2.png" path="/ScrollBar/" scale="9grid" scale9grid="4,2,5,111" qualityOption="source"/>
-    <image id="xual4" name="s3.png" path="/ScrollBar/" scale="9grid" scale9grid="4,2,5,111" qualityOption="source"/>
     <component id="xual5" name="GripButton_VT.xml" path="/ScrollBar/"/>
-    <image id="xual6" name="s4.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="xual7" name="s5.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="xual8" name="s6.png" path="/ScrollBar/" qualityOption="source"/>
-    <component id="xual9" name="ScrollUpButton.xml" path="/ScrollBar/"/>
-    <image id="xuala" name="s7.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="xualb" name="s8.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="xualc" name="s9.png" path="/ScrollBar/" qualityOption="source"/>
-    <component id="xuald" name="ScrollDownButton.xml" path="/ScrollBar/"/>
-    <image id="xuale" name="s10.png" path="/ScrollBar/" scale="9grid" scale9grid="4,7,6,187" qualityOption="source"/>
     <component id="xualf" name="ScrollBar_HZ.xml" path="/ScrollBar/" exported="true"/>
     <component id="xualh" name="GripButton_HZ.xml" path="/ScrollBar/"/>
-    <image id="xualj" name="b5.png" path="/Button/" exported="true" scale="9grid" scale9grid="3,3,68,11"/>
-    <image id="xualk" name="b6.png" path="/Button/" exported="true" scale="9grid" scale9grid="4,2,65,12"/>
-    <image id="xuall" name="b7.png" path="/Button/" exported="true" scale="9grid" scale9grid="4,2,67,13"/>
     <component id="xualm" name="Button.xml" path="/Button/" exported="true"/>
-    <image id="xualn" name="b1.png" path="/Checkbox/" exported="true" qualityOption="source"/>
-    <image id="xualo" name="b2.png" path="/Checkbox/" exported="true" qualityOption="source"/>
-    <image id="xualp" name="b3.png" path="/Checkbox/" exported="true" qualityOption="source"/>
-    <image id="xualq" name="b4.png" path="/Checkbox/" exported="true" qualityOption="source"/>
-    <component id="xualt" name="Checkbox.xml" path="/Checkbox/" exported="true"/>
-    <image id="gczav" name="a3.png" path="/RadioButton/" qualityOption="source"/>
-    <image id="gcza10" name="a2.png" path="/RadioButton/" qualityOption="source"/>
-    <image id="gcza11" name="a1.png" path="/RadioButton/" qualityOption="source"/>
-    <image id="gcza12" name="a4.png" path="/RadioButton/"/>
-    <component id="gcza13" name="RadioButton.xml" path="/RadioButton/" exported="true"/>
-    <image id="gcza15" name="c1.png" path="/ComboBox/" scale="9grid" scale9grid="7,3,56,12" qualityOption="source"/>
-    <image id="gcza16" name="c3.png" path="/ComboBox/" scale="9grid" scale9grid="11,5,47,10" qualityOption="source"/>
-    <image id="gcza17" name="c2.png" path="/ComboBox/" scale="9grid" scale9grid="5,5,52,10" qualityOption="source"/>
+    <component id="xualt" name="Checkbox.xml" path="/Button/" exported="true"/>
+    <component id="gcza13" name="RadioButton.xml" path="/Button/" exported="true"/>
     <component id="gcza18" name="ComboBox.xml" path="/ComboBox/" exported="true"/>
     <image id="gcza19" name="background.png" path="/" exported="true" scale="9grid" scale9grid="11,8,192,115" qualityOption="source"/>
     <component id="gcza1a" name="ComboBoxPopup.xml" path="/ComboBox/" exported="true"/>
     <component id="gcza1b" name="ComboBoxItem.xml" path="/ComboBox/"/>
-    <image id="gcza1g" name="f2.png" path="/Window/" scale="9grid" scale9grid="32,36,295,85"/>
     <image id="gcza1h" name="f1.png" path="/Window/" scale="9grid" scale9grid="18,36,345,205" qualityOption="source"/>
     <image id="gcza1i" name="f5.png" path="/Window/"/>
     <image id="gcza1j" name="f4.png" path="/Window/"/>
     <image id="gcza1k" name="f3.png" path="/Window/"/>
-    <component id="gcza1l" name="WindowFrame.xml" path="/Window/" exported="true" favorite="true"/>
+    <component id="gcza1l" name="WindowFrame.xml" path="/Window/" exported="true"/>
     <component id="gcza1m" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
     <image id="gcza1n" name="p3.png" path="/ProgressBar/" qualityOption="source"/>
     <image id="gcza1o" name="p2.png" path="/ProgressBar/" scale="9grid" scale9grid="10,4,121,4" qualityOption="source"/>
     <component id="gcza1p" name="ProgressBar.xml" path="/ProgressBar/" exported="true"/>
-    <image id="gcza1r" name="p4.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,39,8" qualityOption="source"/>
+    <image id="gcza1r" name="input_bg.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,39,8" qualityOption="source"/>
     <component id="gcza1s" name="TextInput.xml" path="/Input/" exported="true"/>
-    <image id="gcza23" name="p8.png" path="/Slider/"/>
-    <image id="gcza24" name="p9.png" path="/Slider/"/>
-    <component id="gcza25" name="SliderArrow_VT.xml" path="/Slider/"/>
-    <component id="gcza26" name="Slider_VT.xml" path="/Slider/" exported="true"/>
-    <image id="gcza28" name="p11.png" path="/Slider/" qualityOption="source"/>
-    <image id="gcza29" name="p10.png" path="/Slider/"/>
-    <image id="gcza2a" name="p13.png" path="/Slider/"/>
-    <image id="gcza2b" name="p12.png" path="/Slider/" qualityOption="source"/>
     <component id="gcza2c" name="Slider_HZ.xml" path="/Slider/" exported="true"/>
-    <image id="gcza2d" name="p15.png" path="/Slider/"/>
-    <image id="gcza2e" name="p14.png" path="/Slider/"/>
     <component id="gcza2f" name="SliderArrow_HZ.xml" path="/Slider/"/>
     <component id="gcza2g" name="PopupMenu.xml" path="/Menu/" exported="true"/>
     <component id="gcza2h" name="PopupMenuItem.xml" path="/Menu/" exported="true"/>
     <component id="gcza2i" name="FlatIconButton.xml" path="/Button/" exported="true"/>
-    <image id="gcza2l" name="i3.png" path="/Tree/" exported="true" qualityOption="source"/>
-    <image id="gcza2m" name="i2.png" path="/Tree/" qualityOption="source"/>
-    <image id="gcza2n" name="i1.png" path="/Tree/" qualityOption="source"/>
-    <image id="gcza2o" name="i5.png" path="/Tree/" qualityOption="source"/>
-    <image id="gcza2p" name="i4.png" path="/Tree/" exported="true" qualityOption="source"/>
-    <image id="gcza2r" name="f7.png" path="/Tab/" qualityOption="source"/>
-    <image id="gcza2s" name="f6.png" path="/Tab/" qualityOption="source"/>
-    <image id="gcza2t" name="f8.png" path="/Tab/" qualityOption="source"/>
+    <image id="gcza2l" name="i3.svg" path="/Tree/" exported="true" qualityOption="source" width="14" height="14"/>
+    <image id="gcza2p" name="i4.svg" path="/Tree/" exported="true" qualityOption="source" width="12" height="12"/>
+    <image id="gcza2r" name="tab_cross.svg" path="/Tab/images/" qualityOption="source" width="16" height="16"/>
+    <image id="gcza2t" name="tab_cross_hover.svg" path="/Tab/images/" qualityOption="source" width="16" height="16"/>
     <component id="gcza2u" name="TabCloseButton.xml" path="/Tab/"/>
-    <component id="gcza2v" name="ClosableTabButton.xml" path="/Tab/" exported="true"/>
     <image id="au3n38" name="VtSeperator.png" path="/" exported="true" qualityOption="source"/>
     <image id="au3n39" name="HzSeperator.png" path="/" exported="true" qualityOption="source"/>
-    <image id="au3n3m" name="a5.png" path="/Tab/" scale="9grid" scale9grid="3,5,60,10" qualityOption="source"/>
-    <image id="au3n3o" name="a7.png" path="/Tab/" exported="true" scale="9grid" scale9grid="6,3,38,10" qualityOption="source"/>
-    <image id="au3n3q" name="j1.png" path="/Button/" qualityOption="source"/>
-    <image id="au3n3r" name="j2.png" path="/Button/" qualityOption="source"/>
-    <image id="au3n3s" name="j3.png" path="/Button/" qualityOption="source"/>
-    <image id="au3n3t" name="j4.png" path="/Button/" qualityOption="source"/>
-    <component id="au3n3u" name="ArrowButton.xml" path="/Button/" exported="true"/>
+    <image id="au3n3t" name="hue_arrow.png" path="/ColorPicker/images/" qualityOption="source"/>
     <component id="au3n4b" name="IconButton.xml" path="/Button/" exported="true"/>
     <component id="au3n4s" name="ListItem.xml" path="/List/" exported="true"/>
-    <image id="au3n4v" name="a9.png" path="/List/" exported="true" scale9grid="6,5,6,10" qualityOption="source"/>
-    <image id="au3n50" name="a8.png" path="/List/" exported="true" scale9grid="3,2,6,9" qualityOption="source"/>
+    <image id="au3n4v" name="listitem_hover.png" path="/List/images/" exported="true" scale9grid="6,5,6,10" qualityOption="source"/>
+    <image id="au3n50" name="listitem_selected.png" path="/List/images/" exported="true" scale9grid="3,2,6,9" qualityOption="source"/>
     <component id="au3n5m" name="TreeItem.xml" path="/Tree/" exported="true"/>
     <component id="au3n5n" name="TreeExpandButton.xml" path="/Tree/" exported="true"/>
     <image id="au3n5p" name="cursor_move.png" path="/Cursor/" exported="true"/>
@@ -98,22 +50,15 @@
     <component id="au3n5v" name="MenuSeperator.xml" path="/Menu/" exported="true"/>
     <component id="au3n5x" name="ColorPickerPopup.xml" path="/ColorPicker/" exported="true"/>
     <component id="au3n5y" name="ColorInput.xml" path="/ColorPicker/" exported="true"/>
-    <image id="au3n5z" name="ColorTable.png" path="/ColorPicker/" qualityOption="source"/>
-    <image id="au3n60" name="a13.png" path="/Input/"/>
-    <image id="au3n61" name="a12.png" path="/Input/"/>
-    <image id="au3n62" name="a11.png" path="/Input/"/>
-    <image id="au3n63" name="a10.png" path="/Input/"/>
-    <image id="au3n65" name="a15.png" path="/Input/"/>
-    <image id="au3n66" name="a14.png" path="/Input/"/>
+    <image id="au3n5z" name="color_table.png" path="/ColorPicker/images/" qualityOption="source"/>
     <component id="au3n69" name="NumericInput.xml" path="/Input/" exported="true"/>
-    <image id="au3n6a" name="a16.png" path="/Input/" scale="tile"/>
-    <image id="au3n6b" name="a17.png" path="/ColorPicker/" scale="tile"/>
+    <image id="au3n6b" name="a17.png" path="/ColorPicker/images/" scale="tile"/>
     <image id="au3n6d" name="cursor_select.png" path="/Cursor/" exported="true" qualityOption="source"/>
     <image id="au3n6e" name="cursor_hand.png" path="/Cursor/" exported="true" qualityOption="source"/>
     <image id="au3n6f" name="cursor_drag.png" path="/Cursor/" exported="true"/>
     <image id="au3n6g" name="cursor_adjust.png" path="/Cursor/" exported="true" qualityOption="source"/>
     <image id="au3n6h" name="cursor_d2Resize.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <component id="au3n6i" name="TabButton.xml" path="/Tab/" exported="true"/>
+    <component id="au3n6i" name="TabButton_as.xml" path="/Tab/" exported="true"/>
     <component id="au3n6j" name="ResourceInput.xml" path="/Input/" exported="true"/>
     <component id="au3n6k" name="TextArea.xml" path="/Input/" exported="true"/>
     <component id="au3n6m" name="ListItemInput.xml" path="/Input/" exported="true"/>
@@ -121,54 +66,31 @@
     <image id="au3n6p" name="a18.png" path="/Menu/" qualityOption="source"/>
     <component id="au3n6q" name="IconListItem.xml" path="/List/" exported="true"/>
     <component id="au3n6r" name="ListItemResourceInput.xml" path="/Input/" exported="true"/>
-    <image id="au3n6s" name="p16.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,31,8" qualityOption="source"/>
+    <image id="au3n6s" name="input_bg_grayed.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,31,8" qualityOption="source"/>
     <component id="au3n6t" name="EditableTreeItem.xml" path="/Tree/" exported="true"/>
-    <component id="au3n6v" name="TabIconButton.xml" path="/Tab/" exported="true"/>
-    <component id="au3n6w" name="ClosableTabIconButton.xml" path="/Tab/" exported="true"/>
+    <component id="au3n6v" name="TabIconButton_as.xml" path="/Tab/" exported="true"/>
     <component id="ofk56x" name="CheckIconListItem.xml" path="/List/" exported="true"/>
     <component id="fj4c6y" name="TooltipsWin.xml" path="/Tooltips/" exported="true"/>
     <image id="8adv70" name="cursor_finger.png" path="/Cursor/" exported="true"/>
-    <component id="rw8a71" name="FixedTabButton.xml" path="/Tab/" exported="true"/>
-    <component id="gss372" name="AutoSizeButton.xml" path="/Button/" exported="true"/>
-    <component id="kwng73" name="ScrollLeftButton.xml" path="/ScrollBar/"/>
-    <component id="kwng74" name="ScrollRightButton.xml" path="/ScrollBar/"/>
-    <image id="kwng75" name="2016-02-27_224618.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng76" name="2016-02-27_224602.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng77" name="2016-02-27_224540.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng78" name="2016-02-27_224443.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng79" name="2016-02-27_224421.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng7a" name="2016-02-27_224326.png" path="/ScrollBar/" qualityOption="source"/>
-    <image id="kwng7b" name="bar12.png" path="/ScrollBar/" scale="9grid" scale9grid="3,3,96,6" qualityOption="source"/>
-    <image id="kwng7c" name="bar13.png" path="/ScrollBar/" scale="9grid" scale9grid="3,4,129,5" qualityOption="source"/>
-    <image id="kwng7d" name="bar14.png" path="/ScrollBar/" scale="9grid" scale9grid="3,4,122,5" qualityOption="source"/>
-    <image id="kwng7e" name="gou.png" path="/Checkbox/" exported="true" qualityOption="source"/>
-    <image id="kwng7g" name="bar15.png" path="/TitleBar/" exported="true" scale="9grid" scale9grid="4,7,71,5" qualityOption="source"/>
-    <component id="kwng7h" name="TitleBar.xml" path="/TitleBar/" exported="true"/>
-    <image id="kwng7i" name="2016-02-29_120502.png" path="/TitleBar/" qualityOption="source"/>
-    <image id="kwng7j" name="2016-02-29_120446.png" path="/TitleBar/" qualityOption="source"/>
+    <component id="gss372" name="Button_as.xml" path="/Button/" exported="true"/>
+    <image id="kwng7e" name="gou.png" path="/Button/images/" qualityOption="source"/>
+    <image id="kwng7g" name="GridHeader.png" path="/List/images/" exported="true" scale="9grid" scale9grid="4,7,71,5" qualityOption="source"/>
     <image id="kwng7k" name="p1.png" path="/Menu/" scale="9grid" scale9grid="6,5,144,50" qualityOption="source"/>
     <image id="kwng7l" name="a9.png" path="/Menu/" scale="9grid" scale9grid="11,5,83,10" qualityOption="source"/>
     <image id="kwng7m" name="a8.png" path="/Menu/" scale="9grid" scale9grid="7,3,76,12" qualityOption="source"/>
     <image id="kwng7n" name="HzSeperator2.png" path="/Menu/"/>
-    <image id="kwng7o" name="VtSeperator2.png" path="/Menu/"/>
-    <image id="p0yg7p" name="a72.png" path="/Tab/" scale="9grid" scale9grid="7,5,38,10" qualityOption="source"/>
-    <image id="p0yg7q" name="a52.png" path="/Tab/" scale="9grid" scale9grid="5,5,55,10" qualityOption="source"/>
+    <image id="p0yg7q" name="tab_selected.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,55,10" qualityOption="source"/>
     <component id="p0yg7r" name="FileTabButton.xml" path="/Tab/" exported="true"/>
-    <image id="fzqg7s" name="c4.png" path="/ComboBox/" scale="9grid" scale9grid="10,5,45,10" qualityOption="source"/>
-    <component id="g7vk7t" name="TitleBar2.xml" path="/TitleBar/" exported="true"/>
-    <component id="dp4f7u" name="CriticalCheckbox.xml" path="/Checkbox/" exported="true"/>
-    <component id="rm0l7v" name="AutoSizeCheckbox.xml" path="/Checkbox/" exported="true"/>
+    <component id="dp4f7u" name="EmCheckbox_as.xml" path="/Button/" exported="true"/>
+    <component id="rm0l7v" name="Checkbox_as.xml" path="/Button/" exported="true"/>
     <component id="okou7w" name="LinkButton.xml" path="/Button/" exported="true"/>
     <component id="p06b7x" name="ColorInputWithPreset.xml" path="/ColorPicker/" exported="true"/>
-    <image id="p06b7z" name="DropdownArrow.png" path="/ColorPicker/" qualityOption="source"/>
     <component id="p06b80" name="ColorMenuItem.xml" path="/ColorPicker/" exported="true"/>
-    <image id="xt8c81" name="color_none.png" path="/ColorPicker/"/>
-    <image id="ah2b82" name="button_light.png" path="/Button/" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="ah2b82" name="button_light.png" path="/Button/images/" scale="9grid" scale9grid="8,8,16,16"/>
     <component id="ah2b83" name="Button_light.xml" path="/Button/" exported="true"/>
-    <image id="ss7s84" name="bgGradient.png" path="/ColorPicker/" qualityOption="source"/>
-    <image id="ss7s85" name="hueBar.png" path="/Input/"/>
+    <image id="ss7s84" name="gradient.png" path="/ColorPicker/images/" qualityOption="source"/>
+    <image id="ss7s85" name="hue_bar.png" path="/ColorPicker/images/"/>
     <component id="ss7s86" name="ColorPickerDialog.xml" path="/ColorPicker/" exported="true"/>
-    <image id="mkkf87" name="Button_Color_Circle.png" path="/ColorPicker/"/>
     <component id="mkkf88" name="HueSlider.xml" path="/ColorPicker/"/>
     <component id="mkkf89" name="HueSlider_grip.xml" path="/ColorPicker/"/>
     <component id="nm5v8a" name="ColorSBBox.xml" path="/ColorPicker/"/>
@@ -178,11 +100,66 @@
     <component id="dqzd8i" name="PopupMenu2.xml" path="/Menu/" exported="true"/>
     <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
     <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true"/>
-    <component id="q5hg8l" name="TabIconButton2.xml" path="/Tab/" exported="true"/>
-    <image id="yy9i8m" name="a7(1).png" path="/Tab/" exported="true" scale="9grid" scale9grid="6,3,38,10" qualityOption="source"/>
-    <image id="olcx8n" name="EditText.png" path="/Input/"/>
+    <image id="yy9i8m" name="tab_normal.png" path="/Tab/images/" scale="9grid" scale9grid="6,3,38,10" qualityOption="source"/>
+    <image id="olcx8n" name="edit_text.svg" path="/Input/" width="12" height="12"/>
+    <component id="gzi68p" name="FixedTabIconButton.xml" path="/Tab/" exported="true"/>
+    <image id="e4p48q" name="dropdown_arrow.svg" path="/ComboBox/images/" exported="true" qualityOption="source" width="12" height="12"/>
+    <component id="e4cx8r" name="EditableListItem.xml" path="/List/" exported="true"/>
+    <component id="gj1q8s" name="FlatIconButton_Check.xml" path="/Button/" exported="true"/>
+    <component id="gj1q8t" name="FlatTextButton_Check.xml" path="/Button/" exported="true"/>
+    <component id="gj1q8u" name="ToggleIconButton.xml" path="/Button/" exported="true"/>
+    <component id="gj1q8v" name="FlatIconButton_Radio.xml" path="/Button/" exported="true"/>
+    <component id="gj1q8w" name="FlatTextButton_as.xml" path="/Button/" exported="true"/>
+    <component id="r1st8x" name="TextButton_Radio.xml" path="/Button/" exported="true"/>
+    <image id="phl68y" name="button_up.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11"/>
+    <image id="phl68z" name="button_down.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11"/>
+    <image id="phl690" name="radio_up.png" path="/Button/images/"/>
+    <image id="phl691" name="radio_down.png" path="/Button/images/"/>
+    <image id="j5yv93" name="dot3.png" path="/Tab/images/"/>
+    <image id="j5yv95" name="tab_normal2.png" path="/Tab/images/" scale="9grid" scale9grid="7,5,36,8"/>
+    <component id="dp9p97" name="FlatIconButton_nobg.xml" path="/Button/" exported="true"/>
+    <image id="nisj98" name="sub_arrow.svg" path="/Menu/" qualityOption="source" width="10" height="10"/>
+    <image id="wqe799" name="cursor_default.png" path="/Cursor/"/>
+    <component id="wqe79a" name="XYInput.xml" path="/Input/" exported="true"/>
+    <image id="wqe79b" name="input_bg2.png" path="/Input/" scale="9grid" scale9grid="20,4,19,8"/>
+    <image id="wqe79c" name="input_bg_grayed2.png" path="/Input/" scale="9grid" scale9grid="21,4,17,8"/>
+    <image id="e4cx7iuej" name="clear_text.svg" path="/Input/" qualityOption="source" width="16" height="16"/>
+    <component id="d8p07iuek" name="EditableIconListItem.xml" path="/List/" exported="true"/>
+    <image id="bmv27iuel" name="edit_text@2x.png" path="/Input/"/>
+    <image id="ur107iuem" name="dropdown_arrow@2x.png" path="/ComboBox/images/"/>
+    <image id="ur107iuen" name="i4@2x.png" path="/Tree/"/>
+    <image id="ur107iueo" name="i3@2x.png" path="/Tree/"/>
+    <image id="t64x7iuep" name="button_up@2x.png" path="/Button/images/" scale="9grid" scale9grid="15,13,135,26"/>
+    <image id="t64x7iueq" name="button_down@2x.png" path="/Button/images/" scale="9grid" scale9grid="19,13,138,26"/>
+    <image id="t64x7iuer" name="button_light@2x.png" path="/Button/images/" scale="9grid" scale9grid="16,16,32,32"/>
+    <image id="t64x7iues" name="checkbox_up.png" path="/Button/images/"/>
+    <image id="t64x7iuet" name="checkbox_up@2x.png" path="/Button/images/"/>
+    <image id="t64x7iueu" name="gou@2x.png" path="/Button/images/"/>
+    <image id="t64x7iuev" name="radio_up@2x.png" path="/Button/images/"/>
+    <image id="t64x7iuew" name="radio_down@2x.png" path="/Button/images/"/>
+    <image id="t64x7iuex" name="palette.svg" path="/ColorPicker/images/" width="16" height="16"/>
+    <image id="t64x7iuey" name="palette@2x.png" path="/ColorPicker/images/"/>
+    <image id="t64x7iuez" name="color_option.svg" path="/ColorPicker/images/" qualityOption="source" width="16" height="16"/>
+    <image id="t64x7iuf0" name="color_option@2x.png" path="/ColorPicker/images/"/>
+    <image id="t64x7iuf1" name="hue_arrow@2x.png" path="/ColorPicker/images/"/>
+    <image id="u9w07iuf2" name="clear_text@2x.png" path="/Input/"/>
+    <image id="kj9y7iuf5" name="sub_arrow@2x.png" path="/Menu/"/>
+    <image id="kj9y7iuf6" name="tab_cross@2x.png" path="/Tab/images/"/>
+    <image id="kj9y7iuf7" name="tab_cross_hover@2x.png" path="/Tab/images/"/>
+    <image id="kj9y7iuf8" name="tab_normal@2x.png" path="/Tab/images/" scale="9grid" scale9grid="9,9,78,18"/>
+    <image id="kj9y7iuf9" name="tab_selected@2x.png" path="/Tab/images/" scale="9grid" scale9grid="19,10,96,20"/>
+    <image id="kj9y7iufa" name="tab_normal2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,9,82,18"/>
+    <component id="n1pz7iufb" name="IconButton_Check.xml" path="/Button/" exported="true"/>
+    <component id="n1pz7iufd" name="TextButton.xml" path="/Button/" exported="true"/>
+    <component id="n1pz7iufe" name="TextButton_Check.xml" path="/Button/" exported="true"/>
+    <image id="evbu7iuff" name="folder.svg" path="/Tree/" width="16" height="16"/>
+    <image id="evbu7iufg" name="folder@2x.png" path="/Tree/"/>
+    <component id="lcw17iufh" name="TabButton.xml" path="/Tab/" exported="true"/>
+    <image id="uodi7iufi" name="tab_selected2.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,56,10"/>
+    <image id="uodi7iufj" name="tab_selected2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,10,114,20"/>
+    <image id="lgdb7iufk" name="checkbox_disabled.png" path="/Button/images/"/>
+    <image id="ese8ixicus" name="menu_item_hover.png" path="/Menu/" scale="9grid" scale9grid="7,6,14,6"/>
+    <image id="ese87iufl" name="menu_item_down.png" path="/Menu/" scale="9grid" scale9grid="7,7,14,5"/>
   </resources>
-  <publish name="basic">
-    <atlas name="默认纹理集" index="0"/>
-  </publish>
+  <publish name=""/>
 </packageDescription>

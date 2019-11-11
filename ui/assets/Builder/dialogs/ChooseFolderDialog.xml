@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="395,430">
+<component size="450,500">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="395,430">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="450,500">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="选择文件夹"/>
     </component>
-    <graph id="n20" name="n20" xy="10,31" size="374,358" group="n35" type="rect" lineColor="#ff151415" fillColor="#ff3f3f3f"/>
-    <list id="n19" name="list" xy="10,31" size="374,358" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t"/>
-    <group id="n35" name="n35" xy="10,31" size="374,358"/>
-    <component id="n40" name="n40" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="122,395" size="66,25" group="n42_m5yh">
+    <graph id="n20" name="n20" xy="10,31" size="429,421" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="11,32" size="427,419" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" treeView="true" indent="15" clickToExpand="2"/>
+    <group id="n35" name="n35" xy="10,31" size="429,421"/>
+    <component id="n40" name="n40" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="149,461" size="66,25" group="n42_m5yh">
       <Button title="选择"/>
     </component>
-    <component id="n41" name="n41" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="207,395" size="66,25" group="n42_m5yh">
+    <component id="n41" name="n41" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="234,461" size="66,25" group="n42_m5yh">
       <Button title="取消"/>
     </component>
-    <group id="n42_m5yh" name="n42" xy="122,395" size="151,25"/>
+    <group id="n42_m5yh" name="n42" xy="149,461" size="151,25"/>
   </displayList>
 </component>

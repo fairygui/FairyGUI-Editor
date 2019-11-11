@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="361,29" overflow="hidden" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n1" name="list" xy="4,2" size="352,25" layout="flow_hz" selectionMode="none" lineGap="2" defaultItem="ui://2pshu6oiau3n5h">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item url="ui://2pshu6oiau3n3g"/>
+      <item/>
+      <item url="ui://2pshu6oiau3n3g"/>
+    </list>
+    <graph id="n2" name="bottom" xy="0,28" size="362,1" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff292828">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+  </displayList>
+  <relation target="n1" sidePair="height-height"/>
+</component>

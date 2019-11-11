@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,107" bgColorEnabled="true" bgColor="#3f3f3f">
+  <displayList>
+    <image id="n3" name="n3" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="-4,-4" size="337,115" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n7" name="finish" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="262,8" size="55,21">
+      <Button title="完成"/>
+    </component>
+    <component id="n14_gj1q" name="11" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="9,41" size="112,24">
+      <Label title="宽 -> 宽"/>
+    </component>
+    <component id="n15_gj1q" name="23" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="156,41" size="119,24">
+      <Label title="高 -> 高"/>
+    </component>
+    <component id="n33_gj1q" name="10" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="9,75" size="130,24">
+      <Label title="右延展-> 右"/>
+    </component>
+    <component id="n37_gj1q" name="22" src="gj1q7iueq" fileName="props/RelationLabel.xml" xy="156,75" size="162,24">
+      <Label title="底延展 -> 底"/>
+    </component>
+    <graph id="n40_gj1q" name="n40" xy="0,34" size="328,1" type="rect" lineSize="0" fillColor="#ff292828"/>
+  </displayList>
+</component>

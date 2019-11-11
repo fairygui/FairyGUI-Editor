@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,30" extention="Label">
+  <controller name="second" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n48" name="delete" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="247,4" size="20,20">
+      <gearDisplay controller="second" pages="1"/>
+      <Button icon="ui://2pshu6oiet857iuff"/>
+    </component>
+    <component id="n49_aall" name="controller" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="28,4" size="100,20">
+      <gearXY controller="second" pages="0" values="28,4" default="39,4"/>
+      <gearSize controller="second" pages="0,1" values="100,20,1,1|87,20,1,1"/>
+    </component>
+    <component id="n50_aall" name="pages" src="zn3piudf" fileName="basic/ControllerMultiPageInput.xml" xy="131,4" size="135,20">
+      <gearSize controller="second" pages="0,1" values="135,20,1,1|113,20,1,1"/>
+    </component>
+    <component id="n53_aall" name="cond" src="n1pz7iufe" fileName="Button/TextButton_Check.xml" pkg="nk9ejx23" xy="4,4" size="31,20">
+      <gearDisplay controller="second" pages="1"/>
+      <Button checked="true" title="与" selectedTitle="或"/>
+    </component>
+    <loader id="n56_n1pz" name="image" xy="3,4" size="20,20" url="ui://2pshu6oiuzegu6a" align="center" vAlign="middle">
+      <gearDisplay controller="second" pages="0"/>
+    </loader>
+  </displayList>
+</component>

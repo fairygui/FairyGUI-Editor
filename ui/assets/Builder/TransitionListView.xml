@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,200" bgColorEnabled="true" bgColor="#3f3f3f">
+  <controller name="testMode" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n30_jvd5" name="n30" xy="0,26" size="280,1" type="rect" lineSize="0" fillColor="#ff292828">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n38_qilr" name="delete" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="245,4" size="22,20" group="n40_qilr" tooltips="删除动效">
+      <Button icon="ui://2pshu6oipsdnu6r"/>
+    </component>
+    <component id="n41_qilr" name="duplicate" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="218,4" size="22,20" group="n40_qilr" tooltips="复制动效">
+      <Button icon="ui://2pshu6oiikoviuau"/>
+    </component>
+    <component id="n42_dp9p" name="rename" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="193,4" size="20,20" group="n40_qilr" tooltips="重命名(F2)">
+      <Button icon="ui://2pshu6oidp9p7iufi"/>
+    </component>
+    <group id="n40_qilr" name="n40" xy="193,4" size="74,20" advanced="true">
+      <gearDisplay controller="testMode" pages="0"/>
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <list id="n21" name="list" xy="0,27" size="280,172" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oiqilr7iuf8" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n39_qilr" name="add" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,3" size="22,22" tooltips="新建动效">
+      <gearDisplay controller="testMode" pages="0"/>
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="276,142">
+  <displayList>
+    <image id="n8_qilr" name="n8" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="-4,-4" size="283,150">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n0_qilr" name="n0" xy="137,17" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="画布颜色"/>
+    <text id="n1_qilr" name="n1" xy="14,18" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="背景颜色"/>
+    <component id="n2_qilr" name="backgroundColor" src="au3n5y" fileName="ColorPicker/ColorInput.xml" pkg="nk9ejx23" xy="97,19" controller="mode,0"/>
+    <component id="n3_qilr" name="canvasColor" src="au3n5y" fileName="ColorPicker/ColorInput.xml" pkg="nk9ejx23" xy="221,18" controller="mode,0"/>
+    <component id="n6_qilr" name="auxline1" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,52" size="120,19">
+      <Button title="显示组件边缘虚线"/>
+    </component>
+    <component id="n7_qilr" name="auxline2" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,81" size="108,19">
+      <Button title="显示对齐提示线"/>
+    </component>
+    <component id="n9_omhu" name="docScaleOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,110" size="180,19">
+      <Button title="每个文档使用单独的缩放比例"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,6 @@
+{
+	"langFiles":[{
+		"name":"English",
+		"path":"../src/locales/en/strings1.xml"
+	}]
+}

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="319,135">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" pkg="nk9ejx23" xy="0,0" size="319,135">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="319,135">
       <relation target="" sidePair="height-height,width-width"/>
       <Label title="设置滚动条资源"/>
     </component>
-    <component id="n1" name="n1" src="xualm" pkg="nk9ejx23" xy="63,94">
+    <component id="n5" name="vtScrollBar" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="92,31" size="216,20"/>
+    <text id="n7" name="n7" xy="10,61" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="水平"/>
+    <text id="n8" name="n8" xy="10,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="垂直"/>
+    <component id="n9" name="hzScrollBar" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="92,59" size="216,20"/>
+    <component id="n1" name="n1" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="61,94" group="n10_yc81">
       <Button title="确定"/>
     </component>
-    <component id="n5" name="vtScrollBar" src="au3n6j" pkg="nk9ejx23" xy="87,31" size="220,20"/>
-    <component id="n6" name="n6" src="xualm" pkg="nk9ejx23" xy="175,94">
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="173,94" group="n10_yc81">
       <Button title="取消"/>
     </component>
-    <text id="n7" name="n7" xy="12,61" size="68,16" fontSize="12" color="#bdbdbd" align="right" autoSize="height" text="水平"/>
-    <text id="n8" name="n8" xy="12,34" size="68,16" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="垂直"/>
-    <component id="n9" name="hzScrollBar" src="au3n6j" pkg="nk9ejx23" xy="87,59" size="220,20"/>
+    <group id="n10_yc81" name="n10" xy="61,94" size="197,25"/>
   </displayList>
 </component>
