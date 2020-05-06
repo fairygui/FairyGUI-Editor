@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="150,22" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
   <displayList>
     <image id="n10_kdzk" name="n10" src="au3n4v" fileName="List/images/listitem_hover.png" xy="0,0" size="150,22">
       <gearDisplay controller="button" pages="2,3"/>
@@ -13,7 +13,7 @@
     <text id="n2" name="title" xy="43,0" size="103,22" fontSize="12" color="#bdbdbd" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <loader id="n3" name="icon" xy="22,1" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n3" name="icon" xy="22,1" size="20,20" align="center" vAlign="middle"/>
   </displayList>
   <Button mode="Radio"/>
 </component>

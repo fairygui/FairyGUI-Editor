@@ -14,7 +14,7 @@
       <gearColor controller="button" pages="1,3,4,5" values="#ffffff|#ffffff|#333333|#333333" default="#bdbdbd"/>
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <loader id="n3_d8p0" name="icon" xy="0,1" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n3_d8p0" name="icon" xy="0,1" size="20,20" align="center" vAlign="middle"/>
     <loader id="n4_o3nq" name="sign" xy="14,15" size="6,6"/>
   </displayList>
   <Button mode="Radio"/>

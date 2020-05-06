@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,276" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n48_uytn" name="n48" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <text id="n58_ioq6" name="n58" xy="4,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
-    <text id="n51_uytn" name="n51" xy="4,83" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
-    <text id="n60_ioq6" name="n60" xy="4,134" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <text id="n49_uytn" name="n49" xy="4,161" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
     <component id="n47_uytn" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,6" size="178,20" controller="noBorder,0,showClear,0"/>
-    <component id="n59_ioq6" name="title" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,32" size="178,45" controller="showEditButton,1"/>
-    <component id="n52_uytn" name="selectedTitle" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,83" size="178,45" controller="showEditButton,1"/>
-    <component id="n61_ioq6" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,134" size="178,20"/>
+    <text id="n48_uytn" name="n48" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n49_uytn" name="n49" xy="4,161" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
     <component id="n50_uytn" name="selectedIcon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,160" size="178,20"/>
+    <text id="n51_uytn" name="n51" xy="4,83" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
+    <component id="n52_uytn" name="selectedTitle" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,83" size="178,45" controller="showEditButton,1"/>
+    <text id="n58_ioq6" name="n58" xy="4,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
+    <component id="n59_ioq6" name="title" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,32" size="178,45" controller="showEditButton,1"/>
+    <text id="n60_ioq6" name="n60" xy="4,134" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <component id="n61_ioq6" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,134" size="178,20"/>
     <list id="n62_ijwl" name="list" xy="0,188" size="270,82" selectionMode="none" lineGap="6" defaultItem="ui://2pshu6oimx0siu9v">
       <item controllers="propertyId,0"/>
       <item controllers="propertyId,1"/>

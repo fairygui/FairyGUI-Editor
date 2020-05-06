@@ -15,11 +15,11 @@
       <gearDisplay controller="grayed" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n4" name="title" xy="2,0" size="78,19" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
+    <text id="n4" name="title" xy="2,1" size="78,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearColor controller="grayed" pages="1" values="#878787,#000000" default="#bdbdbd,#000000"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <image id="n6_e4p4" name="n6" src="e4p48q" fileName="ComboBox/images/dropdown_arrow.svg" xy="83,3">
+    <image id="n6_e4p4" name="n6" src="e4p48q" fileName="ComboBox/dropdown_arrow.svg" xy="83,3">
       <gearColor controller="grayed" pages="1" values="#a7a7a7" default="#ffffff"/>
       <relation target="" sidePair="right-right"/>
     </image>

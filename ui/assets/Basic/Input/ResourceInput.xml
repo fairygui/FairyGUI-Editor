@@ -3,19 +3,19 @@
   <controller name="c1" pages="0,,1," selected="0"/>
   <controller name="grayed" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n0" name="n0" src="gcza1r" fileName="Input/input_bg.png" xy="0,0" size="60,20">
+    <image id="n0" name="n0" src="gcza1r" fileName="Input/p4.png" xy="0,0" size="60,20">
       <gearDisplay controller="grayed" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n6" name="n6" src="au3n6s" fileName="Input/input_bg_grayed.png" xy="0,0" size="60,20">
+    <image id="n6" name="n6" src="au3n6s" fileName="Input/p16.png" xy="0,0" size="60,20">
       <gearDisplay controller="grayed" pages="1"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n1" name="title" xy="1,1" size="58,19" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="" input="true">
+    <text id="n1" name="title" xy="1,1" size="58,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <loader id="n4" name="icon" xy="2,2" size="16,16" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+    <loader id="n4" name="icon" xy="2,2" size="16,16" align="center" vAlign="middle">
       <gearDisplay controller="c1" pages="1"/>
     </loader>
     <text id="n5" name="nameText" xy="20,1" size="38,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="244,163">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="244,163">
+    <image id="n0" name="n0" src="gcza19" pkg="nk9ejx23" xy="0,0" size="244,163" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n115_mfi3" name="n115" xy="14,12" size="52,19" fontSize="12" color="#bdbdbd" singleLine="true" text="边缘留空"/>
+    <text id="n115_mfi3" name="n115" xy="14,12" size="53,16" fontSize="12" color="#bdbdbd" singleLine="true" text="边缘留空"/>
     <text id="n116_mfi3" name="n116" xy="26,41" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="上"/>
-    <text id="n118_mfi3" name="n118" xy="125,41" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="下"/>
+    <component id="n117_mfi3" name="marginTop" src="au3n69" pkg="nk9ejx23" xy="75,38" size="35,20"/>
+    <text id="n118_mfi3" name="n118" xy="115,41" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="下"/>
+    <component id="n119_mfi3" name="marginBottom" src="au3n69" pkg="nk9ejx23" xy="165,38" size="35,20"/>
     <text id="n120_mfi3" name="n120" xy="26,66" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="左"/>
-    <text id="n122_mfi3" name="n122" xy="125,66" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="右"/>
-    <text id="n125_mfi3" name="n125" xy="14,98" size="52,19" fontSize="12" color="#bdbdbd" singleLine="true" text="边缘虚化"/>
+    <component id="n121_mfi3" name="marginLeft" src="au3n69" pkg="nk9ejx23" xy="75,63" size="35,20"/>
+    <text id="n122_mfi3" name="n122" xy="115,66" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="右"/>
+    <component id="n123_mfi3" name="marginRight" src="au3n69" pkg="nk9ejx23" xy="165,63" size="35,20"/>
+    <text id="n125_mfi3" name="n125" xy="14,98" size="53,16" fontSize="12" color="#bdbdbd" singleLine="true" text="边缘虚化"/>
     <text id="n126_mfi3" name="n126" xy="26,124" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
-    <text id="n128_mfi3" name="n128" xy="125,124" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
-    <component id="n117_mfi3" name="marginTop" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="75,38" size="46,20"/>
-    <component id="n119_mfi3" name="marginBottom" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="175,38" size="46,20"/>
-    <component id="n121_mfi3" name="marginLeft" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="75,63" size="46,20"/>
-    <component id="n123_mfi3" name="marginRight" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="175,63" size="46,20"/>
-    <component id="n127_mfi3" name="clipSoftnessX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="75,121" size="46,20"/>
-    <component id="n129_mfi3" name="clipSoftnessY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="175,121" size="46,20"/>
+    <component id="n127_mfi3" name="clipSoftnessX" src="au3n69" pkg="nk9ejx23" xy="75,121" size="35,20"/>
+    <text id="n128_mfi3" name="n128" xy="115,124" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
+    <component id="n129_mfi3" name="clipSoftnessY" src="au3n69" pkg="nk9ejx23" xy="165,121" size="35,20"/>
+    <component id="n130_mfi3" name="n130" src="ehmsu7z" xy="74,98" tooltips="边缘虚化效果在编辑器无法预览">
+      <relation target="n125_mfi3" sidePair="left-right"/>
+    </component>
   </displayList>
 </component>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,98" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <image id="n7" name="n7" src="au3n6s" fileName="Input/input_bg_grayed.png" pkg="nk9ejx23" xy="33,12" size="200,21"/>
-    <loader id="n8" name="icon" xy="36,15" size="16,16" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
-    <text id="n9" name="title" xy="54,14" size="176,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text=""/>
     <component id="n4" name="n4" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="62,52" size="66,25">
       <Button title="完成"/>
     </component>
     <component id="n5" name="n5" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="153,52" size="66,25">
       <Button title="取消"/>
     </component>
+    <image id="n7" name="n7" src="au3n6s" fileName="Input/input_bg_grayed.png" pkg="nk9ejx23" xy="33,12" size="200,21"/>
+    <loader id="n8" name="icon" xy="36,15" size="16,16" align="center" vAlign="middle"/>
+    <text id="n9" name="title" xy="54,14" size="176,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text=""/>
   </displayList>
 </component>

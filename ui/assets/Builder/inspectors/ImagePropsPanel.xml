@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,187" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n71" name="n71" xy="4,6" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
-    <text id="n75" name="n75" xy="4,32" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
-    <text id="n98_a9x3" name="n98" xy="4,58" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="翻转"/>
-    <text id="n87" name="n87" xy="4,84" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
-    <text id="n103_r1st" name="n103" xy="4,112" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
-    <text id="n100_r1st" name="n100" xy="4,159" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <text id="n71" name="n71" xy="4,6" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
     <component id="n72" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,6"/>
-    <component id="n76" name="brightness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,30" size="42,20"/>
-    <component id="n73" name="flipHZ" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,57" size="47,19">
+    <component id="n73" name="flipHZ" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,57" size="48,19">
       <Button title="左右"/>
     </component>
-    <component id="n74" name="flipVT" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="145,57" size="47,19">
+    <component id="n74" name="flipVT" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="146,57" size="48,19">
       <relation target="n73" sidePair="left-right"/>
       <Button title="上下"/>
     </component>
+    <text id="n75" name="n75" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="亮度"/>
+    <component id="n76" name="brightness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,30" size="42,20"/>
     <component id="n86" name="fillMethod" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,82" size="152,20">
       <ComboBox visibleItemCount="10"/>
     </component>
+    <text id="n87" name="n87" xy="4,84" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
+    <text id="n98_a9x3" name="n98" xy="4,58" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="翻转"/>
+    <text id="n100_r1st" name="n100" xy="4,160" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <component id="n101_r1st" name="fillAmount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,158" size="53,20"/>
     <component id="n102_r1st" name="fillOrigin" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,111" size="152,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n104_r1st" name="fillClockwise" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="87,136" size="83,19">
+    <text id="n103_r1st" name="n103" xy="4,112" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
+    <component id="n104_r1st" name="fillClockwise" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="87,136" size="84,19">
       <Button title="顺时针方向"/>
     </component>
-    <component id="n101_r1st" name="fillAmount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,158" size="53,20"/>
   </displayList>
 </component>

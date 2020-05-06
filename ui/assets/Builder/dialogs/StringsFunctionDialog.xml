@@ -1,62 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="480,396">
-  <controller name="c1" pages="0,,2," selected="0"/>
+  <controller name="c1" pages="0,,1,,2," selected="1"/>
   <controller name="c2" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="480,396">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="字符串导入和导出"/>
     </component>
-    <component id="n43" name="next" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="308,355" size="78,25" group="n49">
+    <graph id="n20" name="n20" xy="9,47" size="460,287" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="exportPkgList" xy="10,48" size="458,285" group="n35" layout="flow_vt" overflow="scroll" scroll="horizontal" scrollBar="visible" margin="1,1,1,1" colGap="2" defaultItem="ui://nk9ejx23ofk56x">
+      <item title="包1" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包2" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包3" icon="ui://2pshu6oiptssa7iug6"/>
+    </list>
+    <group id="n35" name="n35" xy="9,47" size="460,287" group="n42"/>
+    <text id="n39" name="n39" xy="11,26" size="125,18" group="n42" fontSize="12" color="#bdbdbd" text="选定一个或多个目标包"/>
+    <component id="n40" name="n40" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="11,355" size="66,25" group="n42">
+      <Button title="全选"/>
+    </component>
+    <component id="n41" name="n41" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="86,355" size="66,25" group="n42">
+      <Button title="清空"/>
+    </component>
+    <component id="n51" name="n51" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="299,355" size="87,25" group="n42">
+      <Button title="导出..."/>
+    </component>
+    <group id="n42" name="n42" xy="9,26" size="460,354" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n43" name="n43" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="308,355" size="78,25" group="n49">
       <Button title="下一步"/>
     </component>
-    <component id="n46" name="n46" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="18,35" size="141,19" group="n75_p4u6">
+    <component id="n46" name="n46" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="18,35" size="142,19" group="n75_p4u6">
       <Button checked="true" title="导出所有字符串到文件" controller="c2" page="0"/>
     </component>
-    <component id="n73_hx5d" name="merge" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="34,83" size="251,19" group="n75_p4u6">
+    <component id="n73_hx5d" name="merge" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="34,83" size="252,19" group="n75_p4u6">
       <gearDisplay controller="c2" pages="0"/>
       <Button title="如果导出目标文件已存在，与目标文件合并"/>
     </component>
-    <component id="n76_p4u6" name="ignoreDiscarded" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="34,59" size="203,19" group="n75_p4u6">
+    <component id="n76_p4u6" name="ignoreDiscarded" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="34,59" size="204,19" group="n75_p4u6">
       <gearDisplay controller="c2" pages="0"/>
       <Button checked="true" title="不导出已标记为发布时清空的内容"/>
     </component>
-    <component id="n77_rj5h" name="choosePkgs" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="37,117" size="135,25" group="n75_p4u6">
-      <gearDisplay controller="c2" pages="0"/>
-      <Button title="选择包..."/>
-    </component>
-    <text id="n78_rj5h" name="pkgsPrompt" xy="186,121" size="259,19" group="n75_p4u6" fontSize="12" color="#bdbdbd" autoSize="none" text="">
-      <gearDisplay controller="c2" pages="0"/>
-    </text>
-    <component id="n47" name="n47" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="18,157" size="357,19" group="n72_hiva">
+    <component id="n47" name="n47" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="18,106" size="358,19" group="n72_hiva">
       <Button title="从文件中导入字符串，覆盖包中的文本（多个元件可能被修改）" controller="c2" page="1"/>
     </component>
-    <component id="n52" name="importFile" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,184" size="289,20" group="n62" controller="noBorder,0,showClear,0"/>
-    <component id="n53" name="browse" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="382,181" size="60,25" group="n62">
+    <component id="n52" name="n52" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="86,133" size="289,20" group="n62" controller="noBorder,0,showClear,0"/>
+    <component id="n53" name="n53" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="382,130" size="60,25" group="n62">
       <Button title="浏览..."/>
     </component>
-    <text id="n70_hiva" name="n69" xy="20,185" size="64,19" group="n62" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="源文件"/>
-    <group id="n62" name="n62" xy="20,181" size="422,25" group="n72_hiva" advanced="true">
+    <text id="n70_hiva" name="n69" xy="20,134" size="64,18" group="n62" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="源文件"/>
+    <group id="n62" name="n62" xy="20,130" size="422,25" group="n72_hiva" advanced="true">
       <gearDisplay controller="c2" pages="1"/>
     </group>
-    <group id="n72_hiva" name="n72" xy="18,157" size="424,49" group="n75_p4u6" advanced="true">
-      <gearXY controller="c2" pages="0,1" values="18,157|18,63"/>
+    <group id="n72_hiva" name="n72" xy="18,106" size="451,49" group="n75_p4u6" advanced="true">
+      <gearXY controller="c2" pages="0,1" values="18,106|18,63"/>
     </group>
-    <group id="n75_p4u6" name="n75" xy="18,35" size="427,171" group="n49" advanced="true"/>
-    <group id="n49" name="n49" xy="18,35" size="427,345" advanced="true">
+    <group id="n75_p4u6" name="n75" xy="18,35" size="451,120" group="n49" advanced="true"/>
+    <group id="n49" name="n49" xy="18,35" size="451,345" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
-    <graph id="n54" name="n54" xy="9,53" size="460,287" group="n56" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
-    <list id="n55" name="importPkgList" xy="10,54" size="458,285" group="n56" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
-    <group id="n56" name="n56" xy="9,53" size="460,287" group="n60"/>
-    <text id="n57" name="n57" xy="11,27" size="184,19" group="n60" fontSize="12" color="#bdbdbd" text="文件内容中包含以下包的字符串集"/>
-    <component id="n61" name="import" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="303,355" size="81,25" group="n60">
+    <graph id="n54" name="n54" xy="9,48" size="460,287" group="n56" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n55" name="importPkgList" xy="10,49" size="458,285" group="n56" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
+    <group id="n56" name="n56" xy="9,48" size="460,287" group="n60"/>
+    <text id="n57" name="n57" xy="11,27" size="185,18" group="n60" fontSize="12" color="#bdbdbd" text="文件内容中包含以下包的字符串集"/>
+    <component id="n61" name="n61" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="303,355" size="81,25" group="n60">
       <Button title="导入"/>
     </component>
     <group id="n60" name="n60" xy="9,27" size="460,353" advanced="true">
       <gearDisplay controller="c1" pages="2"/>
     </group>
-    <component id="n14" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="397,355" size="66,25">
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="397,355" size="66,25">
       <Button title="关闭"/>
     </component>
   </displayList>

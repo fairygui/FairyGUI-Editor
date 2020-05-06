@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="45,25" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
   <displayList>
-    <graph id="n0" name="n0" xy="2,2" size="39,20" type="rect" lineColor="#ff262424" fillColor="#ff454545">
+    <graph id="n0" name="n0" xy="2,3" size="39,20" type="rect" lineColor="#ff262424" fillColor="#ff454545">
       <gearDisplay controller="button" pages="0,2"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2" name="n2" xy="2,2" size="39,20" type="rect" lineColor="#ff666666" fillColor="#ff292929">
+    <graph id="n2" name="n2" xy="2,3" size="39,20" type="rect" lineColor="#ff666666" fillColor="#ff292929">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1" name="title" xy="7,2" size="28,19" fontSize="12" color="#bdbdbd" singleLine="true" autoClearText="true" text="名称">
+    <text id="n1" name="title" xy="7,4" size="30,18" fontSize="12" color="#d19036" singleLine="true" autoClearText="true" text="名称">
       <gearColor controller="button" pages="1,3" values="#d19036,#000000|#d19036,#000000" default="#bdbdbd,#000000"/>
     </text>
   </displayList>

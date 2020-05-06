@@ -1,8 +1,6 @@
 {
-  "langFiles": [
-    {
-      "name": "English",
-      "path": "../Assets/StreamingAssets/locales/en/strings1.xml"
-    }
-  ]
+	"langFiles":[{
+		"name":"English",
+		"path":"../src/locales/en/strings1.xml"
+	}]
 }

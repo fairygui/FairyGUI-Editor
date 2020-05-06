@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="409,33" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="1"/>
+  <displayList>
+    <graph id="n23_tezg" name="n23" xy="0,0" size="409,33" type="rect" lineSize="0" fillColor="#ff415978">
+      <gearDisplay controller="button" pages="1"/>
+    </graph>
+    <component id="n13_u3n8" name="link" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="247,5" size="156,20" controller="noBorder,0"/>
+    <graph id="n18_tezg" name="n18" xy="0,32" size="409,1" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </graph>
+    <component id="n20_tezg" name="image" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="28,5" size="188,20"/>
+    <image id="n21_tezg" name="n21" src="p6lhiubj" fileName="icons/link-url.png" xy="225,9"/>
+    <image id="n22_tezg" name="n22" src="au3n22" fileName="icons_obj/icon_image.png" xy="5,8"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

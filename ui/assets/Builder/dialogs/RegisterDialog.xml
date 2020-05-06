@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="486,262">
+<component size="486,241">
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="486,262">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="486,241">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="升级专业版"/>
     </component>
-    <component id="n45_p462" name="code" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="6,51" size="473,137" controller="showEditButton,0">
+    <component id="n45_p462" name="code" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="6,51" size="473,146" controller="showEditButton,0">
       <Label titleFontSize="14"/>
     </component>
-    <component id="n40" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="167,225" size="66,25" group="n42_cdxv">
+    <component id="n40" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="167,206" size="66,25" group="n42_cdxv">
       <Button title="确定"/>
     </component>
-    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="252,225" size="66,25" group="n42_cdxv">
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="252,206" size="66,25" group="n42_cdxv">
       <Button title="取消"/>
     </component>
-    <group id="n42_cdxv" name="n42" xy="167,225" size="151,25"/>
-    <text id="n48_imn4" name="n48" xy="12,28" size="52,19" fontSize="12" color="#bdbdbd" text="注册码："/>
-    <text id="n49_d008" name="n49" xy="12,198" size="94,19" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="机器码："/>
-    <component id="n50_d008" name="machineId" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="112,197" size="367,20"/>
+    <group id="n42_cdxv" name="n42" xy="167,206" size="151,25"/>
+    <text id="n48_imn4" name="n48" xy="12,28" size="53,18" fontSize="12" color="#bdbdbd" text="注册码："/>
   </displayList>
 </component>

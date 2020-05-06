@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,308" bgColorEnabled="true" bgColor="#383838">
+  <controller name="align" pages="0,left,1,center,2,right" selected="0"/>
+  <controller name="verticalAlign" pages="0,top,1,middle,2,bottom" selected="0"/>
+  <displayList>
+    <component id="n131" name="text" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="5,4" size="260,60" controller="showEditButton,1"/>
+    <text id="n182_r1st" name="n182" xy="4,97" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
+    <text id="n183_r1st" name="n183" xy="4,123" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n184_r1st" name="n184" xy="4,149" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n185_r1st" name="autoSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,200" size="122,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n186_r1st" name="n186" xy="4,201" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n187_r1st" name="n187" xy="4,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n188_r1st" name="n188" xy="126,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <component id="n189_r1st" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,148"/>
+    <component id="n190_r1st" name="leading" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,173" size="34,20">
+      <Label title="12"/>
+    </component>
+    <component id="n191_r1st" name="letterSpacing" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="209,173" size="34,20">
+      <Label title="12"/>
+    </component>
+    <component id="n192_r1st" name="font" src="nbr4iudj" fileName="basic/FontInput.xml" xy="87,95" size="175,22"/>
+    <component id="n193_r1st" name="strokeColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="162,256"/>
+    <component id="n194_r1st" name="stroke" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,253" size="27,19"/>
+    <component id="n195_r1st" name="fontSize" src="nbr4iudi" fileName="basic/FontSizeInput.xml" xy="87,122">
+      <Label title="12"/>
+    </component>
+    <component id="n196_r1st" name="strokeSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="106,253" size="34,20">
+      <Label title="1"/>
+    </component>
+    <component id="n197_r1st" name="shadow" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,280" size="27,19"/>
+    <component id="n202_r1st" name="ubbEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="5,68" size="22,22" tooltips="允许使用UBB语法。例如：[b]文本[/b]">
+      <Button checked="true" icon="ui://2pshu6oiyy9iiuci"/>
+    </component>
+    <component id="n203_r1st" name="singleLine" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="53,68" size="22,22" tooltips="单行">
+      <Button checked="true" icon="ui://2pshu6oiyy9iiucp"/>
+    </component>
+    <component id="n204_r1st" name="clearOnPublish" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="149,68" size="22,22" tooltips="发布时清除文本">
+      <Button icon="ui://2pshu6oiyy9iiuck"/>
+    </component>
+    <component id="n205_r1st" name="varsEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="29,68" size="22,22" tooltips="允许使用模板。例如：数量：{count=100}">
+      <Button icon="ui://2pshu6oiyy9iiucl"/>
+    </component>
+    <component id="n206_r1st" name="bold" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="77,68" size="22,22" tooltips="粗体">
+      <Button icon="ui://2pshu6oiyy9iiucn" page="0"/>
+    </component>
+    <component id="n207_r1st" name="italic" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="101,68" size="22,22" tooltips="斜体">
+      <Button icon="ui://2pshu6oiyy9iiucm" page="1"/>
+    </component>
+    <component id="n208_r1st" name="underline" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="125,68" size="22,22" tooltips="下划线">
+      <Button icon="ui://2pshu6oiyy9iiuco" page="2"/>
+    </component>
+    <component id="n209_r1st" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,226" size="22,22">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsu" controller="align" page="0"/>
+    </component>
+    <component id="n210_r1st" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,226" size="22,22">
+      <Button icon="ui://2pshu6oin1pzixicsz" controller="align" page="1"/>
+    </component>
+    <component id="n211_r1st" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,226" size="22,22">
+      <Button icon="ui://2pshu6oin1pzixict0" controller="align" page="2"/>
+    </component>
+    <component id="n212_r1st" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,226" size="22,22">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsx" controller="verticalAlign" page="0"/>
+    </component>
+    <component id="n213_r1st" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,226" size="22,22">
+      <Button icon="ui://2pshu6oin1pzixicsy" controller="verticalAlign" page="1"/>
+    </component>
+    <component id="n214_r1st" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,226" size="22,22">
+      <Button icon="ui://2pshu6oin1pzixicsw" controller="verticalAlign" page="2"/>
+    </component>
+    <image id="n216_r1st" name="n216" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,228" size="1,20"/>
+    <text id="n217_r1st" name="n217" xy="4,253" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="描边"/>
+    <text id="n218_r1st" name="n218" xy="4,281" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="投影"/>
+    <text id="n219_uebo" name="n219" xy="4,227" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <component id="n220_vjpn" name="shadowX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="106,281" size="51,20">
+      <Label title="1"/>
+    </component>
+    <component id="n221_vjpn" name="shadowY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="164,281" size="51,20" controller="xy,1">
+      <Label title="1"/>
+    </component>
+  </displayList>
+</component>

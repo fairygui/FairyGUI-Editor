@@ -1,37 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="710,681" bgColorEnabled="true" bgColor="#383838">
+<component size="710,653" bgColorEnabled="true" bgColor="#383838">
   <controller name="editType" pages="0,,1," selected="0"/>
-  <controller name="timelineMode" pages="0,,1," selected="1"/>
+  <controller name="trans" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n91_j5yv" name="border" xy="0,0" size="710,681" type="rect" lineColor="#ff292828" fillColor="#00ffffff">
+    <graph id="n91_j5yv" name="border" xy="0,0" size="710,653" type="rect" lineColor="#ff292828" fillColor="#00ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n7" name="docBg" xy="37,61" size="672,618" type="rect" lineSize="0" lineColor="#fc292828" fillColor="#ff666666">
-      <relation target="" sidePair="width-width,height-height"/>
-      <relation target="n0" sidePair="topext-top"/>
-    </graph>
-    <component id="n0" name="docContainer" src="au3ni" fileName="DocContainer.xml" xy="37,61" size="672,619">
+    <graph id="n7" name="docBg" xy="37,61" size="672,590" type="rect" lineSize="0" lineColor="#fc292828" fillColor="#ff666666">
       <relation target="" sidePair="width-width,height-height"/>
       <relation target="n47" sidePair="topext-bottom"/>
+    </graph>
+    <component id="n0" name="docContainer" src="au3ni" fileName="DocContainer.xml" xy="37,61" size="672,591">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n7" sidePair="topext-top"/>
     </component>
-    <component id="n33" name="alignToolbar" src="wc5qixicvr" fileName="AlignToolbar.xml" xy="3,356"/>
-    <component id="n42" name="objToolbar" src="wc5qixicvs" fileName="ObjectToolbar.xml" xy="3,107">
-      <gearDisplay controller="timelineMode" pages="0"/>
+    <component id="n33" name="n33" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,306" size="28,24" group="n3" tooltips="左对齐">
+      <Button icon="ui://2pshu6oiau3n13"/>
     </component>
-    <component id="n57" name="hand" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="5,72" size="28,24" tooltips="拖动模式（按住空格可快捷切换）或使用鼠标中键拖动">
+    <component id="n34" name="n34" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,333" size="28,24" group="n3" tooltips="左右居中对齐">
+      <Button icon="ui://2pshu6oiau3n14"/>
+    </component>
+    <component id="n35" name="n35" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,360" size="28,24" group="n3" tooltips="右对齐">
+      <Button icon="ui://2pshu6oiau3n11"/>
+    </component>
+    <component id="n36" name="n36" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,394" size="28,24" group="n3" tooltips="上对齐">
+      <Button icon="ui://2pshu6oiau3n10"/>
+    </component>
+    <component id="n37" name="n37" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,421" size="28,24" group="n3" tooltips="上下居中对齐">
+      <Button icon="ui://2pshu6oiau3n12"/>
+    </component>
+    <component id="n38" name="n38" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,448" size="28,24" group="n3" tooltips="下对齐">
+      <Button icon="ui://2pshu6oiau3n15"/>
+    </component>
+    <component id="n39" name="n39" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,482" size="28,24" group="n3" tooltips="相同宽度">
+      <Button icon="ui://2pshu6oiau3n1s"/>
+    </component>
+    <component id="n40" name="n40" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,509" size="28,24" group="n3" tooltips="相同高度">
+      <Button icon="ui://2pshu6oiau3n1t"/>
+    </component>
+    <component id="n41" name="n41" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,542" size="28,24" group="n3" tooltips="均匀行距">
+      <Button icon="ui://2pshu6oiryajixictz"/>
+    </component>
+    <image id="n42" name="n42" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,302" group="n3" aspect="true"/>
+    <component id="n57" name="n57" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="5,72" size="28,24" group="n3" tooltips="拖动模式（按住空格可快捷切换）&#xD;或使用鼠标中键拖动">
       <Button icon="ui://2pshu6oiau3n1g" controller="editType" page="1"/>
     </component>
-    <component id="n60" name="arrow" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="5,45" size="28,24" tooltips="选择模式">
+    <component id="n60" name="n60" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="5,45" size="28,24" group="n3" tooltips="选择模式">
       <Button checked="true" icon="ui://2pshu6oiau3n1i" controller="editType" page="0"/>
     </component>
-    <image id="n58" name="n58" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,100" aspect="true"/>
+    <image id="n58" name="n58" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,100" group="n3" aspect="true"/>
+    <component id="n26" name="n26" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,108" size="28,24" group="n3" tooltips="文本">
+      <Button icon="ui://2pshu6oiau3n1u"/>
+    </component>
+    <component id="n27" name="n27" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,161" size="28,24" group="n3" tooltips="图形">
+      <Button icon="ui://2pshu6oiau3n21"/>
+    </component>
+    <component id="n28" name="n28" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,186" size="28,24" group="n3" tooltips="列表">
+      <Button icon="ui://2pshu6oiau3n25"/>
+    </component>
+    <component id="n29" name="n29" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,213" size="28,24" group="n3" tooltips="装载器">
+      <Button icon="ui://2pshu6oiau3n17"/>
+    </component>
+    <image id="n30" name="n30" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="9,243" group="n3" aspect="true"/>
+    <component id="n31" name="n31" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,249" size="28,24" group="n3" tooltips="组合">
+      <Button icon="ui://2pshu6oiau3n1h"/>
+    </component>
+    <component id="n32" name="n32" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,276" size="28,24" group="n3" tooltips="取消组合">
+      <Button icon="ui://2pshu6oinejciud0"/>
+    </component>
+    <component id="n49" name="n49" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,135" size="28,24" group="n3" tooltips="富文本">
+      <Button icon="ui://2pshu6oiau3n43"/>
+    </component>
+    <image id="n78" name="n78" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,477" group="n3" aspect="true"/>
+    <image id="n77" name="n77" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,389" group="n3" aspect="true"/>
+    <image id="n79" name="n79" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="8,537" group="n3" aspect="true"/>
+    <component id="n96_shwj" name="n96" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,569" size="28,24" group="n3" tooltips="均匀列距">
+      <Button icon="ui://2pshu6oiryajixicty"/>
+    </component>
+    <component id="n97_shwj" name="n97" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="4,596" size="28,24" group="n3" tooltips="表格排列">
+      <Button icon="ui://2pshu6oiau3n1n"/>
+    </component>
+    <group id="n3" name="n3" xy="4,45" size="29,575"/>
     <component id="n47" name="controllerPanel" src="au3n3h" fileName="controller/ControllerPanel.xml" xy="37,28" size="672,32">
       <relation target="" sidePair="width-width"/>
     </component>
-    <graph id="n90_j5yv" name="n90" xy="36,27" size="1,652" type="rect" lineSize="0" fillColor="#ff292828">
+    <graph id="n90_j5yv" name="n90" xy="36,27" size="1,624" type="rect" lineSize="0" fillColor="#ff292828">
       <relation target="" sidePair="height-height"/>
     </graph>
-    <graph id="n89_ty2q" name="n89" xy="697,668" size="12,12" type="rect" lineSize="0" fillColor="#ff3f3f3f">
+    <graph id="n89_ty2q" name="n89" xy="697,640" size="12,12" type="rect" lineSize="0" fillColor="#ff3f3f3f">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </graph>
     <graph id="n50" name="tabBar" xy="1,2" size="707,25" type="rect" lineColor="#00000000" fillColor="#00ffffff">
@@ -50,7 +106,6 @@
       <relation target="n0" sidePair="left-left,top-top"/>
     </component>
     <component id="n93_qilr" name="editingTransBar" src="qilr7iufb" fileName="EditingTransitionBar.xml" xy="604,68">
-      <gearDisplay controller="timelineMode" pages="1"/>
       <relation target="n0" sidePair="right-right,top-top"/>
     </component>
   </displayList>

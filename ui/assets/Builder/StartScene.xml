@@ -6,9 +6,9 @@
     </graph>
     <image id="n1_et85" name="n1" src="so5uixicsc" fileName="icons/logo128.png" xy="26,20" size="64,64"/>
     <text id="n2_et85" name="n2" xy="51,122" size="273,33" fontSize="24" color="#c4c4c4" autoSize="none" text="开始"/>
-    <richtext id="n3_et85" name="n3" xy="51,166" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=create]创建新项目[/url]"/>
-    <richtext id="n4_et85" name="n4" xy="51,198" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=open]打开项目...[/url]"/>
-    <richtext id="n5_et85" name="n5" xy="51,230" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=open_folder]打开文件夹...[/url]"/>
+    <richtext id="n3_et85" name="n3" xy="51,166" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=event:create]创建新项目[/url]"/>
+    <richtext id="n4_et85" name="n4" xy="51,198" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=event:open]打开项目...[/url]"/>
+    <richtext id="n5_et85" name="n5" xy="51,230" size="273,26" fontSize="16" color="#68baba" ubb="true" autoSize="none" text="[url=event:open_folder]打开文件夹...[/url]"/>
     <text id="n6_et85" name="n6" xy="51,283" size="273,33" fontSize="24" color="#c4c4c4" autoSize="none" text="最近打开项目"/>
     <list id="n7_et85" name="recentList" xy="15,328" size="729,461" overflow="hidden" defaultItem="ui://2pshu6oiet857iufe" autoClearItems="true">
       <relation target="" sidePair="height-height"/>
@@ -17,6 +17,6 @@
       <item/>
       <item/>
     </list>
-    <text id="n8_et85" name="n8" xy="125,30" size="304,49" fontSize="36" color="#c4c4c4" text="欢迎使用 FairyGUI"/>
+    <text id="n8_et85" name="n8" xy="125,30" size="296,47" fontSize="36" color="#c4c4c4" text="欢迎使用 FairyGUI"/>
   </displayList>
 </component>

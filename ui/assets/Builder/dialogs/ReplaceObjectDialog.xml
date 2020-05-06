@@ -2,7 +2,7 @@
 <component size="300,138">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="300,138">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="300,138" locked="true">
       <relation target="" sidePair="height-height,width-width"/>
       <Label title="替换元件"/>
     </component>
@@ -16,20 +16,14 @@
     <component id="n7_f613" name="text" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="21,58">
       <Button icon="ui://2pshu6oiau3n1u"/>
     </component>
-    <component id="n8_f613" name="graph" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="96,58">
+    <component id="n8_f613" name="graph" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="73,58">
       <Button icon="ui://2pshu6oiau3n21"/>
     </component>
-    <component id="n10_f613" name="loader" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="121,58">
+    <component id="n10_f613" name="loader" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="101,58">
       <Button icon="ui://2pshu6oiau3n17"/>
     </component>
     <component id="n11_f613" name="richtext" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="46,58">
       <Button icon="ui://2pshu6oiau3n43"/>
-    </component>
-    <component id="n12_ii6t" name="inputtext" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="71,58">
-      <Button icon="ui://2pshu6oiyy9iiucj"/>
-    </component>
-    <component id="n13_mdir" name="loader3D" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="146,58">
-      <Button icon="ui://2pshu6oijgx6ixicwr"/>
     </component>
   </displayList>
 </component>

@@ -2,43 +2,17 @@
 <component size="407,408">
   <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="407,408">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="407,408" locked="true">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="创建按钮"/>
     </component>
-    <text id="n1" name="n1" xy="6,33" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按钮名称"/>
-    <component id="n2" name="n2" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="90,32" size="210,20" controller="noBorder,0"/>
-    <component id="n23" name="n23" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="22,59" size="205,19">
-      <Button checked="true" title="自动大小(使用设定的图片的大小）" controller="c1" page="0"/>
-    </component>
-    <component id="n22" name="n22" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="22,85" size="81,19">
-      <Button title="自定义大小" controller="c1" page="1"/>
-    </component>
-    <component id="n19" name="n19" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="134,86" group="n24" controller="noBorder,0"/>
-    <text id="n20" name="n20" xy="211,88" size="11,19" group="n24" fontSize="12" color="#bdbdbd" text="X"/>
-    <component id="n21" name="n21" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="230,86" group="n24" controller="noBorder,0"/>
-    <group id="n24" name="n24" xy="134,86" size="167,20" advanced="true">
-      <gearDisplay controller="c1" pages="1"/>
-    </group>
-    <text id="n27" name="n27" xy="26,121" size="351,19" fontSize="12" color="#bdbdbd" autoSize="none" text="图片设置：（以下图片设置均为可选）"/>
     <graph id="n25" name="n25" xy="17,114" size="373,148" type="rect" lineColor="#ff292828" fillColor="#00ff99cc"/>
-    <text id="n3" name="n3" xy="30,145" size="135,19" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
-    <text id="n4" name="n4" xy="30,174" size="135,19" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
-    <text id="n5" name="n5" xy="30,204" size="135,19" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
-    <text id="n6" name="n6" xy="30,233" size="135,19" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
-    <component id="n7" name="n7" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,143" size="214,20" group="n26"/>
-    <component id="n8" name="n8" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,172" size="214,20" group="n26"/>
-    <component id="n9" name="n9" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,202" size="214,20" group="n26"/>
-    <component id="n10" name="n10" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,232" size="214,20" group="n26"/>
-    <group id="n26" name="n26" xy="30,143" size="351,109"/>
-    <text id="n28" name="n28" xy="6,274" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按钮模式"/>
-    <component id="n29" name="mode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="90,272" size="84,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n11" name="n11" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="90,301" size="95,19">
+    <text id="n1" name="n1" xy="6,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按钮名称"/>
+    <component id="n2" name="n2" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="90,32" size="210,20" controller="noBorder,0"/>
+    <component id="n11" name="n11" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="90,301" size="96,19">
       <Button title="创建文本标题"/>
     </component>
-    <component id="n12" name="n12" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="209,301" size="95,19">
+    <component id="n12" name="n12" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="209,301" size="96,19">
       <Button title="创建图形标题"/>
     </component>
     <component id="n13" name="n13" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="108,365">
@@ -47,10 +21,36 @@
     <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="226,365">
       <Button title="取消"/>
     </component>
-    <text id="n15" name="n15" xy="6,330" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
+    <text id="n15" name="n15" xy="6,330" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
     <component id="n16" name="n16" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="90,328" size="268,20" controller="noBorder,0"/>
     <component id="n17" name="n17" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="364,326" size="30,25">
       <Button title="..."/>
+    </component>
+    <component id="n22" name="n22" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="22,85" size="82,19">
+      <Button title="自定义大小" controller="c1" page="1"/>
+    </component>
+    <component id="n23" name="n23" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="22,59" size="206,19">
+      <Button checked="true" title="自动大小(使用设定的图片的大小）" controller="c1" page="0"/>
+    </component>
+    <component id="n19" name="n19" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="109,86" group="n24" controller="noBorder,0"/>
+    <text id="n20" name="n20" xy="186,88" size="11,18" group="n24" fontSize="12" color="#bdbdbd" text="X"/>
+    <component id="n21" name="n21" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="205,86" group="n24" controller="noBorder,0"/>
+    <group id="n24" name="n24" xy="109,86" size="167,20" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <text id="n3" name="n3" xy="30,145" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="正常状态图片"/>
+    <text id="n4" name="n4" xy="30,174" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态图片"/>
+    <text id="n5" name="n5" xy="30,204" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="鼠标悬浮时图片"/>
+    <text id="n6" name="n6" xy="30,233" size="135,16" group="n26" fontSize="12" color="#bdbdbd" align="right" autoSize="none" text="按下状态鼠标悬浮时图片"/>
+    <component id="n7" name="n7" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,143" size="214,20" group="n26"/>
+    <component id="n8" name="n8" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,172" size="214,20" group="n26"/>
+    <component id="n9" name="n9" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,202" size="214,20" group="n26"/>
+    <component id="n10" name="n10" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="167,232" size="214,20" group="n26"/>
+    <group id="n26" name="n26" xy="30,143" size="351,109"/>
+    <text id="n27" name="n27" xy="26,121" size="351,16" fontSize="12" color="#bdbdbd" autoSize="none" text="图片设置：（以下图片设置均为可选）"/>
+    <text id="n28" name="n28" xy="6,274" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="按钮模式"/>
+    <component id="n29" name="mode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="90,272" size="84,20">
+      <ComboBox visibleItemCount="10"/>
     </component>
   </displayList>
 </component>

@@ -8,6 +8,12 @@
     <graph id="n16" name="n16" xy="13,35" size="202,322" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
     <text id="n1" name="n1" xy="223,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
     <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,34" size="116,20" controller="noBorder,0"/>
+    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="321,367">
+      <Button title="创建"/>
+    </component>
+    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="447,367">
+      <Button title="取消"/>
+    </component>
     <text id="n12" name="n12" xy="223,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
     <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="306,63" size="251,20" controller="noBorder,0"/>
     <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="560,61" size="30,25">
@@ -26,12 +32,6 @@
     <component id="n89" name="reverse" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="295,267" size="95,19">
       <Button title="反向"/>
     </component>
-    <image id="n90" name="n90" src="hrh6u8d" fileName="images/guide_progressbar.png" xy="26,50"/>
-    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="321,367">
-      <Button title="创建"/>
-    </component>
-    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="447,367">
-      <Button title="取消"/>
-    </component>
+    <image id="n90" name="n90" src="hrh6u8d" fileName="images/Bitmap.png" xy="26,50"/>
   </displayList>
 </component>

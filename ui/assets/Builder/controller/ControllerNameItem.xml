@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="38,23" extention="Button" bgColorEnabled="true" bgColor="#383838">
+<component size="38,23" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
     <graph id="n3" name="n3" xy="0,0" size="38,23" type="rect" lineColor="#ff262424" fillColor="#ff454545">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1" name="title" xy="22,2" size="11,19" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoClearText="true" text="a"/>
-    <loader id="n4" name="icon" xy="2,2" size="16,18" url="ui://2pshu6oiau3n26" align="center" vAlign="middle"/>
+    <text id="n1" name="title" xy="22,3" size="11,18" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoClearText="true" text="a"/>
+    <loader id="n4" name="icon" xy="2,3" size="16,18" url="ui://2pshu6oiau3n26" align="center" vAlign="middle"/>
   </displayList>
   <Button/>
   <relation target="n1" sidePair="width-width"/>

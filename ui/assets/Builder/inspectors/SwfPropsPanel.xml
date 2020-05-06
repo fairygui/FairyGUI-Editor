@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,44" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n69" name="n69" xy="4,13" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
-    <component id="n70" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,11" size="47,20"/>
     <component id="n32" name="playing" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="150,12" size="48,19">
       <Button title="播放"/>
     </component>
+    <text id="n69" name="n69" xy="4,13" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
+    <component id="n70" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,11" size="47,20"/>
   </displayList>
 </component>

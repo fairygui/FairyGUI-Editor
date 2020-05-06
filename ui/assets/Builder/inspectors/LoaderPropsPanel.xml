@@ -1,63 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,291" bgColorEnabled="true" bgColor="#383838">
-  <controller name="align" pages="0,left,1,center,2,right" selected="0"/>
-  <controller name="verticalAlign" pages="0,top,1,middle,2,bottom" selected="0"/>
+<component size="270,318" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n17" name="n17" xy="4,9" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
-    <text id="n59" name="n59" xy="4,59" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
-    <text id="n47" name="n47" xy="4,110" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
-    <text id="n69" name="n69" xy="4,136" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
-    <text id="n71" name="n71" xy="4,162" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
-    <text id="n81" name="n81" xy="4,189" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
-    <text id="n97_r1st" name="n97" xy="4,217" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
-    <text id="n94_r1st" name="n94" xy="4,265" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <text id="n17" name="n17" xy="4,9" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
+    <component id="n45" name="autoSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,34" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n46" name="n46" xy="4,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="自动大小"/>
+    <component id="n58" name="fill" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,61" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n59" name="n59" xy="4,63" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
+    <text id="n47" name="n47" xy="4,112" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <component id="n48" name="align" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,111" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n49" name="verticalAlign" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="165,111" size="74,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n32" name="playing" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="152,137" size="48,19">
+      <Button title="播放"/>
+    </component>
     <component id="n65" name="url" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,7" size="152,20"/>
+    <text id="n69" name="n69" xy="4,138" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
+    <component id="n70" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,136"/>
+    <text id="n71" name="n71" xy="4,164" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
+    <component id="n72" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,165"/>
+    <text id="n73" name="n73" xy="4,190" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="亮度"/>
+    <component id="n74" name="brightness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,188" size="42,20"/>
+    <component id="n80" name="fillMethod" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,215" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n81" name="n81" xy="4,216" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充方法"/>
+    <component id="n93_q9gj" name="shrinkOnly" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="86,87" size="84,19">
+      <Button title="仅允许缩小"/>
+    </component>
+    <text id="n94_r1st" name="n94" xy="4,292" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充比例"/>
+    <component id="n95_r1st" name="fillAmount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,290" size="53,20"/>
+    <component id="n96_r1st" name="fillOrigin" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,243" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n97_r1st" name="n97" xy="4,244" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充原点"/>
+    <component id="n98_r1st" name="fillClockwise" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="87,268" size="84,19">
+      <Button title="顺时针方向"/>
+    </component>
     <component id="n99_r1st" name="clearOnPublish" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="243,7" size="24,24" tooltips="发布时清除">
       <Button icon="ui://2pshu6oiyy9iiuck"/>
     </component>
-    <component id="n100_a75t" name="autoSize" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="86,31" size="71,19">
-      <Button title="自动大小"/>
-    </component>
-    <component id="n58" name="fill" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,57" size="152,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n93_q9gj" name="shrinkOnly" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="86,83" size="83,19">
-      <Button title="仅允许缩小"/>
-    </component>
-    <component id="n101_l97l" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,107" size="22,22" group="n108_l97l">
-      <Button checked="true" icon="ui://2pshu6oin1pzixicsu" controller="align" page="0"/>
-    </component>
-    <component id="n102_l97l" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,107" size="22,22" group="n108_l97l">
-      <Button icon="ui://2pshu6oin1pzixicsz" controller="align" page="1"/>
-    </component>
-    <component id="n103_l97l" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,107" size="22,22" group="n108_l97l">
-      <Button icon="ui://2pshu6oin1pzixict0" controller="align" page="2"/>
-    </component>
-    <component id="n104_l97l" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,107" size="22,22" group="n108_l97l">
-      <Button checked="true" icon="ui://2pshu6oin1pzixicsx" controller="verticalAlign" page="0"/>
-    </component>
-    <image id="n105_l97l" name="n105" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,109" size="1,20" group="n108_l97l"/>
-    <component id="n106_l97l" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,107" size="22,22" group="n108_l97l">
-      <Button icon="ui://2pshu6oin1pzixicsy" controller="verticalAlign" page="1"/>
-    </component>
-    <component id="n107_l97l" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,107" size="22,22" group="n108_l97l">
-      <Button icon="ui://2pshu6oin1pzixicsw" controller="verticalAlign" page="2"/>
-    </component>
-    <group id="n108_l97l" name="n108" xy="87,107" size="153,22"/>
-    <component id="n70" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,134"/>
-    <component id="n32" name="playing" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="152,135" size="47,19">
-      <Button title="播放"/>
-    </component>
-    <component id="n72" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,163"/>
-    <component id="n80" name="fillMethod" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,188" size="152,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n96_r1st" name="fillOrigin" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,216" size="152,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n98_r1st" name="fillClockwise" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="87,241" size="83,19">
-      <Button title="顺时针方向"/>
-    </component>
-    <component id="n95_r1st" name="fillAmount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,264" size="53,20"/>
   </displayList>
 </component>

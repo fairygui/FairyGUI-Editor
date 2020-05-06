@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="405,400">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="405,400">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="插件管理器"/>
+    </component>
+    <graph id="n20" name="n20" xy="13,58" size="377,287" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="n19" xy="14,79" size="375,264" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiocfaiu8s" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n47_mwte" name="n47" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="13,58" size="377,21" group="n51_mwte"/>
+    <graph id="n48_mwte" name="n48" xy="235,59" size="1,19" group="n51_mwte" type="rect" lineSize="0" lineColor="#ff262424" fillColor="#ff151415"/>
+    <text id="n49_mwte" name="n49" xy="13,60" size="218,16" group="n51_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n50_mwte" name="n50" xy="237,60" size="148,16" group="n51_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="功能"/>
+    <group id="n51_mwte" name="n51" xy="13,58" size="377,21" group="n35"/>
+    <group id="n35" name="n35" xy="13,58" size="377,287"/>
+    <component id="n28" name="n28" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="14,362" size="144,25">
+      <Button title="打开插件目录..."/>
+    </component>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="323,362" size="67,25">
+      <Button title="关闭"/>
+    </component>
+    <text id="n40" name="n40" xy="15,33" size="306,18" fontSize="12" color="#bdbdbd" autoSize="height" text="已安装的插件:"/>
+    <component id="n41" name="n41" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="169,362" size="104,25">
+      <Button title="重新载入"/>
+    </component>
+  </displayList>
+</component>

@@ -8,16 +8,16 @@
       <relation target="" sidePair="bottom-bottom,width-width"/>
     </image>
     <list id="n1" name="list" xy="1,2" size="155,46" overflow="scroll" scrollBarFlags="4" scrollBar="visible" lineGap="2" defaultItem="ui://nk9ejx23mvcw8j"/>
-    <component id="n5_bg8o" name="b0" src="okou7w" fileName="Button/LinkButton.xml" xy="7,52" size="41,18" group="n9_bg8o">
+    <component id="n5_bg8o" name="b0" src="okou7w" fileName="Button/LinkButton.xml" xy="7,52" size="42,18" group="n9_bg8o">
       <Button title="全选"/>
     </component>
     <component id="n6_bg8o" name="b1" src="okou7w" fileName="Button/LinkButton.xml" xy="7,73" size="66,18" group="n9_bg8o">
       <Button title="反向选择"/>
     </component>
-    <component id="n7_bg8o" name="b2" src="okou7w" fileName="Button/LinkButton.xml" xy="7,94" size="41,18" group="n9_bg8o">
+    <component id="n7_bg8o" name="b2" src="okou7w" fileName="Button/LinkButton.xml" xy="7,94" size="42,18" group="n9_bg8o">
       <Button title="清空"/>
     </component>
-    <component id="n11_ugn9" name="b3" src="okou7w" fileName="Button/LinkButton.xml" xy="114,94" size="41,18" group="n9_bg8o">
+    <component id="n11_ugn9" name="b3" src="okou7w" fileName="Button/LinkButton.xml" xy="113,94" size="42,18" group="n9_bg8o">
       <relation target="" sidePair="right-right"/>
       <Button title="关闭"/>
     </component>

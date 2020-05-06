@@ -14,27 +14,27 @@
     <graph id="n0" name="n0" xy="9,28" size="502,432" type="rect" lineColor="#ff292828" fillColor="#ff333333"/>
     <component id="n26" name="imageContainer" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="10,29" size="500,400"/>
     <group id="n110_obsv" name="n110" xy="516,28" size="252,69" group="n113_q95v" advanced="true"/>
-    <group id="n82_r1st" name="n82" xy="599,77" size="122,20" group="n110_obsv" advanced="true" layout="hz" colGap="5"/>
-    <component id="n79_r1st" name="n79" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="599,77" size="25,20" group="n82_r1st">
+    <group id="n82_r1st" name="n82" xy="599,77" size="124,20" group="n110_obsv" advanced="true" layout="hz" colGap="5"/>
+    <component id="n79_r1st" name="n79" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="599,77" size="26,20" group="n82_r1st">
       <Button checked="true" title="无" controller="scaleOption" page="0"/>
     </component>
-    <component id="n80_r1st" name="n80" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="629,77" size="49,20" group="n82_r1st">
+    <component id="n80_r1st" name="n80" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="630,77" size="50,20" group="n82_r1st">
       <Button title="九宫格" controller="scaleOption" page="1"/>
     </component>
-    <component id="n81_r1st" name="n81" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="683,77" size="38,20" group="n82_r1st">
+    <component id="n81_r1st" name="n81" src="r1st8x" fileName="Button/TextButton_Radio.xml" pkg="nk9ejx23" xy="685,77" size="38,20" group="n82_r1st">
       <Button title="平铺" controller="scaleOption" page="2"/>
     </component>
-    <text id="n27" name="n27" xy="516,77" size="80,19" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放模式"/>
-    <component id="n105_gq8o" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="599,28" size="65,20" group="n110_obsv" controller="xy,2"/>
+    <text id="n27" name="n27" xy="516,77" size="80,18" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放模式"/>
     <component id="n106_gq8o" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="680,28" size="65,20" group="n110_obsv" controller="xy,3"/>
+    <component id="n105_gq8o" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="599,28" size="65,20" group="n110_obsv" controller="xy,2"/>
     <text id="n4" name="fileSize" xy="599,52" size="169,18" group="n110_obsv" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text=""/>
-    <text id="n3" name="n3" xy="516,52" size="80,19" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="数据大小"/>
-    <text id="n1" name="n1" xy="516,28" size="80,19" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图像大小"/>
+    <text id="n3" name="n3" xy="516,52" size="80,18" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="数据大小"/>
+    <text id="n1" name="n1" xy="516,28" size="80,18" group="n110_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="图像大小"/>
     <group id="n28" name="n28" xy="599,102" size="166,43" group="n73_qual" advanced="true"/>
     <group id="n73_qual" name="n73" xy="599,102" size="166,65" group="n113_q95v" advanced="true" layout="vt" lineGap="3" excludeInvisibles="true">
       <gearDisplay controller="scaleOption" pages="1"/>
     </group>
-    <component id="n111_obsv" name="tileGrid" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="599,148" size="95,19" group="n73_qual">
+    <component id="n111_obsv" name="tileGrid" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="599,148" size="96,19" group="n73_qual">
       <Button title="平铺部分宫格" controller="tileGrid" page="1"/>
     </component>
     <graph id="n46" name="n46" xy="601,170" size="51,21" group="n60" type="rect" lineColor="#ff333333" fillColor="#ff383838"/>
@@ -60,10 +60,10 @@
     <component id="n12" name="grid3" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="726,125" size="39,20" group="n28"/>
     <component id="n11" name="grid0" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="642,102" size="39,20" group="n28"/>
     <component id="n10" name="grid2" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="642,125" size="39,20" group="n28"/>
-    <text id="n9" name="n9" xy="683,102" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="下"/>
-    <text id="n8" name="n8" xy="683,125" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="右"/>
-    <text id="n7" name="n7" xy="599,102" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="上"/>
-    <text id="n6" name="n6" xy="599,125" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="左"/>
+    <text id="n9" name="n9" xy="683,102" size="41,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="下"/>
+    <text id="n8" name="n8" xy="683,125" size="41,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="右"/>
+    <text id="n7" name="n7" xy="599,102" size="41,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="上"/>
+    <text id="n6" name="n6" xy="599,125" size="41,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="左"/>
     <component id="n114_q95v" name="smoothing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="599,102" size="64,20" group="n112_obsv">
       <ComboBox title="否" visibleItemCount="10">
         <item title="否"/>
@@ -78,19 +78,19 @@
         <item title="自定义" value="custom"/>
       </ComboBox>
     </component>
-    <text id="n17" name="n17" xy="516,128" size="80,19" group="n112_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="质量"/>
-    <text id="n32" name="n32" xy="516,102" size="80,19" group="n112_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="平滑"/>
+    <text id="n17" name="n17" xy="516,128" size="80,18" group="n112_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="质量"/>
+    <text id="n32" name="n32" xy="516,102" size="80,18" group="n112_obsv" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="平滑"/>
     <component id="n25" name="quality" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="726,127" size="35,20" group="n112_obsv">
       <gearDisplay controller="qualityOption" pages="2"/>
     </component>
-    <text id="n19" name="n19" xy="516,155" size="80,19" group="n72_qual" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集"/>
+    <text id="n19" name="n19" xy="516,155" size="80,18" group="n72_qual" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集"/>
     <component id="n20" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="599,153" size="125,20" group="n72_qual">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n71_qual" name="duplicatePadding" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="599,181" size="95,19" group="n72_qual">
+    <component id="n71_qual" name="duplicatePadding" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="599,181" size="96,19" group="n72_qual">
       <Button title="重复边缘像素"/>
     </component>
-    <component id="n74_qual" name="n74" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="701,183" group="n72_qual" tooltips="勾选后，在图集里会自动将图片最边缘的像素扩充出来，以避免图片在拼接或者平铺时产生缝隙。">
+    <component id="n74_qual" name="n74" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="702,183" group="n72_qual" tooltips="勾选后，在图集里会自动将图片最边缘的像素扩充出来，以避免图片在拼接或者平铺时产生缝隙。">
       <relation target="n71_qual" sidePair="right-right"/>
     </component>
     <group id="n72_qual" name="n72" xy="516,153" size="208,47" group="n113_q95v" advanced="true">
@@ -103,7 +103,7 @@
     <component id="n70_rynq" name="cutAlpha" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="93,469" size="99,25">
       <Button title="裁剪边缘空白"/>
     </component>
-    <component id="n64" name="n64" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="287,437" size="37,19" group="n69">
+    <component id="n64" name="n64" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="287,437" size="35,19" group="n69">
       <Button checked="true" title="Fit" controller="c2" page="0"/>
     </component>
     <component id="n65" name="n65" src="gcza13" fileName="Button/RadioButton.xml" pkg="nk9ejx23" xy="333,437" size="53,19" group="n69">
@@ -125,17 +125,14 @@
     <component id="n23" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="708,469" size="63,25">
       <Button title="关闭"/>
     </component>
-    <component id="n109_gq8o" name="4x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="378,469" size="78,25" group="n115_vagn">
+    <component id="n109_gq8o" name="4x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="378,469" size="78,25">
       <Button title="生成 @4x"/>
     </component>
-    <component id="n108_gq8o" name="3x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="290,469" size="78,25" group="n115_vagn">
+    <component id="n108_gq8o" name="3x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="290,469" size="78,25">
       <Button title="生成 @3x"/>
     </component>
-    <component id="n107_gq8o" name="2x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="202,469" size="78,25" group="n115_vagn">
+    <component id="n107_gq8o" name="2x" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="202,469" size="78,25">
       <Button title="生成 @2x"/>
     </component>
-    <group id="n115_vagn" name="n115" xy="202,469" size="254,25" advanced="true">
-      <gearDisplay controller="svg" pages="1"/>
-    </group>
   </displayList>
 </component>

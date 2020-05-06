@@ -8,12 +8,12 @@
     <component id="n70_in52" name="reverse" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,38" size="48,19">
       <Button title="反向"/>
     </component>
-    <component id="n73_iz6l" name="changeOnClick" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,92" size="120,19">
-      <Button title="允许通过点击更改"/>
-    </component>
+    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,129" tooltips="命名约定&#xD;bar: 横向伸缩部分。并设置至100%长度。&#xD;bar_v: 纵向伸缩部分。并设置至100%长度。&#xD;grip: 拖动滑块。&#xD;title: 文本标题。&#xD;ani: 动画。"/>
     <component id="n72_9rrf" name="wholeNumbers" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,64" size="72,19">
       <Button title="整数输入"/>
     </component>
-    <component id="n71_e0th" name="n71" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="101,129" tooltips="命名约定&#xD;bar: 横向伸缩部分。并设置至100%长度。&#xD;bar_v: 纵向伸缩部分。并设置至100%长度。&#xD;grip: 拖动滑块。&#xD;title: 文本标题。&#xD;ani: 动画。"/>
+    <component id="n73_iz6l" name="changeOnClick" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="26,92" size="120,19">
+      <Button title="允许通过点击更改"/>
+    </component>
   </displayList>
 </component>

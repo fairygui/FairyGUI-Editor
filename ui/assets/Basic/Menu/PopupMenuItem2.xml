@@ -2,11 +2,11 @@
 <component size="100,19" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n2" name="n2" src="au3n50" fileName="List/images/listitem_selected.png" xy="0,0" size="100,19">
+    <image id="n2" name="n2" src="au3n50" fileName="List/listitem_selected.png" xy="0,0" size="100,19">
       <gearDisplay controller="button" pages="1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <text id="n1" name="title" xy="4,1" size="95,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n1" name="title" xy="4,1" size="95,17" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd,#000000|#ffffff,#000000|#ffffff,#000000|#ffffff,#000000"/>
       <relation target="" sidePair="width-width,height-height"/>
     </text>

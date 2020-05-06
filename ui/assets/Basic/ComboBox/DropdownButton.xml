@@ -13,10 +13,10 @@
     <graph id="n14_phl6" name="n14" xy="0,0" size="100,20" type="rect" lineColor="#ff555555" fillColor="#00454545">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n15_phl6" name="title" xy="2,0" size="78,19" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
+    <text id="n15_phl6" name="title" xy="2,1" size="78,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
-    <image id="n16_phl6" name="n16" src="e4p48q" fileName="ComboBox/images/dropdown_arrow.svg" xy="83,3">
+    <image id="n16_phl6" name="n16" src="e4p48q" fileName="ComboBox/dropdown_arrow.svg" xy="83,3">
       <relation target="" sidePair="right-right"/>
     </image>
   </displayList>

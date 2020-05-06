@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="538,433" overflow="scroll" bgColorEnabled="true" bgColor="#383838">
-  <controller name="global_path" pages="0,,1," selected="0"/>
+  <controller name="global_path" pages="0,,1," selected="1"/>
   <controller name="global_code_path" pages="0,,1," selected="0"/>
   <controller name="global_atlas_setting" pages="0,,1," selected="0"/>
-  <controller name="support_atlas" pages="0,,1," selected="0"/>
+  <controller name="support_atlas" pages="0,,1," selected="1"/>
   <displayList>
     <component id="n131_x392" name="pack_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,6" size="512,20" group="n69" touchable="false">
       <Button title="打包"/>
     </component>
-    <text id="n29" name="n29" xy="11,36" size="100,19" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="文件名"/>
-    <text id="n170_x392" name="n170" xy="303,36" size="197,19" group="n142_x392" fontSize="12" color="#bdbdbd" autoSize="none" text="（如果留空，则使用包名称）"/>
-    <text id="n191_oakd" name="n191" xy="11,65" size="100,19" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
-    <text id="n195_as27" name="n195" xy="11,93" size="100,19" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支发布路径"/>
+    <component id="n132_x392" name="pathOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="115,120" size="96,18" group="n142_x392">
+      <Button checked="true" title="使用全局配置" controller="global_path" page="1"/>
+    </component>
+    <component id="n133_x392" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,64" size="313,20" group="n142_x392" touchable="false" grayed="true" controller="noBorder,0,showClear,0">
+      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <component id="n134_x392" name="browse1" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="463,61" size="36,25" group="n142_x392" touchable="false" grayed="true">
+      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="..."/>
+    </component>
+    <text id="n29" name="n29" xy="11,36" size="100,18" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="文件名"/>
     <component id="n30" name="fileName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,36" size="186,20" group="n142_x392" controller="noBorder,0,showClear,0"/>
-    <component id="n133_x392" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,64" size="313,20" group="n142_x392" controller="noBorder,0,showClear,0">
-      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
-    </component>
-    <component id="n134_x392" name="browse1" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="463,61" size="36,25" group="n142_x392">
-      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
-      <Button title="..."/>
-    </component>
-    <component id="n194_as27" name="branchPath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,92" size="313,20" group="n142_x392" controller="noBorder,0,showClear,0">
-      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
-    </component>
-    <component id="n198_95yy" name="browse3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="463,90" size="36,25" group="n142_x392">
-      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
-      <Button title="..."/>
-    </component>
-    <component id="n132_x392" name="pathOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="115,120" size="95,18" group="n142_x392">
-      <Button title="使用全局配置" controller="global_path" page="1"/>
-    </component>
-    <component id="n177_x392" name="n177" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,65" group="n142_x392" tooltips="支持的变量：全局路径 - {global_path} 文件名 - {publish_file_name}"/>
-    <component id="n197_as27" name="n197" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,94" group="n142_x392" tooltips="支持的变量：全局路径 - {global_path} 文件名 - {publish_file_name}"/>
-    <component id="n174_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="247,120" size="83,19" group="n178_x392" touchable="false" grayed="true">
+    <text id="n170_x392" name="n170" xy="303,36" size="197,18" group="n142_x392" fontSize="12" color="#bdbdbd" autoSize="none" text="（如果留空，则使用包名称）"/>
+    <component id="n177_x392" name="n177" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,65" group="n142_x392" tooltips="支持的变量：&#xD;全局路径 - {global_path} &#xD;文件名 - {publish_file_name}&#xD;"/>
+    <component id="n174_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="247,120" size="84,19" group="n178_x392" touchable="false" grayed="true">
       <Button title="两个压缩包"/>
     </component>
     <group id="n178_x392" name="supportPackageCount" xy="247,120" size="84,19" group="n142_x392" advanced="true"/>
+    <text id="n191_oakd" name="n191" xy="11,65" size="100,18" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
+    <component id="n194_as27" name="branchPath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,92" size="313,20" group="n142_x392" touchable="false" grayed="true" controller="noBorder,0,showClear,0">
+      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <text id="n195_as27" name="n195" xy="11,93" size="100,18" group="n142_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支发布路径"/>
+    <component id="n197_as27" name="n197" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,94" group="n142_x392" tooltips="支持的变量：&#xD;全局路径 - {global_path} &#xD;文件名 - {publish_file_name}&#xD;"/>
+    <component id="n198_95yy" name="browse3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="463,90" size="36,25" group="n142_x392" touchable="false" grayed="true">
+      <gearLook controller="global_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="..."/>
+    </component>
     <group id="n142_x392" name="pack" xy="11,36" size="489,103" group="n69" advanced="true"/>
     <component id="n143_x392" name="atlas_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,149" size="512,20" group="n69" touchable="false">
       <gearDisplay controller="support_atlas" pages="1"/>
       <Button title="纹理集"/>
     </component>
-    <text id="n187_oakd" name="n187" xy="25,209" size="100,19" group="n153_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
-    <text id="n188_oakd" name="n188" xy="25,237" size="100,19" group="n153_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
     <component id="n145_x392" name="maxAtlasSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="127,207" group="n153_x392">
       <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
       <ComboBox title="2048" visibleItemCount="10">
@@ -54,9 +52,20 @@
         <item title="8192" value="8192"/>
       </ComboBox>
     </component>
-    <component id="n146_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="248,209" size="107,19" group="n153_x392">
+    <component id="n146_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="248,209" size="108,19" group="n153_x392">
       <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
       <Button checked="true" title="超出后自动分页"/>
+    </component>
+    <component id="n147_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="248,237" size="60,19" group="n153_x392">
+      <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
+      <Button title="正方形"/>
+    </component>
+    <component id="n148_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="346,237" size="72,19" group="n153_x392">
+      <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
+      <Button title="允许旋转"/>
+    </component>
+    <component id="n149_x392" name="extractAlpha" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,265" size="101,19" group="n153_x392" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
+      <Button title="分离Alpha通道"/>
     </component>
     <component id="n150_x392" name="sizeOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="127,236" group="n153_x392">
       <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
@@ -66,19 +75,9 @@
         <item title="不限制" value="npot"/>
       </ComboBox>
     </component>
-    <component id="n147_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="248,237" size="59,19" group="n153_x392">
-      <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
-      <Button title="正方形"/>
-    </component>
-    <component id="n148_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="346,237" size="71,19" group="n153_x392">
-      <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
-      <Button title="允许旋转"/>
-    </component>
-    <component id="n149_x392" name="extractAlpha" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,265" size="104,19" group="n153_x392" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。
-FairyGUI提供了专门的着色器混合。">
-      <Button title="分离Alpha通道"/>
-    </component>
-    <component id="n190_oakd" name="atlasOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,181" size="95,19" group="n153_x392">
+    <text id="n187_oakd" name="n187" xy="25,209" size="100,18" group="n153_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
+    <text id="n188_oakd" name="n188" xy="25,237" size="100,18" group="n153_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
+    <component id="n190_oakd" name="atlasOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,181" size="96,19" group="n153_x392">
       <Button title="使用全局配置" controller="global_atlas_setting" page="1"/>
     </component>
     <component id="n193_nb4z" name="openDefinition" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="396,179" size="116,25" group="n153_x392">
@@ -87,35 +86,35 @@ FairyGUI提供了专门的着色器混合。">
     <group id="n153_x392" name="atlas" xy="11,179" size="501,105" group="n69" advanced="true">
       <gearDisplay controller="support_atlas" pages="1"/>
     </group>
-    <component id="n154_x392" name="code_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,149" size="512,20" group="n69" touchable="false">
+    <component id="n154_x392" name="code_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,294" size="512,20" group="n69" touchable="false">
       <Button title="发布代码"/>
     </component>
-    <component id="n168_x392" name="genCode" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="13,179" size="107,19" group="n169_x392">
-      <Button title="为本包生成代码"/>
-    </component>
-    <text id="n155_x392" name="t0" xy="11,208" size="100,19" group="n169_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="发布路径"/>
-    <component id="n156_x392" name="codePath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,208" size="360,20" group="n169_x392" controller="noBorder,0,showClear,0">
+    <text id="n155_x392" name="t0" xy="11,353" size="100,18" group="n169_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="发布路径"/>
+    <component id="n156_x392" name="codePath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,353" size="360,20" group="n169_x392" controller="noBorder,0,showClear,0">
       <gearLook controller="global_code_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
     </component>
-    <component id="n163_x392" name="browse2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="475,205" size="36,25" group="n169_x392">
+    <component id="n163_x392" name="browse2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="475,350" size="36,25" group="n169_x392">
       <gearLook controller="global_code_path" pages="1" values="1,0,1,0" default="1,0,0,1"/>
       <Button title="..."/>
     </component>
-    <component id="n192_qilr" name="codePathOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="114,235" size="95,18" group="n169_x392">
+    <component id="n168_x392" name="genCode" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="13,324" size="108,19" group="n169_x392">
+      <Button title="为本包生成代码"/>
+    </component>
+    <component id="n192_qilr" name="codePathOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="114,380" size="96,18" group="n169_x392">
       <Button title="使用全局配置" controller="global_code_path" page="1"/>
     </component>
-    <group id="n169_x392" name="code" xy="11,179" size="500,74" group="n69" advanced="true"/>
-    <component id="n179_oakd" name="exclude_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,263" size="512,20" group="n69" touchable="false">
+    <group id="n169_x392" name="code" xy="11,324" size="500,74" group="n69" advanced="true"/>
+    <component id="n179_oakd" name="exclude_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,408" size="512,20" group="n69" touchable="false">
       <Button title="排除资源"/>
     </component>
-    <graph id="n180_oakd" name="n180" xy="14,340" size="437,201" group="n182_oakd" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
-    <list id="n181_oakd" name="excludedList" xy="15,341" size="435,198" group="n182_oakd" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiqgdeiu9q"/>
-    <group id="n182_oakd" name="n182" xy="14,340" size="437,201" group="n185_oakd"/>
-    <text id="n183_oakd" name="n183" xy="14,293" size="476,36" group="n185_oakd" fontSize="12" color="#bdbdbd" autoSize="none" text="拖入要在发布中排除的资源（即使该资源被引用或者设置为导出，都不会包含在最终发布包中）"/>
-    <component id="n184_oakd" name="removeExcluded" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="461,342" size="23,23" group="n185_oakd" tooltips="删除项目">
+    <graph id="n180_oakd" name="n180" xy="14,485" size="437,201" group="n182_oakd" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n181_oakd" name="excludedList" xy="15,486" size="435,198" group="n182_oakd" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiqgdeiu9q"/>
+    <group id="n182_oakd" name="n182" xy="14,485" size="437,201" group="n185_oakd"/>
+    <text id="n183_oakd" name="n183" xy="14,438" size="476,36" group="n185_oakd" fontSize="12" color="#bdbdbd" autoSize="none" text="拖入要在发布中排除的资源（即使该资源被引用或者设置为导出，都不会包含在最终发布包中）"/>
+    <component id="n184_oakd" name="removeExcluded" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="461,487" size="23,23" group="n185_oakd" tooltips="删除项目">
       <Button icon="ui://2pshu6oie4cx7iuea"/>
     </component>
-    <group id="n185_oakd" name="exclude" xy="14,293" size="476,248" group="n69" advanced="true"/>
-    <group id="n69" name="n69" xy="5,6" size="512,535" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true"/>
+    <group id="n185_oakd" name="exclude" xy="14,438" size="476,248" group="n69" advanced="true"/>
+    <group id="n69" name="n69" xy="5,6" size="512,680" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true"/>
   </displayList>
 </component>

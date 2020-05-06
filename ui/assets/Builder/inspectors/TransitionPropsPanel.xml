@@ -2,28 +2,11 @@
 <component size="270,174" bgColorEnabled="true" bgColor="#383838">
   <controller name="c2" pages="0,,1," selected="0"/>
   <displayList>
-    <text id="n84_kbvs" name="n84" xy="5,5" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧频"/>
-    <component id="n85_kbvs" name="frameRate" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,4" size="93,20">
-      <ComboBox title="24" visibleItemCount="10">
-        <item title="24" value="24"/>
-        <item title="30" value="30"/>
-        <item title="60" value="60"/>
-      </ComboBox>
-    </component>
     <component id="n70" name="ignoreDisplayController" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="19,33" size="132,19">
       <Button title="忽略显示控制器影响"/>
     </component>
     <component id="n71" name="n71" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="169,35" tooltips="勾选后，动效开始时所有参与此动效的元件不受显示控制器的控制，也就是不会被显示控制器隐藏。&#xA;动效结束后恢复控制。">
       <relation target="n70" sidePair="left-right"/>
-    </component>
-    <component id="n79" name="autoStop" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,56" size="168,19">
-      <Button title="容器组件不可见时自动停止"/>
-    </component>
-    <component id="n81" name="autoStopAtEnd" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="36,79" size="145,20">
-      <ComboBox title="当前位置" visibleItemCount="10">
-        <item title="当前位置" value="false"/>
-        <item title="结束位置" value="true"/>
-      </ComboBox>
     </component>
     <component id="n72" name="autoPlay" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="17,104" size="72,19">
       <Button title="自动播放" controller="c2" page="1"/>
@@ -40,6 +23,23 @@
     </component>
     <component id="n86_kbvs" name="n86" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="169,126" tooltips="(-1表示无限次数)">
       <relation target="n70" sidePair="left-right"/>
+    </component>
+    <component id="n79" name="autoStop" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="19,56" size="168,19">
+      <Button title="容器组件不可见时自动停止"/>
+    </component>
+    <component id="n81" name="autoStopAtEnd" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="36,79" size="145,20">
+      <ComboBox title="当前位置" visibleItemCount="10">
+        <item title="当前位置" value="false"/>
+        <item title="结束位置" value="true"/>
+      </ComboBox>
+    </component>
+    <text id="n84_kbvs" name="n84" xy="5,5" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧频"/>
+    <component id="n85_kbvs" name="frameRate" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,4" size="93,20">
+      <ComboBox title="24" visibleItemCount="10">
+        <item title="24" value="24"/>
+        <item title="30" value="30"/>
+        <item title="60" value="60"/>
+      </ComboBox>
     </component>
   </displayList>
 </component>

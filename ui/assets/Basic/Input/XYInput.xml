@@ -17,7 +17,7 @@
     <text id="n5_wqe7" name="n5" xy="1,1" size="14,18" fontSize="11" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" text="X">
       <gearText controller="xy" pages="0,1,2,3" values="X|Y|W|H"/>
     </text>
-    <text id="n1" name="title" xy="18,1" size="40,18" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="" input="true">
+    <text id="n1" name="title" xy="18,1" size="40,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

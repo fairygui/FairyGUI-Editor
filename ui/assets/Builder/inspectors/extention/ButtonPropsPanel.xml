@@ -2,14 +2,14 @@
 <component size="270,282" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n50" name="n50" xy="4,5" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="状态"/>
-    <text id="n52" name="n52" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
-    <text id="n54" name="n54" xy="4,67" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
     <text id="n83" name="n83" xy="4,101" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题颜色"/>
     <text id="n84" name="n84" xy="4,127" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n59" name="n59" xy="4,153" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <text id="n61" name="n61" xy="4,179" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
     <text id="n85" name="n85" xy="4,205" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="点击声音"/>
     <text id="n86" name="n86" xy="4,231" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="音量"/>
+    <text id="n52" name="n52" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题"/>
+    <text id="n54" name="n54" xy="4,67" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时标题"/>
+    <text id="n59" name="n59" xy="4,153" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <text id="n61" name="n61" xy="4,179" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="选中时图标"/>
     <text id="n63" name="n63" xy="4,256" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="连接"/>
     <component id="n51" name="selected" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="86,4" size="71,19">
       <Button title="选中"/>
@@ -18,6 +18,8 @@
     <component id="n55" name="selectedTitle" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="86,65" size="178,30" controller="showEditButton,1"/>
     <component id="n56" name="titleColorSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,100" size="20,19"/>
     <component id="n57" name="titleColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="109,100"/>
+    <component id="n60" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,151" size="178,20"/>
+    <component id="n62" name="selectedIcon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,177" size="178,20"/>
     <component id="n79" name="titleFontSizeSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,127" size="20,19"/>
     <component id="n80" name="titleFontSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="109,125" size="34,20" group="n82">
       <Label title="12"/>
@@ -26,14 +28,12 @@
       <Button icon="ui://2pshu6oipi83u6x"/>
     </component>
     <group id="n82" name="n82" xy="109,125" size="54,20"/>
-    <component id="n60" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,151" size="178,20"/>
-    <component id="n62" name="selectedIcon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,177" size="178,20"/>
-    <component id="n71" name="soundSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,204" size="20,19"/>
-    <component id="n68" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="107,203" size="157,20"/>
-    <component id="n72" name="soundVolumeSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,229" size="20,19"/>
     <component id="n70" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="109,229" size="50,20">
       <Label title="100"/>
     </component>
+    <component id="n71" name="soundSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,204" size="20,19"/>
+    <component id="n68" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="107,203" size="157,20"/>
+    <component id="n72" name="soundVolumeSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="87,229" size="20,19"/>
     <component id="n64" name="controller" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="86,254" size="84,20"/>
     <component id="n65" name="page" src="zn3piude" fileName="basic/ControllerPageInput.xml" xy="174,254" size="93,20"/>
   </displayList>

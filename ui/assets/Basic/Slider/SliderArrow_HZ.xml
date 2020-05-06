@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="16,16" extention="Button">
+<component size="12,12" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n3_kbvs" name="n3" xy="2,2" size="12,12" type="eclipse" lineColor="#ff292828" fillColor="#ff454545"/>
+    <graph id="n3_kbvs" name="n3" xy="0,0" size="12,12" type="eclipse" lineColor="#ff292828" fillColor="#ff454545"/>
   </displayList>
   <Button/>
 </component>

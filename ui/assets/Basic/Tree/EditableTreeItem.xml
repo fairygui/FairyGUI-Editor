@@ -17,17 +17,17 @@
       <gearDisplay controller="editing" pages="0"/>
       <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd,#000000|#ffffff,#000000|#bdbdbd,#000000|#ffffff,#000000"/>
       <relation target="" sidePair="width-width,height-height"/>
-      <relation target="n6" sidePair="leftext-right"/>
+      <relation target="n6" sidePair="left-right"/>
     </text>
     <graph id="n3" name="indent" xy="0,1" size="16,20"/>
-    <loader id="n6" name="icon" xy="30,1" size="20,20" url="ui://nk9ejx23evbu7iuff" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+    <loader id="n6" name="icon" xy="30,1" size="20,20" url="ui://nk9ejx23evbu7iuff" align="center" vAlign="middle">
       <relation target="n3" sidePair="left-right"/>
     </loader>
     <image id="n8" name="n8" src="gcza1r" fileName="Input/input_bg.png" xy="50,0" size="38,22" group="n9">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
     </image>
-    <text id="n7" name="input" xy="51,1" size="36,20" group="n9" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="" input="true">
+    <text id="n7" name="input" xy="51,1" size="36,20" group="n9" input="true" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
       <relation target="" sidePair="width-width"/>
       <relation target="n6" sidePair="leftext-right"/>
     </text>

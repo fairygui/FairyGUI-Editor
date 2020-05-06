@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="113,16" extention="Slider">
+<component size="113,12" extention="Slider">
   <displayList>
-    <graph id="n2" name="bg" xy="0,8" size="112,2" type="rect" lineSize="0" fillColor="#ff555555">
+    <graph id="n2" name="bg" xy="0,6" size="112,2" type="rect" lineSize="0" fillColor="#ff555555">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <graph id="n3_kbvs" name="bar" xy="0,8" size="112,2">
+    <graph id="n3_kbvs" name="bar" xy="0,6" size="112,2">
       <relation target="" sidePair="width-width"/>
     </graph>
-    <component id="n1" name="grip" src="gcza2f" fileName="Slider/SliderArrow_HZ.xml" xy="100,0">
+    <component id="n1" name="grip" src="gcza2f" fileName="Slider/SliderArrow_HZ.xml" xy="105,1" size="10,10">
       <relation target="n3_kbvs" sidePair="right-right"/>
     </component>
   </displayList>

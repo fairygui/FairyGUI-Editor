@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,66" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n56" name="n56" xy="4,8" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="BlendMode"/>
-    <text id="n59" name="n59" xy="4,34" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="滤镜"/>
+    <text id="n56" name="n56" xy="4,10" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="BlendMode"/>
     <component id="n57" name="blendMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,7" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n58" name="filter" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,33" size="120,20">
       <ComboBox visibleItemCount="10"/>
     </component>
+    <text id="n59" name="n59" xy="4,36" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="滤镜"/>
     <component id="n73_a9x3" name="filterEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="213,34" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>

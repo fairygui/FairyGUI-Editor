@@ -2,11 +2,9 @@
 <component size="145,14" extention="ProgressBar">
   <displayList>
     <image id="n0" name="n0" src="gcza1o" fileName="ProgressBar/p2.png" xy="0,0" size="145,15" aspect="true">
-      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="width-width"/>
     </image>
-    <image id="n1" name="bar" src="gcza1n" fileName="ProgressBar/p3.png" xy="1,1" size="142,12">
-      <relation target="" sidePair="height-height"/>
-    </image>
+    <image id="n1" name="bar" src="gcza1n" fileName="ProgressBar/p3.png" xy="1,1" size="142,12"/>
   </displayList>
   <ProgressBar/>
 </component>

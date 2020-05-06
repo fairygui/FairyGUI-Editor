@@ -7,25 +7,7 @@
       <Label title="控制器属性"/>
     </component>
     <text id="n15" name="n15" xy="9,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <text id="n39" name="n39" xy="224,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注名"/>
-    <text id="n115_omf5" name="n115" xy="409,32" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="首页"/>
     <component id="n16" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="71,31" size="147,20" controller="noBorder,0,showClear,0"/>
-    <component id="n40" name="alias" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="286,31" size="117,20" controller="noBorder,0,showClear,0"/>
-    <component id="n118_omf5" name="homePage_var" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,32" size="105,20">
-      <gearDisplay controller="homepage" pages="3"/>
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n116_omf5" name="homePageType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="478,32" size="120,20">
-      <ComboBox title="第一页" visibleItemCount="10" selectionController="homepage">
-        <item title="第一页" value="default"/>
-        <item title="指定页面" value="specific"/>
-        <item title="匹配分支名称" value="branch"/>
-        <item title="匹配变量名称" value="variable"/>
-      </ComboBox>
-    </component>
-    <component id="n117_omf5" name="homePage" src="zn3piude" fileName="basic/ControllerPageInput.xml" xy="601,32" size="105,20">
-      <gearDisplay controller="homepage" pages="1"/>
-    </component>
     <graph id="n20" name="n20" xy="10,125" size="380,359" group="n65_dp9p" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
     <list id="n19" name="pageList" xy="11,145" size="378,337" group="n65_dp9p" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n3u" autoClearItems="true">
       <item/>
@@ -39,6 +21,8 @@
     <component id="n36" name="autoRadioGroupDepth" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="151,61" size="156,19" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xD;选中状态的按钮都会被自动调整到其他按钮的最上面">
       <Button title="自动调整单选组对象层次"/>
     </component>
+    <text id="n39" name="n39" xy="224,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注名"/>
+    <component id="n40" name="alias" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="286,31" size="117,20" controller="noBorder,0,showClear,0"/>
     <component id="n41" name="exported" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="11,61" size="108,19" tooltips="勾选后，可以在组件的附加属性页面设置此控制器的活动页面。属性标题为别名或者控制器名称。">
       <Button title="导出为组件属性"/>
     </component>
@@ -88,6 +72,22 @@
       <Button icon="ui://2pshu6oioskoixicub"/>
     </component>
     <group id="n114_omf5" name="n114" xy="11,95" size="204,22"/>
+    <text id="n115_omf5" name="n115" xy="409,32" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="首页"/>
+    <component id="n116_omf5" name="homePageType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="478,32" size="120,20">
+      <ComboBox title="第一页" visibleItemCount="10" selectionController="homepage">
+        <item title="第一页" value="default"/>
+        <item title="指定页面" value="specific"/>
+        <item title="匹配分支名称" value="branch"/>
+        <item title="匹配变量名称" value="variable"/>
+      </ComboBox>
+    </component>
+    <component id="n117_omf5" name="homePage" src="zn3piude" fileName="basic/ControllerPageInput.xml" xy="601,32" size="105,20">
+      <gearDisplay controller="homepage" pages="1"/>
+    </component>
+    <component id="n118_omf5" name="homePage_var" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,32" size="105,20">
+      <gearDisplay controller="homepage" pages="3"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
     <text id="n52_ncy4" name="n52" xy="398,96" size="38,18" group="n119_omf5" fontSize="12" color="#bdbdbd" autoSize="none" text="动作"/>
     <component id="n67_dp9p" name="addAction" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="437,94" size="22,22" group="n119_omf5">
       <Button icon="ui://2pshu6oie4cx7iue7"/>

@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"output": "bin/FairyGUI-PlugIn-demo.swc",
+		"source-path": [
+			"src"
+		],
+		"external-library-path": [
+			"libs/FairyGUI-as3.swc"
+		],
+		"include-sources": [
+			"src"
+		]
+	},
+	"type": "lib"
+}
