@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,248" bgColorEnabled="true" bgColor="#383838">
+  <controller name="grayed" pages="0,,1," selected="0">
+    <action type="change_page" fromPage="" toPage="" objectId="n26" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n27" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n28" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n29" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n31" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n32" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n49" controller="grayed" targetPage="~1"/>
+    <action type="change_page" fromPage="" toPage="" objectId="n98_ii6t" controller="grayed" targetPage="~1"/>
+  </controller>
+  <displayList>
+    <component id="n26" name="text" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,0" size="28,24" tooltips="文本">
+      <Button icon="ui://2pshu6oiau3n1u"/>
+    </component>
+    <component id="n27" name="graph" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,81" size="28,24" tooltips="图形">
+      <Button icon="ui://2pshu6oiau3n21"/>
+    </component>
+    <component id="n28" name="list" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,108" size="28,24" tooltips="列表">
+      <Button icon="ui://2pshu6oiau3n25"/>
+    </component>
+    <component id="n29" name="loader" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,135" size="28,24" tooltips="装载器">
+      <Button icon="ui://2pshu6oiau3n17"/>
+    </component>
+    <image id="n30" name="n30" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="4,190" aspect="true"/>
+    <component id="n31" name="group" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,195" size="28,24" tooltips="组合">
+      <Button icon="ui://2pshu6oiau3n1h"/>
+    </component>
+    <component id="n32" name="ungroup" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,222" size="28,24" tooltips="取消组合">
+      <Button icon="ui://2pshu6oinejciud0"/>
+    </component>
+    <component id="n49" name="richtext" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,27" size="28,24" tooltips="富文本">
+      <Button icon="ui://2pshu6oiau3n43"/>
+    </component>
+    <component id="n98_ii6t" name="inputtext" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,54" size="28,24" tooltips="输入文本">
+      <Button icon="ui://2pshu6oiyy9iiucj"/>
+    </component>
+    <component id="n99_w1my" name="loader3D" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="1,162" size="28,24" tooltips="3D内容装载器">
+      <Button icon="ui://2pshu6oijgx6ixicwr"/>
+    </component>
+  </displayList>
+</component>

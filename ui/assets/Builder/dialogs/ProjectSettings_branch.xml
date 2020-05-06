@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <graph id="n132_wxof" name="n132" xy="8,89" size="407,319" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n133_wxof" name="branches" xy="9,110" size="405,297" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiwxofixicur" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n134_wxof" name="addBranch" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="12,61" size="22,22" group="n138_wxof" tooltips="新建分支">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n135_wxof" name="removeBranch" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="68,61" size="22,22" group="n138_wxof" tooltips="移除分支">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n146_wxof" name="editBranch" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="40,61" size="22,22" group="n138_wxof" tooltips="重命名分支">
+      <Button icon="ui://2pshu6oidp9p7iufi"/>
+    </component>
+    <group id="n138_wxof" name="n138" xy="12,61" size="78,22"/>
+    <image id="n139_wxof" name="n139" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="8,89" size="407,21" group="n143_wxof"/>
+    <image id="n140_wxof" name="n140" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="169,90" size="1,19" group="n143_wxof"/>
+    <text id="n141_wxof" name="n141" xy="13,91" size="152,18" group="n143_wxof" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <group id="n143_wxof" name="n143" xy="8,89" size="407,21"/>
+    <text id="n145_wxof" name="n145" xy="4,4" size="434,54" fontSize="12" color="#bdbdbd" autoSize="none" text="在这里创建项目分支。项目分支创建完成后，先在主界面工具栏上切换到该分支，然后在库视图里，右键点击包，在菜单中选择创建分支。"/>
+  </displayList>
+</component>

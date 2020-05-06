@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="400,20" extention="Button">
+<component size="400,20" extention="Button" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <graph id="n0" name="n0" xy="0,19" size="400,1" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#ff555555">
+    <image id="n2_7s7j" name="n2" src="b44f1nry31e" fileName="timeline/timeline_frame.png" xy="0,0" size="400,20">
       <relation target="" sidePair="width-width"/>
-    </graph>
-    <component id="n1" name="range" src="mduxu76" xy="145,0"/>
+    </image>
+    <component id="n1" name="range" src="mduxu76" fileName="timeline/TimelineRange.xml" xy="0,-1" size="100,21" touchable="false"/>
   </displayList>
   <Button mode="Radio"/>
 </component>

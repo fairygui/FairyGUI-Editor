@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="20,20" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="modified" exported="true" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n3_j5yv" name="n3" src="j5yv93" fileName="Tab/images/dot3.png" xy="6,6" size="8,8">

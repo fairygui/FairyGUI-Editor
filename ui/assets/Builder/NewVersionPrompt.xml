@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="694,33" extention="Label">
-  <controller name="c1" pages="0,,1,,2," selected="2"/>
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
   <displayList>
     <graph id="n94_ah2b" name="n94" xy="0,0" size="694,33" type="rect" lineColor="#ffcccc66" fillColor="#ffffff99"/>
-    <text id="n95_ah2b" name="title" xy="6,9" size="681,17" fontSize="13" align="center" autoSize="height" text="新版本{0}可用，是否立刻更新？  ">
+    <text id="n95_ah2b" name="title" xy="6,9" size="464,20" fontSize="13" align="center" autoSize="height" text="新版本{0}可用，是否立刻更新？  ">
       <gearSize controller="c1" pages="2" values="681,17,1,1" default="464,17,1,1"/>
     </text>
-    <component id="n97_ah2b" name="upgrade" src="ah2b83" pkg="nk9ejx23" xy="625,4" size="62,25" group="n100_peah">
+    <component id="n97_ah2b" name="upgrade" src="ah2b83" fileName="Button/Button_light.xml" pkg="nk9ejx23" xy="625,4" size="62,25" group="n100_peah">
       <gearText controller="c1" pages="1" values="立即重启" default="立即更新"/>
       <Button title="立即更新" titleColor="#993300"/>
     </component>
-    <component id="n98_ah2b" name="later" src="ah2b83" pkg="nk9ejx23" xy="555,4" size="62,25" group="n100_peah">
+    <component id="n98_ah2b" name="later" src="ah2b83" fileName="Button/Button_light.xml" pkg="nk9ejx23" xy="555,4" size="62,25" group="n100_peah">
       <gearText controller="c1" pages="1" values="稍后重启" default="稍后通知"/>
       <Button title="稍后通知"/>
     </component>
-    <component id="n99_fm2z" name="notes" src="ah2b83" pkg="nk9ejx23" xy="483,4" size="62,25" group="n100_peah">
+    <component id="n99_fm2z" name="notes" src="ah2b83" fileName="Button/Button_light.xml" pkg="nk9ejx23" xy="483,4" size="62,25" group="n100_peah">
       <Button title="发行说明"/>
     </component>
     <group id="n100_peah" name="n100" xy="483,4" size="204,25" advanced="true">

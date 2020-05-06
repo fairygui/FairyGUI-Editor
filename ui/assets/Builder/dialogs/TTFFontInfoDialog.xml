@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="417,192">
+  <controller name="ttf" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="417,192">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="字体信息"/>
+    </component>
+    <text id="n5" name="n5" xy="22,39" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="系列"/>
+    <component id="n6" name="family" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="105,38" size="272,20">
+      <gearLook controller="ttf" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <text id="n18" name="n18" xy="23,68" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="采样字体大小"/>
+    <component id="n19" name="samplePointSize" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="106,68" size="54,20">
+      <gearLook controller="ttf" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <text id="n3" name="n3" xy="23,98" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="渲染方式"/>
+    <component id="n29" name="renderMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="106,98" size="150,20">
+      <ComboBox title="Smooth" visibleItemCount="10">
+        <item title="Smooth" value="smooth"/>
+        <item title="Hinted Smooth" value="smooth_hinted"/>
+        <item title="Hinted Raster" value="raster_hinted"/>
+        <item title="SDFAA" value="sdfaa"/>
+      </ComboBox>
+    </component>
+    <component id="n9" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="95,139">
+      <Button title="保存"/>
+    </component>
+    <component id="n10" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="236,139">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

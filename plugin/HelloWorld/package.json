@@ -1,0 +1,11 @@
+{
+	"name": "com.fairygui.plugin.helloworld",
+	"displayName": "HelloWorld",
+	"description": "Get start with this example",
+	"version": "0.0.1",
+	"author": {
+		"name": "FairyGUI.com"
+	},
+	"icon": "",
+	"main": "main.lua"
+}

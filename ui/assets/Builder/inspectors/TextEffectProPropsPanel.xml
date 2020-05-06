@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,182" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n124_fc2z" name="n124" xy="65,4" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="扩张"/>
+    <text id="n149_13hgb" name="n149" xy="65,29" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="粗细"/>
+    <text id="n158_13hgb" name="n158" xy="65,55" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="柔和"/>
+    <text id="n160_13hgb" name="n160" xy="65,81" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <text id="n150_13hgb" name="n150" xy="65,107" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="偏移"/>
+    <text id="n164_13hgb" name="n164" xy="65,133" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="柔和"/>
+    <text id="n162_13hgb" name="n162" xy="65,159" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n117_fc2z" name="faceDilate" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,4" size="62,20">
+      <Label title="0"/>
+    </component>
+    <component id="n151_13hgb" name="stroke" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="4,28" size="47,19">
+      <Button title="描边"/>
+    </component>
+    <component id="n152_13hgb" name="strokeSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,29" size="61,20">
+      <Label title="1.000"/>
+    </component>
+    <component id="n159_13hgb" name="outlineSoftness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,55" size="61,20">
+      <Label title="1"/>
+    </component>
+    <component id="n153_13hgb" name="strokeColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="131,82"/>
+    <component id="n154_13hgb" name="shadow" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="4,108" size="47,19">
+      <Button title="投影"/>
+    </component>
+    <component id="n155_13hgb" name="shadowX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="131,106" size="65,20">
+      <Label title="1"/>
+    </component>
+    <component id="n156_13hgb" name="shadowY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="200,106" size="65,20" controller="xy,1">
+      <Label title="1"/>
+    </component>
+    <component id="n165_13hgb" name="underlaySoftness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,133" size="61,20">
+      <Label title="1"/>
+    </component>
+    <component id="n161_13hgb" name="shadowColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="131,161"/>
+  </displayList>
+</component>

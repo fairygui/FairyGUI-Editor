@@ -6,14 +6,14 @@
     <image id="n9" name="n9" src="gcza1r" fileName="Input/input_bg.png" pkg="nk9ejx23" xy="0,0" size="170,21">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <loader id="n10" name="icon" xy="3,3" size="16,16" align="center" vAlign="middle">
+    <loader id="n10" name="icon" xy="3,3" size="16,16" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
       <gearDisplay controller="c1" pages="0"/>
     </loader>
-    <text id="n11" name="title" xy="21,2" size="125,18" fontSize="12" color="#d19036" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n11" name="title" xy="21,1" size="125,19" fontSize="12" color="#d19036" vAlign="middle" autoSize="none" singleLine="true" text="">
       <gearDisplay controller="c1" pages="0"/>
       <relation target="" sidePair="width-width"/>
     </text>
-    <text id="n16_gmju" name="n16" xy="3,2" size="26,18" fontSize="12" color="#959595" text="(无)">
+    <text id="n16_gmju" name="n16" xy="3,1" size="25,19" fontSize="12" color="#959595" text="(无)">
       <gearDisplay controller="c1" pages="1"/>
     </text>
     <component id="n17_pxtp" name="clear" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="149,1" size="20,20" tooltips="删除关联">

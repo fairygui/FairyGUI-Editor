@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,102" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n149_13hgb" name="n149" xy="65,3" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="粗细"/>
+    <text id="n150_13hgb" name="n150" xy="65,28" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <text id="n151_13hgb" name="n151" xy="65,81" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <component id="n152_13hgb" name="stroke" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="4,2" size="47,19">
+      <Button title="描边"/>
+    </component>
+    <component id="n153_13hgb" name="strokeSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="131,3" size="62,20">
+      <Label title="1.000"/>
+    </component>
+    <component id="n154_13hgb" name="strokeColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="131,29"/>
+    <component id="n155_13hgb" name="shadow" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="4,55" size="47,19">
+      <Button title="投影"/>
+    </component>
+    <component id="n156_13hgb" name="shadowColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="131,83"/>
+    <text id="n157_13hgb" name="n157" xy="65,55" size="62,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="偏移"/>
+    <component id="n158_13hgb" name="shadowX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="131,54" size="65,20">
+      <Label title="1"/>
+    </component>
+    <component id="n159_13hgb" name="shadowY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="201,54" size="65,20" controller="xy,1">
+      <Label title="1"/>
+    </component>
+  </displayList>
+</component>

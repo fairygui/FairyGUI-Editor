@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <graph id="n111_ntzr" name="n111" xy="6,34" size="427,319" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n112_ntzr" name="langs" xy="7,55" size="425,297" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6ointzra7iuiw" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n114_ntzr" name="addLang" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="10,6" size="22,22" group="n116_ntzr">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n115_ntzr" name="removeLang" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="40,6" size="22,22" group="n116_ntzr">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n120_ntzr" name="newLangFile" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="70,6" size="22,22" group="n116_ntzr" tooltips="生成新的语言文件">
+      <Button icon="ui://2pshu6ointzra7iuit"/>
+    </component>
+    <component id="n121_ntzr" name="syncLangFiles" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="100,6" size="22,22" group="n116_ntzr" tooltips="更新所有语言文件">
+      <Button icon="ui://2pshu6oiih9xiua2"/>
+    </component>
+    <group id="n116_ntzr" name="n116" xy="10,6" size="112,22"/>
+    <image id="n127_mwte" name="n127" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="6,34" size="427,21" group="n130_mwte"/>
+    <image id="n128_mwte" name="n128" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="145,35" size="1,19" group="n130_mwte"/>
+    <text id="n129_mwte" name="n129" xy="11,36" size="132,18" group="n130_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n131_vbd2" name="n131" xy="148,36" size="281,19" group="n130_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="文件"/>
+    <group id="n130_mwte" name="n130" xy="6,34" size="427,21"/>
+  </displayList>
+</component>

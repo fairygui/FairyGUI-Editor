@@ -15,7 +15,9 @@
     <graph id="n4" name="n4" xy="0,20" size="390,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
       <relation target="" sidePair="width-width,top-bottom"/>
     </graph>
-    <component id="n14_vbd2" name="path" src="au3n6m" fileName="Input/ListItemInput.xml" pkg="nk9ejx23" xy="140,0" size="247,20"/>
+    <component id="n14_vbd2" name="path" src="au3n6m" fileName="Input/ListItemInput.xml" pkg="nk9ejx23" xy="140,0" size="247,20">
+      <relation target="" sidePair="rightext-right"/>
+    </component>
   </displayList>
   <Button mode="Radio"/>
 </component>

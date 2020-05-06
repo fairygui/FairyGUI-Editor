@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="au3n4v" fileName="List/images/listitem_hover.png" xy="0,0" size="120,22">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1" name="n1" src="au3n50" fileName="List/images/listitem_selected.png" xy="0,0" size="120,22" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2" name="title" src="au3n6m" fileName="Input/ListItemInput.xml" xy="21,1" size="76,20">
+      <gearColor controller="button" pages="1,3,4,5" values="#ffffff|#ffffff|#333333|#333333" default="#bdbdbd"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n3_d8p0" name="icon" xy="0,1" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n4_o3nq" name="sign" xy="14,15" size="6,6"/>
+    <component id="n5_rj5h" name="cb" src="xualt" fileName="Button/Checkbox.xml" xy="101,1" size="18,19">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

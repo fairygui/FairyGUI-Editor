@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,19" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n41_7s7j" name="t0" xy="-17,0" size="43,19" fontSize="10" color="#b8b8b8" align="center" autoSize="none" text="0"/>
+    <image id="n45_7s7j" name="lines" src="7s7j1nry31f" fileName="timeline/timeline_ind.png" xy="0,15" size="60,3"/>
+  </displayList>
+</component>

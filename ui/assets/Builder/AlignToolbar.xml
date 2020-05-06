@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,314" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <image id="n98_wc5q" name="n98" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="5,0" aspect="true"/>
+    <image id="n77" name="n77" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="5,87" aspect="true"/>
+    <image id="n79" name="n79" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="5,235" aspect="true"/>
+    <component id="n33" name="n33" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,4" size="28,24" tooltips="左对齐">
+      <Button icon="ui://2pshu6oiau3n13"/>
+    </component>
+    <component id="n34" name="n34" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,31" size="28,24" tooltips="左右居中对齐">
+      <Button icon="ui://2pshu6oiau3n14"/>
+    </component>
+    <component id="n35" name="n35" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,58" size="28,24" tooltips="右对齐">
+      <Button icon="ui://2pshu6oiau3n11"/>
+    </component>
+    <component id="n36" name="n36" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,92" size="28,24" tooltips="上对齐">
+      <Button icon="ui://2pshu6oiau3n10"/>
+    </component>
+    <component id="n37" name="n37" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,119" size="28,24" tooltips="上下居中对齐">
+      <Button icon="ui://2pshu6oiau3n12"/>
+    </component>
+    <component id="n38" name="n38" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,146" size="28,24" tooltips="下对齐">
+      <Button icon="ui://2pshu6oiau3n15"/>
+    </component>
+    <component id="n39" name="n39" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,180" size="28,24" tooltips="相同宽度">
+      <Button icon="ui://2pshu6oiau3n1s"/>
+    </component>
+    <component id="n40" name="n40" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,207" size="28,24" tooltips="相同高度">
+      <Button icon="ui://2pshu6oiau3n1t"/>
+    </component>
+    <component id="n41" name="n41" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,240" size="28,24" tooltips="均匀行距">
+      <Button icon="ui://2pshu6oiryajixictz"/>
+    </component>
+    <image id="n78" name="n78" src="au3n39" fileName="HzSeperator.png" pkg="nk9ejx23" xy="5,175" aspect="true"/>
+    <component id="n96_shwj" name="n96" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,267" size="28,24" tooltips="均匀列距">
+      <Button icon="ui://2pshu6oiryajixicty"/>
+    </component>
+    <component id="n97_shwj" name="n97" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,294" size="28,24" tooltips="表格排列">
+      <Button icon="ui://2pshu6oiau3n1n"/>
+    </component>
+  </displayList>
+</component>

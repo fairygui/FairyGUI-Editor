@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="770,506">
   <displayList>
-    <component id="n24" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="770,506" locked="true">
+    <component id="n24" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="770,506">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="动画属性"/>
     </component>
+    <text id="n81_xbeb" name="n81" xy="517,29" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
+    <text id="n58" name="n58" xy="517,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="播放间隔"/>
+    <text id="n62" name="n62" xy="517,79" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="循环延迟"/>
+    <text id="n64" name="n64" xy="517,104" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="本帧延迟"/>
+    <text id="n86_r1st" name="n86" xy="517,129" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="摆动播放"/>
+    <text id="n83_tudt" name="n83" xy="517,154" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="平滑"/>
     <text id="n19" name="n19" xy="517,179" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="纹理集"/>
+    <component id="n82_xbeb" name="fps" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,27" size="57,20">
+      <ComboBox title="24" visibleItemCount="10">
+        <item title="24"/>
+        <item title="30"/>
+        <item title="60"/>
+      </ComboBox>
+    </component>
+    <component id="n60" name="speed" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,54" size="57,20">
+      <Label title="1"/>
+    </component>
+    <component id="n63" name="repeatDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,79" size="57,20">
+      <Label title="0"/>
+    </component>
+    <component id="n65" name="frameDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,103" size="57,20">
+      <Label title="0"/>
+    </component>
+    <component id="n66" name="swing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,128" size="20,19"/>
+    <component id="n87_r1st" name="smoothing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,153" size="20,19"/>
     <component id="n20" name="atlas" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,178" size="125,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <graph id="n31" name="n31" xy="10,28" size="502,432" type="rect" lineColor="#ff292828" fillColor="#ff333333"/>
+    <component id="n74" name="container" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="11,29" size="500,400"/>
+    <component id="n76" name="btnImport" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="14,469" size="100,25">
+      <Button title="导入图片序列"/>
+    </component>
+    <component id="n77" name="btnImport2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="121,469" size="121,25">
+      <Button title="导入Sprite表"/>
+    </component>
+    <component id="n88_nama" name="n88" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="251,474" tooltips="也可以从库中拖入图片"/>
+    <component id="n89_nama" name="btnExport" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="391,469" size="121,25">
+      <Button title="导出图片序列"/>
+    </component>
     <component id="n42" name="btnSave" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="611,469" size="62,25">
       <Button title="保存"/>
     </component>
@@ -29,37 +64,5 @@
       <Button icon="ui://2pshu6oig1zau6d"/>
     </component>
     <group id="n72" name="n72" xy="188,432" size="146,22"/>
-    <text id="n58" name="n58" xy="517,54" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="播放间隔"/>
-    <component id="n60" name="speed" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,54" size="57,20">
-      <Label title="1"/>
-    </component>
-    <text id="n62" name="n62" xy="517,79" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="循环延迟"/>
-    <component id="n63" name="repeatDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,79" size="57,20">
-      <Label title="0"/>
-    </component>
-    <text id="n64" name="n64" xy="517,104" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="本帧延迟"/>
-    <component id="n65" name="frameDelay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="601,103" size="57,20">
-      <Label title="0"/>
-    </component>
-    <component id="n66" name="swing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,128" size="20,19"/>
-    <text id="n81_xbeb" name="n81" xy="517,29" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="帧频"/>
-    <component id="n82_xbeb" name="fps" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,27" size="57,20">
-      <ComboBox title="24" visibleItemCount="10">
-        <item title="24"/>
-        <item title="30"/>
-        <item title="60"/>
-      </ComboBox>
-    </component>
-    <component id="n74" name="container" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="11,29" size="500,400"/>
-    <text id="n75" name="n75" xy="243,473" size="288,18" fontSize="12" color="#bdbdbd" autoSize="none" text="（也可以从库中拖入）"/>
-    <component id="n76" name="btnImport" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="14,469" size="100,25">
-      <Button title="导入图片序列"/>
-    </component>
-    <component id="n77" name="btnImport2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="121,469" size="121,25">
-      <Button title="导入Sprite表"/>
-    </component>
-    <text id="n83_tudt" name="n83" xy="517,154" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="平滑"/>
-    <text id="n86_r1st" name="n86" xy="517,129" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="摆动播放"/>
-    <component id="n87_r1st" name="smoothing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="601,153" size="20,19"/>
   </displayList>
 </component>

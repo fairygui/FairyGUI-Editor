@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,187">
+  <displayList>
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="265,187">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n34" name="n34" xy="8,12" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大长度"/>
+    <text id="n36" name="n36" xy="8,38" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="输入限制"/>
+    <text id="n40" name="n40" xy="8,64" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="键盘类型"/>
+    <text id="n41" name="n41" xy="8,90" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="提示文字"/>
+    <component id="n35" name="maxLength" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="93,10" size="53,20"/>
+    <component id="n44" name="password" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="169,11" size="48,19">
+      <Button title="密码"/>
+    </component>
+    <component id="n38" name="restrict" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="93,36" size="162,20"/>
+    <component id="n39" name="keyboardType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="94,62" size="142,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n43" name="n43" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="240,65" tooltips="仅在移动平台有效"/>
+    <component id="n42" name="n42" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="93,90" tooltips="输入框为空时显示的提示文字&#xD;可以直接使用UBB语法"/>
+    <component id="n33" name="promptText" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="9,112" size="247,63"/>
+  </displayList>
+</component>

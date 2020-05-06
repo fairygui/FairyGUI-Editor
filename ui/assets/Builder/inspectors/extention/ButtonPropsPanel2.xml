@@ -2,20 +2,20 @@
 <component size="270,143" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n47" name="n47" xy="4,6" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="模式"/>
+    <text id="n71" name="n71" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="声音"/>
+    <text id="n73" name="n73" xy="4,58" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="音量"/>
+    <text id="n86" name="n86" xy="4,84" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="按下效果"/>
     <component id="n48" name="mode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,5" size="94,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n71" name="n71" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="声音"/>
     <component id="n72" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,30" size="178,20"/>
-    <text id="n73" name="n73" xy="4,58" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="音量"/>
     <component id="n74" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,56" size="44,20">
       <Label title="100"/>
     </component>
-    <component id="n79" name="downEffectValue" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="215,83" size="49,20"/>
-    <text id="n86" name="n86" xy="4,84" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="按下效果"/>
     <component id="n87" name="downEffect" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,83" size="124,20">
       <ComboBox visibleItemCount="10"/>
     </component>
+    <component id="n79" name="downEffectValue" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="215,83" size="49,20"/>
     <component id="n88_gwcn" name="n88" src="gwcniud1" fileName="inspectors/extention/Instructions.xml" xy="86,118" tooltips="命名约定 &#xD;button: 按钮控制器名称。&#xD;title: 文本标题。&#xD;icon: 图标。通常是一个装载器。"/>
   </displayList>
 </component>

@@ -3,10 +3,11 @@
   <controller name="c1" pages="0,,1," selected="0"/>
   <controller name="valid" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n4" name="clear" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="240,2" size="20,20">
-      <Button icon="ui://2pshu6oiet857iuff"/>
-    </component>
-    <component id="n6" name="relations" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="31,29" size="230,20"/>
+    <loader id="n19_qatu" name="n19" xy="6,4" size="20,20" url="ui://2pshu6oiitz3iucb" fill="scale" shrinkOnly="true"/>
+    <text id="n18_goxz" name="n18" xy="34,4" size="28,19" fontSize="12" color="#bdbdbd" text="容器">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearColor controller="valid" pages="1" values="#d19036,#000000" default="#bdbdbd,#000000"/>
+    </text>
     <component id="n15" name="target" src="gmjuiuan" fileName="basic/ChildObjectInput.xml" xy="31,2" size="203,20" controller="hideClear,1">
       <gearDisplay controller="c1" pages="0"/>
     </component>
@@ -14,10 +15,9 @@
       <gearDisplay controller="c1" pages="1"/>
       <Button icon="ui://2pshu6oim9saiuce"/>
     </component>
-    <text id="n18_goxz" name="n18" xy="34,4" size="29,18" fontSize="12" color="#bdbdbd" text="容器">
-      <gearDisplay controller="c1" pages="1"/>
-      <gearColor controller="valid" pages="1" values="#d19036,#000000" default="#bdbdbd,#000000"/>
-    </text>
-    <loader id="n19_qatu" name="n19" xy="6,4" size="20,20" url="ui://2pshu6oiitz3iucb"/>
+    <component id="n4" name="clear" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="240,2" size="20,20">
+      <Button icon="ui://2pshu6oiet857iuff"/>
+    </component>
+    <component id="n6" name="relations" src="au3n6o" fileName="ComboBox/DropdownButton.xml" pkg="nk9ejx23" xy="31,29" size="230,20"/>
   </displayList>
 </component>

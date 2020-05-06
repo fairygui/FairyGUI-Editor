@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="400,259">
-  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
   <displayList>
     <component id="n0_gcfv" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="400,259">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="FairyGUI 编辑器"/>
     </component>
     <graph id="n5_gcfv" name="n5" xy="1,24" size="396,191" type="rect" lineSize="0" fillColor="#ff3d3d3d"/>
-    <text id="n1_gcfv" name="msg" xy="9,31" size="379,178" fontSize="14" color="#ff9999" ubb="true" vars="true" autoSize="none" text="[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]&#xA;&#xA;[color=#cccc00]看起来您很喜欢这个编辑器，推荐您购买专业版，有您的支持，FairyGUI会发展得更好。[/color]&#xA;&#xA;[color=#33cccc]您也可以选择继续使用社区版，功能不受任何限制。[/color]">
-      <gearText controller="c1" pages="1,2" values="[color=#ff9900]您好！您正在使用FairyGUI编辑器专业版，感谢您的支持！[/color]&#xA;&#xA;[color=#cccc00]订阅时间至：{expire=2020}[/color]|[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]&#xA;&#xA;[color=#cccc00]你的专业版订阅已到期（{expire=2020}），请更新您的订阅，有您的支持，FairyGUI会发展得更好。[/color]&#xA;&#xA;[color=#33cccc]您也可以选择继续使用社区版，功能不受任何限制。[/color]" default="[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]&#xA;&#xA;[color=#cccc00]看起来您很喜欢这个编辑器，推荐您购买专业版，有您的支持，FairyGUI会发展得更好。[/color]&#xA;&#xA;[color=#33cccc]您也可以选择继续使用社区版，功能不受任何限制。[/color]"/>
+    <text id="n1_gcfv" name="msg" xy="9,31" size="379,178" fontSize="14" color="#ff9999" ubb="true" vars="true" autoSize="none" text="[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]
+
+[color=#cccc00]看起来您很喜欢这个编辑器，推荐您购买专业版，有您的支持，FairyGUI会发展得更好。[/color]">
+      <gearText controller="c1" pages="0,1,2,3" values="[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]
+
+[color=#cccc00]看起来您很喜欢这个编辑器，推荐您购买专业版，有您的支持，FairyGUI会发展得更好。[/color]|[color=#ff9900]您好！您正在使用FairyGUI编辑器专业版，感谢您的支持！[/color]
+
+[color=#cccc00]订阅时间至：{expire=2020}[/color]|[color=#ff9900]您好！感谢您使用FairyGUI编辑器。[/color]
+
+[color=#cccc00]你的专业版订阅已到期（{expire=2020}），请更新您的订阅，有您的支持，FairyGUI会发展得更好。[/color]|[color=#cccc00]此功能属于专业版专属功能，请先订阅专业版。[/color]"/>
     </text>
     <component id="n2_gcfv" name="buy" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="37,224" group="n4_gcfv">
-      <gearDisplay controller="c1" pages="0,2"/>
+      <gearDisplay controller="c1" pages="0,2,3"/>
       <Button title="购买"/>
     </component>
     <component id="n3_gcfv" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="283,224" group="n4_gcfv">
@@ -19,9 +27,14 @@
       <Button title="暂不"/>
     </component>
     <component id="n6_fqsb" name="register" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="151,224" size="103,25" group="n4_gcfv">
-      <gearDisplay controller="c1" pages="0,2"/>
+      <gearDisplay controller="c1" pages="0,2,3"/>
       <Button title="已有注册码"/>
     </component>
-    <group id="n4_gcfv" name="n4" xy="37,224" size="331,25"/>
+    <component id="n7_mvnb" name="revoke" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="24,224" group="n4_gcfv">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearText controller="c1" pages="1" values="撤回授权" default="暂不"/>
+      <Button title="暂不"/>
+    </component>
+    <group id="n4_gcfv" name="n4" xy="24,224" size="344,25"/>
   </displayList>
 </component>

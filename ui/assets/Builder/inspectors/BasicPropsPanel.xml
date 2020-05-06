@@ -2,94 +2,97 @@
 <component size="270,261" bgColorEnabled="true" bgColor="#383838">
   <controller name="showRestrictSize" pages="0,,1," selected="0"/>
   <displayList>
+    <text id="n17" name="n17" xy="4,6" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n13" name="n13" xy="4,32" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="位置"/>
+    <text id="n24" name="n24" xy="4,58" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="尺寸"/>
     <component id="n9" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,4" size="152,20" controller="noBorder,0,showClear,0"/>
-    <text id="n17" name="n17" xy="4,6" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
-    <text id="n13" name="n13" xy="4,32" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="位置"/>
     <component id="n21" name="x" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,32" size="72,20" controller="xy,0">
       <Label title="100000"/>
     </component>
     <component id="n23" name="y" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,31" size="73,20" controller="xy,1">
       <Label title="100000"/>
     </component>
-    <text id="n24" name="n24" xy="4,58" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="尺寸"/>
-    <component id="n27" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,57" size="72,20" controller="xy,3">
-      <Label title="100000"/>
-    </component>
     <component id="n25" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,57" size="72,20" controller="xy,2">
       <Label title="100000"/>
     </component>
-    <component id="n53" name="n53" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,7" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：&#xA;a#&#xA;则选定的元件的名称依次修改为a0,a1,a2.."/>
-    <component id="n67_ruil" name="maxWidth" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,103" size="72,20" group="n72_ruil" controller="xy,0">
-      <Label title="10000"/>
+    <component id="n27" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,57" size="72,20" controller="xy,3">
+      <Label title="100000"/>
     </component>
-    <text id="n68_ruil" name="n68" xy="4,81" size="80,18" group="n72_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最小尺寸"/>
+    <component id="n53" name="n53" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,7" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：
+a#
+则选定的元件的名称依次修改为a0,a1,a2.."/>
+    <component id="n81_ruil" name="showRestrictSize" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="244,57">
+      <Button icon="ui://2pshu6oipi83u6x" selectedIcon="ui://2pshu6oiruiliual" controller="showRestrictSize" page="1"/>
+    </component>
+    <text id="n96_wqe7" name="n96" xy="4,105" size="80,19" group="n72_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大尺寸"/>
+    <text id="n68_ruil" name="n68" xy="4,81" size="80,19" group="n72_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最小尺寸"/>
     <component id="n71_ruil" name="minWidth" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,79" size="72,20" group="n72_ruil" controller="xy,0">
-      <Label title="10000"/>
-    </component>
-    <component id="n78_ruil" name="maxHeight" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,103" size="72,20" group="n72_ruil" controller="xy,1">
       <Label title="10000"/>
     </component>
     <component id="n80_ruil" name="minHeight" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,79" size="72,20" group="n72_ruil" controller="xy,1">
       <Label title="10000"/>
     </component>
-    <text id="n96_wqe7" name="n96" xy="4,105" size="80,18" group="n72_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大尺寸"/>
+    <component id="n67_ruil" name="maxWidth" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,103" size="72,20" group="n72_ruil" controller="xy,0">
+      <Label title="10000"/>
+    </component>
+    <component id="n78_ruil" name="maxHeight" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,103" size="72,20" group="n72_ruil" controller="xy,1">
+      <Label title="10000"/>
+    </component>
     <group id="n72_ruil" name="n72" xy="4,79" size="234,44" advanced="true">
       <gearDisplay controller="showRestrictSize" pages="1"/>
     </group>
-    <component id="n81_ruil" name="showRestrictSize" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="244,57">
-      <Button icon="ui://2pshu6oipi83u6x" selectedIcon="ui://2pshu6oiruiliual" controller="showRestrictSize" page="1"/>
-    </component>
-    <component id="n11" name="useSourceSize" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="74,81" size="60,19" group="n82_ruil">
+    <text id="n48" name="n48" xy="5,106" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放"/>
+    <text id="n57" name="n57" xy="5,132" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="倾斜"/>
+    <text id="n39" name="n39" xy="5,158" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心"/>
+    <text id="n33" name="n33" xy="5,205" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="不透明度"/>
+    <text id="n35" name="n35" xy="138,205" size="60,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="旋转"/>
+    <component id="n11" name="useSourceSize" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="74,81" size="59,19" group="n82_ruil">
       <Button title="原大小"/>
     </component>
-    <component id="n31" name="touchable" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="128,231" size="72,19" group="n82_ruil">
-      <relation target="n36" sidePair="left-right"/>
-      <Button title="不可触摸"/>
-    </component>
-    <component id="n32" name="visible" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="16,231" size="60,19" group="n82_ruil" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
-      <Button title="不可见"/>
-    </component>
-    <text id="n33" name="n33" xy="5,205" size="80,18" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="透明度"/>
-    <text id="n35" name="n35" xy="138,205" size="52,18" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="旋转"/>
-    <component id="n36" name="grayed" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="78,231" size="48,19" group="n82_ruil">
-      <relation target="n32" sidePair="left-right"/>
-      <Button title="变灰"/>
-    </component>
-    <component id="n37" name="alpha" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="88,203" size="48,20" group="n82_ruil">
-      <Label title="100"/>
-    </component>
-    <component id="n38" name="rotation" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="193,203" size="48,20" group="n82_ruil">
-      <Label title="0"/>
-    </component>
-    <text id="n39" name="n39" xy="5,158" size="80,18" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心"/>
-    <component id="n41" name="pivotY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,158" size="73,20" group="n82_ruil" controller="xy,1">
-      <Label title="100000"/>
-    </component>
-    <component id="n42" name="pivotX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,158" size="73,20" group="n82_ruil" controller="xy,0">
-      <Label title="100000"/>
-    </component>
-    <text id="n48" name="n48" xy="5,106" size="80,18" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放"/>
-    <component id="n50" name="scaleY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,106" size="73,20" group="n82_ruil" controller="xy,1">
-      <Label title="100000"/>
+    <component id="n85_q9gj" name="aspectLocked" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="169,81" size="71,19" group="n82_ruil">
+      <Button title="保持比例"/>
     </component>
     <component id="n51" name="scaleX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,106" size="73,20" group="n82_ruil" controller="xy,0">
       <Label title="100000"/>
     </component>
-    <component id="n55" name="n55" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="245,157" size="19,19" group="n82_ruil">
-      <Button icon="ui://2pshu6oipi83u6x"/>
-    </component>
-    <text id="n57" name="n57" xy="5,132" size="80,18" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="倾斜"/>
-    <component id="n59" name="skewY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,132" size="73,20" group="n82_ruil" controller="xy,1">
+    <component id="n50" name="scaleY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,106" size="73,20" group="n82_ruil" controller="xy,1">
       <Label title="100000"/>
     </component>
     <component id="n60" name="skewX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,132" size="73,20" group="n82_ruil" controller="xy,0">
       <Label title="100000"/>
     </component>
-    <component id="n61" name="anchor" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="94,180" size="96,19" group="n82_ruil" tooltips="勾选后，轴心位置将作为元件的原点">
+    <component id="n59" name="skewY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,132" size="73,20" group="n82_ruil" controller="xy,1">
+      <Label title="100000"/>
+    </component>
+    <component id="n42" name="pivotX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,158" size="73,20" group="n82_ruil" controller="xy,0">
+      <Label title="100000"/>
+    </component>
+    <component id="n41" name="pivotY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,158" size="73,20" group="n82_ruil" controller="xy,1">
+      <Label title="100000"/>
+    </component>
+    <component id="n55" name="n55" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="245,157" size="19,19" group="n82_ruil">
+      <Button icon="ui://2pshu6oipi83u6x"/>
+    </component>
+    <component id="n61" name="anchor" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="94,180" size="95,19" group="n82_ruil" tooltips="勾选后，轴心位置将作为元件的原点">
       <Button title="同时作为锚点"/>
     </component>
-    <component id="n85_q9gj" name="aspectLocked" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="160,81" size="72,19" group="n82_ruil">
-      <Button title="保持比例"/>
+    <component id="n37" name="alpha" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="88,203" size="48,20" group="n82_ruil">
+      <Label title="100"/>
+    </component>
+    <component id="n38" name="rotation" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="200,203" size="48,20" group="n82_ruil">
+      <Label title="0"/>
+    </component>
+    <component id="n32" name="visible" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="16,231" size="59,19" group="n82_ruil" tooltips="仅在测试和运行期可以看到效果，
+设计界面中将始终保持可见">
+      <Button title="不可见"/>
+    </component>
+    <component id="n36" name="grayed" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="77,231" size="47,19" group="n82_ruil">
+      <relation target="n32" sidePair="left-right"/>
+      <Button title="变灰"/>
+    </component>
+    <component id="n31" name="touchable" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="126,231" size="71,19" group="n82_ruil">
+      <relation target="n36" sidePair="left-right"/>
+      <Button title="不可触摸"/>
     </component>
     <group id="n82_ruil" name="n82" xy="5,81" size="259,169" advanced="true">
       <gearXY controller="showRestrictSize" pages="0,1" values="5,81|4,126"/>

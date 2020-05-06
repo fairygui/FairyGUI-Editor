@@ -2,15 +2,15 @@
 <component size="270,110" bgColorEnabled="true" bgColor="#383838">
   <controller name="noTips" pages="0,,1," selected="0"/>
   <displayList>
+    <text id="n48" name="n48" xy="4,6" size="80,19" group="n52_h760" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Tooltips"/>
+    <component id="n47" name="tooltips" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,5" size="178,39" group="n52_h760" controller="showEditButton,1"/>
+    <group id="n52_h760" name="n52" xy="4,5" size="261,39" advanced="true">
+      <gearDisplay controller="noTips" pages="0"/>
+    </group>
     <text id="n49_sqzs" name="n49" xy="4,50" size="80,18" group="n51_h760" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义数据"/>
     <component id="n50_sqzs" name="customData" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,49" size="178,55" group="n51_h760" controller="showEditButton,1"/>
     <group id="n51_h760" name="n51" xy="4,49" size="261,55" advanced="true">
       <gearXY controller="noTips" pages="0,1" values="4,49|4,5"/>
-    </group>
-    <component id="n47" name="tooltips" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,5" size="178,39" group="n52_h760" controller="showEditButton,1"/>
-    <text id="n48" name="n48" xy="4,6" size="80,19" group="n52_h760" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Tooltips"/>
-    <group id="n52_h760" name="n52" xy="4,5" size="261,39" advanced="true">
-      <gearDisplay controller="noTips" pages="0"/>
     </group>
   </displayList>
   <relation target="n51_h760" sidePair="bottomext-bottom"/>

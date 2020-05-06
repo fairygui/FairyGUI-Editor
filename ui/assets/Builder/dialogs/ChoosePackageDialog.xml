@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="655,500">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="655,500">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="选择包"/>
+    </component>
+    <component id="n40" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="252,458" size="66,25" group="n42_m5yh">
+      <Button title="确认"/>
+    </component>
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="337,458" size="66,25" group="n42_m5yh">
+      <Button title="取消"/>
+    </component>
+    <group id="n42_m5yh" name="n42" xy="252,458" size="151,25"/>
+    <graph id="n43_ajkn" name="n43" xy="11,60" size="632,382" group="n45_ajkn" type="rect" lineColor="#ff292828" fillColor="#ff383838"/>
+    <list id="n44_ajkn" name="pkgList" xy="12,61" size="630,380" group="n45_ajkn" layout="flow_vt" selectionMode="multipleSingleClick" overflow="scroll" scroll="horizontal" scrollBar="visible" margin="1,1,1,1" colGap="2" defaultItem="ui://nk9ejx23ofk56x" autoClearItems="true">
+      <item title="包1" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包2" icon="ui://2pshu6oiptssa7iug6"/>
+      <item title="包3" icon="ui://2pshu6oiptssa7iug6"/>
+    </list>
+    <group id="n45_ajkn" name="n45" xy="11,60" size="632,382"/>
+    <component id="n46_ajkn" name="selectAll" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="550,30" group="n49_ajkn" tooltips="全选">
+      <Button icon="ui://2pshu6oie4cx7iued"/>
+    </component>
+    <component id="n47_ajkn" name="selectReverse" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="584,30" group="n49_ajkn" tooltips="反向选择">
+      <Button icon="ui://2pshu6oie4cx7iueg"/>
+    </component>
+    <component id="n48_ajkn" name="selectNone" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="618,30" group="n49_ajkn" tooltips="取消全选">
+      <Button icon="ui://2pshu6oite5p7iufq"/>
+    </component>
+    <group id="n49_ajkn" name="n49" xy="550,30" size="90,22"/>
+    <component id="n50_ajkn" name="find" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="11,32" size="226,20" controller="noBorder,0,showClear,1">
+      <Label prompt="[color=#959595]查找...[/color]"/>
+    </component>
+  </displayList>
+</component>

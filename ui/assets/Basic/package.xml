@@ -9,101 +9,101 @@
     <component id="xualt" name="Checkbox.xml" path="/Button/" exported="true"/>
     <component id="gcza13" name="RadioButton.xml" path="/Button/" exported="true"/>
     <component id="gcza18" name="ComboBox.xml" path="/ComboBox/" exported="true"/>
-    <image id="gcza19" name="background.png" path="/" exported="true" scale="9grid" scale9grid="11,8,192,115" qualityOption="source"/>
+    <image id="gcza19" name="background.png" path="/" exported="true" scale="9grid" scale9grid="11,8,192,115" qualityOption="source" duplicatePadding="true"/>
     <component id="gcza1a" name="ComboBoxPopup.xml" path="/ComboBox/" exported="true"/>
     <component id="gcza1b" name="ComboBoxItem.xml" path="/ComboBox/"/>
-    <image id="gcza1h" name="f1.png" path="/Window/" scale="9grid" scale9grid="18,36,345,205" qualityOption="source"/>
-    <image id="gcza1i" name="f5.png" path="/Window/"/>
-    <image id="gcza1j" name="f4.png" path="/Window/"/>
-    <image id="gcza1k" name="f3.png" path="/Window/"/>
+    <image id="gcza1h" name="f1.png" path="/Window/" scale="9grid" scale9grid="18,36,345,205" qualityOption="source" duplicatePadding="true"/>
+    <image id="gcza1i" name="f5.png" path="/Window/" duplicatePadding="true"/>
+    <image id="gcza1j" name="f4.png" path="/Window/" duplicatePadding="true"/>
+    <image id="gcza1k" name="f3.png" path="/Window/" duplicatePadding="true"/>
     <component id="gcza1l" name="WindowFrame.xml" path="/Window/" exported="true"/>
     <component id="gcza1m" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
-    <image id="gcza1n" name="p3.png" path="/ProgressBar/" qualityOption="source"/>
-    <image id="gcza1o" name="p2.png" path="/ProgressBar/" scale="9grid" scale9grid="10,4,121,4" qualityOption="source"/>
+    <image id="gcza1n" name="p3.png" path="/ProgressBar/" qualityOption="source" duplicatePadding="true"/>
+    <image id="gcza1o" name="p2.png" path="/ProgressBar/" scale="9grid" scale9grid="10,4,121,4" qualityOption="source" duplicatePadding="true"/>
     <component id="gcza1p" name="ProgressBar.xml" path="/ProgressBar/" exported="true"/>
-    <image id="gcza1r" name="input_bg.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,39,8" qualityOption="source"/>
+    <image id="gcza1r" name="input_bg.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,39,8" qualityOption="source" duplicatePadding="true"/>
     <component id="gcza1s" name="TextInput.xml" path="/Input/" exported="true"/>
     <component id="gcza2c" name="Slider_HZ.xml" path="/Slider/" exported="true"/>
     <component id="gcza2f" name="SliderArrow_HZ.xml" path="/Slider/"/>
     <component id="gcza2g" name="PopupMenu.xml" path="/Menu/" exported="true"/>
     <component id="gcza2h" name="PopupMenuItem.xml" path="/Menu/" exported="true"/>
     <component id="gcza2i" name="FlatIconButton.xml" path="/Button/" exported="true"/>
-    <image id="gcza2l" name="i3.svg" path="/Tree/" exported="true" qualityOption="source" width="14" height="14"/>
-    <image id="gcza2p" name="i4.svg" path="/Tree/" exported="true" qualityOption="source" width="12" height="12"/>
-    <image id="gcza2r" name="tab_cross.svg" path="/Tab/images/" qualityOption="source" width="16" height="16"/>
-    <image id="gcza2t" name="tab_cross_hover.svg" path="/Tab/images/" qualityOption="source" width="16" height="16"/>
+    <image id="gcza2l" name="i3.svg" path="/Tree/" exported="true" qualityOption="source" duplicatePadding="true" width="14" height="14"/>
+    <image id="gcza2p" name="i4.svg" path="/Tree/" exported="true" qualityOption="source" duplicatePadding="true" width="12" height="12"/>
+    <image id="gcza2r" name="tab_cross.svg" path="/Tab/images/" qualityOption="source" duplicatePadding="true" width="16" height="16"/>
+    <image id="gcza2t" name="tab_cross_hover.svg" path="/Tab/images/" qualityOption="source" duplicatePadding="true" width="16" height="16"/>
     <component id="gcza2u" name="TabCloseButton.xml" path="/Tab/"/>
-    <image id="au3n38" name="VtSeperator.png" path="/" exported="true" qualityOption="source"/>
-    <image id="au3n39" name="HzSeperator.png" path="/" exported="true" qualityOption="source"/>
-    <image id="au3n3t" name="hue_arrow.png" path="/ColorPicker/images/" qualityOption="source"/>
+    <image id="au3n38" name="VtSeperator.png" path="/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n39" name="HzSeperator.png" path="/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n3t" name="hue_arrow.png" path="/ColorPicker/images/" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n4b" name="IconButton.xml" path="/Button/" exported="true"/>
     <component id="au3n4s" name="ListItem.xml" path="/List/" exported="true"/>
-    <image id="au3n4v" name="listitem_hover.png" path="/List/images/" exported="true" scale9grid="6,5,6,10" qualityOption="source"/>
-    <image id="au3n50" name="listitem_selected.png" path="/List/images/" exported="true" scale9grid="3,2,6,9" qualityOption="source"/>
+    <image id="au3n4v" name="listitem_hover.png" path="/List/images/" exported="true" scale9grid="6,5,6,10" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n50" name="listitem_selected.png" path="/List/images/" exported="true" scale9grid="3,2,6,9" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n5m" name="TreeItem.xml" path="/Tree/" exported="true"/>
     <component id="au3n5n" name="TreeExpandButton.xml" path="/Tree/" exported="true"/>
-    <image id="au3n5p" name="cursor_move.png" path="/Cursor/" exported="true"/>
-    <image id="au3n5q" name="cursor_hResize.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <image id="au3n5r" name="cursor_d1Resize.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <image id="au3n5s" name="cursor_vResize.png" path="/Cursor/" exported="true" qualityOption="source"/>
+    <image id="au3n5p" name="cursor_move.png" path="/Cursor/" exported="true" duplicatePadding="true"/>
+    <image id="au3n5q" name="cursor_hResize.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n5r" name="cursor_d1Resize.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n5s" name="cursor_vResize.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n5u" name="MenuBarItem.xml" path="/Menu/" exported="true"/>
     <component id="au3n5v" name="MenuSeperator.xml" path="/Menu/" exported="true"/>
     <component id="au3n5x" name="ColorPickerPopup.xml" path="/ColorPicker/" exported="true"/>
     <component id="au3n5y" name="ColorInput.xml" path="/ColorPicker/" exported="true"/>
-    <image id="au3n5z" name="color_table.png" path="/ColorPicker/images/" qualityOption="source"/>
+    <image id="au3n5z" name="color_table.png" path="/ColorPicker/images/" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n69" name="NumericInput.xml" path="/Input/" exported="true"/>
-    <image id="au3n6b" name="a17.png" path="/ColorPicker/images/" scale="tile"/>
-    <image id="au3n6d" name="cursor_select.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <image id="au3n6e" name="cursor_hand.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <image id="au3n6f" name="cursor_drag.png" path="/Cursor/" exported="true"/>
-    <image id="au3n6g" name="cursor_adjust.png" path="/Cursor/" exported="true" qualityOption="source"/>
-    <image id="au3n6h" name="cursor_d2Resize.png" path="/Cursor/" exported="true" qualityOption="source"/>
+    <image id="au3n6b" name="a17.png" path="/ColorPicker/images/" scale="tile" duplicatePadding="true"/>
+    <image id="au3n6d" name="cursor_select.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n6e" name="cursor_hand.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n6f" name="cursor_drag.png" path="/Cursor/" exported="true" duplicatePadding="true"/>
+    <image id="au3n6g" name="cursor_adjust.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
+    <image id="au3n6h" name="cursor_d2Resize.png" path="/Cursor/" exported="true" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n6i" name="TabButton_as.xml" path="/Tab/" exported="true"/>
     <component id="au3n6j" name="ResourceInput.xml" path="/Input/" exported="true"/>
     <component id="au3n6k" name="TextArea.xml" path="/Input/" exported="true"/>
     <component id="au3n6m" name="ListItemInput.xml" path="/Input/" exported="true"/>
     <component id="au3n6o" name="DropdownButton.xml" path="/ComboBox/" exported="true"/>
-    <image id="au3n6p" name="a18.png" path="/Menu/" qualityOption="source"/>
+    <image id="au3n6p" name="a18.png" path="/Menu/" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n6q" name="IconListItem.xml" path="/List/" exported="true"/>
     <component id="au3n6r" name="ListItemResourceInput.xml" path="/Input/" exported="true"/>
-    <image id="au3n6s" name="input_bg_grayed.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,31,8" qualityOption="source"/>
+    <image id="au3n6s" name="input_bg_grayed.png" path="/Input/" exported="true" scale="9grid" scale9grid="5,4,31,8" qualityOption="source" duplicatePadding="true"/>
     <component id="au3n6t" name="EditableTreeItem.xml" path="/Tree/" exported="true"/>
     <component id="au3n6v" name="TabIconButton_as.xml" path="/Tab/" exported="true"/>
     <component id="ofk56x" name="CheckIconListItem.xml" path="/List/" exported="true"/>
     <component id="fj4c6y" name="TooltipsWin.xml" path="/Tooltips/" exported="true"/>
-    <image id="8adv70" name="cursor_finger.png" path="/Cursor/" exported="true"/>
+    <image id="8adv70" name="cursor_finger.png" path="/Cursor/" exported="true" duplicatePadding="true"/>
     <component id="gss372" name="Button_as.xml" path="/Button/" exported="true"/>
-    <image id="kwng7e" name="gou.png" path="/Button/images/" qualityOption="source"/>
-    <image id="kwng7g" name="GridHeader.png" path="/List/images/" exported="true" scale="9grid" scale9grid="4,7,71,5" qualityOption="source"/>
-    <image id="kwng7k" name="p1.png" path="/Menu/" scale="9grid" scale9grid="6,5,144,50" qualityOption="source"/>
-    <image id="kwng7l" name="a9.png" path="/Menu/" scale="9grid" scale9grid="11,5,83,10" qualityOption="source"/>
-    <image id="kwng7m" name="a8.png" path="/Menu/" scale="9grid" scale9grid="7,3,76,12" qualityOption="source"/>
-    <image id="kwng7n" name="HzSeperator2.png" path="/Menu/"/>
-    <image id="p0yg7q" name="tab_selected.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,55,10" qualityOption="source"/>
+    <image id="kwng7e" name="gou.png" path="/Button/images/" qualityOption="source" duplicatePadding="true"/>
+    <image id="kwng7g" name="GridHeader.png" path="/List/images/" exported="true" scale="9grid" scale9grid="4,7,71,5" qualityOption="source" duplicatePadding="true"/>
+    <image id="kwng7k" name="p1.png" path="/Menu/" scale="9grid" scale9grid="6,5,144,50" qualityOption="source" duplicatePadding="true"/>
+    <image id="kwng7l" name="a9.png" path="/Menu/" scale="9grid" scale9grid="11,5,83,10" qualityOption="source" duplicatePadding="true"/>
+    <image id="kwng7m" name="a8.png" path="/Menu/" scale="9grid" scale9grid="7,3,76,12" qualityOption="source" duplicatePadding="true"/>
+    <image id="kwng7n" name="HzSeperator2.png" path="/Menu/" duplicatePadding="true"/>
+    <image id="p0yg7q" name="tab_selected.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,55,10" qualityOption="source" duplicatePadding="true"/>
     <component id="p0yg7r" name="FileTabButton.xml" path="/Tab/" exported="true"/>
     <component id="dp4f7u" name="EmCheckbox_as.xml" path="/Button/" exported="true"/>
     <component id="rm0l7v" name="Checkbox_as.xml" path="/Button/" exported="true"/>
     <component id="okou7w" name="LinkButton.xml" path="/Button/" exported="true"/>
     <component id="p06b7x" name="ColorInputWithPreset.xml" path="/ColorPicker/" exported="true"/>
     <component id="p06b80" name="ColorMenuItem.xml" path="/ColorPicker/" exported="true"/>
-    <image id="ah2b82" name="button_light.png" path="/Button/images/" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="ah2b82" name="button_light.png" path="/Button/images/" scale="9grid" scale9grid="8,8,16,16" duplicatePadding="true"/>
     <component id="ah2b83" name="Button_light.xml" path="/Button/" exported="true"/>
-    <image id="ss7s84" name="gradient.png" path="/ColorPicker/images/" qualityOption="source"/>
-    <image id="ss7s85" name="hue_bar.png" path="/ColorPicker/images/"/>
+    <image id="ss7s84" name="gradient.png" path="/ColorPicker/images/" qualityOption="source" duplicatePadding="true"/>
+    <image id="ss7s85" name="hue_bar.png" path="/ColorPicker/images/" duplicatePadding="true"/>
     <component id="ss7s86" name="ColorPickerDialog.xml" path="/ColorPicker/" exported="true"/>
     <component id="mkkf88" name="HueSlider.xml" path="/ColorPicker/"/>
     <component id="mkkf89" name="HueSlider_grip.xml" path="/ColorPicker/"/>
     <component id="nm5v8a" name="ColorSBBox.xml" path="/ColorPicker/"/>
-    <image id="hdec8c" name="cursor_picker.png" path="/Cursor/" exported="true"/>
+    <image id="hdec8c" name="cursor_picker.png" path="/Cursor/" exported="true" duplicatePadding="true"/>
     <component id="bg8o8g" name="PopupMenuItem2.xml" path="/Menu/" exported="true"/>
     <component id="dqzd8h" name="PopupMenu_check.xml" path="/Menu/" exported="true"/>
     <component id="dqzd8i" name="PopupMenu2.xml" path="/Menu/" exported="true"/>
     <component id="mvcw8j" name="PopupMenuItem3.xml" path="/Menu/"/>
-    <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true"/>
-    <image id="yy9i8m" name="tab_normal.png" path="/Tab/images/" scale="9grid" scale9grid="6,3,38,10" qualityOption="source"/>
-    <image id="olcx8n" name="edit_text.svg" path="/Input/" width="12" height="12"/>
+    <image id="rsve8k" name="cursor_wait.png" path="/Cursor/" exported="true" duplicatePadding="true"/>
+    <image id="yy9i8m" name="tab_normal.png" path="/Tab/images/" scale="9grid" scale9grid="6,3,38,10" qualityOption="source" duplicatePadding="true"/>
+    <image id="olcx8n" name="edit_text.svg" path="/Input/" duplicatePadding="true" width="12" height="12"/>
     <component id="gzi68p" name="FixedTabIconButton.xml" path="/Tab/" exported="true"/>
-    <image id="e4p48q" name="dropdown_arrow.svg" path="/ComboBox/images/" exported="true" qualityOption="source" width="12" height="12"/>
+    <image id="e4p48q" name="dropdown_arrow.svg" path="/ComboBox/images/" exported="true" qualityOption="source" duplicatePadding="true" width="12" height="12"/>
     <component id="e4cx8r" name="EditableListItem.xml" path="/List/" exported="true"/>
     <component id="gj1q8s" name="FlatIconButton_Check.xml" path="/Button/" exported="true"/>
     <component id="gj1q8t" name="FlatTextButton_Check.xml" path="/Button/" exported="true"/>
@@ -111,55 +111,59 @@
     <component id="gj1q8v" name="FlatIconButton_Radio.xml" path="/Button/" exported="true"/>
     <component id="gj1q8w" name="FlatTextButton_as.xml" path="/Button/" exported="true"/>
     <component id="r1st8x" name="TextButton_Radio.xml" path="/Button/" exported="true"/>
-    <image id="phl68y" name="button_up.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11"/>
-    <image id="phl68z" name="button_down.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11"/>
-    <image id="phl690" name="radio_up.png" path="/Button/images/"/>
-    <image id="phl691" name="radio_down.png" path="/Button/images/"/>
-    <image id="j5yv93" name="dot3.png" path="/Tab/images/"/>
-    <image id="j5yv95" name="tab_normal2.png" path="/Tab/images/" scale="9grid" scale9grid="7,5,36,8"/>
+    <image id="phl68y" name="button_up.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11" duplicatePadding="true"/>
+    <image id="phl68z" name="button_down.png" path="/Button/images/" scale="9grid" scale9grid="10,6,65,11" duplicatePadding="true"/>
+    <image id="phl690" name="radio_up.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="phl691" name="radio_down.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="j5yv93" name="dot3.png" path="/Tab/images/" duplicatePadding="true"/>
+    <image id="j5yv95" name="tab_normal2.png" path="/Tab/images/" scale="9grid" scale9grid="7,5,36,8" duplicatePadding="true"/>
     <component id="dp9p97" name="FlatIconButton_nobg.xml" path="/Button/" exported="true"/>
-    <image id="nisj98" name="sub_arrow.svg" path="/Menu/" qualityOption="source" width="10" height="10"/>
-    <image id="wqe799" name="cursor_default.png" path="/Cursor/"/>
+    <image id="nisj98" name="sub_arrow.svg" path="/Menu/" qualityOption="source" duplicatePadding="true" width="10" height="10"/>
+    <image id="wqe799" name="cursor_default.png" path="/Cursor/" duplicatePadding="true"/>
     <component id="wqe79a" name="XYInput.xml" path="/Input/" exported="true"/>
-    <image id="wqe79b" name="input_bg2.png" path="/Input/" scale="9grid" scale9grid="20,4,19,8"/>
-    <image id="wqe79c" name="input_bg_grayed2.png" path="/Input/" scale="9grid" scale9grid="21,4,17,8"/>
-    <image id="e4cx7iuej" name="clear_text.svg" path="/Input/" qualityOption="source" width="16" height="16"/>
+    <image id="wqe79b" name="input_bg2.png" path="/Input/" scale="9grid" scale9grid="20,4,19,8" duplicatePadding="true"/>
+    <image id="wqe79c" name="input_bg_grayed2.png" path="/Input/" scale="9grid" scale9grid="21,4,17,8" duplicatePadding="true"/>
+    <image id="e4cx7iuej" name="clear_text.svg" path="/Input/" qualityOption="source" duplicatePadding="true" width="16" height="16"/>
     <component id="d8p07iuek" name="EditableIconListItem.xml" path="/List/" exported="true"/>
-    <image id="bmv27iuel" name="edit_text@2x.png" path="/Input/"/>
-    <image id="ur107iuem" name="dropdown_arrow@2x.png" path="/ComboBox/images/"/>
-    <image id="ur107iuen" name="i4@2x.png" path="/Tree/"/>
-    <image id="ur107iueo" name="i3@2x.png" path="/Tree/"/>
-    <image id="t64x7iuep" name="button_up@2x.png" path="/Button/images/" scale="9grid" scale9grid="15,13,135,26"/>
-    <image id="t64x7iueq" name="button_down@2x.png" path="/Button/images/" scale="9grid" scale9grid="19,13,138,26"/>
-    <image id="t64x7iuer" name="button_light@2x.png" path="/Button/images/" scale="9grid" scale9grid="16,16,32,32"/>
-    <image id="t64x7iues" name="checkbox_up.png" path="/Button/images/"/>
-    <image id="t64x7iuet" name="checkbox_up@2x.png" path="/Button/images/"/>
-    <image id="t64x7iueu" name="gou@2x.png" path="/Button/images/"/>
-    <image id="t64x7iuev" name="radio_up@2x.png" path="/Button/images/"/>
-    <image id="t64x7iuew" name="radio_down@2x.png" path="/Button/images/"/>
-    <image id="t64x7iuex" name="palette.svg" path="/ColorPicker/images/" width="16" height="16"/>
-    <image id="t64x7iuey" name="palette@2x.png" path="/ColorPicker/images/"/>
-    <image id="t64x7iuez" name="color_option.svg" path="/ColorPicker/images/" qualityOption="source" width="16" height="16"/>
-    <image id="t64x7iuf0" name="color_option@2x.png" path="/ColorPicker/images/"/>
-    <image id="t64x7iuf1" name="hue_arrow@2x.png" path="/ColorPicker/images/"/>
-    <image id="u9w07iuf2" name="clear_text@2x.png" path="/Input/"/>
-    <image id="kj9y7iuf5" name="sub_arrow@2x.png" path="/Menu/"/>
-    <image id="kj9y7iuf6" name="tab_cross@2x.png" path="/Tab/images/"/>
-    <image id="kj9y7iuf7" name="tab_cross_hover@2x.png" path="/Tab/images/"/>
-    <image id="kj9y7iuf8" name="tab_normal@2x.png" path="/Tab/images/" scale="9grid" scale9grid="9,9,78,18"/>
-    <image id="kj9y7iuf9" name="tab_selected@2x.png" path="/Tab/images/" scale="9grid" scale9grid="19,10,96,20"/>
-    <image id="kj9y7iufa" name="tab_normal2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,9,82,18"/>
+    <image id="bmv27iuel" name="edit_text@2x.png" path="/Input/" duplicatePadding="true"/>
+    <image id="ur107iuem" name="dropdown_arrow@2x.png" path="/ComboBox/images/" duplicatePadding="true"/>
+    <image id="ur107iuen" name="i4@2x.png" path="/Tree/" duplicatePadding="true"/>
+    <image id="ur107iueo" name="i3@2x.png" path="/Tree/" duplicatePadding="true"/>
+    <image id="t64x7iuep" name="button_up@2x.png" path="/Button/images/" scale="9grid" scale9grid="15,13,135,26" duplicatePadding="true"/>
+    <image id="t64x7iueq" name="button_down@2x.png" path="/Button/images/" scale="9grid" scale9grid="19,13,138,26" duplicatePadding="true"/>
+    <image id="t64x7iuer" name="button_light@2x.png" path="/Button/images/" scale="9grid" scale9grid="16,16,32,32" duplicatePadding="true"/>
+    <image id="t64x7iues" name="checkbox_up.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="t64x7iuet" name="checkbox_up@2x.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="t64x7iueu" name="gou@2x.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="t64x7iuev" name="radio_up@2x.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="t64x7iuew" name="radio_down@2x.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="t64x7iuex" name="palette.svg" path="/ColorPicker/images/" duplicatePadding="true" width="16" height="16"/>
+    <image id="t64x7iuey" name="palette@2x.png" path="/ColorPicker/images/" duplicatePadding="true"/>
+    <image id="t64x7iuez" name="color_option.svg" path="/ColorPicker/images/" qualityOption="source" duplicatePadding="true" width="16" height="16"/>
+    <image id="t64x7iuf0" name="color_option@2x.png" path="/ColorPicker/images/" duplicatePadding="true"/>
+    <image id="t64x7iuf1" name="hue_arrow@2x.png" path="/ColorPicker/images/" duplicatePadding="true"/>
+    <image id="u9w07iuf2" name="clear_text@2x.png" path="/Input/" duplicatePadding="true"/>
+    <image id="kj9y7iuf5" name="sub_arrow@2x.png" path="/Menu/" duplicatePadding="true"/>
+    <image id="kj9y7iuf6" name="tab_cross@2x.png" path="/Tab/images/" duplicatePadding="true"/>
+    <image id="kj9y7iuf7" name="tab_cross_hover@2x.png" path="/Tab/images/" duplicatePadding="true"/>
+    <image id="kj9y7iuf8" name="tab_normal@2x.png" path="/Tab/images/" scale="9grid" scale9grid="9,9,78,18" duplicatePadding="true"/>
+    <image id="kj9y7iuf9" name="tab_selected@2x.png" path="/Tab/images/" scale="9grid" scale9grid="19,10,96,20" duplicatePadding="true"/>
+    <image id="kj9y7iufa" name="tab_normal2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,9,82,18" duplicatePadding="true"/>
     <component id="n1pz7iufb" name="IconButton_Check.xml" path="/Button/" exported="true"/>
     <component id="n1pz7iufd" name="TextButton.xml" path="/Button/" exported="true"/>
     <component id="n1pz7iufe" name="TextButton_Check.xml" path="/Button/" exported="true"/>
-    <image id="evbu7iuff" name="folder.svg" path="/Tree/" width="16" height="16"/>
-    <image id="evbu7iufg" name="folder@2x.png" path="/Tree/"/>
+    <image id="evbu7iuff" name="folder.svg" path="/Tree/" duplicatePadding="true" width="16" height="16"/>
+    <image id="evbu7iufg" name="folder@2x.png" path="/Tree/" duplicatePadding="true"/>
     <component id="lcw17iufh" name="TabButton.xml" path="/Tab/" exported="true"/>
-    <image id="uodi7iufi" name="tab_selected2.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,56,10"/>
-    <image id="uodi7iufj" name="tab_selected2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,10,114,20"/>
-    <image id="lgdb7iufk" name="checkbox_disabled.png" path="/Button/images/"/>
-    <image id="ese8ixicus" name="menu_item_hover.png" path="/Menu/" scale="9grid" scale9grid="7,6,14,6"/>
-    <image id="ese87iufl" name="menu_item_down.png" path="/Menu/" scale="9grid" scale9grid="7,7,14,5"/>
+    <image id="uodi7iufi" name="tab_selected2.png" path="/Tab/images/" scale="9grid" scale9grid="5,5,56,10" duplicatePadding="true"/>
+    <image id="uodi7iufj" name="tab_selected2@2x.png" path="/Tab/images/" scale="9grid" scale9grid="10,10,114,20" duplicatePadding="true"/>
+    <image id="lgdb7iufk" name="checkbox_disabled.png" path="/Button/images/" duplicatePadding="true"/>
+    <image id="ese8ixicus" name="menu_item_hover.png" path="/Menu/" scale="9grid" scale9grid="7,6,14,6" duplicatePadding="true"/>
+    <image id="ese87iufl" name="menu_item_down.png" path="/Menu/" scale="9grid" scale9grid="7,7,14,5" duplicatePadding="true"/>
+    <image id="ii6tixicut" name="checkbox_disabled@2x.png" path="/Button/images/"/>
+    <component id="ep4rixicuu" name="EditableIconListItemBig.xml" path="/List/" exported="true"/>
+    <component id="ep4rixicuv" name="ListItemInputCenter.xml" path="/Input/" exported="true"/>
+    <component id="rj5hixicuw" name="EditableAndCheckIconListItem.xml" path="/List/" exported="true"/>
   </resources>
-  <publish name=""/>
+  <publish name="Basic"/>
 </packageDescription>

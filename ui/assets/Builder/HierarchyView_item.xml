@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="187,23" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <controller name="editing" pages="0,,1," selected="0"/>
-  <controller name="expanded" pages="0,,1," selected="0"/>
-  <controller name="leaf" pages="0,,1," selected="0"/>
-  <displayList>
-    <image id="n0" name="n0" src="au3n4v" fileName="List/images/listitem_hover.png" pkg="nk9ejx23" xy="0,0" size="187,22">
-      <gearDisplay controller="button" pages="2"/>
-      <relation target="" sidePair="height-height,width-width"/>
-    </image>
-    <image id="n1" name="n1" src="au3n50" fileName="List/images/listitem_selected.png" pkg="nk9ejx23" xy="0,0" size="187,22">
-      <gearDisplay controller="button" pages="1,3"/>
-      <relation target="" sidePair="height-height,width-width"/>
-    </image>
-    <graph id="n8" name="n8" xy="0,22" size="187,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
-      <relation target="" sidePair="width-width,top-bottom"/>
-    </graph>
-    <graph id="n3" name="indent" xy="1,1" size="16,20"/>
-    <loader id="n6" name="icon" xy="30,1" size="20,20" align="center" vAlign="middle">
-      <relation target="n13" sidePair="left-right"/>
-    </loader>
-    <text id="n2" name="title" xy="51,1" size="86,22" customData="k" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
-      <gearDisplay controller="editing" pages="0"/>
-      <gearColor controller="button" pages="1,3" values="#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
-      <relation target="" sidePair="width-width"/>
-      <relation target="n6" sidePair="leftext-right"/>
-    </text>
-    <image id="n18_qilr" name="n18" src="gcza1r" fileName="Input/input_bg.png" pkg="nk9ejx23" xy="51,0" size="86,22">
-      <gearDisplay controller="editing" pages="1"/>
-      <relation target="" sidePair="width-width"/>
-      <relation target="n6" sidePair="leftext-right"/>
-    </image>
-    <text id="n17_qilr" name="input" xy="52,1" size="84,19" input="true" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="">
-      <gearDisplay controller="editing" pages="1"/>
-      <relation target="" sidePair="width-width"/>
-      <relation target="n6" sidePair="leftext-right"/>
-    </text>
-    <component id="n13" name="expandButton" src="au3n5n" fileName="Tree/TreeExpandButton.xml" pkg="nk9ejx23" xy="15,3">
-      <gearDisplay controller="leaf" pages="0"/>
-      <relation target="n3" sidePair="left-right"/>
-      <Button controller="expanded" page="1"/>
-    </component>
-    <graph id="n12" name="n12" xy="140,0" size="1,22" group="n16_un0b" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
-    <graph id="n10" name="n10" xy="164,0" size="1,22" group="n16_un0b" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
-    <component id="n9" name="status" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="142,1" size="20,20" group="n16_un0b">
-      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1j"/>
-    </component>
-    <component id="n11" name="lock" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="166,1" size="20,20" group="n16_un0b">
-      <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1b"/>
-    </component>
-    <group id="n16_un0b" name="n16" xy="140,0" size="46,22" advanced="true">
-      <relation target="" sidePair="right-right"/>
-    </group>
-  </displayList>
-  <Button mode="Radio"/>
+    <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+    <controller name="editing" pages="0,,1," selected="0"/>
+    <controller name="expanded" pages="0,,1," selected="0"/>
+    <controller name="leaf" pages="0,,1," selected="0"/>
+    <displayList>
+        <image id="n0" name="n0" src="au3n4v" fileName="List/images/listitem_hover.png" pkg="nk9ejx23" xy="0,0" size="187,22">
+            <gearDisplay controller="button" pages="2"/>
+            <relation target="" sidePair="height-height,width-width"/>
+        </image>
+        <image id="n1" name="n1" src="au3n50" fileName="List/images/listitem_selected.png" pkg="nk9ejx23" xy="0,0" size="187,22">
+            <gearDisplay controller="button" pages="1,3"/>
+            <relation target="" sidePair="height-height,width-width"/>
+        </image>
+        <graph id="n8" name="n8" xy="0,22" size="187,1" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555">
+            <relation target="" sidePair="width-width,top-bottom"/>
+        </graph>
+        <graph id="n3" name="indent" xy="1,1" size="16,20"/>
+        <loader id="n6" name="icon" xy="30,1" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
+            <relation target="n13" sidePair="left-right"/>
+        </loader>
+        <text id="n2" name="title" xy="51,1" size="86,22" customData="k" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+            <gearDisplay controller="editing" pages="0"/>
+            <gearColor controller="button" pages="1,3" values="#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
+            <relation target="" sidePair="width-width"/>
+            <relation target="n6" sidePair="leftext-right"/>
+        </text>
+        <image id="n18_qilr" name="n18" src="gcza1r" fileName="Input/input_bg.png" pkg="nk9ejx23" xy="51,0" size="86,22">
+            <gearDisplay controller="editing" pages="1"/>
+            <relation target="" sidePair="width-width"/>
+            <relation target="n6" sidePair="leftext-right"/>
+        </image>
+        <text id="n17_qilr" name="input" xy="52,1" size="84,19" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="" input="true">
+            <gearDisplay controller="editing" pages="1"/>
+            <relation target="" sidePair="width-width"/>
+            <relation target="n6" sidePair="leftext-right"/>
+        </text>
+        <component id="n13" name="expandButton" src="au3n5n" fileName="Tree/TreeExpandButton.xml" pkg="nk9ejx23" xy="15,3">
+            <gearDisplay controller="leaf" pages="0"/>
+            <relation target="n3" sidePair="left-right"/>
+            <Button controller="expanded" page="1"/>
+        </component>
+        <graph id="n12" name="n12" xy="140,0" size="1,22" group="n16_un0b" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+        <graph id="n10" name="n10" xy="164,0" size="1,22" group="n16_un0b" type="rect" lineSize="0" lineColor="#ffcccccc" fillColor="#ff555555"/>
+        <component id="n9" name="status" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="142,1" size="20,20" group="n16_un0b">
+            <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1j"/>
+        </component>
+        <component id="n11" name="lock" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="166,1" size="20,20" group="n16_un0b">
+            <Button icon="ui://2pshu6oiizo1iu9d" selectedIcon="ui://2pshu6oiau3n1b"/>
+        </component>
+        <group id="n16_un0b" name="n16" xy="140,0" size="46,22" advanced="true">
+            <relation target="" sidePair="right-right"/>
+        </group>
+    </displayList>
+    <Button mode="Radio"/>
 </component>

@@ -13,7 +13,7 @@
     <graph id="n3" name="holder" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#00ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1" name="title" xy="1,1" size="58,18" input="true" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="">
+    <text id="n1" name="title" xy="1,0" size="58,19" fontSize="12" color="#bdbdbd" vAlign="middle" autoSize="none" singleLine="true" text="" input="true">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

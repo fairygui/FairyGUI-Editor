@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,20" extention="Label">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n6_rnct" name="n6" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#ff383838">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1" name="title" xy="1,1" size="56,18" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n5" name="input" xy="2,1" size="55,18" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" singleLine="true" text="" input="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

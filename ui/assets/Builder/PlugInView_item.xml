@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,73" extention="Button" bgColorEnabled="true" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n10" name="n10" src="au3n50" fileName="List/images/listitem_selected.png" pkg="nk9ejx23" xy="0,0" size="600,73">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n18" name="name" xy="74,4" size="516,25" fontSize="16" color="#bdbdbd" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="A Test Plugin">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <text id="n19" name="desc" xy="72,29" size="518,19" fontSize="12" color="#bdbdbd" ubb="true" autoSize="height" autoClearText="true" text="Message Message Message Message ">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <text id="n20_mvnb" name="author" xy="73,50" size="517,19" fontSize="12" color="#bdbdbd" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="Author">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n19" sidePair="top-bottom"/>
+    </text>
+    <loader id="n21_mvnb" name="icon" xy="12,10" size="48,48" url="ui://2pshu6oibo351nry31u" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <relation target="n20_mvnb" sidePair="bottomext-bottom"/>
+</component>

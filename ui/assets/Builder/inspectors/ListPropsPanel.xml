@@ -1,73 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,353" bgColorEnabled="true" bgColor="#383838">
   <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="align" pages="0,left,1,center,2,right" selected="0"/>
+  <controller name="verticalAlign" pages="0,top,1,middle,2,bottom" selected="0"/>
   <displayList>
     <text id="n17" name="n17" xy="4,7" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="列表布局"/>
+    <text id="n97" name="n97" xy="4,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行数"/>
+    <text id="n103_b8ef" name="n103" xy="134,33" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列数"/>
+    <text id="n33" name="n33" xy="4,59" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n61" name="n61" xy="134,60" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
+    <text id="n100" name="n100" xy="4,85" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <text id="n58" name="n58" xy="4,111" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
+    <text id="n108_gkk7" name="n108" xy="4,137" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="渲染顺序"/>
+    <text id="n93" name="n93" xy="4,163" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
+    <text id="n105_gkk7" name="n105" xy="4,189" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
+    <text id="n112_mfi3" name="n112" xy="4,215" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
+    <text id="n114_mfi3" name="n114" xy="4,241" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
+    <text id="n127_duy1" name="n127" xy="4,267" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="树视图"/>
+    <text id="n62" name="n62" xy="4,293" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
     <component id="n39" name="layout" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,5" size="152,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n58" name="n58" xy="4,111" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="溢出处理"/>
-    <component id="n59" name="overflow2" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,109" size="152,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <text id="n33" name="n33" xy="4,59" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n61" name="n61" xy="123,59" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列距"/>
-    <text id="n62" name="n62" xy="4,293" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="项目资源"/>
-    <component id="n63" name="editItems" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="109,319" size="100,25">
-      <Button title="编辑列表数据"/>
-    </component>
-    <component id="n64" name="lineGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,57" size="34,20">
-      <Label title="0"/>
-    </component>
-    <component id="n65" name="columnGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="198,57" size="33,20">
-      <Label title="0"/>
-    </component>
-    <component id="n67" name="defaultItem" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,293" size="173,20"/>
-    <component id="n91" name="scrollEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="245,111" size="20,20">
-      <Button icon="ui://2pshu6oix5ao5k"/>
-    </component>
-    <text id="n93" name="n93" xy="4,163" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="选择模式"/>
-    <component id="n94" name="selectionMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,161" size="152,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <text id="n97" name="n97" xy="4,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行数"/>
-    <component id="n98" name="repeatY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,31" size="34,20">
-      <Label title="0"/>
-    </component>
-    <text id="n100" name="n100" xy="4,85" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
-    <component id="n101" name="align" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,83" size="74,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n102" name="verticalAlign" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="165,83" size="74,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <text id="n103_b8ef" name="n103" xy="123,33" size="73,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="列数"/>
-    <component id="n104_b8ef" name="repeatX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="198,31" size="33,20">
-      <Label title="0"/>
-    </component>
-    <text id="n105_gkk7" name="n105" xy="4,189" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
-    <component id="n106_gkk7" name="selectionController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="87,187" size="152,20"/>
-    <text id="n108_gkk7" name="n108" xy="4,137" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="渲染顺序"/>
-    <component id="n109_gkk7" name="childrenRenderOrder" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,135" size="102,20">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <component id="n110_gkk7" name="apexIndex" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="203,135" size="33,20">
-      <Label title="0"/>
-    </component>
-    <text id="n112_mfi3" name="n112" xy="4,215" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="分页控制"/>
-    <component id="n113_mfi3" name="pageController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="87,213" size="152,20"/>
-    <text id="n114_mfi3" name="n114" xy="4,241" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="边缘"/>
-    <component id="n116_mfi3" name="margin" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,239" size="173,20" controller="noBorder,0,showClear,0"/>
     <component id="n117_byix" name="layoutEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="245,6" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
-    <text id="n127_duy1" name="n127" xy="4,267" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="树视图"/>
-    <component id="n128_duy1" name="treeViewEnabled" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="93,267" size="48,19">
+    <component id="n98" name="repeatY" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,32" size="44,20">
+      <Label title="0"/>
+    </component>
+    <component id="n104_b8ef" name="repeatX" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="209,32" size="44,20">
+      <Label title="0"/>
+    </component>
+    <component id="n64" name="lineGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,58" size="44,20">
+      <Label title="0"/>
+    </component>
+    <component id="n65" name="columnGap" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="209,59" size="44,20">
+      <Label title="0"/>
+    </component>
+    <component id="n59" name="overflow2" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,110" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n91" name="scrollEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="245,110" size="20,20">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
+    <component id="n109_gkk7" name="childrenRenderOrder" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,136" size="102,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n110_gkk7" name="apexIndex" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="203,136" size="33,20">
+      <Label title="0"/>
+    </component>
+    <component id="n94" name="selectionMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,162" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n106_gkk7" name="selectionController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="87,188" size="152,20"/>
+    <component id="n113_mfi3" name="pageController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="87,214" size="152,20"/>
+    <component id="n116_mfi3" name="margin" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,240" size="173,20" controller="noBorder,0,showClear,0"/>
+    <component id="n128_duy1" name="treeViewEnabled" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="93,267" size="47,19">
       <Button title="激活" controller="c1" page="1"/>
     </component>
     <component id="n130_osko" name="treeOption" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="151,267" size="20,20">
       <gearDisplay controller="c1" pages="1"/>
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
+    <component id="n67" name="defaultItem" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,292" size="173,20"/>
+    <component id="n63" name="editItems" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="109,319" size="100,25">
+      <Button title="编辑列表数据"/>
+    </component>
+    <component id="n131_l97l" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,83" size="22,22" group="n138_l97l">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsu" controller="align" page="0"/>
+    </component>
+    <component id="n132_l97l" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,83" size="22,22" group="n138_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsz" controller="align" page="1"/>
+    </component>
+    <component id="n133_l97l" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,83" size="22,22" group="n138_l97l">
+      <Button icon="ui://2pshu6oin1pzixict0" controller="align" page="2"/>
+    </component>
+    <component id="n134_l97l" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,83" size="22,22" group="n138_l97l">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsx" controller="verticalAlign" page="0"/>
+    </component>
+    <image id="n135_l97l" name="n135" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,85" size="1,20" group="n138_l97l"/>
+    <component id="n136_l97l" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,83" size="22,22" group="n138_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsy" controller="verticalAlign" page="1"/>
+    </component>
+    <component id="n137_l97l" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,83" size="22,22" group="n138_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsw" controller="verticalAlign" page="2"/>
+    </component>
+    <group id="n138_l97l" name="n138" xy="87,83" size="153,22"/>
   </displayList>
 </component>

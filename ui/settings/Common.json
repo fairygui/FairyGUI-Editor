@@ -1,16 +1,35 @@
 {
-	"buttonClickSound":"",
-	"colorScheme":["文本颜色 #bdbdbd","边框颜色 #151415","填充颜色 #3f3f3f","主填充颜色 #383838","输入填充颜色 #A0A0A0","亮文字 #D19036","文本框背景 #414141","分割线 #555555","按钮边框 #262424","按钮填充 #454545","选中边框 #4583CC","新分割线 #292828"],
-	"font":"Tahoma",
-	"fontScheme":["默认字体"],
-	"fontSize":12,
-	"fontSizeScheme":["自定义字体大小 30"],
-	"pivot":"default",
-	"scrollBars":{
-		"defaultDisplay":"visible",
-		"horizontal":"ui://nk9ejx23xualf",
-		"vertical":"ui://nk9ejx23xual0"
-	},
-	"textColor":"#bdbdbd",
-	"tipsRes":"ui://nk9ejx23fj4c6y"
+  "font": "",
+  "fontSize": 12,
+  "textColor": "#bdbdbd",
+  "fontAdjustment": false,
+  "colorScheme": [
+    "文本颜色 #bdbdbd",
+    "边框颜色 #151415",
+    "填充颜色 #3f3f3f",
+    "主填充颜色 #383838",
+    "输入填充颜色 #A0A0A0",
+    "亮文字 #D19036",
+    "文本框背景 #414141",
+    "分割线 #555555",
+    "按钮边框 #262424",
+    "按钮填充 #454545",
+    "选中边框 #4583CC",
+    "新分割线 #292828"
+  ],
+  "fontSizeScheme": [
+    "自定义字体大小 30"
+  ],
+  "fontScheme": [
+    "默认字体"
+  ],
+  "scrollBars": {
+    "horizontal": "ui://nk9ejx23xualf",
+    "vertical": "ui://nk9ejx23xual0",
+    "defaultDisplay": "visible"
+  },
+  "tipsRes": "ui://nk9ejx23fj4c6y",
+  "buttonClickSound": "",
+  "pivot": "default",
+  "fileName": "Common"
 }

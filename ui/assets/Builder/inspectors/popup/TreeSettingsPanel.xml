@@ -5,8 +5,8 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n135_osko" name="n135" xy="16,11" size="150,18" fontSize="12" color="#bdbdbd" autoSize="none" text="每级缩进"/>
+    <text id="n138_osko" name="n138" xy="16,43" size="150,18" fontSize="12" color="#bdbdbd" autoSize="none" text="点击文件夹时展开/折叠"/>
     <component id="n136_osko" name="indent" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="175,12" size="55,20"/>
-    <text id="n138_osko" name="n138" xy="16,43" size="150,18" fontSize="12" color="#bdbdbd" autoSize="none" text="点击文件夹时折叠"/>
     <component id="n139_osko" name="clickToExpand" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="175,41">
       <ComboBox title="否" visibleItemCount="10">
         <item title="否"/>

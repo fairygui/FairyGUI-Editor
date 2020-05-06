@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n2" name="n2" xy="6,7" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="字体"/>
+    <text id="n3" name="n3" xy="6,35" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n4" name="n4" xy="6,63" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" text="字体颜色"/>
+    <component id="n9" name="fontName" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="128,6" size="223,20"/>
+    <component id="n11" name="fontSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="128,34" size="59,20">
+      <Label title="12"/>
+    </component>
+    <component id="n12" name="textColor" src="au3n5y" fileName="ColorPicker/ColorInput.xml" pkg="nk9ejx23" xy="128,64" controller="mode,0"/>
+    <component id="n36" name="chooseFont" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="355,6" size="20,20">
+      <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <text id="n89_wqe7" name="n89" xy="6,91" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" text="默认轴心"/>
+    <component id="n90_wqe7" name="pivot" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="128,90" size="223,20">
+      <ComboBox title="左上角" visibleItemCount="10">
+        <item title="左上角" value="default"/>
+        <item title="中心作为轴心" value="center"/>
+        <item title="中心作为锚点" value="center_anchor"/>
+      </ComboBox>
+    </component>
+    <text id="n92_wqe7" name="n92" xy="6,119" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="垂直滚动条"/>
+    <text id="n93_wqe7" name="n93" xy="6,147" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="水平滚动条"/>
+    <text id="n94_wqe7" name="n94" xy="6,175" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="滚动条显示"/>
+    <component id="n95_wqe7" name="scrollBarDisplay" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="128,175" size="223,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n96_wqe7" name="vtScrollBarRes" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="128,118" size="223,20"/>
+    <component id="n97_wqe7" name="hzScrollBarRes" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="128,146" size="223,20"/>
+    <text id="n98_wqe7" name="n98" xy="6,203" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="TIPS组件"/>
+    <component id="n99_wqe7" name="tipsRes" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="128,203" size="223,20"/>
+    <text id="n100_wqe7" name="n100" xy="6,231" size="118,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="按钮点击声音"/>
+    <component id="n101_wqe7" name="buttonClickSound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="128,230" size="223,20"/>
+  </displayList>
+</component>

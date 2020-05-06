@@ -2,9 +2,9 @@
 <component size="270,26" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <graph id="n0_r1st" name="n0" xy="4,2" size="261,21" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
-    <component id="n1_r1st" name="title" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="32,4" size="66,18">
+    <component id="n1_r1st" name="title" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="32,3" size="66,18">
       <Button title="资源名称"/>
     </component>
-    <loader id="n2_r1st" name="icon" xy="12,5" size="16,16" align="center" vAlign="middle"/>
+    <loader id="n2_r1st" name="icon" xy="10,3" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
   </displayList>
 </component>

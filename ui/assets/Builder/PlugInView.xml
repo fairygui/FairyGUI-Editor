@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="424,546" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <list id="n19" name="list" xy="0,35" size="424,510" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiocfaiu8s" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n52_mvnb" name="n52" xy="0,34" size="424,1" type="rect" lineColor="#ff292828" fillColor="#00383838">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n53_mvnb" name="btnBrowse1" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="5,6" size="22,22" tooltips="打开用户空间插件文件夹">
+      <Button icon="ui://2pshu6oimvnbixicvd"/>
+    </component>
+    <component id="n54_mvnb" name="btnRestart" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="396,6" size="22,22" tooltips="重新载入">
+      <relation target="" sidePair="right-right"/>
+      <Button icon="ui://2pshu6oimvnbixicvi"/>
+    </component>
+    <component id="n56_mvnb" name="btnBrowse2" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="70,6" size="22,22" tooltips="打开项目空间插件文件夹">
+      <Button icon="ui://2pshu6oimvnbixicvd"/>
+    </component>
+    <text id="n57_mvnb" name="n57" xy="27,9" size="43,19" fontSize="12" color="#bdbdbd" autoSize="none" text="用户"/>
+    <text id="n58_mvnb" name="n58" xy="93,9" size="63,19" fontSize="12" color="#bdbdbd" autoSize="none" text="项目"/>
+  </displayList>
+</component>

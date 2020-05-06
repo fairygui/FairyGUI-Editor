@@ -10,7 +10,7 @@
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="height-height,width-width"/>
     </image>
-    <text id="n2" name="title" xy="5,5" size="10,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="">
+    <text id="n2" name="title" xy="5,5" size="10,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="">
       <gearColor controller="button" pages="0,1,2,3" values="#bdbdbd,#000000|#ffffff,#000000|#bdbdbd,#000000|#ffffff,#000000"/>
       <relation target="" sidePair="width-width,middle-middle"/>
     </text>

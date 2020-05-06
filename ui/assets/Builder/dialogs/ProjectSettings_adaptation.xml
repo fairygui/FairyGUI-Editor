@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <controller name="scaleMode" pages="0,ScaleWithScreenSize,1,ConstantPixelSize" selected="0"/>
+  <displayList>
+    <text id="n69_q6js" name="n69" xy="6,7" size="115,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="缩放模式"/>
+    <component id="n70_q6js" name="scaleMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="124,6" size="223,20">
+      <ComboBox title="根据屏幕大小缩放" visibleItemCount="10" selectionController="scaleMode">
+        <item title="根据屏幕大小缩放" value="ScaleWithScreenSize"/>
+        <item title="不缩放" value="ConstantPixelSize"/>
+      </ComboBox>
+    </component>
+    <component id="n71_q6js" name="designResolutionX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="124,63" size="89,20" controller="xy,0"/>
+    <text id="n72_q6js" name="n72" xy="6,65" size="115,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="设计分辨率"/>
+    <text id="n73_q6js" name="n73" xy="6,35" size="115,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="适配模式"/>
+    <component id="n74_q6js" name="designResolutionY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="219,63" size="89,20" controller="xy,1"/>
+    <component id="n75_q6js" name="screenMatchMode" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="124,34" size="223,20">
+      <ComboBox title="适应宽度和高度" visibleItemCount="10">
+        <item title="适应宽度和高度" value="MatchWidthOrHeight"/>
+        <item title="适应宽度" value="MatchWidth"/>
+        <item title="适应高度" value="MatchHeight"/>
+      </ComboBox>
+    </component>
+    <graph id="n106_mdir" name="n106" xy="11,127" size="415,278" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n107_mdir" name="list" xy="12,148" size="413,256" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oiueboixicsn" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n108_mdir" name="add" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="124,92" size="22,22" group="n113_mdir">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n109_mdir" name="remove" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="180,92" size="22,22" group="n113_mdir">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <component id="n110_mdir" name="moveUp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="208,92" size="22,22" group="n113_mdir">
+      <Button icon="ui://2pshu6oiu3n8iud6"/>
+    </component>
+    <component id="n111_mdir" name="moveDown" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="236,92" size="22,22" group="n113_mdir">
+      <Button icon="ui://2pshu6oiu3n8iud5"/>
+    </component>
+    <component id="n112_mdir" name="insert" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="152,92" size="22,22" group="n113_mdir">
+      <Button icon="ui://2pshu6oioskoixicub"/>
+    </component>
+    <group id="n113_mdir" name="n113" xy="124,92" size="134,22"/>
+    <image id="n114_mdir" name="n114" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="11,127" size="415,21" group="n121_mdir"/>
+    <image id="n115_mdir" name="n115" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="204,128" size="1,19" group="n121_mdir"/>
+    <text id="n116_mdir" name="n116" xy="16,129" size="182,18" group="n121_mdir" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
+    <text id="n117_mdir" name="n117" xy="212,129" size="87,18" group="n121_mdir" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="长度"/>
+    <image id="n118_mdir" name="n118" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="305,128" size="1,19" group="n121_mdir"/>
+    <text id="n119_mdir" name="n119" xy="313,129" size="87,18" group="n121_mdir" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽度"/>
+    <image id="n120_mdir" name="n120" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="407,128" size="1,19" group="n121_mdir"/>
+    <group id="n121_mdir" name="n121" xy="11,127" size="415,21"/>
+    <text id="n122_mdir" name="n122" xy="6,93" size="115,19" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="设备配置"/>
+  </displayList>
+</component>

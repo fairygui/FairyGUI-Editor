@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="270,90" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n74_vdln" name="n74" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="当前值"/>
-    <component id="n75_vdln" name="value" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,60"/>
-    <text id="n76_vdln" name="n76" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大值"/>
-    <component id="n77_vdln" name="max" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,34"/>
     <text id="n78_vdln" name="n78" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最小值"/>
+    <text id="n76_vdln" name="n76" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大值"/>
+    <text id="n74_vdln" name="n74" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="当前值"/>
     <component id="n79_vdln" name="min" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,7"/>
+    <component id="n77_vdln" name="max" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,34"/>
+    <component id="n75_vdln" name="value" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,60"/>
   </displayList>
 </component>

@@ -7,20 +7,20 @@
     </component>
     <text id="n1" name="n1" xy="7,35" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="组件名称"/>
     <text id="n2" name="n2" xy="7,65" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="大小"/>
+    <text id="n9" name="n9" xy="168,66" size="11,18" fontSize="12" color="#bdbdbd" text="X"/>
+    <text id="n12" name="n12" xy="7,93" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
     <component id="n3" name="n3" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="91,34" size="211,20" controller="noBorder,0"/>
+    <component id="n8" name="n8" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="91,63" controller="noBorder,0"/>
+    <component id="n10" name="n10" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="187,63" controller="noBorder,0"/>
+    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="91,92" size="210,20" controller="noBorder,0"/>
+    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="306,89" size="30,25">
+      <Button title="..."/>
+    </component>
     <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="80,158">
       <Button title="创建"/>
     </component>
     <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="198,158">
       <Button title="取消"/>
-    </component>
-    <component id="n8" name="n8" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="91,63" controller="noBorder,0"/>
-    <text id="n9" name="n9" xy="168,66" size="11,18" fontSize="12" color="#bdbdbd" text="X"/>
-    <component id="n10" name="n10" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="187,63" controller="noBorder,0"/>
-    <text id="n12" name="n12" xy="7,93" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="创建位置"/>
-    <component id="n13" name="n13" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="91,92" size="210,20" controller="noBorder,0"/>
-    <component id="n14" name="n14" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="306,89" size="30,25">
-      <Button title="..."/>
     </component>
   </displayList>
 </component>

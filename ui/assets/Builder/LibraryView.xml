@@ -26,7 +26,7 @@
       <relation target="" sidePair="width-width"/>
       <ComboBox visibleItemCount="10"/>
     </component>
-    <list id="n3" name="treeView" xy="0,27" size="179,553" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" autoClearItems="true" treeView="true" indent="15" clickToExpand="2">
+    <list id="n3" name="treeView" xy="0,27" size="137,553" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6t" autoClearItems="true" treeView="true" indent="15" clickToExpand="2">
       <relation target="" sidePair=""/>
       <item title="Package" icon="ui://2pshu6oiptssa7iug6" level="0"/>
       <item title="Folder" icon="ui://2pshu6oin8o8a7iug2" level="1"/>
@@ -35,21 +35,29 @@
       <item title="Image" icon="ui://2pshu6oiau3n22" level="2"/>
       <item title="MovieClip" icon="ui://2pshu6oiau3n1e" level="2"/>
       <item title="Swf" icon="ui://2pshu6oig5gnixics7" level="2"/>
+      <item title="Spine" icon="ui://2pshu6oikmrmixicuz" level="2"/>
+      <item title="DragonBones" icon="ui://2pshu6oiguwfixicv6" level="2"/>
       <item title="Font" icon="ui://2pshu6oiau3n4l" level="2"/>
       <item title="Label" icon="ui://2pshu6oimclsiuby" level="2"/>
       <item title="ComboBox" icon="ui://2pshu6oimclsiubu" level="2"/>
       <item title="ProgressBar" icon="ui://2pshu6oimclsiubw" level="2"/>
       <item title="Slider" icon="ui://2pshu6oimclsiubx" level="2"/>
       <item title="ScrollBar" icon="ui://2pshu6oiitz3iuc3" level="2"/>
-      <item title="Branch" icon="ui://2pshu6oipzcca7iuir" level="1"/>
       <item title="Folder" icon="ui://2pshu6oin8o8a7iug2" level="2"/>
-      <item title="Misc" icon="ui://2pshu6oik1m2a7iuiy" level="3"/>
-      <item title="Sound" icon="ui://2pshu6oig5gnixics8" level="3"/>
+      <item title="Json" icon="ui://2pshu6oikmrmixicv1" level="2"/>
+      <item title="Txt" icon="ui://2pshu6oikmrmixicv3" level="2"/>
+      <item title="Branch" icon="ui://2pshu6oipzcca7iuir" level="1"/>
+      <item title="Misc" icon="ui://2pshu6oiifjkixicwq" level="2"/>
+      <item title="Sound" icon="ui://2pshu6oig5gnixics8" level="2"/>
     </list>
-    <component id="n14_emg4" name="sep" src="e80aixictx" fileName="LibView_sep.xml" xy="179,27" restrictSize="4,4,0,0" group="n16_emg4"/>
-    <list id="n15_emg4" name="listView" xy="183,27" size="100,553" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23d8p07iuek"/>
+    <component id="n14_emg4" name="sep" src="e80aixictx" fileName="LibView_sep.xml" xy="137,27" restrictSize="4,4,0,0" group="n16_emg4"/>
+    <list id="n15_emg4" name="listView" xy="141,27" size="142,531" group="n16_emg4" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23d8p07iuek"/>
     <group id="n16_emg4" name="columns" xy="0,27" size="283,553" advanced="true" layout="hz" excludeInvisibles="true" autoSizeDisabled="true" mainGridIndex="2">
       <relation target="" sidePair="width-width,height-height"/>
     </group>
+    <component id="n18_ep4r" name="iconSize" src="nw20ixicv7" fileName="LibraryView_Slider.xml" xy="138,558">
+      <relation target="n15_emg4" sidePair="width-width"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
   </displayList>
 </component>

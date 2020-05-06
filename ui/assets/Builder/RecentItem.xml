@@ -2,8 +2,8 @@
 <component size="600,30" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <richtext id="n0_et85" name="title" xy="33,3" size="154,23" fontSize="16" color="#68baba" ubb="true" singleLine="true" autoClearText="true" text="[url=xx]FairyGUI-Unity-Demo[/url]"/>
-    <text id="n1_et85" name="path" xy="194,5" size="401,20" fontSize="13" color="#bdbdbd" autoSize="none" autoClearText="true" text="/Users/Documents/FairyGUI">
+    <richtext id="n0_et85" name="title" xy="33,3" size="166,24" fontSize="16" color="#68baba" ubb="true" singleLine="true" autoClearText="true" text="[url=xx]FairyGUI-Unity-Demo[/url]"/>
+    <text id="n1_et85" name="path" xy="208,5" size="387,20" fontSize="13" color="#bdbdbd" autoSize="none" autoClearText="true" text="/Users/Documents/FairyGUI">
       <relation target="n0_et85" sidePair="leftext-right"/>
       <relation target="" sidePair="width-width"/>
     </text>

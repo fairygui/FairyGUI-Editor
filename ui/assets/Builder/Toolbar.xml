@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1192,27" bgColorEnabled="true" bgColor="#383838">
+  <controller name="test" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n43" name="viewScale" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="575,4" size="80,20" tooltips="放大：Ctrl+&apos;+&apos;
+缩小：Ctrl+&apos;-&apos;
+自由缩放：Ctrl+鼠标滚轮
+恢复到100%：Ctrl+1">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n45" name="tbCreateCom" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="31,1" size="28,24" tooltips="新建组件">
+      <Button icon="ui://2pshu6oiau3n1p"/>
+    </component>
+    <component id="n46" name="tbCreateButton" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="89,1" size="28,24" tooltips="新建按钮">
+      <Button icon="ui://2pshu6oiau3n1l"/>
+    </component>
+    <component id="n47" name="tbSave" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="302,1" size="28,24" tooltips="保存(Ctrl+S)">
+      <Button icon="ui://2pshu6oiau3n2d"/>
+    </component>
+    <component id="n48" name="tbSaveAll" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="332,1" size="28,24" tooltips="全部保存">
+      <Button icon="ui://2pshu6oiau3n2c"/>
+    </component>
+    <image id="n51" name="n51" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="295,3" aspect="true"/>
+    <image id="n52" name="n52" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="362,3" aspect="true"/>
+    <component id="n74" name="tbCreateFont" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="205,1" size="28,24" tooltips="新建位图字体">
+      <Button icon="ui://2pshu6oiau3n4l"/>
+    </component>
+    <component id="n75" name="tbImport" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="263,1" size="28,24" tooltips="导入素材">
+      <Button icon="ui://2pshu6oimkfyiub7"/>
+    </component>
+    <image id="n81" name="n81" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="463,3" aspect="true"/>
+    <component id="n84" name="tbPublish" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="368,1" size="28,24" tooltips="发布(F9)">
+      <Button icon="ui://2pshu6oiau3n29"/>
+    </component>
+    <component id="n85" name="tbTest" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="469,1" size="28,24" tooltips="测试(F5)">
+      <gearDisplay controller="test" pages="0"/>
+      <Button icon="ui://2pshu6oiau3n2a"/>
+    </component>
+    <component id="n87" name="tbCreateMc" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="234,1" size="28,24" tooltips="新建动画">
+      <Button icon="ui://2pshu6oiau3n1e"/>
+    </component>
+    <image id="n101_jv5l" name="n101" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="666,3" aspect="true"/>
+    <component id="n107_o859" name="tbCreateComboBox" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="118,1" size="28,24" tooltips="新建下拉框">
+      <Button icon="ui://2pshu6oimclsiubu"/>
+    </component>
+    <component id="n108_o859" name="tbCreateProgressBar" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="147,1" size="28,24" tooltips="新建进度条">
+      <Button icon="ui://2pshu6oimclsiubw"/>
+    </component>
+    <component id="n109_mcls" name="tbCreateSlider" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="176,1" size="28,24" tooltips="新建滑动条">
+      <Button icon="ui://2pshu6oimclsiubx"/>
+    </component>
+    <component id="n110_f4bq" name="tbCreateLabel" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="60,1" size="28,24" tooltips="新建标签">
+      <Button icon="ui://2pshu6oimclsiuby"/>
+    </component>
+    <component id="n121_qilr" name="tbCanvas" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="543,1" size="28,24" tooltips="显示设置">
+      <Button icon="ui://2pshu6oiqilr7iuf6"/>
+    </component>
+    <component id="n122_qilr" name="tbPublishSettings" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="428,1" size="28,24" tooltips="发布设置">
+      <Button icon="ui://2pshu6oiqilr7iuf2"/>
+    </component>
+    <component id="n123_qilr" name="tbPublishDesc" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="398,1" size="28,24" tooltips="发布定义(F10)">
+      <Button icon="ui://2pshu6oiqilr7iuf4"/>
+    </component>
+    <image id="n125_qilr" name="n125" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="535,3" aspect="true"/>
+    <component id="n127_qilr" name="branches" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="705,4" size="116,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n129_dp9p" name="tbCreatePkg" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="2,1" size="28,24" tooltips="新建包">
+      <Button icon="ui://2pshu6oior3eixicsk"/>
+    </component>
+    <component id="n131_s3qd" name="lang" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="861,4" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n132_s3qd" name="tbStopTest" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="469,1" size="28,24" tooltips="退出测试(ESC)">
+      <gearDisplay controller="test" pages="1"/>
+      <Button icon="ui://2pshu6oiqilr7iuf5"/>
+    </component>
+    <component id="n133_s3qd" name="tbReload" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="500,1" size="28,24" touchable="false" grayed="true" tooltips="重新载入(F5)">
+      <gearLook controller="test" pages="0" values="1,0,1,0" default="1,0,0,1"/>
+      <Button icon="ui://2pshu6oiqilr7iuf3"/>
+    </component>
+    <component id="n134_nhhk" name="tbBranch" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="674,1" size="28,24" tooltips="发布设置">
+      <Button icon="ui://2pshu6oiquc9ixicsh"/>
+    </component>
+    <component id="n135_nhhk" name="tbLang" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="830,1" size="28,24" tooltips="语言设置">
+      <Button icon="ui://2pshu6oigj1q7iuek"/>
+    </component>
+  </displayList>
+</component>

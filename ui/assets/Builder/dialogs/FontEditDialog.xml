@@ -1,52 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="650,522">
+  <controller name="ttf" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="650,522" locked="true">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="650,522">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="编辑字体"/>
     </component>
     <graph id="n12" name="n12" xy="9,29" size="452,373" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
-    <list id="n1" name="n1" xy="10,50" size="450,350" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n42" autoClearItems="true">
+    <list id="n1" name="list" xy="10,50" size="450,350" overflow="scroll" margin="1,1,1,1" defaultItem="ui://2pshu6oiau3n42" autoClearItems="true">
       <item/>
       <item/>
       <item/>
     </list>
-    <graph id="n2" name="n2" xy="467,29" size="173,373" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
-    <text id="n5" name="n5" xy="12,415" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体大小"/>
-    <text id="n13" name="n13" xy="471,31" size="163,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
-    <component id="n15" name="n15" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="470,53" size="166,343"/>
-    <text id="n18" name="n18" xy="154,415" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="默认占位"/>
-    <component id="n6" name="n6" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="95,414" size="54,20" controller="noBorder,0,showClear,0"/>
-    <component id="n19" name="n19" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="237,414" size="54,20" controller="noBorder,0,showClear,0"/>
-    <component id="n20" name="n20" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="296,416" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值"/>
-    <component id="n23" name="n23" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="136,449" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放">
-      <relation target="n24" sidePair="left-right"/>
-    </component>
-    <component id="n24" name="n24" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="17,448" size="120,19">
-      <Button title="允许动态改变字号"/>
-    </component>
-    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="508,365" size="92,25">
-      <Button title="删除选定字符"/>
-    </component>
-    <component id="n9" name="n9" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="174,482" group="n25">
-      <Button title="保存"/>
-    </component>
-    <component id="n10" name="n10" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="391,482" group="n25">
-      <Button title="取消"/>
-    </component>
-    <component id="n17" name="n17" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="285,482" group="n25">
-      <Button title="应用"/>
-    </component>
-    <group id="n25" name="n25" xy="174,482" size="302,25"/>
-    <component id="n26" name="n26" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="294,449" tooltips="勾选后，使用这个字体的文本可以设置字体图片的颜色">
-      <relation target="n27" sidePair="left-right"/>
-    </component>
-    <component id="n27" name="n27" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="175,448" size="120,19">
-      <Button title="允许动态改变颜色"/>
-    </component>
-    <text id="n3" name="n3" xy="382,415" size="80,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集"/>
-    <component id="n29" name="fontTexture" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="467,413" size="150,20" group="n28" grayed="true"/>
-    <group id="n28" name="n28" xy="382,413" size="235,20" advanced="true"/>
     <image id="n40_mwte" name="n40" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="9,29" size="452,21" group="n50_mwte"/>
     <image id="n41_mwte" name="n41" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="255,30" size="1,19" group="n50_mwte"/>
     <image id="n42_mwte" name="n42" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="380,30" size="1,19" group="n50_mwte"/>
@@ -58,5 +23,48 @@
     <text id="n48_mwte" name="n48" xy="319,31" size="57,18" group="n50_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="偏移Y"/>
     <text id="n49_mwte" name="n49" xy="384,31" size="60,16" group="n50_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="占位"/>
     <group id="n50_mwte" name="n50" xy="9,29" size="452,21"/>
+    <graph id="n2" name="n2" xy="467,29" size="173,373" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <text id="n13" name="imageInfo" xy="471,31" size="163,18" fontSize="12" color="#bdbdbd" autoSize="none" text=""/>
+    <component id="n15" name="imageContainer" src="au3n3y" fileName="dialogs/ImageContainer.xml" xy="470,53" size="166,343"/>
+    <component id="n7" name="deleteChar" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="508,365" size="92,25">
+      <gearDisplay controller="ttf" pages="0"/>
+      <Button title="删除选定字符"/>
+    </component>
+    <text id="n5" name="n5" xy="12,415" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体大小"/>
+    <component id="n6" name="size" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="95,414" size="54,20">
+      <gearLook controller="ttf" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <text id="n18" name="n18" xy="154,415" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="默认占位"/>
+    <component id="n19" name="xadvance" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="237,414" size="54,20">
+      <gearLook controller="ttf" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+    </component>
+    <component id="n20" name="n20" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="296,416" tooltips="当表格中的占位设置为0时，&#xA;使用这里的值">
+      <gearDisplay controller="ttf" pages="0"/>
+    </component>
+    <component id="n24" name="resizable" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="17,448" size="119,19">
+      <Button title="允许动态改变字号"/>
+    </component>
+    <component id="n23" name="n23" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="135,449" tooltips="勾选后，使用这个字体的文本可以设置字体大小使图片缩放">
+      <relation target="n24" sidePair="left-right"/>
+    </component>
+    <component id="n27" name="colored" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="175,448" size="119,19">
+      <Button title="允许动态改变颜色"/>
+    </component>
+    <component id="n26" name="n26" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="293,449" tooltips="勾选后，使用这个字体的文本可以设置字体图片的颜色">
+      <relation target="n27" sidePair="left-right"/>
+    </component>
+    <text id="n3" name="n3" xy="332,415" size="80,18" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="纹理集"/>
+    <component id="n29" name="fontTexture" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="417,413" size="223,20" group="n28"/>
+    <group id="n28" name="atlas" xy="332,413" size="308,20" advanced="true"/>
+    <component id="n9" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="174,482" group="n25">
+      <Button title="保存"/>
+    </component>
+    <component id="n17" name="apply" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="285,482" group="n25">
+      <Button title="应用"/>
+    </component>
+    <component id="n10" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="391,482" group="n25">
+      <Button title="取消"/>
+    </component>
+    <group id="n25" name="n25" xy="174,482" size="302,25"/>
   </displayList>
 </component>

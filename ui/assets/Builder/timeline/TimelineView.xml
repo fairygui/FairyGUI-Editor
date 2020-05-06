@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="650,103" scroll="horizontal" bgColorEnabled="true" bgColor="#383838">
-  <controller name="status" pages="0,,1,,2," selected="0"/>
+  <controller name="status" pages="0,,1,,2," selected="2"/>
   <displayList>
     <graph id="n17" name="n17777" xy="170,23" size="1,63" type="rect" lineSize="0" lineColor="#ffa6a6a6" fillColor="#ff555555">
       <relation target="" sidePair="height-height"/>
@@ -22,28 +22,47 @@
       <item/>
       <item/>
     </list>
-    <list id="n29" name="list" xy="171,23" size="478,78" overflow="scroll" scroll="both" margin="0,3,0,0" scrollBarMargin="0,0,104,0" defaultItem="ui://2pshu6oi85piu7f">
+    <list id="n29" name="list" xy="171,23" size="479,78" overflow="scroll" scroll="both" margin="0,3,0,0" scrollBarMargin="0,0,104,0" defaultItem="ui://2pshu6oi85piu7f" autoClearItems="true">
       <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
     </list>
     <component id="n15" name="inner" src="f9sbu7i" fileName="timeline/TimelinePanelInner.xml" xy="171,0" size="465,88" touchable="false">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <component id="n33_mcag" name="selContainer" src="bhgeiuad" fileName="timeline/TimelinePanelSelection.xml" xy="171,23" size="465,64" touchable="false">
+    <list id="n45_7s7j" name="timeTitles" xy="171,3" size="472,19" touchable="false" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="160" scrollBar="hidden" defaultItem="ui://2pshu6oi7s7j1nry31g" autoClearItems="true">
+      <relation target="" sidePair="width-width"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n33_mcag" name="selContainer" src="bhgeiuad" fileName="timeline/TimelinePanelSelection.xml" xy="171,23" size="467,64" touchable="false">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <text id="n21" name="n21" xy="5,87" size="26,17" group="n23" fontSize="11" color="#bdbdbd" autoSize="none" text="FPS: "/>
-    <text id="n22" name="fps" xy="25,87" size="21,17" group="n23" fontSize="11" color="#d19036" align="right" autoSize="none" text="24"/>
-    <text id="n24" name="n24" xy="55,87" size="36,17" group="n23" fontSize="11" color="#bdbdbd" autoSize="none" text="frame:"/>
-    <text id="n25" name="frame" xy="90,87" size="19,17" group="n23" fontSize="11" color="#d19036" autoSize="none" text="24"/>
-    <text id="n26" name="n26" xy="113,87" size="30,17" group="n23" fontSize="11" color="#bdbdbd" text="time:"/>
-    <text id="n27" name="time" xy="141,87" size="48,16" group="n23" fontSize="11" color="#d19036" autoSize="none" text="1s"/>
-    <component id="n38_kbvs" name="maxFrame" src="gcza2c" fileName="Slider/Slider_HZ.xml" pkg="nk9ejx23" xy="209,89" size="61,12" group="n23">
+    <text id="n21" name="n21" xy="5,86" size="26,18" group="n23" fontSize="11" color="#bdbdbd" autoSize="none" text="FPS: "/>
+    <text id="n22" name="fps" xy="25,86" size="21,18" group="n23" fontSize="11" color="#d19036" align="right" autoSize="none" text="24"/>
+    <text id="n24" name="n24" xy="55,86" size="36,18" group="n23" fontSize="11" color="#bdbdbd" autoSize="none" text="frame:"/>
+    <text id="n25" name="frame" xy="90,86" size="19,18" group="n23" fontSize="11" color="#d19036" autoSize="none" text="24"/>
+    <text id="n26" name="n26" xy="113,86" size="32,18" group="n23" fontSize="11" color="#bdbdbd" autoSize="none" text="time:"/>
+    <text id="n27" name="time" xy="141,86" size="48,18" group="n23" fontSize="11" color="#d19036" autoSize="none" text="1s"/>
+    <component id="n38_kbvs" name="maxFrame" src="gcza2c" fileName="Slider/Slider_HZ.xml" pkg="nk9ejx23" xy="209,86" size="61,16" group="n23">
       <Slider max="20"/>
     </component>
-    <group id="n23" name="n23" xy="5,87" size="265,17" advanced="true">
+    <group id="n23" name="n23" xy="5,86" size="265,18" advanced="true">
       <relation target="" sidePair="bottom-bottom"/>
     </group>
-    <text id="n30" name="prompt" xy="179,29" size="211,18" fontSize="12" color="#bdbdbd" text="在动效列表界面双击动效进入编辑模式">
+    <text id="n30" name="prompt" xy="179,29" size="268,19" fontSize="12" color="#bdbdbd" text="选择一个元件后，在右键菜单中选择改变目标属性">
       <gearDisplay controller="status" pages="0,1"/>
       <gearText controller="status" pages="0" values="在动效列表界面双击动效进入编辑模式" default="选择一个元件后，在右键菜单中选择改变目标属性"/>
     </text>

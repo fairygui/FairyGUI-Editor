@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,252" bgColorEnabled="true" bgColor="#383838">
+  <controller name="align" pages="0,left,1,center,2,right" selected="0"/>
+  <controller name="verticalAlign" pages="0,top,1,middle,2,bottom" selected="0"/>
+  <displayList>
+    <text id="n46" name="n46" xy="4,166" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="动画"/>
+    <text id="n48_o9a4" name="n48" xy="4,222" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="皮肤"/>
+    <text id="n54_l97l" name="n54" xy="4,9" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="URL"/>
+    <text id="n55_l97l" name="n55" xy="4,59" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="填充处理"/>
+    <text id="n56_l97l" name="n56" xy="4,110" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对齐"/>
+    <text id="n72_x133" name="n72" xy="4,138" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色"/>
+    <text id="n77_pdlw" name="n77" xy="4,194" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="帧"/>
+    <component id="n57_l97l" name="url" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="87,7" size="152,20"/>
+    <component id="n58_l97l" name="clearOnPublish" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="243,7" size="24,24" tooltips="发布时清除">
+      <Button icon="ui://2pshu6oiyy9iiuck"/>
+    </component>
+    <component id="n59_l97l" name="autoSize" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="86,31" size="71,19">
+      <Button title="自动大小"/>
+    </component>
+    <component id="n60_l97l" name="fill" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,57" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n61_l97l" name="shrinkOnly" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="86,83" size="83,19">
+      <Button title="仅允许缩小"/>
+    </component>
+    <component id="n64_l97l" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,109" size="22,22" group="n71_l97l">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsu" controller="align" page="0"/>
+    </component>
+    <component id="n65_l97l" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,109" size="22,22" group="n71_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsz" controller="align" page="1"/>
+    </component>
+    <component id="n66_l97l" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,109" size="22,22" group="n71_l97l">
+      <Button icon="ui://2pshu6oin1pzixict0" controller="align" page="2"/>
+    </component>
+    <component id="n67_l97l" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,109" size="22,22" group="n71_l97l">
+      <Button checked="true" icon="ui://2pshu6oin1pzixicsx" controller="verticalAlign" page="0"/>
+    </component>
+    <image id="n68_l97l" name="n68" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,111" size="1,20" group="n71_l97l"/>
+    <component id="n69_l97l" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,109" size="22,22" group="n71_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsy" controller="verticalAlign" page="1"/>
+    </component>
+    <component id="n70_l97l" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,109" size="22,22" group="n71_l97l">
+      <Button icon="ui://2pshu6oin1pzixicsw" controller="verticalAlign" page="2"/>
+    </component>
+    <group id="n71_l97l" name="n71" xy="87,109" size="153,22"/>
+    <component id="n73_x133" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,139"/>
+    <component id="n45" name="animationName" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,165" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n79_pdlw" name="playing" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="153,194" size="47,19">
+      <Button title="播放"/>
+    </component>
+    <component id="n78_pdlw" name="frame" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,194"/>
+    <component id="n47_o9a4" name="loop" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="214,194" size="47,19">
+      <Button title="循环"/>
+    </component>
+    <component id="n49_o9a4" name="skinName" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,224" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

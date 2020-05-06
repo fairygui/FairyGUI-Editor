@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,308" bgColorEnabled="true" bgColor="#383838">
+<component size="270,255" bgColorEnabled="true" bgColor="#383838">
   <controller name="align" pages="0,left,1,center,2,right" selected="0"/>
   <controller name="verticalAlign" pages="0,top,1,middle,2,bottom" selected="0"/>
   <displayList>
-    <text id="n17" name="n17" xy="4,97" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
-    <text id="n33" name="n33" xy="4,123" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
-    <text id="n35" name="n35" xy="4,149" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
-    <component id="n45" name="autoSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,200" size="122,20">
-      <ComboBox visibleItemCount="10"/>
+    <text id="n17" name="n17" xy="4,97" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="字体"/>
+    <text id="n33" name="n33" xy="4,123" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字体大小"/>
+    <text id="n35" name="n35" xy="4,149" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="颜色"/>
+    <text id="n42" name="n42" xy="4,175" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
+    <text id="n44" name="n44" xy="126,175" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <text id="n46" name="n46" xy="4,201" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
+    <text id="n113_uebo" name="n113" xy="4,227" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <component id="n60" name="text" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="5,4" size="260,60" controller="showEditButton,1">
+      <Label titleFontSize="13"/>
     </component>
-    <text id="n46" name="n46" xy="4,201" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="自动大小"/>
-    <text id="n42" name="n42" xy="4,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="行距"/>
-    <text id="n44" name="n44" xy="126,175" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="字距"/>
+    <component id="n91_jp7y" name="ubbEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="5,68" size="22,22" tooltips="允许使用UBB语法。例如：[b]文本[/b]">
+      <Button checked="true" icon="ui://2pshu6oiyy9iiuci"/>
+    </component>
+    <component id="n94_jp7y" name="varsEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="29,68" size="22,22" tooltips="允许使用模板。例如：数量：{count=100}">
+      <Button icon="ui://2pshu6oiyy9iiucl"/>
+    </component>
+    <component id="n92_jp7y" name="singleLine" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="53,68" size="22,22" tooltips="单行">
+      <Button icon="ui://2pshu6oiyy9iiucp"/>
+    </component>
+    <component id="n97_r1st" name="bold" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="77,68" size="22,22" tooltips="粗体">
+      <Button icon="ui://2pshu6oiyy9iiucn"/>
+    </component>
+    <component id="n98_r1st" name="italic" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="101,68" size="22,22" tooltips="斜体">
+      <Button icon="ui://2pshu6oiyy9iiucm"/>
+    </component>
+    <component id="n99_r1st" name="underline" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="125,68" size="22,22" tooltips="下划线">
+      <Button icon="ui://2pshu6oiyy9iiuco"/>
+    </component>
+    <image id="n96_jp7y" name="n96" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="175,69" size="1,20"/>
+    <component id="n93_jp7y" name="clearOnPublish" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="180,68" size="22,22" tooltips="发布时清除文本">
+      <Button icon="ui://2pshu6oiyy9iiuck"/>
+    </component>
+    <component id="n63" name="font" src="nbr4iudj" fileName="basic/FontInput.xml" xy="87,95" size="175,22"/>
+    <component id="n55" name="fontSize" src="nbr4iudi" fileName="basic/FontSizeInput.xml" xy="87,122">
+      <Label title="12"/>
+    </component>
     <component id="n56" name="color" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,148"/>
     <component id="n58" name="leading" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,173" size="34,20">
       <Label title="12"/>
@@ -19,72 +46,34 @@
     <component id="n59" name="letterSpacing" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="209,173" size="34,20">
       <Label title="12"/>
     </component>
-    <component id="n60" name="text" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="5,4" size="260,60" controller="showEditButton,1"/>
-    <component id="n63" name="font" src="nbr4iudj" fileName="basic/FontInput.xml" xy="87,95" size="175,22"/>
-    <component id="n66" name="strokeColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="162,256"/>
-    <component id="n68" name="stroke" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,253" size="27,19"/>
-    <component id="n55" name="fontSize" src="nbr4iudi" fileName="basic/FontSizeInput.xml" xy="87,122">
-      <Label title="12"/>
+    <component id="n45" name="autoSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,200" size="122,20">
+      <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n82" name="strokeSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="106,253" size="34,20">
-      <Label title="1"/>
+    <component id="n114_fnb6" name="strike" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="149,68" size="22,22" tooltips="删除线">
+      <Button icon="ui://2pshu6oifnb6ixicvn"/>
     </component>
-    <component id="n83" name="shadow" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="87,280" size="27,19"/>
-    <component id="n85" name="shadowX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="106,281" size="51,20">
-      <Label title="1"/>
-    </component>
-    <component id="n86" name="shadowY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="164,281" size="51,20" controller="xy,1">
-      <Label title="1"/>
-    </component>
-    <component id="n89_jp7y" name="inputEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="204,69" size="20,20" tooltips="输入设置">
-      <Button icon="ui://2pshu6oix5ao5k"/>
-    </component>
-    <component id="n90_jp7y" name="input" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="179,68" size="22,22" tooltips="输入文本">
-      <Button icon="ui://2pshu6oiyy9iiucj"/>
-    </component>
-    <component id="n91_jp7y" name="ubbEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="5,68" size="22,22" tooltips="允许使用UBB语法。例如：[b]文本[/b]">
-      <Button checked="true" icon="ui://2pshu6oiyy9iiuci"/>
-    </component>
-    <component id="n92_jp7y" name="singleLine" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="53,68" size="22,22" tooltips="单行">
-      <Button icon="ui://2pshu6oiyy9iiucp"/>
-    </component>
-    <component id="n93_jp7y" name="clearOnPublish" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="155,68" size="22,22" tooltips="发布时清除文本">
-      <Button icon="ui://2pshu6oiyy9iiuck"/>
-    </component>
-    <component id="n94_jp7y" name="varsEnabled" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="29,68" size="22,22" tooltips="允许使用模板。例如：数量：{count=100}">
-      <Button icon="ui://2pshu6oiyy9iiucl"/>
-    </component>
-    <component id="n97_r1st" name="bold" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="77,68" size="22,22" tooltips="粗体">
-      <Button icon="ui://2pshu6oiyy9iiucn" page="0"/>
-    </component>
-    <component id="n98_r1st" name="italic" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="101,68" size="22,22" tooltips="斜体">
-      <Button icon="ui://2pshu6oiyy9iiucm" page="1"/>
-    </component>
-    <component id="n99_r1st" name="underline" src="gj1q8s" fileName="Button/FlatIconButton_Check.xml" pkg="nk9ejx23" xy="125,68" size="22,22" tooltips="下划线">
-      <Button icon="ui://2pshu6oiyy9iiuco" page="2"/>
-    </component>
-    <image id="n96_jp7y" name="n96" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="150,69" size="1,20"/>
-    <component id="n100_r1st" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,226" size="22,22">
+    <component id="n100_r1st" name="align" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="87,226" size="22,22" group="n115_l97l">
       <Button checked="true" icon="ui://2pshu6oin1pzixicsu" controller="align" page="0"/>
     </component>
-    <component id="n101_r1st" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,226" size="22,22">
+    <component id="n101_r1st" name="btnAlignCenter" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="111,226" size="22,22" group="n115_l97l">
       <Button icon="ui://2pshu6oin1pzixicsz" controller="align" page="1"/>
     </component>
-    <component id="n102_r1st" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,226" size="22,22">
+    <component id="n102_r1st" name="btnAlignRight" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="135,226" size="22,22" group="n115_l97l">
       <Button icon="ui://2pshu6oin1pzixict0" controller="align" page="2"/>
     </component>
-    <component id="n103_r1st" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,226" size="22,22">
+    <component id="n103_r1st" name="verticalAlign" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="170,226" size="22,22" group="n115_l97l">
       <Button checked="true" icon="ui://2pshu6oin1pzixicsx" controller="verticalAlign" page="0"/>
     </component>
-    <component id="n104_r1st" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,226" size="22,22">
+    <image id="n110_r1st" name="n110" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,228" size="1,20" group="n115_l97l"/>
+    <component id="n104_r1st" name="btnAlignMiddle" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="194,226" size="22,22" group="n115_l97l">
       <Button icon="ui://2pshu6oin1pzixicsy" controller="verticalAlign" page="1"/>
     </component>
-    <component id="n105_r1st" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,226" size="22,22">
+    <component id="n105_r1st" name="btnAlignBottom" src="gj1q8v" fileName="Button/FlatIconButton_Radio.xml" pkg="nk9ejx23" xy="218,226" size="22,22" group="n115_l97l">
       <Button icon="ui://2pshu6oin1pzixicsw" controller="verticalAlign" page="2"/>
     </component>
-    <image id="n110_r1st" name="n110" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="162,228" size="1,20"/>
-    <text id="n111_r1st" name="n111" xy="4,253" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="描边"/>
-    <text id="n112_r1st" name="n112" xy="4,281" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="投影"/>
-    <text id="n113_uebo" name="n113" xy="4,227" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="对齐"/>
+    <group id="n115_l97l" name="n115" xy="87,226" size="153,22"/>
+    <component id="n116_ef64" name="inputEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="243,69" size="20,20" tooltips="输入设置">
+      <Button icon="ui://2pshu6oix5ao5k"/>
+    </component>
   </displayList>
 </component>

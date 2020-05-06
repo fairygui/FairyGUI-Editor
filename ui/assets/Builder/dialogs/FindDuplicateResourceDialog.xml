@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="508,638">
+  <controller name="step" pages="0,,1," selected="1"/>
+  <displayList>
+    <component id="n0_ajkn" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="508,638">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="搜索重复的资源"/>
+    </component>
+    <component id="n4_hitu" name="start" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="387,31" size="92,25">
+      <gearText controller="step" pages="0,1" values="搜索|停止搜索"/>
+      <Button title="停止搜索"/>
+    </component>
+    <text id="n7_hitu" name="result" xy="15,32" size="231,18" fontSize="12" color="#bdbdbd" vars="true" autoSize="none" text="{count=4}个结果"/>
+    <component id="n8_rj5h" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="378,595" size="92,25">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n19_twsl" name="n19" xy="11,70" size="240,514" type="rect" lineColor="#ff292828" fillColor="#00383838"/>
+    <list id="n20_twsl" name="list1" xy="11,71" size="239,512" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
+    <graph id="n6_hitu" name="n6" xy="258,70" size="240,367" type="rect" lineColor="#ff292828" fillColor="#00383838"/>
+    <list id="n5_hitu" name="list2" xy="258,71" size="239,365" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23rj5hixicuw"/>
+    <component id="n21_rj5h" name="progress" src="gcza1p" fileName="ProgressBar/ProgressBar.xml" pkg="nk9ejx23" xy="-1,60" size="497,6">
+      <gearDisplay controller="step" pages="1"/>
+      <ProgressBar max="1"/>
+    </component>
+    <component id="n22_rj5h" name="merge" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="262,514" size="228,25" touchable="false" grayed="true">
+      <gearLook controller="step" pages="0" values="1,0,0,1" default="1,0,1,0"/>
+      <Button title="合并选中资源"/>
+    </component>
+    <component id="n23_rj5h" name="selectAll" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="405,445" group="n26_rj5h" tooltips="全选">
+      <Button icon="ui://2pshu6oie4cx7iued"/>
+    </component>
+    <component id="n24_rj5h" name="selectReverse" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="439,445" group="n26_rj5h" tooltips="反向选择">
+      <Button icon="ui://2pshu6oie4cx7iueg"/>
+    </component>
+    <component id="n25_rj5h" name="selectNone" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="473,445" group="n26_rj5h" tooltips="取消全选">
+      <Button icon="ui://2pshu6oite5p7iufq"/>
+    </component>
+    <group id="n26_rj5h" name="n26" xy="405,445" size="90,22"/>
+    <component id="n29_rj5h" name="setMergeTarget" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="262,477" size="228,25" touchable="false" grayed="true">
+      <gearLook controller="step" pages="1" values="1,0,1,0" default="1,0,0,1"/>
+      <Button title="设置为保留资源"/>
+    </component>
+  </displayList>
+</component>

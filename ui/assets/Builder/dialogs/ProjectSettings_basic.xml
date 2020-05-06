@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <text id="n1" name="n1" xy="6,8" size="137,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="项目名称"/>
+    <component id="n8" name="projectName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="148,6" size="200,20" controller="noBorder,0,showClear,0"/>
+    <text id="n34" name="n34" xy="6,36" size="137,18" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="项目类型"/>
+    <component id="n35" name="projectType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="148,34" size="200,20">
+      <ComboBox visibleItemCount="20"/>
+    </component>
+  </displayList>
+</component>

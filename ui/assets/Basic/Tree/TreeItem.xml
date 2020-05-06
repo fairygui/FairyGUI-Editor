@@ -18,7 +18,7 @@
       <relation target="n6" sidePair="leftext-right"/>
     </text>
     <graph id="n3" name="indent" xy="0,1" size="16,20"/>
-    <loader id="n6" name="icon" xy="30,1" size="20,20" align="center" vAlign="middle">
+    <loader id="n6" name="icon" xy="30,1" size="20,20" align="center" vAlign="middle" fill="scale" shrinkOnly="true">
       <relation target="n3" sidePair="left-right"/>
     </loader>
     <component id="n7" name="expandButton" src="au3n5n" fileName="Tree/TreeExpandButton.xml" xy="15,3">

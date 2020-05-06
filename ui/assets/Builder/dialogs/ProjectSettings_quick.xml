@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="440,420" overflow="scroll" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <component id="n25" name="colorScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,355" size="336,134" controller="showEditButton,1"/>
     <text id="n32" name="n32" xy="8,331" size="275,18" fontSize="12" color="#bdbdbd" text="颜色  (每行一个记录，每行格式为“记录名 颜色值”)"/>
-    <component id="n26" name="fontSizeScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,29" size="336,125" controller="showEditButton,1"/>
     <text id="n33" name="n33" xy="7,5" size="348,18" fontSize="12" color="#bdbdbd" autoSize="none" text="文字大小（每行一个记录，每行格式为“记录名 字体大小”）"/>
-    <component id="n83_s8d3" name="fontScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,192" size="336,125" controller="showEditButton,1"/>
     <text id="n84_s8d3" name="n84" xy="8,168" size="348,18" fontSize="12" color="#bdbdbd" autoSize="none" text="字体（每行一个记录，每行格式为“记录名 字体名称”）"/>
+    <component id="n25" name="colorScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,355" size="336,134" controller="showEditButton,1"/>
+    <component id="n26" name="fontSizeScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,29" size="336,125" controller="showEditButton,1"/>
+    <component id="n83_s8d3" name="fontScheme" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="8,192" size="336,125" controller="showEditButton,1"/>
   </displayList>
 </component>

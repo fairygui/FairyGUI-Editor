@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,420" bgColorEnabled="true" bgColor="#383838">
+  <displayList>
+    <graph id="n43" name="n43" xy="6,33" size="407,384" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n44" name="customProps" xy="7,54" size="405,362" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oikqx1iu8v" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n106_nhha" name="addProp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="10,5" size="22,22" group="n110_nhha">
+      <Button icon="ui://2pshu6oie4cx7iue7"/>
+    </component>
+    <component id="n107_nhha" name="removeProp" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="37,5" size="22,22" group="n110_nhha">
+      <Button icon="ui://2pshu6oie4cx7iuea"/>
+    </component>
+    <group id="n110_nhha" name="n110" xy="10,5" size="49,22"/>
+    <image id="n122_mwte" name="n122" src="kwng7g" fileName="List/images/GridHeader.png" pkg="nk9ejx23" xy="6,33" size="407,21" group="n126_mwte"/>
+    <image id="n123_mwte" name="n123" src="au3n38" fileName="VtSeperator.png" pkg="nk9ejx23" xy="135,34" size="1,19" group="n126_mwte"/>
+    <text id="n124_mwte" name="n124" xy="11,35" size="122,18" group="n126_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Key"/>
+    <text id="n125_mwte" name="n125" xy="142,35" size="251,18" group="n126_mwte" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Value"/>
+    <group id="n126_mwte" name="n126" xy="6,33" size="390,21"/>
+  </displayList>
+</component>

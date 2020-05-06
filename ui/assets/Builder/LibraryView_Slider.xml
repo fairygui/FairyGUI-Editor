@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,21" overflow="hidden">
+  <displayList>
+    <graph id="n18_ep4r" name="n18" xy="0,0" size="145,21" type="rect" lineSize="0" fillColor="#ff3f3f3f">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n17_ep4r" name="slider" src="gcza2c" fileName="Slider/Slider_HZ.xml" pkg="nk9ejx23" xy="14,2" size="78,16">
+      <Slider max="5"/>
+    </component>
+    <graph id="n19_nw20" name="n19" xy="0,0" size="145,1" type="rect" lineSize="0" fillColor="#ff292828">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+  </displayList>
+</component>

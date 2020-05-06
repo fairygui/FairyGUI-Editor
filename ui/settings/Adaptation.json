@@ -1,7 +1,8 @@
 {
-	"designResolutionX":0,
-	"designResolutionY":0,
-	"devices":[],
-	"scaleMode":"ScaleWithScreenSize",
-	"screenMathMode":"MatchWidthOrHeight"
+  "scaleMode": "ScaleWithScreenSize",
+  "screenMathMode": "MatchWidthOrHeight",
+  "designResolutionX": 0,
+  "designResolutionY": 0,
+  "devices": [],
+  "fileName": "Adaptation"
 }

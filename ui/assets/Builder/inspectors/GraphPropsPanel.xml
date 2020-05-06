@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,194" bgColorEnabled="true" bgColor="#383838">
-  <controller name="shape" pages="0,blank,1,rect,2,ellipse,4,polygon,5,regular_polygon" selected="4"/>
-  <controller name="verticesEditing" pages="0,,1," selected="1"/>
+<component size="270,114" bgColorEnabled="true" bgColor="#383838">
+  <controller name="shape" pages="0,blank,1,rect,2,ellipse,4,polygon,5,regular_polygon" selected="0"/>
+  <controller name="verticesEditing" pages="0,,1," selected="0"/>
   <displayList>
     <text id="n17" name="n17" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图形"/>
     <component id="n39" name="type" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,6" size="146,20">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n33" name="n33" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条粗细"/>
-    <text id="n35" name="n35" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条颜色"/>
-    <component id="n58" name="lineSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,33" size="35,20">
-      <Label title="0"/>
-    </component>
-    <component id="n59" name="lineColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,59"/>
-    <text id="n55" name="n55" xy="4,86" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充颜色"/>
-    <component id="n60" name="fillColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,87"/>
-    <component id="n56" name="cornerRadius" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="89,113" size="137,20" group="n64_pfv9" controller="noBorder,0,showClear,0"/>
-    <text id="n57" name="n57" xy="4,114" size="80,18" group="n64_pfv9" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="圆角"/>
-    <group id="n64_pfv9" name="rect" xy="4,113" size="222,20" advanced="true">
-      <gearDisplay controller="shape" pages="1"/>
-    </group>
-    <text id="n81_t67h" name="pointIndex" xy="4,166" size="80,18" group="n82_t67h" fontSize="12" color="#bdbdbd" align="center" vars="true" autoSize="none" singleLine="true" text="点{index=0}"/>
-    <component id="n87_r65j" name="distance" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,165" size="50,20" group="n89_r65j"/>
-    <component id="n101_k7pj" name="resetAll" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="159,164" group="n89_r65j">
-      <Button title="全部重置"/>
-    </component>
-    <group id="n89_r65j" name="n89" xy="87,164" size="157,25" group="n82_t67h" advanced="true">
-      <gearDisplay controller="shape" pages="5"/>
-    </group>
-    <component id="n84_eemc" name="pointX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,165" size="69,20" group="n90_r65j" controller="xy,0"/>
-    <component id="n85_eemc" name="pointY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="164,165" size="69,20" group="n90_r65j" controller="xy,1"/>
-    <group id="n90_r65j" name="n90" xy="87,165" size="146,20" group="n82_t67h" advanced="true">
-      <gearDisplay controller="shape" pages="4"/>
-    </group>
-    <component id="n102_828y" name="shapeLocked" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="88,189" size="72,19" group="n82_t67h">
-      <gearDisplay controller="shape" pages="4"/>
-      <Button title="锁定形状"/>
-    </component>
-    <group id="n82_t67h" name="n82" xy="4,164" size="240,44" advanced="true">
-      <gearDisplay controller="shape" pages="4,5"/>
-      <gearXY controller="shape" pages="4,5" values="4,111|4,164" default="4,166"/>
-      <gearDisplay2 controller="verticesEditing" pages="1" condition="0"/>
-    </group>
     <component id="n86_eemc" name="polygonEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="239,6">
       <gearDisplay controller="shape" pages="4,5"/>
       <Button icon="ui://2pshu6oieemca7iufz"/>
     </component>
-    <text id="n91_gcsr" name="n91" xy="4,139" size="80,18" group="n93_sxv0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="旋转"/>
+    <text id="n33" name="n33" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条粗细"/>
+    <component id="n58" name="lineSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,33" size="35,20">
+      <Label title="0"/>
+    </component>
+    <text id="n35" name="n35" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="线条颜色"/>
+    <component id="n59" name="lineColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,59"/>
+    <text id="n55" name="n55" xy="4,86" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="填充颜色"/>
+    <component id="n60" name="fillColor" src="p06b7x" fileName="ColorPicker/ColorInputWithPreset.xml" pkg="nk9ejx23" xy="87,87"/>
+    <text id="n57" name="n57" xy="4,114" size="80,18" group="n64_pfv9" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="圆角"/>
+    <component id="n56" name="cornerRadius" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="89,113" size="137,20" group="n64_pfv9" controller="noBorder,0,showClear,0"/>
+    <group id="n64_pfv9" name="rect" xy="4,113" size="222,20" advanced="true">
+      <gearDisplay controller="shape" pages="1"/>
+    </group>
+    <text id="n81_t67h" name="pointIndex" xy="4,168" size="80,18" group="n82_t67h" fontSize="12" color="#bdbdbd" align="center" vars="true" autoSize="none" singleLine="true" text="点{index=0}"/>
+    <component id="n87_r65j" name="distance" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,167" size="50,20" group="n89_r65j"/>
+    <component id="n101_k7pj" name="resetAll" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="159,166" group="n89_r65j">
+      <Button title="全部重置"/>
+    </component>
+    <group id="n89_r65j" name="n89" xy="87,166" size="157,25" group="n82_t67h" advanced="true">
+      <gearDisplay controller="shape" pages="5"/>
+    </group>
+    <component id="n84_eemc" name="pointX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,167" size="69,20" group="n90_r65j" controller="xy,0"/>
+    <component id="n85_eemc" name="pointY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="164,167" size="69,20" group="n90_r65j" controller="xy,1"/>
+    <group id="n90_r65j" name="n90" xy="87,167" size="146,20" group="n82_t67h" advanced="true">
+      <gearDisplay controller="shape" pages="4"/>
+    </group>
+    <component id="n102_828y" name="shapeLocked" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="88,191" size="72,19" group="n82_t67h">
+      <gearDisplay controller="shape" pages="4"/>
+      <Button title="锁定形状"/>
+    </component>
+    <group id="n82_t67h" name="n82" xy="4,166" size="240,44" advanced="true">
+      <gearDisplay controller="shape" pages="4,5"/>
+      <gearXY controller="shape" pages="4,5" values="4,111|4,164" default="4,166"/>
+      <gearDisplay2 controller="verticesEditing" pages="1" condition="0"/>
+    </group>
+    <text id="n97_jo40" name="n97" xy="4,113" size="80,18" group="n93_sxv0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="边数"/>
     <component id="n92_gcsr" name="sides" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,112" size="50,20" group="n93_sxv0">
       <Label title="0"/>
     </component>
-    <text id="n97_jo40" name="n97" xy="4,113" size="80,18" group="n93_sxv0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="边数"/>
+    <text id="n91_gcsr" name="n91" xy="4,139" size="80,18" group="n93_sxv0" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="旋转"/>
     <component id="n98_jo40" name="startAngle" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,138" size="50,20" group="n93_sxv0">
       <Label title="0"/>
     </component>
     <group id="n93_sxv0" name="n93" xy="4,112" size="133,46" advanced="true">
       <gearDisplay controller="shape" pages="5"/>
     </group>
-    <graph id="n99_jo40" name="n99" xy="6,186" size="260,3">
+    <graph id="n99_jo40" name="n99" xy="7,106" size="260,3">
       <gearXY controller="shape" pages="0,1,2,4,5" values="7,106|7,136|7,106|5,156|6,186"/>
     </graph>
   </displayList>

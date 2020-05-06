@@ -1,0 +1,11 @@
+{
+	"name": "com.fairygui.plugin.custominspector",
+	"displayName": "Custom Inspector",
+	"description": "Show you how to use custom inspector",
+	"version": "0.0.1",
+	"author": {
+		"name": "FairyGUI.com"
+	},
+	"icon": "icon.png",
+	"main": "main.lua"
+}

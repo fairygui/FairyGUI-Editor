@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="497,638">
+  <controller name="step" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_ajkn" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="497,638">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="搜索未使用资源"/>
+    </component>
+    <component id="n4_hitu" name="start" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="387,31" size="92,25">
+      <gearText controller="step" pages="0,1" values="搜索|停止搜索"/>
+      <Button title="搜索"/>
+    </component>
+    <text id="n7_hitu" name="result" xy="15,32" size="231,18" fontSize="12" color="#bdbdbd" vars="true" autoSize="none" text="{count=4}个结果"/>
+    <component id="n8_rj5h" name="close" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="378,595" size="92,25">
+      <Button title="关闭"/>
+    </component>
+    <graph id="n19_twsl" name="n19" xy="11,70" size="180,514" type="rect" lineColor="#ff292828" fillColor="#00383838"/>
+    <list id="n20_twsl" name="pkgList" xy="11,71" size="179,512" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
+    <graph id="n6_hitu" name="n6" xy="201,70" size="287,514" type="rect" lineColor="#ff292828" fillColor="#00383838"/>
+    <list id="n5_hitu" name="list" xy="201,71" size="286,512" selectionMode="multiple" overflow="scroll" margin="1,1,1,1" defaultItem="ui://nk9ejx23au3n6q"/>
+    <component id="n21_rj5h" name="progress" src="gcza1p" fileName="ProgressBar/ProgressBar.xml" pkg="nk9ejx23" xy="-1,60" size="497,6">
+      <gearDisplay controller="step" pages="1"/>
+      <ProgressBar max="1"/>
+    </component>
+  </displayList>
+</component>

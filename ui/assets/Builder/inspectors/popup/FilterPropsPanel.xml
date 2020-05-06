@@ -5,18 +5,18 @@
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n133_a9x3" name="n133" xy="10,11" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
+    <text id="n135_a9x3" name="n135" xy="10,37" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
+    <text id="n137_a9x3" name="n137" xy="10,63" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
+    <text id="n139_a9x3" name="n139" xy="10,89" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
     <component id="n134_a9x3" name="brightness" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,10" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n135_a9x3" name="n135" xy="10,37" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="对比度"/>
     <component id="n136_a9x3" name="contrast" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,36" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n137_a9x3" name="n137" xy="10,63" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="饱和度"/>
     <component id="n138_a9x3" name="saturation" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,62" size="40,20">
       <Label title="100"/>
     </component>
-    <text id="n139_a9x3" name="n139" xy="10,89" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="色相"/>
     <component id="n140_a9x3" name="hue" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="94,88" size="40,20">
       <Label title="100"/>
     </component>

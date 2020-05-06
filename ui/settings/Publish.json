@@ -1,23 +1,34 @@
 {
-	"atlasSetting":{
-		"paging":true,
-		"sizeOption":"pot"
-	},
-	"binaryFormat":false,
-	"codeGeneration":{
-		"classNamePrefix":"",
-		"codePath":"",
-		"codeType":"",
-		"getMemberByName":false,
-		"ignoreNoname":true,
-		"memberNamePrefix":"",
-		"packageName":""
-	},
-	"compressDesc":true,
-	"fileExtension":"zip",
-	"includeHighResolution":1,
-	"mergeBranch":false,
-	"packageCount":1,
-	"path":"../assets",
-	"unityDataFormat":1
+  "path": "../UnityProject/Assets/Resources/UI",
+  "branchPath": "",
+  "fileExtension": "bytes",
+  "packageCount": 1,
+  "compressDesc": true,
+  "binaryFormat": true,
+  "jpegQuality": 80,
+  "compressPNG": false,
+  "codeGeneration": {
+    "allowGenCode": true,
+    "codePath": "",
+    "classNamePrefix": "",
+    "memberNamePrefix": "",
+    "packageName": "",
+    "ignoreNoname": true,
+    "getMemberByName": false,
+    "codeType": ""
+  },
+  "includeHighResolution": 5,
+  "branchProcessing": 0,
+  "atlasSetting": {
+    "maxSize": 2048,
+    "paging": true,
+    "sizeOption": "pot",
+    "forceSquare": false,
+    "allowRotation": true,
+    "trimImage": true
+  },
+  "include2x": true,
+  "include3x": false,
+  "include4x": true,
+  "fileName": "Publish"
 }

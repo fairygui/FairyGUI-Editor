@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="160,60">
-  <displayList>
-    <image id="n0" name="n0" src="kwng7k" xy="0,0" aspect="true">
-      <relation target="" sidePair="width-width,height-height"/>
-    </image>
-    <list id="n1" name="list" xy="1,1" size="156,56" margin="0,0,0,0" defaultItem="ui://nk9ejx23gcza2h"/>
-  </displayList>
+<component size="200,60">
+	<displayList>
+		<image id="n0" name="n0" src="kwng7k" fileName="/Menu/1.png" xy="0,0" size="202,63" aspect="true">
+			<relation target="" sidePair="width-width,height-height"/>
+		</image>
+		<list id="n1" name="list" xy="1,1" size="196,56" defaultItem="ui://nk9ejx23gcza2h" autoClearItems="true">
+			<relation target="" sidePair="width-width"/>
+			<item title="测试"/>
+			<item url="ui://nk9ejx23au3n5v"/>
+			<item title="测试"/>
+		</list>
+	</displayList>
 </component>

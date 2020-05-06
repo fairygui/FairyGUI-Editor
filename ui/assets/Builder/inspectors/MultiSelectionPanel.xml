@@ -2,19 +2,19 @@
 <component size="270,63" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n7" name="n7" xy="14,8" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="X"/>
+    <text id="n9" name="n9" xy="119,8" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
+    <text id="n11" name="n11" xy="14,34" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
+    <text id="n12" name="n12" xy="119,34" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
     <component id="n8" name="x" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="60,7" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n9" name="n9" xy="119,8" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="Y"/>
     <component id="n10" name="y" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="165,7" size="52,20">
       <Label title="100000"/>
     </component>
-    <text id="n11" name="n11" xy="14,34" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="宽"/>
-    <text id="n12" name="n12" xy="119,34" size="44,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="高"/>
-    <component id="n13" name="height" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="165,33" size="52,20" touchable="false" grayed="true">
+    <component id="n14" name="width" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="60,33" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
-    <component id="n14" name="width" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="60,33" size="52,20" touchable="false" grayed="true">
+    <component id="n13" name="height" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="165,33" size="52,20" touchable="false" grayed="true">
       <Label title="100000"/>
     </component>
   </displayList>

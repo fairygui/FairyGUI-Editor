@@ -1,0 +1,11 @@
+{
+	"name": "com.fairygui.plugin.gencode",
+	"displayName": "A GenCdoe Plugin",
+	"description": "Show you how to customize publishing code",
+	"version": "0.0.1",
+	"author": {
+		"name": "FairyGUI.com"
+	},
+	"icon": "icon.png",
+	"main": "main.lua"
+}

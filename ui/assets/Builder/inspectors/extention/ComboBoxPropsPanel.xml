@@ -2,17 +2,17 @@
 <component size="270,209" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n70" name="n70" xy="4,6" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标题"/>
+    <text id="n80" name="n80" xy="4,73" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
+    <text id="n75" name="n75" xy="4,99" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="可见项目数"/>
+    <text id="n78" name="n78" xy="4,125" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="弹出方向"/>
+    <text id="n85_e4se" name="n85" xy="4,151" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
     <component id="n71" name="title" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="86,4" size="178,40" controller="showEditButton,1"/>
     <component id="n72" name="titleColorSet" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="86,49" size="69,19">
       <Button title="标题颜色"/>
     </component>
     <component id="n73" name="titleColor" src="au3n5y" fileName="ColorPicker/ColorInput.xml" pkg="nk9ejx23" xy="161,50" controller="mode,0"/>
-    <text id="n75" name="n75" xy="4,99" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="可见项目数"/>
+    <component id="n81" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,72" size="178,20"/>
     <component id="n76" name="visibleItemCount" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="86,98"/>
-    <component id="n77" name="n77" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="84,178" size="102,25">
-      <Button title="编辑列表项目"/>
-    </component>
-    <text id="n78" name="n78" xy="4,125" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="弹出方向"/>
     <component id="n79" name="direction" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="86,123" size="178,20">
       <ComboBox title="自动" visibleItemCount="10">
         <item title="自动" value="auto"/>
@@ -20,9 +20,9 @@
         <item title="向上" value="up"/>
       </ComboBox>
     </component>
-    <text id="n80" name="n80" xy="4,73" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="图标"/>
-    <component id="n81" name="icon" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,72" size="178,20"/>
-    <text id="n85_e4se" name="n85" xy="4,151" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="选择控制"/>
     <component id="n86_e4se" name="selectionController" src="zn3piudc" fileName="basic/ControllerInput.xml" xy="86,149" size="178,20"/>
+    <component id="n77" name="n77" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="84,178" size="102,25">
+      <Button title="编辑列表项目"/>
+    </component>
   </displayList>
 </component>

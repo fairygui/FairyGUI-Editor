@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="275,105">
   <displayList>
-    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="275,105" locked="true">
+    <image id="n0" name="n0" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="0,0" size="275,105">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
+    <text id="n9" name="n9" xy="17,15" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="持续时间"/>
+    <text id="n11" name="n11" xy="17,42" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="延迟时间"/>
+    <text id="n5" name="n5" xy="17,70" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缓动函数"/>
+    <component id="n10" name="duration" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="100,14" size="50,20">
+      <Label title="0"/>
+    </component>
+    <component id="n12" name="delay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="100,41" size="50,20">
+      <Label title="0"/>
+    </component>
     <component id="n3" name="easeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="100,68" size="72,20">
       <ComboBox visibleItemCount="10"/>
     </component>
     <component id="n4" name="easeInOutType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="178,68" size="72,20">
       <ComboBox visibleItemCount="10"/>
-    </component>
-    <text id="n5" name="n5" xy="17,70" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缓动函数"/>
-    <text id="n9" name="n9" xy="17,15" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="持续时间"/>
-    <component id="n10" name="duration" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="100,14" size="50,20">
-      <Label title="0"/>
-    </component>
-    <text id="n11" name="n11" xy="17,42" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="延迟时间"/>
-    <component id="n12" name="delay" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="100,41" size="50,20">
-      <Label title="0"/>
     </component>
   </displayList>
 </component>

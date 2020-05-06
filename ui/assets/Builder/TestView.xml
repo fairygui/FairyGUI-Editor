@@ -10,7 +10,7 @@
     </graph>
     <graph id="n1" name="n1" xy="1,64" size="788,335" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff333333">
       <relation target="" sidePair="width-width,height-height"/>
-      <relation target="n37_hv6o" sidePair="topext-bottom"/>
+      <relation target="n6" sidePair="topext-top"/>
     </graph>
     <graph id="n40_s3qd" name="n40" xy="0,63" size="790,1" touchable="false" type="rect" lineSize="0" lineColor="#ff292828" fillColor="#ff292828">
       <relation target="" sidePair="width-width"/>
@@ -18,13 +18,13 @@
     </graph>
     <component id="n6" name="docContainer" src="au3ni" fileName="DocContainer.xml" xy="1,64" size="788,335">
       <relation target="" sidePair="width-width,height-height"/>
-      <relation target="n1" sidePair="topext-top"/>
+      <relation target="n37_hv6o" sidePair="topext-bottom"/>
     </component>
     <graph id="n22_j5yv" name="n22" xy="777,387" size="12,12" type="rect" lineSize="0" fillColor="#ff3f3f3f">
       <relation target="" sidePair="right-right,bottom-bottom"/>
     </graph>
     <component id="n28_g3d6" name="adaptation" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="10,7" size="48,19">
-      <Button checked="true" title="适配" page="1"/>
+      <Button checked="true" title="适配"/>
     </component>
     <component id="n29_g3d6" name="device" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="442,6" size="197,20">
       <ComboBox visibleItemCount="10"/>

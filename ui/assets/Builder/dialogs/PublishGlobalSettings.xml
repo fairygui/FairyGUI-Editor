@@ -5,15 +5,37 @@
     <component id="n30_x392" name="n30" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,6" size="512,20" group="n56_x392">
       <Button title="打包"/>
     </component>
-    <text id="n0_x392" name="n0" xy="11,39" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
+    <text id="n0_x392" name="n0" xy="11,39" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
+    <text id="n78_95yy" name="n78" xy="11,66" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支发布路径"/>
+    <text id="n7_x392" name="n7" xy="11,93" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="扩展名"/>
+    <text id="n5_x392" name="n5" xy="11,120" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包格式"/>
+    <text id="n75_as27" name="n75" xy="11,147" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支处理"/>
+    <text id="n60_x392" name="n60" xy="11,174" size="100,19" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其他分辨率"/>
     <component id="n1_x392" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,38" size="360,20" group="n52_x392" controller="noBorder,0,showClear,0"/>
     <component id="n2_x392" name="browse1" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="476,36" size="36,25" group="n52_x392">
       <Button title="..."/>
     </component>
-    <text id="n5_x392" name="n5" xy="11,120" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包格式"/>
-    <text id="n7_x392" name="n7" xy="11,93" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="扩展名"/>
+    <component id="n77_95yy" name="branchPath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="114,65" size="360,20" group="n52_x392" controller="noBorder,0,showClear,0"/>
+    <component id="n79_95yy" name="browse3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="476,64" size="36,25" group="n52_x392">
+      <Button title="..."/>
+    </component>
     <component id="n8_x392" name="fileExtension" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,93" size="61,20" group="n52_x392" controller="noBorder,0,showClear,0"/>
-    <text id="n60_x392" name="n60" xy="11,174" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其他分辨率"/>
+    <component id="n28_x392" name="binaryFormat" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,121" size="107,19" group="n66_x392">
+      <Button title="使用二进制格式"/>
+    </component>
+    <component id="n27_x392" name="compressDesc" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="227,121" size="95,19" group="n66_x392">
+      <Button title="压缩描述文件"/>
+    </component>
+    <component id="n51_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,121" size="83,19" group="n66_x392">
+      <Button title="两个压缩包"/>
+    </component>
+    <group id="n66_x392" name="n66" xy="113,121" size="300,19" group="n52_x392" advanced="true" layout="hz" colGap="6" excludeInvisibles="true"/>
+    <component id="n76_as27" name="branchProcessing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,146" size="217,20" group="n52_x392">
+      <ComboBox title="主干包含所有分支" visibleItemCount="10">
+        <item title="主干包含所有分支" value="0"/>
+        <item title="主干合并活跃分支" value="1"/>
+      </ComboBox>
+    </component>
     <component id="n61_x392" name="2x" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="114,174" size="46,19" group="n52_x392">
       <Button title="@2x"/>
     </component>
@@ -23,38 +45,16 @@
     <component id="n63_x392" name="4x" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="226,174" size="46,19" group="n52_x392">
       <Button title="@4x"/>
     </component>
-    <component id="n28_x392" name="binaryFormat" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,121" size="108,19" group="n66_x392">
-      <Button title="使用二进制格式"/>
-    </component>
-    <component id="n27_x392" name="compressDesc" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="227,121" size="96,19" group="n66_x392">
-      <Button title="压缩描述文件"/>
-    </component>
-    <component id="n51_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,121" size="84,19" group="n66_x392">
-      <Button title="两个压缩包"/>
-    </component>
-    <group id="n66_x392" name="n66" xy="113,121" size="300,19" group="n52_x392" advanced="true" layout="hz" colGap="6" excludeInvisibles="true"/>
-    <text id="n75_as27" name="n75" xy="11,147" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支处理"/>
-    <component id="n76_as27" name="branchProcessing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,146" size="217,20" group="n52_x392">
-      <ComboBox title="主干包含所有分支" visibleItemCount="10">
-        <item title="主干包含所有分支"/>
-        <item title="主干合并活跃分支"/>
-      </ComboBox>
-    </component>
-    <component id="n77_95yy" name="branchPath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="114,65" size="360,20" group="n52_x392" controller="noBorder,0,showClear,0"/>
-    <text id="n78_95yy" name="n78" xy="11,66" size="100,18" group="n52_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="分支发布路径"/>
-    <component id="n79_95yy" name="browse3" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="476,64" size="36,25" group="n52_x392">
-      <Button title="..."/>
-    </component>
     <group id="n52_x392" name="n52" xy="11,36" size="501,157" group="n56_x392" advanced="true"/>
     <component id="n67_ht85" name="image_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,203" size="512,20" group="n56_x392" touchable="false">
       <gearDisplay controller="support_atlas" pages="0"/>
       <Button title="图片质量"/>
     </component>
-    <text id="n68_ht85" name="n68" xy="11,235" size="100,18" group="n72_ht85" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="JPEG品质"/>
+    <text id="n68_ht85" name="n68" xy="11,235" size="100,19" group="n72_ht85" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="JPEG品质"/>
+    <text id="n70_ht85" name="n70" xy="195,235" size="100,19" group="n72_ht85" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="压缩PNG"/>
     <component id="n69_ht85" name="jpegQuality" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="113,233" size="53,20" group="n72_ht85">
       <Label title="80"/>
     </component>
-    <text id="n70_ht85" name="n70" xy="195,235" size="100,18" group="n72_ht85" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="压缩PNG"/>
     <component id="n71_ht85" name="compressPNG" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="297,233" size="53,20" group="n72_ht85">
       <ComboBox title="否" visibleItemCount="10">
         <item title="否"/>
@@ -68,7 +68,9 @@
       <gearDisplay controller="support_atlas" pages="1"/>
       <Button title="纹理集"/>
     </component>
-    <text id="n31_x392" name="n31" xy="11,218" size="100,18" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
+    <text id="n31_x392" name="n31" xy="11,218" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
+    <text id="n49_x392" name="n49" xy="11,247" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
+    <text id="n73_oh40" name="n73" xy="11,276" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其它选项"/>
     <component id="n32_x392" name="maxAtlasSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,217" group="n53_x392">
       <ComboBox title="2048" visibleItemCount="10">
         <item title="256" value="256"/>
@@ -79,14 +81,8 @@
         <item title="8192" value="8192"/>
       </ComboBox>
     </component>
-    <component id="n33_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,219" size="108,19" group="n53_x392">
+    <component id="n33_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,219" size="107,19" group="n53_x392">
       <Button title="超出后自动分页"/>
-    </component>
-    <component id="n35_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,247" size="60,19" group="n53_x392">
-      <Button title="正方形"/>
-    </component>
-    <component id="n36_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,247" size="72,19" group="n53_x392">
-      <Button title="允许旋转"/>
     </component>
     <component id="n48_x392" name="sizeOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,246" group="n53_x392">
       <ComboBox title="2的n次幂" visibleItemCount="10">
@@ -95,9 +91,13 @@
         <item title="不限制" value="npot"/>
       </ComboBox>
     </component>
-    <text id="n49_x392" name="n49" xy="11,247" size="100,18" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
-    <text id="n73_oh40" name="n73" xy="11,276" size="100,18" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其它选项"/>
-    <component id="n74_oh40" name="trimImage" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,275" size="120,19" group="n53_x392">
+    <component id="n35_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,247" size="59,19" group="n53_x392">
+      <Button title="正方形"/>
+    </component>
+    <component id="n36_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,247" size="71,19" group="n53_x392">
+      <Button title="允许旋转"/>
+    </component>
+    <component id="n74_oh40" name="trimImage" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,275" size="119,19" group="n53_x392">
       <Button title="裁剪图片边缘空白"/>
     </component>
     <group id="n53_x392" name="n53" xy="11,217" size="390,77" group="n56_x392" advanced="true">
@@ -106,31 +106,27 @@
     <component id="n44_x392" name="n44" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,263" size="512,20" group="n56_x392">
       <Button title="发布代码"/>
     </component>
-    <text id="n12_x392" name="n12" xy="11,319" size="100,18" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
+    <text id="n12_x392" name="n12" xy="11,319" size="100,19" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="发布路径"/>
+    <text id="n14_x392" name="n14" xy="11,350" size="100,19" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="组件名前缀"/>
+    <text id="n16_x392" name="n16" xy="11,381" size="100,19" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="成员名称前缀"/>
+    <text id="n18_x392" name="n18" xy="11,454" size="100,19" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包名称"/>
+    <component id="n57_x392" name="allowGenCode" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="111,293" size="95,19" group="n54_x392">
+      <Button title="允许发布代码"/>
+    </component>
     <component id="n13_x392" name="codePath" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,318" size="360,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
-    <text id="n14_x392" name="n14" xy="11,350" size="100,18" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="组件名前缀"/>
-    <component id="n15_x392" name="classNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,349" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
-    <text id="n16_x392" name="n16" xy="11,381" size="100,18" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="成员名称前缀"/>
-    <component id="n17_x392" name="memberNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,379" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
-    <text id="n18_x392" name="n18" xy="11,454" size="100,18" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="包名称"/>
-    <component id="n19_x392" name="codePackageName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,453" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
     <component id="n20_x392" name="browse2" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="476,316" size="36,25" group="n54_x392">
       <Button title="..."/>
     </component>
-    <component id="n21_x392" name="ignoreNoname" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,405" size="168,19" group="n54_x392">
+    <component id="n15_x392" name="classNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,349" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
+    <component id="n17_x392" name="memberNamePrefix" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,379" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
+    <component id="n21_x392" name="ignoreNoname" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,405" size="167,19" group="n54_x392">
       <Button title="不生成使用默认名称的成员"/>
     </component>
-    <component id="n22_x392" name="getMemberByName" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,428" size="144,19" group="n54_x392">
+    <component id="n22_x392" name="getMemberByName" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,428" size="143,19" group="n54_x392">
       <Button title="使用名称获取成员对象"/>
     </component>
-    <component id="n57_x392" name="allowGenCode" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="111,293" size="96,19" group="n54_x392">
-      <Button title="允许发布代码"/>
-    </component>
-    <text id="n23_x392" name="n23" xy="11,481" size="100,18" group="n54_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="代码类型"/>
-    <component id="n24_x392" name="codeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,479" size="180,20" group="n54_x392">
-      <ComboBox visibleItemCount="10"/>
-    </component>
-    <group id="n54_x392" name="n54" xy="11,293" size="501,206" group="n56_x392" advanced="true"/>
-    <group id="n56_x392" name="n56" xy="5,6" size="512,493" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true"/>
+    <component id="n19_x392" name="codePackageName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="113,453" size="180,20" group="n54_x392" controller="noBorder,0,showClear,0"/>
+    <group id="n54_x392" name="n54" xy="11,293" size="501,180" group="n56_x392" advanced="true"/>
+    <group id="n56_x392" name="n56" xy="5,6" size="512,467" advanced="true" layout="vt" lineGap="10" excludeInvisibles="true"/>
   </displayList>
 </component>

@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="479,600">
+<component size="523,600">
+  <controller name="c1" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="479,600">
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="523,600">
       <relation target="" sidePair="width-width,height-height"/>
       <Label title="选择字体"/>
     </component>
-    <graph id="n20" name="n20" xy="11,58" size="455,492" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
-    <list id="n19" name="list" xy="12,59" size="453,490" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oif5apiu8i" autoClearItems="true">
+    <component id="n40" name="select" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="145,562" size="66,25" group="n45_u4wx">
+      <Button title="选择"/>
+    </component>
+    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="312,562" size="66,25" group="n45_u4wx">
+      <Button title="取消"/>
+    </component>
+    <component id="n43_s8d3" name="copy" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="229,562" size="66,25" group="n45_u4wx">
+      <Button title="复制"/>
+    </component>
+    <group id="n45_u4wx" name="n45" xy="145,562" size="233,25"/>
+    <component id="n48_nqrp" name="btnRefresh" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="478,32" size="22,22" tooltips="刷新字体列表">
+      <Button icon="ui://2pshu6oiih9xiua2"/>
+    </component>
+    <component id="n46_nqrp" name="n46" src="au3n6i" fileName="Tab/TabButton_as.xml" pkg="nk9ejx23" xy="15,32" size="62,28" group="n49_g5bp">
+      <Button checked="true" title="项目字体" controller="c1" page="0"/>
+    </component>
+    <component id="n47_nqrp" name="n47" src="au3n6i" fileName="Tab/TabButton_as.xml" pkg="nk9ejx23" xy="78,32" size="62,28" group="n49_g5bp">
+      <Button title="系统字体" controller="c1" page="1"/>
+    </component>
+    <group id="n49_g5bp" name="n49" xy="15,32" size="125,28" advanced="true" layout="hz" colGap="1" excludeInvisibles="true"/>
+    <graph id="n20" name="n20" xy="11,59" size="500,491" group="n35" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>
+    <list id="n19" name="list" xy="12,60" size="498,489" group="n35" overflow="scroll" scrollBar="visible" margin="1,1,1,1" defaultItem="ui://2pshu6oif5apiu8i" autoClearItems="true">
       <item/>
       <item/>
     </list>
-    <group id="n35" name="n35" xy="11,58" size="455,492"/>
-    <component id="n42" name="globalSetting" src="okou7w" fileName="Button/LinkButton.xml" pkg="nk9ejx23" xy="15,31" size="90,18">
-      <Button title="全局字体设置"/>
-    </component>
-    <component id="n40" name="select" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="123,562" size="66,25" group="n45_u4wx">
-      <Button title="选择"/>
-    </component>
-    <component id="n41" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="290,562" size="66,25" group="n45_u4wx">
-      <Button title="取消"/>
-    </component>
-    <component id="n43_s8d3" name="copy" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="207,562" size="66,25" group="n45_u4wx">
-      <Button title="复制"/>
-    </component>
-    <group id="n45_u4wx" name="n45" xy="123,562" size="233,25"/>
+    <group id="n35" name="n35" xy="11,59" size="500,491"/>
   </displayList>
 </component>
