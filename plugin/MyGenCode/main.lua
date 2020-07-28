@@ -49,7 +49,7 @@ function genCode(handler)
             local memberInfo = members[j]
             writer:writeln('public %s:%s;', memberInfo.varName, memberInfo.type)
         end
-        writer:writeln('public static URL:string = "ui://%s%s";', handler.pkg.id, classInfo.classId)
+        writer:writeln('public static URL:string = "ui://%s%s";', handler.pkg.id, classInfo.resId)
         writer:writeln()
 
         writer:writeln('public static createInstance():%s', classInfo.className)
