@@ -1,0 +1,35 @@
+---@class CS.UnityEngine.ParticleSystem.NoiseModule : CS.System.ValueType
+---@field public enabled boolean
+---@field public separateAxes boolean
+---@field public strength CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public strengthMultiplier number
+---@field public strengthX CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public strengthXMultiplier number
+---@field public strengthY CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public strengthYMultiplier number
+---@field public strengthZ CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public strengthZMultiplier number
+---@field public frequency number
+---@field public damping boolean
+---@field public octaveCount number
+---@field public octaveMultiplier number
+---@field public octaveScale number
+---@field public quality number
+---@field public scrollSpeed CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public scrollSpeedMultiplier number
+---@field public remapEnabled boolean
+---@field public remap CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public remapMultiplier number
+---@field public remapX CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public remapXMultiplier number
+---@field public remapY CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public remapYMultiplier number
+---@field public remapZ CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public remapZMultiplier number
+---@field public positionAmount CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public rotationAmount CS.UnityEngine.ParticleSystem.MinMaxCurve
+---@field public sizeAmount CS.UnityEngine.ParticleSystem.MinMaxCurve
+
+---@type CS.UnityEngine.ParticleSystem.NoiseModule
+CS.UnityEngine.ParticleSystem.NoiseModule = { }
+return CS.UnityEngine.ParticleSystem.NoiseModule
