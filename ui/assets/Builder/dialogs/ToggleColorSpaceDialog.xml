@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="417,138">
+  <controller name="ttf" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="417,138">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="切换颜色空间"/>
+    </component>
+    <component id="n9" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="95,84" group="n31_lo92">
+      <Button title="确定"/>
+    </component>
+    <component id="n10" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="236,84" group="n31_lo92">
+      <Button title="取消"/>
+    </component>
+    <group id="n31_lo92" name="n31" xy="95,84" size="226,25"/>
+    <text id="n3" name="n3" xy="75,42" size="114,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="颜色空间"/>
+    <component id="n29" name="colorspace" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="192,42" size="150,20">
+      <ComboBox title="Gamma" visibleItemCount="10">
+        <item title="Gamma" value="Gamma"/>
+        <item title="Linear" value="Linear"/>
+      </ComboBox>
+    </component>
+  </displayList>
+</component>

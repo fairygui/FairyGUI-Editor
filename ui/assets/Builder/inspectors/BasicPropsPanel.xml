@@ -18,9 +18,7 @@
     <component id="n27" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="166,57" size="72,20" controller="xy,3">
       <Label title="100000"/>
     </component>
-    <component id="n53" name="n53" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,7" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：
-a#
-则选定的元件的名称依次修改为a0,a1,a2.."/>
+    <component id="n53" name="n53" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="247,7" tooltips="当选定多个对象时，使用#可以自动添加数字序列。例如：&#xA;a#&#xA;则选定的元件的名称依次修改为a0,a1,a2.."/>
     <component id="n81_ruil" name="showRestrictSize" src="gj1q8u" fileName="Button/ToggleIconButton.xml" pkg="nk9ejx23" xy="244,57">
       <Button icon="ui://2pshu6oipi83u6x" selectedIcon="ui://2pshu6oiruiliual" controller="showRestrictSize" page="1"/>
     </component>
@@ -44,8 +42,8 @@ a#
     <text id="n48" name="n48" xy="5,106" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="缩放"/>
     <text id="n57" name="n57" xy="5,132" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="倾斜"/>
     <text id="n39" name="n39" xy="5,158" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="轴心"/>
-    <text id="n33" name="n33" xy="5,205" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="不透明度"/>
-    <text id="n35" name="n35" xy="138,205" size="60,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="旋转"/>
+    <text id="n33" name="n33" xy="5,203" size="80,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="不透明度"/>
+    <text id="n35" name="n35" xy="138,203" size="60,19" group="n82_ruil" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="旋转"/>
     <component id="n11" name="useSourceSize" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="74,81" size="59,19" group="n82_ruil">
       <Button title="原大小"/>
     </component>
@@ -82,8 +80,7 @@ a#
     <component id="n38" name="rotation" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="200,203" size="48,20" group="n82_ruil">
       <Label title="0"/>
     </component>
-    <component id="n32" name="visible" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="16,231" size="59,19" group="n82_ruil" tooltips="仅在测试和运行期可以看到效果，
-设计界面中将始终保持可见">
+    <component id="n32" name="visible" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="16,231" size="59,19" group="n82_ruil" tooltips="仅在测试和运行期可以看到效果，&#xA;设计界面中将始终保持可见">
       <Button title="不可见"/>
     </component>
     <component id="n36" name="grayed" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="77,231" size="47,19" group="n82_ruil">

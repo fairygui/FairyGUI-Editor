@@ -30,8 +30,8 @@
     <component id="n132_x392" name="pathOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="115,120" size="95,18" group="n142_x392">
       <Button title="使用全局配置" controller="global_path" page="1"/>
     </component>
-    <component id="n177_x392" name="n177" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,65" group="n142_x392" tooltips="支持的变量：全局路径 - {global_path} 文件名 - {publish_file_name}"/>
-    <component id="n197_as27" name="n197" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,94" group="n142_x392" tooltips="支持的变量：全局路径 - {global_path} 文件名 - {publish_file_name}"/>
+    <component id="n177_x392" name="n177" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,65" group="n142_x392" tooltips="支持的变量：&#xA;分支名 - {branch_name} &#xA;文件名 - {publish_file_name}"/>
+    <component id="n197_as27" name="n197" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,94" group="n142_x392" tooltips="支持的变量：&#xA;分支名 - {branch_name} &#xA;文件名 - {publish_file_name}"/>
     <component id="n174_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="247,120" size="83,19" group="n178_x392" touchable="false" grayed="true">
       <Button title="两个压缩包"/>
     </component>
@@ -74,8 +74,7 @@
       <gearLook controller="global_atlas_setting" pages="0" values="1,0,0,1" default="1,0,1,0"/>
       <Button title="允许旋转"/>
     </component>
-    <component id="n149_x392" name="extractAlpha" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,265" size="104,19" group="n153_x392" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。
-FairyGUI提供了专门的着色器混合。">
+    <component id="n149_x392" name="extractAlpha" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,265" size="104,19" group="n153_x392" tooltips="通过此方法，可以在Unity里将原纹理设置为不支持Alpha通道的格式（例如ETC1）以减少内存占用。&#xA;FairyGUI提供了专门的着色器混合。">
       <Button title="分离Alpha通道"/>
     </component>
     <component id="n190_oakd" name="atlasOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="11,181" size="95,19" group="n153_x392">

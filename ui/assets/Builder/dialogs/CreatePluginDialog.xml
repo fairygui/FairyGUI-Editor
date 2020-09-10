@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="438,260">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="438,260">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="创建新插件"/>
+    </component>
+    <text id="n15_et85" name="n15" xy="8,35" size="92,20" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="插件名称"/>
+    <text id="n16_et85" name="n16" xy="8,62" size="92,20" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="显示名称"/>
+    <text id="n20_et85" name="n20" xy="8,172" size="92,20" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="插件模板"/>
+    <component id="n17_et85" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="106,34" size="313,20" controller="noBorder,0"/>
+    <component id="n18_et85" name="displayName" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="106,61" size="313,20" controller="noBorder,0"/>
+    <component id="n21_et85" name="template" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="106,172" size="313,20">
+      <ComboBox title="空白(Lua)" visibleItemCount="20">
+        <item title="空白(Lua)" value="empty"/>
+        <item title="空白(JavaScript)" value="empty_js"/>
+        <item title="空白(TypeScript)" value="empty_ts"/>
+        <item title="发布代码(Lua)" value="code"/>
+        <item title="发布代码(TypeScript)" value="code_ts"/>
+      </ComboBox>
+    </component>
+    <text id="n22_exa7" name="n22" xy="8,89" size="92,40" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="描述&#xA;（可选）"/>
+    <component id="n23_exa7" name="desc" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="106,88" size="313,77"/>
+    <component id="n6" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="117,217" group="n24_exa7">
+      <Button title="创建"/>
+    </component>
+    <component id="n7" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="235,217" group="n24_exa7">
+      <Button title="取消"/>
+    </component>
+    <group id="n24_exa7" name="n24" xy="117,217" size="203,25"/>
+  </displayList>
+</component>

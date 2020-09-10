@@ -21,7 +21,6 @@
     <component id="n38" name="language" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="293,31" size="139,20" group="n45_g9yd">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <text id="n62_q3bc" name="n62" xy="434,34" size="147,19" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="（需重启后生效）"/>
     <text id="n63_q3bc" name="n63" xy="154,91" size="137,19" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="发布按钮"/>
     <component id="n64_q3bc" name="publishAction" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="293,90" size="139,20" group="n45_g9yd">
       <ComboBox title="发布当前包" visibleItemCount="10">
@@ -37,7 +36,7 @@
         <item title="是"/>
       </ComboBox>
     </component>
-    <group id="n45_g9yd" name="n45" xy="154,31" size="427,109" advanced="true">
+    <group id="n45_g9yd" name="n45" xy="154,31" size="278,109" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
     <graph id="n47_g9yd" name="n47" xy="151,28" size="427,343" group="n52_v3j1" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>

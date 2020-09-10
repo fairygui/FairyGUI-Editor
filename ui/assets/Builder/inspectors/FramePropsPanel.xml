@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,71" bgColorEnabled="true" bgColor="#383838">
-  <controller name="tween" pages="0,,1," selected="0"/>
+<component size="270,164" bgColorEnabled="true" bgColor="#383838">
+  <controller name="tween" pages="0,,1," selected="1"/>
   <displayList>
     <text id="n108" name="n108" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="标签"/>
     <component id="n109" name="label" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,7" size="178,20" controller="noBorder,0,showClear,0"/>
-    <component id="n33" name="tween" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="10,39" size="58,19">
-      <Button title="Tween" controller="tween" page="1"/>
+    <component id="n33" name="tween" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="10,39" size="62,19">
+      <Button checked="true" title="Tween" controller="tween" page="1"/>
     </component>
-    <text id="n86" name="n86" xy="4,-23" size="80,18" group="n73" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="缓动函数"/>
-    <text id="n105" name="n105" xy="4,5" size="80,18" group="n73" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="重复"/>
-    <text id="n127" name="n127" xy="74,28" size="163,18" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
-    <component id="n31" name="easeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,-25" size="96,20" group="n73">
+    <text id="n86" name="n86" xy="4,76" size="80,18" group="n73" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="缓动函数"/>
+    <text id="n105" name="n105" xy="4,104" size="80,18" group="n73" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="重复"/>
+    <text id="n127" name="n127" xy="74,129" size="163,18" group="n73" fontSize="12" color="#bdbdbd" autoSize="none" singleLine="true" text="(-1表示无限次数)"/>
+    <component id="n31" name="easeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="87,74" size="96,20" group="n73">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n72" name="easeInOutType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="189,-25" size="73,20" group="n73">
+    <component id="n72" name="easeInOutType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="189,74" size="73,20" group="n73">
       <ComboBox visibleItemCount="10"/>
     </component>
-    <component id="n107" name="repeat" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,3" group="n73">
+    <component id="n107" name="repeat" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="87,102" group="n73">
       <Label title="0"/>
     </component>
-    <component id="n104" name="yoyo" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="155,5" size="48,19" group="n73">
+    <component id="n104" name="yoyo" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="155,104" size="51,19" group="n73">
       <Button title="yoyo"/>
     </component>
-    <group id="n73" name="n73" xy="4,-25" size="258,71" advanced="true">
+    <component id="n130_eb4a" name="curveEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="190,74" group="n73" tooltips="编辑引导线">
+      <Button icon="ui://2pshu6oifcq3ixicup"/>
+    </component>
+    <group id="n73" name="n73" xy="4,74" size="258,73" advanced="true">
       <gearDisplay controller="tween" pages="1"/>
       <gearXY controller="tween" pages="0" values="4,-25" default="4,74"/>
     </group>

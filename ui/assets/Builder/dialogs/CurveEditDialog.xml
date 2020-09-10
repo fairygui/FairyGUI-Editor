@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="662,660">
+  <displayList>
+    <component id="n0_eb4a" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="662,660">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="编辑曲线"/>
+    </component>
+    <component id="n2_eb4a" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="180,618" group="n5_eb4a">
+      <Button title="保存"/>
+    </component>
+    <component id="n3_eb4a" name="apply" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="291,618" group="n5_eb4a">
+      <Button title="应用"/>
+    </component>
+    <component id="n4_eb4a" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="397,618" group="n5_eb4a">
+      <Button title="取消"/>
+    </component>
+    <group id="n5_eb4a" name="n5" xy="180,618" size="302,25"/>
+    <graph id="n9_eb4a" name="n9" xy="12,59" size="640,546" type="rect" lineColor="#ff292828" fillColor="#ff333333"/>
+    <component id="n10_eb4a" name="graphContainer" src="eb4a1nry31z" fileName="dialogs/CurveContainer.xml" xy="13,60" size="638,544"/>
+    <text id="n14_eb4a" name="n14" xy="14,31" size="76,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="参考线："/>
+    <component id="n16_eb4a" name="copy" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="599,30" tooltips="复制数据">
+      <Button icon="ui://2pshu6oiikoviuau"/>
+    </component>
+    <component id="n17_eb4a" name="paste" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="626,30" tooltips="粘贴数据">
+      <Button icon="ui://2pshu6oiikoviuav"/>
+    </component>
+    <component id="n18_eb4a" name="easeType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="98,30" size="96,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n19_eb4a" name="easeInOutType" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="200,30" size="73,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n20_eb4a" name="redo" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="572,30" tooltips="重做">
+      <Button icon="ui://2pshu6oieb4a1nry320"/>
+    </component>
+    <component id="n21_eb4a" name="undo" src="gcza2i" fileName="Button/FlatIconButton.xml" pkg="nk9ejx23" xy="545,30" tooltips="撤销">
+      <Button icon="ui://2pshu6oieb4a1nry321"/>
+    </component>
+  </displayList>
+</component>

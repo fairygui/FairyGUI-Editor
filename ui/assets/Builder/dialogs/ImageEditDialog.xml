@@ -64,12 +64,7 @@
     <text id="n8" name="n8" xy="683,125" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="右"/>
     <text id="n7" name="n7" xy="599,102" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="上"/>
     <text id="n6" name="n6" xy="599,125" size="41,19" group="n28" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="左"/>
-    <component id="n114_q95v" name="smoothing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="599,102" size="64,20" group="n112_obsv">
-      <ComboBox title="否" visibleItemCount="10">
-        <item title="否"/>
-        <item title="是"/>
-      </ComboBox>
-    </component>
+    <component id="n118_nj9w" name="smoothing" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="602,102" size="20,19" group="n112_obsv"/>
     <group id="n112_obsv" name="n112" xy="516,102" size="245,46" group="n113_q95v" advanced="true"/>
     <component id="n92_r1st" name="qualityOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="599,128" size="125,20" group="n112_obsv">
       <ComboBox title="默认" visibleItemCount="10" selectionController="qualityOption">
@@ -93,10 +88,16 @@
     <component id="n74_qual" name="n74" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="701,183" group="n72_qual" tooltips="勾选后，在图集里会自动将图片最边缘的像素扩充出来，以避免图片在拼接或者平铺时产生缝隙。">
       <relation target="n71_qual" sidePair="right-right"/>
     </component>
-    <group id="n72_qual" name="n72" xy="516,153" size="208,47" group="n113_q95v" advanced="true">
+    <component id="n116_teue" name="disableTrim" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="599,206" size="119,19" group="n72_qual">
+      <Button title="禁止裁剪边缘空白"/>
+    </component>
+    <component id="n117_teue" name="n117" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="725,208" group="n72_qual" tooltips="勾选后，在发布时不会自动裁剪这张图片的边缘空白，即使在发布设置里勾选了裁剪图片边缘空白。">
+      <relation target="n116_teue" sidePair="right-right"/>
+    </component>
+    <group id="n72_qual" name="n72" xy="516,153" size="225,72" group="n113_q95v" advanced="true">
       <gearDisplay controller="noAtlas" pages="0"/>
     </group>
-    <group id="n113_q95v" name="n113" xy="516,28" size="252,172" advanced="true" layout="vt" lineGap="5" excludeInvisibles="true"/>
+    <group id="n113_q95v" name="n113" xy="516,28" size="252,197" advanced="true" layout="vt" lineGap="5" excludeInvisibles="true"/>
     <component id="n34" name="import" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="16,469" size="67,25">
       <Button title="更新..."/>
     </component>

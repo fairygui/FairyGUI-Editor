@@ -543,7 +543,7 @@
     <image id="ifjkixicwn" name="icon_json@4x.png" path="/icons_obj/"/>
     <image id="ifjkixicwo" name="icon_sound@4x.png" path="/icons_obj/"/>
     <image id="ifjkixicwp" name="icon_misc@4x.png" path="/icons_obj/"/>
-    <image id="ifjkixicwq" name="icon_misc.png" path="/icons_obj/"/>
+    <image id="ifjkixicwq" name="icon_misc.png" path="/icons_obj/" exported="true"/>
     <image id="jgx6ixicwr" name="icon_loader3D.svg" path="/icons_obj/" exported="true" scale9grid="0,0,-112,-112" width="16" height="16"/>
     <image id="jgx6ixicws" name="icon_loader3D@2x.png" path="/icons_obj/"/>
     <image id="qj25ixicwt" name="emmylua.png" path="/icons/"/>
@@ -566,6 +566,15 @@
     <component id="hitu1nry31s" name="FindUnusedResourceDialog.xml" path="/dialogs/" exported="true"/>
     <component id="rj5h1nry31t" name="FindDuplicateResourceDialog.xml" path="/dialogs/" exported="true"/>
     <image id="bo351nry31u" name="plugin.svg" path="/icons/" width="48" height="48"/>
+    <component id="ahhf1nry31v" name="ToggleColorSpaceDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="exa71nry31w" name="CreatePluginDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="eb4a1nry31x" name="CurveEditDialog.xml" path="/dialogs/" exported="true"/>
+    <component id="eb4a1nry31y" name="CurveGraph.xml" path="/dialogs/" exported="true"/>
+    <component id="eb4a1nry31z" name="CurveContainer.xml" path="/dialogs/"/>
+    <image id="eb4a1nry320" name="redo.svg" path="/icons/" width="16" height="16"/>
+    <image id="eb4a1nry321" name="undo.svg" path="/icons/" width="16" height="16"/>
+    <image id="eb4a1nry322" name="undo@2x.png" path="/icons/"/>
+    <image id="eb4a1nry323" name="redo@2x.png" path="/icons/"/>
   </resources>
   <publish name="Builder"/>
 </packageDescription>

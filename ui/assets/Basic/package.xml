@@ -164,6 +164,7 @@
     <component id="ep4rixicuu" name="EditableIconListItemBig.xml" path="/List/" exported="true"/>
     <component id="ep4rixicuv" name="ListItemInputCenter.xml" path="/Input/" exported="true"/>
     <component id="rj5hixicuw" name="EditableAndCheckIconListItem.xml" path="/List/" exported="true"/>
+    <component id="exa7ixicux" name="ButtonWithIcon.xml" path="/Button/" exported="true"/>
   </resources>
   <publish name="Basic"/>
 </packageDescription>

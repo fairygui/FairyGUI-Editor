@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,25" extention="Button" bgColorEnabled="true" bgColor="#383838">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n11_exa7" name="n11" xy="0,0" size="62,25" type="rect" lineColor="#ff515151" fillColor="#ff454545">
+      <gearDisplay controller="button" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n12_exa7" name="n12" xy="0,0" size="62,25" type="rect" lineColor="#ff262424" fillColor="#ff383838">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4" name="title" xy="24,1" size="33,19" fontSize="12" color="#bdbdbd" vAlign="middle" singleLine="true" autoClearText="true" text="确定">
+      <gearColor controller="grayed" pages="0,1" values="#bdbdbd,#000000|#878787,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n8_exa7" name="icon" xy="3,1" size="20,20" url="ui://2pshu6oix5ao5k" align="center" vAlign="middle" fill="scale" shrinkOnly="true" clearOnPublish="true"/>
+  </displayList>
+  <Button/>
+  <relation target="n4" sidePair="width-width"/>
+</component>

@@ -1,0 +1,11 @@
+{
+	"name": "com.fairygui.plugin.custominspectorts",
+	"displayName": "Custom Inspector Ts",
+	"description": "Show you how to use custom inspector",
+	"version": "0.0.1",
+	"author": {
+		"name": "FairyGUI.com"
+	},
+	"icon": "icon.png",
+	"main": "main.js"
+}

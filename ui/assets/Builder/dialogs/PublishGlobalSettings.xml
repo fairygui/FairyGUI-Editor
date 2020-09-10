@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="538,433" overflow="scroll" bgColorEnabled="true" bgColor="#383838">
   <controller name="support_atlas" pages="0,,1," selected="0"/>
+  <controller name="brach_processing" pages="0,,1," selected="0"/>
   <displayList>
     <component id="n30_x392" name="n30" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,6" size="512,20" group="n56_x392">
       <Button title="打包"/>
@@ -30,8 +31,8 @@
       <Button title="两个压缩包"/>
     </component>
     <group id="n66_x392" name="n66" xy="113,121" size="300,19" group="n52_x392" advanced="true" layout="hz" colGap="6" excludeInvisibles="true"/>
-    <component id="n76_as27" name="branchProcessing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,146" size="217,20" group="n52_x392">
-      <ComboBox title="主干包含所有分支" visibleItemCount="10">
+    <component id="n76_as27" name="branchProcessing" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,146" size="151,20" group="n52_x392">
+      <ComboBox title="主干包含所有分支" visibleItemCount="10" selectionController="brach_processing">
         <item title="主干包含所有分支" value="0"/>
         <item title="主干合并活跃分支" value="1"/>
       </ComboBox>
@@ -44,6 +45,10 @@
     </component>
     <component id="n63_x392" name="4x" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="226,174" size="46,19" group="n52_x392">
       <Button title="@4x"/>
+    </component>
+    <component id="n80_ogj0" name="seperatedAtlasForBranch" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="271,147" size="167,19" group="n52_x392">
+      <gearDisplay controller="brach_processing" pages="0"/>
+      <Button title="每个分支使用独立的纹理集"/>
     </component>
     <group id="n52_x392" name="n52" xy="11,36" size="501,157" group="n56_x392" advanced="true"/>
     <component id="n67_ht85" name="image_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,203" size="512,20" group="n56_x392" touchable="false">
@@ -64,14 +69,14 @@
     <group id="n72_ht85" name="image" xy="11,233" size="339,20" group="n56_x392" advanced="true">
       <gearDisplay controller="support_atlas" pages="0"/>
     </group>
-    <component id="n38_x392" name="n38" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,187" size="512,20" group="n56_x392">
+    <component id="n38_x392" name="n38" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,203" size="512,20" group="n56_x392">
       <gearDisplay controller="support_atlas" pages="1"/>
       <Button title="纹理集"/>
     </component>
-    <text id="n31_x392" name="n31" xy="11,218" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
-    <text id="n49_x392" name="n49" xy="11,247" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
-    <text id="n73_oh40" name="n73" xy="11,276" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其它选项"/>
-    <component id="n32_x392" name="maxAtlasSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,217" group="n53_x392">
+    <text id="n31_x392" name="n31" xy="11,234" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="最大尺寸"/>
+    <text id="n49_x392" name="n49" xy="11,263" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="尺寸选项"/>
+    <text id="n73_oh40" name="n73" xy="11,292" size="100,19" group="n53_x392" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="其它选项"/>
+    <component id="n32_x392" name="maxAtlasSize" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,233" group="n53_x392">
       <ComboBox title="2048" visibleItemCount="10">
         <item title="256" value="256"/>
         <item title="512" value="512"/>
@@ -81,26 +86,26 @@
         <item title="8192" value="8192"/>
       </ComboBox>
     </component>
-    <component id="n33_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,219" size="107,19" group="n53_x392">
+    <component id="n33_x392" name="paging" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,235" size="107,19" group="n53_x392">
       <Button title="超出后自动分页"/>
     </component>
-    <component id="n48_x392" name="sizeOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,246" group="n53_x392">
+    <component id="n48_x392" name="sizeOption" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="113,262" group="n53_x392">
       <ComboBox title="2的n次幂" visibleItemCount="10">
         <item title="2的n次幂" value="pot"/>
         <item title="4的倍数" value="mof"/>
         <item title="不限制" value="npot"/>
       </ComboBox>
     </component>
-    <component id="n35_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,247" size="59,19" group="n53_x392">
+    <component id="n35_x392" name="square" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="234,263" size="59,19" group="n53_x392">
       <Button title="正方形"/>
     </component>
-    <component id="n36_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,247" size="71,19" group="n53_x392">
+    <component id="n36_x392" name="rotation" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="329,263" size="71,19" group="n53_x392">
       <Button title="允许旋转"/>
     </component>
-    <component id="n74_oh40" name="trimImage" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,275" size="119,19" group="n53_x392">
+    <component id="n74_oh40" name="trimImage" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="113,291" size="119,19" group="n53_x392">
       <Button title="裁剪图片边缘空白"/>
     </component>
-    <group id="n53_x392" name="n53" xy="11,217" size="390,77" group="n56_x392" advanced="true">
+    <group id="n53_x392" name="n53" xy="11,233" size="390,77" group="n56_x392" advanced="true">
       <gearDisplay controller="support_atlas" pages="1"/>
     </group>
     <component id="n44_x392" name="n44" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,263" size="512,20" group="n56_x392">

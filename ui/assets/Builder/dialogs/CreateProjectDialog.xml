@@ -16,10 +16,10 @@
     <component id="n21_et85" name="type" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="93,87" size="248,20">
       <ComboBox visibleItemCount="20"/>
     </component>
-    <component id="n6" name="n6" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="154,239">
+    <component id="n6" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="154,239">
       <Button title="创建"/>
     </component>
-    <component id="n7" name="n7" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="272,239">
+    <component id="n7" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="272,239">
       <Button title="取消"/>
     </component>
   </displayList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,1200">
+  <displayList>
+    <graph id="n0_eb4a" name="bg" xy="0,0" size="1200,1200" type="rect" lineSize="0" fillColor="#ff262424"/>
+    <graph id="n1_eb4a" name="n1" xy="380,799" size="400,2" type="rect" lineSize="0" fillColor="#ff993300"/>
+    <graph id="n2_eb4a" name="n2" xy="779,400" size="2,400" type="rect" lineSize="0" fillColor="#ff993300"/>
+    <graph id="n5_eb4a" name="refShape" xy="380,803" size="401,1" type="polygon" lineSize="0" fillColor="#ff000000" points="0,0,401,-417,401,-404,11,1"/>
+    <graph id="n7_eb4a" name="start" xy="380,800" pivot="0.5,0.5" anchor="true" size="10,10" type="eclipse" lineSize="0" fillColor="#ff993300"/>
+    <graph id="n8_eb4a" name="end" xy="780,400" pivot="0.5,0.5" anchor="true" size="10,10" type="eclipse" lineSize="0" fillColor="#ff993300"/>
+    <graph id="n9_eb4a" name="pathShape" xy="380,800" size="400,10" type="polygon" lineSize="0" fillColor="#ffbdbdbd" points="200,-95,400,-400,202,-91,0,0"/>
+    <text id="n3_eb4a" name="n3" xy="797,412" size="55,19" fontSize="12" color="#bdbdbd" text="progress"/>
+    <text id="n4_eb4a" name="n4" xy="553,816" size="31,19" fontSize="12" color="#bdbdbd" text="time"/>
+  </displayList>
+</component>

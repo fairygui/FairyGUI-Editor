@@ -4,7 +4,7 @@
   <displayList>
     <component id="n0_ajkn" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="497,638">
       <relation target="" sidePair="width-width,height-height"/>
-      <Label title="搜索未使用资源"/>
+      <Label title="查找未使用资源"/>
     </component>
     <component id="n4_hitu" name="start" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="387,31" size="92,25">
       <gearText controller="step" pages="0,1" values="搜索|停止搜索"/>
