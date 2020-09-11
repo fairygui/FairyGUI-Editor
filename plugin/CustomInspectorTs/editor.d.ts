@@ -6075,7 +6075,8 @@ declare module 'csharp' {
             public ResetAll():void;
             public CaptureHotkey(receiver: FairyGUI.GObject):void;
             public GetFunctionDef(funcId: string):FairyEditor.HotkeyManager.FunctionDef;
-            public GetFunction(evt: FairyGUI.InputEvent):string;
+            public GetFunction(evt: FairyGUI.InputEvent, code: $Ref<number>):string;
+            public TranslateKey(hotkey: string):number;
             
         }
         class FProject extends System.Object {
@@ -6179,6 +6180,8 @@ declare module 'csharp' {
             public Dispose():void;
             public Load():void;
             public LoadUIPackage(filePath: string):void;
+            public SetHotkey(hotkey: string, callback: System.Action):void;
+            public HandleHotkey(keyCode: number):boolean;
             public CreateNewPlugin(name: string, displayName: string, icon: string, desc: string, template: string):void;
             
         }
@@ -8417,7 +8420,7 @@ declare module 'csharp' {
             public ShowRestartPrompt():void;
             public ShowAlreadyUpdatedPrompt():void;
             public ShowStartScene():void;
-            public HandleGlobalHotkeys(funcId: string):boolean;
+            public HandleGlobalHotkey(funcId: string):boolean;
             public FillLanguages():void;
             public DropFiles(mousePos: UnityEngine.Vector2, arrFiles: string[]):void;
             
