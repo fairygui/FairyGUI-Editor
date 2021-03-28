@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="417,209">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="417,209">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="骨骼动画信息"/>
+    </component>
+    <text id="n3" name="n3" xy="18,38" size="92,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="着色器"/>
+    <component id="n29" name="shader" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="115,38" size="226,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n30_zsu0" name="pma" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="115,130" size="107,19">
+      <Button title="贴图是否已预乘"/>
+    </component>
+    <component id="n31_cp0j" name="width" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="115,67" size="80,20" controller="xy,2"/>
+    <component id="n32_cp0j" name="height" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="205,67" size="80,20" controller="xy,3"/>
+    <text id="n33_cp0j" name="n33" xy="18,67" size="92,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="包围盒"/>
+    <component id="n34_cp0j" name="anchorX" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="115,96" size="80,20" controller="xy,0"/>
+    <component id="n35_cp0j" name="anchorY" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="205,96" size="80,20" controller="xy,1"/>
+    <text id="n36_cp0j" name="n36" xy="18,96" size="92,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="锚点"/>
+    <component id="n9" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="67,166" group="n39_cp0j">
+      <Button title="保存"/>
+    </component>
+    <component id="n10" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="265,166" group="n39_cp0j">
+      <Button title="取消"/>
+    </component>
+    <component id="n38_cp0j" name="reset" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="166,166" group="n39_cp0j">
+      <Button title="重置"/>
+    </component>
+    <group id="n39_cp0j" name="n39" xy="67,166" size="283,25"/>
+  </displayList>
+</component>

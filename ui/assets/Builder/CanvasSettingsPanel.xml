@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="323,198">
+<component size="342,203">
   <displayList>
-    <image id="n8_qilr" name="n8" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="-4,-4" size="330,206">
+    <image id="n8_qilr" name="n8" src="gcza19" fileName="background.png" pkg="nk9ejx23" xy="-4,-4" size="349,211">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <text id="n0_qilr" name="n0" xy="137,17" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="画布颜色"/>
@@ -14,18 +14,22 @@
     <component id="n7_qilr" name="auxline2" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,81" size="107,19">
       <Button title="显示对齐提示线"/>
     </component>
-    <component id="n9_omhu" name="docScaleOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="22,168" size="179,19">
+    <component id="n9_omhu" name="docScaleOption" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="22,165" size="179,19">
       <Button title="每个文档使用单独的缩放比例"/>
     </component>
     <component id="n10_12gvk" name="showGrid" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,110" size="71,19">
       <Button title="显示网格"/>
     </component>
-    <text id="n11_12gvk" name="n11" xy="134,111" size="74,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="网格大小"/>
-    <component id="n12_12gvk" name="gridSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="214,110" size="40,20">
+    <text id="n11_12gvk" name="n11" xy="108,111" size="47,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="大小"/>
+    <component id="n12_12gvk" name="gridSize" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="161,110" size="40,20">
       <Label title="30"/>
     </component>
-    <component id="n13_12gvk" name="snapToGrid" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,139" size="83,19">
+    <component id="n13_12gvk" name="snapToGrid" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="23,136" size="83,19">
       <Button title="吸附到网格"/>
+    </component>
+    <text id="n14_h39q" name="n14" xy="207,110" size="77,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="亮度"/>
+    <component id="n15_h39q" name="gridColor" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="290,109" size="40,20">
+      <Label title="30"/>
     </component>
   </displayList>
 </component>

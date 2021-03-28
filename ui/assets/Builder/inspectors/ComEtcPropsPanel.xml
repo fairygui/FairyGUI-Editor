@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,126" bgColorEnabled="true" bgColor="#383838">
+<component size="270,182" bgColorEnabled="true" bgColor="#383838">
   <displayList>
-    <text id="n53_rlad" name="n53" xy="4,7" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义属性"/>
+    <text id="n53_rlad" name="n53" xy="4,7" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义属性"/>
     <component id="n54_rlad" name="editCustomProps" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="97,5">
       <Button title="编辑..."/>
     </component>
-    <text id="n49_sqzs" name="n49" xy="4,38" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义数据"/>
+    <text id="n49_sqzs" name="n49" xy="4,38" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" singleLine="true" text="自定义数据"/>
     <component id="n50_sqzs" name="remark" src="au3n6k" fileName="Input/TextArea.xml" pkg="nk9ejx23" xy="87,38" size="178,81" controller="showEditButton,1"/>
+    <text id="n59_mbaw" name="n59" xy="4,128" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="出场音效"/>
+    <component id="n60_mbaw" name="showSound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,126" size="178,20"/>
+    <text id="n61_mbaw" name="n61" xy="4,154" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="退场音效"/>
+    <component id="n62_mbaw" name="hideSound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,152" size="178,20"/>
   </displayList>
 </component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,125" bgColorEnabled="true" bgColor="#383838">
+<component size="270,180" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n52" name="n52" xy="4,7" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="height" text="标题"/>
     <text id="n72" name="n72" xy="4,51" size="80,16" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="标题颜色"/>
@@ -16,5 +16,11 @@
     <component id="n64" name="inputEdit" src="au3n4b" fileName="Button/IconButton.xml" pkg="nk9ejx23" xy="244,50" size="20,20">
       <Button icon="ui://2pshu6oix5ao5k"/>
     </component>
+    <text id="n74_mbaw" name="n74" xy="4,127" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="点击音效"/>
+    <component id="n75_mbaw" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,125" size="178,20"/>
+    <component id="n76_mbaw" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="111,151" size="50,20">
+      <Label title="100"/>
+    </component>
+    <image id="n77_mbaw" name="n77" src="mbaw1nry327" fileName="icons/volume.svg" xy="89,151"/>
   </displayList>
 </component>

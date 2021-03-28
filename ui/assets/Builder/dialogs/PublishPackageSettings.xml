@@ -32,10 +32,11 @@
     </component>
     <component id="n177_x392" name="n177" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,65" group="n142_x392" tooltips="支持的变量：&#xA;分支名 - {branch_name} &#xA;文件名 - {publish_file_name}"/>
     <component id="n197_as27" name="n197" src="ehmsu7z" fileName="basic/InfoButton.xml" xy="439,94" group="n142_x392" tooltips="支持的变量：&#xA;分支名 - {branch_name} &#xA;文件名 - {publish_file_name}"/>
-    <component id="n174_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="247,120" size="83,19" group="n178_x392" touchable="false" grayed="true">
+    <component id="n174_x392" name="twoPackages" src="rm0l7v" fileName="Button/Checkbox_as.xml" pkg="nk9ejx23" xy="247,120" size="83,19" group="n178_x392">
+      <gearDisplay controller="global_path" pages="0"/>
       <Button title="两个压缩包"/>
     </component>
-    <group id="n178_x392" name="supportPackageCount" xy="247,120" size="84,19" group="n142_x392" advanced="true"/>
+    <group id="n178_x392" name="supportPackageCount" xy="247,120" size="83,19" group="n142_x392" advanced="true"/>
     <group id="n142_x392" name="pack" xy="11,36" size="489,103" group="n69" advanced="true"/>
     <component id="n143_x392" name="atlas_bar" src="itme7iudp" fileName="basic/TitleBar.xml" xy="5,149" size="512,20" group="n69" touchable="false">
       <gearDisplay controller="support_atlas" pages="1"/>

@@ -36,7 +36,9 @@
         <item title="是"/>
       </ComboBox>
     </component>
-    <group id="n45_g9yd" name="n45" xy="154,31" size="278,109" advanced="true">
+    <text id="n71_oqea" name="n71" xy="154,150" size="137,19" group="n45_g9yd" fontSize="12" color="#bdbdbd" autoSize="none" text="界面字体"/>
+    <component id="n72_oqea" name="editorFont" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="293,149" size="275,20" group="n45_g9yd"/>
+    <group id="n45_g9yd" name="n45" xy="154,31" size="414,138" advanced="true">
       <gearDisplay controller="c1" pages="0"/>
     </group>
     <graph id="n47_g9yd" name="n47" xy="151,28" size="427,343" group="n52_v3j1" type="rect" lineColor="#ff292828" fillColor="#003f3f3f"/>

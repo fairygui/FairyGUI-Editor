@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,20" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n7_kiv0" name="n7" src="gcza1r" fileName="Input/input_bg.png" xy="0,0" size="100,20" group="n9_kiv0">
+      <gearDisplay controller="grayed" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8_kiv0" name="n8" src="au3n6s" fileName="Input/input_bg_grayed.png" xy="0,0" size="100,20" group="n9_kiv0">
+      <gearDisplay controller="grayed" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <group id="n9_kiv0" name="n9" xy="0,0" size="100,20" advanced="true"/>
+    <component id="n4" name="title" src="gcza1s" fileName="Input/TextInput.xml" xy="2,0" size="78,19" controller="noBorder,1">
+      <gearColor controller="grayed" pages="1" values="#878787" default="#bdbdbd"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n6_e4p4" name="n6" src="e4p48q" fileName="ComboBox/images/dropdown_arrow.svg" xy="83,3">
+      <gearColor controller="grayed" pages="1" values="#a7a7a7" default="#ffffff"/>
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <ComboBox dropdown="ui://nk9ejx23gcza1a"/>
+</component>

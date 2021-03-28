@@ -7,13 +7,13 @@
     </component>
     <text id="n15_et85" name="n15" xy="8,33" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="项目名称"/>
     <text id="n16_et85" name="n16" xy="8,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="项目位置"/>
-    <text id="n20_et85" name="n20" xy="8,89" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="项目类型"/>
+    <text id="n20_et85" name="n20" xy="8,118" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="项目类型"/>
     <component id="n17_et85" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="92,32" size="327,20" controller="noBorder,0"/>
     <component id="n18_et85" name="path" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="92,59" size="327,20" controller="noBorder,0"/>
     <component id="n19_et85" name="btnBrowse" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="424,58" size="64,25">
       <Button title="浏览.."/>
     </component>
-    <component id="n21_et85" name="type" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="93,87" size="248,20">
+    <component id="n21_et85" name="type" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="93,116" size="248,20">
       <ComboBox visibleItemCount="20"/>
     </component>
     <component id="n6" name="ok" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="154,239">
@@ -21,6 +21,9 @@
     </component>
     <component id="n7" name="cancel" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="272,239">
       <Button title="取消"/>
+    </component>
+    <component id="n22_oqea" name="shouldCreateSubFolder" src="xualt" fileName="Button/Checkbox.xml" pkg="nk9ejx23" xy="94,86" size="249,19">
+      <Button checked="true" title="在此位置创建子目录"/>
     </component>
   </displayList>
 </component>

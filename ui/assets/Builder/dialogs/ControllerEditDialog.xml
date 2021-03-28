@@ -9,7 +9,9 @@
     <text id="n15" name="n15" xy="9,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
     <text id="n39" name="n39" xy="224,32" size="60,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="备注名"/>
     <text id="n115_omf5" name="n115" xy="409,32" size="66,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="首页"/>
-    <component id="n16" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="71,31" size="147,20" controller="noBorder,0,showClear,0"/>
+    <component id="n16" name="name" src="kiv0ixicuz" fileName="ComboBox/ComboBox2.xml" pkg="nk9ejx23" xy="71,31" size="147,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
     <component id="n40" name="alias" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="286,31" size="117,20" controller="noBorder,0,showClear,0"/>
     <component id="n118_omf5" name="homePage_var" src="gcza18" fileName="ComboBox/ComboBox.xml" pkg="nk9ejx23" xy="601,32" size="105,20">
       <gearDisplay controller="homepage" pages="3"/>
@@ -36,10 +38,10 @@
     <component id="n34" name="deleteController" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="732,29" size="83,25">
       <Button title="删除控制器"/>
     </component>
-    <component id="n36" name="autoRadioGroupDepth" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="151,61" size="156,19" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xD;选中状态的按钮都会被自动调整到其他按钮的最上面">
+    <component id="n36" name="autoRadioGroupDepth" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="151,61" size="155,19" tooltips="勾选后，在所有属于此控制器控制的单选按钮中，&#xD;选中状态的按钮都会被自动调整到其他按钮的最上面">
       <Button title="自动调整单选组对象层次"/>
     </component>
-    <component id="n41" name="exported" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="11,61" size="108,19" tooltips="勾选后，可以在组件的附加属性页面设置此控制器的活动页面。属性标题为别名或者控制器名称。">
+    <component id="n41" name="exported" src="dp4f7u" fileName="Button/EmCheckbox_as.xml" pkg="nk9ejx23" xy="11,61" size="107,19" tooltips="勾选后，可以在组件的附加属性页面设置此控制器的活动页面。属性标题为别名或者控制器名称。">
       <Button title="导出为组件属性"/>
     </component>
     <component id="n13" name="save" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="346,496" size="62,25" group="n47">

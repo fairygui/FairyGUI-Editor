@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="270,90" bgColorEnabled="true" bgColor="#383838">
+<component size="270,142" bgColorEnabled="true" bgColor="#383838">
   <displayList>
     <text id="n78_vdln" name="n78" xy="4,8" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最小值"/>
     <text id="n76_vdln" name="n76" xy="4,34" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="最大值"/>
     <text id="n74_vdln" name="n74" xy="4,60" size="80,18" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="当前值"/>
-    <component id="n79_vdln" name="min" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,7"/>
-    <component id="n77_vdln" name="max" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,34"/>
-    <component id="n75_vdln" name="value" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="91,60"/>
+    <component id="n79_vdln" name="min" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="89,7"/>
+    <component id="n77_vdln" name="max" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="89,34"/>
+    <component id="n75_vdln" name="value" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="89,60"/>
+    <text id="n80_mbaw" name="n80" xy="4,87" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" singleLine="true" text="点击音效"/>
+    <component id="n81_mbaw" name="sound" src="au3n6j" fileName="Input/ResourceInput.xml" pkg="nk9ejx23" xy="86,85" size="178,20"/>
+    <component id="n82_mbaw" name="volume" src="au3n69" fileName="Input/NumericInput.xml" pkg="nk9ejx23" xy="111,111" size="50,20">
+      <Label title="100"/>
+    </component>
+    <image id="n83_mbaw" name="n83" src="mbaw1nry327" fileName="icons/volume.svg" xy="89,111"/>
   </displayList>
 </component>

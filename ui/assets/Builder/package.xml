@@ -575,6 +575,13 @@
     <image id="eb4a1nry321" name="undo.svg" path="/icons/" width="16" height="16"/>
     <image id="eb4a1nry322" name="undo@2x.png" path="/icons/"/>
     <image id="eb4a1nry323" name="redo@2x.png" path="/icons/"/>
+    <image id="mbaw1nry324" name="click.svg" path="/icons/" width="16" height="16"/>
+    <image id="mbaw1nry325" name="click@2x.png" path="/icons/"/>
+    <image id="mbaw1nry327" name="volume.svg" path="/icons/" width="16" height="16"/>
+    <image id="mbaw1nry328" name="volume@2x.png" path="/icons/"/>
+    <component id="nqun1nry329" name="SkeletonInfoDialog.xml" path="/dialogs/" exported="true"/>
+    <image id="zsu01nry32a" name="center.svg" path="/icons/" width="16" height="16"/>
+    <image id="zsu01nry32b" name="center@2x.png" path="/icons/"/>
   </resources>
   <publish name="Builder"/>
 </packageDescription>

@@ -5,7 +5,9 @@
     <text id="n17" name="n17" xy="4,6" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="名称"/>
     <text id="n13" name="n13" xy="4,32" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="位置"/>
     <text id="n24" name="n24" xy="4,58" size="80,19" fontSize="12" color="#bdbdbd" align="center" autoSize="none" text="尺寸"/>
-    <component id="n9" name="name" src="gcza1s" fileName="Input/TextInput.xml" pkg="nk9ejx23" xy="87,4" size="152,20" controller="noBorder,0,showClear,0"/>
+    <component id="n9" name="name" src="kiv0ixicuz" fileName="ComboBox/ComboBox2.xml" pkg="nk9ejx23" xy="87,4" size="152,20">
+      <ComboBox visibleItemCount="10"/>
+    </component>
     <component id="n21" name="x" src="wqe79a" fileName="Input/XYInput.xml" pkg="nk9ejx23" xy="87,32" size="72,20" controller="xy,0">
       <Label title="100000"/>
     </component>
