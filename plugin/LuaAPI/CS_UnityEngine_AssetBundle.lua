@@ -1,5 +1,6 @@
 ---@class CS.UnityEngine.AssetBundle : CS.UnityEngine.Object
 ---@field public isStreamedSceneAssetBundle boolean
+---@field public memoryBudgetKB number
 
 ---@type CS.UnityEngine.AssetBundle
 CS.UnityEngine.AssetBundle = { }
@@ -80,6 +81,9 @@ function CS.UnityEngine.AssetBundle:LoadAllAssets(t) end
 function CS.UnityEngine.AssetBundle:LoadAllAssetsAsync(t) end
 ---@param unloadAllLoadedObjects boolean
 function CS.UnityEngine.AssetBundle:Unload(unloadAllLoadedObjects) end
+---@return CS.UnityEngine.AssetBundleUnloadOperation
+---@param unloadAllLoadedObjects boolean
+function CS.UnityEngine.AssetBundle:UnloadAsync(unloadAllLoadedObjects) end
 ---@return String[]
 function CS.UnityEngine.AssetBundle:GetAllAssetNames() end
 ---@return String[]

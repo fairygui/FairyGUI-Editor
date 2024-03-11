@@ -37,6 +37,9 @@ function CS.UnityEngine.Mathf.HalfToFloat(val) end
 ---@param y number
 function CS.UnityEngine.Mathf.PerlinNoise(x, y) end
 ---@return number
+---@param x number
+function CS.UnityEngine.Mathf.PerlinNoise1D(x) end
+---@return number
 ---@param f number
 function CS.UnityEngine.Mathf.Sin(f) end
 ---@return number

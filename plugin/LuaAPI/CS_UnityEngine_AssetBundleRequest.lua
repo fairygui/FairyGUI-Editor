@@ -1,4 +1,4 @@
----@class CS.UnityEngine.AssetBundleRequest : CS.UnityEngine.AsyncOperation
+---@class CS.UnityEngine.AssetBundleRequest : CS.UnityEngine.ResourceRequest
 ---@field public asset CS.UnityEngine.Object
 ---@field public allAssets Object[]
 

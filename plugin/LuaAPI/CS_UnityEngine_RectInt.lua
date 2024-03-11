@@ -31,8 +31,15 @@ function CS.UnityEngine.RectInt:ClampToBounds(bounds) end
 ---@return boolean
 ---@param position CS.UnityEngine.Vector2Int
 function CS.UnityEngine.RectInt:Contains(position) end
+---@return boolean
+---@param other CS.UnityEngine.RectInt
+function CS.UnityEngine.RectInt:Overlaps(other) end
+---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
-function CS.UnityEngine.RectInt:ToString() end
+---@param optional format string
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.RectInt:ToString(format, formatProvider) end
 ---@return boolean
 ---@param other CS.UnityEngine.RectInt
 function CS.UnityEngine.RectInt:Equals(other) end

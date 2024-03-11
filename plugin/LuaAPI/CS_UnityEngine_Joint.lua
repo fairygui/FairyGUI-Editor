@@ -1,5 +1,6 @@
 ---@class CS.UnityEngine.Joint : CS.UnityEngine.Component
 ---@field public connectedBody CS.UnityEngine.Rigidbody
+---@field public connectedArticulationBody CS.UnityEngine.ArticulationBody
 ---@field public axis CS.UnityEngine.Vector3
 ---@field public anchor CS.UnityEngine.Vector3
 ---@field public connectedAnchor CS.UnityEngine.Vector3

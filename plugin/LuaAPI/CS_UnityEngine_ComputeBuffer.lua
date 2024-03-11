@@ -1,15 +1,18 @@
 ---@class CS.UnityEngine.ComputeBuffer
 ---@field public count number
 ---@field public stride number
+---@field public name string
 
 ---@type CS.UnityEngine.ComputeBuffer
 CS.UnityEngine.ComputeBuffer = { }
 ---@overload fun(count:number, stride:number): CS.UnityEngine.ComputeBuffer
+---@overload fun(count:number, stride:number, t:number): CS.UnityEngine.ComputeBuffer
 ---@return CS.UnityEngine.ComputeBuffer
 ---@param count number
 ---@param stride number
 ---@param optional t number
-function CS.UnityEngine.ComputeBuffer.New(count, stride, t) end
+---@param optional usage number
+function CS.UnityEngine.ComputeBuffer.New(count, stride, t, usage) end
 function CS.UnityEngine.ComputeBuffer:Dispose() end
 function CS.UnityEngine.ComputeBuffer:Release() end
 ---@return boolean

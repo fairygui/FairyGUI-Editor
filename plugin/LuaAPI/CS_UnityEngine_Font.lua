@@ -13,15 +13,14 @@ CS.UnityEngine.Font = { }
 ---@return CS.UnityEngine.Font
 ---@param optional name string
 function CS.UnityEngine.Font.New(name) end
----@param value (fun(obj:CS.UnityEngine.Font):void)
-function CS.UnityEngine.Font.add_textureRebuilt(value) end
----@param value (fun(obj:CS.UnityEngine.Font):void)
-function CS.UnityEngine.Font.remove_textureRebuilt(value) end
 ---@overload fun(fontname:string, size:number): CS.UnityEngine.Font
 ---@return CS.UnityEngine.Font
 ---@param fontnames String[]
 ---@param size number
 function CS.UnityEngine.Font.CreateDynamicFontFromOSFont(fontnames, size) end
+---@param op string
+---@param value (fun(obj:CS.UnityEngine.Font):void)
+function CS.UnityEngine.Font.textureRebuilt(op, value) end
 ---@return number
 ---@param str string
 function CS.UnityEngine.Font.GetMaxVertsForString(str) end

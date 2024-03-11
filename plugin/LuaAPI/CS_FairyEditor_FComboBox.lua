@@ -12,6 +12,8 @@
 ---@field public selectedIndex number
 ---@field public selectionController string
 ---@field public selectionControllerObj CS.FairyEditor.FController
+---@field public sound string
+---@field public volume number
 
 ---@type CS.FairyEditor.FComboBox
 CS.FairyEditor.FComboBox = { }

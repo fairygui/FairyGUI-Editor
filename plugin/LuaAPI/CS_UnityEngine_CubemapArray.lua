@@ -6,14 +6,21 @@
 ---@type CS.UnityEngine.CubemapArray
 CS.UnityEngine.CubemapArray = { }
 ---@overload fun(width:number, cubemapCount:number, format:number, flags:number): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, format:number, flags:number): CS.UnityEngine.CubemapArray
 ---@overload fun(width:number, cubemapCount:number, textureFormat:number, mipChain:boolean): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, format:number, flags:number, mipCount:number): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, format:number, flags:number, mipCount:number): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, textureFormat:number, mipCount:number, linear:boolean): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, textureFormat:number, mipChain:boolean, linear:boolean): CS.UnityEngine.CubemapArray
+---@overload fun(width:number, cubemapCount:number, textureFormat:number, mipCount:number, linear:boolean, createUninitialized:boolean): CS.UnityEngine.CubemapArray
 ---@return CS.UnityEngine.CubemapArray
 ---@param width number
 ---@param cubemapCount number
 ---@param textureFormat number
 ---@param mipChain boolean
 ---@param optional linear boolean
-function CS.UnityEngine.CubemapArray.New(width, cubemapCount, textureFormat, mipChain, linear) end
+---@param optional createUninitialized boolean
+function CS.UnityEngine.CubemapArray.New(width, cubemapCount, textureFormat, mipChain, linear, createUninitialized) end
 ---@overload fun(face:number, arrayElement:number): Color[]
 ---@return Color[]
 ---@param face number

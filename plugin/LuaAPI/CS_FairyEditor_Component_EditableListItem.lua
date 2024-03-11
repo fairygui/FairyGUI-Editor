@@ -1,5 +1,4 @@
 ---@class CS.FairyEditor.Component.EditableListItem : CS.FairyEditor.Component.ListItem
----@field public sign CS.FairyGUI.GLoader
 ---@field public editable boolean
 ---@field public toggleClickCount number
 

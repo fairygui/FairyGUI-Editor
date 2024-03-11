@@ -1,4 +1,5 @@
 ---@class CS.FairyGUI.NAudioClip
+---@field public CustomDestroyMethod (fun(obj:CS.UnityEngine.AudioClip):void)
 ---@field public destroyMethod number
 ---@field public nativeClip CS.UnityEngine.AudioClip
 

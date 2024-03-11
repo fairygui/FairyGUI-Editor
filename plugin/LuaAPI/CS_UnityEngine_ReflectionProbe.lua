@@ -6,6 +6,7 @@
 ---@field public intensity number
 ---@field public bounds CS.UnityEngine.Bounds
 ---@field public hdr boolean
+---@field public renderDynamicObjects boolean
 ---@field public shadowDistance number
 ---@field public resolution number
 ---@field public cullingMask number
@@ -45,12 +46,14 @@ function CS.UnityEngine.ReflectionProbe:IsFinishedRendering(renderId) end
 ---@param blend number
 ---@param target CS.UnityEngine.RenderTexture
 function CS.UnityEngine.ReflectionProbe.BlendCubemap(src, dst, blend, target) end
+function CS.UnityEngine.ReflectionProbe.UpdateCachedState() end
+---@param op string
 ---@param value (fun(arg1:CS.UnityEngine.ReflectionProbe, arg2:number):void)
-function CS.UnityEngine.ReflectionProbe.add_reflectionProbeChanged(value) end
----@param value (fun(arg1:CS.UnityEngine.ReflectionProbe, arg2:number):void)
-function CS.UnityEngine.ReflectionProbe.remove_reflectionProbeChanged(value) end
+function CS.UnityEngine.ReflectionProbe.reflectionProbeChanged(op, value) end
+---@param op string
 ---@param value (fun(obj:CS.UnityEngine.Cubemap):void)
-function CS.UnityEngine.ReflectionProbe.add_defaultReflectionSet(value) end
----@param value (fun(obj:CS.UnityEngine.Cubemap):void)
-function CS.UnityEngine.ReflectionProbe.remove_defaultReflectionSet(value) end
+function CS.UnityEngine.ReflectionProbe.defaultReflectionSet(op, value) end
+---@param op string
+---@param value (fun(obj:CS.UnityEngine.Texture):void)
+function CS.UnityEngine.ReflectionProbe.defaultReflectionTexture(op, value) end
 return CS.UnityEngine.ReflectionProbe

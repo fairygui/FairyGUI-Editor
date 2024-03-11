@@ -2,6 +2,8 @@
 
 ---@type CS.UnityEngine.FrameTimingManager
 CS.UnityEngine.FrameTimingManager = { }
+---@return boolean
+function CS.UnityEngine.FrameTimingManager.IsFeatureEnabled() end
 function CS.UnityEngine.FrameTimingManager.CaptureFrameTimings() end
 ---@return number
 ---@param numFrames number

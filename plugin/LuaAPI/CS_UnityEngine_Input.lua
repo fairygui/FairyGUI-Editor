@@ -10,6 +10,7 @@
 ---@field public imeIsSelected boolean
 ---@field public compositionCursorPos CS.UnityEngine.Vector2
 ---@field public mousePresent boolean
+---@field public penEventCount number
 ---@field public touchCount number
 ---@field public touchPressureSupported boolean
 ---@field public stylusTouchSupported boolean
@@ -63,6 +64,13 @@ function CS.UnityEngine.Input.GetJoystickNames() end
 ---@return CS.UnityEngine.Touch
 ---@param index number
 function CS.UnityEngine.Input.GetTouch(index) end
+---@return CS.UnityEngine.PenData
+---@param index number
+function CS.UnityEngine.Input.GetPenEvent(index) end
+---@return CS.UnityEngine.PenData
+function CS.UnityEngine.Input.GetLastPenContactEvent() end
+function CS.UnityEngine.Input.ResetPenEvents() end
+function CS.UnityEngine.Input.ClearLastPenContactEvent() end
 ---@return CS.UnityEngine.AccelerationEvent
 ---@param index number
 function CS.UnityEngine.Input.GetAccelerationEvent(index) end

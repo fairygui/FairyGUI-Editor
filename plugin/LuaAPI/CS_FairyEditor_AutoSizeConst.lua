@@ -3,6 +3,7 @@
 ---@field public HEIGHT string
 ---@field public BOTH string
 ---@field public SHRINK string
+---@field public ELLIPSIS string
 
 ---@type CS.FairyEditor.AutoSizeConst
 CS.FairyEditor.AutoSizeConst = { }

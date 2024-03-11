@@ -49,6 +49,10 @@ function CS.UnityEngine.Matrix4x4.TRS(pos, q, s) end
 ---@param q CS.UnityEngine.Quaternion
 ---@param s CS.UnityEngine.Vector3
 function CS.UnityEngine.Matrix4x4:SetTRS(pos, q, s) end
+---@return boolean
+---@param input CS.UnityEngine.Matrix4x4
+---@param result CS.UnityEngine.Matrix4x4
+function CS.UnityEngine.Matrix4x4.Inverse3DAffine(input, result) end
 ---@return CS.UnityEngine.Matrix4x4
 ---@param m CS.UnityEngine.Matrix4x4
 function CS.UnityEngine.Matrix4x4.Inverse(m) end
@@ -108,6 +112,8 @@ function CS.UnityEngine.Matrix4x4:GetColumn(index) end
 ---@return CS.UnityEngine.Vector4
 ---@param index number
 function CS.UnityEngine.Matrix4x4:GetRow(index) end
+---@return CS.UnityEngine.Vector3
+function CS.UnityEngine.Matrix4x4:GetPosition() end
 ---@param index number
 ---@param column CS.UnityEngine.Vector4
 function CS.UnityEngine.Matrix4x4:SetColumn(index, column) end
@@ -136,7 +142,9 @@ function CS.UnityEngine.Matrix4x4.Translate(vector) end
 ---@param q CS.UnityEngine.Quaternion
 function CS.UnityEngine.Matrix4x4.Rotate(q) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Matrix4x4:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Matrix4x4:ToString(format, formatProvider) end
 return CS.UnityEngine.Matrix4x4

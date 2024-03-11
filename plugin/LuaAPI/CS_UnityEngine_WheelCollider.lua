@@ -3,6 +3,7 @@
 ---@field public radius number
 ---@field public suspensionDistance number
 ---@field public suspensionSpring CS.UnityEngine.JointSpring
+---@field public suspensionExpansionLimited boolean
 ---@field public forceAppPointDistance number
 ---@field public mass number
 ---@field public wheelDampingRate number
@@ -14,11 +15,13 @@
 ---@field public isGrounded boolean
 ---@field public rpm number
 ---@field public sprungMass number
+---@field public rotationSpeed number
 
 ---@type CS.UnityEngine.WheelCollider
 CS.UnityEngine.WheelCollider = { }
 ---@return CS.UnityEngine.WheelCollider
 function CS.UnityEngine.WheelCollider.New() end
+function CS.UnityEngine.WheelCollider:ResetSprungMasses() end
 ---@param speedThreshold number
 ---@param stepsBelowThreshold number
 ---@param stepsAboveThreshold number

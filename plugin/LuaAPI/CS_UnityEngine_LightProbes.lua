@@ -6,6 +6,17 @@
 
 ---@type CS.UnityEngine.LightProbes
 CS.UnityEngine.LightProbes = { }
+function CS.UnityEngine.LightProbes.Tetrahedralize() end
+---@param op string
+---@param value (fun():void)
+function CS.UnityEngine.LightProbes.lightProbesUpdated(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.UnityEngine.LightProbes.tetrahedralizationCompleted(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.UnityEngine.LightProbes.needsRetetrahedralization(op, value) end
+function CS.UnityEngine.LightProbes.TetrahedralizeAsync() end
 ---@param position CS.UnityEngine.Vector3
 ---@param renderer CS.UnityEngine.Renderer
 ---@param probe CS.UnityEngine.Rendering.SphericalHarmonicsL2

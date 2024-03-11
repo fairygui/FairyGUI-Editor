@@ -12,4 +12,6 @@ function CS.UnityEngine.ScreenCapture.CaptureScreenshot(filename, stereoCaptureM
 ---@return CS.UnityEngine.Texture2D
 ---@param optional stereoCaptureMode number
 function CS.UnityEngine.ScreenCapture.CaptureScreenshotAsTexture(stereoCaptureMode) end
+---@param renderTexture CS.UnityEngine.RenderTexture
+function CS.UnityEngine.ScreenCapture.CaptureScreenshotIntoRenderTexture(renderTexture) end
 return CS.UnityEngine.ScreenCapture

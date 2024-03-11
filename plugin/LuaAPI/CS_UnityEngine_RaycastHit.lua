@@ -1,5 +1,6 @@
 ---@class CS.UnityEngine.RaycastHit : CS.System.ValueType
 ---@field public collider CS.UnityEngine.Collider
+---@field public colliderInstanceID number
 ---@field public point CS.UnityEngine.Vector3
 ---@field public normal CS.UnityEngine.Vector3
 ---@field public barycentricCoordinate CS.UnityEngine.Vector3
@@ -9,6 +10,7 @@
 ---@field public textureCoord2 CS.UnityEngine.Vector2
 ---@field public transform CS.UnityEngine.Transform
 ---@field public rigidbody CS.UnityEngine.Rigidbody
+---@field public articulationBody CS.UnityEngine.ArticulationBody
 ---@field public lightmapCoord CS.UnityEngine.Vector2
 
 ---@type CS.UnityEngine.RaycastHit

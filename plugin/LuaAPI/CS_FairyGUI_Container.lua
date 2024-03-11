@@ -19,13 +19,12 @@ CS.FairyGUI.Container = { }
 ---@return CS.FairyGUI.Container
 ---@param optional attachTarget CS.UnityEngine.GameObject
 function CS.FairyGUI.Container.New(attachTarget) end
----@param value (fun():void)
-function CS.FairyGUI.Container:add_onUpdate(value) end
----@param value (fun():void)
-function CS.FairyGUI.Container:remove_onUpdate(value) end
 ---@return CS.FairyGUI.DisplayObject
 ---@param child CS.FairyGUI.DisplayObject
 function CS.FairyGUI.Container:AddChild(child) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.Container:onUpdate(op, value) end
 ---@return CS.FairyGUI.DisplayObject
 ---@param child CS.FairyGUI.DisplayObject
 ---@param index number

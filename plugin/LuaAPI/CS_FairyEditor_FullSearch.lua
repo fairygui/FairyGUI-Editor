@@ -4,7 +4,8 @@
 ---@type CS.FairyEditor.FullSearch
 CS.FairyEditor.FullSearch = { }
 ---@return CS.FairyEditor.FullSearch
-function CS.FairyEditor.FullSearch.New() end
+---@param maxResultCount number
+function CS.FairyEditor.FullSearch.New(maxResultCount) end
 ---@param strName string
 ---@param strTypes string
 ---@param includeBrances boolean

@@ -11,10 +11,12 @@
 ---@field public startColor CS.UnityEngine.Color
 ---@field public endColor CS.UnityEngine.Color
 ---@field public positionCount number
+---@field public textureScale CS.UnityEngine.Vector2
 ---@field public shadowBias number
 ---@field public generateLightingData boolean
 ---@field public textureMode number
 ---@field public alignment number
+---@field public maskInteraction number
 ---@field public widthCurve CS.UnityEngine.AnimationCurve
 ---@field public colorGradient CS.UnityEngine.Gradient
 
@@ -34,13 +36,24 @@ function CS.UnityEngine.TrailRenderer:Clear() end
 ---@param camera CS.UnityEngine.Camera
 ---@param optional useTransform boolean
 function CS.UnityEngine.TrailRenderer:BakeMesh(mesh, camera, useTransform) end
+---@overload fun(positions:Vector3[]): number
+---@overload fun(positions:CS.Unity.Collections.NativeArray_CS.UnityEngine.Vector3): number
 ---@return number
----@param positions Vector3[]
+---@param positions CS.Unity.Collections.NativeSlice_CS.UnityEngine.Vector3
 function CS.UnityEngine.TrailRenderer:GetPositions(positions) end
----@param positions Vector3[]
+---@overload fun(positions:Vector3[]): number
+---@overload fun(positions:CS.Unity.Collections.NativeArray_CS.UnityEngine.Vector3): number
+---@return number
+---@param positions CS.Unity.Collections.NativeSlice_CS.UnityEngine.Vector3
+function CS.UnityEngine.TrailRenderer:GetVisiblePositions(positions) end
+---@overload fun(positions:Vector3[]): void
+---@overload fun(positions:CS.Unity.Collections.NativeArray_CS.UnityEngine.Vector3): void
+---@param positions CS.Unity.Collections.NativeSlice_CS.UnityEngine.Vector3
 function CS.UnityEngine.TrailRenderer:SetPositions(positions) end
 ---@param position CS.UnityEngine.Vector3
 function CS.UnityEngine.TrailRenderer:AddPosition(position) end
----@param positions Vector3[]
+---@overload fun(positions:Vector3[]): void
+---@overload fun(positions:CS.Unity.Collections.NativeArray_CS.UnityEngine.Vector3): void
+---@param positions CS.Unity.Collections.NativeSlice_CS.UnityEngine.Vector3
 function CS.UnityEngine.TrailRenderer:AddPositions(positions) end
 return CS.UnityEngine.TrailRenderer

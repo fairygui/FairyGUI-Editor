@@ -6,7 +6,8 @@ CS.FairyGUI.ExternalTMPFont = { }
 function CS.FairyGUI.ExternalTMPFont.New() end
 ---@param file string
 ---@param samplePointSize number
-function CS.FairyGUI.ExternalTMPFont:Load(file, samplePointSize) end
+---@param atlasPadding number
+function CS.FairyGUI.ExternalTMPFont:Load(file, samplePointSize, atlasPadding) end
 ---@param graphics CS.FairyGUI.NGraphics
 function CS.FairyGUI.ExternalTMPFont:UpdateGraphics(graphics) end
 ---@param format CS.FairyGUI.TextFormat

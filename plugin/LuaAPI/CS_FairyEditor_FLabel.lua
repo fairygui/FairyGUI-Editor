@@ -12,6 +12,8 @@
 ---@field public input boolean
 ---@field public password boolean
 ---@field public promptText string
+---@field public sound string
+---@field public volume number
 
 ---@type CS.FairyEditor.FLabel
 CS.FairyEditor.FLabel = { }
@@ -26,6 +28,7 @@ function CS.FairyEditor.FLabel:GetProp(index) end
 ---@param value CS.System.Object
 function CS.FairyEditor.FLabel:SetProp(index, value) end
 function CS.FairyEditor.FLabel:Create() end
+function CS.FairyEditor.FLabel:Dispose() end
 ---@param xml CS.FairyGUI.Utils.XML
 ---@param strings CS.System.Collections.Generic.Dictionary_CS.System.String_CS.System.String
 function CS.FairyEditor.FLabel:Read(xml, strings) end

@@ -84,6 +84,7 @@
 ---@field public icon string
 ---@field public draggable boolean
 ---@field public dragging boolean
+---@field public dragStartPos CS.UnityEngine.Vector2
 ---@field public isDisposed boolean
 ---@field public asImage CS.FairyGUI.GImage
 ---@field public asCom CS.FairyGUI.GComponent

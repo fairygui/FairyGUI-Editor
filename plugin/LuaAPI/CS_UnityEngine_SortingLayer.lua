@@ -1,4 +1,6 @@
 ---@class CS.UnityEngine.SortingLayer : CS.System.ValueType
+---@field public onLayerAdded (fun(layer:CS.UnityEngine.SortingLayer):void)
+---@field public onLayerRemoved (fun(layer:CS.UnityEngine.SortingLayer):void)
 ---@field public id number
 ---@field public name string
 ---@field public value number

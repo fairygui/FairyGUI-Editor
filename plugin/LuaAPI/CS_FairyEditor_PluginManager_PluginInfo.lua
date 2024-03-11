@@ -7,7 +7,10 @@
 ---@field public icon string
 ---@field public main string
 ---@field public onPublish (fun(obj:CS.FairyEditor.PublishHandler):void)
+---@field public onPublishStart (fun(obj:FPackage[]):void)
+---@field public onPublishEnd (fun(obj:FPackage[]):void)
 ---@field public onDestroy (fun():void)
+---@field public onRunBatchModeScript (fun(arg1:(fun():void), arg2:string):void)
 
 ---@type CS.FairyEditor.PluginManager.PluginInfo
 CS.FairyEditor.PluginManager.PluginInfo = { }

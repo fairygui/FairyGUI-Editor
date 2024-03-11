@@ -55,6 +55,9 @@ function CS.UnityEngine.Vector2Int.CeilToInt(v) end
 ---@param v CS.UnityEngine.Vector2
 function CS.UnityEngine.Vector2Int.RoundToInt(v) end
 ---@return CS.UnityEngine.Vector2Int
+---@param v CS.UnityEngine.Vector2Int
+function CS.UnityEngine.Vector2Int.op_UnaryNegation(v) end
+---@return CS.UnityEngine.Vector2Int
 ---@param a CS.UnityEngine.Vector2Int
 ---@param b CS.UnityEngine.Vector2Int
 function CS.UnityEngine.Vector2Int.op_Addition(a, b) end
@@ -63,10 +66,15 @@ function CS.UnityEngine.Vector2Int.op_Addition(a, b) end
 ---@param b CS.UnityEngine.Vector2Int
 function CS.UnityEngine.Vector2Int.op_Subtraction(a, b) end
 ---@overload fun(a:CS.UnityEngine.Vector2Int, b:CS.UnityEngine.Vector2Int): CS.UnityEngine.Vector2Int
+---@overload fun(a:number, b:CS.UnityEngine.Vector2Int): CS.UnityEngine.Vector2Int
 ---@return CS.UnityEngine.Vector2Int
 ---@param a CS.UnityEngine.Vector2Int
 ---@param b number
 function CS.UnityEngine.Vector2Int.op_Multiply(a, b) end
+---@return CS.UnityEngine.Vector2Int
+---@param a CS.UnityEngine.Vector2Int
+---@param b number
+function CS.UnityEngine.Vector2Int.op_Division(a, b) end
 ---@return boolean
 ---@param lhs CS.UnityEngine.Vector2Int
 ---@param rhs CS.UnityEngine.Vector2Int
@@ -81,6 +89,10 @@ function CS.UnityEngine.Vector2Int.op_Inequality(lhs, rhs) end
 function CS.UnityEngine.Vector2Int:Equals(other) end
 ---@return number
 function CS.UnityEngine.Vector2Int:GetHashCode() end
+---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
-function CS.UnityEngine.Vector2Int:ToString() end
+---@param optional format string
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Vector2Int:ToString(format, formatProvider) end
 return CS.UnityEngine.Vector2Int

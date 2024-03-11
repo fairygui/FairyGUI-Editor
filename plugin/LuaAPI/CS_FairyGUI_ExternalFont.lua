@@ -45,16 +45,4 @@ function CS.FairyGUI.ExternalFont:HasCharacter(ch) end
 ---@return number
 ---@param size number
 function CS.FairyGUI.ExternalFont:GetLineHeight(size) end
----@param texture CS.UnityEngine.Texture2D
-function CS.FairyGUI.ExternalFont._ResetAtlasTexture(texture) end
----@return boolean
----@param glyphIndexes CS.System.Collections.Generic.List_CS.System.UInt32
----@param padding number
----@param packingMode number
----@param freeGlyphRects CS.System.Collections.Generic.List_CS.UnityEngine.TextCore.GlyphRect
----@param usedGlyphRects CS.System.Collections.Generic.List_CS.UnityEngine.TextCore.GlyphRect
----@param renderMode number
----@param texture CS.UnityEngine.Texture2D
----@param glyphs CS.UnityEngine.TextCore.Glyph[]
-function CS.FairyGUI.ExternalFont._TryAddGlyphsToTexture(glyphIndexes, padding, packingMode, freeGlyphRects, usedGlyphRects, renderMode, texture, glyphs) end
 return CS.FairyGUI.ExternalFont

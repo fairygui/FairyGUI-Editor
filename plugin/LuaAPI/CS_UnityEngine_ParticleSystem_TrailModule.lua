@@ -6,6 +6,7 @@
 ---@field public lifetimeMultiplier number
 ---@field public minVertexDistance number
 ---@field public textureMode number
+---@field public textureScale CS.UnityEngine.Vector2
 ---@field public worldSpace boolean
 ---@field public dieWithParticles boolean
 ---@field public sizeAffectsWidth boolean

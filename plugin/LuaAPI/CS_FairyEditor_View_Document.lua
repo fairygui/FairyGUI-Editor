@@ -24,6 +24,7 @@ CS.FairyEditor.View.Document = { }
 function CS.FairyEditor.View.Document.New() end
 ---@param pi CS.FairyEditor.FPackageItem
 function CS.FairyEditor.View.Document:Open(pi) end
+function CS.FairyEditor.View.Document:DiscardChanges() end
 function CS.FairyEditor.View.Document:OnEnable() end
 function CS.FairyEditor.View.Document:OnDisable() end
 function CS.FairyEditor.View.Document:OnDestroy() end
@@ -144,18 +145,15 @@ function CS.FairyEditor.View.Document:SetKeyFrameControlPointSmooth(item, pointI
 ---@param t string
 ---@param frame number
 function CS.FairyEditor.View.Document:SetKeyFrame(targetId, t, frame) end
----@param targetId string
----@param t string
----@param xml CS.FairyGUI.Utils.XML
-function CS.FairyEditor.View.Document:SetKeyFrames(targetId, t, xml) end
+---@overload fun(keyFrames:CS.System.Collections.Generic.IEnumerable_CS.FairyEditor.FTransitionItem): void
+---@param items FTransitionItem[]
+function CS.FairyEditor.View.Document:AddKeyFrames(items) end
 ---@overload fun(transType:string): void
 ---@param child CS.FairyEditor.FObject
 ---@param optional t string
 function CS.FairyEditor.View.Document:CreateKeyFrame(child, t) end
 ---@param item CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.View.Document:AddKeyFrame(item) end
----@param items FTransitionItem[]
-function CS.FairyEditor.View.Document:AddKeyFrames(items) end
 ---@param item CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.View.Document:RemoveKeyFrame(item) end
 ---@param targetId string

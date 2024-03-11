@@ -21,10 +21,15 @@
 ---@field public multiplyColliderForceByCollisionAngle boolean
 ---@field public multiplyColliderForceByParticleSpeed boolean
 ---@field public multiplyColliderForceByParticleSize boolean
----@field public maxPlaneCount number
+---@field public planeCount number
 
 ---@type CS.UnityEngine.ParticleSystem.CollisionModule
 CS.UnityEngine.ParticleSystem.CollisionModule = { }
+---@param transform CS.UnityEngine.Transform
+function CS.UnityEngine.ParticleSystem.CollisionModule:AddPlane(transform) end
+---@overload fun(index:number): void
+---@param transform CS.UnityEngine.Transform
+function CS.UnityEngine.ParticleSystem.CollisionModule:RemovePlane(transform) end
 ---@param index number
 ---@param transform CS.UnityEngine.Transform
 function CS.UnityEngine.ParticleSystem.CollisionModule:SetPlane(index, transform) end

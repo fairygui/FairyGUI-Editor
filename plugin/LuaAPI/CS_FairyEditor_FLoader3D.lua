@@ -13,8 +13,6 @@
 ---@field public skinName string
 ---@field public loop boolean
 ---@field public color CS.UnityEngine.Color
----@field public spineObj CS.Spine.Unity.SkeletonAnimation
----@field public dbObj CS.DragonBones.UnityArmatureComponent
 ---@field public contentRes CS.FairyEditor.ResourceRef
 
 ---@type CS.FairyEditor.FLoader3D

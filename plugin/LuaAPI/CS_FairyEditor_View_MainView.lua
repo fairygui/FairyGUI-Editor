@@ -14,7 +14,7 @@ function CS.FairyEditor.View.MainView:ShowAlreadyUpdatedPrompt() end
 function CS.FairyEditor.View.MainView:ShowStartScene() end
 ---@return boolean
 ---@param funcId string
-function CS.FairyEditor.View.MainView:HandleGlobalHotkeys(funcId) end
+function CS.FairyEditor.View.MainView:HandleGlobalHotkey(funcId) end
 function CS.FairyEditor.View.MainView:FillLanguages() end
 ---@param mousePos CS.UnityEngine.Vector2
 ---@param arrFiles String[]

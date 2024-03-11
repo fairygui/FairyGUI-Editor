@@ -29,20 +29,20 @@ CS.UnityEngine.Cloth = { }
 ---@return CS.UnityEngine.Cloth
 function CS.UnityEngine.Cloth.New() end
 function CS.UnityEngine.Cloth:ClearTransformMotion() end
----@overload fun(enabled:boolean): void
----@param enabled boolean
----@param optional interpolationTime number
-function CS.UnityEngine.Cloth:SetEnabledFading(enabled, interpolationTime) end
----@param indices CS.System.Collections.Generic.List_CS.System.UInt32
-function CS.UnityEngine.Cloth:GetVirtualParticleIndices(indices) end
----@param indices CS.System.Collections.Generic.List_CS.System.UInt32
-function CS.UnityEngine.Cloth:SetVirtualParticleIndices(indices) end
----@param weights CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
-function CS.UnityEngine.Cloth:GetVirtualParticleWeights(weights) end
----@param weights CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
-function CS.UnityEngine.Cloth:SetVirtualParticleWeights(weights) end
 ---@param indices CS.System.Collections.Generic.List_CS.System.UInt32
 function CS.UnityEngine.Cloth:GetSelfAndInterCollisionIndices(indices) end
 ---@param indices CS.System.Collections.Generic.List_CS.System.UInt32
 function CS.UnityEngine.Cloth:SetSelfAndInterCollisionIndices(indices) end
+---@param indicesOutList CS.System.Collections.Generic.List_CS.System.UInt32
+function CS.UnityEngine.Cloth:GetVirtualParticleIndices(indicesOutList) end
+---@param indicesIn CS.System.Collections.Generic.List_CS.System.UInt32
+function CS.UnityEngine.Cloth:SetVirtualParticleIndices(indicesIn) end
+---@param weightsOutList CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
+function CS.UnityEngine.Cloth:GetVirtualParticleWeights(weightsOutList) end
+---@param weights CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
+function CS.UnityEngine.Cloth:SetVirtualParticleWeights(weights) end
+---@overload fun(enabled:boolean): void
+---@param enabled boolean
+---@param optional interpolationTime number
+function CS.UnityEngine.Cloth:SetEnabledFading(enabled, interpolationTime) end
 return CS.UnityEngine.Cloth

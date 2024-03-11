@@ -1,4 +1,8 @@
 ---@class CS.UnityEngine.Camera : CS.UnityEngine.Behaviour
+---@field public kMinAperture number
+---@field public kMaxAperture number
+---@field public kMinBladeCount number
+---@field public kMaxBladeCount number
 ---@field public onPreCull (fun(cam:CS.UnityEngine.Camera):void)
 ---@field public onPreRender (fun(cam:CS.UnityEngine.Camera):void)
 ---@field public onPostRender (fun(cam:CS.UnityEngine.Camera):void)
@@ -23,6 +27,7 @@
 ---@field public eventMask number
 ---@field public layerCullSpherical boolean
 ---@field public cameraType number
+---@field public overrideSceneCullingMask number
 ---@field public layerCullDistances Single[]
 ---@field public useOcclusionCulling boolean
 ---@field public cullingMatrix CS.UnityEngine.Matrix4x4
@@ -31,9 +36,17 @@
 ---@field public depthTextureMode number
 ---@field public clearStencilAfterLightingPass boolean
 ---@field public usePhysicalProperties boolean
+---@field public iso number
+---@field public shutterSpeed number
+---@field public aperture number
+---@field public focusDistance number
+---@field public focalLength number
+---@field public bladeCount number
+---@field public curvature CS.UnityEngine.Vector2
+---@field public barrelClipping number
+---@field public anamorphism number
 ---@field public sensorSize CS.UnityEngine.Vector2
 ---@field public lensShift CS.UnityEngine.Vector2
----@field public focalLength number
 ---@field public gateFit number
 ---@field public rect CS.UnityEngine.Rect
 ---@field public pixelRect CS.UnityEngine.Rect
@@ -61,6 +74,7 @@
 ---@field public stereoActiveEye number
 ---@field public allCamerasCount number
 ---@field public allCameras Camera[]
+---@field public sceneViewFilterMode number
 ---@field public commandBufferCount number
 
 ---@type CS.UnityEngine.Camera
@@ -75,6 +89,10 @@ function CS.UnityEngine.Camera:ResetCullingMatrix() end
 ---@param replacementTag string
 function CS.UnityEngine.Camera:SetReplacementShader(shader, replacementTag) end
 function CS.UnityEngine.Camera:ResetReplacementShader() end
+---@return number
+function CS.UnityEngine.Camera:GetGateFittedFieldOfView() end
+---@return CS.UnityEngine.Vector2
+function CS.UnityEngine.Camera:GetGateFittedLensShift() end
 ---@overload fun(colorBuffer:CS.UnityEngine.RenderBuffer, depthBuffer:CS.UnityEngine.RenderBuffer): void
 ---@param colorBuffer RenderBuffer[]
 ---@param depthBuffer CS.UnityEngine.RenderBuffer
@@ -136,11 +154,19 @@ function CS.UnityEngine.Camera.CalculateProjectionMatrixFromPhysicalProperties(o
 ---@return number
 ---@param focalLength number
 ---@param sensorSize number
-function CS.UnityEngine.Camera.FocalLengthToFOV(focalLength, sensorSize) end
+function CS.UnityEngine.Camera.FocalLengthToFieldOfView(focalLength, sensorSize) end
 ---@return number
----@param fov number
+---@param fieldOfView number
 ---@param sensorSize number
-function CS.UnityEngine.Camera.FOVToFocalLength(fov, sensorSize) end
+function CS.UnityEngine.Camera.FieldOfViewToFocalLength(fieldOfView, sensorSize) end
+---@return number
+---@param horizontalFieldOfView number
+---@param aspectRatio number
+function CS.UnityEngine.Camera.HorizontalToVerticalFieldOfView(horizontalFieldOfView, aspectRatio) end
+---@return number
+---@param verticalFieldOfView number
+---@param aspectRatio number
+function CS.UnityEngine.Camera.VerticalToHorizontalFieldOfView(verticalFieldOfView, aspectRatio) end
 ---@return CS.UnityEngine.Matrix4x4
 ---@param eye number
 function CS.UnityEngine.Camera:GetStereoNonJitteredProjectionMatrix(eye) end
@@ -197,4 +223,9 @@ function CS.UnityEngine.Camera:RemoveCommandBuffer(evt, buffer) end
 ---@return CommandBuffer[]
 ---@param evt number
 function CS.UnityEngine.Camera:GetCommandBuffers(evt) end
+---@overload fun(cullingParameters:CS.UnityEngine.Rendering.ScriptableCullingParameters): boolean
+---@return boolean
+---@param stereoAware boolean
+---@param optional cullingParameters CS.UnityEngine.Rendering.ScriptableCullingParameters
+function CS.UnityEngine.Camera:TryGetCullingParameters(stereoAware, cullingParameters) end
 return CS.UnityEngine.Camera

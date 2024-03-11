@@ -4,9 +4,11 @@
 ---@field public spring CS.UnityEngine.JointSpring
 ---@field public useMotor boolean
 ---@field public useLimits boolean
+---@field public extendedLimits boolean
 ---@field public useSpring boolean
 ---@field public velocity number
 ---@field public angle number
+---@field public useAcceleration boolean
 
 ---@type CS.UnityEngine.HingeJoint
 CS.UnityEngine.HingeJoint = { }

@@ -19,5 +19,9 @@ function CS.FairyEditor.HotkeyManager:CaptureHotkey(receiver) end
 function CS.FairyEditor.HotkeyManager:GetFunctionDef(funcId) end
 ---@return string
 ---@param evt CS.FairyGUI.InputEvent
-function CS.FairyEditor.HotkeyManager:GetFunction(evt) end
+---@param code CS.System.Int32
+function CS.FairyEditor.HotkeyManager:GetFunction(evt, code) end
+---@return number
+---@param hotkey string
+function CS.FairyEditor.HotkeyManager:TranslateKey(hotkey) end
 return CS.FairyEditor.HotkeyManager

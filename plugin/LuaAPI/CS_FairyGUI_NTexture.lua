@@ -28,11 +28,16 @@ CS.FairyGUI.NTexture = { }
 ---@param optional originalSize CS.UnityEngine.Vector2
 ---@param optional offset CS.UnityEngine.Vector2
 function CS.FairyGUI.NTexture.New(root, region, rotated, originalSize, offset) end
----@param value (fun():void)
-function CS.FairyGUI.NTexture:add_onSizeChanged(value) end
----@param value (fun():void)
-function CS.FairyGUI.NTexture:remove_onSizeChanged(value) end
 function CS.FairyGUI.NTexture.DisposeEmpty() end
+---@param op string
+---@param value (fun(obj:CS.UnityEngine.Texture):void)
+function CS.FairyGUI.NTexture.CustomDestroyMethod(op, value) end
+---@param op string
+---@param value (fun(obj:CS.FairyGUI.NTexture):void)
+function CS.FairyGUI.NTexture:onSizeChanged(op, value) end
+---@param op string
+---@param value (fun(obj:CS.FairyGUI.NTexture):void)
+function CS.FairyGUI.NTexture:onRelease(op, value) end
 ---@return CS.UnityEngine.Rect
 ---@param drawRect CS.UnityEngine.Rect
 function CS.FairyGUI.NTexture:GetDrawRect(drawRect) end
@@ -47,5 +52,7 @@ function CS.FairyGUI.NTexture:Unload(destroyMaterials) end
 ---@param nativeTexture CS.UnityEngine.Texture
 ---@param alphaTexture CS.UnityEngine.Texture
 function CS.FairyGUI.NTexture:Reload(nativeTexture, alphaTexture) end
+function CS.FairyGUI.NTexture:AddRef() end
+function CS.FairyGUI.NTexture:ReleaseRef() end
 function CS.FairyGUI.NTexture:Dispose() end
 return CS.FairyGUI.NTexture

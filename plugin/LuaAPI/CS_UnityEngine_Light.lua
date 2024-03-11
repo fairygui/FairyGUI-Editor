@@ -1,18 +1,27 @@
 ---@class CS.UnityEngine.Light : CS.UnityEngine.Behaviour
 ---@field public type number
+---@field public shape number
 ---@field public spotAngle number
+---@field public innerSpotAngle number
 ---@field public color CS.UnityEngine.Color
 ---@field public colorTemperature number
+---@field public useColorTemperature boolean
 ---@field public intensity number
 ---@field public bounceIntensity number
+---@field public useBoundingSphereOverride boolean
+---@field public boundingSphereOverride CS.UnityEngine.Vector4
+---@field public useViewFrustumForShadowCasterCull boolean
 ---@field public shadowCustomResolution number
 ---@field public shadowBias number
 ---@field public shadowNormalBias number
 ---@field public shadowNearPlane number
+---@field public useShadowMatrixOverride boolean
+---@field public shadowMatrixOverride CS.UnityEngine.Matrix4x4
 ---@field public range number
 ---@field public flare CS.UnityEngine.Flare
 ---@field public bakingOutput CS.UnityEngine.LightBakingOutput
 ---@field public cullingMask number
+---@field public renderingLayerMask number
 ---@field public lightShadowCasterMode number
 ---@field public shadowRadius number
 ---@field public shadowAngle number
@@ -53,8 +62,4 @@ function CS.UnityEngine.Light:RemoveAllCommandBuffers() end
 ---@return CommandBuffer[]
 ---@param evt number
 function CS.UnityEngine.Light:GetCommandBuffers(evt) end
----@return Light[]
----@param t number
----@param layer number
-function CS.UnityEngine.Light.GetLights(t, layer) end
 return CS.UnityEngine.Light

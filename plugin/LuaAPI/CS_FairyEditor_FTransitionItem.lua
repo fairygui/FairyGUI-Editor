@@ -23,7 +23,9 @@
 ---@field public usePath boolean
 ---@field public path CS.FairyEditor.GPathExt
 ---@field public pathPoints CS.System.Collections.Generic.List_CS.FairyGUI.GPathPoint
+---@field public customEase CS.FairyEditor.FCustomEase
 ---@field public pathData string
+---@field public customEaseData string
 ---@field public encodedValue string
 
 ---@type CS.FairyEditor.FTransitionItem

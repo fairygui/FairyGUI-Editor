@@ -34,7 +34,7 @@ function CS.FairyEditor.Component.ViewGrid:GetViewIndex(view) end
 ---@param viewId string
 function CS.FairyEditor.Component.ViewGrid:GetViewIndexById(viewId) end
 ---@return boolean
----@param ids CS.System.Array
+---@param ids String[]
 function CS.FairyEditor.Component.ViewGrid:ContainsView(ids) end
 ---@param anotherGrid CS.FairyEditor.Component.ViewGrid
 function CS.FairyEditor.Component.ViewGrid:MoveViews(anotherGrid) end

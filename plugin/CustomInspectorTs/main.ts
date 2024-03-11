@@ -1,4 +1,5 @@
-import { FairyGUI, FairyEditor } from 'csharp';
+import FairyGUI = CS.FairyGUI;
+import FairyEditor = CS.FairyEditor;
 
 const App = FairyEditor.App;
 

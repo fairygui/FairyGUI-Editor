@@ -43,9 +43,11 @@ function CS.UnityEngine.Bounds:Intersects(bounds) end
 ---@param optional distance CS.System.Single
 function CS.UnityEngine.Bounds:IntersectRay(ray, distance) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Bounds:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Bounds:ToString(format, formatProvider) end
 ---@return boolean
 ---@param point CS.UnityEngine.Vector3
 function CS.UnityEngine.Bounds:Contains(point) end

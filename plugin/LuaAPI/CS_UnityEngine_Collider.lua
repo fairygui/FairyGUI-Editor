@@ -1,9 +1,15 @@
 ---@class CS.UnityEngine.Collider : CS.UnityEngine.Component
 ---@field public enabled boolean
 ---@field public attachedRigidbody CS.UnityEngine.Rigidbody
+---@field public attachedArticulationBody CS.UnityEngine.ArticulationBody
 ---@field public isTrigger boolean
 ---@field public contactOffset number
 ---@field public bounds CS.UnityEngine.Bounds
+---@field public hasModifiableContacts boolean
+---@field public providesContacts boolean
+---@field public layerOverridePriority number
+---@field public excludeLayers CS.UnityEngine.LayerMask
+---@field public includeLayers CS.UnityEngine.LayerMask
 ---@field public sharedMaterial CS.UnityEngine.PhysicMaterial
 ---@field public material CS.UnityEngine.PhysicMaterial
 

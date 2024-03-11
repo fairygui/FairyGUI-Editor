@@ -10,4 +10,6 @@ function CS.FairyEditor.View.TimelineView:Refresh(transItem) end
 function CS.FairyEditor.View.TimelineView:SelectKeyFrame(transItem) end
 ---@return CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.View.TimelineView:GetSelection() end
+---@param result CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
+function CS.FairyEditor.View.TimelineView:GetSelections(result) end
 return CS.FairyEditor.View.TimelineView

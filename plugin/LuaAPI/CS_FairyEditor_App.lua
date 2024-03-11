@@ -2,6 +2,7 @@
 ---@field public isMacOS boolean
 ---@field public language string
 ---@field public batchMode boolean
+---@field public batchModeAction string
 ---@field public preferences CS.FairyEditor.Preferences
 ---@field public localStore CS.FairyEditor.LocalStore
 ---@field public hotkeyManager CS.FairyEditor.HotkeyManager
@@ -29,30 +30,25 @@
 CS.FairyEditor.App = { }
 ---@return CS.FairyEditor.App
 function CS.FairyEditor.App.New() end
----@param value (fun():void)
-function CS.FairyEditor.App.add_onProjectOpened(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.remove_onProjectOpened(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.add_onProjectClosed(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.remove_onProjectClosed(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.add_onUpdate(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.remove_onUpdate(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.add_onLateUpdate(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.remove_onLateUpdate(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.add_onValidate(value) end
----@param value (fun():void)
-function CS.FairyEditor.App.remove_onValidate(value) end
 ---@overload fun(index:number): string
 ---@return string
 ---@param index string
 function CS.FairyEditor.App.GetString(index) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.App.onProjectOpened(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.App.onProjectClosed(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.App.onUpdate(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.App.onLateUpdate(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.App.onValidate(op, value) end
 ---@overload fun(key:string): string
 ---@return string
 ---@param key string
@@ -76,9 +72,11 @@ function CS.FairyEditor.App.GetActiveFolder() end
 ---@param restart boolean
 function CS.FairyEditor.App.QueryToClose(restart) end
 function CS.FairyEditor.App.Close() end
+---@overload fun(msg:string): void
+---@overload fun(msg:string, err:CS.System.Exception): void
 ---@param msg string
----@param err CS.System.Exception
----@param callback (fun():void)
+---@param optional err CS.System.Exception
+---@param optional callback (fun():void)
 function CS.FairyEditor.App.Alert(msg, err, callback) end
 ---@param msg string
 ---@param callback (fun(obj:string):void)
@@ -89,8 +87,10 @@ function CS.FairyEditor.App.Confirm(msg, callback) end
 function CS.FairyEditor.App.Input(msg, text, callback) end
 ---@param value boolean
 function CS.FairyEditor.App.SetWaitCursor(value) end
----@param msg string
----@param cancelCallback (fun():void)
+---@overload fun(): void
+---@overload fun(msg:string): void
+---@param optional msg string
+---@param optional cancelCallback (fun():void)
 function CS.FairyEditor.App.ShowWaiting(msg, cancelCallback) end
 function CS.FairyEditor.App.CloseWaiting() end
 ---@param key string

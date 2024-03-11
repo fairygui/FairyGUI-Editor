@@ -4,6 +4,7 @@
 ---@field public border CS.UnityEngine.Vector4
 ---@field public texture CS.UnityEngine.Texture2D
 ---@field public pixelsPerUnit number
+---@field public spriteAtlasTextureScale number
 ---@field public associatedAlphaSplitTexture CS.UnityEngine.Texture2D
 ---@field public pivot CS.UnityEngine.Vector2
 ---@field public packed boolean
@@ -17,6 +18,11 @@
 
 ---@type CS.UnityEngine.Sprite
 CS.UnityEngine.Sprite = { }
+---@return number
+function CS.UnityEngine.Sprite:GetSecondaryTextureCount() end
+---@return number
+---@param secondaryTexture SecondarySpriteTexture[]
+function CS.UnityEngine.Sprite:GetSecondaryTextures(secondaryTexture) end
 ---@return number
 function CS.UnityEngine.Sprite:GetPhysicsShapeCount() end
 ---@return number
@@ -36,6 +42,7 @@ function CS.UnityEngine.Sprite:OverrideGeometry(vertices, triangles) end
 ---@overload fun(texture:CS.UnityEngine.Texture2D, rect:CS.UnityEngine.Rect, pivot:CS.UnityEngine.Vector2, pixelsPerUnit:number, extrude:number): CS.UnityEngine.Sprite
 ---@overload fun(texture:CS.UnityEngine.Texture2D, rect:CS.UnityEngine.Rect, pivot:CS.UnityEngine.Vector2, pixelsPerUnit:number, extrude:number, meshType:number): CS.UnityEngine.Sprite
 ---@overload fun(texture:CS.UnityEngine.Texture2D, rect:CS.UnityEngine.Rect, pivot:CS.UnityEngine.Vector2, pixelsPerUnit:number, extrude:number, meshType:number, border:CS.UnityEngine.Vector4): CS.UnityEngine.Sprite
+---@overload fun(texture:CS.UnityEngine.Texture2D, rect:CS.UnityEngine.Rect, pivot:CS.UnityEngine.Vector2, pixelsPerUnit:number, extrude:number, meshType:number, border:CS.UnityEngine.Vector4, generateFallbackPhysicsShape:boolean): CS.UnityEngine.Sprite
 ---@return CS.UnityEngine.Sprite
 ---@param texture CS.UnityEngine.Texture2D
 ---@param rect CS.UnityEngine.Rect
@@ -45,5 +52,6 @@ function CS.UnityEngine.Sprite:OverrideGeometry(vertices, triangles) end
 ---@param optional meshType number
 ---@param optional border CS.UnityEngine.Vector4
 ---@param optional generateFallbackPhysicsShape boolean
-function CS.UnityEngine.Sprite.Create(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape) end
+---@param optional secondaryTextures SecondarySpriteTexture[]
+function CS.UnityEngine.Sprite.Create(texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape, secondaryTextures) end
 return CS.UnityEngine.Sprite

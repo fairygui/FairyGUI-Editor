@@ -15,15 +15,13 @@
 CS.FairyGUI.UpdateContext = { }
 ---@return CS.FairyGUI.UpdateContext
 function CS.FairyGUI.UpdateContext.New() end
----@param value (fun():void)
-function CS.FairyGUI.UpdateContext.add_OnBegin(value) end
----@param value (fun():void)
-function CS.FairyGUI.UpdateContext.remove_OnBegin(value) end
----@param value (fun():void)
-function CS.FairyGUI.UpdateContext.add_OnEnd(value) end
----@param value (fun():void)
-function CS.FairyGUI.UpdateContext.remove_OnEnd(value) end
 function CS.FairyGUI.UpdateContext:Begin() end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.UpdateContext.OnBegin(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.UpdateContext.OnEnd(op, value) end
 function CS.FairyGUI.UpdateContext:End() end
 ---@overload fun(clipId:number, reversedMask:boolean): void
 ---@param clipId number

@@ -1,4 +1,5 @@
 ---@class CS.UnityEngine.MonoBehaviour : CS.UnityEngine.Behaviour
+---@field public destroyCancellationToken CS.System.Threading.CancellationToken
 ---@field public useGUILayout boolean
 ---@field public runInEditMode boolean
 

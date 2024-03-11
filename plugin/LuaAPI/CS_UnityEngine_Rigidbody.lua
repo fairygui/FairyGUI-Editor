@@ -10,8 +10,10 @@
 ---@field public freezeRotation boolean
 ---@field public constraints number
 ---@field public collisionDetectionMode number
+---@field public automaticCenterOfMass boolean
 ---@field public centerOfMass CS.UnityEngine.Vector3
 ---@field public worldCenterOfMass CS.UnityEngine.Vector3
+---@field public automaticInertiaTensor boolean
 ---@field public inertiaTensorRotation CS.UnityEngine.Quaternion
 ---@field public inertiaTensor CS.UnityEngine.Vector3
 ---@field public detectCollisions boolean
@@ -21,7 +23,10 @@
 ---@field public solverIterations number
 ---@field public sleepThreshold number
 ---@field public maxAngularVelocity number
+---@field public maxLinearVelocity number
 ---@field public solverVelocityIterations number
+---@field public excludeLayers CS.UnityEngine.LayerMask
+---@field public includeLayers CS.UnityEngine.LayerMask
 
 ---@type CS.UnityEngine.Rigidbody
 CS.UnityEngine.Rigidbody = { }
@@ -33,6 +38,9 @@ function CS.UnityEngine.Rigidbody:SetDensity(density) end
 function CS.UnityEngine.Rigidbody:MovePosition(position) end
 ---@param rot CS.UnityEngine.Quaternion
 function CS.UnityEngine.Rigidbody:MoveRotation(rot) end
+---@param position CS.UnityEngine.Vector3
+---@param rotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Rigidbody:Move(position, rotation) end
 function CS.UnityEngine.Rigidbody:Sleep() end
 ---@return boolean
 function CS.UnityEngine.Rigidbody:IsSleeping() end
@@ -45,6 +53,14 @@ function CS.UnityEngine.Rigidbody:GetRelativePointVelocity(relativePoint) end
 ---@return CS.UnityEngine.Vector3
 ---@param worldPoint CS.UnityEngine.Vector3
 function CS.UnityEngine.Rigidbody:GetPointVelocity(worldPoint) end
+---@overload fun(): CS.UnityEngine.Vector3
+---@return CS.UnityEngine.Vector3
+---@param optional step number
+function CS.UnityEngine.Rigidbody:GetAccumulatedForce(step) end
+---@overload fun(): CS.UnityEngine.Vector3
+---@return CS.UnityEngine.Vector3
+---@param optional step number
+function CS.UnityEngine.Rigidbody:GetAccumulatedTorque(step) end
 ---@overload fun(force:CS.UnityEngine.Vector3): void
 ---@overload fun(force:CS.UnityEngine.Vector3, mode:number): void
 ---@overload fun(x:number, y:number, z:number): void

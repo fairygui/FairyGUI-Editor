@@ -7,4 +7,5 @@ CS.UnityEngine.WaitForSecondsRealtime = { }
 ---@return CS.UnityEngine.WaitForSecondsRealtime
 ---@param time number
 function CS.UnityEngine.WaitForSecondsRealtime.New(time) end
+function CS.UnityEngine.WaitForSecondsRealtime:Reset() end
 return CS.UnityEngine.WaitForSecondsRealtime

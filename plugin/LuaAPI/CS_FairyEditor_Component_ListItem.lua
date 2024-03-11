@@ -1,6 +1,7 @@
 ---@class CS.FairyEditor.Component.ListItem : CS.FairyGUI.GButton
 ---@field public titleObj CS.FairyGUI.GTextField
 ---@field public iconObj CS.FairyGUI.GLoader
+---@field public sign CS.FairyGUI.GLoader
 
 ---@type CS.FairyEditor.Component.ListItem
 CS.FairyEditor.Component.ListItem = { }

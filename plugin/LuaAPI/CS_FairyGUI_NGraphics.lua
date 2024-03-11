@@ -23,13 +23,12 @@ CS.FairyGUI.NGraphics = { }
 ---@return CS.FairyGUI.NGraphics
 ---@param gameObject CS.UnityEngine.GameObject
 function CS.FairyGUI.NGraphics.New(gameObject) end
----@param value (fun():void)
-function CS.FairyGUI.NGraphics:add_meshModifier(value) end
----@param value (fun():void)
-function CS.FairyGUI.NGraphics:remove_meshModifier(value) end
 ---@param shader string
 ---@param texture CS.FairyGUI.NTexture
 function CS.FairyGUI.NGraphics:SetShaderAndTexture(shader, texture) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.NGraphics:meshModifier(op, value) end
 ---@param material CS.UnityEngine.Material
 function CS.FairyGUI.NGraphics:SetMaterial(material) end
 ---@param keyword string

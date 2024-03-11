@@ -1,5 +1,6 @@
 ---@class CS.UnityEngine.Debug
 ---@field public unityLogger CS.UnityEngine.ILogger
+---@field public developerConsoleEnabled boolean
 ---@field public developerConsoleVisible boolean
 ---@field public isDebugBuild boolean
 
@@ -27,15 +28,23 @@ function CS.UnityEngine.Debug.DrawLine(start, ed, color, duration, depthTest) en
 function CS.UnityEngine.Debug.DrawRay(start, dir, color, duration, depthTest) end
 function CS.UnityEngine.Debug.Break() end
 function CS.UnityEngine.Debug.DebugBreak() end
+---@return number
+---@param buffer CS.System.Byte*
+---@param bufferMax number
+---@param projectFolder string
+function CS.UnityEngine.Debug.ExtractStackTraceNoAlloc(buffer, bufferMax, projectFolder) end
 ---@overload fun(message:CS.System.Object): void
 ---@param message CS.System.Object
 ---@param optional context CS.UnityEngine.Object
 function CS.UnityEngine.Debug.Log(message, context) end
 ---@overload fun(format:string, args:Object[]): void
----@param context CS.UnityEngine.Object
----@param format string
+---@overload fun(context:CS.UnityEngine.Object, format:string, args:Object[]): void
+---@param logType number
+---@param logOptions number
+---@param optional context CS.UnityEngine.Object
+---@param optional format string
 ---@param optional args Object[]
-function CS.UnityEngine.Debug.LogFormat(context, format, args) end
+function CS.UnityEngine.Debug.LogFormat(logType, logOptions, context, format, args) end
 ---@overload fun(message:CS.System.Object): void
 ---@param message CS.System.Object
 ---@param optional context CS.UnityEngine.Object

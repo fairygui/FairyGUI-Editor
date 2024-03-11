@@ -69,7 +69,9 @@ function CS.UnityEngine.Rect:GetHashCode() end
 ---@param other CS.UnityEngine.Rect
 function CS.UnityEngine.Rect:Equals(other) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Rect:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Rect:ToString(format, formatProvider) end
 return CS.UnityEngine.Rect

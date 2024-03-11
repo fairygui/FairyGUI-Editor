@@ -6,6 +6,7 @@
 ---@field public isStatic boolean
 ---@field public tag string
 ---@field public scene CS.UnityEngine.SceneManagement.Scene
+---@field public sceneCullingMask number
 ---@field public gameObject CS.UnityEngine.GameObject
 
 ---@type CS.UnityEngine.GameObject
@@ -27,9 +28,11 @@ function CS.UnityEngine.GameObject:GetComponent(t) end
 ---@param t string
 ---@param optional includeInactive boolean
 function CS.UnityEngine.GameObject:GetComponentInChildren(t, includeInactive) end
+---@overload fun(t:string): CS.UnityEngine.Component
 ---@return CS.UnityEngine.Component
 ---@param t string
-function CS.UnityEngine.GameObject:GetComponentInParent(t) end
+---@param optional includeInactive boolean
+function CS.UnityEngine.GameObject:GetComponentInParent(t, includeInactive) end
 ---@overload fun(t:string): Component[]
 ---@return Component[]
 ---@param t string
@@ -45,6 +48,10 @@ function CS.UnityEngine.GameObject:GetComponentsInChildren(t, includeInactive) e
 ---@param t string
 ---@param optional includeInactive boolean
 function CS.UnityEngine.GameObject:GetComponentsInParent(t, includeInactive) end
+---@return boolean
+---@param t string
+---@param component CS.UnityEngine.Component
+function CS.UnityEngine.GameObject:TryGetComponent(t, component) end
 ---@return CS.UnityEngine.GameObject
 ---@param tag string
 function CS.UnityEngine.GameObject.FindWithTag(tag) end
@@ -86,4 +93,17 @@ function CS.UnityEngine.GameObject.FindGameObjectsWithTag(tag) end
 ---@return CS.UnityEngine.GameObject
 ---@param name string
 function CS.UnityEngine.GameObject.Find(name) end
+---@overload fun(instanceIDs:CS.Unity.Collections.NativeArray_CS.System.Int32, active:boolean): void
+---@param instanceIDs CS.System.ReadOnlySpan_CS.System.Int32
+---@param active boolean
+function CS.UnityEngine.GameObject.SetGameObjectsActive(instanceIDs, active) end
+---@param sourceInstanceID number
+---@param count number
+---@param newInstanceIDs CS.Unity.Collections.NativeArray_CS.System.Int32
+---@param newTransformInstanceIDs CS.Unity.Collections.NativeArray_CS.System.Int32
+---@param destinationScene CS.UnityEngine.SceneManagement.Scene
+function CS.UnityEngine.GameObject.InstantiateGameObjects(sourceInstanceID, count, newInstanceIDs, newTransformInstanceIDs, destinationScene) end
+---@return CS.UnityEngine.SceneManagement.Scene
+---@param instanceID number
+function CS.UnityEngine.GameObject.GetScene(instanceID) end
 return CS.UnityEngine.GameObject

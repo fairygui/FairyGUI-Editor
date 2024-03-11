@@ -22,15 +22,23 @@
 ---@field public sleepMode number
 ---@field public collisionDetectionMode number
 ---@field public attachedColliderCount number
+---@field public totalForce CS.UnityEngine.Vector2
+---@field public totalTorque number
+---@field public excludeLayers CS.UnityEngine.LayerMask
+---@field public includeLayers CS.UnityEngine.LayerMask
 
 ---@type CS.UnityEngine.Rigidbody2D
 CS.UnityEngine.Rigidbody2D = { }
 ---@return CS.UnityEngine.Rigidbody2D
 function CS.UnityEngine.Rigidbody2D.New() end
+---@overload fun(angle:number): void
+---@param rotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Rigidbody2D:SetRotation(rotation) end
 ---@param position CS.UnityEngine.Vector2
 function CS.UnityEngine.Rigidbody2D:MovePosition(position) end
----@param angle number
-function CS.UnityEngine.Rigidbody2D:MoveRotation(angle) end
+---@overload fun(angle:number): void
+---@param rotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Rigidbody2D:MoveRotation(rotation) end
 ---@return boolean
 function CS.UnityEngine.Rigidbody2D:IsSleeping() end
 ---@return boolean
@@ -53,6 +61,9 @@ function CS.UnityEngine.Rigidbody2D:OverlapPoint(point) end
 ---@return CS.UnityEngine.ColliderDistance2D
 ---@param collider CS.UnityEngine.Collider2D
 function CS.UnityEngine.Rigidbody2D:Distance(collider) end
+---@return CS.UnityEngine.Vector2
+---@param position CS.UnityEngine.Vector2
+function CS.UnityEngine.Rigidbody2D:ClosestPoint(position) end
 ---@overload fun(force:CS.UnityEngine.Vector2): void
 ---@param force CS.UnityEngine.Vector2
 ---@param optional mode number
@@ -88,27 +99,38 @@ function CS.UnityEngine.Rigidbody2D:GetPointVelocity(point) end
 ---@return CS.UnityEngine.Vector2
 ---@param relativePoint CS.UnityEngine.Vector2
 function CS.UnityEngine.Rigidbody2D:GetRelativePointVelocity(relativePoint) end
+---@overload fun(contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
 ---@return number
 ---@param contactFilter CS.UnityEngine.ContactFilter2D
----@param results Collider2D[]
+---@param results CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D
 function CS.UnityEngine.Rigidbody2D:OverlapCollider(contactFilter, results) end
 ---@overload fun(contacts:ContactPoint2D[]): number
+---@overload fun(contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
 ---@overload fun(colliders:Collider2D[]): number
+---@overload fun(colliders:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@overload fun(contactFilter:CS.UnityEngine.ContactFilter2D, contacts:ContactPoint2D[]): number
+---@overload fun(contactFilter:CS.UnityEngine.ContactFilter2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
+---@overload fun(contactFilter:CS.UnityEngine.ContactFilter2D, colliders:Collider2D[]): number
 ---@return number
 ---@param contactFilter CS.UnityEngine.ContactFilter2D
----@param optional colliders Collider2D[]
+---@param optional colliders CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D
 function CS.UnityEngine.Rigidbody2D:GetContacts(contactFilter, colliders) end
+---@overload fun(results:Collider2D[]): number
 ---@return number
----@param results Collider2D[]
+---@param results CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D
 function CS.UnityEngine.Rigidbody2D:GetAttachedColliders(results) end
 ---@overload fun(direction:CS.UnityEngine.Vector2, results:RaycastHit2D[]): number
 ---@overload fun(direction:CS.UnityEngine.Vector2, results:RaycastHit2D[], distance:number): number
+---@overload fun(direction:CS.UnityEngine.Vector2, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D, distance:number): number
 ---@overload fun(direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
+---@overload fun(direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[], distance:number): number
 ---@return number
 ---@param direction CS.UnityEngine.Vector2
 ---@param contactFilter CS.UnityEngine.ContactFilter2D
----@param optional results RaycastHit2D[]
+---@param optional results CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D
 ---@param optional distance number
 function CS.UnityEngine.Rigidbody2D:Cast(direction, contactFilter, results, distance) end
+---@return number
+---@param physicsShapeGroup CS.UnityEngine.PhysicsShapeGroup2D
+function CS.UnityEngine.Rigidbody2D:GetShapes(physicsShapeGroup) end
 return CS.UnityEngine.Rigidbody2D

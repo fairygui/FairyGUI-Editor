@@ -47,6 +47,8 @@ function CS.FairyEditor.FProject:Dispose() end
 ---@param name string
 function CS.FairyEditor.FProject:GetSettings(name) end
 function CS.FairyEditor.FProject:LoadAllSettings() end
+---@return string
+function CS.FairyEditor.FProject:GetDefaultFont() end
 ---@param newName string
 function CS.FairyEditor.FProject:Rename(newName) end
 ---@return CS.FairyEditor.FPackage

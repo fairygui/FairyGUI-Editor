@@ -10,10 +10,11 @@ function CS.FairyEditor.View.InspectorView.New() end
 ---@param name string
 function CS.FairyEditor.View.InspectorView:GetInspector(name) end
 ---@overload fun(t:string, name:string, title:string): void
----@param luaTable table
+---@overload fun(luaTable:table, name:string, title:string): void
+---@param factoryMethod (fun():CS.FairyEditor.View.PluginInspector)
 ---@param name string
 ---@param title string
-function CS.FairyEditor.View.InspectorView:AddInspector(luaTable, name, title) end
+function CS.FairyEditor.View.InspectorView:AddInspector(factoryMethod, name, title) end
 ---@param name string
 function CS.FairyEditor.View.InspectorView:RemoveInspector(name) end
 function CS.FairyEditor.View.InspectorView:RemoveAllPluginInspectors() end

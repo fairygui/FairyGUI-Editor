@@ -12,6 +12,7 @@
 ---@field public probePositionMode number
 ---@field public refreshMode number
 ---@field public qualityMode number
+---@field public dataFormat number
 
 ---@type CS.UnityEngine.LightProbeProxyVolume
 CS.UnityEngine.LightProbeProxyVolume = { }

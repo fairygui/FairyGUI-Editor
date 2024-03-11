@@ -34,14 +34,34 @@ function CS.UnityEngine.Object.Destroy(obj, t) end
 ---@param obj CS.UnityEngine.Object
 ---@param optional allowDestroyingAssets boolean
 function CS.UnityEngine.Object.DestroyImmediate(obj, allowDestroyingAssets) end
+---@overload fun(t:string): Object[]
 ---@return Object[]
 ---@param t string
-function CS.UnityEngine.Object.FindObjectsOfType(t) end
+---@param optional includeInactive boolean
+function CS.UnityEngine.Object.FindObjectsOfType(t, includeInactive) end
+---@overload fun(t:string, sortMode:number): Object[]
+---@return Object[]
+---@param t string
+---@param findObjectsInactive number
+---@param optional sortMode number
+function CS.UnityEngine.Object.FindObjectsByType(t, findObjectsInactive, sortMode) end
 ---@param target CS.UnityEngine.Object
 function CS.UnityEngine.Object.DontDestroyOnLoad(target) end
+---@overload fun(t:string): CS.UnityEngine.Object
 ---@return CS.UnityEngine.Object
 ---@param t string
-function CS.UnityEngine.Object.FindObjectOfType(t) end
+---@param optional includeInactive boolean
+function CS.UnityEngine.Object.FindObjectOfType(t, includeInactive) end
+---@overload fun(t:string): CS.UnityEngine.Object
+---@return CS.UnityEngine.Object
+---@param t string
+---@param optional findObjectsInactive number
+function CS.UnityEngine.Object.FindFirstObjectByType(t, findObjectsInactive) end
+---@overload fun(t:string): CS.UnityEngine.Object
+---@return CS.UnityEngine.Object
+---@param t string
+---@param optional findObjectsInactive number
+function CS.UnityEngine.Object.FindAnyObjectByType(t, findObjectsInactive) end
 ---@return string
 function CS.UnityEngine.Object:ToString() end
 ---@return boolean

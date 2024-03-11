@@ -2,6 +2,7 @@
 ---@field public colorKeys GradientColorKey[]
 ---@field public alphaKeys GradientAlphaKey[]
 ---@field public mode number
+---@field public colorSpace number
 
 ---@type CS.UnityEngine.Gradient
 CS.UnityEngine.Gradient = { }

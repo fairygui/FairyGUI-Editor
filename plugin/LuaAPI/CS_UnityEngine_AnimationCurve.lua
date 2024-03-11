@@ -23,8 +23,11 @@ function CS.UnityEngine.AnimationCurve:AddKey(time, value) end
 ---@param index number
 ---@param key CS.UnityEngine.Keyframe
 function CS.UnityEngine.AnimationCurve:MoveKey(index, key) end
+function CS.UnityEngine.AnimationCurve:ClearKeys() end
 ---@param index number
 function CS.UnityEngine.AnimationCurve:RemoveKey(index) end
+---@return number
+function CS.UnityEngine.AnimationCurve:GetHashCode() end
 ---@param index number
 ---@param weight number
 function CS.UnityEngine.AnimationCurve:SmoothTangents(index, weight) end
@@ -49,6 +52,6 @@ function CS.UnityEngine.AnimationCurve.EaseInOut(timeStart, valueStart, timeEnd,
 ---@return boolean
 ---@param other CS.UnityEngine.AnimationCurve
 function CS.UnityEngine.AnimationCurve:Equals(other) end
----@return number
-function CS.UnityEngine.AnimationCurve:GetHashCode() end
+---@param other CS.UnityEngine.AnimationCurve
+function CS.UnityEngine.AnimationCurve:CopyFrom(other) end
 return CS.UnityEngine.AnimationCurve

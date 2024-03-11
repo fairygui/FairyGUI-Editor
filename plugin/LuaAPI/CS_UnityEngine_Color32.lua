@@ -3,6 +3,7 @@
 ---@field public g number
 ---@field public b number
 ---@field public a number
+---@field public Item number
 
 ---@type CS.UnityEngine.Color32
 CS.UnityEngine.Color32 = { }
@@ -27,7 +28,9 @@ function CS.UnityEngine.Color32.Lerp(a, b, t) end
 ---@param t number
 function CS.UnityEngine.Color32.LerpUnclamped(a, b, t) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Color32:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Color32:ToString(format, formatProvider) end
 return CS.UnityEngine.Color32

@@ -15,6 +15,8 @@
 ---@field public Unreal string
 ---@field public Corona string
 ---@field public ThreeJS string
+---@field public CreateJS string
+---@field public DOM string
 ---@field public IDs String[]
 ---@field public Names String[]
 

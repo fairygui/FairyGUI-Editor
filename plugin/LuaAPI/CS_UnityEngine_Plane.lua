@@ -42,7 +42,9 @@ function CS.UnityEngine.Plane:SameSide(inPt0, inPt1) end
 ---@param enter CS.System.Single
 function CS.UnityEngine.Plane:Raycast(ray, enter) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Plane:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Plane:ToString(format, formatProvider) end
 return CS.UnityEngine.Plane

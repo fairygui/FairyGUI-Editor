@@ -26,4 +26,6 @@ function CS.FairyEditor.FTransitions:ClearSnapshot() end
 function CS.FairyEditor.FTransitions:TakeSnapshot() end
 ---@param readController boolean
 function CS.FairyEditor.FTransitions:ReadSnapshot(readController) end
+function CS.FairyEditor.FTransitions:OnOwnerAddedToStage() end
+function CS.FairyEditor.FTransitions:OnOwnerRemovedFromStage() end
 return CS.FairyEditor.FTransitions

@@ -1,5 +1,7 @@
 ---@class CS.FairyEditor.View.LibraryView : CS.FairyGUI.GComponent
 ---@field public contextMenu CS.FairyEditor.Component.IMenu
+---@field public contextMenu_Folder CS.FairyEditor.Component.IMenu
+---@field public contextMenu_Package CS.FairyEditor.Component.IMenu
 ---@field public currentGroup string
 
 ---@type CS.FairyEditor.View.LibraryView

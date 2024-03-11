@@ -46,9 +46,11 @@ function CS.UnityEngine.Vector2.MoveTowards(current, target, maxDistanceDelta) e
 function CS.UnityEngine.Vector2:Scale(a, b) end
 function CS.UnityEngine.Vector2:Normalize() end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Vector2:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Vector2:ToString(format, formatProvider) end
 ---@return number
 function CS.UnityEngine.Vector2:GetHashCode() end
 ---@overload fun(other:CS.System.Object): boolean

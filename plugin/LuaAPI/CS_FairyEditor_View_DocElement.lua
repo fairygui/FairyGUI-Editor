@@ -21,6 +21,8 @@ function CS.FairyEditor.View.DocElement:SetProperty(propName, propValue) end
 ---@param propName string
 ---@param propValue CS.System.Object
 function CS.FairyEditor.View.DocElement:SetGearProperty(gearIndex, propName, propValue) end
+---@param data CS.FairyGUI.Utils.XML
+function CS.FairyEditor.View.DocElement:UpdateGears(data) end
 ---@param target CS.FairyEditor.FObject
 ---@param desc string
 function CS.FairyEditor.View.DocElement:SetRelation(target, desc) end

@@ -54,6 +54,8 @@ function CS.FairyGUI.Utils.ByteBuffer:ReadS() end
 ---@return String[]
 ---@param cnt number
 function CS.FairyGUI.Utils.ByteBuffer:ReadSArray(cnt) end
+---@return CS.System.Collections.Generic.List_CS.FairyGUI.GPathPoint
+function CS.FairyGUI.Utils.ByteBuffer:ReadPath() end
 ---@param value string
 function CS.FairyGUI.Utils.ByteBuffer:WriteS(value) end
 ---@return CS.UnityEngine.Color

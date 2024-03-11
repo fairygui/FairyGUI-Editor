@@ -1,5 +1,4 @@
 ---@class CS.FairyGUI.GList : CS.FairyGUI.GComponent
----@field public defaultItem string
 ---@field public foldInvisibleItems boolean
 ---@field public selectionMode number
 ---@field public itemRenderer (fun(index:number, item:CS.FairyGUI.GObject):void)
@@ -7,6 +6,7 @@
 ---@field public scrollItemToViewOnClick boolean
 ---@field public onClickItem CS.FairyGUI.EventListener
 ---@field public onRightClickItem CS.FairyGUI.EventListener
+---@field public defaultItem string
 ---@field public layout number
 ---@field public lineCount number
 ---@field public columnCount number
@@ -95,6 +95,11 @@ function CS.FairyGUI.GList:ItemIndexToChildIndex(index) end
 function CS.FairyGUI.GList:SetVirtual() end
 function CS.FairyGUI.GList:SetVirtualAndLoop() end
 function CS.FairyGUI.GList:RefreshVirtualList() end
+---@param xValue CS.System.Single
+---@param yValue CS.System.Single
+---@param xDir number
+---@param yDir number
+function CS.FairyGUI.GList:GetSnappingPositionWithDir(xValue, yValue, xDir, yDir) end
 ---@param buffer CS.FairyGUI.Utils.ByteBuffer
 ---@param beginPos number
 function CS.FairyGUI.GList:Setup_BeforeAdd(buffer, beginPos) end

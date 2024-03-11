@@ -11,11 +11,13 @@
 ---@field public cubemapFaceMask number
 ---@field public doubleBuffered boolean
 ---@field public wrapUpdateZones boolean
+---@field public updatePeriod number
 
 ---@type CS.UnityEngine.CustomRenderTexture
 CS.UnityEngine.CustomRenderTexture = { }
 ---@overload fun(width:number, height:number): CS.UnityEngine.CustomRenderTexture
 ---@overload fun(width:number, height:number, format:number): CS.UnityEngine.CustomRenderTexture
+---@overload fun(width:number, height:number, defaultFormat:number): CS.UnityEngine.CustomRenderTexture
 ---@overload fun(width:number, height:number, format:number): CS.UnityEngine.CustomRenderTexture
 ---@return CS.UnityEngine.CustomRenderTexture
 ---@param width number
@@ -30,6 +32,9 @@ function CS.UnityEngine.CustomRenderTexture:Initialize() end
 function CS.UnityEngine.CustomRenderTexture:ClearUpdateZones() end
 ---@param updateZones CS.System.Collections.Generic.List_CS.UnityEngine.CustomRenderTextureUpdateZone
 function CS.UnityEngine.CustomRenderTexture:GetUpdateZones(updateZones) end
+---@return CS.UnityEngine.RenderTexture
+function CS.UnityEngine.CustomRenderTexture:GetDoubleBufferRenderTexture() end
+function CS.UnityEngine.CustomRenderTexture:EnsureDoubleBufferConsistency() end
 ---@param updateZones CustomRenderTextureUpdateZone[]
 function CS.UnityEngine.CustomRenderTexture:SetUpdateZones(updateZones) end
 return CS.UnityEngine.CustomRenderTexture

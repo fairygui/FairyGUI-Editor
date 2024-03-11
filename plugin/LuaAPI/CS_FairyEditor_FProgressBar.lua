@@ -8,12 +8,15 @@
 ---@field public max number
 ---@field public value number
 ---@field public reverse boolean
+---@field public sound string
+---@field public volume number
 
 ---@type CS.FairyEditor.FProgressBar
 CS.FairyEditor.FProgressBar = { }
 ---@return CS.FairyEditor.FProgressBar
 function CS.FairyEditor.FProgressBar.New() end
 function CS.FairyEditor.FProgressBar:Create() end
+function CS.FairyEditor.FProgressBar:Dispose() end
 function CS.FairyEditor.FProgressBar:Update() end
 ---@param xml CS.FairyGUI.Utils.XML
 function CS.FairyEditor.FProgressBar:Read_editMode(xml) end

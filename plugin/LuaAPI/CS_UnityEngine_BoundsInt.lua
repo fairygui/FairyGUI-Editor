@@ -34,8 +34,12 @@ function CS.UnityEngine.BoundsInt:ClampToBounds(bounds) end
 ---@return boolean
 ---@param position CS.UnityEngine.Vector3Int
 function CS.UnityEngine.BoundsInt:Contains(position) end
+---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
-function CS.UnityEngine.BoundsInt:ToString() end
+---@param optional format string
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.BoundsInt:ToString(format, formatProvider) end
 ---@return boolean
 ---@param lhs CS.UnityEngine.BoundsInt
 ---@param rhs CS.UnityEngine.BoundsInt

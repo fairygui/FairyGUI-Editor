@@ -2,6 +2,7 @@
 ---@field public localReferencePoint CS.UnityEngine.Vector3
 ---@field public size number
 ---@field public lodCount number
+---@field public lastLODBillboard boolean
 ---@field public fadeMode number
 ---@field public animateCrossFading boolean
 ---@field public enabled boolean

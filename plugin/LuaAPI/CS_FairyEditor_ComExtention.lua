@@ -21,12 +21,16 @@ function CS.FairyEditor.ComExtention:Read(xml, strings) end
 function CS.FairyEditor.ComExtention:Write() end
 ---@param c CS.FairyEditor.FController
 function CS.FairyEditor.ComExtention:HandleControllerChanged(c) end
----@overload fun(index:number): CS.System.Object
+---@return CS.System.Object
+---@param index number
+function CS.FairyEditor.ComExtention:GetProp(index) end
+---@param index number
+---@param value CS.System.Object
+function CS.FairyEditor.ComExtention:SetProp(index, value) end
 ---@return CS.System.Object
 ---@param propName string
-function CS.FairyEditor.ComExtention:GetProp(propName) end
----@overload fun(index:number, value:CS.System.Object): void
+function CS.FairyEditor.ComExtention:GetProperty(propName) end
 ---@param propName string
 ---@param value CS.System.Object
-function CS.FairyEditor.ComExtention:SetProp(propName, value) end
+function CS.FairyEditor.ComExtention:SetProperty(propName, value) end
 return CS.FairyEditor.ComExtention

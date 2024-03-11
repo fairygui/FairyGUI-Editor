@@ -7,6 +7,7 @@
 ---@field public publishAction string
 ---@field public saveBeforePublish boolean
 ---@field public PNGCompressionToolPath string
+---@field public editorFont string
 ---@field public hotkeys CS.System.Collections.Generic.Dictionary_CS.System.String_CS.System.String
 
 ---@type CS.FairyEditor.Preferences

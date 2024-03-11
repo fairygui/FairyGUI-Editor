@@ -28,6 +28,15 @@ function CS.UnityEngine.Transform:SetParent(parent, worldPositionStays) end
 ---@param position CS.UnityEngine.Vector3
 ---@param rotation CS.UnityEngine.Quaternion
 function CS.UnityEngine.Transform:SetPositionAndRotation(position, rotation) end
+---@param localPosition CS.UnityEngine.Vector3
+---@param localRotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Transform:SetLocalPositionAndRotation(localPosition, localRotation) end
+---@param position CS.UnityEngine.Vector3
+---@param rotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Transform:GetPositionAndRotation(position, rotation) end
+---@param localPosition CS.UnityEngine.Vector3
+---@param localRotation CS.UnityEngine.Quaternion
+function CS.UnityEngine.Transform:GetLocalPositionAndRotation(localPosition, localRotation) end
 ---@overload fun(translation:CS.UnityEngine.Vector3): void
 ---@overload fun(translation:CS.UnityEngine.Vector3, relativeTo:number): void
 ---@overload fun(translation:CS.UnityEngine.Vector3, relativeTo:CS.UnityEngine.Transform): void
@@ -64,36 +73,60 @@ function CS.UnityEngine.Transform:LookAt(worldPosition, worldUp) end
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:TransformDirection(x, y, z) end
+---@overload fun(directions:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param directions CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedDirections CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:TransformDirections(directions, transformedDirections) end
 ---@overload fun(direction:CS.UnityEngine.Vector3): CS.UnityEngine.Vector3
 ---@return CS.UnityEngine.Vector3
 ---@param x number
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:InverseTransformDirection(x, y, z) end
+---@overload fun(directions:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param directions CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedDirections CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:InverseTransformDirections(directions, transformedDirections) end
 ---@overload fun(vector:CS.UnityEngine.Vector3): CS.UnityEngine.Vector3
 ---@return CS.UnityEngine.Vector3
 ---@param x number
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:TransformVector(x, y, z) end
+---@overload fun(vectors:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param vectors CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedVectors CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:TransformVectors(vectors, transformedVectors) end
 ---@overload fun(vector:CS.UnityEngine.Vector3): CS.UnityEngine.Vector3
 ---@return CS.UnityEngine.Vector3
 ---@param x number
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:InverseTransformVector(x, y, z) end
+---@overload fun(vectors:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param vectors CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedVectors CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:InverseTransformVectors(vectors, transformedVectors) end
 ---@overload fun(position:CS.UnityEngine.Vector3): CS.UnityEngine.Vector3
 ---@return CS.UnityEngine.Vector3
 ---@param x number
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:TransformPoint(x, y, z) end
+---@overload fun(positions:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param positions CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedPositions CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:TransformPoints(positions, transformedPositions) end
 ---@overload fun(position:CS.UnityEngine.Vector3): CS.UnityEngine.Vector3
 ---@return CS.UnityEngine.Vector3
 ---@param x number
 ---@param optional y number
 ---@param optional z number
 function CS.UnityEngine.Transform:InverseTransformPoint(x, y, z) end
+---@overload fun(positions:CS.System.Span_CS.UnityEngine.Vector3): void
+---@param positions CS.System.ReadOnlySpan_CS.UnityEngine.Vector3
+---@param optional transformedPositions CS.System.Span_CS.UnityEngine.Vector3
+function CS.UnityEngine.Transform:InverseTransformPoints(positions, transformedPositions) end
 function CS.UnityEngine.Transform:DetachChildren() end
 function CS.UnityEngine.Transform:SetAsFirstSibling() end
 function CS.UnityEngine.Transform:SetAsLastSibling() end

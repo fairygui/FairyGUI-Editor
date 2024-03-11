@@ -9,11 +9,15 @@ function CS.UnityEngine.MaterialPropertyBlock:Clear() end
 ---@overload fun(name:string, value:number): void
 ---@param nameID number
 ---@param value number
+function CS.UnityEngine.MaterialPropertyBlock:SetInt(nameID, value) end
+---@overload fun(name:string, value:number): void
+---@param nameID number
+---@param value number
 function CS.UnityEngine.MaterialPropertyBlock:SetFloat(nameID, value) end
 ---@overload fun(name:string, value:number): void
 ---@param nameID number
 ---@param value number
-function CS.UnityEngine.MaterialPropertyBlock:SetInt(nameID, value) end
+function CS.UnityEngine.MaterialPropertyBlock:SetInteger(nameID, value) end
 ---@overload fun(name:string, value:CS.UnityEngine.Vector4): void
 ---@param nameID number
 ---@param value CS.UnityEngine.Vector4
@@ -27,13 +31,26 @@ function CS.UnityEngine.MaterialPropertyBlock:SetColor(nameID, value) end
 ---@param value CS.UnityEngine.Matrix4x4
 function CS.UnityEngine.MaterialPropertyBlock:SetMatrix(nameID, value) end
 ---@overload fun(name:string, value:CS.UnityEngine.ComputeBuffer): void
+---@overload fun(nameID:number, value:CS.UnityEngine.ComputeBuffer): void
+---@overload fun(name:string, value:CS.UnityEngine.GraphicsBuffer): void
 ---@param nameID number
----@param value CS.UnityEngine.ComputeBuffer
+---@param value CS.UnityEngine.GraphicsBuffer
 function CS.UnityEngine.MaterialPropertyBlock:SetBuffer(nameID, value) end
 ---@overload fun(name:string, value:CS.UnityEngine.Texture): void
+---@overload fun(nameID:number, value:CS.UnityEngine.Texture): void
+---@overload fun(name:string, value:CS.UnityEngine.RenderTexture, element:number): void
 ---@param nameID number
----@param value CS.UnityEngine.Texture
-function CS.UnityEngine.MaterialPropertyBlock:SetTexture(nameID, value) end
+---@param value CS.UnityEngine.RenderTexture
+---@param optional element number
+function CS.UnityEngine.MaterialPropertyBlock:SetTexture(nameID, value, element) end
+---@overload fun(name:string, value:CS.UnityEngine.ComputeBuffer, offset:number, size:number): void
+---@overload fun(nameID:number, value:CS.UnityEngine.ComputeBuffer, offset:number, size:number): void
+---@overload fun(name:string, value:CS.UnityEngine.GraphicsBuffer, offset:number, size:number): void
+---@param nameID number
+---@param value CS.UnityEngine.GraphicsBuffer
+---@param offset number
+---@param size number
+function CS.UnityEngine.MaterialPropertyBlock:SetConstantBuffer(nameID, value, offset, size) end
 ---@overload fun(name:string, values:CS.System.Collections.Generic.List_CS.System.Single): void
 ---@overload fun(nameID:number, values:CS.System.Collections.Generic.List_CS.System.Single): void
 ---@overload fun(name:string, values:Single[]): void
@@ -52,6 +69,46 @@ function CS.UnityEngine.MaterialPropertyBlock:SetVectorArray(nameID, values) end
 ---@param nameID number
 ---@param values Matrix4x4[]
 function CS.UnityEngine.MaterialPropertyBlock:SetMatrixArray(nameID, values) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasProperty(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasInt(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasFloat(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasInteger(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasTexture(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasMatrix(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasVector(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasColor(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasBuffer(nameID) end
+---@overload fun(name:string): boolean
+---@return boolean
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:HasConstantBuffer(nameID) end
 ---@overload fun(name:string): number
 ---@return number
 ---@param nameID number
@@ -60,6 +117,10 @@ function CS.UnityEngine.MaterialPropertyBlock:GetFloat(nameID) end
 ---@return number
 ---@param nameID number
 function CS.UnityEngine.MaterialPropertyBlock:GetInt(nameID) end
+---@overload fun(name:string): number
+---@return number
+---@param nameID number
+function CS.UnityEngine.MaterialPropertyBlock:GetInteger(nameID) end
 ---@overload fun(name:string): CS.UnityEngine.Vector4
 ---@return CS.UnityEngine.Vector4
 ---@param nameID number

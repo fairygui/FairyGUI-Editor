@@ -13,8 +13,11 @@
 ---@field public mask CS.FairyEditor.FObject
 ---@field public reversedMask boolean
 ---@field public remark string
+---@field public baseNotes string
 ---@field public headerRes string
 ---@field public footerRes string
+---@field public showSound string
+---@field public hideSound string
 ---@field public numChildren number
 ---@field public children CS.System.Collections.Generic.List_CS.FairyEditor.FObject
 ---@field public controllers CS.System.Collections.Generic.List_CS.FairyEditor.FController
@@ -169,5 +172,4 @@ function CS.FairyEditor.FComponent:ContainsComponent(pi) end
 ---@param source CS.FairyEditor.FObject
 ---@param target CS.FairyEditor.FObject
 function CS.FairyEditor.FComponent:NotifyChildReplaced(source, target) end
-function CS.FairyEditor.FComponent:PlayAutoPlayTransitions() end
 return CS.FairyEditor.FComponent

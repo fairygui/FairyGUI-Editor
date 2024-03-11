@@ -1,4 +1,5 @@
 ---@class CS.UnityEngine.ParticleSystem.MainModule : CS.System.ValueType
+---@field public emitterVelocity CS.UnityEngine.Vector3
 ---@field public duration number
 ---@field public loop boolean
 ---@field public prewarm boolean
@@ -28,6 +29,7 @@
 ---@field public startRotationZMultiplier number
 ---@field public flipRotation number
 ---@field public startColor CS.UnityEngine.ParticleSystem.MinMaxGradient
+---@field public gravitySource number
 ---@field public gravityModifier CS.UnityEngine.ParticleSystem.MinMaxCurve
 ---@field public gravityModifierMultiplier number
 ---@field public simulationSpace number
@@ -39,9 +41,9 @@
 ---@field public maxParticles number
 ---@field public emitterVelocityMode number
 ---@field public stopAction number
----@field public cullingMode number
 ---@field public ringBufferMode number
 ---@field public ringBufferLoopRange CS.UnityEngine.Vector2
+---@field public cullingMode number
 
 ---@type CS.UnityEngine.ParticleSystem.MainModule
 CS.UnityEngine.ParticleSystem.MainModule = { }

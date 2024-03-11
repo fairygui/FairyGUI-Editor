@@ -28,6 +28,7 @@
 ---@field public initWidth number
 ---@field public initHeight number
 ---@field public customData string
+---@field public notes string
 ---@field public loadingSnapshot boolean
 ---@field public MAX_GEAR_INDEX number
 ---@field public id string
@@ -131,6 +132,8 @@ function CS.FairyEditor.FObject:UpdateGearFromRelations(index, dx, dy) end
 function CS.FairyEditor.FObject:SupportGear(index) end
 function CS.FairyEditor.FObject:ValidateGears() end
 ---@return boolean
+function CS.FairyEditor.FObject:HasGears() end
+---@return boolean
 ---@param index number
 ---@param c CS.FairyEditor.FController
 function CS.FairyEditor.FObject:CheckGearController(index, c) end
@@ -191,6 +194,11 @@ function CS.FairyEditor.FObject:Read_beforeAdd(xml, strings) end
 function CS.FairyEditor.FObject:Read_afterAdd(xml, strings) end
 ---@return CS.FairyGUI.Utils.XML
 function CS.FairyEditor.FObject:Write() end
+---@param xml CS.FairyGUI.Utils.XML
+function CS.FairyEditor.FObject:ReadGears(xml) end
+---@return CS.FairyGUI.Utils.XML
+---@param xml CS.FairyGUI.Utils.XML
+function CS.FairyEditor.FObject:WriteGears(xml) end
 ---@param ss CS.FairyEditor.ObjectSnapshot
 function CS.FairyEditor.FObject:TakeSnapshot(ss) end
 ---@param ss CS.FairyEditor.ObjectSnapshot

@@ -2,6 +2,7 @@
 ---@field public IgnoreRaycastLayer number
 ---@field public DefaultRaycastLayers number
 ---@field public AllLayers number
+---@field public MaxPolygonShapeVertices number
 ---@field public defaultPhysicsScene CS.UnityEngine.PhysicsScene2D
 ---@field public velocityIterations number
 ---@field public positionIterations number
@@ -11,7 +12,7 @@
 ---@field public callbacksOnDisable boolean
 ---@field public reuseCollisionCallbacks boolean
 ---@field public autoSyncTransforms boolean
----@field public autoSimulation boolean
+---@field public simulationMode number
 ---@field public jobOptions CS.UnityEngine.PhysicsJobOptions2D
 ---@field public velocityThreshold number
 ---@field public maxLinearCorrection number
@@ -24,15 +25,6 @@
 ---@field public timeToSleep number
 ---@field public linearSleepTolerance number
 ---@field public angularSleepTolerance number
----@field public alwaysShowColliders boolean
----@field public showColliderSleep boolean
----@field public showColliderContacts boolean
----@field public showColliderAABB boolean
----@field public contactArrowScale number
----@field public colliderAwakeColor CS.UnityEngine.Color
----@field public colliderAsleepColor CS.UnityEngine.Color
----@field public colliderContactColor CS.UnityEngine.Color
----@field public colliderAABBColor CS.UnityEngine.Color
 
 ---@type CS.UnityEngine.Physics2D
 CS.UnityEngine.Physics2D = { }
@@ -82,10 +74,16 @@ function CS.UnityEngine.Physics2D.IsTouchingLayers(collider, layerMask) end
 ---@param colliderA CS.UnityEngine.Collider2D
 ---@param colliderB CS.UnityEngine.Collider2D
 function CS.UnityEngine.Physics2D.Distance(colliderA, colliderB) end
+---@overload fun(position:CS.UnityEngine.Vector2, collider:CS.UnityEngine.Collider2D): CS.UnityEngine.Vector2
+---@return CS.UnityEngine.Vector2
+---@param position CS.UnityEngine.Vector2
+---@param rigidbody CS.UnityEngine.Rigidbody2D
+function CS.UnityEngine.Physics2D.ClosestPoint(position, rigidbody) end
 ---@overload fun(start:CS.UnityEngine.Vector2, ed:CS.UnityEngine.Vector2): CS.UnityEngine.RaycastHit2D
 ---@overload fun(start:CS.UnityEngine.Vector2, ed:CS.UnityEngine.Vector2, layerMask:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(start:CS.UnityEngine.Vector2, ed:CS.UnityEngine.Vector2, layerMask:number, minDepth:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(start:CS.UnityEngine.Vector2, ed:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
+---@overload fun(start:CS.UnityEngine.Vector2, ed:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D): number
 ---@return CS.UnityEngine.RaycastHit2D
 ---@param start CS.UnityEngine.Vector2
 ---@param ed CS.UnityEngine.Vector2
@@ -120,6 +118,7 @@ function CS.UnityEngine.Physics2D.LinecastNonAlloc(start, ed, results, layerMask
 ---@overload fun(origin:CS.UnityEngine.Vector2, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
 ---@overload fun(origin:CS.UnityEngine.Vector2, direction:CS.UnityEngine.Vector2, distance:number, layerMask:number, minDepth:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(origin:CS.UnityEngine.Vector2, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[], distance:number): number
+---@overload fun(origin:CS.UnityEngine.Vector2, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D, distance:number): number
 ---@return CS.UnityEngine.RaycastHit2D
 ---@param origin CS.UnityEngine.Vector2
 ---@param direction CS.UnityEngine.Vector2
@@ -159,6 +158,7 @@ function CS.UnityEngine.Physics2D.RaycastAll(origin, direction, distance, layerM
 ---@overload fun(origin:CS.UnityEngine.Vector2, radius:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
 ---@overload fun(origin:CS.UnityEngine.Vector2, radius:number, direction:CS.UnityEngine.Vector2, distance:number, layerMask:number, minDepth:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(origin:CS.UnityEngine.Vector2, radius:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[], distance:number): number
+---@overload fun(origin:CS.UnityEngine.Vector2, radius:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D, distance:number): number
 ---@return CS.UnityEngine.RaycastHit2D
 ---@param origin CS.UnityEngine.Vector2
 ---@param radius number
@@ -201,6 +201,7 @@ function CS.UnityEngine.Physics2D.CircleCastNonAlloc(origin, radius, direction, 
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, direction:CS.UnityEngine.Vector2, distance:number, layerMask:number, minDepth:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[], distance:number): number
+---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D, distance:number): number
 ---@return CS.UnityEngine.RaycastHit2D
 ---@param origin CS.UnityEngine.Vector2
 ---@param size CS.UnityEngine.Vector2
@@ -246,6 +247,7 @@ function CS.UnityEngine.Physics2D.BoxCastNonAlloc(origin, size, angle, direction
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, capsuleDirection:number, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[]): number
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, capsuleDirection:number, angle:number, direction:CS.UnityEngine.Vector2, distance:number, layerMask:number, minDepth:number): CS.UnityEngine.RaycastHit2D
 ---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, capsuleDirection:number, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:RaycastHit2D[], distance:number): number
+---@overload fun(origin:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, capsuleDirection:number, angle:number, direction:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.RaycastHit2D, distance:number): number
 ---@return CS.UnityEngine.RaycastHit2D
 ---@param origin CS.UnityEngine.Vector2
 ---@param size CS.UnityEngine.Vector2
@@ -314,6 +316,7 @@ function CS.UnityEngine.Physics2D.GetRayIntersectionNonAlloc(ray, results, dista
 ---@overload fun(point:CS.UnityEngine.Vector2, layerMask:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, layerMask:number, minDepth:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
+---@overload fun(point:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@return CS.UnityEngine.Collider2D
 ---@param point CS.UnityEngine.Vector2
 ---@param optional layerMask number
@@ -343,6 +346,7 @@ function CS.UnityEngine.Physics2D.OverlapPointNonAlloc(point, results, layerMask
 ---@overload fun(point:CS.UnityEngine.Vector2, radius:number, layerMask:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, radius:number, layerMask:number, minDepth:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, radius:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
+---@overload fun(point:CS.UnityEngine.Vector2, radius:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@return CS.UnityEngine.Collider2D
 ---@param point CS.UnityEngine.Vector2
 ---@param radius number
@@ -375,6 +379,7 @@ function CS.UnityEngine.Physics2D.OverlapCircleNonAlloc(point, radius, results, 
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, layerMask:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, layerMask:number, minDepth:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
+---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, angle:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@return CS.UnityEngine.Collider2D
 ---@param point CS.UnityEngine.Vector2
 ---@param size CS.UnityEngine.Vector2
@@ -410,6 +415,7 @@ function CS.UnityEngine.Physics2D.OverlapBoxNonAlloc(point, size, angle, results
 ---@overload fun(pointA:CS.UnityEngine.Vector2, pointB:CS.UnityEngine.Vector2, layerMask:number): CS.UnityEngine.Collider2D
 ---@overload fun(pointA:CS.UnityEngine.Vector2, pointB:CS.UnityEngine.Vector2, layerMask:number, minDepth:number): CS.UnityEngine.Collider2D
 ---@overload fun(pointA:CS.UnityEngine.Vector2, pointB:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
+---@overload fun(pointA:CS.UnityEngine.Vector2, pointB:CS.UnityEngine.Vector2, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@return CS.UnityEngine.Collider2D
 ---@param pointA CS.UnityEngine.Vector2
 ---@param pointB CS.UnityEngine.Vector2
@@ -442,6 +448,7 @@ function CS.UnityEngine.Physics2D.OverlapAreaNonAlloc(pointA, pointB, results, l
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, direction:number, angle:number, layerMask:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, direction:number, angle:number, layerMask:number, minDepth:number): CS.UnityEngine.Collider2D
 ---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, direction:number, angle:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
+---@overload fun(point:CS.UnityEngine.Vector2, size:CS.UnityEngine.Vector2, direction:number, angle:number, contactFilter:CS.UnityEngine.ContactFilter2D, results:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
 ---@return CS.UnityEngine.Collider2D
 ---@param point CS.UnityEngine.Vector2
 ---@param size CS.UnityEngine.Vector2
@@ -476,19 +483,29 @@ function CS.UnityEngine.Physics2D.OverlapCapsuleAll(point, size, direction, angl
 ---@param optional minDepth number
 ---@param optional maxDepth number
 function CS.UnityEngine.Physics2D.OverlapCapsuleNonAlloc(point, size, direction, angle, results, layerMask, minDepth, maxDepth) end
+---@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, results:Collider2D[]): number
 ---@return number
 ---@param collider CS.UnityEngine.Collider2D
 ---@param contactFilter CS.UnityEngine.ContactFilter2D
----@param results Collider2D[]
+---@param results CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D
 function CS.UnityEngine.Physics2D.OverlapCollider(collider, contactFilter, results) end
 ---@overload fun(collider:CS.UnityEngine.Collider2D, contacts:ContactPoint2D[]): number
 ---@overload fun(collider:CS.UnityEngine.Collider2D, colliders:Collider2D[]): number
+---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
 ---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contacts:ContactPoint2D[]): number
 ---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, colliders:Collider2D[]): number
----@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:ContactPoint2D[]): number
----@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, colliders:Collider2D[]): number
----@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:ContactPoint2D[]): number
+---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, colliders:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, colliders:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
 ---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contactFilter:CS.UnityEngine.ContactFilter2D, colliders:Collider2D[]): number
+---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, colliders:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
+---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contactFilter:CS.UnityEngine.ContactFilter2D, colliders:CS.System.Collections.Generic.List_CS.UnityEngine.Collider2D): number
+---@overload fun(rigidbody:CS.UnityEngine.Rigidbody2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:ContactPoint2D[]): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, colliders:Collider2D[]): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:ContactPoint2D[]): number
+---@overload fun(collider:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
+---@overload fun(collider1:CS.UnityEngine.Collider2D, collider2:CS.UnityEngine.Collider2D, contactFilter:CS.UnityEngine.ContactFilter2D, contacts:CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D): number
 ---@return number
 ---@param collider1 CS.UnityEngine.Collider2D
 ---@param collider2 CS.UnityEngine.Collider2D

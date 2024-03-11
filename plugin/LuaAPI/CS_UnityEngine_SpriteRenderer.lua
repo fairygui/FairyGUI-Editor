@@ -14,4 +14,8 @@
 CS.UnityEngine.SpriteRenderer = { }
 ---@return CS.UnityEngine.SpriteRenderer
 function CS.UnityEngine.SpriteRenderer.New() end
+---@param callback (fun(arg0:CS.UnityEngine.SpriteRenderer):void)
+function CS.UnityEngine.SpriteRenderer:RegisterSpriteChangeCallback(callback) end
+---@param callback (fun(arg0:CS.UnityEngine.SpriteRenderer):void)
+function CS.UnityEngine.SpriteRenderer:UnregisterSpriteChangeCallback(callback) end
 return CS.UnityEngine.SpriteRenderer

@@ -10,6 +10,7 @@
 ---@field public tipsRes string
 ---@field public buttonClickSound string
 ---@field public pivot string
+---@field public listClearOnPublish boolean
 
 ---@type CS.FairyEditor.CommonSettings
 CS.FairyEditor.CommonSettings = { }

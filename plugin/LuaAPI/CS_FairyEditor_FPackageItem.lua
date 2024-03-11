@@ -34,17 +34,15 @@ CS.FairyEditor.FPackageItem = { }
 ---@param t string
 ---@param id string
 function CS.FairyEditor.FPackageItem.New(owner, t, id) end
----@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
-function CS.FairyEditor.FPackageItem:add_onChanged(value) end
----@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
-function CS.FairyEditor.FPackageItem:remove_onChanged(value) end
----@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
-function CS.FairyEditor.FPackageItem:add_onAlternativeAdded(value) end
----@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
-function CS.FairyEditor.FPackageItem:remove_onAlternativeAdded(value) end
 ---@return boolean
 ---@param key string
 function CS.FairyEditor.FPackageItem:MatchName(key) end
+---@param op string
+---@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
+function CS.FairyEditor.FPackageItem:onChanged(op, value) end
+---@param op string
+---@param value (fun(obj:CS.FairyEditor.FPackageItem):void)
+function CS.FairyEditor.FPackageItem:onAlternativeAdded(op, value) end
 ---@return string
 function CS.FairyEditor.FPackageItem:GetURL() end
 ---@return string

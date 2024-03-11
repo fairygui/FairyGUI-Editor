@@ -8,8 +8,7 @@
 CS.UnityEngine.AsyncOperation = { }
 ---@return CS.UnityEngine.AsyncOperation
 function CS.UnityEngine.AsyncOperation.New() end
+---@param op string
 ---@param value (fun(obj:CS.UnityEngine.AsyncOperation):void)
-function CS.UnityEngine.AsyncOperation:add_completed(value) end
----@param value (fun(obj:CS.UnityEngine.AsyncOperation):void)
-function CS.UnityEngine.AsyncOperation:remove_completed(value) end
+function CS.UnityEngine.AsyncOperation:completed(op, value) end
 return CS.UnityEngine.AsyncOperation

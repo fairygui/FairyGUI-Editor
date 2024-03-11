@@ -25,9 +25,11 @@ function CS.FairyGUI.GTweener:SetDuration(value) end
 ---@return CS.FairyGUI.GTweener
 ---@param value number
 function CS.FairyGUI.GTweener:SetBreakpoint(value) end
+---@overload fun(value:number): CS.FairyGUI.GTweener
 ---@return CS.FairyGUI.GTweener
 ---@param value number
-function CS.FairyGUI.GTweener:SetEase(value) end
+---@param optional customEase CS.FairyGUI.CustomEase
+function CS.FairyGUI.GTweener:SetEase(value, customEase) end
 ---@return CS.FairyGUI.GTweener
 ---@param value number
 function CS.FairyGUI.GTweener:SetEasePeriod(value) end

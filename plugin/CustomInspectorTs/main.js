@@ -1,12 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const csharp_1 = require("csharp");
-const App = csharp_1.FairyEditor.App;
+var FairyGUI = CS.FairyGUI;
+var FairyEditor = CS.FairyEditor;
+const App = FairyEditor.App;
 App.pluginManager.LoadUIPackage(App.pluginManager.basePath + "/" + eval("__dirname") + '/CustomInspector');
-class DemoInspector extends csharp_1.FairyEditor.View.PluginInspector {
+class DemoInspector extends FairyEditor.View.PluginInspector {
     constructor() {
         super();
-        this.panel = csharp_1.FairyGUI.UIPackage.CreateObject("CustomInspector", "Component1").asCom;
+        this.panel = FairyGUI.UIPackage.CreateObject("CustomInspector", "Component1").asCom;
         this.combo = this.panel.GetChild("browser").asComboBox;
         this.combo.onChanged.Add(() => {
             let obj = App.activeDoc.inspectingTarget;

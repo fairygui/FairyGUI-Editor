@@ -1,6 +1,7 @@
 ---@class CS.FairyGUI.GearTweenConfig
 ---@field public tween boolean
 ---@field public easeType number
+---@field public customEase CS.FairyGUI.CustomEase
 ---@field public duration number
 ---@field public delay number
 

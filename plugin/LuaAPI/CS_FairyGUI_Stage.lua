@@ -17,24 +17,25 @@
 CS.FairyGUI.Stage = { }
 ---@return CS.FairyGUI.Stage
 function CS.FairyGUI.Stage.New() end
----@param value (fun():void)
-function CS.FairyGUI.Stage:add_beforeUpdate(value) end
----@param value (fun():void)
-function CS.FairyGUI.Stage:remove_beforeUpdate(value) end
----@param value (fun():void)
-function CS.FairyGUI.Stage:add_afterUpdate(value) end
----@param value (fun():void)
-function CS.FairyGUI.Stage:remove_afterUpdate(value) end
 function CS.FairyGUI.Stage.Instantiate() end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.Stage:beforeUpdate(op, value) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.Stage:afterUpdate(op, value) end
 function CS.FairyGUI.Stage:Dispose() end
 ---@param newFocus CS.FairyGUI.DisplayObject
 ---@param byKey boolean
-function CS.FairyGUI.Stage:SetFous(newFocus, byKey) end
+function CS.FairyGUI.Stage:SetFocus(newFocus, byKey) end
 ---@param backward boolean
 function CS.FairyGUI.Stage:DoKeyNavigate(backward) end
 ---@return CS.UnityEngine.Vector2
 ---@param touchId number
 function CS.FairyGUI.Stage:GetTouchPosition(touchId) end
+---@return CS.FairyGUI.DisplayObject
+---@param touchId number
+function CS.FairyGUI.Stage:GetTouchTarget(touchId) end
 ---@return Int32[]
 ---@param result Int32[]
 function CS.FairyGUI.Stage:GetAllTouch(result) end

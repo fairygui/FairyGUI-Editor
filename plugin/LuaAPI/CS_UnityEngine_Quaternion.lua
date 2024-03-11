@@ -110,7 +110,9 @@ function CS.UnityEngine.Quaternion:GetHashCode() end
 ---@param other CS.UnityEngine.Quaternion
 function CS.UnityEngine.Quaternion:Equals(other) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Quaternion:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Quaternion:ToString(format, formatProvider) end
 return CS.UnityEngine.Quaternion

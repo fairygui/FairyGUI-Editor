@@ -16,6 +16,9 @@ function CS.FairyGUI.UIPackage.New() end
 ---@return string
 ---@param key string
 function CS.FairyGUI.UIPackage.GetVar(key) end
+---@param op string
+---@param value (fun(obj:CS.FairyGUI.PackageItem):void)
+function CS.FairyGUI.UIPackage.onReleaseResource(op, value) end
 ---@param key string
 ---@param value string
 function CS.FairyGUI.UIPackage.SetVar(key, value) end

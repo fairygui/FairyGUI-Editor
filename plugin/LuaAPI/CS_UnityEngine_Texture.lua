@@ -1,6 +1,8 @@
 ---@class CS.UnityEngine.Texture : CS.UnityEngine.Object
----@field public masterTextureLimit number
+---@field public GenerateAllMips number
+---@field public mipmapCount number
 ---@field public anisotropicFiltering number
+---@field public graphicsFormat number
 ---@field public width number
 ---@field public height number
 ---@field public dimension number
@@ -14,6 +16,7 @@
 ---@field public mipMapBias number
 ---@field public texelSize CS.UnityEngine.Vector2
 ---@field public updateCount number
+---@field public isDataSRGB boolean
 ---@field public imageContentsHash CS.UnityEngine.Hash128
 ---@field public totalTextureMemory number
 ---@field public desiredTextureMemory number
@@ -28,6 +31,7 @@
 ---@field public streamingTextureLoadingCount number
 ---@field public streamingTextureForceLoadAll boolean
 ---@field public streamingTextureDiscardUnusedMips boolean
+---@field public allowThreadedTextureCreation boolean
 
 ---@type CS.UnityEngine.Texture
 CS.UnityEngine.Texture = { }

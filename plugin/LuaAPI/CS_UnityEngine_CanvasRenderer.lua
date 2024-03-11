@@ -8,6 +8,7 @@
 ---@field public hasRectClipping boolean
 ---@field public relativeDepth number
 ---@field public cull boolean
+---@field public clippingSoftness CS.UnityEngine.Vector2
 
 ---@type CS.UnityEngine.CanvasRenderer
 CS.UnityEngine.CanvasRenderer = { }
@@ -40,6 +41,8 @@ function CS.UnityEngine.CanvasRenderer:SetTexture(texture) end
 function CS.UnityEngine.CanvasRenderer:SetAlphaTexture(texture) end
 ---@param mesh CS.UnityEngine.Mesh
 function CS.UnityEngine.CanvasRenderer:SetMesh(mesh) end
+---@return CS.UnityEngine.Mesh
+function CS.UnityEngine.CanvasRenderer:GetMesh() end
 function CS.UnityEngine.CanvasRenderer:Clear() end
 ---@return number
 function CS.UnityEngine.CanvasRenderer:GetAlpha() end
@@ -47,43 +50,42 @@ function CS.UnityEngine.CanvasRenderer:GetAlpha() end
 function CS.UnityEngine.CanvasRenderer:SetAlpha(alpha) end
 ---@return number
 function CS.UnityEngine.CanvasRenderer:GetInheritedAlpha() end
----@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, indices:CS.System.Collections.Generic.List_CS.System.Int32): void
+---@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, indices:CS.System.Collections.Generic.List_CS.System.Int32): void
 ---@param verts CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex
 ---@param positions CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param colors CS.System.Collections.Generic.List_CS.UnityEngine.Color32
----@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
+---@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 ---@param normals CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param optional tangents CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 ---@param optional indices CS.System.Collections.Generic.List_CS.System.Int32
 function CS.UnityEngine.CanvasRenderer.SplitUIVertexStreams(verts, positions, colors, uv0S, uv1S, uv2S, uv3S, normals, tangents, indices) end
----@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, indices:CS.System.Collections.Generic.List_CS.System.Int32): void
+---@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, indices:CS.System.Collections.Generic.List_CS.System.Int32): void
 ---@param verts CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex
 ---@param positions CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param colors CS.System.Collections.Generic.List_CS.UnityEngine.Color32
----@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
+---@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 ---@param normals CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param optional tangents CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 ---@param optional indices CS.System.Collections.Generic.List_CS.System.Int32
 function CS.UnityEngine.CanvasRenderer.CreateUIVertexStream(verts, positions, colors, uv0S, uv1S, uv2S, uv3S, normals, tangents, indices) end
----@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector2, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4): void
+---@overload fun(verts:CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex, positions:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, colors:CS.System.Collections.Generic.List_CS.UnityEngine.Color32, uv0S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, uv1S:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4, normals:CS.System.Collections.Generic.List_CS.UnityEngine.Vector3, tangents:CS.System.Collections.Generic.List_CS.UnityEngine.Vector4): void
 ---@param verts CS.System.Collections.Generic.List_CS.UnityEngine.UIVertex
 ---@param positions CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param colors CS.System.Collections.Generic.List_CS.UnityEngine.Color32
----@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
----@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector2
+---@param uv0S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv1S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv2S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param uv3S CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 ---@param optional normals CS.System.Collections.Generic.List_CS.UnityEngine.Vector3
 ---@param optional tangents CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
 function CS.UnityEngine.CanvasRenderer.AddUIVertexStream(verts, positions, colors, uv0S, uv1S, uv2S, uv3S, normals, tangents) end
+---@param op string
 ---@param value (fun():void)
-function CS.UnityEngine.CanvasRenderer.add_onRequestRebuild(value) end
----@param value (fun():void)
-function CS.UnityEngine.CanvasRenderer.remove_onRequestRebuild(value) end
+function CS.UnityEngine.CanvasRenderer.onRequestRebuild(op, value) end
 return CS.UnityEngine.CanvasRenderer

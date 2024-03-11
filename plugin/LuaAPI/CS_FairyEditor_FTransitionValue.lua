@@ -6,9 +6,12 @@
 ---@field public iu CS.UnityEngine.Color
 ---@field public i number
 ---@field public s string
+---@field public s2 string
 ---@field public b1 boolean
 ---@field public b2 boolean
 ---@field public b3 boolean
+---@field public b4 boolean
+---@field public aniHandledFlag boolean
 
 ---@type CS.FairyEditor.FTransitionValue
 CS.FairyEditor.FTransitionValue = { }

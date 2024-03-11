@@ -1,4 +1,5 @@
 ---@class CS.UnityEngine.Texture2DArray : CS.UnityEngine.Texture
+---@field public allSlices number
 ---@field public depth number
 ---@field public format number
 ---@field public isReadable boolean
@@ -6,7 +7,13 @@
 ---@type CS.UnityEngine.Texture2DArray
 CS.UnityEngine.Texture2DArray = { }
 ---@overload fun(width:number, height:number, depth:number, format:number, flags:number): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, format:number, flags:number): CS.UnityEngine.Texture2DArray
 ---@overload fun(width:number, height:number, depth:number, textureFormat:number, mipChain:boolean): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, format:number, flags:number, mipCount:number): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, format:number, flags:number, mipCount:number): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, textureFormat:number, mipCount:number, linear:boolean): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, textureFormat:number, mipChain:boolean, linear:boolean): CS.UnityEngine.Texture2DArray
+---@overload fun(width:number, height:number, depth:number, textureFormat:number, mipCount:number, linear:boolean, createUninitialized:boolean): CS.UnityEngine.Texture2DArray
 ---@return CS.UnityEngine.Texture2DArray
 ---@param width number
 ---@param height number
@@ -14,7 +21,8 @@ CS.UnityEngine.Texture2DArray = { }
 ---@param textureFormat number
 ---@param mipChain boolean
 ---@param optional linear boolean
-function CS.UnityEngine.Texture2DArray.New(width, height, depth, textureFormat, mipChain, linear) end
+---@param optional createUninitialized boolean
+function CS.UnityEngine.Texture2DArray.New(width, height, depth, textureFormat, mipChain, linear, createUninitialized) end
 ---@overload fun(arrayElement:number): Color[]
 ---@return Color[]
 ---@param arrayElement number

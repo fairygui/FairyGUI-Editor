@@ -2,6 +2,12 @@
 ---@field public texture string
 ---@field public samplePointSize number
 ---@field public renderMode string
+---@field public italicStyle number
+---@field public boldWeight number
+---@field public atlasPadding number
+---@field public DefaultItalicStyle number
+---@field public DefaultBoldWeight number
+---@field public DefaultAtlasPadding number
 ---@field public fontType number
 
 ---@type CS.FairyEditor.FontAsset

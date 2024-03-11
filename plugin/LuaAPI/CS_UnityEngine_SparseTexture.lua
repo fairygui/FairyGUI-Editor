@@ -7,13 +7,14 @@
 CS.UnityEngine.SparseTexture = { }
 ---@overload fun(width:number, height:number, format:number, mipCount:number): CS.UnityEngine.SparseTexture
 ---@overload fun(width:number, height:number, format:number, mipCount:number): CS.UnityEngine.SparseTexture
+---@overload fun(width:number, height:number, textureFormat:number, mipCount:number): CS.UnityEngine.SparseTexture
 ---@return CS.UnityEngine.SparseTexture
 ---@param width number
 ---@param height number
----@param format number
+---@param textureFormat number
 ---@param mipCount number
 ---@param optional linear boolean
-function CS.UnityEngine.SparseTexture.New(width, height, format, mipCount, linear) end
+function CS.UnityEngine.SparseTexture.New(width, height, textureFormat, mipCount, linear) end
 ---@param tileX number
 ---@param tileY number
 ---@param miplevel number

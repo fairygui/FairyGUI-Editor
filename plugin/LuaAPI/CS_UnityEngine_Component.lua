@@ -10,6 +10,10 @@ function CS.UnityEngine.Component.New() end
 ---@return CS.UnityEngine.Component
 ---@param t string
 function CS.UnityEngine.Component:GetComponent(t) end
+---@return boolean
+---@param t string
+---@param component CS.UnityEngine.Component
+function CS.UnityEngine.Component:TryGetComponent(t, component) end
 ---@overload fun(t:string): CS.UnityEngine.Component
 ---@return CS.UnityEngine.Component
 ---@param t string
@@ -20,9 +24,11 @@ function CS.UnityEngine.Component:GetComponentInChildren(t, includeInactive) end
 ---@param t string
 ---@param optional includeInactive boolean
 function CS.UnityEngine.Component:GetComponentsInChildren(t, includeInactive) end
+---@overload fun(t:string): CS.UnityEngine.Component
 ---@return CS.UnityEngine.Component
 ---@param t string
-function CS.UnityEngine.Component:GetComponentInParent(t) end
+---@param optional includeInactive boolean
+function CS.UnityEngine.Component:GetComponentInParent(t, includeInactive) end
 ---@overload fun(t:string): Component[]
 ---@return Component[]
 ---@param t string

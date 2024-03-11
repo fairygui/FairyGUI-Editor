@@ -1,6 +1,7 @@
 ---@class CS.FairyEditor.I18nSettings.LanguageFile
 ---@field public name string
 ---@field public path string
+---@field public fontName string
 ---@field public modificationDate CS.System.DateTime
 
 ---@type CS.FairyEditor.I18nSettings.LanguageFile

@@ -32,14 +32,14 @@ function CS.UnityEngine.Logger:LogWarning(tag, message, context) end
 ---@param message CS.System.Object
 ---@param optional context CS.UnityEngine.Object
 function CS.UnityEngine.Logger:LogError(tag, message, context) end
+---@overload fun(exception:CS.System.Exception): void
+---@param exception CS.System.Exception
+---@param optional context CS.UnityEngine.Object
+function CS.UnityEngine.Logger:LogException(exception, context) end
 ---@overload fun(logType:number, format:string, args:Object[]): void
 ---@param logType number
 ---@param context CS.UnityEngine.Object
 ---@param format string
 ---@param optional args Object[]
 function CS.UnityEngine.Logger:LogFormat(logType, context, format, args) end
----@overload fun(exception:CS.System.Exception): void
----@param exception CS.System.Exception
----@param optional context CS.UnityEngine.Object
-function CS.UnityEngine.Logger:LogException(exception, context) end
 return CS.UnityEngine.Logger

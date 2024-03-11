@@ -1,4 +1,6 @@
 ---@class CS.FairyGUI.GComponent : CS.FairyGUI.GObject
+---@field public __onConstruct (fun():void)
+---@field public __onDispose (fun():void)
 ---@field public rootContainer CS.FairyGUI.Container
 ---@field public container CS.FairyGUI.Container
 ---@field public scrollPane CS.FairyGUI.ScrollPane
@@ -111,6 +113,14 @@ function CS.FairyGUI.GComponent:GetFirstChildInView() end
 function CS.FairyGUI.GComponent:HandleControllerChanged(c) end
 function CS.FairyGUI.GComponent:SetBoundsChangedFlag() end
 function CS.FairyGUI.GComponent:EnsureBoundsCorrect() end
+---@param xValue CS.System.Single
+---@param yValue CS.System.Single
+function CS.FairyGUI.GComponent:GetSnappingPosition(xValue, yValue) end
+---@param xValue CS.System.Single
+---@param yValue CS.System.Single
+---@param xDir number
+---@param yDir number
+function CS.FairyGUI.GComponent:GetSnappingPositionWithDir(xValue, yValue, xDir, yDir) end
 function CS.FairyGUI.GComponent:ConstructFromResource() end
 ---@param xml CS.FairyGUI.Utils.XML
 function CS.FairyGUI.GComponent:ConstructFromXML(xml) end

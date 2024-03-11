@@ -17,7 +17,8 @@ function CS.UnityEngine.Collision2D.New() end
 ---@return CS.UnityEngine.ContactPoint2D
 ---@param index number
 function CS.UnityEngine.Collision2D:GetContact(index) end
+---@overload fun(contacts:ContactPoint2D[]): number
 ---@return number
----@param contacts ContactPoint2D[]
+---@param contacts CS.System.Collections.Generic.List_CS.UnityEngine.ContactPoint2D
 function CS.UnityEngine.Collision2D:GetContacts(contacts) end
 return CS.UnityEngine.Collision2D

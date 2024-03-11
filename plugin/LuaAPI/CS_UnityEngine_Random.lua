@@ -9,15 +9,13 @@
 
 ---@type CS.UnityEngine.Random
 CS.UnityEngine.Random = { }
----@return CS.UnityEngine.Random
-function CS.UnityEngine.Random.New() end
 ---@param seed number
 function CS.UnityEngine.Random.InitState(seed) end
----@overload fun(min:number, max:number): number
+---@overload fun(minInclusive:number, maxInclusive:number): number
 ---@return number
----@param min number
----@param max number
-function CS.UnityEngine.Random.Range(min, max) end
+---@param minInclusive number
+---@param maxExclusive number
+function CS.UnityEngine.Random.Range(minInclusive, maxExclusive) end
 ---@overload fun(): CS.UnityEngine.Color
 ---@overload fun(hueMin:number, hueMax:number): CS.UnityEngine.Color
 ---@overload fun(hueMin:number, hueMax:number, saturationMin:number, saturationMax:number): CS.UnityEngine.Color

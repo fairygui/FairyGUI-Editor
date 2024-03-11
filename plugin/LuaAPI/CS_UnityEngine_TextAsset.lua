@@ -1,6 +1,7 @@
 ---@class CS.UnityEngine.TextAsset : CS.UnityEngine.Object
----@field public text string
 ---@field public bytes Byte[]
+---@field public text string
+---@field public dataSize number
 
 ---@type CS.UnityEngine.TextAsset
 CS.UnityEngine.TextAsset = { }

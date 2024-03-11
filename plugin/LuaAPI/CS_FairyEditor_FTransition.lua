@@ -25,20 +25,24 @@ function CS.FairyEditor.FTransition:Dispose() end
 ---@param t string
 ---@param frame number
 function CS.FairyEditor.FTransition:CreateItem(targetId, t, frame) end
----@overload fun(frame:number, targetId:string, t:string): CS.FairyEditor.FTransitionItem
 ---@return CS.FairyEditor.FTransitionItem
 ---@param frame number
 ---@param targetId string
 ---@param t string
----@param optional items CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
-function CS.FairyEditor.FTransition:FindItem(frame, targetId, t, items) end
+function CS.FairyEditor.FTransition:FindItem(frame, targetId, t) end
+---@param frameStart number
+---@param frameEnd number
+---@param targetId string
+---@param t string
+---@param result CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
+function CS.FairyEditor.FTransition:FindItems(frameStart, frameEnd, targetId, t, result) end
 ---@return CS.FairyEditor.FTransitionItem
 ---@param frame number
 ---@param targetId string
 function CS.FairyEditor.FTransition:GetItemWithPath(frame, targetId) end
 ---@param transItem CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.FTransition:AddItem(transItem) end
----@param items FTransitionItem[]
+---@param items CS.System.Collections.Generic.IEnumerable_CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.FTransition:AddItems(items) end
 ---@param item CS.FairyEditor.FTransitionItem
 function CS.FairyEditor.FTransition:DeleteItem(item) end
@@ -46,14 +50,11 @@ function CS.FairyEditor.FTransition:DeleteItem(item) end
 ---@param targetId string
 ---@param t string
 function CS.FairyEditor.FTransition:DeleteItems(targetId, t) end
+---@overload fun(items:CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem): CS.FairyGUI.Utils.XML
 ---@return CS.FairyGUI.Utils.XML
 ---@param targetId string
----@param t string
+---@param optional t string
 function CS.FairyEditor.FTransition:CopyItems(targetId, t) end
----@param xml CS.FairyGUI.Utils.XML
----@param targetId string
----@param t string
-function CS.FairyEditor.FTransition:PasteItems(xml, targetId, t) end
 ---@return boolean
 ---@param obj CS.FairyEditor.FObject
 ---@param t string
@@ -66,16 +67,14 @@ function CS.FairyEditor.FTransition.SupportTween(t) end
 ---@param dy number
 function CS.FairyEditor.FTransition:UpdateFromRelations(targetId, dx, dy) end
 function CS.FairyEditor.FTransition:Validate() end
----@param items CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
----@param xml CS.FairyGUI.Utils.XML
----@param forSaving boolean
-function CS.FairyEditor.FTransition:WriteItems(items, xml, forSaving) end
 ---@param xml CS.FairyGUI.Utils.XML
 function CS.FairyEditor.FTransition:Read(xml) end
 ---@return CS.FairyGUI.Utils.XML
 ---@param forSaving boolean
 function CS.FairyEditor.FTransition:Write(forSaving) end
 function CS.FairyEditor.FTransition:OnExit() end
+function CS.FairyEditor.FTransition:OnOwnerAddedToStage() end
+function CS.FairyEditor.FTransition:OnOwnerRemovedFromStage() end
 ---@param onComplete (fun():void)
 ---@param times number
 ---@param delay number
@@ -92,4 +91,12 @@ function CS.FairyEditor.FTransition:GetProperty(propName) end
 ---@param propName string
 ---@param value CS.System.Object
 function CS.FairyEditor.FTransition:SetProperty(propName, value) end
+---@param owner CS.FairyEditor.FTransition
+---@param col CS.System.Collections.Generic.List_CS.FairyGUI.Utils.XML
+---@param result CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
+function CS.FairyEditor.FTransition.ReadItems(owner, col, result) end
+---@param items CS.System.Collections.Generic.List_CS.FairyEditor.FTransitionItem
+---@param xml CS.FairyGUI.Utils.XML
+---@param forSaving boolean
+function CS.FairyEditor.FTransition.WriteItems(items, xml, forSaving) end
 return CS.FairyEditor.FTransition

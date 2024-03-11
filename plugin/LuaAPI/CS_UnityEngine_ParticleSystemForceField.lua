@@ -1,4 +1,4 @@
----@class CS.UnityEngine.ParticleSystemForceField : CS.UnityEngine.Component
+---@class CS.UnityEngine.ParticleSystemForceField : CS.UnityEngine.Behaviour
 ---@field public shape number
 ---@field public startRange number
 ---@field public endRange number

@@ -30,9 +30,11 @@ CS.UnityEngine.Color = { }
 ---@param optional a number
 function CS.UnityEngine.Color.New(r, g, b, a) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Color:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Color:ToString(format, formatProvider) end
 ---@return number
 function CS.UnityEngine.Color:GetHashCode() end
 ---@overload fun(other:CS.System.Object): boolean

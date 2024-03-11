@@ -45,13 +45,12 @@ function CS.FairyEditor.PublishHandler:SetupCodeFolder(path, codeFileExtensions,
 ---@return string
 ---@param source string
 function CS.FairyEditor.PublishHandler:ToFilename(source) end
----@param value (fun():void)
-function CS.FairyEditor.PublishHandler:add_onComplete(value) end
----@param value (fun():void)
-function CS.FairyEditor.PublishHandler:remove_onComplete(value) end
 ---@return boolean
 ---@param item CS.FairyEditor.FPackageItem
 function CS.FairyEditor.PublishHandler:IsInList(item) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyEditor.PublishHandler:onComplete(op, value) end
 ---@return CS.System.Object
 ---@param item CS.FairyEditor.FPackageItem
 function CS.FairyEditor.PublishHandler:GetItemDesc(item) end
@@ -60,4 +59,5 @@ function CS.FairyEditor.PublishHandler:GetItemDesc(item) end
 function CS.FairyEditor.PublishHandler:GetScriptData(item) end
 ---@return CS.System.Threading.Tasks.Task
 function CS.FairyEditor.PublishHandler:Run() end
+function CS.FairyEditor.PublishHandler:Exit() end
 return CS.FairyEditor.PublishHandler

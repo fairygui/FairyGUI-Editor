@@ -8,15 +8,20 @@
 ---@field public queriesHitTriggers boolean
 ---@field public queriesHitBackfaces boolean
 ---@field public bounceThreshold number
+---@field public defaultMaxDepenetrationVelocity number
 ---@field public defaultSolverIterations number
 ---@field public defaultSolverVelocityIterations number
+---@field public simulationMode number
+---@field public defaultMaxAngularSpeed number
+---@field public improvedPatchFriction boolean
+---@field public invokeCollisionCallbacks boolean
 ---@field public defaultPhysicsScene CS.UnityEngine.PhysicsScene
----@field public autoSimulation boolean
 ---@field public autoSyncTransforms boolean
 ---@field public reuseCollisionCallbacks boolean
 ---@field public interCollisionDistance number
 ---@field public interCollisionStiffness number
 ---@field public interCollisionSettingsToggle boolean
+---@field public clothGravity CS.UnityEngine.Vector3
 
 ---@type CS.UnityEngine.Physics
 CS.UnityEngine.Physics = { }
@@ -27,6 +32,12 @@ function CS.UnityEngine.Physics.New() end
 ---@param collider2 CS.UnityEngine.Collider
 ---@param optional ignore boolean
 function CS.UnityEngine.Physics.IgnoreCollision(collider1, collider2, ignore) end
+---@param op string
+---@param value (fun(arg1:CS.UnityEngine.PhysicsScene, arg2:CS.Unity.Collections.NativeArray_CS.UnityEngine.ModifiableContactPair):void)
+function CS.UnityEngine.Physics.ContactModifyEvent(op, value) end
+---@param op string
+---@param value (fun(arg1:CS.UnityEngine.PhysicsScene, arg2:CS.Unity.Collections.NativeArray_CS.UnityEngine.ModifiableContactPair):void)
+function CS.UnityEngine.Physics.ContactModifyEventCCD(op, value) end
 ---@overload fun(layer1:number, layer2:number): void
 ---@param layer1 number
 ---@param layer2 number
@@ -36,6 +47,10 @@ function CS.UnityEngine.Physics.IgnoreLayerCollision(layer1, layer2, ignore) end
 ---@param layer1 number
 ---@param layer2 number
 function CS.UnityEngine.Physics.GetIgnoreLayerCollision(layer1, layer2) end
+---@return boolean
+---@param collider1 CS.UnityEngine.Collider
+---@param collider2 CS.UnityEngine.Collider
+function CS.UnityEngine.Physics.GetIgnoreCollision(collider1, collider2) end
 ---@overload fun(ray:CS.UnityEngine.Ray): boolean
 ---@overload fun(origin:CS.UnityEngine.Vector3, direction:CS.UnityEngine.Vector3): boolean
 ---@overload fun(ray:CS.UnityEngine.Ray, maxDistance:number): boolean
@@ -345,4 +360,12 @@ function CS.UnityEngine.Physics.OverlapCapsuleNonAlloc(point0, point1, radius, r
 ---@param worldBounds CS.UnityEngine.Bounds
 ---@param subdivisions number
 function CS.UnityEngine.Physics.RebuildBroadphaseRegions(worldBounds, subdivisions) end
+---@overload fun(meshID:number, convex:boolean): void
+---@param meshID number
+---@param convex boolean
+---@param optional cookingOptions number
+function CS.UnityEngine.Physics.BakeMesh(meshID, convex, cookingOptions) end
+---@param op string
+---@param value (fun(scene:CS.UnityEngine.PhysicsScene, headerArray:CS.Unity.Collections.NativeArray_CS.UnityEngine.ContactPairHeader.ReadOnly):void)
+function CS.UnityEngine.Physics.ContactEvent(op, value) end
 return CS.UnityEngine.Physics

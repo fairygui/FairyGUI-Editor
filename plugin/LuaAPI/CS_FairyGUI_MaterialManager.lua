@@ -3,13 +3,12 @@
 
 ---@type CS.FairyGUI.MaterialManager
 CS.FairyGUI.MaterialManager = { }
----@param value (fun(obj:CS.UnityEngine.Material):void)
-function CS.FairyGUI.MaterialManager:add_onCreateNewMaterial(value) end
----@param value (fun(obj:CS.UnityEngine.Material):void)
-function CS.FairyGUI.MaterialManager:remove_onCreateNewMaterial(value) end
 ---@return number
 ---@param keywords CS.System.Collections.Generic.IList_CS.System.String
 function CS.FairyGUI.MaterialManager:GetFlagsByKeywords(keywords) end
+---@param op string
+---@param value (fun(obj:CS.UnityEngine.Material):void)
+function CS.FairyGUI.MaterialManager:onCreateNewMaterial(op, value) end
 ---@return CS.UnityEngine.Material
 ---@param flags number
 ---@param blendMode number

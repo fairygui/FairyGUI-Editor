@@ -1,6 +1,7 @@
 ---@class CS.UnityEngine.ContactPoint : CS.System.ValueType
 ---@field public point CS.UnityEngine.Vector3
 ---@field public normal CS.UnityEngine.Vector3
+---@field public impulse CS.UnityEngine.Vector3
 ---@field public thisCollider CS.UnityEngine.Collider
 ---@field public otherCollider CS.UnityEngine.Collider
 ---@field public separation number

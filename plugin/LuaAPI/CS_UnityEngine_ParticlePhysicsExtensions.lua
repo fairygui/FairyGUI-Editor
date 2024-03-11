@@ -11,10 +11,12 @@ function CS.UnityEngine.ParticlePhysicsExtensions.GetCollisionEvents(go, collisi
 ---@return number
 ---@param t number
 function CS.UnityEngine.ParticlePhysicsExtensions.GetSafeTriggerParticlesSize(t) end
+---@overload fun(t:number, particles:CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle): number
 ---@return number
 ---@param t number
 ---@param particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle
-function CS.UnityEngine.ParticlePhysicsExtensions.GetTriggerParticles(t, particles) end
+---@param colliderData CS.UnityEngine.ParticleSystem.ColliderData
+function CS.UnityEngine.ParticlePhysicsExtensions.GetTriggerParticles(t, particles, colliderData) end
 ---@overload fun(t:number, particles:CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle): void
 ---@param t number
 ---@param particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle

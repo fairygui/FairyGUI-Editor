@@ -4,11 +4,17 @@
 ---@field public outside number
 ---@field public enter number
 ---@field public exit number
+---@field public colliderQueryMode number
 ---@field public radiusScale number
----@field public maxColliderCount number
+---@field public colliderCount number
 
 ---@type CS.UnityEngine.ParticleSystem.TriggerModule
 CS.UnityEngine.ParticleSystem.TriggerModule = { }
+---@param collider CS.UnityEngine.Component
+function CS.UnityEngine.ParticleSystem.TriggerModule:AddCollider(collider) end
+---@overload fun(index:number): void
+---@param collider CS.UnityEngine.Component
+function CS.UnityEngine.ParticleSystem.TriggerModule:RemoveCollider(collider) end
 ---@param index number
 ---@param collider CS.UnityEngine.Component
 function CS.UnityEngine.ParticleSystem.TriggerModule:SetCollider(index, collider) end

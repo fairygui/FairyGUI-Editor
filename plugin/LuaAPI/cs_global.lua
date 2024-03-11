@@ -2,16 +2,21 @@
 ---@field public UnityEngine CS.UnityEngine
 ---@field public FairyEditor CS.FairyEditor
 ---@field public ExternalImagePool CS.ExternalImagePool
+---@field public Spine41 CS.Spine41
+---@field public Spine40 CS.Spine40
+---@field public Spine38 CS.Spine38
+---@field public DragonBones CS.DragonBones
 ---@field public FairyGUI CS.FairyGUI
 CS = { }
 
 ---@class CS.UnityEngine
----@field public AnimationEvent CS.UnityEngine.AnimationEvent
----@field public AnimationClip CS.UnityEngine.AnimationClip
----@field public Animation CS.UnityEngine.Animation
----@field public AnimationState CS.UnityEngine.AnimationState
+---@field public JNINativeMethod CS.UnityEngine.JNINativeMethod
 ---@field public Animator CS.UnityEngine.Animator
 ---@field public StateMachineBehaviour CS.UnityEngine.StateMachineBehaviour
+---@field public Animation CS.UnityEngine.Animation
+---@field public AnimationState CS.UnityEngine.AnimationState
+---@field public AnimationEvent CS.UnityEngine.AnimationEvent
+---@field public AnimationClip CS.UnityEngine.AnimationClip
 ---@field public AnimatorClipInfo CS.UnityEngine.AnimatorClipInfo
 ---@field public AnimatorStateInfo CS.UnityEngine.AnimatorStateInfo
 ---@field public AnimatorTransitionInfo CS.UnityEngine.AnimatorTransitionInfo
@@ -35,63 +40,66 @@ CS = { }
 ---@field public AssetBundleManifest CS.UnityEngine.AssetBundleManifest
 ---@field public AssetBundleRecompressOperation CS.UnityEngine.AssetBundleRecompressOperation
 ---@field public AssetBundleRequest CS.UnityEngine.AssetBundleRequest
----@field public BuildCompression CS.UnityEngine.BuildCompression
----@field public AudioConfiguration CS.UnityEngine.AudioConfiguration
+---@field public AssetBundleUnloadOperation CS.UnityEngine.AssetBundleUnloadOperation
 ---@field public AudioSettings CS.UnityEngine.AudioSettings
+---@field public AudioSource CS.UnityEngine.AudioSource
+---@field public AudioLowPassFilter CS.UnityEngine.AudioLowPassFilter
+---@field public AudioHighPassFilter CS.UnityEngine.AudioHighPassFilter
+---@field public AudioReverbFilter CS.UnityEngine.AudioReverbFilter
+---@field public AudioConfiguration CS.UnityEngine.AudioConfiguration
 ---@field public AudioClip CS.UnityEngine.AudioClip
 ---@field public AudioBehaviour CS.UnityEngine.AudioBehaviour
 ---@field public AudioListener CS.UnityEngine.AudioListener
----@field public AudioSource CS.UnityEngine.AudioSource
 ---@field public AudioReverbZone CS.UnityEngine.AudioReverbZone
----@field public AudioLowPassFilter CS.UnityEngine.AudioLowPassFilter
----@field public AudioHighPassFilter CS.UnityEngine.AudioHighPassFilter
 ---@field public AudioDistortionFilter CS.UnityEngine.AudioDistortionFilter
 ---@field public AudioEchoFilter CS.UnityEngine.AudioEchoFilter
 ---@field public AudioChorusFilter CS.UnityEngine.AudioChorusFilter
----@field public AudioReverbFilter CS.UnityEngine.AudioReverbFilter
 ---@field public Microphone CS.UnityEngine.Microphone
+---@field public AudioRenderer CS.UnityEngine.AudioRenderer
 ---@field public WebCamDevice CS.UnityEngine.WebCamDevice
 ---@field public WebCamTexture CS.UnityEngine.WebCamTexture
----@field public AudioRenderer CS.UnityEngine.AudioRenderer
 ---@field public ClothSphereColliderPair CS.UnityEngine.ClothSphereColliderPair
----@field public Cloth CS.UnityEngine.Cloth
 ---@field public ClothSkinningCoefficient CS.UnityEngine.ClothSkinningCoefficient
+---@field public Cloth CS.UnityEngine.Cloth
+---@field public ClusterSerialization CS.UnityEngine.ClusterSerialization
+---@field public SortingLayer CS.UnityEngine.SortingLayer
 ---@field public Keyframe CS.UnityEngine.Keyframe
 ---@field public AnimationCurve CS.UnityEngine.AnimationCurve
 ---@field public Application CS.UnityEngine.Application
----@field public AsyncOperation CS.UnityEngine.AsyncOperation
----@field public ExecuteAlways CS.UnityEngine.ExecuteAlways
----@field public DefaultExecutionOrder CS.UnityEngine.DefaultExecutionOrder
----@field public Behaviour CS.UnityEngine.Behaviour
----@field public BillboardAsset CS.UnityEngine.BillboardAsset
----@field public BillboardRenderer CS.UnityEngine.BillboardRenderer
----@field public Bounds CS.UnityEngine.Bounds
----@field public BoundsInt CS.UnityEngine.BoundsInt
+---@field public ApplicationMemoryUsageChange CS.UnityEngine.ApplicationMemoryUsageChange
 ---@field public CachedAssetBundle CS.UnityEngine.CachedAssetBundle
 ---@field public Cache CS.UnityEngine.Cache
 ---@field public Caching CS.UnityEngine.Caching
 ---@field public Camera CS.UnityEngine.Camera
----@field public Color CS.UnityEngine.Color
----@field public Color32 CS.UnityEngine.Color32
----@field public ColorUtility CS.UnityEngine.ColorUtility
----@field public Component CS.UnityEngine.Component
----@field public ComputeBuffer CS.UnityEngine.ComputeBuffer
----@field public Coroutine CS.UnityEngine.Coroutine
----@field public CrashReport CS.UnityEngine.CrashReport
 ---@field public BoundingSphere CS.UnityEngine.BoundingSphere
 ---@field public CullingGroupEvent CS.UnityEngine.CullingGroupEvent
 ---@field public CullingGroup CS.UnityEngine.CullingGroup
----@field public CustomYieldInstruction CS.UnityEngine.CustomYieldInstruction
----@field public Debug CS.UnityEngine.Debug
----@field public Display CS.UnityEngine.Display
----@field public ExposedPropertyResolver CS.UnityEngine.ExposedPropertyResolver
 ---@field public FlareLayer CS.UnityEngine.FlareLayer
----@field public RectOffset CS.UnityEngine.RectOffset
----@field public GameObject CS.UnityEngine.GameObject
+---@field public ReflectionProbe CS.UnityEngine.ReflectionProbe
+---@field public CloudStreaming CS.UnityEngine.CloudStreaming
+---@field public CrashReport CS.UnityEngine.CrashReport
+---@field public Debug CS.UnityEngine.Debug
+---@field public ExposedPropertyResolver CS.UnityEngine.ExposedPropertyResolver
+---@field public ExpressionEvaluator CS.UnityEngine.ExpressionEvaluator
+---@field public BuildCompression CS.UnityEngine.BuildCompression
+---@field public Bounds CS.UnityEngine.Bounds
+---@field public BoundsInt CS.UnityEngine.BoundsInt
 ---@field public GeometryUtility CS.UnityEngine.GeometryUtility
----@field public GradientColorKey CS.UnityEngine.GradientColorKey
----@field public GradientAlphaKey CS.UnityEngine.GradientAlphaKey
----@field public Gradient CS.UnityEngine.Gradient
+---@field public Plane CS.UnityEngine.Plane
+---@field public Ray CS.UnityEngine.Ray
+---@field public Ray2D CS.UnityEngine.Ray2D
+---@field public Rect CS.UnityEngine.Rect
+---@field public RectInt CS.UnityEngine.RectInt
+---@field public RectOffset CS.UnityEngine.RectOffset
+---@field public DynamicGI CS.UnityEngine.DynamicGI
+---@field public LightingSettings CS.UnityEngine.LightingSettings
+---@field public BillboardAsset CS.UnityEngine.BillboardAsset
+---@field public BillboardRenderer CS.UnityEngine.BillboardRenderer
+---@field public CustomRenderTextureManager CS.UnityEngine.CustomRenderTextureManager
+---@field public Display CS.UnityEngine.Display
+---@field public LightProbesQuery CS.UnityEngine.LightProbesQuery
+---@field public RefreshRate CS.UnityEngine.RefreshRate
+---@field public DisplayInfo CS.UnityEngine.DisplayInfo
 ---@field public SleepTimeout CS.UnityEngine.SleepTimeout
 ---@field public Screen CS.UnityEngine.Screen
 ---@field public RenderBuffer CS.UnityEngine.RenderBuffer
@@ -103,14 +111,18 @@ CS = { }
 ---@field public LightmapData CS.UnityEngine.LightmapData
 ---@field public LightmapSettings CS.UnityEngine.LightmapSettings
 ---@field public LightProbes CS.UnityEngine.LightProbes
+---@field public HDROutputSettings CS.UnityEngine.HDROutputSettings
+---@field public ColorGamutUtility CS.UnityEngine.ColorGamutUtility
 ---@field public Resolution CS.UnityEngine.Resolution
 ---@field public RenderTargetSetup CS.UnityEngine.RenderTargetSetup
+---@field public RenderParams CS.UnityEngine.RenderParams
 ---@field public QualitySettings CS.UnityEngine.QualitySettings
 ---@field public RendererExtensions CS.UnityEngine.RendererExtensions
 ---@field public ImageEffectTransformsToLDR CS.UnityEngine.ImageEffectTransformsToLDR
 ---@field public ImageEffectAllowedInSceneView CS.UnityEngine.ImageEffectAllowedInSceneView
 ---@field public ImageEffectOpaque CS.UnityEngine.ImageEffectOpaque
 ---@field public ImageEffectAfterScale CS.UnityEngine.ImageEffectAfterScale
+---@field public ImageEffectUsesCommandBuffer CS.UnityEngine.ImageEffectUsesCommandBuffer
 ---@field public Mesh CS.UnityEngine.Mesh
 ---@field public Renderer CS.UnityEngine.Renderer
 ---@field public Projector CS.UnityEngine.Projector
@@ -120,6 +132,8 @@ CS = { }
 ---@field public MaterialPropertyBlock CS.UnityEngine.MaterialPropertyBlock
 ---@field public RenderSettings CS.UnityEngine.RenderSettings
 ---@field public Material CS.UnityEngine.Material
+---@field public GraphicsBufferHandle CS.UnityEngine.GraphicsBufferHandle
+---@field public GraphicsBuffer CS.UnityEngine.GraphicsBuffer
 ---@field public OcclusionPortal CS.UnityEngine.OcclusionPortal
 ---@field public OcclusionArea CS.UnityEngine.OcclusionArea
 ---@field public Flare CS.UnityEngine.Flare
@@ -129,57 +143,18 @@ CS = { }
 ---@field public Skybox CS.UnityEngine.Skybox
 ---@field public MeshFilter CS.UnityEngine.MeshFilter
 ---@field public LightProbeProxyVolume CS.UnityEngine.LightProbeProxyVolume
+---@field public TextureMipmapLimitSettings CS.UnityEngine.TextureMipmapLimitSettings
+---@field public TextureMipmapLimitGroups CS.UnityEngine.TextureMipmapLimitGroups
 ---@field public SkinnedMeshRenderer CS.UnityEngine.SkinnedMeshRenderer
 ---@field public MeshRenderer CS.UnityEngine.MeshRenderer
----@field public Hash128 CS.UnityEngine.Hash128
----@field public HashUtilities CS.UnityEngine.HashUtilities
----@field public HashUnsafeUtilities CS.UnityEngine.HashUnsafeUtilities
----@field public Touch CS.UnityEngine.Touch
----@field public AccelerationEvent CS.UnityEngine.AccelerationEvent
----@field public Gyroscope CS.UnityEngine.Gyroscope
----@field public LocationInfo CS.UnityEngine.LocationInfo
----@field public LocationService CS.UnityEngine.LocationService
----@field public Compass CS.UnityEngine.Compass
----@field public Input CS.UnityEngine.Input
----@field public LOD CS.UnityEngine.LOD
----@field public LODGroup CS.UnityEngine.LODGroup
----@field public LayerMask CS.UnityEngine.LayerMask
 ---@field public LightProbeGroup CS.UnityEngine.LightProbeGroup
 ---@field public LineUtility CS.UnityEngine.LineUtility
----@field public FrustumPlanes CS.UnityEngine.FrustumPlanes
----@field public Matrix4x4 CS.UnityEngine.Matrix4x4
----@field public Vector3 CS.UnityEngine.Vector3
----@field public Quaternion CS.UnityEngine.Quaternion
----@field public Mathf CS.UnityEngine.Mathf
+---@field public LOD CS.UnityEngine.LOD
+---@field public LODGroup CS.UnityEngine.LODGroup
+---@field public BlendShapeBufferRange CS.UnityEngine.BlendShapeBufferRange
 ---@field public BoneWeight CS.UnityEngine.BoneWeight
+---@field public BoneWeight1 CS.UnityEngine.BoneWeight1
 ---@field public CombineInstance CS.UnityEngine.CombineInstance
----@field public MonoBehaviour CS.UnityEngine.MonoBehaviour
----@field public Plane CS.UnityEngine.Plane
----@field public PlayerPrefsException CS.UnityEngine.PlayerPrefsException
----@field public PlayerPrefs CS.UnityEngine.PlayerPrefs
----@field public Pose CS.UnityEngine.Pose
----@field public PropertyName CS.UnityEngine.PropertyName
----@field public Random CS.UnityEngine.Random
----@field public RangeInt CS.UnityEngine.RangeInt
----@field public Ray CS.UnityEngine.Ray
----@field public Ray2D CS.UnityEngine.Ray2D
----@field public Rect CS.UnityEngine.Rect
----@field public RectInt CS.UnityEngine.RectInt
----@field public ReflectionProbe CS.UnityEngine.ReflectionProbe
----@field public ResourceRequest CS.UnityEngine.ResourceRequest
----@field public Resources CS.UnityEngine.Resources
----@field public ScriptableObject CS.UnityEngine.ScriptableObject
----@field public Security CS.UnityEngine.Security
----@field public PreferBinarySerialization CS.UnityEngine.PreferBinarySerialization
----@field public ComputeShader CS.UnityEngine.ComputeShader
----@field public SortingLayer CS.UnityEngine.SortingLayer
----@field public StackTraceUtility CS.UnityEngine.StackTraceUtility
----@field public UnityException CS.UnityEngine.UnityException
----@field public MissingComponentException CS.UnityEngine.MissingComponentException
----@field public UnassignedReferenceException CS.UnityEngine.UnassignedReferenceException
----@field public MissingReferenceException CS.UnityEngine.MissingReferenceException
----@field public SystemInfo CS.UnityEngine.SystemInfo
----@field public TextAsset CS.UnityEngine.TextAsset
 ---@field public Texture CS.UnityEngine.Texture
 ---@field public Texture2D CS.UnityEngine.Texture2D
 ---@field public Cubemap CS.UnityEngine.Cubemap
@@ -191,13 +166,51 @@ CS = { }
 ---@field public CustomRenderTextureUpdateZone CS.UnityEngine.CustomRenderTextureUpdateZone
 ---@field public CustomRenderTexture CS.UnityEngine.CustomRenderTexture
 ---@field public RenderTextureDescriptor CS.UnityEngine.RenderTextureDescriptor
----@field public Time CS.UnityEngine.Time
----@field public Object CS.UnityEngine.Object
----@field public UnityEventQueueSystem CS.UnityEngine.UnityEventQueueSystem
+---@field public Hash128 CS.UnityEngine.Hash128
+---@field public HashUtilities CS.UnityEngine.HashUtilities
+---@field public HashUnsafeUtilities CS.UnityEngine.HashUnsafeUtilities
+---@field public Logger CS.UnityEngine.Logger
+---@field public Color CS.UnityEngine.Color
+---@field public Color32 CS.UnityEngine.Color32
+---@field public ColorUtility CS.UnityEngine.ColorUtility
+---@field public GradientColorKey CS.UnityEngine.GradientColorKey
+---@field public GradientAlphaKey CS.UnityEngine.GradientAlphaKey
+---@field public Gradient CS.UnityEngine.Gradient
+---@field public FrustumPlanes CS.UnityEngine.FrustumPlanes
+---@field public Matrix4x4 CS.UnityEngine.Matrix4x4
+---@field public Vector3 CS.UnityEngine.Vector3
+---@field public Quaternion CS.UnityEngine.Quaternion
+---@field public Mathf CS.UnityEngine.Mathf
 ---@field public Vector2 CS.UnityEngine.Vector2
 ---@field public Vector2Int CS.UnityEngine.Vector2Int
 ---@field public Vector3Int CS.UnityEngine.Vector3Int
 ---@field public Vector4 CS.UnityEngine.Vector4
+---@field public PlayerPrefsException CS.UnityEngine.PlayerPrefsException
+---@field public PlayerPrefs CS.UnityEngine.PlayerPrefs
+---@field public PropertyName CS.UnityEngine.PropertyName
+---@field public Random CS.UnityEngine.Random
+---@field public ResourceRequest CS.UnityEngine.ResourceRequest
+---@field public ResourcesAPI CS.UnityEngine.ResourcesAPI
+---@field public Resources CS.UnityEngine.Resources
+---@field public AsyncOperation CS.UnityEngine.AsyncOperation
+---@field public ExecuteAlways CS.UnityEngine.ExecuteAlways
+---@field public DefaultExecutionOrder CS.UnityEngine.DefaultExecutionOrder
+---@field public Behaviour CS.UnityEngine.Behaviour
+---@field public Component CS.UnityEngine.Component
+---@field public Coroutine CS.UnityEngine.Coroutine
+---@field public CustomYieldInstruction CS.UnityEngine.CustomYieldInstruction
+---@field public GameObject CS.UnityEngine.GameObject
+---@field public LayerMask CS.UnityEngine.LayerMask
+---@field public MonoBehaviour CS.UnityEngine.MonoBehaviour
+---@field public RangeInt CS.UnityEngine.RangeInt
+---@field public ScriptableObject CS.UnityEngine.ScriptableObject
+---@field public StackTraceUtility CS.UnityEngine.StackTraceUtility
+---@field public UnityException CS.UnityEngine.UnityException
+---@field public MissingComponentException CS.UnityEngine.MissingComponentException
+---@field public UnassignedReferenceException CS.UnityEngine.UnassignedReferenceException
+---@field public MissingReferenceException CS.UnityEngine.MissingReferenceException
+---@field public TextAsset CS.UnityEngine.TextAsset
+---@field public Object CS.UnityEngine.Object
 ---@field public WaitForEndOfFrame CS.UnityEngine.WaitForEndOfFrame
 ---@field public WaitForFixedUpdate CS.UnityEngine.WaitForFixedUpdate
 ---@field public WaitForSeconds CS.UnityEngine.WaitForSeconds
@@ -205,24 +218,42 @@ CS = { }
 ---@field public WaitUntil CS.UnityEngine.WaitUntil
 ---@field public WaitWhile CS.UnityEngine.WaitWhile
 ---@field public YieldInstruction CS.UnityEngine.YieldInstruction
----@field public DynamicGI CS.UnityEngine.DynamicGI
----@field public Logger CS.UnityEngine.Logger
+---@field public Security CS.UnityEngine.Security
+---@field public SerializeReference CS.UnityEngine.SerializeReference
+---@field public PreferBinarySerialization CS.UnityEngine.PreferBinarySerialization
+---@field public ComputeBuffer CS.UnityEngine.ComputeBuffer
+---@field public ComputeShader CS.UnityEngine.ComputeShader
+---@field public Snapping CS.UnityEngine.Snapping
 ---@field public StaticBatchingUtility CS.UnityEngine.StaticBatchingUtility
+---@field public SystemInfo CS.UnityEngine.SystemInfo
+---@field public Time CS.UnityEngine.Time
+---@field public UnityEventQueueSystem CS.UnityEngine.UnityEventQueueSystem
+---@field public Pose CS.UnityEngine.Pose
+---@field public FrameDebugger CS.UnityEngine.FrameDebugger
 ---@field public DrivenRectTransformTracker CS.UnityEngine.DrivenRectTransformTracker
 ---@field public RectTransform CS.UnityEngine.RectTransform
 ---@field public Transform CS.UnityEngine.Transform
 ---@field public SpriteRenderer CS.UnityEngine.SpriteRenderer
+---@field public SecondarySpriteTexture CS.UnityEngine.SecondarySpriteTexture
 ---@field public Sprite CS.UnityEngine.Sprite
 ---@field public Grid CS.UnityEngine.Grid
 ---@field public GridLayout CS.UnityEngine.GridLayout
 ---@field public Event CS.UnityEngine.Event
 ---@field public ImageConversion CS.UnityEngine.ImageConversion
+---@field public Touch CS.UnityEngine.Touch
+---@field public PenData CS.UnityEngine.PenData
+---@field public AccelerationEvent CS.UnityEngine.AccelerationEvent
+---@field public Gyroscope CS.UnityEngine.Gyroscope
+---@field public LocationInfo CS.UnityEngine.LocationInfo
+---@field public LocationService CS.UnityEngine.LocationService
+---@field public Compass CS.UnityEngine.Compass
+---@field public Input CS.UnityEngine.Input
 ---@field public JsonUtility CS.UnityEngine.JsonUtility
 ---@field public LocalizationAsset CS.UnityEngine.LocalizationAsset
 ---@field public ParticleSystem CS.UnityEngine.ParticleSystem
----@field public ParticleSystemRenderer CS.UnityEngine.ParticleSystemRenderer
----@field public ParticleCollisionEvent CS.UnityEngine.ParticleCollisionEvent
 ---@field public ParticlePhysicsExtensions CS.UnityEngine.ParticlePhysicsExtensions
+---@field public ParticleCollisionEvent CS.UnityEngine.ParticleCollisionEvent
+---@field public ParticleSystemRenderer CS.UnityEngine.ParticleSystemRenderer
 ---@field public ParticleSystemForceField CS.UnityEngine.ParticleSystemForceField
 ---@field public WheelFrictionCurve CS.UnityEngine.WheelFrictionCurve
 ---@field public SoftJointLimit CS.UnityEngine.SoftJointLimit
@@ -233,6 +264,13 @@ CS = { }
 ---@field public JointLimits CS.UnityEngine.JointLimits
 ---@field public ControllerColliderHit CS.UnityEngine.ControllerColliderHit
 ---@field public Collision CS.UnityEngine.Collision
+---@field public ArticulationDrive CS.UnityEngine.ArticulationDrive
+---@field public ArticulationReducedSpace CS.UnityEngine.ArticulationReducedSpace
+---@field public ArticulationJacobian CS.UnityEngine.ArticulationJacobian
+---@field public ArticulationBody CS.UnityEngine.ArticulationBody
+---@field public Physics CS.UnityEngine.Physics
+---@field public ModifiableContactPair CS.UnityEngine.ModifiableContactPair
+---@field public ModifiableMassProperties CS.UnityEngine.ModifiableMassProperties
 ---@field public PhysicMaterial CS.UnityEngine.PhysicMaterial
 ---@field public RaycastHit CS.UnityEngine.RaycastHit
 ---@field public Rigidbody CS.UnityEngine.Rigidbody
@@ -252,14 +290,24 @@ CS = { }
 ---@field public ContactPoint CS.UnityEngine.ContactPoint
 ---@field public PhysicsScene CS.UnityEngine.PhysicsScene
 ---@field public PhysicsSceneExtensions CS.UnityEngine.PhysicsSceneExtensions
----@field public Physics CS.UnityEngine.Physics
+---@field public ContactPairHeader CS.UnityEngine.ContactPairHeader
+---@field public ContactPair CS.UnityEngine.ContactPair
+---@field public ContactPairPoint CS.UnityEngine.ContactPairPoint
+---@field public QueryParameters CS.UnityEngine.QueryParameters
+---@field public ColliderHit CS.UnityEngine.ColliderHit
 ---@field public RaycastCommand CS.UnityEngine.RaycastCommand
 ---@field public SpherecastCommand CS.UnityEngine.SpherecastCommand
 ---@field public CapsulecastCommand CS.UnityEngine.CapsulecastCommand
 ---@field public BoxcastCommand CS.UnityEngine.BoxcastCommand
+---@field public ClosestPointCommand CS.UnityEngine.ClosestPointCommand
+---@field public OverlapSphereCommand CS.UnityEngine.OverlapSphereCommand
+---@field public OverlapBoxCommand CS.UnityEngine.OverlapBoxCommand
+---@field public OverlapCapsuleCommand CS.UnityEngine.OverlapCapsuleCommand
 ---@field public PhysicsScene2D CS.UnityEngine.PhysicsScene2D
 ---@field public PhysicsSceneExtensions2D CS.UnityEngine.PhysicsSceneExtensions2D
 ---@field public Physics2D CS.UnityEngine.Physics2D
+---@field public PhysicsShape2D CS.UnityEngine.PhysicsShape2D
+---@field public PhysicsShapeGroup2D CS.UnityEngine.PhysicsShapeGroup2D
 ---@field public ColliderDistance2D CS.UnityEngine.ColliderDistance2D
 ---@field public ContactFilter2D CS.UnityEngine.ContactFilter2D
 ---@field public Collision2D CS.UnityEngine.Collision2D
@@ -272,6 +320,7 @@ CS = { }
 ---@field public PhysicsJobOptions2D CS.UnityEngine.PhysicsJobOptions2D
 ---@field public Rigidbody2D CS.UnityEngine.Rigidbody2D
 ---@field public Collider2D CS.UnityEngine.Collider2D
+---@field public CustomCollider2D CS.UnityEngine.CustomCollider2D
 ---@field public CircleCollider2D CS.UnityEngine.CircleCollider2D
 ---@field public CapsuleCollider2D CS.UnityEngine.CapsuleCollider2D
 ---@field public EdgeCollider2D CS.UnityEngine.EdgeCollider2D
@@ -301,7 +350,13 @@ CS = { }
 ---@field public ScreenCapture CS.UnityEngine.ScreenCapture
 ---@field public SpriteMask CS.UnityEngine.SpriteMask
 ---@field public StreamingController CS.UnityEngine.StreamingController
+---@field public IntegratedSubsystem CS.UnityEngine.IntegratedSubsystem
+---@field public IntegratedSubsystemDescriptor CS.UnityEngine.IntegratedSubsystemDescriptor
+---@field public Subsystem CS.UnityEngine.Subsystem
+---@field public SubsystemDescriptor CS.UnityEngine.SubsystemDescriptor
+---@field public SubsystemManager CS.UnityEngine.SubsystemManager
 ---@field public PatchExtents CS.UnityEngine.PatchExtents
+---@field public DetailInstanceTransform CS.UnityEngine.DetailInstanceTransform
 ---@field public TextGenerationSettings CS.UnityEngine.TextGenerationSettings
 ---@field public TextMesh CS.UnityEngine.TextMesh
 ---@field public CharacterInfo CS.UnityEngine.CharacterInfo
@@ -310,11 +365,11 @@ CS = { }
 ---@field public UIVertex CS.UnityEngine.UIVertex
 ---@field public Font CS.UnityEngine.Font
 ---@field public GridBrushBase CS.UnityEngine.GridBrushBase
----@field public Canvas CS.UnityEngine.Canvas
----@field public UISystemProfilerApi CS.UnityEngine.UISystemProfilerApi
 ---@field public CanvasGroup CS.UnityEngine.CanvasGroup
 ---@field public CanvasRenderer CS.UnityEngine.CanvasRenderer
 ---@field public RectTransformUtility CS.UnityEngine.RectTransformUtility
+---@field public Canvas CS.UnityEngine.Canvas
+---@field public UISystemProfilerApi CS.UnityEngine.UISystemProfilerApi
 ---@field public RemoteSettings CS.UnityEngine.RemoteSettings
 ---@field public RemoteConfigSettings CS.UnityEngine.RemoteConfigSettings
 ---@field public WWWForm CS.UnityEngine.WWWForm
@@ -322,19 +377,43 @@ CS = { }
 ---@field public WheelCollider CS.UnityEngine.WheelCollider
 ---@field public WindZone CS.UnityEngine.WindZone
 
+---@class CS.UnityEngine.AudioSettings
+---@field public Mobile CS.UnityEngine.AudioSettings.Mobile
+
 ---@class CS.UnityEngine.Camera
 ---@field public GateFitParameters CS.UnityEngine.Camera.GateFitParameters
+
+---@class CS.UnityEngine.Mesh
+---@field public MeshData CS.UnityEngine.Mesh.MeshData
+---@field public MeshDataArray CS.UnityEngine.Mesh.MeshDataArray
+
+---@class CS.UnityEngine.GraphicsBuffer
+---@field public IndirectDrawArgs CS.UnityEngine.GraphicsBuffer.IndirectDrawArgs
+---@field public IndirectDrawIndexedArgs CS.UnityEngine.GraphicsBuffer.IndirectDrawIndexedArgs
 
 ---@class CS.UnityEngine.Random
 ---@field public State CS.UnityEngine.Random.State
 
 ---@class CS.UnityEngine.ParticleSystem
+---@field public MinMaxCurve CS.UnityEngine.ParticleSystem.MinMaxCurve
 ---@field public MainModule CS.UnityEngine.ParticleSystem.MainModule
 ---@field public EmissionModule CS.UnityEngine.ParticleSystem.EmissionModule
 ---@field public ShapeModule CS.UnityEngine.ParticleSystem.ShapeModule
+---@field public CollisionModule CS.UnityEngine.ParticleSystem.CollisionModule
+---@field public TriggerModule CS.UnityEngine.ParticleSystem.TriggerModule
+---@field public SubEmittersModule CS.UnityEngine.ParticleSystem.SubEmittersModule
+---@field public TextureSheetAnimationModule CS.UnityEngine.ParticleSystem.TextureSheetAnimationModule
+---@field public Particle CS.UnityEngine.ParticleSystem.Particle
+---@field public Burst CS.UnityEngine.ParticleSystem.Burst
+---@field public MinMaxGradient CS.UnityEngine.ParticleSystem.MinMaxGradient
+---@field public EmitParams CS.UnityEngine.ParticleSystem.EmitParams
+---@field public PlaybackState CS.UnityEngine.ParticleSystem.PlaybackState
+---@field public Trails CS.UnityEngine.ParticleSystem.Trails
+---@field public ColliderData CS.UnityEngine.ParticleSystem.ColliderData
 ---@field public VelocityOverLifetimeModule CS.UnityEngine.ParticleSystem.VelocityOverLifetimeModule
 ---@field public LimitVelocityOverLifetimeModule CS.UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule
 ---@field public InheritVelocityModule CS.UnityEngine.ParticleSystem.InheritVelocityModule
+---@field public LifetimeByEmitterSpeedModule CS.UnityEngine.ParticleSystem.LifetimeByEmitterSpeedModule
 ---@field public ForceOverLifetimeModule CS.UnityEngine.ParticleSystem.ForceOverLifetimeModule
 ---@field public ColorOverLifetimeModule CS.UnityEngine.ParticleSystem.ColorOverLifetimeModule
 ---@field public ColorBySpeedModule CS.UnityEngine.ParticleSystem.ColorBySpeedModule
@@ -344,18 +423,9 @@ CS = { }
 ---@field public RotationBySpeedModule CS.UnityEngine.ParticleSystem.RotationBySpeedModule
 ---@field public ExternalForcesModule CS.UnityEngine.ParticleSystem.ExternalForcesModule
 ---@field public NoiseModule CS.UnityEngine.ParticleSystem.NoiseModule
----@field public CollisionModule CS.UnityEngine.ParticleSystem.CollisionModule
----@field public TriggerModule CS.UnityEngine.ParticleSystem.TriggerModule
----@field public SubEmittersModule CS.UnityEngine.ParticleSystem.SubEmittersModule
----@field public TextureSheetAnimationModule CS.UnityEngine.ParticleSystem.TextureSheetAnimationModule
 ---@field public LightsModule CS.UnityEngine.ParticleSystem.LightsModule
 ---@field public TrailModule CS.UnityEngine.ParticleSystem.TrailModule
 ---@field public CustomDataModule CS.UnityEngine.ParticleSystem.CustomDataModule
----@field public MinMaxCurve CS.UnityEngine.ParticleSystem.MinMaxCurve
----@field public Particle CS.UnityEngine.ParticleSystem.Particle
----@field public Burst CS.UnityEngine.ParticleSystem.Burst
----@field public MinMaxGradient CS.UnityEngine.ParticleSystem.MinMaxGradient
----@field public EmitParams CS.UnityEngine.ParticleSystem.EmitParams
 
 ---@class CS.FairyEditor
 ---@field public App CS.FairyEditor.App
@@ -371,8 +441,10 @@ CS = { }
 ---@field public FBitmapFont CS.FairyEditor.FBitmapFont
 ---@field public FontAsset CS.FairyEditor.FontAsset
 ---@field public ImageAsset CS.FairyEditor.ImageAsset
+---@field public SkeletonAsset CS.FairyEditor.SkeletonAsset
 ---@field public SoundAsset CS.FairyEditor.SoundAsset
 ---@field public SpineAsset CS.FairyEditor.SpineAsset
+---@field public SwfAsset CS.FairyEditor.SwfAsset
 ---@field public ComExtensionDef CS.FairyEditor.ComExtensionDef
 ---@field public ComExtention CS.FairyEditor.ComExtention
 ---@field public ComProperty CS.FairyEditor.ComProperty
@@ -393,12 +465,12 @@ CS = { }
 ---@field public FControllerPage CS.FairyEditor.FControllerPage
 ---@field public FController CS.FairyEditor.FController
 ---@field public FControllerAction CS.FairyEditor.FControllerAction
+---@field public FCustomEase CS.FairyEditor.FCustomEase
 ---@field public FDisplayObject CS.FairyEditor.FDisplayObject
 ---@field public FGraph CS.FairyEditor.FGraph
 ---@field public FGroup CS.FairyEditor.FGroup
 ---@field public FilterData CS.FairyEditor.FilterData
 ---@field public FImage CS.FairyEditor.FImage
----@field public FInputTextField CS.FairyEditor.FInputTextField
 ---@field public FLabel CS.FairyEditor.FLabel
 ---@field public FList CS.FairyEditor.FList
 ---@field public ListItemData CS.FairyEditor.ListItemData
@@ -425,6 +497,7 @@ CS = { }
 ---@field public FSlider CS.FairyEditor.FSlider
 ---@field public FSwfObject CS.FairyEditor.FSwfObject
 ---@field public FTextField CS.FairyEditor.FTextField
+---@field public FTextInput CS.FairyEditor.FTextInput
 ---@field public FTransition CS.FairyEditor.FTransition
 ---@field public FTransitionItem CS.FairyEditor.FTransitionItem
 ---@field public FTransitions CS.FairyEditor.FTransitions
@@ -436,6 +509,7 @@ CS = { }
 ---@field public ProjectType CS.FairyEditor.ProjectType
 ---@field public ResourceRef CS.FairyEditor.ResourceRef
 ---@field public MissingInfo CS.FairyEditor.MissingInfo
+---@field public SpineCompatibilityHelper CS.FairyEditor.SpineCompatibilityHelper
 ---@field public PublishHandler CS.FairyEditor.PublishHandler
 ---@field public Clipboard CS.FairyEditor.Clipboard
 ---@field public ComponentTemplates CS.FairyEditor.ComponentTemplates
@@ -480,6 +554,7 @@ CS = { }
 ---@field public JsonUtil CS.FairyEditor.JsonUtil
 ---@field public NativeDragDrop CS.FairyEditor.NativeDragDrop
 ---@field public UserActionException CS.FairyEditor.UserActionException
+---@field public PathPointsUtil CS.FairyEditor.PathPointsUtil
 ---@field public PlistElement CS.FairyEditor.PlistElement
 ---@field public PlistElementString CS.FairyEditor.PlistElementString
 ---@field public PlistElementInteger CS.FairyEditor.PlistElementInteger
@@ -512,6 +587,9 @@ CS = { }
 
 ---@class CS.FairyEditor.ComponentAsset
 ---@field public DisplayListItem CS.FairyEditor.ComponentAsset.DisplayListItem
+
+---@class CS.FairyEditor.SpineCompatibilityHelper
+---@field public Delegates CS.FairyEditor.SpineCompatibilityHelper.Delegates
 
 ---@class CS.FairyEditor.PublishHandler
 ---@field public ClassInfo CS.FairyEditor.PublishHandler.ClassInfo
@@ -560,19 +638,23 @@ CS = { }
 ---@field public Gizmo CS.FairyEditor.View.Gizmo
 ---@field public GizmoHandle CS.FairyEditor.View.GizmoHandle
 ---@field public GizmoHandleSet CS.FairyEditor.View.GizmoHandleSet
+---@field public GridMesh CS.FairyEditor.View.GridMesh
 ---@field public InspectorUpdateFlags CS.FairyEditor.View.InspectorUpdateFlags
+---@field public PathLineMesh CS.FairyEditor.View.PathLineMesh
 ---@field public ConsoleView CS.FairyEditor.View.ConsoleView
 ---@field public DocCamera CS.FairyEditor.View.DocCamera
 ---@field public DocumentView CS.FairyEditor.View.DocumentView
 ---@field public FavoritesView CS.FairyEditor.View.FavoritesView
 ---@field public HierarchyView CS.FairyEditor.View.HierarchyView
 ---@field public InspectorView CS.FairyEditor.View.InspectorView
+---@field public PluginInspector CS.FairyEditor.View.PluginInspector
 ---@field public LibraryView CS.FairyEditor.View.LibraryView
 ---@field public MainMenu CS.FairyEditor.View.MainMenu
 ---@field public MainView CS.FairyEditor.View.MainView
 ---@field public PlugInView CS.FairyEditor.View.PlugInView
 ---@field public PreviewView CS.FairyEditor.View.PreviewView
 ---@field public ProjectView CS.FairyEditor.View.ProjectView
+---@field public QuickFinder CS.FairyEditor.View.QuickFinder
 ---@field public ReferenceView CS.FairyEditor.View.ReferenceView
 ---@field public ResourceMenu CS.FairyEditor.View.ResourceMenu
 ---@field public SearchView CS.FairyEditor.View.SearchView
@@ -604,7 +686,10 @@ CS = { }
 ---@field public NPopupMenu CS.FairyEditor.Component.NPopupMenu
 ---@field public NumericInput CS.FairyEditor.Component.NumericInput
 ---@field public ResourceInput CS.FairyEditor.Component.ResourceInput
+---@field public SelectAnimationMenu CS.FairyEditor.Component.SelectAnimationMenu
+---@field public SelectDesignImageMenu CS.FairyEditor.Component.SelectDesignImageMenu
 ---@field public SelectPivotMenu CS.FairyEditor.Component.SelectPivotMenu
+---@field public SelectSkinMenu CS.FairyEditor.Component.SelectSkinMenu
 ---@field public TextArea CS.FairyEditor.Component.TextArea
 ---@field public TextInput CS.FairyEditor.Component.TextInput
 ---@field public TransitionInput CS.FairyEditor.Component.TransitionInput
@@ -638,6 +723,27 @@ CS = { }
 ---@field public FGearText CS.FairyEditor.Framework.Gears.FGearText
 ---@field public FGearXYValue CS.FairyEditor.Framework.Gears.FGearXYValue
 ---@field public FGearXY CS.FairyEditor.Framework.Gears.FGearXY
+
+---@class CS.Spine41
+---@field public Unity CS.Spine41.Unity
+
+---@class CS.Spine41.Unity
+---@field public SkeletonAdapter CS.Spine41.Unity.SkeletonAdapter
+
+---@class CS.Spine40
+---@field public Unity CS.Spine40.Unity
+
+---@class CS.Spine40.Unity
+---@field public SkeletonAdapter CS.Spine40.Unity.SkeletonAdapter
+
+---@class CS.Spine38
+---@field public Unity CS.Spine38.Unity
+
+---@class CS.Spine38.Unity
+---@field public SkeletonAdapter CS.Spine38.Unity.SkeletonAdapter
+
+---@class CS.DragonBones
+---@field public SkeletonAdapter CS.DragonBones.SkeletonAdapter
 
 ---@class CS.FairyGUI
 ---@field public BlendModeUtils CS.FairyGUI.BlendModeUtils
@@ -704,6 +810,8 @@ CS = { }
 ---@field public PinchGesture CS.FairyGUI.PinchGesture
 ---@field public RotationGesture CS.FairyGUI.RotationGesture
 ---@field public SwipeGesture CS.FairyGUI.SwipeGesture
+---@field public EaseManager CS.FairyGUI.EaseManager
+---@field public CustomEase CS.FairyGUI.CustomEase
 ---@field public GPathPoint CS.FairyGUI.GPathPoint
 ---@field public GPath CS.FairyGUI.GPath
 ---@field public GTween CS.FairyGUI.GTween

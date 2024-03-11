@@ -27,6 +27,7 @@
 ---@field public speed number
 ---@field public targetPosition CS.UnityEngine.Vector3
 ---@field public targetRotation CS.UnityEngine.Quaternion
+---@field public avatarRoot CS.UnityEngine.Transform
 ---@field public cullingMode number
 ---@field public playbackTime number
 ---@field public recorderStartTime number
@@ -41,7 +42,8 @@
 ---@field public rightFeetBottomHeight number
 ---@field public logWarnings boolean
 ---@field public fireEvents boolean
----@field public keepAnimatorControllerStateOnDisable boolean
+---@field public keepAnimatorStateOnDisable boolean
+---@field public writeDefaultValuesOnDisable boolean
 
 ---@type CS.UnityEngine.Animator
 CS.UnityEngine.Animator = { }
@@ -184,13 +186,15 @@ function CS.UnityEngine.Animator:IsInTransition(layerIndex) end
 ---@param index number
 function CS.UnityEngine.Animator:GetParameter(index) end
 ---@overload fun(matchPosition:CS.UnityEngine.Vector3, matchRotation:CS.UnityEngine.Quaternion, targetBodyPart:number, weightMask:CS.UnityEngine.MatchTargetWeightMask, startNormalizedTime:number): void
+---@overload fun(matchPosition:CS.UnityEngine.Vector3, matchRotation:CS.UnityEngine.Quaternion, targetBodyPart:number, weightMask:CS.UnityEngine.MatchTargetWeightMask, startNormalizedTime:number, targetNormalizedTime:number): void
 ---@param matchPosition CS.UnityEngine.Vector3
 ---@param matchRotation CS.UnityEngine.Quaternion
 ---@param targetBodyPart number
 ---@param weightMask CS.UnityEngine.MatchTargetWeightMask
 ---@param startNormalizedTime number
 ---@param optional targetNormalizedTime number
-function CS.UnityEngine.Animator:MatchTarget(matchPosition, matchRotation, targetBodyPart, weightMask, startNormalizedTime, targetNormalizedTime) end
+---@param optional completeMatch boolean
+function CS.UnityEngine.Animator:MatchTarget(matchPosition, matchRotation, targetBodyPart, weightMask, startNormalizedTime, targetNormalizedTime, completeMatch) end
 ---@overload fun(): void
 ---@param optional completeMatch boolean
 function CS.UnityEngine.Animator:InterruptMatchTarget(completeMatch) end

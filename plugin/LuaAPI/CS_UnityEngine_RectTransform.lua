@@ -8,16 +8,16 @@
 ---@field public anchoredPosition3D CS.UnityEngine.Vector3
 ---@field public offsetMin CS.UnityEngine.Vector2
 ---@field public offsetMax CS.UnityEngine.Vector2
+---@field public drivenByObject CS.UnityEngine.Object
 
 ---@type CS.UnityEngine.RectTransform
 CS.UnityEngine.RectTransform = { }
 ---@return CS.UnityEngine.RectTransform
 function CS.UnityEngine.RectTransform.New() end
----@param value (fun(driven:CS.UnityEngine.RectTransform):void)
-function CS.UnityEngine.RectTransform.add_reapplyDrivenProperties(value) end
----@param value (fun(driven:CS.UnityEngine.RectTransform):void)
-function CS.UnityEngine.RectTransform.remove_reapplyDrivenProperties(value) end
 function CS.UnityEngine.RectTransform:ForceUpdateRectTransforms() end
+---@param op string
+---@param value (fun(driven:CS.UnityEngine.RectTransform):void)
+function CS.UnityEngine.RectTransform.reapplyDrivenProperties(op, value) end
 ---@param fourCornersArray Vector3[]
 function CS.UnityEngine.RectTransform:GetLocalCorners(fourCornersArray) end
 ---@param fourCornersArray Vector3[]

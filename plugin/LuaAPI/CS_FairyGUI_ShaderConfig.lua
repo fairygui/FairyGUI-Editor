@@ -17,7 +17,6 @@
 ---@field public ID_BlendSrcFactor number
 ---@field public ID_BlendDstFactor number
 ---@field public ID_ColorOption number
----@field public ID_StencilComp2 number
 ---@field public ID_Stencil2 number
 
 ---@type CS.FairyGUI.ShaderConfig

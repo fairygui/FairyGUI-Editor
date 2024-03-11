@@ -1,6 +1,6 @@
 ---@class CS.FairyGUI.GLoader3D : CS.FairyGUI.GObject
 ---@field public armatureComponent CS.DragonBones.UnityArmatureComponent
----@field public spineAnimation CS.Spine.Unity.SkeletonAnimation
+---@field public spineAnimation CS.Spine40.Unity.SkeletonAnimation
 ---@field public url string
 ---@field public icon string
 ---@field public align number
@@ -31,11 +31,13 @@ function CS.FairyGUI.GLoader3D.New() end
 ---@param height number
 ---@param anchor CS.UnityEngine.Vector2
 function CS.FairyGUI.GLoader3D:SetDragonBones(asset, width, height, anchor) end
----@param asset CS.Spine.Unity.SkeletonDataAsset
+---@overload fun(asset:CS.Spine40.Unity.SkeletonDataAsset, width:number, height:number, anchor:CS.UnityEngine.Vector2): void
+---@param asset CS.Spine40.Unity.SkeletonDataAsset
 ---@param width number
 ---@param height number
 ---@param anchor CS.UnityEngine.Vector2
-function CS.FairyGUI.GLoader3D:SetSpine(asset, width, height, anchor) end
+---@param optional cloneMaterial boolean
+function CS.FairyGUI.GLoader3D:SetSpine(asset, width, height, anchor, cloneMaterial) end
 function CS.FairyGUI.GLoader3D:Dispose() end
 ---@param time number
 function CS.FairyGUI.GLoader3D:Advance(time) end

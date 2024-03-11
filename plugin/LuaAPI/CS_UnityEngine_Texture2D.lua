@@ -1,12 +1,21 @@
 ---@class CS.UnityEngine.Texture2D : CS.UnityEngine.Texture
----@field public mipmapCount number
 ---@field public format number
+---@field public ignoreMipmapLimit boolean
+---@field public mipmapLimitGroup string
+---@field public activeMipmapLimit number
 ---@field public whiteTexture CS.UnityEngine.Texture2D
 ---@field public blackTexture CS.UnityEngine.Texture2D
+---@field public redTexture CS.UnityEngine.Texture2D
+---@field public grayTexture CS.UnityEngine.Texture2D
+---@field public linearGrayTexture CS.UnityEngine.Texture2D
+---@field public normalTexture CS.UnityEngine.Texture2D
 ---@field public isReadable boolean
+---@field public vtOnly boolean
 ---@field public streamingMipmaps boolean
 ---@field public streamingMipmapsPriority number
 ---@field public requestedMipmapLevel number
+---@field public minimumMipmapLevel number
+---@field public calculatedMipmapLevel number
 ---@field public desiredMipmapLevel number
 ---@field public loadingMipmapLevel number
 ---@field public loadedMipmapLevel number
@@ -16,19 +25,32 @@
 CS.UnityEngine.Texture2D = { }
 ---@overload fun(width:number, height:number): CS.UnityEngine.Texture2D
 ---@overload fun(width:number, height:number, format:number, flags:number): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, format:number, flags:number): CS.UnityEngine.Texture2D
 ---@overload fun(width:number, height:number, textureFormat:number, mipChain:boolean): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, format:number, mipCount:number, flags:number): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, format:number, mipCount:number, flags:number): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, textureFormat:number, mipCount:number, linear:boolean): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, textureFormat:number, mipChain:boolean, linear:boolean): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, format:number, mipCount:number, mipmapLimitGroupName:string, flags:number): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, format:number, mipCount:number, mipmapLimitGroupName:string, flags:number): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, textureFormat:number, mipCount:number, linear:boolean, createUninitialized:boolean): CS.UnityEngine.Texture2D
+---@overload fun(width:number, height:number, textureFormat:number, mipChain:boolean, linear:boolean, createUninitialized:boolean): CS.UnityEngine.Texture2D
 ---@return CS.UnityEngine.Texture2D
 ---@param width number
 ---@param height number
 ---@param optional textureFormat number
----@param optional mipChain boolean
+---@param optional mipCount number
 ---@param optional linear boolean
-function CS.UnityEngine.Texture2D.New(width, height, textureFormat, mipChain, linear) end
+---@param optional createUninitialized boolean
+---@param optional ignoreMipmapLimit boolean
+---@param optional mipmapLimitGroupName string
+function CS.UnityEngine.Texture2D.New(width, height, textureFormat, mipCount, linear, createUninitialized, ignoreMipmapLimit, mipmapLimitGroupName) end
 ---@param highQuality boolean
 function CS.UnityEngine.Texture2D:Compress(highQuality) end
 function CS.UnityEngine.Texture2D:ClearRequestedMipmapLevel() end
 ---@return boolean
 function CS.UnityEngine.Texture2D:IsRequestedMipmapLevelLoaded() end
+function CS.UnityEngine.Texture2D:ClearMinimumMipmapLevel() end
 ---@param nativeTex number
 function CS.UnityEngine.Texture2D:UpdateExternalTexture(nativeTex) end
 ---@return Byte[]
@@ -63,10 +85,12 @@ function CS.UnityEngine.Texture2D:PackTextures(textures, padding, maximumAtlasSi
 ---@param linear boolean
 ---@param nativeTex number
 function CS.UnityEngine.Texture2D.CreateExternalTexture(width, height, format, mipChain, linear, nativeTex) end
+---@overload fun(x:number, y:number, color:CS.UnityEngine.Color): void
 ---@param x number
 ---@param y number
 ---@param color CS.UnityEngine.Color
-function CS.UnityEngine.Texture2D:SetPixel(x, y, color) end
+---@param optional mipLevel number
+function CS.UnityEngine.Texture2D:SetPixel(x, y, color, mipLevel) end
 ---@overload fun(colors:Color[]): void
 ---@overload fun(colors:Color[], miplevel:number): void
 ---@overload fun(x:number, y:number, blockWidth:number, blockHeight:number, colors:Color[]): void
@@ -77,14 +101,18 @@ function CS.UnityEngine.Texture2D:SetPixel(x, y, color) end
 ---@param optional colors Color[]
 ---@param optional miplevel number
 function CS.UnityEngine.Texture2D:SetPixels(x, y, blockWidth, blockHeight, colors, miplevel) end
+---@overload fun(x:number, y:number): CS.UnityEngine.Color
 ---@return CS.UnityEngine.Color
 ---@param x number
 ---@param y number
-function CS.UnityEngine.Texture2D:GetPixel(x, y) end
+---@param optional mipLevel number
+function CS.UnityEngine.Texture2D:GetPixel(x, y, mipLevel) end
+---@overload fun(u:number, v:number): CS.UnityEngine.Color
 ---@return CS.UnityEngine.Color
----@param x number
----@param y number
-function CS.UnityEngine.Texture2D:GetPixelBilinear(x, y) end
+---@param u number
+---@param v number
+---@param optional mipLevel number
+function CS.UnityEngine.Texture2D:GetPixelBilinear(u, v, mipLevel) end
 ---@overload fun(data:Byte[]): void
 ---@param data number
 ---@param optional size number
@@ -95,12 +123,13 @@ function CS.UnityEngine.Texture2D:LoadRawTextureData(data, size) end
 ---@param optional makeNoLongerReadable boolean
 function CS.UnityEngine.Texture2D:Apply(updateMipmaps, makeNoLongerReadable) end
 ---@overload fun(width:number, height:number): boolean
+---@overload fun(width:number, height:number, format:number, hasMipMap:boolean): boolean
 ---@return boolean
 ---@param width number
 ---@param height number
 ---@param optional format number
 ---@param optional hasMipMap boolean
-function CS.UnityEngine.Texture2D:Resize(width, height, format, hasMipMap) end
+function CS.UnityEngine.Texture2D:Reinitialize(width, height, format, hasMipMap) end
 ---@overload fun(source:CS.UnityEngine.Rect, destX:number, destY:number): void
 ---@param source CS.UnityEngine.Rect
 ---@param destX number

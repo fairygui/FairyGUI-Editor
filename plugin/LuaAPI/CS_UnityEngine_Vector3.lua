@@ -170,7 +170,9 @@ function CS.UnityEngine.Vector3.op_Equality(lhs, rhs) end
 ---@param rhs CS.UnityEngine.Vector3
 function CS.UnityEngine.Vector3.op_Inequality(lhs, rhs) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Vector3:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Vector3:ToString(format, formatProvider) end
 return CS.UnityEngine.Vector3

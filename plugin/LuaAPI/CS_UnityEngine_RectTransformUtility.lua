@@ -2,12 +2,23 @@
 
 ---@type CS.UnityEngine.RectTransformUtility
 CS.UnityEngine.RectTransformUtility = { }
+---@return CS.UnityEngine.Vector2
+---@param point CS.UnityEngine.Vector2
+---@param elementTransform CS.UnityEngine.Transform
+---@param canvas CS.UnityEngine.Canvas
+function CS.UnityEngine.RectTransformUtility.PixelAdjustPoint(point, elementTransform, canvas) end
+---@return CS.UnityEngine.Rect
+---@param rectTransform CS.UnityEngine.RectTransform
+---@param canvas CS.UnityEngine.Canvas
+function CS.UnityEngine.RectTransformUtility.PixelAdjustRect(rectTransform, canvas) end
 ---@overload fun(rect:CS.UnityEngine.RectTransform, screenPoint:CS.UnityEngine.Vector2): boolean
+---@overload fun(rect:CS.UnityEngine.RectTransform, screenPoint:CS.UnityEngine.Vector2, cam:CS.UnityEngine.Camera): boolean
 ---@return boolean
 ---@param rect CS.UnityEngine.RectTransform
 ---@param screenPoint CS.UnityEngine.Vector2
 ---@param optional cam CS.UnityEngine.Camera
-function CS.UnityEngine.RectTransformUtility.RectangleContainsScreenPoint(rect, screenPoint, cam) end
+---@param optional offset CS.UnityEngine.Vector4
+function CS.UnityEngine.RectTransformUtility.RectangleContainsScreenPoint(rect, screenPoint, cam, offset) end
 ---@return boolean
 ---@param rect CS.UnityEngine.RectTransform
 ---@param screenPoint CS.UnityEngine.Vector2
@@ -42,13 +53,4 @@ function CS.UnityEngine.RectTransformUtility.FlipLayoutOnAxis(rect, axis, keepPo
 ---@param keepPositioning boolean
 ---@param recursive boolean
 function CS.UnityEngine.RectTransformUtility.FlipLayoutAxes(rect, keepPositioning, recursive) end
----@return CS.UnityEngine.Vector2
----@param point CS.UnityEngine.Vector2
----@param elementTransform CS.UnityEngine.Transform
----@param canvas CS.UnityEngine.Canvas
-function CS.UnityEngine.RectTransformUtility.PixelAdjustPoint(point, elementTransform, canvas) end
----@return CS.UnityEngine.Rect
----@param rectTransform CS.UnityEngine.RectTransform
----@param canvas CS.UnityEngine.Canvas
-function CS.UnityEngine.RectTransformUtility.PixelAdjustRect(rectTransform, canvas) end
 return CS.UnityEngine.RectTransformUtility

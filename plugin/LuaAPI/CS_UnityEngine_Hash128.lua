@@ -19,9 +19,19 @@ function CS.UnityEngine.Hash128:ToString() end
 ---@return CS.UnityEngine.Hash128
 ---@param hashString string
 function CS.UnityEngine.Hash128.Parse(hashString) end
+---@overload fun(data:string): CS.UnityEngine.Hash128
+---@overload fun(val:number): CS.UnityEngine.Hash128
+---@overload fun(val:number): CS.UnityEngine.Hash128
 ---@return CS.UnityEngine.Hash128
----@param hashString string
-function CS.UnityEngine.Hash128.Compute(hashString) end
+---@param data CS.System.Void*
+---@param optional size number
+function CS.UnityEngine.Hash128.Compute(data, size) end
+---@overload fun(data:string): void
+---@overload fun(val:number): void
+---@overload fun(val:number): void
+---@param data CS.System.Void*
+---@param optional size number
+function CS.UnityEngine.Hash128:Append(data, size) end
 ---@overload fun(obj:CS.System.Object): boolean
 ---@return boolean
 ---@param obj CS.UnityEngine.Hash128

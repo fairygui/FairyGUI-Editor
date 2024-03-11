@@ -3,6 +3,9 @@
 ---@field public OBJECT_KEY string
 ---@field public ITEM_KEY string
 ---@field public TIMELINE_KEY string
+---@field public CONTROLLER_KEY string
+---@field public RELATION_PROPS_KEY string
+---@field public GEAR_PROPS_KEY string
 
 ---@type CS.FairyEditor.Clipboard
 CS.FairyEditor.Clipboard = { }

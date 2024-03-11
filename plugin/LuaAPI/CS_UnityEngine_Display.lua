@@ -7,14 +7,17 @@
 ---@field public colorBuffer CS.UnityEngine.RenderBuffer
 ---@field public depthBuffer CS.UnityEngine.RenderBuffer
 ---@field public active boolean
+---@field public requiresBlitToBackbuffer boolean
+---@field public requiresSrgbBlitToBackbuffer boolean
 ---@field public main CS.UnityEngine.Display
+---@field public activeEditorGameViewTarget number
 
 ---@type CS.UnityEngine.Display
 CS.UnityEngine.Display = { }
 ---@overload fun(): void
 ---@param optional width number
 ---@param optional height number
----@param optional refreshRate number
+---@param optional refreshRate CS.UnityEngine.RefreshRate
 function CS.UnityEngine.Display:Activate(width, height, refreshRate) end
 ---@param width number
 ---@param height number
@@ -27,8 +30,7 @@ function CS.UnityEngine.Display:SetRenderingResolution(w, h) end
 ---@return CS.UnityEngine.Vector3
 ---@param inputMouseCoordinates CS.UnityEngine.Vector3
 function CS.UnityEngine.Display.RelativeMouseAt(inputMouseCoordinates) end
+---@param op string
 ---@param value (fun():void)
-function CS.UnityEngine.Display.add_onDisplaysUpdated(value) end
----@param value (fun():void)
-function CS.UnityEngine.Display.remove_onDisplaysUpdated(value) end
+function CS.UnityEngine.Display.onDisplaysUpdated(op, value) end
 return CS.UnityEngine.Display

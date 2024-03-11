@@ -38,7 +38,7 @@ function CS.FairyEditor.Component.ViewGridGroup:FindGrid(view, recursive) end
 ---@param recursive boolean
 function CS.FairyEditor.Component.ViewGridGroup:FindGridById(id, recursive) end
 ---@return CS.FairyEditor.Component.ViewGrid
----@param ids CS.System.Array
+---@param ids String[]
 ---@param recursive boolean
 function CS.FairyEditor.Component.ViewGridGroup:FindGridByIds(ids, recursive) end
 ---@return CS.FairyEditor.Component.ViewGridGroup

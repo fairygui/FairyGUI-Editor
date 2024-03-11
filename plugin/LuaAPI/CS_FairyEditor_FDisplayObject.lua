@@ -13,5 +13,6 @@ function CS.FairyEditor.FDisplayObject:Reset() end
 function CS.FairyEditor.FDisplayObject:HandleSizeChanged() end
 ---@param value boolean
 function CS.FairyEditor.FDisplayObject:SetLoading(value) end
+function CS.FairyEditor.FDisplayObject:ApplyBlendMode() end
 function CS.FairyEditor.FDisplayObject:ApplyFilter() end
 return CS.FairyEditor.FDisplayObject

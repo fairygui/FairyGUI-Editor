@@ -26,4 +26,9 @@ function CS.UnityEngine.ParticleSystem.Particle:GetCurrentSize3D(system) end
 ---@return CS.UnityEngine.Color32
 ---@param system CS.UnityEngine.ParticleSystem
 function CS.UnityEngine.ParticleSystem.Particle:GetCurrentColor(system) end
+---@param index number
+function CS.UnityEngine.ParticleSystem.Particle:SetMeshIndex(index) end
+---@return number
+---@param system CS.UnityEngine.ParticleSystem
+function CS.UnityEngine.ParticleSystem.Particle:GetMeshIndex(system) end
 return CS.UnityEngine.ParticleSystem.Particle

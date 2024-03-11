@@ -1,9 +1,11 @@
 ---@class CS.FairyEditor.GPathExt : CS.FairyGUI.GPath
+---@field public points CS.System.Collections.Generic.List_CS.FairyGUI.GPathPoint
 
 ---@type CS.FairyEditor.GPathExt
 CS.FairyEditor.GPathExt = { }
 ---@return CS.FairyEditor.GPathExt
 function CS.FairyEditor.GPathExt.New() end
+function CS.FairyEditor.GPathExt:Update() end
 ---@return number
 ---@param segmentIndex number
 function CS.FairyEditor.GPathExt:GetSegmentType(segmentIndex) end

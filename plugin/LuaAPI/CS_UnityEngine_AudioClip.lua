@@ -6,8 +6,8 @@
 ---@field public loadType number
 ---@field public preloadAudioData boolean
 ---@field public ambisonic boolean
----@field public loadState number
 ---@field public loadInBackground boolean
+---@field public loadState number
 
 ---@type CS.UnityEngine.AudioClip
 CS.UnityEngine.AudioClip = { }

@@ -11,13 +11,16 @@
 ---@field public down CS.UnityEngine.Vector3Int
 ---@field public left CS.UnityEngine.Vector3Int
 ---@field public right CS.UnityEngine.Vector3Int
+---@field public forward CS.UnityEngine.Vector3Int
+---@field public back CS.UnityEngine.Vector3Int
 
 ---@type CS.UnityEngine.Vector3Int
 CS.UnityEngine.Vector3Int = { }
+---@overload fun(x:number, y:number): CS.UnityEngine.Vector3Int
 ---@return CS.UnityEngine.Vector3Int
 ---@param x number
 ---@param y number
----@param z number
+---@param optional z number
 function CS.UnityEngine.Vector3Int.New(x, y, z) end
 ---@param x number
 ---@param y number
@@ -66,10 +69,18 @@ function CS.UnityEngine.Vector3Int.op_Addition(a, b) end
 ---@param b CS.UnityEngine.Vector3Int
 function CS.UnityEngine.Vector3Int.op_Subtraction(a, b) end
 ---@overload fun(a:CS.UnityEngine.Vector3Int, b:CS.UnityEngine.Vector3Int): CS.UnityEngine.Vector3Int
+---@overload fun(a:CS.UnityEngine.Vector3Int, b:number): CS.UnityEngine.Vector3Int
+---@return CS.UnityEngine.Vector3Int
+---@param a number
+---@param b CS.UnityEngine.Vector3Int
+function CS.UnityEngine.Vector3Int.op_Multiply(a, b) end
+---@return CS.UnityEngine.Vector3Int
+---@param a CS.UnityEngine.Vector3Int
+function CS.UnityEngine.Vector3Int.op_UnaryNegation(a) end
 ---@return CS.UnityEngine.Vector3Int
 ---@param a CS.UnityEngine.Vector3Int
 ---@param b number
-function CS.UnityEngine.Vector3Int.op_Multiply(a, b) end
+function CS.UnityEngine.Vector3Int.op_Division(a, b) end
 ---@return boolean
 ---@param lhs CS.UnityEngine.Vector3Int
 ---@param rhs CS.UnityEngine.Vector3Int
@@ -85,7 +96,9 @@ function CS.UnityEngine.Vector3Int:Equals(other) end
 ---@return number
 function CS.UnityEngine.Vector3Int:GetHashCode() end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Vector3Int:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Vector3Int:ToString(format, formatProvider) end
 return CS.UnityEngine.Vector3Int

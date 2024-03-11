@@ -10,8 +10,9 @@ CS.UnityEngine.ParticleSystem.SubEmittersModule = { }
 ---@param properties number
 ---@param optional emitProbability number
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:AddSubEmitter(subEmitter, t, properties, emitProbability) end
----@param index number
-function CS.UnityEngine.ParticleSystem.SubEmittersModule:RemoveSubEmitter(index) end
+---@overload fun(index:number): void
+---@param subEmitter CS.UnityEngine.ParticleSystem
+function CS.UnityEngine.ParticleSystem.SubEmittersModule:RemoveSubEmitter(subEmitter) end
 ---@param index number
 ---@param subEmitter CS.UnityEngine.ParticleSystem
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterSystem(index, subEmitter) end
@@ -19,11 +20,11 @@ function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterSystem(ind
 ---@param t number
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterType(index, t) end
 ---@param index number
----@param emitProbability number
-function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterEmitProbability(index, emitProbability) end
----@param index number
 ---@param properties number
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterProperties(index, properties) end
+---@param index number
+---@param emitProbability number
+function CS.UnityEngine.ParticleSystem.SubEmittersModule:SetSubEmitterEmitProbability(index, emitProbability) end
 ---@return CS.UnityEngine.ParticleSystem
 ---@param index number
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterSystem(index) end
@@ -32,8 +33,8 @@ function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterSystem(ind
 function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterType(index) end
 ---@return number
 ---@param index number
-function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterEmitProbability(index) end
+function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterProperties(index) end
 ---@return number
 ---@param index number
-function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterProperties(index) end
+function CS.UnityEngine.ParticleSystem.SubEmittersModule:GetSubEmitterEmitProbability(index) end
 return CS.UnityEngine.ParticleSystem.SubEmittersModule

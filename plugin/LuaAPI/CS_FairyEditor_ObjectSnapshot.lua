@@ -19,6 +19,8 @@
 ---@field public filterData CS.FairyEditor.FilterData
 ---@field public text string
 ---@field public icon string
+---@field public animationName string
+---@field public skinName string
 
 ---@type CS.FairyEditor.ObjectSnapshot
 CS.FairyEditor.ObjectSnapshot = { }

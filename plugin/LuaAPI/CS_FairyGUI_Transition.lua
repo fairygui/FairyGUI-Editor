@@ -2,6 +2,7 @@
 ---@field public invalidateBatchingEveryFrame boolean
 ---@field public name string
 ---@field public playing boolean
+---@field public totalDuration number
 ---@field public timeScale number
 ---@field public ignoreEngineTimeScale boolean
 

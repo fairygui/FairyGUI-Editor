@@ -12,7 +12,9 @@ function CS.UnityEngine.Ray.New(origin, direction) end
 ---@param distance number
 function CS.UnityEngine.Ray:GetPoint(distance) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Ray:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Ray:ToString(format, formatProvider) end
 return CS.UnityEngine.Ray

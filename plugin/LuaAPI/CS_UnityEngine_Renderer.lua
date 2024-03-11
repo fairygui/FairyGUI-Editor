@@ -1,14 +1,18 @@
 ---@class CS.UnityEngine.Renderer : CS.UnityEngine.Component
 ---@field public bounds CS.UnityEngine.Bounds
+---@field public localBounds CS.UnityEngine.Bounds
 ---@field public enabled boolean
 ---@field public isVisible boolean
 ---@field public shadowCastingMode number
 ---@field public receiveShadows boolean
+---@field public forceRenderingOff boolean
+---@field public staticShadowCaster boolean
 ---@field public motionVectorGenerationMode number
 ---@field public lightProbeUsage number
 ---@field public reflectionProbeUsage number
 ---@field public renderingLayerMask number
 ---@field public rendererPriority number
+---@field public rayTracingMode number
 ---@field public sortingLayerName string
 ---@field public sortingLayerID number
 ---@field public sortingOrder number
@@ -31,6 +35,8 @@
 CS.UnityEngine.Renderer = { }
 ---@return CS.UnityEngine.Renderer
 function CS.UnityEngine.Renderer.New() end
+function CS.UnityEngine.Renderer:ResetBounds() end
+function CS.UnityEngine.Renderer:ResetLocalBounds() end
 ---@return boolean
 function CS.UnityEngine.Renderer:HasPropertyBlock() end
 ---@overload fun(properties:CS.UnityEngine.MaterialPropertyBlock): void
@@ -43,6 +49,10 @@ function CS.UnityEngine.Renderer:SetPropertyBlock(properties, materialIndex) end
 function CS.UnityEngine.Renderer:GetPropertyBlock(properties, materialIndex) end
 ---@param m CS.System.Collections.Generic.List_CS.UnityEngine.Material
 function CS.UnityEngine.Renderer:GetMaterials(m) end
+---@param materials CS.System.Collections.Generic.List_CS.UnityEngine.Material
+function CS.UnityEngine.Renderer:SetSharedMaterials(materials) end
+---@param materials CS.System.Collections.Generic.List_CS.UnityEngine.Material
+function CS.UnityEngine.Renderer:SetMaterials(materials) end
 ---@param m CS.System.Collections.Generic.List_CS.UnityEngine.Material
 function CS.UnityEngine.Renderer:GetSharedMaterials(m) end
 ---@param result CS.System.Collections.Generic.List_CS.UnityEngine.Rendering.ReflectionProbeBlendInfo

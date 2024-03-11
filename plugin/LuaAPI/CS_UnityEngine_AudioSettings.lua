@@ -22,8 +22,7 @@ function CS.UnityEngine.AudioSettings.GetConfiguration() end
 ---@return boolean
 ---@param config CS.UnityEngine.AudioConfiguration
 function CS.UnityEngine.AudioSettings.Reset(config) end
+---@param op string
 ---@param value (fun(deviceWasChanged:boolean):void)
-function CS.UnityEngine.AudioSettings.add_OnAudioConfigurationChanged(value) end
----@param value (fun(deviceWasChanged:boolean):void)
-function CS.UnityEngine.AudioSettings.remove_OnAudioConfigurationChanged(value) end
+function CS.UnityEngine.AudioSettings.OnAudioConfigurationChanged(op, value) end
 return CS.UnityEngine.AudioSettings

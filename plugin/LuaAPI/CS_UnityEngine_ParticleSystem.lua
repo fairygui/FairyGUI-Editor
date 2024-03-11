@@ -5,15 +5,19 @@
 ---@field public isPaused boolean
 ---@field public particleCount number
 ---@field public time number
+---@field public totalTime number
 ---@field public randomSeed number
 ---@field public useAutoRandomSeed boolean
 ---@field public proceduralSimulationSupported boolean
+---@field public has3DParticleRotations boolean
+---@field public hasNonUniformParticleSizes boolean
 ---@field public main CS.UnityEngine.ParticleSystem.MainModule
 ---@field public emission CS.UnityEngine.ParticleSystem.EmissionModule
 ---@field public shape CS.UnityEngine.ParticleSystem.ShapeModule
 ---@field public velocityOverLifetime CS.UnityEngine.ParticleSystem.VelocityOverLifetimeModule
 ---@field public limitVelocityOverLifetime CS.UnityEngine.ParticleSystem.LimitVelocityOverLifetimeModule
 ---@field public inheritVelocity CS.UnityEngine.ParticleSystem.InheritVelocityModule
+---@field public lifetimeByEmitterSpeed CS.UnityEngine.ParticleSystem.LifetimeByEmitterSpeedModule
 ---@field public forceOverLifetime CS.UnityEngine.ParticleSystem.ForceOverLifetimeModule
 ---@field public colorOverLifetime CS.UnityEngine.ParticleSystem.ColorOverLifetimeModule
 ---@field public colorBySpeed CS.UnityEngine.ParticleSystem.ColorBySpeedModule
@@ -35,18 +39,6 @@
 CS.UnityEngine.ParticleSystem = { }
 ---@return CS.UnityEngine.ParticleSystem
 function CS.UnityEngine.ParticleSystem.New() end
----@param customData CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
----@param streamIndex number
-function CS.UnityEngine.ParticleSystem:SetCustomParticleData(customData, streamIndex) end
----@return number
----@param customData CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
----@param streamIndex number
-function CS.UnityEngine.ParticleSystem:GetCustomParticleData(customData, streamIndex) end
----@overload fun(subEmitterIndex:number): void
----@overload fun(subEmitterIndex:number, particle:CS.UnityEngine.ParticleSystem.Particle): void
----@param subEmitterIndex number
----@param optional particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle
-function CS.UnityEngine.ParticleSystem:TriggerSubEmitter(subEmitterIndex, particles) end
 ---@overload fun(particles:Particle[]): void
 ---@overload fun(particles:CS.Unity.Collections.NativeArray_CS.UnityEngine.ParticleSystem.Particle): void
 ---@overload fun(particles:Particle[], size:number): void
@@ -66,6 +58,23 @@ function CS.UnityEngine.ParticleSystem:SetParticles(particles, size, offset) end
 ---@param optional size number
 ---@param optional offset number
 function CS.UnityEngine.ParticleSystem:GetParticles(particles, size, offset) end
+---@param customData CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param streamIndex number
+function CS.UnityEngine.ParticleSystem:SetCustomParticleData(customData, streamIndex) end
+---@return number
+---@param customData CS.System.Collections.Generic.List_CS.UnityEngine.Vector4
+---@param streamIndex number
+function CS.UnityEngine.ParticleSystem:GetCustomParticleData(customData, streamIndex) end
+---@return CS.UnityEngine.ParticleSystem.PlaybackState
+function CS.UnityEngine.ParticleSystem:GetPlaybackState() end
+---@param playbackState CS.UnityEngine.ParticleSystem.PlaybackState
+function CS.UnityEngine.ParticleSystem:SetPlaybackState(playbackState) end
+---@overload fun(): CS.UnityEngine.ParticleSystem.Trails
+---@return CS.UnityEngine.ParticleSystem.Trails
+---@param optional trailData CS.UnityEngine.ParticleSystem.Trails
+function CS.UnityEngine.ParticleSystem:GetTrails(trailData) end
+---@param trailData CS.UnityEngine.ParticleSystem.Trails
+function CS.UnityEngine.ParticleSystem:SetTrails(trailData) end
 ---@overload fun(t:number): void
 ---@overload fun(t:number, withChildren:boolean): void
 ---@overload fun(t:number, withChildren:boolean, restart:boolean): void
@@ -96,7 +105,19 @@ function CS.UnityEngine.ParticleSystem:IsAlive(withChildren) end
 ---@param emitParams CS.UnityEngine.ParticleSystem.EmitParams
 ---@param optional count number
 function CS.UnityEngine.ParticleSystem:Emit(emitParams, count) end
+---@overload fun(subEmitterIndex:number): void
+---@overload fun(subEmitterIndex:number, particle:CS.UnityEngine.ParticleSystem.Particle): void
+---@param subEmitterIndex number
+---@param optional particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle
+function CS.UnityEngine.ParticleSystem:TriggerSubEmitter(subEmitterIndex, particles) end
 function CS.UnityEngine.ParticleSystem.ResetPreMappedBufferMemory() end
+---@param vertexBuffersCount number
+---@param indexBuffersCount number
+function CS.UnityEngine.ParticleSystem.SetMaximumPreMappedBufferCounts(vertexBuffersCount, indexBuffersCount) end
+function CS.UnityEngine.ParticleSystem:AllocateAxisOfRotationAttribute() end
+function CS.UnityEngine.ParticleSystem:AllocateMeshIndexAttribute() end
+---@param stream number
+function CS.UnityEngine.ParticleSystem:AllocateCustomDataAttribute(stream) end
 ---@return number
 function CS.UnityEngine.ParticleSystem.GetSafeCollisionEventSize() end
 ---@return number
@@ -106,10 +127,12 @@ function CS.UnityEngine.ParticleSystem.GetCollisionEvents(go, collisionEvents) e
 ---@return number
 ---@param t number
 function CS.UnityEngine.ParticleSystem.GetSafeTriggerParticlesSize(t) end
+---@overload fun(t:number, particles:CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle): number
 ---@return number
 ---@param t number
 ---@param particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle
-function CS.UnityEngine.ParticleSystem.GetTriggerParticles(t, particles) end
+---@param colliderData CS.UnityEngine.ParticleSystem.ColliderData
+function CS.UnityEngine.ParticleSystem.GetTriggerParticles(t, particles, colliderData) end
 ---@overload fun(t:number, particles:CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle): void
 ---@param t number
 ---@param particles CS.System.Collections.Generic.List_CS.UnityEngine.ParticleSystem.Particle

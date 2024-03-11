@@ -68,13 +68,12 @@
 CS.FairyGUI.DisplayObject = { }
 ---@return CS.FairyGUI.DisplayObject
 function CS.FairyGUI.DisplayObject.New() end
----@param value (fun():void)
-function CS.FairyGUI.DisplayObject:add_onPaint(value) end
----@param value (fun():void)
-function CS.FairyGUI.DisplayObject:remove_onPaint(value) end
 ---@param xv number
 ---@param yv number
 function CS.FairyGUI.DisplayObject:SetXY(xv, yv) end
+---@param op string
+---@param value (fun():void)
+function CS.FairyGUI.DisplayObject:onPaint(op, value) end
 ---@param xv number
 ---@param yv number
 ---@param zv number

@@ -4,6 +4,7 @@
 ---@field public enableCollision boolean
 ---@field public breakForce number
 ---@field public breakTorque number
+---@field public breakAction number
 ---@field public reactionForce CS.UnityEngine.Vector2
 ---@field public reactionTorque number
 

@@ -113,9 +113,11 @@ function CS.UnityEngine.Vector4.op_Inequality(lhs, rhs) end
 ---@param v CS.UnityEngine.Vector2
 function CS.UnityEngine.Vector4.op_Implicit(v) end
 ---@overload fun(): string
+---@overload fun(format:string): string
 ---@return string
 ---@param optional format string
-function CS.UnityEngine.Vector4:ToString(format) end
+---@param optional formatProvider CS.System.IFormatProvider
+function CS.UnityEngine.Vector4:ToString(format, formatProvider) end
 ---@overload fun(): number
 ---@return number
 ---@param optional a CS.UnityEngine.Vector4
